@@ -1,0 +1,16 @@
+github:
+  description: "CommunityOverCode Website"
+  homepage: https://communityovercode.apache.org/
+  labels:
+    - communityovercode
+    - apachecon
+    - asf
+    - apache
+  enabled_merge_buttons:
+    squash: false
+    merge: true
+    rebase: false
+notifications:
+  commits:              planners@apachecon.com
+  pullrequests:         planners@apachecon.com
+  issues:               planners@apachecon.com
