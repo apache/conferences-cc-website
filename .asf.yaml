@@ -16,6 +16,6 @@ github:
   pull_requests:
     del_branch_on_merge: true
 notifications:
-  commits:              planners@apachecon.com
-  pullrequests:         planners@apachecon.com
-  issues:               planners@apachecon.com
+  commits:              notifications@conferences.apache.org
+  pullrequests:         notifications@conferences.apache.org
+  issues:               notifications@conferences.apache.org
