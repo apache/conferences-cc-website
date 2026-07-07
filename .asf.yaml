@@ -10,6 +10,9 @@ github:
     squash: false
     merge: true
     rebase: false
+  features:
+    # Enable issue management
+    issues: true
 notifications:
   commits:              planners@apachecon.com
   pullrequests:         planners@apachecon.com
