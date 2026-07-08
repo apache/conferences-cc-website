@@ -6,7 +6,6 @@ github:
     - apachecon
     - asf
     - apache
-    - test
   enabled_merge_buttons:
     squash: false
     merge: true
