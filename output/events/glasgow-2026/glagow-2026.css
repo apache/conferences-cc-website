@@ -1,6 +1,0 @@
-
-@charset "utf-8";
-
-.hero--event-home::before {
-    background: linear-gradient(280deg, #4B6AE5 0%, #68D4EA 56% , #B6FBAC 100);
-}
