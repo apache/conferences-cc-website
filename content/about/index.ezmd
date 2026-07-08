@@ -1,0 +1,284 @@
+title: About
+description: Community Over Code is the official Apache Software Foundation conference featuring technical tracks, Apache project deep dives, governance discussions, and real-world open source use cases.
+bodytag: id="about-page"
+template: page-full-width
+
+<section class="hero hero--mosaic overflow-hidden relative">
+    <div class="inner flex relative z1 flex-gap-50 flex-col-800">
+        <div class="hero__content flex-1 py-xl">
+            <h1 class="hero__title">About Community Over Code</h1>
+            <p>Community Over Code (formerly ApacheCon) is the official open source conference of The Apache Software Foundation (The ASF). It brings together the global communities behind Apache open source projects for technical sessions, project-specific tracks, hands-on workshops, and discussions about governance and sustainable open source development.</p>
+            <p>Designed to foster direct collaboration, the event connects users, developers, contributors, committers, Project Management Committee members, and ASF leadership in a vendor-neutral environment grounded in the Apache model of open participation and consensus-driven decision-making.</p>
+        </div>
+        <div class="hero__collage flex-1 relative">
+            <div id="about-collage" class="collage">
+                <div class="image__wrapper">
+                    <img src="./images/about-6.webp" loading="lazy" width="267" height="445" alt="ASF Events">
+                </div>
+                <div class="image__wrapper">
+                    <img src="./images/about-2.webp" loading="lazy" width="267" height="445" alt="ASF Events">
+                </div>
+                <div class="image__wrapper">
+                    <img src="./images/about-3.webp" loading="lazy" width="267" height="445" alt="ASF Events">
+                </div>
+                <div class="image__wrapper">
+                    <img src="./images/about-4.webp" loading="lazy" width="267" height="445" alt="ASF Events">
+                </div>
+                 <div class="image__wrapper">
+                    <img src="./images/about-5.webp" loading="lazy" width="267" height="445" alt="ASF Events">
+                </div>
+                <div class="image__wrapper">
+                    <img src="./images/about-1.webp" loading="lazy" width="267" height="445" alt="ASF Events">
+                </div>
+                <div class="image__wrapper">
+                    <img src="./images/about-7.webp" loading="lazy" width="267" height="445" alt="ASF Events">
+                </div>
+                <div class="image__wrapper">
+                    <img src="./images/about-8.webp" loading="lazy" width="267" height="445" alt="ASF Events">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="our-vistion">
+    <div class="inner py-xl">
+        <h2 class="text-center">Our Vision for Community Over Code</h2>
+        <div class="text-col text-center mb-xl">
+            <p>The Community Over Code conference strives to achieve the following goals, positioning itself as a premier, open source, and highly technical collaborative event.</p>
+        </div>
+        <div class="card">
+            <div class="card-inner vision-items grid grid-2-cols flex-gap-50 pa-medium">
+                <div class="vision-item">
+                    <h3>Technical Depth and Breadth</h3>
+                    <p>Offer a wide range of sessions that provide both deep technical insights and broad overviews across the diverse ecosystem of Apache projects.</p>
+                </div>
+                <div class="vision-item">
+                    <h3>Community Building</h3>
+                    <p>Foster connections and collaboration among contributors, committers, users, and ASF leadership to strengthen the global Apache community.</p>
+                </div>
+                <div class="vision-item">
+                    <h3>Vendor-Neutral Environment</h3>
+                    <p>Maintain a vendor-neutral space focused on open source principles, free from commercial promotion, where the community can share knowledge and collaborate openly.</p>
+                </div>
+                <div class="vision-item">
+                    <h3>Governance and Sustainability Focus</h3>
+                    <p>Provide a platform for discussions about open source governance, project sustainability, and the health of the Apache ecosystem.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="timeline-section py-xl">
+    <div class="inner cf pb-large text-center">
+        <h2>History of Community Over Code</h2>
+    </div>
+    <div class="inner cf py-xl inner--timeline relative">
+        <div class="timeline-bar"></div>
+        <div class="cf">
+        <div class="float50 sticky-image pr-large">
+            <div class="timeline-image-wrapper">
+                <img id="timeline-image-1" class="timeline-image shown" src="images/history-1.jpg" alt="ASF Events">
+                <img id="timeline-image-2" class="timeline-image" src="images/1999.jpg" alt="ASF Events">
+                <img id="timeline-image-3" class="timeline-image" src="images/2000.webp" alt="ASF Events">
+                <img id="timeline-image-4" class="timeline-image shown" src="images/2001-2002.webp" alt="ASF Events">
+                <img id="timeline-image-5" class="timeline-image" src="images/mid-2000s.webp" alt="ASF Events">
+                <img id="timeline-image-6" class="timeline-image" src="images/2010s.webp" alt="ASF Events">
+                <img id="timeline-image-7" class="timeline-image shown" src="images/2020-2.webp" alt="ASF Events">
+                <img id="timeline-image-8" class="timeline-image" src="images/2023.webp" alt="ASF Events">
+                <img id="timeline-image-9" class="timeline-image" src="images/today.webp" alt="ASF Events">
+            </div>
+        </div>
+        <div class="float50 pl-large timeline-content-wrapper">
+            <div id="timeline-content-1" class="timeline-content card mb-xl">
+                <div class="card-inner">
+                    <h2>1998</h2>
+                    <p>The first ApacheCon was held in San Francisco, bringing together developers and users of the Apache HTTP Server at a time when the project powered a majority of the web. The event marked one of the earliest dedicated gatherings focused on open source infrastructure software.</p>
+                </div>
+            </div>
+            <div id="timeline-content-2" class="timeline-content card mb-xl">
+                <div class="card-inner">
+                    <h2>1999</h2>
+                    <p>As The Apache Software Foundation (The ASF) was established as a 501(c)(3), ApacheCon began reflecting a broader mission beyond the web server, supporting a growing ecosystem of Apache projects and contributors.</p>
+                </div>
+            </div>
+            <div id="timeline-content-3" class="timeline-content card mb-xl">
+                <div class="card-inner">
+                    <h2>2000</h2>
+                    <p>ApacheCon expanded internationally, demonstrating the global reach of the Apache community and the increasing adoption of Apache software in enterprise environments.</p>
+                </div>
+            </div>
+            <div id="timeline-content-4" class="timeline-content card mb-xl">
+                <div class="card-inner">
+                    <h2>2001 - 2002</h2>
+                    <p>The conference evolved alongside The ASF’s governance model, highlighting meritocratic contribution, open decision-making, and the foundation’s expanding portfolio of projects.
+</p>
+                </div>
+            </div>
+            <div id="timeline-content-5" class="timeline-content card mb-xl">
+                <div class="card-inner">
+                    <h2>Mid 2000s</h2>
+                    <p>ApacheCon featured technical deep dives across new Apache projects in areas such as Java, XML, data systems, and infrastructure tooling, reflecting the ASF’s growth beyond web technologies.</p>
+                </div>
+            </div>
+            <div id="timeline-content-6" class="timeline-content card mb-xl">
+                <div class="card-inner">
+                    <h2>2010s</h2>
+                    <p>With the rise of distributed systems and large-scale data platforms, ApacheCon hosted dedicated tracks for major projects, production case studies, and sessions on open source sustainability and governance.</p>
+                </div>
+            </div>
+            <div id="timeline-content-7" class="timeline-content card mb-xl">
+                <div class="card-inner">
+                    <h2>2020 - 2021</h2>
+                    <p>The conference adapted to global circumstances with virtual formats, maintaining continuity for the Apache community while expanding remote participation worldwide.</p>
+                </div>
+            </div>
+            <div id="timeline-content-8" class="timeline-content card mb-xl">
+                <div class="card-inner">
+                    <h2>2023</h2>
+                    <p>The event was renamed Community Over Code, reflecting a long-standing Apache principle that healthy communities are the foundation of sustainable open source projects.</p>
+                </div>
+            </div>
+            <div id="timeline-content-9" class="timeline-content card mb-xl">
+                <div class="card-inner">
+                    <h2>Today</h2>
+                    <p>Community Over Code continues as the official conference of The Apache Software Foundation, bringing together contributors, committers, users, and open source leaders for technical collaboration and governance discussions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="faq-section">
+    <div class="inner py-xl">
+        <h2 class="text-center text-heading-light">FAQs</h2>
+        <div class="faqs">
+            <div class="faq card">
+                <div class="faq-question">
+                    <h3>What is Community Over Code?</h3>
+                </div>
+                <div class="faq-answer">
+                    <p>Community Over Code is the official annual conference of the Apache Software Foundation (The ASF). It brings together contributors, committers, developers, and users of Apache open source projects for technical sessions and discussions about open source governance and sustainability.</p>
+                </div>
+            </div>
+            <div class="faq card">
+                <div class="faq-question">
+                    <h3>Is Community Over Code the official Apache conference?</h3>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes. Community Over Code is the official conference of The Apache Software Foundation (The ASF) and was formerly known as ApacheCon.</p>
+                </div>
+            </div>
+            <div class="faq card">
+                <div class="faq-question">
+                    <h3>What Apache projects are discussed?</h3>
+                </div>
+                <div class="faq-answer">
+                    <p>Community Over Code features sessions and tracks dedicated to a wide range of Apache projects, with topics varying each year based on community participation and project activity.</p>
+                </div>
+            </div>
+            <div class="faq card">
+                <div class="faq-question">
+                    <h3>Can non-committers attend?</h3>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes. Community Over Code is open to developers, users, contributors, and anyone interested in Apache open source projects.</p>
+                </div>
+            </div>
+            <div class="faq card">
+                <div class="faq-question">
+                    <h3>How is Community Over Code different from vendor conferences?</h3>
+                </div>
+                <div class="faq-answer">
+                    <p>Community Over Code is community-led and vendor-neutral, focusing on Apache projects, governance, and technical collaboration rather than product marketing or commercial promotion.</p>
+                </div>
+            </div>
+            <div class="faq card">
+                <div class="faq-question">
+                    <h3>Where is Community Over Code held?</h3>
+                </div>
+                <div class="faq-answer">
+                    <p>The event locations vary each year and may include in-person and hybrid participation options.</p>
+                </div>
+            </div>
+            <div class="faq card">
+                <div class="faq-question">
+                    <h3>Can I submit a talk?</h3>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes. The conference includes an open call for proposals (CFP) where community members can submit technical and governance-focused sessions.</p>
+                </div>
+            </div>
+            <div class="faq card">
+                <div class="faq-question">
+                    <h3>What topics are typically covered?</h3>
+                </div>
+                <div class="faq-answer">
+                    <p>Sessions include project deep dives, production use cases, release processes, security practices, governance, incubation, and open source sustainability.</p>
+                </div>
+            </div>
+            <div class="faq card">
+                <div class="faq-question">
+                    <h3>Is there a discount for students?</h3>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes. Discounted registration options are typically available for students; details are provided on the registration page each year.</p>
+                </div>
+            </div>
+            <div class="faq card">
+                <div class="faq-question">
+                    <h3>Why the name “Community Over Code?”</h3>
+                </div>
+                <div class="faq-answer">
+                    <p>The name reflects a core Apache principle: sustainable open source depends on healthy, collaborative communities. Strong communities can improve code over time; great code cannot survive without strong community governance.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact-section" class="contact-section">
+    <div class="inner py-xl relative z1">   
+        <div class="text-center mb-large">
+            <h2 class="text-white">Contact Us</h2>
+            <p class="text-white">If you want to stay up-to-date on all ASF events, join the read-only mailing list.</p>
+        </div>
+        <div class="flex flex-gap-50 flex-col-800">
+            <div class="card flex-1">
+                <div class="card-inner flex flex-gap-20 flex-column text-center">
+                    <div class="contact-icon">
+                        <img src="/images/slack-icon.png" width="75" height="75" alt="Slack Icon">
+                    </div>
+                    <h3>Slack</h3>
+                    <p>Attendees, the best place for getting your questions answered is to join the Community Over Code Slack (aka Apachecon Slack).</p>
+                    <p><a href="https://forms.gle/9Zz5mL7n1Z1Z1Z1Z" class="btn">Join Now </a></p>
+                </div>
+            </div>
+            <div class="card flex-1">
+                <div class="card-inner flex flex-gap-20 flex-column text-center">
+                    <div class="contact-icon">
+                        <img src="/images/email.svg" width="75" height="75" alt="Mailing List Icon">
+                    </div>
+                    <h3>Mailing List</h3>
+                    <p>To stay updated on all ASF events, join the read-only mailing list.</p>
+                    <p><a href="mailto:announce@apachecon.com" class="btn">Join List</a></p>
+                    <h4>Subscription address:</h4>
+                    <p><a href="mailto:announce-subscribe@apachecon.com" class="btn">Subscribe</a></p>
+                    <h4>Web archives</h4>
+                    <p><a href="https://lists.apache.org/list.html?announce@apachecon.com" class="btn">View Archives</a></p>
+                </div>
+            </div>
+            <div class="card flex-1">
+                <div class="card-inner flex flex-gap-20 flex-column text-center">
+                    <div class="contact-icon">
+                        <img src="/images/email.svg" width="75" height="75" alt="Email Icon">
+                    </div>
+                    <h3>Email</h3>
+                    <p>For specific questions about the conference, please contact the planning team.</p>
+                    <p><a href="mailto:planners@apachecon.com" class="btn">Send Email</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div>
+    <script src="../js/timeline-js.js"></script>
+</div>
+

@@ -1,0 +1,32 @@
+title: Community Over Code Asia 2026
+template: page-event-landing
+ref: asia-2026
+nav: nav-asia-2026
+customcss: /events/asia-2026/css/asia-2026.css
+heroBackgroundImage: ../images/events/event-hero-asia-2026.webp
+eventLogo: /images/logos/CommunityOverCode_Logo_beijing-stacked-white.svg
+sponsorsKey: asia-2026
+<!-- 
+    Fill out all meta info above. It will be used in the page template to create the page 
+    start_date: used for event countdown and meta tags. Format: YYYY-MM-DD
+    end_date: used for event countdown and meta tags. Format: YYYY-MM-DD
+    location: used in hero section and meta tags
+    registration_link: OPTIONAL- URL for the registration page. If not provided, the "Register Now" button will not be shown.
+    registration_link_text: OPTIONAL- Text for the registration button. If not provided, the "Register Now" button will not be shown.
+    banner_text: OPTIONAL- Text for the banner at the top of the page. If not provided, the banner will not be shown.
+    banner_link: OPTIONAL- URL for the banner link. If not provided, the banner will not be clickable.
+    banner_link_text: OPTIONAL- Text for the banner link. If not provided, the banner will not
+    sponsors_key: used to link the sponsors data from asfdata.yaml to this event. Make sure to add the sponsors data in asfdata.yaml with the same key.
+-->
+
+
+Community Over Code (formerly known as ApacheCon) is the official global conference series of The Apache Software Foundation (ASF). Since 1998 – before the ASF’s incorporation – ApacheCon has been drawing participants at all levels to explore ”Tomorrow’s Technology Today” across 350+ Apache projects and their diverse communities. Community Over Code showcases the latest developments in Apache projects and emerging innovations through hands-on sessions, keynotes, real-world case studies, trainings, hackathons, and more.
+
+Community Over Code showcases the latest breakthroughs from ubiquitous Apache projects and upcoming innovations in the Apache Incubator, as well as open source development and leading community-driven projects the Apache way. Attendees learn about core open source technologies independent of business interests, corporate biases, or sales pitches.
+
+The Community Over Code program is dynamic, evolving at each event with content directly driven by select Apache project developer and user communities. Community Over Code delivers state-of-the-art content that features the latest open source advances in big data, cloud, community development, FinTech, IoT, machine learning, messaging, programming, search, security, servers, streaming, web frameworks, and more in a collaborative, vendor-neutral environment.
+
+<a href="https://asia.communityovercode.org/2025/" class="btn">Visit Community Over Code Asia 2025</a>
+
+---
+

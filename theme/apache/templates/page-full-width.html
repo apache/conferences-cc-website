@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include "header.html" %}
+    <div class="full-width">
+        {% block content %}
+            {{ page.content }}
+        {% endblock %}
+    </div>
+    <!-- Footer -->
+    {% include "footer.html" %}

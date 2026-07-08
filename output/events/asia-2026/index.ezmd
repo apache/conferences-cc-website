@@ -1,0 +1,42 @@
+title: Community Over Code Asia 2026
+template: page-event-landing
+ref: asia-2026
+nav: nav-glasgow-2026.html
+hero_background_image: ../images/events/event-hero-glasgow.webp
+event_logo: /images/coc-logo-white-big.webp
+banner_text: CFP is open until June 30, 2026!
+banner_link: https://www.apachecon.com/glasgow2026/registration/
+banner_link_text: Submit Today
+sponsors_key: glasgow-2026
+<!-- 
+    Fill out all meta info above. It will be used in the page template to create the page 
+    start_date: used for event countdown and meta tags. Format: YYYY-MM-DD
+    end_date: used for event countdown and meta tags. Format: YYYY-MM-DD
+    location: used in hero section and meta tags
+    registration_link: OPTIONAL- URL for the registration page. If not provided, the "Register Now" button will not be shown.
+    registration_link_text: OPTIONAL- Text for the registration button. If not provided, the "Register Now" button will not be shown.
+    banner_text: OPTIONAL- Text for the banner at the top of the page. If not provided, the banner will not be shown.
+    banner_link: OPTIONAL- URL for the banner link. If not provided, the banner will not be clickable.
+    banner_link_text: OPTIONAL- Text for the banner link. If not provided, the banner will not
+    sponsors_key: used to link the sponsors data from asfdata.yaml to this event. Make sure to add the sponsors data in asfdata.yaml with the same key.
+-->
+
+
+Community Over Code Glasgow 2026 features four in-person days of sessions at the Hilton Glasgow for ASF members, committers, and open source developers from around the world, focusing on Search, Big Data, Internet of Things, Community, Geospatial, Financial Tech, and many other topics. Each evening will also feature Birds of a Feather (BoF) sessions and social events, where communities will have an opportunity for free-form discussion and planning around our various projects.
+
+## Deep Dives, Real Insights
+
+We're featuring co-located events and workshops on Saturday, October 10 and more than xxx sessions across x tracks from Sunday, October 11 to Wednesday, October 14. Check out the 2025 schedule for an idea of what to expect.
+
+<a class="btn" href="#">View the Schedule</a>
+
+---
+
+## Communities That Endure
+
+Community Over Code is the official conference of the Apache Software Foundation — where the committers, contributors, and community members behind the world's most widely deployed open source software gather to share, learn, and shape what comes next.
+
+<a class="btn" href="https://www.google.com">About Community Over Code</a>
+
+---
+

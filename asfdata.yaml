@@ -1,0 +1,25 @@
+
+# data sources to slurp and sequence
+#   index.ezmd
+
+# used on page-event-landing.html
+sponsors:
+  glasgow-2026: content/events/glasgow-2026/sponsors.json
+  #london-2024: content/events/glasgow-2026/sponsors.json
+
+# used on index.ezmd, page-event-landing.html, and events.ezmd, footer.html
+events:
+  # load events from a YAML file and create a sequence
+  file: data/events.yaml
+  events:
+    description: 'Upcoming Events sequence'
+    path: events
+
+
+# used on index.ezmd
+events_news:
+  # load, transform, and create a sequence of foundation blogs
+  blog: https://news.apache.org/foundation/entry/category/events/feed/atom
+  count: 3
+
+

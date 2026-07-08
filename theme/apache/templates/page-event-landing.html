@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include "header.html" %}
+    {% if page.bannertext %}
+        <div class="banner">
+            <div class="inner flex flex-gap-20 flex-center">
+                <div class="banner-text">{{ page.bannertext }}</div>
+                {% if page.bannerlink and page.bannerlinktext %}
+                    <a href="{{ page.bannerlink }}" class="">{{ page.bannerlinktext }}</a>
+                {% endif %}
+            </div>
+        </div>
+    {% endif %}
+
+    {#  Filter out the current event from list based on its ref  #}
+    {#  The ref value on the markdown file must match the ref value in the events data on events.yaml  #}
+    {% set current_event = page.events | selectattr('ref', 'equalto', page.ref) | first if page.ref else none %}
+    {#  If the current event is not found in the upcoming events, check the archived events  #}
+    {% if not current_event and page.archived_events %}
+        {% set current_event = page.archived_events | selectattr('ref', 'equalto', page.ref) | first if page.ref else none %}
+    {% endif %}
+    {% if current_event %}
+        <div class="hero hero--event-home relative" style="background-image: url('{{ page.herobackgroundimage }}');">
+            <div class="inner flex py-xl relative flex-vert-center z1 flex-col-reverse-800 flex-gap-50">
+                <div class="hero__content flex-1">
+                    <h1 class="hero__title">
+                        Community Over Code
+                        {% if current_event.location %}
+                            <span class="hero__subtitle">{{ current_event.location }}</span>
+                        {% endif %}
+                    </h1>
+                    <div class="hero-event-dates text-white">{{ current_event.displayDate }}</div>
+                    <div class="hero-ctas flex flex-gap-20 flex-wrap">
+                        {% if page.ctatext and page.ctalink %}
+                            <a class="btn btn--event-hero btn--alt" href="{{ page.ctalink }}">{{ page.ctatext }}</a>
+                        {% endif %}
+                        {% if page.ctatwotext and page.ctatwolink %}
+                            <a class="btn btn--event-hero btn--white" href="{{ page.ctatwolink }}">{{ page.ctatwotext }}</a>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="hero__logo flex-1">
+                    {% if page.eventlogo %}
+                        <img src="{{ page.eventlogo }}" alt="{{ page.title }} logo" class="hero__logo-image">
+                    {% else %}
+                        <img src="/images/CoC-logo-white.webp" alt="Community Over Code logo" class="hero__logo-image">
+                    {% endif %}
+                </div>
+            </div>
+            {% if current_event.startDate %}
+                <script>
+                    // Countdown timer script
+                    let countdownInterval;
+                    
+                    function updateCountdown() {
+                        const countdownWrapper = document.getElementById('countdown-wrapper');
+                        const targetDate = new Date(countdownWrapper.getAttribute('data-date')).getTime();
+                        const now = new Date().getTime();
+                        const distance = targetDate - now;
+                        if(distance > 0) {
+                            countdownWrapper.classList.add('show');
+                        } else {
+                            clearInterval(countdownInterval); // Stop the interval
+                            // remove countdown from the dom
+                            countdownWrapper.remove();
+                            return;
+                        }
+                        
+                        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                        document.getElementById('cd-days').textContent = String(days).padStart(2, '0');
+                        document.getElementById('cd-hours').textContent = String(hours).padStart(2, '0');
+                        document.getElementById('cd-minutes').textContent = String(minutes).padStart(2, '0');
+                        document.getElementById('cd-seconds').textContent = String(seconds).padStart(2, '0');
+                    }
+
+                    countdownInterval = setInterval(updateCountdown, 1000);
+                    updateCountdown(); // Initial call to set values immediately
+                </script>
+                <div id="countdown-wrapper" class="countdown" data-date="{{current_event.startDate}}">
+                    <div class="countdown__box card">
+                        <span id="cd-days" class="countdown__number">00</span>
+                        <span class="countdown__label">Days</span>
+                    </div>
+                    <div class="countdown__box card">
+                        <span id="cd-hours" class="countdown__number">00</span>
+                        <span class="countdown__label">Hours</span>
+                    </div>
+                    <div class="countdown__box card">
+                        <span id="cd-minutes" class="countdown__number">00</span>
+                        <span class="countdown__label">Minutes</span>
+                    </div>
+                    <div class="countdown__box card">
+                        <span id="cd-seconds" class="countdown__number">00</span>
+                        <span class="countdown__label">Seconds</span>
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+    {% else %}
+        <div class="hero hero--event-home relative" style="background-image: url('{{ page.hero_background_image }}');">
+            <div class="inner flex py-xl relative z1 flex-col-reverse-800 flex-gap-50">
+                <div class="hero__content flex-1">
+                    <h1 class="hero__title">
+                        Community Over Code
+                    </h1>
+                </div>
+                <div class="hero__logo flex-1">
+                    {% if page.eventlogo %}
+                        <img src="{{ page.eventlogo }}" alt="{{ page.title }} logo" class="hero__logo-image">
+                    {% else %}
+                        <img src="/images/CoC-logo.png" alt="Community Over Code logo" class="hero__logo-image">
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    {% endif %}
+    <section class="maincontent maincontent--single-event">
+        <div class="inner flex-col-800 flex pt-xl">
+            <div class="flex-1"></div>
+            <div class="flex-2">
+                {% block content %}
+                    {{ page.content }}
+                {% endblock %}
+            </div>
+        </div>
+    </section>
+    {% if current_event and current_event.colocatedEvents %}
+        <section class="co-located-events">
+            <div class="inner py-xl relative z1">
+                <h2 class="text-center text-white">Co-located Events</h2>
+                <div class="co-located-events-list events-grid grid flex-gap-20">
+                    {% for colocated_event in current_event.colocatedEvents %}
+                        <div class="co-located-event-card card flex-1">
+                            <div class="card-inner">
+                                <div class="colo-image-wrapper">
+                                    {% if colocated_event.image %}
+                                        <img src="{{ colocated_event.image }}" alt="{{ colocated_event.name }}" class="colo-image">
+                                    {% else %}
+                                        <img src="/images/CoC-logo.png" alt="{{ colocated_event.name }}" class="colo-image">
+                                    {% endif %}
+                                </div>
+                                <div class="event-card__content">
+                                    <div class="event-card__date">{{ colocated_event.displayDate }}</div>
+                                    <h4>{{ colocated_event.name }}</h4>
+                                    <div class="card-links">
+                                        {% if colocated_event.href %}
+                                            <a href="{{ colocated_event.href }}">See Event</a>
+                                        {% endif %}
+                                        {% if colocated_event.registrationHref %}
+                                         | <a href="{{ colocated_event.registrationHref }}">Register</a>
+                                         {% endif %}
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+    {% endif %}
+    {% if current_event and current_event.gallery %}
+        <style>
+            .gallery-images {
+                width: {{ current_event.gallery|length * 100 }}%;
+            }
+            .gallery-image {
+                width: {{ 100 / current_event.gallery|length }}%;
+            }
+        </style>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const galleryWrapper = document.getElementById('gallery-wrapper');
+                const galleryImages = document.getElementById('gallery-images');
+                
+                // Check if elements exist
+                if (!galleryWrapper || !galleryImages) {
+                    console.log('Gallery elements not found');
+                    return;
+                }
+
+                const images = galleryImages.getElementsByClassName('gallery-image');
+                let currentIndex = 0;
+
+                // Only proceed if we have images
+                if (images.length === 0) {
+                    console.log('No gallery images found');
+                    return;
+                }
+
+                function showImage(index) {
+                    const offset = -index * (100 / images.length);
+                    galleryImages.style.transform = `translateX(${offset}%)`;
+                }
+
+                // Create navigation arrows
+                const leftArrow = document.createElement('button');
+                leftArrow.className = 'gallery-nav left';
+                leftArrow.innerHTML = '&#9664;';
+                leftArrow.setAttribute('aria-label', 'Previous image');
+                
+                const rightArrow = document.createElement('button');
+                rightArrow.className = 'gallery-nav right';
+                rightArrow.innerHTML = '&#9654;';
+                rightArrow.setAttribute('aria-label', 'Next image');
+
+                // Only show arrows if there's more than one image
+                if (images.length > 1) {
+                    galleryWrapper.appendChild(leftArrow);
+                    galleryWrapper.appendChild(rightArrow);
+
+                    leftArrow.addEventListener('click', function() {
+                        currentIndex = (currentIndex - 1 + images.length) % images.length;
+                        showImage(currentIndex);
+                    });
+
+                    rightArrow.addEventListener('click', function() {
+                        currentIndex = (currentIndex + 1) % images.length;
+                        showImage(currentIndex);
+                    });
+                }
+
+                // Initial display
+                showImage(currentIndex);
+            });
+        </script>
+        <section class="event-gallery">
+            <div class="inner py-xl">
+                <h2 class="text-center text-white">Inside Community Over Code</h2>
+                <div id="gallery-wrapper" class="gallery-wrapper">
+                    <div id="gallery-images" class="gallery-images cf">
+                        {% for image in current_event.gallery %}
+                            <div class="gallery-image">
+                                <img src="{{ image }}" alt="Gallery image for {{ current_event.name }}" class="gallery-image-item">
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </section>
+    {% endif %}
+    <!-- 
+        NOTE: For this section to work, to update the sponsors.json file in the event directory.  
+        - Add all of your sponsors to the appropriate category (diamond, gold, silver).
+        - Make sure to include the sponsor's name, logo URL, and link URL in the JSON file.
+        - update the asfdata.yaml file to include the path to your sponsors.json file under the sponsors key, using a unique key for your event (e.g., glasgow-2026). 
+        - in the event landing page meta data, set the sponsorskey to match the key you used in asfdata.yaml (e.g., glasgow-2026) 
+    -->
+    {% if page.sponsorskey and page.sponsors and page.sponsors[page.sponsorskey] %}
+        <section class="sponsors">
+            <div class="inner py-xl">
+                <h2 class="text-center">Event Sponsors</h2>
+                {%if page.sponsors[page.sponsorskey]['platinum'] %}
+                    <div class="sponsor-logos-section py-large">
+                        <h3 class="text-center">Platinum</h3>
+                        <div class="sponsor-logos">
+                            {% for sponsor in page.sponsors[page.sponsorskey]['platinum'] %}
+                                <div class="sponsor-logo">
+                                    <a href="{{ sponsor.link }}" target="_blank" class="sponsor-link">
+                                        <img src="{{ sponsor.logo }}" loading="lazy" alt="{{ sponsor.name }}">
+                                    </a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endif %}
+                {%if page.sponsors[page.sponsorskey]['gold'] %}
+                    <div class="sponsor-logos-section py-large">
+                        <h3 class="text-center">Gold</h3>
+                        <div class="sponsor-logos sponsor-logos--gold">
+                            {% for sponsor in page.sponsors[page.sponsorskey]['gold'] %}
+                                <div class="sponsor-logo">
+                                    <a href="{{ sponsor.link }}" target="" class="sponsor-link">
+                                        <img src="{{ sponsor.logo }}" loading="" alt="{{ sponsor.name }}">
+                                    </a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endif %}
+                {%if page.sponsors[page.sponsorskey]['silver'] %}
+                    <div class="sponsor-logos-section py-large">
+                        <h3 class="text-center">Silver</h3>
+                        <div class="sponsor-logos sponsor-logos--silver">
+                            {% for sponsor in page.sponsors[page.sponsorskey]['silver'] %}
+                                <div class="sponsor-logo">
+                                    <a href="{{ sponsor.link }}" target="" class="sponsor-link">
+                                        <img src="{{ sponsor.logo }}" loading="" alt="{{ sponsor.name }}">
+                                    </a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endif %}
+                {%if page.sponsors[page.sponsorskey]['bronze'] %}
+                    <div class="sponsor-logos-section py-large">
+                        <h3 class="text-center">Bronze</h3>
+                        <div class="sponsor-logos sponsor-logos--bronze">
+                            {% for sponsor in page.sponsors[page.sponsorskey]['bronze'] %}
+                                <div class="sponsor-logo">
+                                    <a href="{{ sponsor.link }}" target="" class="sponsor-link">
+                                        <img src="{{ sponsor.logo }}" loading="" alt="{{ sponsor.name }}">
+                                    </a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endif %}
+                {%if page.sponsors[page.sponsorskey]['lightning_talks'] %}
+                    <div class="sponsor-logos-section py-large">
+                        <h3 class="text-center">Lightning Talks</h3>
+                        <div class="sponsor-logos sponsor-logos--lightning_talks">
+                            {% for sponsor in page.sponsors[page.sponsorskey]['lightning_talks'] %}
+                                <div class="sponsor-logo">
+                                    <a href="{{ sponsor.link }}" target="" class="sponsor-link">
+                                        <img src="{{ sponsor.logo }}" loading="" alt="{{ sponsor.name }}">
+                                    </a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endif %}
+            </div>
+        </section>
+
+    {% endif %}
+       
+    <!-- Footer -->
+    {% include "footer.html" %}

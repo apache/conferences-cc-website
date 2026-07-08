@@ -1,0 +1,68 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% if page.description %}
+        <meta name="description" content="{{ page.description }}">
+    {% elif site is defined and site.description %}
+        <meta name="description" content="{{ site.description }}">
+    {% endif %}
+    {% if page.noindex == 'true' %}
+        <meta name="robots" content="noindex, nofollow" />
+    {% endif %}
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/favicons/manifest.json">
+    <link rel="shortcut icon" href="/favicons/favicon.png">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#282661">
+
+    <title>{{ page.title }} | Apache Software Foundation Events</title>
+    <link href="/fonts/Montserrat-300-600-800.css" async rel="stylesheet">
+    <link href="/css/styles.css" async rel="stylesheet">
+    {% if page.customcss %}<link href="{{ page.customcss }}" async rel="stylesheet">{% endif %}
+    <script src="https://www.apachecon.com/event-images/snippet.js" async></script>
+
+    {% if page.notice %}<!-- {{ page.notice }} -->{% endif %}
+    {% if page.license %}<!-- {{ page.license }} -->{% endif %}
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/init.js"></script>
+</head>
+<body {% if page.bodytag %} {{ page.bodytag }}{% endif %} {% if page.ref %} class="body-{{ page.ref }}"{% endif %} >
+    <header id="header-main">
+         <div class="inner relative z1 flex flex-space-between flex-vert-center">
+            <a href="/" class="logo">
+                <img src="/images/CommunityOverCode_Logo_horizontal-color.svg" alt="ASF Events">
+            </a>
+            <div id="nav-toggle" class="nav-toggle hidden">
+                <span id="nav-top"></span>
+                <span id="nav-mid"></span>
+                <span id="nav-btm"></span>
+            </div>
+            {# Check to see if the current page is an event and has a custom navigation. If so, we apply the custom nav instead of the default site nav #}
+            
+            {% set current_event = page.events | selectattr('ref', 'equalto', page.ref) | first if page.ref else none %}
+            
+            {% if current_event and current_event.nav %}
+                {% include current_event.nav %}
+            {% else %}
+                {% include "nav-default.html" %}
+            {% endif %}
+    </header>
+
+

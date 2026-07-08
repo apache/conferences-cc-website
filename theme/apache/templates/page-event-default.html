@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include "header.html" %}
+     {% if page.bannertext %}
+        <div class="banner">
+            <div class="inner flex flex-gap-20 flex-center">
+                <div class="banner-text">{{ page.bannertext }}</div>
+                {% if page.bannerlink and page.bannerlink_text %}
+                    <a href="{{ page.bannerlink }}" class="">{{ page.bannerlink_text }}</a>
+                {% endif %}
+            </div>
+        </div>
+    {% endif %}
+    
+    {#  Filter out the current event from list based on its ref  #}
+    {#  The ref value on the markdown file must match the ref value in the events data on events.yaml  #}
+    
+    {% set current_event = page.events | selectattr('ref', 'equalto', page.ref) | first if page.ref else none %}
+   
+    {% if current_event %}
+        <div class="hero hero--single-event-default relative">
+            <div class="inner flex flex-vert-center py-xl relative z1 flex-gap-50 flex-col-reverse-800">
+                <div class="hero__content flex-1">
+                    {% if page.iscolocatedevent == 'true' %}
+                        <div class="colo-label">Co-located Event</div>
+                    {% endif %}
+                    <h1 class="hero__title">
+                        {{ page.title }}
+                    </h1>
+                    <h2 class="hero__default-subtitle">
+                        Community Over Code
+                        {% if current_event.location %}
+                            <span class="hero__subtitle"> {{ current_event.location }}</span>
+                        {% endif %}
+                    </h2>
+                    <div class="hero-event-dates">{{ current_event.displayDate }}</div>
+                    {% if page.ctatext and page.ctalink %}
+                        <p><a class="btn btn--alt" href="{{ page.ctalink }}">{{ page.ctatext }}</a></p>
+                    {% endif %}
+                    {% if page.ctatwotext and page.ctatwo_link %}
+                        <p><a class="btn btn--white" href="{{ page.ctatwo_link }}">{{ page.ctatwotext }}</a></p>
+                    {% endif %}
+                </div>
+                <div class="hero__logo flex-1">
+                    {% if page.eventlogo %}
+                        <img src="{{ page.eventlogo }}" alt="{{ page.title }} logo" class="hero__logo-image">
+                    {% else %}
+                        <img src="/images/CoC-logo.png" alt="{{ page.title }} logo" class="hero__logo-image">
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    {% else %}
+        <div class="hero relative">
+            <div class="inner flex py-xl relative z1 flex-gap-50">
+                <div class="hero__content flex-1">
+                    <h1 class="hero__title">
+                        {{ page.title }}
+                    </h1>
+                    <div class="hero-event-dates">Event Information Not Available</div>
+                </div>
+                <div class="hero__logo flex-1">
+                    {% if page.eventlogo %}
+                        <img src="{{ page.eventlogo }}" alt="{{ page.title }} logo" class="hero__logo-image">
+                    {% else %}
+                        <img src="/images/CoC-logo.png" alt="{{ page.title }} logo" class="hero__logo-image">
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    {% endif %}
+    <section class="maincontent maincontent--single-event">
+        <div class="inner py-xl">
+            <div class="mb-medium cf">
+                <div class="float66 right" style="padding-left: 50px;">
+                    <a class="breadcrumb" href="{{ current_event.href }}"><svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><polyline points="15 18 9 12 15 6"></polyline></svg> Back to Event Home</a>
+                </div>
+            </div>
+            <div class="cf flex-col-800">
+                {% if page.inpagenav == 'true' %}
+                    <div id="in-page-nav" class="float33"></div>
+                {% else %}
+                    <div class="float33 full-width-800">&nbsp;</div>
+                {% endif %}
+                <div class="float66 event-content">
+                    {% block content %}
+                        {{ page.content }}
+                    {% endblock %}
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        // Smooth scroll for in-page navigation
+        const navContainer = document.getElementById('in-page-nav');
+        if(navContainer) {
+            document.addEventListener('DOMContentLoaded', function() {
+                // generate in-page navigation based on h2
+                const content = document.querySelector('.event-content');
+                const headings = content.querySelectorAll('h2');
+                const nav = document.getElementById('in-page-nav');
+                if (headings.length > 0) {
+                    const navList = document.createElement('ul');
+                    headings.forEach(heading => {
+                        const id = heading.textContent.trim().toLowerCase().replace(/\s+/g, '-');
+                        heading.setAttribute('id', id);
+                        const navItem = document.createElement('li');
+                        const navLink = document.createElement('a');
+                        navLink.setAttribute('href', `#${id}`);
+                        navLink.textContent = heading.textContent;
+                        navItem.appendChild(navLink);
+                        navList.appendChild(navItem);
+                    });
+                    nav.appendChild(navList);
+                }
+
+                const links = document.querySelectorAll('#in-page-nav a');
+                links.forEach(link => {
+                    link.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        // in this loop, 'this' refers to the clicked link
+                        // add class of current-section to the clicked link and remove from others
+                        links.forEach(l => l.classList.remove('current-section'));
+                        this.classList.add('current-section');
+                        const targetId = this.getAttribute('href').substring(1);
+                        const targetElement = document.getElementById(targetId);
+                        if (targetElement) {
+                            window.scrollTo({
+                                top: targetElement.offsetTop - 100, // Adjust for fixed header
+                                behavior: 'smooth'
+                            });
+                        }
+                    });
+                });
+
+                // Highlight the current section in the navigation as the user scrolls
+                window.addEventListener('scroll', function() {
+                    let currentSection = '';
+                    headings.forEach(heading => {
+                        const sectionTop = heading.offsetTop - 150; // Adjust for fixed header
+                        if (window.scrollY >= sectionTop) {
+                            currentSection = heading.getAttribute('id');
+                        }
+                    });
+                    links.forEach(link => {
+                        link.classList.remove('current-section');
+                        if (link.getAttribute('href').substring(1) === currentSection) {
+                            link.classList.add('current-section');
+                        }
+                    });
+                });
+            });
+        }
+    </script>
+    <!-- Footer -->
+    {% include "footer.html" %}

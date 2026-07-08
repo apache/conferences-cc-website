@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/favicons/manifest.json">
+    <link rel="shortcut icon" href="/favicons/favicon.png">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#282661">
+
+    <title>ApacheCon 1998 | Apache Software Foundation Events</title>
+    <link href="/fonts/Montserrat-300-600-800.css" async rel="stylesheet">
+    <link href="/css/styles.css" async rel="stylesheet">
+    <script src="https://www.apachecon.com/event-images/snippet.js" async></script>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/init.js"></script>
+</head>
+<body   class="body-apachecon-1998" >
+    <header id="header-main">
+         <div class="inner relative z1 flex flex-space-between flex-vert-center">
+            <a href="/" class="logo">
+                <img src="/images/CommunityOverCode_Logo_horizontal-color.svg" alt="ASF Events">
+            </a>
+            <div id="nav-toggle" class="nav-toggle hidden">
+                <span id="nav-top"></span>
+                <span id="nav-mid"></span>
+                <span id="nav-btm"></span>
+            </div>
+            
+            
+<nav>
+    <ul class="flex">
+        <li><a href="/about/">About</a></li>
+        <li><a href="/sponsors/">Sponsors</a></li>
+        <li><a href="https://news.apache.org/foundation/entry/category/events">News</a></li>
+    </ul>
+</nav>    </header>
+
+
+        <div class="hero hero--event-home relative" style="background-image: url('');">
+            <div class="inner flex py-xl relative flex-vert-center z1 flex-col-reverse-800 flex-gap-50">
+                <div class="hero__content flex-1">
+                    <h1 class="hero__title">
+                        Community Over Code
+                            <span class="hero__subtitle">San Francisco, CA</span>
+                    </h1>
+                    <div class="hero-event-dates text-white">October 14-16, 1998</div>
+                    <div class="hero-ctas flex flex-gap-20 flex-wrap">
+                    </div>
+                </div>
+                <div class="hero__logo flex-1">
+                        <img src="/images/CoC-logo-white.webp" alt="Community Over Code logo" class="hero__logo-image">
+                </div>
+            </div>
+                <script>
+                    // Countdown timer script
+                    let countdownInterval;
+                    
+                    function updateCountdown() {
+                        const countdownWrapper = document.getElementById('countdown-wrapper');
+                        const targetDate = new Date(countdownWrapper.getAttribute('data-date')).getTime();
+                        const now = new Date().getTime();
+                        const distance = targetDate - now;
+                        if(distance > 0) {
+                            countdownWrapper.classList.add('show');
+                        } else {
+                            clearInterval(countdownInterval); // Stop the interval
+                            // remove countdown from the dom
+                            countdownWrapper.remove();
+                            return;
+                        }
+                        
+                        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                        document.getElementById('cd-days').textContent = String(days).padStart(2, '0');
+                        document.getElementById('cd-hours').textContent = String(hours).padStart(2, '0');
+                        document.getElementById('cd-minutes').textContent = String(minutes).padStart(2, '0');
+                        document.getElementById('cd-seconds').textContent = String(seconds).padStart(2, '0');
+                    }
+
+                    countdownInterval = setInterval(updateCountdown, 1000);
+                    updateCountdown(); // Initial call to set values immediately
+                </script>
+                <div id="countdown-wrapper" class="countdown" data-date="1998-10-14">
+                    <div class="countdown__box card">
+                        <span id="cd-days" class="countdown__number">00</span>
+                        <span class="countdown__label">Days</span>
+                    </div>
+                    <div class="countdown__box card">
+                        <span id="cd-hours" class="countdown__number">00</span>
+                        <span class="countdown__label">Hours</span>
+                    </div>
+                    <div class="countdown__box card">
+                        <span id="cd-minutes" class="countdown__number">00</span>
+                        <span class="countdown__label">Minutes</span>
+                    </div>
+                    <div class="countdown__box card">
+                        <span id="cd-seconds" class="countdown__number">00</span>
+                        <span class="countdown__label">Seconds</span>
+                    </div>
+                </div>
+        </div>
+    <section class="maincontent maincontent--single-event">
+        <div class="inner flex-col-800 flex pt-xl">
+            <div class="flex-1"></div>
+            <div class="flex-2">
+                    <!-- 
+    Fill out all meta info above. It will be used in the page template to create the page 
+    start_date: used for event countdown and meta tags. Format: YYYY-MM-DD
+    end_date: used for event countdown and meta tags. Format: YYYY-MM-DD
+    location: used in hero section and meta tags
+    registration_link: OPTIONAL- URL for the registration page. If not provided, the "Register Now" button will not be shown.
+    registration_link_text: OPTIONAL- Text for the registration button. If not provided, the "Register Now" button will not be shown.
+    banner_text: OPTIONAL- Text for the banner at the top of the page. If not provided, the banner will not be shown.
+    banner_link: OPTIONAL- URL for the banner link. If not provided, the banner will not be clickable.
+    banner_link_text: OPTIONAL- Text for the banner link. If not provided, the banner will not
+    sponsors_key: used to link the sponsors data from asfdata.yaml to this event. Make sure to add the sponsors data in asfdata.yaml with the same key.
+-->
+<h2>Report from ApacheCon '98</h2>
+<p>This is a report about the first ever conference dedicated to Apache, held in October 1998 in San Franscisco.</p>
+<p>First published 16th October 1998.</p>
+<p>The conference ran from October 14th to October 16th, at the San Francisco Hilton in California, USA. This is the largest hotel in San Francisco, and is located in the downtown area. In total, just under 500 people registered for the conference. While most people came from the US and Canada, there were also a signficant number of people from Europe. For the first conference on Apache, this was a very good attendence, and the exhibitors and sponsors were very happy with the number of people at the conference. In addition, most of the 18 core Apache developers also attended, coming from the US, Canada, Italy, UK and Germany.</p>
+<p>This article contains some links to pictures taken at the conference. Some additional pictures are also available.</p>
+<h2>The keynote speeches</h2>
+<p>The first general session on the 14th started with a keynote speech from author Bruce Sterling (picture). This was not directly related to Apache, but contained Bruce's thoughts on the future of a networked society.</p>
+<p>This was followed by another keynote, from John Gilmore of the Electronic Frontier Foundation (EFF) (picture). The EFF is an organisation concerned with freedom and liberties in computing and the Internet. He outlined objections to software patents, and covered the problems caused by the US export restrictions on secure encryption. Decisions about what is exportable and what is not exportable from the US are made by government employees, without any ability to appeal. Even worse, government employees can revoke export permission at any time without giving any reason, which could seriously affect businesses who rely on exports. The export restrictions were applied to the NCSA httpd server, where the government demanded that the server removed all "hooks" which could allow encryption to be added, even thoughb there was no actual encryption technology in the server. This is the reason that Apache does not contain any hooks to enable encryption to be added.</p>
+<p>The first talk on the second day was by John Patrick from IBM (picture). He talked about his view of how the Internet will evolve. In the last session, David Filo from Yahoo! showed how Yahoo! has used open source software (picture). They started by using commercial operating systems and home-written web servers, but had problems with vendors not being able to scale to the huge number of hits they soon received. They moved to FreeBSD so they could read and if necessary tweak the operating system code. They also use Apache on most of their servers and find that the majority of the performance limitations come from the application layer software.</p>
+<h2>The Talks</h2>
+<p>There were four parallel tracks running throughout the conference, with a total of 55 talks. The tracks were Dynamic Content, Performance, Security and Case Studies.</p>
+<p>On the Dynamic Content track there were talks about using Java servlets at beginner, advanced, and performance levels. Two talks about PHP showed beginner and advanced techniques. There were also talks on writing Apache modules and mod_perl (although unfortunately the first mod_perl session could not be given by the original presenter and the second advanced session had to be cancelled).</p>
+<p>The Performance track covered making Apache go faster on Windows and Unix systems, using servlets efficiently, and tweaking Linux and FreeBSD. Also on this track was a presentation on how the Netscape Portable Runtime (NSPR) package (available under Netscape's NPL license) could be integrated with Apache to provide a multi-threading Apache on all Unix platforms as well as NT. There was also a talk about how the Apache development process works and how people with contributions can get involved.</p>
+<p>On the Security track the talk about the new mod_ssl package was popular. The author presented what mod_ssl does and why it was created from the existing Apache-SSL package. Also on this track was an introduction to SSL and TLS, basic security issues in Apache, NT security, and a panel on public key infrastructure on the Web.</p>
+<p>The final track had Case Studies from various companies. This track also contained a demonstration of various GUI configuration programs for Apache. There are various free and commercial configuration systems in development currently, some of which were demonstrated. This seems to be the start of a more concerted effort to develop a GUI infrastructure within Apache, which will allow multiple front-end implementations.</p>
+<h2>The Exhibition</h2>
+<p>About a dozen companies exhibited at the trade show during the conference (picture). Companies present included IBM, RedHat, C2Net, Sendmail, nCipher, SUSE and O'Reilly. This was a very explicit demonstration of how Apache has built an associated industry, and the exhibitors we talked to were very happy with the quality, interest, and response of people that they met at the conference.</p>
+<h2>Meeting the Apache core</h2>
+<p>The final session was a chance to communicate with the core Apache developers (picture). After introducing each member, there was a short discussion of items of interest to the developers, such as plans for 2.0. This was followed by an open session for questions from the floor. Questions covered a range of topics, from IBM's involvement with the Apache group (they have several people working full time on Apache and will contribute back changes) to a request for Apache incorporate SSL by storing it on a server outside the US (this cannot happen because then no US citizen could work on any part of Apache as it includes encryption).</p>
+<h2>Future plans</h2>
+<p>This was the first conference about Apache, and the first conference ever organised by the Apache Group. The result was a very successful conference, where sponsors, exhibitors and attendees were all happy. The success of the conference means that there will be another ApacheCon in the future, but the location and dates have not yet been decided. As soon as anything is known, it will be announced in Apache Week.</p>
+<h2>Pictures</h2>
+<p><a href="https://www.flickr.com/photos/paulau/sets/72157720300544128/">Pictures from the conference</a></p>
+<hr/>
+
+            </div>
+        </div>
+    </section>
+    <!-- 
+        NOTE: For this section to work, to update the sponsors.json file in the event directory.  
+        - Add all of your sponsors to the appropriate category (diamond, gold, silver).
+        - Make sure to include the sponsor's name, logo URL, and link URL in the JSON file.
+        - update the asfdata.yaml file to include the path to your sponsors.json file under the sponsors key, using a unique key for your event (e.g., glasgow-2026). 
+        - in the event landing page meta data, set the sponsorskey to match the key you used in asfdata.yaml (e.g., glasgow-2026) 
+    -->
+       
+    <!-- Footer -->
+        <div class="footer-top-border"></div>
+        <footer>
+            <div class="inner py-large flex flex-gap-50">
+                <div class="flex flex-column flex-gap-20 flex-1 text-white">
+                   <img src="/images/logos/CommunityOverCode_Logo_stacked-white.webp" width="200" alt="Apache Software Foundation">
+                   <p>The Apache® Software Foundation (The ASF) provides software for the public good, guided by community over code. Learn more at apache.org.</p>
+                   <p>Apache and the Apache logo are trademarks of The Apache Software Foundation.</p>
+                   <p>The Apache® Software Foundation is a 501(c)(3) nonprofit organization. Tax ID # 47-0825376</p>
+                </div>
+                <div class="flex flex-column flex-gap-20 flex-1">
+                    <nav class="footer-nav">
+                        <ul class="flex flex-column flex-gap-10 ">
+                            <li><a href="/events">Events</a></li>
+                            <li><a href="https://news.apache.org/foundation/entry/category/events">News</a></li>
+                            <li><a href="/about#contact-section">Contact</a></li>
+                            <li><a href="/code-of-conduct">Code of Conduct</a></li>
+                            <li><a href="https://privacy.apache.org/policies/privacy-policy-public.html">Privacy Policy</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="flex flex-column flex-gap-20 footer-events flex-1">
+                    <h2 class="text-heading-light">ASF Events</h2>
+                        <div class="card card--footer">
+                            <a href="/events/asia-2026">
+                                <div class="card-inner flex flex-column">
+                                    <div class="event-card__date">August 7-9, 2026</div>
+                                    <h4>Community Over Code Asia 2026</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card card--footer">
+                            <a href="/events/glasgow-2026">
+                                <div class="card-inner flex flex-column">
+                                    <div class="event-card__date">October 11-14, 2026</div>
+                                    <h4>Community Over Code Glasgow 2026</h4>
+                                </div>
+                            </a>
+                        </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+
+

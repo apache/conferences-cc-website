@@ -1,0 +1,526 @@
+# Events data structure
+events:
+  - name: Community Over Code Glasgow 2026 # REQUIRED
+    ref: glasgow-2026 # REQUIRED Must be unique - Used for matching event data in events page templates.
+    nav: nav-glasgow-2026.html
+    href: /events/glasgow-2026
+    registrationHref: /events/glasgow-2026/register # optional registration link
+    startDate: 2026-10-11 # REQUIRED: must use format YYYY-MM-DD
+    endDate: 2026-10-14 # REQUIRED: must use format YYYY-MM-DD - used for sorting events 
+    displayDate: October 11-14, 2026 # what is displayed on event card
+    year: 2026 # optional year event takes place
+    location: Glasgow, UK # optional location for event card
+    image:  /images/events/event-hero-glasgow.webp # optional image for event card
+    colocatedEvents:
+      - name: Lakehouse Day
+        href: /events/glasgow-2026/lakehouse-day-glasgow
+        endDate: 2026-10-11 # must use format YYYY-MM-DD
+        displayDate: October 11, 2026 # what is displayed on event card
+        image: /images/events/event-hero-glasgow.webp # optional image for event card
+    gallery: # optional gallery of images for event landing page
+      - /events/glasgow-2026/gallery/mosaic-1.jpg
+      - /events/glasgow-2026/gallery/mosaic-2.jpg
+      - /events/glasgow-2026/gallery/mosaic-3.jpg
+      - /events/glasgow-2026/gallery/mosaic-4.jpg
+      - /events/glasgow-2026/gallery/mosaic-5.jpg
+  - name: Community Over Code Asia 2026
+    ref: asia-2026
+    href: /events/asia-2026
+    nav: nav-asia-2026.html
+    registrationHref:  # optional registration link
+    startDate: 2026-08-07 # REQUIRED: must use format YYYY-MM-DD
+    endDate: 2026-08-09 # REQUIRED: must use format YYYY-MM-DD
+    displayDate: August 7-9, 2026 # what is displayed on event card
+    year: 2026 # optional year event takes place
+    location: Beijing, China
+    image: /images/events/2026-banner-bg-v1.jpg # optional image for event card
+  - name: Community Over Code North America 2025
+    nav:
+    ref: minneapolis-2025
+    href: /events/minneapolis-2025
+    registrationHref:  # optional registration link
+    startDate: 2025-09-11 # REQUIRED: must use format YYYY-MM-DD
+    endDate: 2025-09-14 # REQUIRED: must use format YYYY-MM-DD
+    displayDate: September 11-14, 2025 # what is displayed on event card
+    year: 2025 # optional year event takes place
+    location: Minneapolis, MN
+  - name: Community Over Code North America 2024
+    nav:
+    ref: denver-2024
+    href: /events/denver-2024
+    registrationHref:  # optional registration link
+    startDate: 2024-10-07 # REQUIRED: must use format YYYY-MM-DD
+    endDate: 2024-10-10 # REQUIRED: must use format YYYY-MM-DD
+    displayDate: October 7-10, 2024 # what is displayed on event card
+    year: 2024 # optional year event takes place
+    location: Denver, CO
+  - name: ApacheCon 2000
+    nav:
+    ref: apachecon-2000
+    href: http://archive.apachecon.com/2000/US/
+    registrationHref:  # optional registration link
+    startDate: 2000-10-23 # REQUIRED: must use format YYYY-MM-DD
+    endDate: 2000-10-25 # REQUIRED: must use format YYYY-MM-DD
+    displayDate: October 23-25, 2000 # what is displayed on event card
+    year: 2000 # optional year event takes place
+    location: London, England
+  - name: ApacheCon 1998
+    nav:
+    ref: apachecon-1998
+    href: /events/apachecon-1998
+    registrationHref:  # optional registration link
+    startDate: 1998-10-14 # REQUIRED: must use format YYYY-MM-DD
+    endDate: 1998-10-16 # REQUIRED: must use format YYYY-MM-DD
+    displayDate: October 14-16, 1998 # what is displayed on event card
+    year: 1998 # optional year event takes place
+    location: San Francisco, CA
+  - name: Community Over Code North America 2025
+    nav:
+    ref: community-over-code-north-america-2025
+    href: https://youtube.com/playlist?list=PLnmZetgAnzKo9CQikeJixoGP6K4R7YSxY&si=6GBH0ASZVRPGg9sU
+    registrationHref:
+    startDate: 2025-09-11
+    endDate: 2025-09-14
+    displayDate: September 11-14, 2025
+    year: 2025
+    location: Minneapolis, MN
+  - name: Community Over Code North America 2024
+    nav:
+    ref: community-over-code-north-america-2024
+    href: https://communityovercode.org/past-sessions/community-over-code-na-2024/
+    registrationHref:
+    startDate: 2024-10-07
+    endDate: 2024-10-10
+    displayDate: October 7-10, 2024
+    year: 2024
+    location: Denver, CO
+  - name: Community Over Code North America 2023
+    nav:
+    ref: community-over-code-north-america-2023
+    href: https://communityovercode.org/past-sessions/community-over-code-na-2023/
+    registrationHref:
+    startDate: 2023-10-07
+    endDate: 2023-10-10
+    displayDate: October 7-10, 2023
+    year: 2023
+    location: Halifax, Nova Scotia, Canada
+  - name: Community Over Code Asia 2023
+    nav:
+    ref: community-over-code-asia-2023
+    href: https://www.bagevent.com/event/cocasia-2023-EN
+    registrationHref:
+    startDate: 2023-08-18
+    endDate: 2023-08-20
+    displayDate: August 18-20, 2023
+    year: 2023
+    location: Beijing, China
+  - name: ApacheCon North America 2022
+    nav:
+    ref: apachecon-north-america-2022
+    href: https://apachecon.com/acna2022/
+    registrationHref:
+    startDate: 2022-10-02
+    endDate: 2022-10-06
+    displayDate: October 2-6, 2022
+    year: 2022
+    location: New Orleans, LA
+  - name: ApacheCon Asia 2021
+    nav:
+    ref: apachecon-asia-2021
+    href: https://apachecon.com/acasia2021/
+    registrationHref:
+    startDate: 2021-08-06
+    endDate: 2021-08-08
+    displayDate: August 6-8, 2021
+    year: 2021
+    location: Online
+  - name: ApacheCon @Home 2021
+    nav:
+    ref: apachecon-home-2021
+    href: https://apachecon.com/acah2021/
+    registrationHref:
+    startDate: 2021-09-21
+    endDate: 2021-09-23
+    displayDate: September 21-23, 2021
+    year: 2021
+    location: Online
+  - name: ApacheCon @Home 2020
+    nav:
+    ref: apachecon-home-2020
+    href: https://apachecon.com/acah2020/
+    registrationHref:
+    startDate: 2020-09-28
+    endDate: 2020-10-01
+    displayDate: September 28 - October 1, 2020
+    year: 2020
+    location: Online
+  - name: ApacheCon EU 2019
+    nav:
+    ref: apachecon-eu-2019
+    href: https://aceu19.apachecon.com/
+    registrationHref:
+    startDate: 2019-10-22
+    endDate: 2019-10-24
+    displayDate: October 22-24, 2019
+    year: 2019
+    location: Berlin, Germany
+  - name: ApacheCon NA 2019
+    nav:
+    ref: apachecon-na-2019
+    href: https://www.apachecon.com/acna19/
+    registrationHref:
+    startDate: 2019-09-09
+    endDate: 2019-09-12
+    displayDate: September 9-12, 2019
+    year: 2019
+    location: Las Vegas, NV, USA
+  - name: Apache Roadshow
+    nav:
+    ref: apache-roadshow
+    href: https://apachecon.com/usroadshowdc19/
+    registrationHref:
+    startDate: 2019-03-25
+    endDate: 2019-03-25
+    displayDate: March 25, 2019
+    year: 2019
+    location: Washington, DC, USA
+  - name: ApacheCon NA 2018
+    nav:
+    ref: apachecon-na-2018
+    href: https://apachecon.com/acna18/
+    registrationHref:
+    startDate: 2018-09-24
+    endDate: 2018-09-27
+    displayDate: September 24-27, 2018
+    year: 2018
+    location: Montréal, Canada
+  - name: Apache BigData NA 2017
+    nav:
+    ref: apache-bigdata-na-2017
+    href: /events/apache-bigdata-na-2017/
+    registrationHref:
+    startDate: 2017-05-16
+    endDate: 2017-05-18
+    displayDate: May 16-18, 2017
+    year: 2017
+    location: Miami, FL
+  - name: ApacheCon NA 2017
+    nav:
+    ref: apachecon-na-2017
+    href: /events/apachecon-na-2017/
+    registrationHref:
+    startDate: 2017-05-16
+    endDate: 2017-05-18
+    displayDate: May 16-18, 2017
+    year: 2017
+    location: Miami, FL
+  - name: Apache BigData EU 2016
+    nav:
+    ref: apache-bigdata-eu-2016
+    href: /events/apache-bigdata-eu-2016/
+    registrationHref:
+    startDate: 2016-11-14
+    endDate: 2016-11-16
+    displayDate: November 14-16, 2016
+    year: 2016
+    location: Seville, Spain
+  - name: ApacheCon EU 2016
+    nav:
+    ref: apachecon-eu-2016
+    href: /events/apachecon-eu-2016/
+    registrationHref:
+    startDate: 2016-11-16
+    endDate: 2016-11-18
+    displayDate: November 16-18, 2016
+    year: 2016
+    location: Seville, Spain
+  - name: Apache BigData NA 2016
+    nav:
+    ref: apache-bigdata-na-2016
+    href: /events/apache-bigdata-na-2016/
+    registrationHref:
+    startDate: 2016-05-09
+    endDate: 2016-05-12
+    displayDate: May 9-12, 2016
+    year: 2016
+    location: Vancouver, BC
+  - name: ApacheCon NA 2016
+    nav:
+    ref: apachecon-na-2016
+    href: /events/apachecon-na-2016/
+    registrationHref:
+    startDate: 2016-05-11
+    endDate: 2016-05-13
+    displayDate: May 11-13, 2016
+    year: 2016
+    location: Vancouver, BC
+  - name: Apache BigData EU 2015
+    nav:
+    ref: apache-bigdata-eu-2015
+    href: /events/apache-bigdata-eu-2015/
+    registrationHref:
+    startDate: 2015-09-28
+    endDate: 2015-09-30
+    displayDate: September 28-30, 2015
+    year: 2015
+    location: Budapest, Hungary
+  - name: ApacheCon EU 2015
+    nav:
+    ref: apachecon-eu-2015
+    href: /events/apachecon-eu-2015/
+    registrationHref:
+    startDate: 2015-09-30
+    endDate: 2015-10-02
+    displayDate: September 30 - October 2, 2015
+    year: 2015
+    location: Budapest, Hungary
+  - name: ApacheCon NA 2015
+    nav:
+    ref: apachecon-na-2015
+    href: /events/apachecon-na-2015/
+    registrationHref:
+    startDate: 2015-04-13
+    endDate: 2015-04-16
+    displayDate: April 13-16, 2015
+    year: 2015
+    location: Austin, TX
+  - name: ApacheCon EU 2014
+    nav:
+    ref: apachecon-eu-2014
+    href: /events/apachecon-eu-2014/
+    registrationHref:
+    startDate: 2014-11-17
+    endDate: 2014-11-20
+    displayDate: November 17-20, 2014
+    year: 2014
+    location: Budapest, Hungary
+  - name: ApacheCon NA 2014
+    nav:
+    ref: apachecon-na-2014
+    href: /events/apachecon-na-2014/
+    registrationHref:
+    startDate: 2014-04-07
+    endDate: 2014-04-11
+    displayDate: April 7-11, 2014
+    year: 2014
+    location: Denver, CO
+  - name: ApacheCon NA 2013
+    nav:
+    ref: apachecon-na-2013
+    href: http://na13.apachecon.com/
+    registrationHref:
+    startDate: 2013-02-26
+    endDate: 2013-02-28
+    displayDate: February 26-28, 2013
+    year: 2013
+    location: Portland, OR
+  - name: ApacheCon EU 2012
+    nav:
+    ref: apachecon-eu-2012
+    href: http://eu12.apachecon.com/
+    registrationHref:
+    startDate: 2012-11-05
+    endDate: 2012-11-08
+    displayDate: November 5-8, 2012
+    year: 2012
+    location: Sinsheim, Germany
+  - name: ApacheCon NA 2011
+    nav:
+    ref: apachecon-na-2011
+    href: http://na11.apachecon.com/
+    registrationHref:
+    startDate: 2011-11-07
+    endDate: 2011-11-11
+    displayDate: November 7-11, 2011
+    year: 2011
+    location: Vancouver, BC
+  - name: ApacheCon NA 2010
+    nav:
+    ref: apachecon-na-2010
+    href: https://archive.apachecon.com/c/acna2010/
+    registrationHref:
+    startDate: 2010-11-01
+    endDate: 2010-11-05
+    displayDate: November 1-5, 2010
+    year: 2010
+    location: Atlanta, GA
+  - name: ApacheCon US 2009
+    nav:
+    ref: apachecon-us-2009
+    href: http://archive.apachecon.com/c/acus2009/
+    registrationHref:
+    startDate: 2009-11-02
+    endDate: 2009-11-06
+    displayDate: November 2-6, 2009
+    year: 2009
+    location: Oakland, CA
+  - name: ApacheCon EU 2009
+    nav:
+    ref: apachecon-eu-2009
+    href: http://archive.apachecon.com/c/aceu2009/
+    registrationHref:
+    startDate: 2009-03-23
+    endDate: 2009-03-27
+    displayDate: March 23-27, 2009
+    year: 2009
+    location: Amsterdam, Netherlands
+  - name: ApacheCon US 2008
+    nav:
+    ref: apachecon-us-2008
+    href: http://archive.apachecon.com/c/acus2008/
+    registrationHref:
+    startDate: 2008-11-03
+    endDate: 2008-11-08
+    displayDate: November 3-8, 2008
+    year: 2008
+    location: New Orleans, LA
+  - name: ApacheCon EU 2008
+    nav:
+    ref: apachecon-eu-2008
+    href: http://archive.apachecon.com/eu2008
+    registrationHref:
+    startDate: 2008-04-07
+    endDate: 2008-04-11
+    displayDate: April 7-11, 2008
+    year: 2008
+    location: Amsterdam, Netherlands
+  - name: ApacheCon US 2007
+    nav:
+    ref: apachecon-us-2007
+    href: http://archive.apachecon.com/us2007
+    registrationHref:
+    startDate: 2007-11-12
+    endDate: 2007-11-16
+    displayDate: November 12-16, 2007
+    year: 2007
+    location: Atlanta, GA
+  - name: ApacheCon EU 2007
+    nav:
+    ref: apachecon-eu-2007
+    href: http://archive.apachecon.com/eu2007/
+    registrationHref:
+    startDate: 2007-04-20
+    endDate: 2007-05-04
+    displayDate: April 20 - May 4, 2007
+    year: 2007
+    location: Amsterdam, Netherlands
+  - name: ApacheCon US 2006
+    nav:
+    ref: apachecon-us-2006
+    href: http://archive.apachecon.com/2006/US/
+    registrationHref:
+    startDate: 2006-10-09
+    endDate: 2006-10-13
+    displayDate: October 9-13, 2006
+    year: 2006
+    location: Austin, TX
+  - name: ApacheCon Asia 2006
+    nav:
+    ref: apachecon-asia-2006
+    href: http://archive.apachecon.com/2006/Asia/
+    registrationHref:
+    startDate: 2006-08-14
+    endDate: 2006-08-17
+    displayDate: August 14-17, 2006
+    year: 2006
+    location: Colombo, Sri Lanka
+  - name: ApacheCon EU 2006
+    nav:
+    ref: apachecon-eu-2006
+    href: http://archive.apachecon.com/2006/EU/
+    registrationHref:
+    startDate: 2006-06-26
+    endDate: 2006-06-30
+    displayDate: June 26-30, 2006
+    year: 2006
+    location: Dublin, Ireland
+  - name: ApacheCon US 2005
+    nav:
+    ref: apachecon-us-2005
+    href: http://archive.apachecon.com/2005/US/
+    registrationHref:
+    startDate: 2005-12-10
+    endDate: 2005-12-14
+    displayDate: December 10-14, 2005
+    year: 2005
+    location: San Diego, CA
+  - name: ApacheCon EU 2005
+    nav:
+    ref: apachecon-eu-2005
+    href: http://archive.apachecon.com/2005/EU/
+    registrationHref:
+    startDate: 2005-07-18
+    endDate: 2005-07-22
+    displayDate: July 18-22, 2005
+    year: 2005
+    location: Stuttgart, Germany
+  - name: ApacheCon US 2004
+    nav:
+    ref: apachecon-us-2004
+    href: http://archive.apachecon.com/2004/US/
+    registrationHref:
+    startDate: 2004-11-13
+    endDate: 2004-11-17
+    displayDate: November 13-17, 2004
+    year: 2004
+    location: Las Vegas, NV
+  - name: ApacheCon US 2003
+    nav:
+    ref: apachecon-us-2003
+    href: http://archive.apachecon.com/2003/US/
+    registrationHref:
+    startDate: 2003-11-16
+    endDate: 2003-11-19
+    displayDate: November 16-19, 2003
+    year: 2003
+    location: Las Vegas, NV
+  - name: ApacheCon US 2002
+    nav:
+    ref: apachecon-us-2002
+    href: http://archive.apachecon.com/2002/US/
+    registrationHref:
+    startDate: 2002-11-18
+    endDate: 2002-11-21
+    displayDate: November 18-21, 2002
+    year: 2002
+    location: Las Vegas, NV
+  - name: ApacheCon US 2001
+    nav:
+    ref: apachecon-us-2001
+    href: http://archive.apachecon.com/2001/US/
+    registrationHref:
+    startDate: 2001-04-04
+    endDate: 2001-04-06
+    displayDate: April 4-6, 2001
+    year: 2001
+    location: Santa Clara, CA
+  - name: ApacheCon EU 2000
+    nav:
+    ref: apachecon-eu-2000
+    href: http://archive.apachecon.com/2000/EU/
+    registrationHref:
+    startDate: 2000-10-23
+    endDate: 2000-10-25
+    displayDate: October 23-25, 2000
+    year: 2000
+    location: London, England
+  - name: ApacheCon US 2000
+    nav:
+    ref: apachecon-us-2000
+    href: http://archive.apachecon.com/2000/US/
+    registrationHref:
+    startDate: 2000-03-08
+    endDate: 2000-03-10
+    displayDate: March 8-10, 2000
+    year: 2000
+    location: Orlando, FL
+  - name: ApacheCon 1998
+    nav:
+    ref: apachecon-1998
+    href: http://www.apacheweek.com/features/apachecon98
+    registrationHref:
+    startDate: 1998-10-14
+    endDate: 1998-10-16
+    displayDate: October 14-16, 1998
+    year: 1998
+    location: San Francisco, CA
