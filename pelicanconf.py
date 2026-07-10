@@ -21,7 +21,7 @@ import datetime
 # Basic information about the site.
 SITENAME = 'Community Over Code'
 SITEDESC = 'Community Over Code is a website about the people who make up the Apache Software Foundation, and the events that bring them together.'
-SITEDOMAIN = 'www.communityovercode.org'
+SITEDOMAIN = 'communityovercode.apache.org'
 SITEURL = 'http://communityovercode.apache.org/'
 SITELOGO = 'https://www.communityovercode.org/images/logo.png'
 SITEREPOSITORY = 'https://github.com/apache/conferences-cc-website/blob/main/content/'
