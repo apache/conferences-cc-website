@@ -1,0 +1,39 @@
+github:
+  description: "CommunityOverCode Website"
+  homepage: https://communityovercode.apache.org/
+  labels:
+    - communityovercode
+    - apachecon
+    - asf
+    - apache
+  enabled_merge_buttons:
+    squash: false
+    merge: true
+    rebase: false
+  features:
+    # Enable issue management
+    issues: true
+  pull_requests:
+    del_branch_on_merge: true
+
+notifications:
+  commits:              notifications@conferences.apache.org
+  pullrequests:         notifications@conferences.apache.org
+  issues:               notifications@conferences.apache.org
+
+publish:
+  whoami: asf-site
+  hostname: communityovercode.apache.org
+
+pelican:
+  notify: notifications@conferences@apache.org
+  autobuild: preview/*
+  target: asf-site
+  # theme: theme/apache - unsure what theme?
+  # minimum_page_count: 170 - needed or no?
+  whoami: main
+
+staging:
+  profile: ~
+  whoami: asf-site
+  autostage: preview/*
