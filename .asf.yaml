@@ -26,7 +26,7 @@ publish:
   hostname: communityovercode.apache.org
 
 pelican:
-  notify: site-cvs@apache.org
+  notify: commits@conferences@apache.org
   autobuild: preview/*
   target: asf-site
   # theme: theme/apache - unsure what theme?
