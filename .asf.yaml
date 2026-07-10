@@ -15,7 +15,25 @@ github:
     issues: true
   pull_requests:
     del_branch_on_merge: true
+
 notifications:
   commits:              notifications@conferences.apache.org
   pullrequests:         notifications@conferences.apache.org
   issues:               notifications@conferences.apache.org
+
+publish:
+  whoami: asf-site
+  hostname: communityovercode.apache.org
+
+pelican:
+  notify: site-cvs@apache.org
+  autobuild: preview/*
+  target: asf-site
+  # theme: theme/apache - unsure what theme?
+  # minimum_page_count: 170 - needed or no?
+  whoami: main
+
+staging:
+  profile: ~
+  whoami: asf-site
+  autostage: preview/*
