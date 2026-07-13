@@ -1,0 +1,28 @@
+name: Build a Pelican Website
+on:
+  push:
+    # This prevents the workflow from running automatically on a new branch
+    # When creating a new site branch, please ensure that the push and checkout branches agree
+    # and that the action/pelican destination value is updated accordingly
+    branches: ['main']
+    paths:
+      - 'content/**'
+      - 'pelicanconf.py'
+      - '.asf.yaml'
+  workflow_dispatch:
+jobs:
+  build-pelican:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # because we push to asf-site
+    steps:
+      - uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3  # v6.0.0
+        with:
+          persist-credentials: true
+          ref: ${{ github.ref || 'main' }}
+      - uses: apache/infrastructure-actions/pelican@2e014efada5096d1769017cf3b9c468212ca2f31
+        with:
+          # This must be appropriate for the branch being built
+          destination: 'asf-site'
+          gfm: 'true'
+          debug: 'true'
