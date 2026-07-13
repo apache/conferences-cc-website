@@ -11,6 +11,11 @@ This repository provides the source for the CommunityOverCode website of The Apa
   - Static assets of all types.
   - .htaccess files for redirection and rewrite rules.
 
+
+## Adding An Event
+
+For details on adding an event, see [content/events/README.md](content/events/README.md).
+
 - [Issues](https://github.com/apache/conferences-cc-website/issues)
 
 - [Branches](https://github.com/apache/conferences-cc-website/branches). Note that [.asf.yaml](./.asf.yaml) is set up for autopreview. A branch named `preview/mytest` for example is automatically staged at https://www-mytest.staged.apache.org/
