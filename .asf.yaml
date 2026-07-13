@@ -25,13 +25,13 @@ publish:
   whoami: asf-site
   hostname: communityovercode.apache.org
 
-pelican:
-  notify: notifications@conferences@apache.org
-  autobuild: preview/*
-  target: asf-site
+#pelican:
+#  notify: notifications@conferences@apache.org
+#  autobuild: preview/*
+#  target: asf-site
   # theme: theme/apache - unsure what theme?
   # minimum_page_count: 170 - needed or no?
-  whoami: main
+#  whoami: main
 
 staging:
   profile: ~
