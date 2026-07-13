@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/favicons/manifest.json">
+    <link rel="shortcut icon" href="/favicons/favicon.png">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#282661">
+
+    <title>ApacheCon EU 2014 | Apache Software Foundation Events</title>
+    <link href="/fonts/Montserrat-300-600-800.css" async rel="stylesheet">
+    <link href="/css/styles.css" async rel="stylesheet">
+    <script src="https://www.apachecon.com/event-images/snippet.js" async></script>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/init.js"></script>
+</head>
+<body   class="body-apachecon-eu-2014" >
+    <header id="header-main">
+         <div class="inner relative z1 flex flex-space-between flex-vert-center">
+            <a href="/" class="logo">
+                <img src="/images/CommunityOverCode_Logo_horizontal-color.svg" alt="ASF Events">
+            </a>
+            <div id="nav-toggle" class="nav-toggle hidden">
+                <span id="nav-top"></span>
+                <span id="nav-mid"></span>
+                <span id="nav-btm"></span>
+            </div>
+            
+            
+<nav>
+    <ul class="flex">
+        <li><a href="/about/">About</a></li>
+        <li><a href="/sponsors/">Sponsors</a></li>
+        <li><a href="https://news.apache.org/foundation/entry/category/events">News</a></li>
+    </ul>
+</nav>    </header>
+
+
+        <div class="hero hero--event-home relative" style="background-image: url('');">
+            <div class="inner flex py-xl relative flex-vert-center z1 flex-col-reverse-800 flex-gap-50">
+                <div class="hero__content flex-1">
+                    <h1 class="hero__title">
+                        Community Over Code
+                            <span class="hero__subtitle">Budapest, Hungary</span>
+                    </h1>
+                    <div class="hero-event-dates text-white">November 17-20, 2014</div>
+                    <div class="hero-ctas flex flex-gap-20 flex-wrap">
+                    </div>
+                </div>
+                <div class="hero__logo flex-1">
+                        <img src="/images/CoC-logo-white.webp" alt="Community Over Code logo" class="hero__logo-image">
+                </div>
+            </div>
+                <script>
+                    // Countdown timer script
+                    let countdownInterval;
+                    
+                    function updateCountdown() {
+                        const countdownWrapper = document.getElementById('countdown-wrapper');
+                        const targetDate = new Date(countdownWrapper.getAttribute('data-date')).getTime();
+                        const now = new Date().getTime();
+                        const distance = targetDate - now;
+                        if(distance > 0) {
+                            countdownWrapper.classList.add('show');
+                        } else {
+                            clearInterval(countdownInterval); // Stop the interval
+                            // remove countdown from the dom
+                            countdownWrapper.remove();
+                            return;
+                        }
+                        
+                        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                        document.getElementById('cd-days').textContent = String(days).padStart(2, '0');
+                        document.getElementById('cd-hours').textContent = String(hours).padStart(2, '0');
+                        document.getElementById('cd-minutes').textContent = String(minutes).padStart(2, '0');
+                        document.getElementById('cd-seconds').textContent = String(seconds).padStart(2, '0');
+                    }
+
+                    countdownInterval = setInterval(updateCountdown, 1000);
+                    updateCountdown(); // Initial call to set values immediately
+                </script>
+                <div id="countdown-wrapper" class="countdown" data-date="2014-11-17">
+                    <div class="countdown__box card">
+                        <span id="cd-days" class="countdown__number">00</span>
+                        <span class="countdown__label">Days</span>
+                    </div>
+                    <div class="countdown__box card">
+                        <span id="cd-hours" class="countdown__number">00</span>
+                        <span class="countdown__label">Hours</span>
+                    </div>
+                    <div class="countdown__box card">
+                        <span id="cd-minutes" class="countdown__number">00</span>
+                        <span class="countdown__label">Minutes</span>
+                    </div>
+                    <div class="countdown__box card">
+                        <span id="cd-seconds" class="countdown__number">00</span>
+                        <span class="countdown__label">Seconds</span>
+                    </div>
+                </div>
+        </div>
+    <section class="maincontent maincontent--single-event">
+        <div class="inner flex-col-800 flex pt-xl">
+            <div class="flex-1"></div>
+            <div class="flex-2">
+                    <h2>Event Info</h2>
+<p><a class="btn" href="http://events.linuxfoundation.org/events/archive/2014/apachecon-europe" target="_blank">Press Release</a></p>
+<hr/>
+<h2>Schedules</h2>
+<p><a class="btn" href="https://apacheconeu2014.sched.com/" target="_blank">Schedule</a></p>
+<hr/>
+<h2>Slides</h2>
+<p><a class="btn" href="http://events.linuxfoundation.org/events/archive/2014/apachecon-europe/program/slides" target="_blank">Slides</a></p>
+<hr/>
+<h2>Pictures</h2>
+<p><a class="btn" href="https://www.flickr.com/photos/linuxfoundation/albums/72157648942693628" target="_blank">Flickr Album</a></p>
+<hr/>
+
+            </div>
+        </div>
+    </section>
+    <!-- 
+        NOTE: For this section to work, to update the sponsors.json file in the event directory.  
+        - Add all of your sponsors to the appropriate category (diamond, gold, silver).
+        - Make sure to include the sponsor's name, logo URL, and link URL in the JSON file.
+        - update the asfdata.yaml file to include the path to your sponsors.json file under the sponsors key, using a unique key for your event (e.g., glasgow-2026). 
+        - in the event landing page meta data, set the sponsorskey to match the key you used in asfdata.yaml (e.g., glasgow-2026) 
+    -->
+       
+    <!-- Footer -->
+        <div class="footer-top-border"></div>
+        <footer>
+            <div class="inner py-large flex flex-gap-50">
+                <div class="flex flex-column flex-gap-20 flex-1 text-white">
+                   <img src="/images/logos/CommunityOverCode_Logo_stacked-white.webp" width="200" alt="Apache Software Foundation">
+                   <p>The Apache® Software Foundation (The ASF) provides software for the public good, guided by community over code. Learn more at apache.org.</p>
+                   <p>Apache and the Apache logo are trademarks of The Apache Software Foundation.</p>
+                   <p>The Apache® Software Foundation is a 501(c)(3) nonprofit organization. Tax ID # 47-0825376</p>
+                </div>
+                <div class="flex flex-column flex-gap-20 flex-1">
+                    <nav class="footer-nav">
+                        <ul class="flex flex-column flex-gap-10 ">
+                            <li><a href="/events">Events</a></li>
+                            <li><a href="https://news.apache.org/foundation/entry/category/events">News</a></li>
+                            <li><a href="/about#contact-section">Contact</a></li>
+                            <li><a href="/code-of-conduct">Code of Conduct</a></li>
+                            <li><a href="https://privacy.apache.org/policies/privacy-policy-public.html">Privacy Policy</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="flex flex-column flex-gap-20 footer-events flex-1">
+                    <h2 class="text-heading-light">ASF Events</h2>
+                        <div class="card card--footer">
+                            <a href="/events/asia-2026">
+                                <div class="card-inner flex flex-column">
+                                    <div class="event-card__date">August 7-9, 2026</div>
+                                    <h4>Community Over Code Asia 2026</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card card--footer">
+                            <a href="/events/glasgow-2026">
+                                <div class="card-inner flex flex-column">
+                                    <div class="event-card__date">October 11-14, 2026</div>
+                                    <h4>Community Over Code Glasgow 2026</h4>
+                                </div>
+                            </a>
+                        </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+
+
