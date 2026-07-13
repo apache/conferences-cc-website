@@ -4,13 +4,13 @@ ref: glasgow-2026
 heroBackgroundImage: ../images/events/event-hero-glasgow.webp
 eventLogo: /images/logos/CommunityOverCode_Logo_stacked-white.svg
 bannerText: CFP is open until June 30, 2026!
-bannerLink: /events/glasgow-2026/call-for-presentations/
+bannerLink: /events/glasgow-2026/call-for-presentations
 bannerLinkText: Submit Today
 sponsorsKey: glasgow-2026
 ctaText: View the Schedule
-ctaLink: /events/glasgow-2026/schedule/
+ctaLink: /events/glasgow-2026/schedule
 ctaTwoText: Submit a Presentation
-ctaTwoLink: /events/glasgow-2026/call-for-presentations/
+ctaTwoLink: /events/glasgow-2026/call-for-presentations
 
 <!-- 
     ref: REQUIRED - Must be unique - Used for matching event data from events.yaml in events page templates.
