@@ -17,8 +17,7 @@ template: page-full-width
                     [for events]<div class="card">
                         <div class="card-inner flex flex-gap-20">
                             <div class="event-card__image">
-                                <!-- the following can have no spaces or it will fail. -->
-                                [if-any events.image]<img src="[events.image]" alt="[events.name]">[else]<img width="100" height="100" src="/images/events/event-card-default.jpg" alt="Community Over Code">[end]
+                              <img width="100" height="100" src="/images/events/event-card-default.jpg" alt="Community Over Code">
                             </div>
                             <div class="event-card__content">
                                 <div class="event-card__date">[events.displayDate]</div>
