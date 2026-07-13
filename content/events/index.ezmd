@@ -10,7 +10,7 @@ description: Community Over Code is the official conference of the Apache Softwa
                 <div class="card-inner">
                     <div class="colo-image-wrapper">
                         <!-- the following can have no spaces or it will fail. -->
-                        [if-any events.image]<img src="[events.image]" alt="[events.name]" width="333" height="187" loading="lazy">[else]<img width="333" height="187" src="/images/events/event-card-default.webp" loading="lazy" alt="Community Over Code">[end]
+                       <img width="333" height="187" src="/images/events/event-card-default.webp" loading="lazy" alt="Community Over Code">
                     </div>
                     <div class="event-card__content">
                         <div class="event-card__location">[events.location]</div>
