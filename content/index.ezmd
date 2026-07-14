@@ -156,7 +156,7 @@ template: page-full-width
 <section class="home-sponsors">
     <div class="inner cf relative z1 py-xl text-center">
         <h2>Sponsor an Event Today</h2>
-        <p><a class="btn" href="/sponsors">Become a Sponsor</a></p>
+        <p><a class="btn" href="/sponsorship">Become a Sponsor</a></p>
     </div>
 </section>
 <p><script src="../js/home-js.js"></script></p>
