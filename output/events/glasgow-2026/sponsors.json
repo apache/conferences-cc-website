@@ -1,9 +1,9 @@
 {
     "platinum": [
         {
-            "name": "AWS", 
-            "logo": "/images/sponsors/logo-aws.webp",
-            "link": "https://www.aws.com"
+            "name": "Apple", 
+            "logo": "/images/sponsors/apple-platinum.png",
+            "link": "https://www.apple.com"
         },
         {
             "name": "Bloomberg", 
@@ -11,16 +11,31 @@
             "link": "https://www.bloomberg.com"
         },
         {
-            "name": "Gradle", 
-            "logo": "/images/sponsors/logo-gradle.webp",
-            "link": "https://www.gradle.com"
+            "name": "Google", 
+            "logo": "/images/sponsors/google.png",
+            "link": "https://www.google.com"
+        },
+        {
+            "name": "Red Hat", 
+            "logo": "/images/sponsors/red_hat_logo.webp",
+            "link": "https://www.redhat.com"
+        },
+        {
+            "name": "NetApp", 
+            "logo": "/images/sponsors/NetApp-Instaclustr-Logo.webp",
+            "link": "https://www.netapp.com"
+        },
+        {
+            "name": "Snowflake", 
+            "logo": "/images/sponsors/Snowflake_Logo_CMYK_blue-1.webp",
+            "link": "https://www.snowflake.com/en/"
         }
     ],
     "gold": [
         {
-            "name": "AWS", 
-            "logo": "/images/sponsors/logo-aws.webp",
-            "link": "https://www.aws.com"
+            "name": "Apple", 
+            "logo": "/images/sponsors/apple-platinum.png",
+            "link": "https://www.apple.com"
         },
         {
             "name": "Bloomberg", 
@@ -28,125 +43,24 @@
             "link": "https://www.bloomberg.com"
         },
         {
-            "name": "Gradle", 
-            "logo": "/images/sponsors/logo-gradle.webp",
-            "link": "https://www.gradle.com"
-        },
-         {
-            "name": "Bloomberg", 
-            "logo": "/images/sponsors/logo-bloomberg.webp",
-            "link": "https://www.bloomberg.com"
+            "name": "Google", 
+            "logo": "/images/sponsors/google.png",
+            "link": "https://www.google.com"
         },
         {
-            "name": "Gradle", 
-            "logo": "/images/sponsors/logo-gradle.webp",
-            "link": "https://www.gradle.com"
-        }
-    ],
-    "silver": [
-        {
-            "name": "AWS", 
-            "logo": "/images/sponsors/logo-aws.webp",
-            "link": "https://www.aws.com"
+            "name": "Red Hat", 
+            "logo": "/images/sponsors/red_hat_logo.webp",
+            "link": "https://www.redhat.com"
         },
         {
-            "name": "Bloomberg", 
-            "logo": "/images/sponsors/logo-bloomberg.webp",
-            "link": "https://www.bloomberg.com"
+            "name": "NetApp", 
+            "logo": "/images/sponsors/NetApp-Instaclustr-Logo.webp",
+            "link": "https://www.netapp.com"
         },
         {
-            "name": "Gradle", 
-            "logo": "/images/sponsors/logo-gradle.webp",
-            "link": "https://www.gradle.com"
-        },
-         {
-            "name": "Bloomberg", 
-            "logo": "/images/sponsors/logo-bloomberg.webp",
-            "link": "https://www.bloomberg.com"
-        },
-        {
-            "name": "Gradle", 
-            "logo": "/images/sponsors/logo-gradle.webp",
-            "link": "https://www.gradle.com"
-        },
-        {
-            "name": "AWS", 
-            "logo": "/images/sponsors/logo-aws.webp",
-            "link": "https://www.aws.com"
-        },
-        {
-            "name": "Bloomberg", 
-            "logo": "/images/sponsors/logo-bloomberg.webp",
-            "link": "https://www.bloomberg.com"
-        },
-        {
-            "name": "Gradle", 
-            "logo": "/images/sponsors/logo-gradle.webp",
-            "link": "https://www.gradle.com"
-        },
-         {
-            "name": "Bloomberg", 
-            "logo": "/images/sponsors/logo-bloomberg.webp",
-            "link": "https://www.bloomberg.com"
-        },
-        {
-            "name": "Gradle", 
-            "logo": "/images/sponsors/logo-gradle.webp",
-            "link": "https://www.gradle.com"
-        }
-    ],
-    "bronze": [
-        {
-            "name": "AWS", 
-            "logo": "/images/sponsors/logo-aws.webp",
-            "link": "https://www.aws.com"
-        },
-        {
-            "name": "Bloomberg", 
-            "logo": "/images/sponsors/logo-bloomberg.webp",
-            "link": "https://www.bloomberg.com"
-        },
-        {
-            "name": "Gradle", 
-            "logo": "/images/sponsors/logo-gradle.webp",
-            "link": "https://www.gradle.com"
-        },
-         {
-            "name": "Bloomberg", 
-            "logo": "/images/sponsors/logo-bloomberg.webp",
-            "link": "https://www.bloomberg.com"
-        },
-        {
-            "name": "Gradle", 
-            "logo": "/images/sponsors/logo-gradle.webp",
-            "link": "https://www.gradle.com"
-        }
-    ],
-    "lightning_talks": [
-        {
-            "name": "AWS", 
-            "logo": "/images/sponsors/logo-aws.webp",
-            "link": "https://www.aws.com"
-        },
-        {
-            "name": "Bloomberg", 
-            "logo": "/images/sponsors/logo-bloomberg.webp",
-            "link": "https://www.bloomberg.com"
-        },
-        {
-            "name": "Gradle", 
-            "logo": "/images/sponsors/logo-gradle.webp",
-            "link": "https://www.gradle.com"
-        },
-         {
-            "name": "Bloomberg", 
-            "logo": "/images/sponsors/logo-bloomberg.webp",
-            "link": "https://www.bloomberg.com"
-        },
-        {
-            "name": "Gradle", 
-            "logo": "/images/sponsors/logo-gradle.webp",
-            "link": "https://www.gradle.com"
+            "name": "Snowflake", 
+            "logo": "/images/sponsors/Snowflake_Logo_CMYK_blue-1.webp",
+            "link": "https://www.snowflake.com/en/"
         }
     ]
 }

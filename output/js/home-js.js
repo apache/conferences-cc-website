@@ -6,8 +6,7 @@ jQuery(function(){
         '../images/events-news-1.webp',
         '../images/events-news-2.webp',
         '../images/events-news-3.webp',
-        '../images/events-news-4.webp',
-        '../images/events-news-5.webp',
+        '../images/events-news-4.webp'
     ];
     const imgCount = eventsNewsImages.length;
     // get random index to start with
