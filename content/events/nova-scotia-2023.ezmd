@@ -1,19 +1,6 @@
-title: Community Over Code North America 2025
+title: Community Over Code Novia Scotia 2023
 template: page-event-landing
 ref: nova-scotia-2023
-
-<!-- 
-	Fill out all meta info above. It will be used in the page template to create the page 
-	start_date: used for event countdown and meta tags. Format: YYYY-MM-DD
-	end_date: used for event countdown and meta tags. Format: YYYY-MM-DD
-	location: used in hero section and meta tags
-	registration_link: OPTIONAL- URL for the registration page. If not provided, the "Register Now" button will not be shown.
-	registration_link_text: OPTIONAL- Text for the registration button. If not provided, the "Register Now" button will not be shown.
-	banner_text: OPTIONAL- Text for the banner at the top of the page. If not provided, the banner will not be shown.
-	banner_link: OPTIONAL- URL for the banner link. If not provided, the banner will not be clickable.
-	banner_link_text: OPTIONAL- Text for the banner link. If not provided, the banner will not
-	sponsors_key: used to link the sponsors data from asfdata.yaml to this event. Make sure to add the sponsors data in asfdata.yaml with the same key.
--->
 
 ## Sessions
 
@@ -27,7 +14,7 @@ ref: nova-scotia-2023
 
 #### Open Source in Africa and Why You Should be a Part of It
 
-The production and consumption of Open Source projects are widely used and Africans are not left out. We are on a journey of creating impact while building innovative solutions through Open Source. In this talk, I will take you on a journey of identity in Africa and how we are contributing and making a difference in the lives of people [slides](https://www.google.com)
+The production and consumption of Open Source projects are widely used and Africans are not left out. We are on a journey of creating impact while building innovative solutions through Open Source. In this talk, I will take you on a journey of identity in Africa and how we are contributing and making a difference in the lives of people 
 
 **Speaker:** Abigail Mesrenyame Dogbe
 
@@ -40,7 +27,7 @@ When she is not contributing to open source, she is inspiring the next generatio
 #### Why open source AI matters: towards a clear definition
 
 The number of publicly available AI models is growing exponentially, doubling every six months. With this explosion, communities and policymakers are asking questions and proposing legislation to address open source AI’s innovation benefits, safety risks, impact on sovereignty, and competitive economics against closed models.
-Against this backdrop, open source communities need a clear and consistent definition of open source AI to ensure that the “open source” marker signals safety and respect for AI developers, rights for end users, and frictionless improvement for the broader community. In this keynote, OSI board member Justin Colannino will talk about what OSI is doing to build this needed open source AI definition and how you can help. [slides](https://www.google.com)
+Against this backdrop, open source communities need a clear and consistent definition of open source AI to ensure that the “open source” marker signals safety and respect for AI developers, rights for end users, and frictionless improvement for the broader community. In this keynote, OSI board member Justin Colannino will talk about what OSI is doing to build this needed open source AI definition and how you can help. 
 
 **Speaker:** Justin Colannino
 
@@ -48,7 +35,7 @@ Justin is a lawyer with over a decade of experience representing clients at the 
 
 #### Foundations Considered Essential
 
-The role of open source foundations has never been more important. Once upon a time, it was a generally accepted wisdom that open source foundations provided developers useful services, infrastructure, governance, and a sense of community. The rise of GitHub and social coding challenged that assumption, as did the rise of venture-funded open source startups. But it is becoming increasingly apparent that open source foundations play a crucial role in fostering, governing, and sustaining the open source projects that truly matter. Open source foundations not only protect developers, they provide value to consumers and adopters of open source by guaranteeing a level playing field with fair and consistent policies for all stakeholders. They also provide a voice for developer communities in an increasingly complex regulatory and geopolitical environment. This talk will focus on the values that we share, the successes we enjoy, and the challenges we face. [slides](https://www.google.com)
+The role of open source foundations has never been more important. Once upon a time, it was a generally accepted wisdom that open source foundations provided developers useful services, infrastructure, governance, and a sense of community. The rise of GitHub and social coding challenged that assumption, as did the rise of venture-funded open source startups. But it is becoming increasingly apparent that open source foundations play a crucial role in fostering, governing, and sustaining the open source projects that truly matter. Open source foundations not only protect developers, they provide value to consumers and adopters of open source by guaranteeing a level playing field with fair and consistent policies for all stakeholders. They also provide a voice for developer communities in an increasingly complex regulatory and geopolitical environment. This talk will focus on the values that we share, the successes we enjoy, and the challenges we face. 
 
 **Speaker:** Mike Milinkovich
 
@@ -1012,13 +999,9 @@ Jeff, Unity Foundation, has been committed to open source and open solutions for
 #### Open Source Software and You
 Open Source Software (OSS) has been part of our industry for decades. It is so ubiquitous that in certain domains it is practically impossible to develop systems without using OSS. You probably use OSS every day and often may not even think about it. Taking a more active role in OSS can help you be more productive and can help others do the same. This involvement doesn’t have to mean quitting your day job and spending most of your time contributing OSS software to the community (though you can, and it can be an awesome experience). Your involvement can be minimal or can be the primary focus of your development efforts. Many developers are surprised to learn the ways they can contribute to making OSS better and not all of them demand a lot of time or effort.
 In this session I will discuss having a career dedicated to developing, managing, evangelizing, and supporting OSS projects. We will address and clarify some misconceptions that folks often have about OSS and will discuss ways that all of us can help OSS continue to be successful and a more impactful part of our industry.
-
-**Speaker:** Jeff Scott Brown
-Jeff, Unity Foundation, has been committed to open source and open solutions for his entire career. He has contributed to numerous widely adopted OSS frameworks and enjoys engaging with the community. At the Unity Foundation, he and the team are dedicated to bringing technology solutions to bear on issues related to equality and creating solutions which provide equitable access to information regardless of socioeconomic status. Jeff is passionate about advocating for Inclusion, Diversity, Equity, and Action (IDEA).
-
 ### Highlights Track
 
-#### Leveraging Large Language Models for SQL generation in Hue [Cloudera Sponsor Session]
+#### Leveraging Large Language Models for SQL generation in Hue Cloudera Sponsor Session
 The rapid advancements in large language models have opened new possibilities in various natural language processing tasks including SQL generation. In this case study, we delve into the technical intricacies of seamlessly integrating LLMs into Hue, the SQL editor of choice at Cloudera. This integration unlocks enhanced functionalities and empowers users with a more intuitive and user-friendly approach to interact with relational databases. The case study commences by exploring the diverse tasks that LLMs can efficiently perform, such as SQL generation, optimization, and summarization. Then we investigate the feasibility of using Langchain for performing these tasks. Further, we propose an innovative approach using GenAI and semantic search to support large schemas with thousands of tables. Then we examine ways to support built-in and user-defined functions in various dialects. And finally, design a vendor and infra-independent architecture for integrating with LLMs.
 The talk also introduces datasets we used for benchmarking, and based on empirical evaluation explains how we achieved state-of-the-art results on a wide range of SQL generation tasks.
 
@@ -1027,13 +1010,13 @@ Sreenath is an IC, Programmer, System Designer, UX Designer and Mentor. He comes
 **Speaker:** Subrata Nandi
 Subrata Nandi is leading the strategic & technical leadership and driving innovation within the engineering teams at Cloudera. He is a veteran in building distributable databases/Mobile platforms at Sybase and has delivered many enterprise applications at SAP. Subrata holds two MBAs from CSUEB, PMI & Data Warehouse from UC Berkeley & BS in Physics Honors from the University of Calcutta, India. He is currently working as a director of engineering at Cloudera.
 
-#### Developer Productivity Engineering for Open Source Communities [Gradle Sponsored Session]
+#### Developer Productivity Engineering for Open Source Communities [[]Gradle Sponsored Session]
 The emerging practice of Developer Productivity Engineering focuses on identifying and removing productivity pitfalls in the developer toolchain. This can encourage contribution and increase user confidence in your open source project. We will explore and demonstrate using Apache projects how we can make the developer toolchain faster and more stable with Develocity and how that leads to faster contributions, higher-quality contributions, and more contributions. (Slides)
 
 **Speaker:** Etienne Studer
 Etienne Studer is the SVP of Engineering, Gradle Enterprise, at Gradle Inc. He leads the engineering team behind Gradle Enterprise. As the founding team lead of Gradle Enterprise since 2015, he has successfully scaled and guided a fully distributed team of engineers across the globe that develops and delivers innovative technologies to improve developer productivity dramatically and transform the developer experience. Etienne holds a Master’s in Molecular Biology from the University of Basel, Switzerland.
 
-#### Setting up Apache Cassandra and Apache Kafka clusters [Instaclustr Sponsored Session]
+#### Setting up Apache Cassandra and Apache Kafka clusters [[]Instaclustr Sponsored Session]
 In this session come learn a little about Instaclustr as Kassian spins up a Cassandra and Kafka cluster using the dashboard and writes a basic application to use them. We’ll discuss the open source technologies behind Instaclustr and how you can get started.
 
 **Speaker:** Kassian Wren
@@ -1062,7 +1045,7 @@ The talk explains the journey from a test cluster with RPI to a small IoT infrac
 
 **Speaker:** Jean-Frederic Clere
 Jean-Frederic has spent more than 30 years writing client/server software.
-His knowledges range from Cobol to Java, BS2000 to Linux and /390 to i386 but with preference to the later ;).
+His knowledges range from Cobol to Java, BS2000 to Linux and /390 to i386 but with preference to the later.
 He is committer in Httpd and Tomcat and he likes complex projects where different languages and machines are involved.
 Borne in France, Jean-Frederic lived in Barcelona (Spain) for 14 years.
 Since May 2006 he lives in Neuchatel (Switzerland) where he works for RedHat on Tomcat, httpd and cloud/cluster related topics.
@@ -1077,7 +1060,7 @@ Kassian (they/their/them) is an Open Source Technology Evangelist at NetApp on t
 
 #### Faster, easier, more stable and scalable V1.x Apache IoTDB: A Time Series Database for IoT Applications
 In this talk, I will introduce the new requirements of time series data management posed by typical industrial scenario which not well addressed in other existing solutions, including (1) device-defined ever-evolving schema, (2) mostly periodical data collection, (3) strongly correlated series, (4) variously delayed data arrival, and (5) highly concurrent data ingestion.
-And then I will introduce the new distributed architecture of Apache IoTDB V1.x, including: 1) overall cluster architecture and node roles; 2) data and metadata sharding; 3) MPP query engine; 4) IoT consensus protocol which is a distributed consensus protocol optimized for IoT scenarios; and explain how IoTDB uses these technologies to solve the above problems.
+And then I will introduce the new distributed architecture of Apache IoTDB V1.x, including: 1. overall cluster architecture and node roles; 2. data and metadata sharding; 3. MPP query engine; 4. IoT consensus protocol which is a distributed consensus protocol optimized for IoT scenarios; and explain how IoTDB uses these technologies to solve the above problems.
 In the past year, IoTDB QueryEngine has also supported more time-series-related features which greatly improved usability of IoTDB. I will compare the short sql written in IoTDB using these new features and the verbose standard relational sql written by ChatGPT.
 Finally, I will also share with you some IoTDB application cases and solutions in various industries, including the Internet of Vehicles scenario with millions of vehicles and billions of time series, the application of end-edge-cloud collaboration technology in an industrial enterprise with the highest steel output in the world and so on.
 
@@ -1245,9 +1228,9 @@ When he isn’t on clients’ projects, he is actively contributing to the open-
 
 #### Fighting Adversarial Regular Expressions in Apache Lucene
 Regular expressions are a compact and powerful approach for matching strings and are well supported in Lucene using RegexpQuery. However, such queries can be surprisingly costly, leading to a possible denial of service (ReDoS) vulnerability in search services built on Lucene.
-This talk will first briefly introduce how Lucene executes RegexpQuery using a pre-determinized finite state automaton or DFA matching approach. This yields fast query execution, but Lucene must guard against the determinization pre-step taking too much work and reject the query, preventing such costly regular expressions from being used in Lucene at all. Next I’ll describe a recent Lucene bug that led to an adversarial ReDoS query impacting an OpenSearch user [1] and how we fixed and optimized it. I’ll present the ongoing development efforts to execute the RegexQuery directly using a non-deterministic finite state automaton (NFA) instead, guided by the method described in Russ Cox’s paper [2]. Finally I’ll walk through the pros and cons of these two execution methods for Lucene’s RegexpQuery so that future Lucene users can understand and reduce the risk and impact of ReDoS attacks in their search applications.
-[1] https://github.com/opensearch-project/OpenSearch/issues/687
-[2] https://swtch.com/~rsc/regexp/regexp1.html (Slides)
+This talk will first briefly introduce how Lucene executes RegexpQuery using a pre-determinized finite state automaton or DFA matching approach. This yields fast query execution, but Lucene must guard against the determinization pre-step taking too much work and reject the query, preventing such costly regular expressions from being used in Lucene at all. Next I’ll describe a recent Lucene bug that led to an adversarial ReDoS query impacting an OpenSearch user [[]1] and how we fixed and optimized it. I’ll present the ongoing development efforts to execute the RegexQuery directly using a non-deterministic finite state automaton (NFA) instead, guided by the method described in Russ Cox’s paper [[]2]. Finally I’ll walk through the pros and cons of these two execution methods for Lucene’s RegexpQuery so that future Lucene users can understand and reduce the risk and impact of ReDoS attacks in their search applications.
+[[]1] https://github.com/opensearch-project/OpenSearch/issues/687
+[[]2] https://swtch.com/~rsc/regexp/regexp1.html (Slides)
 
 **Speaker:** Haoyu Zhai
 Lucene committer
@@ -1615,7 +1598,7 @@ Panama allows us to retain the performance and capabilities of the existing tomc
 
 **Speaker:** Jean-Frederic Clere
 Jean-Frederic has spent more than 30 years writing client/server software.
-His knowledges range from Cobol to Java, BS2000 to Linux and /390 to i386 but with preference to the later ;).
+His knowledges range from Cobol to Java, BS2000 to Linux and /390 to i386 but with preference to the later.
 He is committer in Httpd and Tomcat and he likes complex projects where different languages and machines are involved.
 Borne in France, Jean-Frederic lived in Barcelona (Spain) for 14 years.
 Since May 2006 he lives in Neuchatel (Switzerland) where he works for RedHat on Tomcat, httpd and cloud/cluster related topics.
@@ -1634,4 +1617,4 @@ We will also briefly examine some of the changes planned for Jakarta EE 11 that 
 **Speaker:** Ivar Grimstad
 Ivar Grimstad is the Jakarta EE Developer Advocate at Eclipse Foundation. He is a Java Champion and JUG Leader based in Sweden.
 Besides advocating the Jakarta EE technologies, Ivar is contributing to the Jakarta EE specifications as well as being the PMC Lead for Eclipse Enterprise for Java (EE4J). He is also one of the specification leads for Jakarta MVC and represents Eclipse Foundation on the JCP Executive Committee.
-Ivar is also involved in a wide range of other open-source projects and communities. He is a frequent speaker at International developer conferences.
+Ivar is also involved in a wide range of other open-source projects and communities. He is a frequent speaker at International developer conferences. 
