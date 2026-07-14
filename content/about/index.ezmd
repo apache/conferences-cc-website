@@ -248,7 +248,7 @@ template: page-full-width
                     </div>
                     <h3>Slack</h3>
                     <p>Attendees, the best place for getting your questions answered is to join the Community Over Code Slack (aka Apachecon Slack).</p>
-                    <p><a href="https://forms.gle/9Zz5mL7n1Z1Z1Z1Z" class="btn">Join Now </a></p>
+                    <p><a href="https://the-asf.slack.com/archives/CEN3XCEQL" class="btn">Join Now </a></p>
                 </div>
             </div>
             <div class="card flex-1">
@@ -258,7 +258,7 @@ template: page-full-width
                     </div>
                     <h3>Mailing List</h3>
                     <p>To stay updated on all ASF events, join the read-only mailing list.</p>
-                    <p><a href="mailto:announce@apachecon.com" class="btn">Join List</a></p>
+                    <p><a href="https://apache.org/foundation/mailinglists#foundation-apachecon" class="btn">Join List</a></p>
                     <h4>Subscription address:</h4>
                     <p><a href="mailto:announce-subscribe@apachecon.com" class="btn">Subscribe</a></p>
                     <h4>Web archives</h4>

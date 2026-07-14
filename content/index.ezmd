@@ -7,7 +7,7 @@ template: page-full-width
     <div class="inner flex py-xl relative z1 flex-gap-50 flex-col-1000">
         <div class="hero__content flex-1">
             <h1 class="hero__title">Community Over Code <br />
-                <span class="hero__subtitle">The Apache Software Foundation’s Open Source Conference.</span>
+                <span class="hero__subtitle">The Apache Software Foundation’s Open Source Conference</span>
             </h1>
             <p>Annual conference series for developers, users, contributors, and committers working on Apache open source projects.</p>
         </div>
@@ -41,6 +41,7 @@ template: page-full-width
             <div id="mosaic-content-1" class="mosaic-content">
                 <h2>What happens at Community Over Code?</h2>
                 <p>Community Over Code is the official conference of the Apache Software Foundation (ASF), bringing together the communities behind Apache open source projects. The event features project-specific technical tracks, real-world production use cases, and sessions on Apache governance, release management, security practices, and open source sustainability.</p>
+                <p><a href="/about" class="btn">Learn More</a></p>
             </div>
             <div id="mosaic-content-2" class="mosaic-content">
                 <h2>Which Apache projects are featured?</h2>
@@ -50,7 +51,8 @@ template: page-full-width
                 <h2>Who should attend Community Over Code?</h2>
                 <ul>
                     <li>Developers building with Apache software</li>
-                    <li>Contributors and committers to ASF projectsPlatform engineers operating Apache technologies in production</li>
+                    <li>Contributors and committers to ASF projects</li>
+                    <li>Platform engineers operating Apache technologies in production</li>
                     <li>Open source program offices (OSPOs)</li>
                     <li>Legal and compliance professionals working with Apache-licensed software</li>
                 </ul>
@@ -136,7 +138,7 @@ template: page-full-width
         <div class="flex flex-gap-50">
             <div class="flex-1 events-news-spacer"></div>
             <div class="flex-1 events-news-list">
-                 <h2 class="text-heading-light text-center">Events News</h2>
+                 <h2 class="text-heading-light text-center">Events Blog</h2>
                 <div class="news-cards flex flex-column flex-gap-20">
                     [for events_news]<div class="card">
                         <div class="card-inner flex flex-column">
@@ -146,7 +148,7 @@ template: page-full-width
                         </div>
                     </div>[end]
                 </div>
-                <div class="text-center mt-medium"><a class="btn btn--alt" href="https://news.apache.org/foundation/entry/category/events">View All News</a></div>
+                <div class="text-center mt-medium"><a class="btn btn--alt" target="_blank" href="https://news.apache.org/foundation/entry/category/events">Go to Blog</a></div>
             </div>
         </div>
     </div>
@@ -154,7 +156,7 @@ template: page-full-width
 <section class="home-sponsors">
     <div class="inner cf relative z1 py-xl text-center">
         <h2>Sponsor an Event Today</h2>
-        <p><a class="btn" href="#">Become a Sponsor</a></p>
+        <p><a class="btn" href="/sponsors">Become a Sponsor</a></p>
     </div>
 </section>
 <p><script src="../js/home-js.js"></script></p>

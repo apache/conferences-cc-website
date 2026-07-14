@@ -22,7 +22,7 @@ description: Community Over Code is the official conference of the Apache Softwa
             </div>[end]
         </div>[else]<p class="text-center">There are no upcoming events at this time.</p>[end]
     </div>
-    <div class="events-wrapper archived-events">
+    <div id="past-events" class="events-wrapper archived-events">
         <input type="text" name="timestamp" value="<script>document.write(Date.now())</script>" hidden>
         <h2 class="text-center">Past Events</h2>
         [if-any archived_events]<div class="events-grid grid flex-gap-20">

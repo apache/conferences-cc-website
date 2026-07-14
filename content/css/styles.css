@@ -571,6 +571,16 @@ footer p {
     font-size: 1.5rem;
     line-height: 1.5em;
 }
+.social-icons a {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+.social-icons a:hover img {opacity: .7;}
 .card.card--footer {
     background-image: var(--gradient-orange);
     border: none;

@@ -1,17 +1,17 @@
 title: Community Over Code Glasgow 2026
 template: page-event-landing
 ref: glasgow-2026
-heroBackgroundImage: ../images/events/event-hero-glasgow.webp
+heroBackgroundImage: /images/events/event-hero-glasgow.webp
 eventLogo: /images/logos/CommunityOverCode_Logo_stacked-white.svg
-bannerText: CFP is open until June 30, 2026!
-bannerLink: /events/glasgow-2026/call-for-presentations
-bannerLinkText: Submit Today
-sponsorsKey: glasgow-2026
-ctaText: View the Schedule
+bannerText: Register to Attend Community Over Code Glasgow
+bannerLink: /events/glasgow-2026/register
+bannerLinkText: Register Now
+ctaText: Go to Schedule
 ctaLink: /events/glasgow-2026/schedule
-ctaTwoText: Submit a Presentation
-ctaTwoLink: /events/glasgow-2026/call-for-presentations
+ctaTwoText: Register Now
+ctaTwoLink: /events/glasgow-2026/register
 
+<!-- sponsorsKey: glasgow-2026 -->
 <!-- 
     ref: REQUIRED - Must be unique - Used for matching event data from events.yaml in events page templates.
     customCss: /events/glasgow-2026/css/glasgow-2026.css
@@ -25,9 +25,9 @@ Community Over Code Glasgow 2026 features four in-person days of sessions at the
 
 ## Deep Dives, Real Insights
 
-We're featuring co-located events and workshops on Saturday, October 10 and more than xxx sessions across x tracks from Sunday, October 11 to Wednesday, October 14. Check out the 2025 schedule for an idea of what to expect.
+We're featuring co-located events and workshops on Saturday, October 10 and more than 160+ sessions across 18 tracks from Sunday, October 11 to Wednesday, October 14. 
 
-<a class="btn" href="#">View the Schedule</a>
+<a class="btn" href="#">Go to Schedule</a>
 
 ---
 
@@ -35,7 +35,7 @@ We're featuring co-located events and workshops on Saturday, October 10 and more
 
 Community Over Code is the official conference of the Apache Software Foundation — where the committers, contributors, and community members behind the world's most widely deployed open source software gather to share, learn, and shape what comes next.
 
-<a class="btn" href="https://www.google.com">About Community Over Code</a>
+<a class="btn" href="/about">About Community Over Code</a>
 
 ---
 

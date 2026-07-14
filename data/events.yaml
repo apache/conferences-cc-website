@@ -9,7 +9,7 @@ events:
     endDate: 2026-10-14 # REQUIRED: must use format YYYY-MM-DD - used for sorting events 
     displayDate: October 11-14, 2026 # what is displayed on event card
     year: 2026 # optional year event takes place
-    location: Glasgow, UK # optional location for event card
+    location: Glasgow # optional location for event card
     image:  /images/events/event-hero-glasgow.webp # optional image for event card
     colocatedEvents:
       - name: Lakehouse Day
@@ -23,11 +23,11 @@ events:
       - /events/glasgow-2026/gallery/mosaic-3.jpg
       - /events/glasgow-2026/gallery/mosaic-4.jpg
       - /events/glasgow-2026/gallery/mosaic-5.jpg
-  - name: Community Over Code Asia 2026
+  - name: Community Over Code Beijing 2026
     ref: asia-2026
-    href: /events/asia-2026
+    href: https://asia.communityovercode.org/
     nav: nav-asia-2026.html
-    registrationHref:  # optional registration link
+    registrationHref: https://asia.communityovercode.org/#register  # optional registration link
     startDate: 2026-08-07 # REQUIRED: must use format YYYY-MM-DD
     endDate: 2026-08-09 # REQUIRED: must use format YYYY-MM-DD
     displayDate: August 7-9, 2026 # what is displayed on event card
@@ -54,6 +54,17 @@ events:
     displayDate: October 7-10, 2024 # what is displayed on event card
     year: 2024 # optional year event takes place
     location: Denver, CO
+  - name: Community Over Code North America 2023
+    nav:
+    ref: nova-scotia-2023
+    href: /events/nova-scotia-2023
+    registrationHref:  # optional registration link
+    startDate: 2023-10-07 # REQUIRED: must use format YYYY-MM-DD
+    endDate: 2023-10-10 # REQUIRED: must use format YYYY-MM-DD
+    displayDate: October 7-10, 2023 # what is displayed on event card
+    year: 2023 # optional year event takes place
+    location: Halifax, Nova Scotia, Canada
+    image: /images/events/halifax_harbour_sunset_skyline.webp # optional image for event card
   - name: ApacheCon 2000
     nav:
     ref: apachecon-2000
@@ -74,36 +85,6 @@ events:
     displayDate: October 14-16, 1998 # what is displayed on event card
     year: 1998 # optional year event takes place
     location: San Francisco, CA
-  - name: Community Over Code North America 2025
-    nav:
-    ref: community-over-code-north-america-2025
-    href: https://youtube.com/playlist?list=PLnmZetgAnzKo9CQikeJixoGP6K4R7YSxY&si=6GBH0ASZVRPGg9sU
-    registrationHref:
-    startDate: 2025-09-11
-    endDate: 2025-09-14
-    displayDate: September 11-14, 2025
-    year: 2025
-    location: Minneapolis, MN
-  - name: Community Over Code North America 2024
-    nav:
-    ref: community-over-code-north-america-2024
-    href: https://communityovercode.org/past-sessions/community-over-code-na-2024/
-    registrationHref:
-    startDate: 2024-10-07
-    endDate: 2024-10-10
-    displayDate: October 7-10, 2024
-    year: 2024
-    location: Denver, CO
-  - name: Community Over Code North America 2023
-    nav:
-    ref: community-over-code-north-america-2023
-    href: https://communityovercode.org/past-sessions/community-over-code-na-2023/
-    registrationHref:
-    startDate: 2023-10-07
-    endDate: 2023-10-10
-    displayDate: October 7-10, 2023
-    year: 2023
-    location: Halifax, Nova Scotia, Canada
   - name: Community Over Code Asia 2023
     nav:
     ref: community-over-code-asia-2023

@@ -3,7 +3,7 @@ template: page-event-landing
 ref: asia-2026
 nav: nav-asia-2026
 customcss: /events/asia-2026/css/asia-2026.css
-heroBackgroundImage: ../images/events/event-hero-asia-2026.webp
+heroBackgroundImage: /images/events/event-hero-asia-2026.webp
 eventLogo: /images/logos/CommunityOverCode_Logo_beijing-stacked-white.svg
 sponsorsKey: asia-2026
 <!-- 

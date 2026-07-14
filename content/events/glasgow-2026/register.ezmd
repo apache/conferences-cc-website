@@ -3,11 +3,12 @@ template: page-event-default
 ref: glasgow-2026
 eventLogo: /images/logos/CommunityOverCode_Logo_stacked-color.svg
 inPageNav: true
+ctaText: Register Now
+ctaLink: cvent.me/MarqlQ
 
 ## Register for Community Over Code Glasgow 2026
 
-Registration will open in April 2026. 
-
+<a href="https://web.cvent.com/event/ac71ce47-2b5f-424c-abfe-5b48255315fb/register" class="btn" target="_blank" rel="noopener">Register Now</a>
 ---
 
 ## Timeline
@@ -35,8 +36,10 @@ Your registration includes:
 
 ## Travel Assistance
 
+If you are seeking financial assistance to attend Community Over Code, the Travel Assistance Committee (TAC) was reformed in September 2008 with the goal of providing financial assistance to those who would otherwise be unable to attend various ASF-related events.
+
 |  | |
 | --- | --- |
 | Deadline to Submit | June 3, 2026 |
-| Amount | https://tac.apache.org/  |
+| How to Apply | https://tac.apache.org/  |
 
