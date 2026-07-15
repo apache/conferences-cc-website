@@ -1456,8 +1456,6 @@ We will dive into the details of Apache Pulsar’s multi-protocol capability and
 We will demonstrate how to use Apache Pulsar’s multi-protocol capability to build polyglot messaging applications that communicate with different messaging systems and applications using different protocols and languages.
 Attending this talk will give attendees a deeper understanding of Apache Pulsar’s multi-protocol capability and how it can be used to build modern, distributed applications that communicate with different messaging systems and applications using different protocols and languages. They will also learn about the key benefits and challenges of using Apache Pulsar for multi-protocol messaging and how to design and deploy polyglot messaging applications with Apache Pulsar. 
 
-<a class="btn" href="/slides/na-2023/sat-streaming-unlockingthepowerofmulti-protocolmessagingwithapachepulsar-david-kjerrumgaard.pptx"><strong>Got to Slides</strong></a>
-
 **Speaker:** David Kjerrumgaard
 David is a committer on the Apache Pulsar project, and also the author of "Pulsar in Action" and co-author of "Practical Hive". He currently serves as a Developer Advocate for StreamNative where he focuses on strengthening the Apache Pulsar community through education and evangelization. Prior to that, he was a principal software engineer on the messaging team at Splunk, and Director of Solutions for two Big Data startups; Streamlio and Hortonworks.
 
