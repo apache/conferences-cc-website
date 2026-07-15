@@ -49,11 +49,24 @@ The `page-event-landing` template is used for the main landing page of the event
 This page template uses data entered in events.yaml to populate the event details and also uses the metadata from the index.md file to populate the hero section, banner, sponsors, and call-to-action buttons. This template is designed to provide a visually appealing and informative landing page for the event.
 
 ## Sponsors
-Sponsors for each event are defined in the `asfdata.yaml` file under the `sponsors` section. Each sponsor entry should include a key that matches the `sponsors_key` defined in the event's index.md metadata. This allows the event landing page to display the appropriate sponsors for each event.
+Sponsors for each event are defined in the `asfdata.yaml` file under the `sponsors` section. Each sponsor entry should include a key that matches the `sponsorsKey` defined in the event's index.md metadata. This allows the event landing page to display the appropriate sponsors for each event.
 
 You can add you sponsors.json file in the event directory, but it is not required. If you choose to use a sponsors.json file. Make sure to include the sponsor information in the `asfdata.yaml` file as well, using the same key for consistency. This will ensure that the sponsors are displayed correctly on the event landing page.
 
+The sponsors.json file should contain an array of sponsor objects, each with the following fields:
+- `name`: The name of the sponsor
+- `logo`: The path to the sponsor's logo image
+- `url`: The URL to the sponsor's website   
+
+The page-event-landing.html files accepts the following property names for sponsorship levels:
+- `diamond`
+- `platinum`
+- `gold`
+- `silver`
+- `bronze`
+- 'lightning_talks'
+
 ## Co-located Events
-If an event is co-located with another event, you can indicate this in the metadata of the co-located event's index.md file by setting `is_colocated_event` to true and providing the `parentEvent` reference. This allows the templates to link the co-located event to its parent event, providing a seamless experience for users navigating between the two events.
+If an event is co-located with another event, you can indicate this in the metadata of the co-located event's index.md file by setting `isColocatedEvent` to true and providing the `parentEvent` reference. This allows the templates to link the co-located event to its parent event, providing a seamless experience for users navigating between the two events.
 
 Add colocated events information to the `events.yaml` file as well, ensuring that the co-located event is properly linked to its parent event. This will help users understand the relationship between the events and navigate accordingly. See the `events.yaml` file for examples of how to structure co-located events.
