@@ -17,12 +17,17 @@ events:
         endDate: 2026-10-11 # must use format YYYY-MM-DD
         displayDate: October 11, 2026 # what is displayed on event card
         image: /images/events/event-hero-glasgow.webp # optional image for event card
+      - name: Airflow Contributor Days Glasgow
+        href: /events/glasgow-2026/airflow-contributor-days-glasgow
+        endDate: 2026-10-11 # must use format YYYY-MM-DD
+        displayDate: October 11 - 14, 2026 # what is displayed on event card
+        image:  # optional image for event card
     gallery: # optional gallery of images for event landing page
-      - /events/glasgow-2026/gallery/mosaic-1.jpg
-      - /events/glasgow-2026/gallery/mosaic-2.jpg
-      - /events/glasgow-2026/gallery/mosaic-3.jpg
-      - /events/glasgow-2026/gallery/mosaic-4.jpg
-      - /events/glasgow-2026/gallery/mosaic-5.jpg
+      - /images/events/glasgow-2026/glasgow-gallery-2.webp
+      - /images/events/glasgow-2026/glasgow-gallery-1.webp
+      - /images/events/glasgow-2026/glasgow-gallery-3.webp
+      - /images/events/glasgow-2026/glasgow-gallery-4.webp
+      - /images/events/glasgow-2026/glasgow-gallery-5.webp
   - name: Community Over Code Beijing 2026
     ref: asia-2026
     href: https://asia.communityovercode.org/
