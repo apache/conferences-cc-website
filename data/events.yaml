@@ -9,7 +9,7 @@ events:
     endDate: 2026-11-19 # REQUIRED: must use format YYYY-MM-DD - used for sorting events 
     displayDate: November 18-19, 2026 # what is displayed on event card
     year: 2026 # optional year event takes place
-    location: Sydney # optional location for event card
+    location: Sydney, Australia # optional location for event card
   - name: Community Over Code Glasgow 2026 # REQUIRED
     ref: glasgow-2026 # REQUIRED Must be unique - Used for matching event data in events page templates.
     nav: nav-glasgow-2026.html
@@ -19,7 +19,7 @@ events:
     endDate: 2026-10-14 # REQUIRED: must use format YYYY-MM-DD - used for sorting events 
     displayDate: October 11-14, 2026 # what is displayed on event card
     year: 2026 # optional year event takes place
-    location: Glasgow # optional location for event card
+    location: Glasgow, Scotland # optional location for event card
     image:  /images/events/event-hero-glasgow.webp # optional image for event card
     colocatedEvents:
       - name: Lakehouse Day

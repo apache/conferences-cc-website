@@ -27,13 +27,12 @@
                     <h1 class="hero__title">
                         {{ page.title }}
                     </h1>
+                    <div class="hero-event-dates">{{ current_event.displayDate }}</div>
                     <h2 class="hero__default-subtitle">
-                        Community Over Code
                         {% if current_event.location %}
                             <span class="hero__subtitle"> {{ current_event.location }}</span>
                         {% endif %}
                     </h2>
-                    <div class="hero-event-dates">{{ current_event.displayDate }}</div>
                     {% if page.ctatext and page.ctalink %}
                         <p><a class="btn btn--alt" href="{{ page.ctalink }}">{{ page.ctatext }}</a></p>
                     {% endif %}
