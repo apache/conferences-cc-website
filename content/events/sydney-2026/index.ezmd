@@ -1,0 +1,48 @@
+title: Community Over Code Sydney 2026
+template: page-event-landing
+ref: sydney-2026
+ctaText: Submit Proposal
+ctaLink: http://www.cvent.com/c/abstracts/c1db5f69-64be-479b-9060-83254a81d3cd
+
+Community Over Code Sydney 2026 is an two-day intimate conference running two streams of diverse and interesting talks, on November 18-19, 2026.
+
+Open source underpins nearly all modern software, and this event is about both sides of that: the technology and the practice. We’re looking for talks on the JVM and enterprise ecosystem, data and cloud infrastructure, emerging technologies, and engineering craft, grounded in open source projects and real production experience, alongside talks on the communities, governance, and culture that keep open source sustainable. Following the ASF tradition, talks are selected on merit and the event is vendor-neutral. Sales pitches will not be accepted.
+
+You don’t need to be an Apache committer to speak or attend. If you contribute to, maintain, build on, or rely on open source software, this event is for you. First-time speakers are encouraged.
+
+A note on submissions: we want real experience, not marketing. Sales pitches will be rejected regardless of theme. AI-polished proposals are fine; AI-generated proposals are not. Your submission must describe your own experience and a talk you can actually deliver. 
+
+---
+
+## Call for Presentations Now Open
+
+The call for presentations for Community Over Code Sydney is now open! Submit proposals by 13:59 UTC on August 14, 2026. Please do not wait until the last minute.
+
+<a class="btn" target="_blank" href="http://www.cvent.com/c/abstracts/c1db5f69-64be-479b-9060-83254a81d3cd">Submit Proposal Now</a>
+
+(First-time presenters: you will need to create a Cvent account to submit a presentation.)
+
+## Themes
+
+Talks are scheduled across two streams; the themes below indicate the topics we’re looking for, not rooms or a schedule. If your talk spans more than one, pick the closest fit.
+
+### Modern JVM & Enterprise Technologies
+
+Languages, frameworks, and platforms in the JVM ecosystem: Java, Groovy, Kotlin, Scala, and the open source projects that power enterprise software. Language features, performance, migration stories, and production experience with Apache and other open source projects all welcome.
+
+### Data, Streaming, and Search
+
+Building and running data-intensive systems with open source: data platforms, streaming, messaging, search, analytics, and the infrastructure underneath them — much of it Apache technology. Talks on AI and ML infrastructure fit here too.
+
+### Software Engineering Craft
+
+How we build software well: testing, architecture, developer experience, tooling, technical leadership, and working with AI coding tools in practice. Talks grounded in open source projects and workflows are especially welcome. War stories and hard-won lessons preferred over theory.
+
+### Open Source Culture & Community
+
+The human side of open source: growing and sustaining communities, contributor experience and onboarding, project governance, the relationship between projects, foundations, and companies, and what it takes to keep open source healthy and sustainable. Honest accounts of what works and what doesn’t, from any project or foundation.
+
+### Emerging Technologies
+
+New and fast-moving areas worth the community’s attention: open source AI models and agents, new runtimes and protocols, and technologies that will shape the next few years. This includes the questions they raise for open source licensing, provenance, and communities. Genuine technical exploration and early experience reports, not product announcements.
+

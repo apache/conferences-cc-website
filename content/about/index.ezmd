@@ -260,7 +260,7 @@ template: page-full-width
                     <p>To stay updated on all ASF events, join the read-only mailing list.</p>
                     <p><a href="https://apache.org/foundation/mailinglists#foundation-apachecon" class="btn">Join List</a></p>
                     <h4>Subscription address:</h4>
-                    <p><a href="mailto:announce-subscribe@apachecon.com" class="btn">Subscribe</a></p>
+                    <p><strong>announce-subscribe@apachecon.com</strong></p>
                     <h4>Web archives</h4>
                     <p><a href="https://lists.apache.org/list.html?announce@apachecon.com" class="btn">View Archives</a></p>
                 </div>
@@ -272,7 +272,7 @@ template: page-full-width
                     </div>
                     <h3>Email</h3>
                     <p>For specific questions about the conference, please contact the planning team.</p>
-                    <p><a href="mailto:planners@apachecon.com" class="btn">Send Email</a></p>
+                    <p><strong>planners@apachecon.com</strong></p>
                 </div>
             </div>
         </div>
