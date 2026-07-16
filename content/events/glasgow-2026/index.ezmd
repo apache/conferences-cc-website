@@ -4,7 +4,7 @@ ref: glasgow-2026
 heroBackgroundImage: /images/events/event-hero-glasgow.webp
 eventLogo: /images/logos/CommunityOverCode_Logo_stacked-white.svg
 bannerText: Register to Attend Community Over Code Glasgow
-bannerLink: /events/glasgow-2026/register
+bannerLink: https://web.cvent.com/event/ac71ce47-2b5f-424c-abfe-5b48255315fb/register
 bannerLinkText: Register Now
 ctaText: Go to Schedule
 ctaLink: /events/glasgow-2026/schedule
