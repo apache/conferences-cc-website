@@ -27,7 +27,11 @@
                     <h1 class="hero__title">
                         {{ page.title }}
                     </h1>
-                    <div class="hero-event-dates">{{ current_event.displayDate }}</div>
+                    {% if page.iscolocatedevent == 'true' and page.colocatedeventdate %}
+                        <div class="hero-event-dates">{{ page.colocatedeventdate }}</div>
+                    {% else %}
+                        <div class="hero-event-dates">{{ current_event.displayDate }}</div>
+                    {% endif %}
                     <h2 class="hero__default-subtitle">
                         {% if current_event.location %}
                             <span class="hero__subtitle"> {{ current_event.location }}</span>

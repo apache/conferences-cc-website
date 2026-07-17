@@ -3,6 +3,7 @@ template: page-event-default
 ref: glasgow-2026
 eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
 isColocatedEvent: true
+colocatedEventDate: October 11, 2026
 inPageNav: true
 
 ## About Airflow Contributor Days
