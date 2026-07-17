@@ -2,7 +2,7 @@
 events:
   - name: Community Over Code Sydney 2026 # REQUIRED
     ref: sydney-2026 # REQUIRED Must be unique - Used for matching event data in events page templates.
-    nav: 
+    nav: nav-sydney-2026.html
     href: /events/sydney-2026
     registrationHref:  # optional registration link
     startDate: 2026-11-18 # REQUIRED: must use format YYYY-MM-DD
@@ -10,6 +10,7 @@ events:
     displayDate: November 18-19, 2026 # what is displayed on event card
     year: 2026 # optional year event takes place
     location: Sydney, Australia # optional location for event card
+    image:  /images/events/sydney-2026/sydney-hero.webp # optional image for event card
   - name: Community Over Code Glasgow 2026 # REQUIRED
     ref: glasgow-2026 # REQUIRED Must be unique - Used for matching event data in events page templates.
     nav: nav-glasgow-2026.html
