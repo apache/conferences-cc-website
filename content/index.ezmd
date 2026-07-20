@@ -9,7 +9,7 @@ template: page-full-width
             <h1 class="hero__title">Community Over Code <br />
                 <span class="hero__subtitle">The Apache Software Foundation’s Open Source Conference</span>
             </h1>
-            <p>Annual conference series for developers, users, contributors, and committers working on Apache open source projects.</p>
+            <p>Annual conference series for developers, users, contributors, and committers working on ASF open source projects.</p>
         </div>
         <div class="hero_events flex-1">
             <h2 class="text-center">Upcoming Events</h2>
@@ -30,7 +30,7 @@ template: page-full-width
                 </div>
             [else]<p class="text-center">No upcoming events at this time.</p>
             [end]<div class="text-center mt-medium">
-                <a class="btn" href="/events">See All Events</a>
+                <a class="btn" href="/events">View All Events</a>
             </div>
         </div>
     </div>
@@ -50,11 +50,10 @@ template: page-full-width
             <div id="mosaic-content-3" class="mosaic-content">
                 <h2>Who should attend Community Over Code?</h2>
                 <ul>
-                    <li>Developers building with Apache software</li>
-                    <li>Contributors and committers to ASF projects</li>
-                    <li>Platform engineers operating Apache technologies in production</li>
-                    <li>Open source program offices (OSPOs)</li>
-                    <li>Legal and compliance professionals working with Apache-licensed software</li>
+                    <li>Events spanning four continents</li>
+                    <li>​100s of ASF committers</li>
+                    <li>1,​0​00+ attendees spanning 21 nations</li>
+                    <li>Dozens of open source community members who received financial aid from the ASF Travel Assistance Committee (TAC)</li>
                 </ul>
             </div>
         </div>

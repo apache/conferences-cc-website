@@ -7,6 +7,7 @@ on:
     branches: ['main']
     paths:
       - 'content/**'
+      - 'theme/**'
       - 'pelicanconf.py'
       - '.asf.yaml'
   workflow_dispatch:
