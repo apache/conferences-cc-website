@@ -89,15 +89,6 @@ ASF_DATA = {
  'debug': False,
 }
 
-
-# Configure the asfrun plugin (initialization)
-ASF_RUN = [ '/bin/bash get_calendar.sh',  ]
-
-
-# Configure the asfrun plugin (finalization)
-ASF_POSTRUN = [ '/bin/bash pagefind.sh',  ]
-
-
 # Configure ignore files
 # File and directory basenames matching any of these patterns will be ignored by the processor.
 IGNORE_FILES = [ 'README.md', 'interviews', 'include', '*.odt',  ]
