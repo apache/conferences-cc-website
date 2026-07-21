@@ -45,7 +45,7 @@ Lakehouse Day takes place on Tuesday, October 10, 2026 colocated with Community 
 
 Lakehouse Day is a place for the projects in and around the lakehouse ecosystem to network, connect, and drive innovation across the space. With multiple tracks and a full day of programming, the event creates a focused space for deep technical discussion, real-world use cases, and cross-project collaboration. [[]Become a sponsor of Lakehouse Day](https://communityovercode.apache.org/events/glasgow-2026/sponsor).
 
-<div class="sponsors-section">
+<!-- <div class="sponsors-section">
      <div class="sponsor-logos sponsor-logos--colo">
         <div class="sponsor-logo">
             <a href="#" target="" class="sponsor-link">
@@ -83,4 +83,4 @@ Lakehouse Day is a place for the projects in and around the lakehouse ecosystem 
             </a>
         </div>
     </div>
-</div>
+</div> -->
