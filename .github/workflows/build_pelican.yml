@@ -9,6 +9,7 @@ on:
       - 'content/**'
       - 'theme/**'
       - 'pelicanconf.py'
+      - 'data/events.yaml'
       - '.asf.yaml'
   workflow_dispatch:
 jobs:
