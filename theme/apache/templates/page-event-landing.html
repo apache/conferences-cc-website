@@ -307,6 +307,20 @@
                         </div>
                     </div>
                 {% endif %}
+                {%if page.sponsors[page.sponsorskey]['video_recording'] %}
+                    <div class="sponsor-logos-section py-large">
+                        <h3 class="text-center">Video Recording</h3>
+                        <div class="sponsor-logos sponsor-logos--video_recording">
+                            {% for sponsor in page.sponsors[page.sponsorskey]['video_recording'] %}
+                                <div class="sponsor-logo">
+                                    <a href="{{ sponsor.link }}" target="" class="sponsor-link">
+                                        <img src="{{ sponsor.logo }}" loading="" alt="{{ sponsor.name }}">
+                                    </a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endif %}
                 {%if page.sponsors[page.sponsorskey]['lightning_talks'] %}
                     <div class="sponsor-logos-section py-large">
                         <h3 class="text-center">Lightning Talks</h3>

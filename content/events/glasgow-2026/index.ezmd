@@ -10,7 +10,7 @@ ctaText: Go to Schedule
 ctaLink: /events/glasgow-2026/schedule
 ctaTwoText: Register Now
 ctaTwoLink: /events/glasgow-2026/register
-<!-- sponsorsKey: glasgow-2026 -->
+sponsorsKey: glasgow-2026
 
 <!-- 
     ref: REQUIRED - Must be unique - Used for matching event data from events.yaml in events page templates.

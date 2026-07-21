@@ -19,7 +19,20 @@ description: Community Over Code is the official conference of the Apache Softwa
                         <div><a href="[events.href]">View Details</a></div>
                     </div>  
                 </div>
-            </div>[end]
+            </div>[if-any events.colocatedEvents]
+                    [for events.colocatedEvents]<div class="co-located-event-card card"><div class="card-inner">
+                    <div class="colo-image-wrapper">
+                        <!-- the following can have no spaces or it will fail. -->
+                        [if-any events.colocatedEvents.image]<img src="[events.colocatedEvents.image]" alt="[events.colocatedEvents.name]" width="333" height="187" loading="lazy">[else]<img width="333" height="187" src="/images/events/event-card-default.webp" loading="lazy" alt="Community Over Code">[end]
+                    </div>
+                    <div class="event-card__content">
+                         <div class="event-card__location">[events.location]</div>
+                        <div class="event-card__date">[events.colocatedEvents.displayDate]</div>
+                        <h4>[events.colocatedEvents.name]</h4>
+                        <div><a href="[events.colocatedEvents.href]">View Details</a></div>
+                    </div>  
+                </div>
+            </div>[end][end][end]
         </div>[else]<p class="text-center">There are no upcoming events at this time.</p>[end]
     </div>
     <div id="past-events" class="events-wrapper archived-events">

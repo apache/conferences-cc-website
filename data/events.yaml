@@ -27,11 +27,11 @@ events:
         href: /events/glasgow-2026/lakehouse-day-glasgow
         endDate: 2026-10-11 # must use format YYYY-MM-DD
         displayDate: October 11, 2026 # what is displayed on event card
-        image: /images/events/event-hero-glasgow.webp # optional image for event card
+        image: /images/events/glasgow-2026/lakehouse-card.webp # optional image for event card
       - name: Airflow Contributor Days
         href: /events/glasgow-2026/airflow-contributor-days-glasgow
         endDate: 2026-10-11 # must use format YYYY-MM-DD
-        displayDate: October 11 - 14, 2026 # what is displayed on event card
+        displayDate: October 11, 2026 # what is displayed on event card
         image:  # optional image for event card
     gallery: # optional gallery of images for event landing page
       - /images/events/glasgow-2026/glasgow-1.webp
