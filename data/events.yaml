@@ -1,6 +1,6 @@
 # Events data structure
 events:
-  - name: Community Over Code Sydney 2026 # REQUIRED
+  - name: Community Over Code Sydney 2027 # REQUIRED
     ref: sydney-2026 # REQUIRED Must be unique - Used for matching event data in events page templates.
     nav: nav-sydney-2026.html
     href: /events/sydney-2026
