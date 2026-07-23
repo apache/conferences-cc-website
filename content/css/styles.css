@@ -1014,6 +1014,32 @@ footer p {
     height: 100%;
     object-fit: cover;
 }
+.session-card {
+    margin-bottom: 30px;
+}
+.session-card p, .session-card li {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.session-card ul {padding-left: 20px;}
+.session-description, .speaker-bio {
+    display: none;
+}
+.session-info {
+    margin-bottom: 20px;
+}
+.session-info h3 {
+    font-weight: 600;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.session-info h3:hover {
+    text-decoration: underline;
+}
+.card .speaker-name {font-size: 16px; cursor: pointer;}
+.card .speaker-name:hover {
+    text-decoration: underline;
+}
 .event-gallery {
     background-image: linear-gradient(45deg, #242256, #712572)
 }
