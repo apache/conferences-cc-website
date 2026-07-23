@@ -130,12 +130,12 @@ Lakehouse Day takes place on Tuesday, October 10, 2026 colocated with Community 
             <div class="session-description">
                 <p>Strict data lake workloads—like star schema ETLs—suffer from torn multi-table reads and partial writes. While Apache Iceberg provides robust single-table commits, cross-table atomicity remains an active frontier. Workarounds like eventual consistency, Git-like branching, or single-engine warehouses either compromise correctness, add operational complexity, or break the open, multi-engine lakehouse promise.</p>
                 <p>This session explores an engine-neutral proposal bringing warehouse-grade BEGIN/COMMIT semantics to the Iceberg REST Catalog. We will break down this architecture into four pillars and demonstrate them live via an Apache Polaris (incubating) PoC:</p>
-                <oll>
+                <ol>
                     <li>Stateless Coordination: Delegating atomicity to the catalog's backing DB.</li>
                     <li>TxnSnapshots: Lightweight handles guaranteeing consistent reads across multiple engines (Spark, Flink) and apps.</li>
                     <li>Selectable Isolation Levels: Flexible choices from READ COMMITTED to REPEATABLE READ.</li>
                     <li>Retryable Subtransactions: Overcoming Optimistic Concurrency (OCC) limits using pessimistic locking to safely retry transient failures.</li>
-                </oll>
+                </ol>
             </div>
         </div>
         <div class="speaker-details">
@@ -192,65 +192,619 @@ In 2017, Mark Raasveldt and Hannes Mühleisen (who went on to create DuckDB) pre
 
 #### Keynote
 
+
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title">Zero-Trust Data for AI: Scaling Open Table Formats on S3 Object Storage</h3>
+            <div class="session-description">
+                <p>As AI/ML workloads grow, the need for a scalable, secure, and vendor-neutral data layer becomes critical. Using Open Table Formats (OTF) provided by catalogs like Apache Polaris, organizations can now transform S3-compatible storage into a first-class Data Lakehouse. However, manual orchestration of these layers often leads to configuration drift and security gaps.</p>
+                <p>This session breaks down a production-ready integration pattern designed for automation and high security:
+The Control Plane: Using a Kubernetes-native approach with a "Glue-Operator" and CRDs to orchestrate resources across different service</p>
+                <p>The Data Plane: Achieving seamless integration with compute engines like Spark for high-performance AI/ML querying.
+The Security Layer: Moving beyond static Access/Secret keys by implementing Zero-Trust through vended credentials, ensuring short-lived, scoped access for every workload.</p>
+                <p>The session concludes with a comprehensive live demo.</p>
+            </div>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">jiffin Tony Thottan / <span>Backend Engineer</span></h4>
+            <div class="speaker-bio">
+                <p>Jiffin Tony Thottan is part of the IBM Storage Team working as a Backend Engineer in Ceph. Initially part of the NFS team and contributed to GlusterFS , NFS-Ganesha projects. He has given presentations about his work at various conferences like FOSDEM, Storage Developer Conference, LinuxCon(now OSS) and VAULT. In 2018 he moved to the Rook project and Ceph. He started working on features like encryption, cloud transition , tiering and mulitisite.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 #### Breakout 2
+
+
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title">Operating Apache Spark at OpenAI’s Hyperscale Lakehouse</h3>
+            <div class="session-description">
+                <p>Apache Spark is a foundational engine behind OpenAI’s hyperscale lakehouse and many of our most critical data pipelines. In this talk, we’ll share how we run Spark in production on a rapidly evolving platform, covering the design and architecture of key systems such as cluster lifecycle management, job submission and scheduling, access control, dynamic scaling, and release management.</p>
+                <p>Beyond architecture, we’ll dive into the realities of day to day operations: managing shuffle heavy workloads, supporting PySpark pipelines, and processing large scale semi structured data. We’ll also show how we use AI to accelerate failure diagnosis and performance debugging, and how we are evolving the lakehouse into an AI native platform.</p>
+                <p>Beyond architecture, we’ll dive into the realities of day to day operations: managing shuffle heavy workloads, supporting PySpark pipelines, and processing large scale semi structured data. We’ll also show how we use AI to accelerate failure diagnosis and performance debugging, and how we are evolving the lakehouse into an AI native platform.</p>
+            </div>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">Chao Sun / <span>OpenAI</span></h4>
+            <div class="speaker-bio">
+                <p>Chao is currently a software engineer at OpenAI, focusing on core data infrastructure. He is passionate about open source and is committer to multiple ASF projects including Spark, Hadoop, Hive, Arrow, DataFusion etc.</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 #### Breakout 3
 
+
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title"> Iceberg V3 Meets the Lakehouse: Row-Level Lineage and Schema Evolution for Streaming Data </h3>
+            <div class="session-description">
+                <p>Apache Iceberg V3 changes what's possible for Lakehouse governance -- but most discussions focus on batch scenarios. This session explores what V3 means for organizations streaming real-time data into their Lakehouse, where governance and lineage must evolve beyond batch assumptions.</p>
+                <p>We'll show how Lakehouse-native streaming integrates with Iceberg V3 and REST catalogs to bring fine-grained governance to continuously ingested data. The centerpiece is row-level lineage: understanding not just which table data came from, but which specific records and transformations produced it, even as data arrives continuously. We'll also cover schema evolution patterns for streaming sources -- where schemas change without warning and pipelines can't just stop and restart.</p>
+                <p>The talk introduces a Bring Your Own Lineage (BYOL) model: how to integrate your preferred lineage systems alongside your catalog without disrupting streaming pipelines. This session shows how Iceberg V3, catalog governance, and Lakehouse-native streaming deliver trustworthy, auditable data from the moment it's ingested.</p>
+            </div>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">David Kjerrumgaard / <span>Committer on the Apache Pulsar Project | Published Author | International Speaker | Big Data Expert</span></h4>
+            <div class="speaker-bio">
+                <p>David Kjerrumgaard is a Developer Advocate at StreamNative and a committer on the Apache Pulsar project. He is recognized for his expertise in real-time data streaming, messaging systems, and big data technologies. As author of Pulsar in Action and co-author of Practical Hive, he has established himself as a leading voice in the streaming data ecosystem.</p>
+                <p>An accomplished international speaker, David presents at conferences worldwide on big data, streaming technologies, and agentic AI. His technical contributions extend beyond the stage—he actively contributes to Apache NiFi and maintains his committer status on Apache Pulsar, directly advancing these open-source platforms.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 #### Breakout 4
 
+
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title"> Herding Cat(alogue)s: Understanding the Apache Iceberg™ Catalog Landscape </h3>
+            <div class="session-description">
+                <p>Apache Iceberg™ requires a catalog to discover and interact with Iceberg tables and ensure consistency across writers. But with so many catalog implementations out there, how do you choose?.</p>
+                <p>In this session, we’ll herd the cat(alogue)s for you and break down the Iceberg catalog landscape. We’ll begin with why catalogs are essential and their general requirements. From there, we’ll look at the advent of the REST catalog and its impact on Iceberg’s ecosystem. Finally, we’ll survey some of the most widely used Iceberg catalogs—like HIVE, JDBC, Nessie, Snowflake, Apache Polaris™ and more—to see their metadata storage approaches, table discovery mechanisms, and integration with both open-source and commercial platforms. Along the way, we’ll highlight the strengths, trade-offs, and key considerations for each.</p>
+                <p>By the end of this session, you’ll have a clear understanding of how Iceberg catalogs function, what differentiates them, and how to select the best one for your needs.</p>
+            </div>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">Danica Fine / <span>Advocating for Open source</span></h4>
+            <div class="speaker-bio">
+                <p>Danica began her career as a software engineer in financial services and pivoted to developer relations, where she focussed primarily on open source technologies under the Apache Software Foundation umbrella such as Apache Kafka® and Apache Flink®. She is an ASF member and Apache Polaris™ committer, and leads the open source developer relations team at Snowflake, supporting Apache Iceberg™ and Apache Polaris. She can be found on X (Bluesky and Mastodon), talking about tech, plants, and baking @TheDanicaFine.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 #### Breakout 5
+
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title"> Beyond the Delete Button : Scaling Garbage Collection for Lakehouse Workloads on Apache Ozone</h3>
+            <div class="session-description">
+                <p>As on-prem lakehouses scale to billions of objects, a new bottleneck emerges: Data Lifecycle Velocity. In platforms powered by Apache Iceberg and Delta Lake, frequent snapshot expiration, compaction, and medallion pipelines generate massive transient data.</p>
+                <p>In a petabyte scale deployment on Apache Ozone, deletion throughput could not keep pace with ingestion causing storage growth, metadata bloat, and rising query latency.</p>
+                <p>This session shares our production journey fixing this bottleneck. We trace deletes across Ozone's 3 tier architecture , expose scaling limits, and present optimizations that delivered a 33x improvement in deletion throughput via parallel traversal, refined locking, and snapshot aware GC. We also show how Apache Ozone Recon + Grafana enabled real time visibility into deletion backlogs.</p>
+                <p>Key Takeaways:</p>
+                <ol>
+                    <li>Ozone deletion pipeline internals.</li>
+                    <li>Scaling garbage collection in production.</li>
+                    <li>Snapshot safe reclamation strategies.</li>
+                    <li>End to end observability.</li>
+                    <li>Lessons learned from production.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">Sadanand Shenoy / <span>Senior Software Engineer at Cloudera</span></h4>
+            <div class="speaker-bio">
+                <p>Sadanand Shenoy is a PMC & committer in the Apache Ozone project and has keen interest in distributed systems . Sadanand is currently working as a Senior Software Engineer at Cloudera and has been actively contributing to the Apache Ozone project for the past 5.5 years</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 ### 1:15 PM - 1:45 PM
 
 #### Keynote
 
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title">Did We Forget the Lake? </h3>
+            <div class="session-description">
+                <p>We are living through the "Iceberg Era." If you listen to any data architect today, the conversation is dominated by table formats. We have become obsessed with the "House"—perfecting ACID transactions, governance, and structured schemas.</p>
+                <p>But while we decorate the House, the Lake is rising.</p>
+                <p>By 2035, the world faces a 2 Yottabyte Shock. 75% of that data—roughly 1.5 billion petabytes—will be the "Nebula": unstructured images, PDFs, sensor logs, and video. Today, our Lakehouse architectures treat the Nebula as "dark data" or storage exhaust, hidden behind brittle S3 paths and messy IAM policies.</p>
+                <p>This lightning talk argues that a Lakehouse that only manages tables isn't a Lakehouse—it's just a scalable warehouse built on cheap storage. We will explore the three fundamental gaps (Access, Context, and Standards) failing our unstructured data and propose a move toward Managed Volumes. It’s time to stop treating 75% of the world's data as a second-class citizen and start engineering the Lake for an AI-driven, yottabyte-scale future.</p>
+            </div>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">Viktor Kessler / <span>Vakamo Inc, Co-Founder & CEO</span></h4>
+            <div class="speaker-bio">
+                <p>Viktor has spent his entire career at the intersection of data and innovation — building risk engines, data warehouses, and modern data lakes. He’s led transformative data initiatives at global powerhouses like SAP, PwC, ERGO, MongoDB, and Dremio. Today, he’s the founder of Vakamo Inc. and the creator of Lakekeeper, a fast-growing open-source catalog for Apache Iceberg that helps organizations embrace the Lakehouse architecture with confidence and clarity.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 #### Breakout 2
+
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title">Infinite Rewind: From MySQL Binlogs to Append-Only Lakehouse with Flink CDC and Paimon</h3>
+            <div class="session-description">
+               <p>Imagine being able to see every change made to your database, no matter how long ago, not just for days or weeks, but for years.</p>
+                <p>Change Data Capture (CDC) has become a fundamental element of contemporary data architectures. Most CDC data integration tools enforce primary keys from source tables on target lakehouse tables resulting in limited retention of the change trail that makes CDC valuable. The keyed tables approach is unable to cope with the demands of long-lived retention as metadata files balloon, query planning slows, and operational overhead becomes unsustainable.</p>
+                <p>In this talk, we present a different approach developed at Yelp. Using Flink CDC, we stream row-level changes from MySQL into an append-only lakehouse table powered by Apache Paimon, which is purpose-built for streaming workloads. Out-of-the-box Flink CDC does not support append-only lakehouse tables. We addressed this gap via FLINK-38413. By treating every insert, update, and delete as a first-class, immutable event, we preserve the complete history of data indefinitely without the large metadata overhead.</p>
+            </div>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">Muhammad Junaid Muzammil / <span>Yelp, Tech Lead</span></h4>
+            <div class="speaker-bio">
+                <p>Muhammad Junaid Muzammil is a Tech Lead in the Stream house team at Yelp. He has got over 15 years of experience with different data storage technologies including Apache Cassandra, ElasticSearch, Apache Paimon and Delta Lake. Outside of work, you'd find him playing different games with his kids, reading books or out for a random walk.</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 #### Breakout 3
 
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title"> Ingesting Billions of Upserts Per day: Scaling Iceberg CDC Ingestion at LinkedIn</h3>
+            <div class="session-description">
+                <p>At LinkedIn, we ingest 4k+ tables (~2PB total logical size) from online databases into our data lake, processing billions of CDC upserts daily for analytics & AI/ML workloads.</p>
+                <p>This talk covers practical tradeoffs between streaming ingestion (eq deletes) & batch merge-pattern (pos deletes) for encoding upserts at scale. We'll share how we optimized read performance for high-churn tables processing hundreds of millions of daily upserts—through frequent delete-file compaction, periodic rewrites & tunings.</p>
+                <p>We'll discuss real-world challenges: high HDFS read I/O amplification, conflicts between concurrent merge & compaction jobs & balancing data freshness against rewrite costs/runtime via budgeted data compaction built in LinkedIn.</p>     
+                <p>We'll also cover leveraging Iceberg's Write-Audit-Publish (WAP) branching for zero-downtime full table rebootstraps & how merge-pattern building validation tooling to ensure consistency between source databases & Iceberg tables.</p>
+                <p>Attendees will leave with actionable optimizations & battle-tested lessons from operating CDC pipelines on Iceberg at LinkedIn scale.</p>
+            </div>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">Aditya Narain Gupta / <span>Staff Software Engineer in LinkedIn</span></h4>
+            <div class="speaker-bio">
+                <p>I work on large-scale data and AI infrastructure in LinkedIn, helping build and operate Database CDC and External data ingestion in LinkedIn used for numerous analytics and AI/ML use-cases.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 #### Breakout 4
 
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title">Correctness vs Performance in Native Lakehouse Engines: Lessons from Velox and Gluten</h3>
+            <div class="session-description">
+               <p> Modern lakehouse engines push performance through native execution layers such as Velox and Apache Gluten, but achieving high performance often introduces subtle correctness challenges.</p>
+                <p>This talk explores the tradeoffs between correctness and performance in native lakehouse execution. Using real examples, we examine issues such as ANSI vs non-ANSI behavior, null semantics, type coercion, and function parity when accelerating queries beyond traditional Spark execution.</p>
+                <p>We highlight lessons learned from integrating native engines, including where performance optimizations diverge from expected semantics, how to detect these gaps, and strategies for maintaining correctness without sacrificing performance.</p>
+                <p>The session provides a practical perspective on building and evaluating high-performance lakehouse systems, focusing on the engineering realities behind modern execution engines.</p>
+            </div>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">Mohammad Linjawi / <span>Software Engineer at IBM working on lakehouse execution engines (Apache Gluten, Velox) and cross-engine query systems</span></h4>
+            <div class="speaker-bio">
+                <p>Mohammad Linjawi is a Software Engineer at IBM working on next-generation lakehouse execution systems, including Apache Gluten and Velox. His work focuses on building high-performance, portable query execution layers and bridging batch, streaming, and AI workloads through open standards. Passionate about open source and helping shape the future of open data infrastructure through open discussions.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 #### Breakout 5
+
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title"> Zero-Copy, Zero Stress, Migrating Delta Lake to Iceberg Spec v3 Without Moving a Byte</h3>
+            <div class="session-description">
+                <p>The "Delta to Iceberg" bridge has long been a vital piece of the ecosystem, but as table formats evolve, maintaining seamless compatibility feels like hitting a moving target. Apache Iceberg with V3 Spec it gets compability with Delta Lake Tables.</p>
+                <p>In this session, I will explore the technical journey of building a robust bridge between Delta Lake v3-7 and the cutting-edge Apache Iceberg Spec v3. Instead of relying on costly and time-consuming "Create Table As Select" (CTAS) operations, we focus on high-efficiency, zero-copy metadata conversion.</p>
+                <p>I will break down the architectural challenges of mapping incompatible metadata layers while keeping underlying data files untouched, ensuring a fast and storage-optimized migration. Attendees will see the new tooling in action through a live demo and gain insights from a real-world production case study.</p>
+                <p>Whether you are planning a migration or curious about the internals of Iceberg v3, you will walk away with a blueprint for transitioning to a modern data stack without the migration tax.</p>
+            </div>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">Vladislav Sidorovich / <span>Google, Software engineer</span></h4>
+            <div class="speaker-bio">
+                <p>I worked as Java swe and later as System Architect more 10+ years.</p>
+                <p>Now, I work for Google Cloud in Poland. During my current job I see many customers trying to migrate to Apache Iceberg from their existing solutions. </p>
+            </div>
+        </div>
+    </div>
+</div>
 
 ### 1:45 PM - 2:15 PM
 
 #### Keynote
 
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title">Designing Open Lakehouse Governance: Separation of Concerns in Iceberg, Polaris, and Policy Engines </h3>
+            <div class="session-description">
+                <p>Open table formats such as Apache Iceberg have made data portable across engines, but governance architectures must also remain extensible as ecosystems evolve. Durable lakehouse governance requires clear separation between table formats, catalog control planes, and policy engines so that each can evolve independently.</p>
+                <p>This talk explores how Apache Iceberg and Apache Polaris illustrate this layered design in practice. We discuss why Iceberg intentionally avoids embedding governance in table metadata, how Polaris serves as an enforcement point for access and operations, and how pluggable interfaces enable integration with existing policy systems.</p>
+                <p>Using these examples, we examine how separation of concerns helps build data governance systems that are composable, interoperable, and adaptable, and why these architectural boundaries matter when evolving governance capabilities across open table formats and catalog interfaces.</p>
+            </div>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">Sung Yun / <span>Engineering Team Lead at Bloomberg | Apache Iceberg PMC | Apache Polaris Committer</span></h4>
+            <div class="speaker-bio">
+                <p>Sung Yun is an Engineering Team Lead at Bloomberg and serves as an Apache Iceberg PMC member and an Apache Polaris committer. He leads Bloomberg’s managed Trino and Iceberg platform, architecting secure, cloud-native data infrastructure for enterprise-scale analytics. His work focuses on integrating Iceberg into enterprise environments with robust authentication, fine-grained authorization, and strong governance models.</p>
+                <p>Sung actively contributes to Apache Iceberg and Apache Polaris and has spoken at KubeCon on building secure, modern data platforms.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 #### Breakout 2
+
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title">Cold Stars over the Frozen Lochs: StarRocks × Iceberg at Fresha</h3>
+            <div class="session-description">
+                <p>Iceberg gave us a great foundation for durable, replayable analytics data. The problem started when we needed the same datasets to satisfy very different access patterns: dashboards and joins that need sub-seconds latency, alongside large historical scans. We could make either case work in isolation, but not both reliably without introducing a hot tier and a clear boundary.</p>
+                <p>This talk covers how we evolved to a tiered design where StarRocks serves the hot tier natively and federates into Iceberg for cold history. We’ll briefly explain how StarRocks’ Iceberg integration behaves (planning/metadata work, pushdown, caching), why federation helps but isn’t free, and how we model tier boundaries in dbt so consumers see one dataset. Finally, we’ll show how we operationalized the architecture with Airflow workflows that route datasets into Iceberg or StarRocks based on workload pattern and freshness SLA, plus the optimizations that made performance predictable.</p>
+            </div>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">Anton Borisov / <span>Principal Data Architect at Fresha</span></h4>
+            <div class="speaker-bio">
+                <p>Anton Borisov is a Principal Data Architect at Fresha working on real-time lakehouse platforms: CDC and streaming ingestion with Flink/Kafka, open table formats like Iceberg/Paimon, and analytics performance with StarRocks. He writes practical deep-dives on the engineering trade-offs behind modern lakehouse systems.</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 #### Breakout 3
 
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title"> An Extremely Technical Overview of how the Apache Iceberg™ Planning Implementation Actually Works </h3>
+            <div class="session-description">
+                <p>What are you trying to tell me? That I can read data fast? No, User. I’m trying to tell you that when you are ready, you won’t have to.</p>
+                <p>Everyone’s heard about how fast Apache Iceberg and maybe you’ve even heard a few notes about “predicate pushdown” and “file metrics” but you’ve been left wanting more. You want to know the nitty gritty of how a predicate from a query engine is actually transformed and applied to Iceberg metadata. In this talk we will show you just that, we’ll work through the actual code of the Iceberg project showing how the metadata is read, how predicates are transformed, and finally how file tasks are actually broken up and sent to execution engines. We’ll talk in detail about all of the properties which control Iceberg planning and see the classes in which those parameters actually take effect. This is definitely more detail than any user of an Apache Iceberg table would actually need to know, but don’t you want to know?</p>
+            </div>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">Russell Spitzer / <span>Software Engineer and Apache Iceberg PMC</span></h4>
+            <div class="speaker-bio">
+                <p>Russell Spitzer received his Ph.D from UCSF in 2013 after performing a lot of comparisons of protein binding sites. Following that he became deeply invested in distributed computing and involved in several Apache projects. While working at Datastax he became a key contributor to the DataStax Spark-Cassandra Connector and also worked on both of those (and other) Apache projects. More recently he has been involved with the Apache Iceberg project and has devoted most of his time to data file management and advancing the table format. Currently Russell is a PMC member of the Apache Iceberg project.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 #### Breakout 4
 
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title">Apache Fluss and The Streaming Lakehouse: Rethinking Architecture For Data & AI</h3>
+            <div class="session-description">
+                <p>For over a decade, building streaming data platforms has meant assembling a patchwork of specialised systems—message layers, stream processors, databases, caches, and analytical engines. Each solves a narrow problem well, but the cumulative cost is high: duplicated data, fragmented consistency, and significant operational overhead.</p>
+                <p>Apache Fluss challenges this by natively integrating streaming into the Lakehouse, as a first-class architectural capability built directly on top of it. By making the table the core abstraction, one that natively handles row, columnar, and vector data, Fluss eliminates the need to juggle multiple systems for different workloads. Data can be ingested, updated, and served continuously through a single unified interface.</p>
+                <p>In this session, we'll explore what it means to treat streaming as a native Lakehouse capability, how it simplifies real-time architecture, and where this new paradigm is headed</p>
+            </div>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">Giannis Polyzos / <span>Ververica, Principal Streaming Architect</span></h4>
+            <div class="speaker-bio">
+                Giannis is a Principal Streaming Architect working on large-scale data infrastructure and real-time systems. He has designed and operated streaming platforms used in production by high-scale organizations. He is a PPMC member of Apache Fluss and has been deeply involved in Apache Flink and the broader streaming ecosystem. His work focuses on unifying batch and streaming architectures, simplifying data primitives, and enabling streaming analytics and stateful workloads at scale.
+            </div>
+        </div>
+    </div>
+</div>
+
 #### Breakout 5
+
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title"> Bridging Worlds: CloudNativePG as the Serving Layer for Modern Lakehouse Architectures</h3>
+            <div class="session-description">
+                <p>This talk explores how CloudNativePG-managed PostgreSQL clusters serve as the "last mile" serving layer in Lakehouse architectures.</p>
+                <p>We'll examine three integration patterns:</p>
+                <p><strong>"Shared Object Storage"</strong></p>
+                <p>Lakehouses (Delta Lake, Iceberg, Hudi) and CloudNativePG backups/WAL archiving share S3-compatible storage, enabling unified policies, security models, and simplified operations.</p>
+                <p><strong>"Foreign Data Wrappers"</strong></p>
+                <p>PostgreSQL's FDW enables direct queries against Parquet files and Lakehouse tables, joining hot operational data with cold analytical data without complex ETL.</p>
+                <p><strong>"pgvector for Embedding Retrieval"</strong></p>
+                <p>Lakehouses process unstructured data into embeddings via Spark or Flink. CloudNativePG's pgvector support provides the high-performance retrieval layer, completing the pipeline to millisecond-latency similarity search.</p>
+                <p>Attendees will leave with architectural patterns for deploying CloudNativePG as the bridge between batch-processed Lakehouse data and real-time applications.</p>
+            </div>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">Gabriele Quaresima / <span>Staff SDE @ EDB</span></h4>
+            <div class="speaker-bio">
+                <p>I am a software engineer, working in EDB since March 2021.</p>
+                <p>I am mainly a Golang/Kubernetes developer with a focus on K8s Operators, and (of course!) a strong Open Source fan.</p>
+                <p>I am a CloudNativePG contributor.</p>
+                <p>I love playing saxophones and flutes, while not sweating in front of an IDE</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 ### 2:30 PM - 3:00 PM
 
 #### Keynote
 
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title">Beyond Tables: Where Should Semantics Live in the Open Lakehouse?</h3>
+            <div class="session-description">
+                <p>Open table formats like Apache Iceberg, Apache Hudi, and Delta Lake have transformed modern data platforms by separating storage from compute and enabling multiple engines to operate on the same data. In this architecture, the catalog layer became the control plane for the open lakehouse—standardizing how engines discover tables and metadata.</p>
+                <p>However, lakehouses still primarily expose tables and SQL. While this works for analysts, newer consumers—applications, data agents, and AI-native systems—need semantic context such as entities, relationships, and shared metric definitions.</p>
+                <p>Today this logic is scattered across tools and pipelines. This raises a key question:</p>
+                <p>The catalog standardized how lakehouses discover tables. Should it also define what those tables mean?</p>
+                <p>In this talk, we explore architectural options for introducing semantics into the lakehouse:</p>
+                <ul>
+                    <li>BI-centric semantics</li>
+                    <li>Pipeline-centric semantics</li>
+                    <li>Engine-centric semantics</li>
+                    <li>Catalog-centric semantics</li>
+                    <li>Service-based semantics</li>
+                </ul>
+                <p>and discuss the trade-offs for governance, interoperability, and multi-engine environments.</p>  
+            </div>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">Arnav Naresh Borkar / <span>Performance and Research Engineer, e6data</span></h4>
+            <div class="speaker-bio">
+                <p>Arnav Borkar is a Database Internals Engineer at e6data, where he works on the core development and optimization of a high-performance SQL query engine for large-scale analytics. He also leads ecosystem initiatives around open table formats and catalog integrations, helping advance interoperability in modern lakehouse architectures. Arnav is active in the open lakehouse community and recently spoke at Iceberg Bay Area Meetup where he presented on tackling metadata explosion in Apache Iceberg.</p>
+                <p>He is a Computer Science graduate from BITS Pilani, where he developed his interest in distributed systems and data storage through his work at the DaSH Lab. His research on parallel file systems was published at IEEE Cluster Conference in Santa Fe and part of this work was presented at SC23 Supercomputing Conference in Denver.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 #### Breakout 2
+
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title">Iceberg at Scale: Infrastructure Lessons for the Modern Lakehouse</h3>
+            <div class="session-description">
+                <p>Apache Iceberg, an open table format, has emerged as a critical component in modern lakehouse architectures, but operating it at enterprise scale surfaces challenges that span infrastructure, performance, and security. This presentation shares practical lessons applicable to any organization investing in the lakehouse pattern.</p>
+                <p>This talk covers three areas common to production Iceberg environments: infrastructure evolution, performance engineering and enterprise requirements.</p>
+                <p>Attendees will walk away with a practical understanding of how to evolve their catalog infrastructure, tune Parquet and Spark configurations for real-world Iceberg workloads, and approach encryption and audit requirements in lakehouse environments. We will also discuss how observability and metrics collection lay the foundation for ML-driven query optimization.</p>
+            </div>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">Anil Khadka / <span>Apple Inc</span></h4>
+            <div class="speaker-bio">
+                <p>Anil Khadka is a Software Engineer at Apple Inc., where he has spent over a decade building and optimizing large-scale data infrastructure. With 20 years of industry experience and an MS in Computer Science, he specializes in Apache Spark, Apache Flink, and Apache Iceberg, with deep expertise in performance optimization across cloud-native platforms. His work focuses on Lakehouse architecture and production-grade reliability at massive scale.</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 #### Breakout 3
 
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title">Wide Tables in Apache Iceberg: Column Updates and Column Families for Scalable Feature Evolution</h3>
+            <div class="session-description">
+                <p>Machine learning and feature engineering workloads often rely on very wide tables where columns are frequently updated or added. In Apache Iceberg today, even small column changes require full file or full table rewrites, leading to unnecessary I/O and cost.</p>
+                <p>This talk explores approaches for efficient column updates in Iceberg, where only the modified columns are written instead of rewriting entire data files. We then look ahead to column families, a complementary concept that vertically splits wide tables to address issues like unbalanced row groups, large blob columns dominating storage, and suboptimal compression and read performance.</p>
+                <p>Together, these ideas aim to make Iceberg a better foundation for scalable feature evolution in Lakehouse architectures.</p>
+            </div>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">Gábor Kaszab / <span>Software Engineer @ Microsoft Gray Systems Lab</span></h4>
+            <div class="speaker-bio">
+                <p>He has been an active open‑source contributor in the big data ecosystem since 2017. With deep expertise in distributed query engines, he is a PMC member of Apache Impala and a long‑time contributor to the Apache Iceberg project, focusing on advancing performance, reliability, and real‑world adoption.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 #### Breakout 4
 
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title">  Moving Mountains: Iceberg Migration Across Catalogs and Clouds </h3>
+            <div class="session-description">
+                <p>Apache Iceberg's commitment to interoperability and vendor neutrality means users often explore new cloud environments and diverse catalog implementations. As the ecosystem matures, seamlessly migrating existing tables and views becomes essential. This talk covers bulk migration of Iceberg assets between catalogs and storage locations without duplicating data.</p>
+                <p>The session begins with migration motivations, then dives into core APIs like `registerTable` and the recently proposed `registerView`. It focuses on challenges of large-scale migrations and features a "CLI tool" from the Apache Polaris community that streamlines metadata transfer through a live demo. Finally, it explores Spark’s `rewrite_table_path procedure` for moving data across storage providers while keeping metadata synced and data immutable.</p>
+                <p>Attendees will gain a practical framework for automated migrations and understand how Iceberg’s design enables seamless, vendor-neutral transitions.</p>
+            </div>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">Ajantha Bhat U / <span>Senior software engineer at Dremio</span></h4>
+            <div class="speaker-bio">
+                <p>Have 8 plus years of working experience on table formats. PMC member of Apache CarbonData, Committer at Apache Polaris and active contributor to Apache Iceberg.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 #### Breakout 5
+
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title"> Beyond Structured Data: How Apache Doris Enables AI-Ready Multimodal Analytics on the Open Lakehouse</h3>
+            <div class="session-description">
+                <p>As AI pipelines demand data across the full type spectrum — from structured tables and JSON logs to vector embeddings — the open lakehouse must evolve beyond traditional analytics.</p>
+                <p>This talk explores how Apache Doris serves as a multi-modal analytics layer on Apache Paimon and Apache Iceberg, covering three capabilities:</p>
+                <ul>
+                    <li>Structured: High-performance MPP SQL on Paimon and Iceberg with native Deletion Vector and real-time streaming update support.</li>
+                    <li>Semi-structured: The VARIANT type delivers schema-free JSON analytics in a columnar engine — ideal for observability and event-driven AI workloads.</li>
+                    <li>Vectors & unstructured: Native HNSW/IVF indexing and hybrid search unify structured filters, full-text retrieval, and ANN similarity in a single SQL query — enabling RAG and semantic search directly on lakehouse data.</li>
+                </ul>
+                <p>Attendees will learn how one open-source engine bridges the full data spectrum to make the lakehouse AI-ready — without added infrastructure complexity.</p>
+            </div>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">Mingyu Chen / <span>Apache Doris PMC Chair & VPE@VeloDB</span></h4>
+            <div class="speaker-bio">
+                <p>Mi10 years of experience in distributed systems, focusing on distributed scalable analytical databases.</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 ### 3:30 PM - 4:00 PM
 
 #### Keynote
 
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title">Designing a Multi-Engine Lakehouse with Apache Iceberg: One Table, Many Engines</h3>
+            <div class="session-description">
+                <p>What if one Iceberg table could power your entire analytics stack—from interactive queries in DuckDB to batch processing in Spark, ad-hoc exploration in Trino, and real-time dashboards in StarRocks?</p>
+                <p>This talk explores how Apache Iceberg enables true multi-engine interoperability through its open table format, catalog decoupling, and rich metadata model. We’ll cover practical patterns for building a shared data layer across diverse engines without sacrificing consistency, flexibility, or performance.</p>
+                <p>We’ll also discuss how QueryFlux, our open-source multi-engine query router, helps turn this model into something operational by routing queries to the right engine based on workload type and execution needs.</p>
+                <p>Whether you’re modernizing a warehouse or building a new lakehouse, this session shows how to write once, govern once, and query everywhere.</p>
+            </div>
+        </div>
+        <div class="speaker-details">Amit Gilad / <span>Lakesphere, CTO</span></h4>
+            <div class="speaker-bio">
+                <p>Seasoned data engineer with over eight years of experience architecting and managing large-scale data systems. Currently working as ceo at lakeops control plane for data lakes. In the past Amit has played an instrumental role in spearheading Cloudinary's transition to the cutting-edge Apache Iceberg distributed data table format, leveraging his deep expertise in optimizing data storage, enhancing data retrieval processes, and ensuring seamless data operations within cloud environments.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 #### Breakout 2
+
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title"> What It Takes: Building a Lakehouse as a Service on Kubernetes</h3>
+            <div class="session-description">
+                <p>This breakout session offers an engineering-focused look behind the curtain of how STACKIT designed, built, and operates a Lakehouse as a Service offering on top of OSS projects such as Kubernetes, Apache Iceberg, NATS, ZooKeeper, and others.</p>
+                <p>Topics that will be touched:</p>
+                <ul>
+                <li>OSS at the Core: Insights into the general setup of the service and how open-source projects like Apache Iceberg, Kubernetes and others play a central role.</li>
+                <li>Order to Deployment: Technical walkthrough from API interaction and resource provisioning in the cluster to the automated setup using self-written Kubernetes Operators.</li>
+                <li>Engineering Hurdles and Solutions: Details about the most significant challenges we faced.</li>
+                <li>Operationalizing the Service: Context for engineering decisions we made, things that went wrong, and a focus on the critical operational aspects.</li>
+                </ul>
+                <p>Attendees will gain practical and relatable insights into the complexities of platform engineering for data infrastructure from our experience in bringing a demanding, cutting-edge data service to market as a managed offering</p>
+            </div>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">Bjarne Schröder / <span>Software Engineer @ STACKIT</span></h4>
+            <div class="speaker-bio">
+                <p>Hi! I'm Bjarne and I work as a Software Engineer at STACKIT on Data & AI product offerings. Transitioning from Data Engineering to Software Engineering I know both sides of the space. Being the user of cloud native data services, and now actually building and providing them.</p>
+                <p>I love to connect with other people. In my freetime I like to dive into nerdy topics and cycle through my hometown Cologne, Germany.</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 #### Breakout 3
 
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title">Lean Metadata, Big Data: Keep the Query Fast in Apache Iceberg</h3>
+            <div class="session-description">
+                <p>Apache Iceberg's metadata layer is what makes schema evolution, partition evolution, and predicate pushdown possible . But at petabyte scale, that metadata itself can balloon to hundreds of gigabytes or more. When planning slows down the execution, something has to give.</p>
+                <p>This talk explores how Iceberg's metadata is structured through manifests, partition summaries, and column-level metrics, and why each layer exists to enable fast analytical queries. We'll then walk through Iceberg's native APIs, procedures and practical strategies for applying them to keep metadata size in check at scale. Finally, we'll preview proposals in the Iceberg v4 spec that aim to make metadata more compact and scalable by default.</p>
+                <p>You'll walk away with a clear picture of where all those gigabytes of metadata actually come from, a playbook for keeping them in check in an iceberg's own way, and enough context on the v4 spec to start contributing and where the format heads next.</p>
+            </div>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">Hongyue Zhang / <span>Software Engineer at Snowflake</span></h4>
+            <div class="speaker-bio">
+                <p>Hongyue started to contribute to apache iceberg project since 2022 while work on Apple data platform. Now at Snowflake, he is building tools and systems around Apache Iceberg to help make data-driven decisions.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 #### Breakout 4
 
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title"> Challenges of Implementing Iceberg Features in a C++ Query Engine</h3>
+            <div class="session-description">
+                <p>Apache Impala is a hybrid, massively parallel query engine: its query planning and metadata handling are implemented in Java, while its execution engine is written in C++. This architecture presents unique challenges when integrating Apache Iceberg, whose reference implementation and ecosystem are primarily Java-based. Attendees will gain insight into the practical challenges of bringing Iceberg to non-JVM query engines.</p>
+                <p>We will explore how Iceberg features are implemented in a distributed C++ query engine, and where Impala can reuse existing Iceberg libraries versus where custom implementations are required. We will dive into concrete examples, including metadata handling and row-level operations. The session will also highlight opportunities this model creates, such as rethinking how merge-on-read is implemented.</p>
+                <p>Finally, attendees will also learn about the current state of Iceberg support in Impala and how our progress is going toward adopting Iceberg V3.</p>
+            </div>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">Zoltán Borók-Nagy / <span>Cloudera, Principal Engineer</span></h4>
+            <div class="speaker-bio">
+                <p>Zoltán is a software engineer at Cloudera, working on Apache Impala. He is also a PMC member on the project. Currently he is leading the Impala/Iceberg integration efforts. Before Cloudera, Zoltán worked on C++ static analysis tools. He is interested in distributed, massively parallel systems, databases, and performance engineering.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 #### Breakout 5
+
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title">Iceberg for Agents - Turning Lakehouse Data Into AI-Ready Context </h3>
+            <div class="session-description">
+                <p>AI agents fail in production because they're overwhelmed with data but starved for context. LLM models aren’t the problem. The bottleneck is the data stack: fragmented silos, inconsistent definitions, and logic hidden in tribal knowledge. Agents need structured, reliable, and interpretable context—not just data access.</p>
+                <p>In this session, we'll show how Apache Iceberg becomes the backbone of AI-ready pipelines. You’ll learn how to elevate your Iceberg implementation from a storage format to a live context layer that powers structured retrieval-augmented generation (RAG), schema-aware agents, and autonomous reasoning grounded in truth.</p>
+                <p>What we’ll cover:</p>
+                <ol>
+                    <li>Iceberg Foundations for AI - from ACID to Time Travel</li>
+                    <li>From Rows to Relationships - The role of the semantic layer</li>
+                    <li>Structured RAG in Practice - Fully open source</li>
+                </ol>
+                <p>The session includes a live demo of a fully open-source Structured RAG stack built on Apache Iceberg, featuring semantic query translation, hybrid retrieval, and governed agent reasoning. Expect architecture diagrams, real code, and practical guidance.</p>
+            </div>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">Andrew Madson / <span>Head of Developer Relations at Fivetran | Author of "Apache Polaris - The Definitive Guide". Authoring "AI-Ready Data" for Wiley and "Data Transformation" for O'Reilly</span></h4>
+            <div class="speaker-bio">
+                <p>Andrew Madson leads Developer Relations at Fivetran, where he builds global programs that help developers and data teams adopt modern data and AI tooling. He has built DevRel, education, and evangelism functions at Fivetran, Tobiko Data, and Dremio, delivering technical content, large-scale community programs, and keynotes across major industry conferences.</p>
+                <p>Andrew is a published author of the O’Reilly “Definitive Guide to Apache Polaris” and a graduate professor of data science and engineering. Andrew previously led AI and data teams at Arizona State University, J.P. Morgan Chase, and MassMutual among others.</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 ### 4:15 PM - 5:00 PM
 
 #### Keynote
+
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title">The Future of the Open Lakehouse</h3>
+            <div class="session-description">
+                <p>The open lakehouse has become the dominant architecture for modern data platforms, but it's still evolving fast. Table formats, catalogs, storage layers, and compute engines are all advancing independently, and the people building these projects don't always get the chance to sit down together and talk about where it's all headed.</p>
+                <p>This panel brings together leaders and committers from across the lakehouse ecosystem to discuss what comes next. What hard problems remain unsolved? Where do the boundaries between formats, catalogs, and compute need to shift? How should these projects evolve to support emerging workloads like AI/ML, real-time analytics, and agentic data access? And where should the community focus its energy to have the greatest impact?</p>=
+                <p>Whether you're a contributor to one of these projects or an engineer building on top of them, this session offers a rare cross-project conversation about the future of the open lakehouse that's grounded in the perspectives of the people actually doing the work.</p>    
+            </div>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">Ryan Blue / <span>Original creator of Apache Iceberg</span></h4>
+            <div class="speaker-bio">
+                <p>Ryan is the co-creator of Apache Iceberg and spent the last decade working on big data infrastructure at Tabular, Netflix, Cloudera, and now Databricks. He is an ASF member and a committer in the Apache Parquet, Avro, and Spark communities.</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 ---
 
