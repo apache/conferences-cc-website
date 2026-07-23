@@ -221,6 +221,10 @@ a.btn:hover { background-color: var(--color-red); color: #fff; }
 
 .pt-xl {padding-top:calc( var(--val-baseline) * 7 );}
 
+.spacer {height: 20px; display: block;}
+.spacer.spacer-medium {height: 50px;}
+.spacer.spacer-large {height: 100px;}
+
 .min-h-500 {min-height: 500px;}
 .min-h-800 {min-height: 800px;}
 
@@ -1015,7 +1019,7 @@ footer p {
     object-fit: cover;
 }
 .session-card {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .session-card p, .session-card li {
     font-size: 16px;
