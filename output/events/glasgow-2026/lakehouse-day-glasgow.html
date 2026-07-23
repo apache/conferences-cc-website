@@ -110,6 +110,187 @@ The goal of the event is to provide a place for the projects in and around the l
 <h2>Schedule</h2>
 <p><strong>October 10, 2026</strong></p>
 <p>Lakehouse Day takes place on Tuesday, October 10, 2026 colocated with Community Over Code.</p>
+<!-- Melissa!!! Uncomment the line below to show Sessionize embed schedule -->
+<!-- <script type="text/javascript" src="https://sessionize.com/api/v2/zmrett95/view/GridSmart"></script> -->
+<div>
+<script>
+        jQuery(function(){
+            var $ = jQuery.noConflict();
+            $(document)
+            .on('click', '.session-title', function(){
+               $(this).next('.session-description').slideToggle();
+            })
+            .on('click', '.speaker-name', function(){
+               $(this).next('.speaker-bio').slideToggle();
+            });
+        });
+    </script>
+</div>
+<h3>10:00 AM - 10:30 AM</h3>
+<h4>Keynote</h4>
+<!-- Copy and past the following html for one card. Modify title, session description, and speaker details as needed. -->
+<div class="card session-card">
+<div class="card-inner">
+<div class="session-info">
+<h3 class="session-title">The Rise of the Apache Lakehouse: Building a Modular, Vendor-Neutral Data Estate</h3>
+<div class="session-description">
+<p>For years, the "Data Lakehouse" was a buzzword owned by individual vendors. In 2026, the narrative has shifted. A powerful, community-driven ecosystem has emerged&mdash;the Apache Lakehouse&mdash;a modular architecture built entirely on open-source standards that rivals the performance and governance of proprietary warehouses.</p>
+<p>At the heart of this movement is a "Separation of Concerns" that gives organizations ultimate freedom.</p>
+<p>The Foundation (The Table Format): Why Apache Iceberg, Hudi, and Paimon have won the "format wars" by providing ACID transactions and schema evolution on top of simple object storage.</p>
+<p>The Control Plane (The Catalog): How Apache Polaris (incubating) and Apache Gravitino (incubating) are solving the "metadata silos" by providing a centralized, REST-based source of truth for all engines.</p>
+<p>The Streaming Lakehouse: A look at newer projects like Apache Fluss (incubating) that bridge the gap between real-time streaming and historical analytics without data duplication.</p>
+</div>
+</div>
+<div class="speaker-details">
+<h4 class="speaker-name">Joe Smith / <span>Software Engineer</span></h4>
+<div class="speaker-bio">
+<p>lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+</div>
+</div>
+</div>
+</div>
+<!-- End of session card -->
+<h3>10:45 AM - 11:15 AM</h3>
+<h4>Keynote</h4>
+<div class="card session-card">
+<div class="card-inner">
+<div class="session-info">
+<h3 class="session-title">Lakehouse Observability</h3>
+<div class="session-description">
+<p>The decomposed nature of Lakehouse makes observability challenging. We'll share the practices we've found most effective for monitoring our managed multicloud (AWS, GCP, Azure) and multi-engine (Spark, Trino, Flink, and more) Iceberg Lakehouse at Datadog. Topics include monitoring lineage, data quality, usage costs, performance metrics, query pattern analysis, data access audits, and orphan files management. We'll discuss which real-time monitors prove to be the most helpful, and which of them should page you.</p>
+</div>
+</div>
+<div class="speaker-details">
+<h4 class="speaker-name">JB Onofr&eacute; / <span>ASF member, working on ~20 Apache projects</span></h4>
+<div class="speaker-bio">
+<p>JB is long time Apache member, enthusiast about Apache projects. He's active on several projects, more than 20.</p>
+</div>
+</div>
+</div>
+</div>
+<h4>Breakout 2</h4>
+<div class="card session-card">
+<div class="card-inner">
+<div class="session-info">
+<h3 class="session-title"> Building Egnatia at Akamai: How Iceberg Is Saving Us Millions </h3>
+<div class="session-description">
+<p>Apache Iceberg is the de facto table format for modern lakehouse architectures, but its real value emerges when it supports diverse workloads. In this talk, we share how Akamai built Egnatia, an Iceberg platform that delivers seven-figure annual cost savings.</p>
+<p>You&rsquo;ll learn how we run two demanding workloads on Apache Iceberg:</p>
+<ul>
+<li>CDN batch analytics: Upsert-heavy, join-intensive pipelines with complex lineage</li>
+<li>Security event data: Faced with rising Splunk costs, we migrated security telemetry to Iceberg, enabling near&ndash;real-time ingestion of high-volume data, enriched with internal context and used for threat detection, analytics, alerting, and investigation</li>
+<li>We&rsquo;ll also share key architectural decisions and lessons learned running Iceberg across batch and streaming workloads.</li>
+</ul>
+<p>By the end of the session, you will gain:</p>
+<ul>
+<li>How to integrate Iceberg for batch and real-time workloads</li>
+<li>How to operate upsert-heavy pipelines with complex dependencies</li>
+<li>How Iceberg supports security analytics, alerting, and orchestration as a SIEM</li>
+<li>Practical patterns to reduce costs and modernize data platforms</li>
+</ul>
+</div>
+</div>
+<div class="speaker-details">
+<h4 class="speaker-name">Endi Caushi / <span>Senior Software Engineer - Akamai</span></h4>
+<div class="speaker-bio">
+<p>Endi is a Senior Software Engineer at Akamai, where he is building Egnatia an internal Lakehouse platform leveraging Apache Iceberg. Passionate about Big Data and Distributed Systems, he focuses on designing scalable, reliable data ecosystems to support analytics across multiple organizations.</p>
+</div>
+</div>
+</div>
+</div>
+<h4>Breakout 3</h4>
+<div class="card session-card">
+<div class="card-inner">
+<div class="session-info">
+<h3 class="session-title"> Bringing Warehouse-Grade Transactions to Open Lakehouses: Multi-Table Transactions in Iceberg </h3>
+<div class="session-description">
+<p>Strict data lake workloads&mdash;like star schema ETLs&mdash;suffer from torn multi-table reads and partial writes. While Apache Iceberg provides robust single-table commits, cross-table atomicity remains an active frontier. Workarounds like eventual consistency, Git-like branching, or single-engine warehouses either compromise correctness, add operational complexity, or break the open, multi-engine lakehouse promise.</p>
+<p>This session explores an engine-neutral proposal bringing warehouse-grade BEGIN/COMMIT semantics to the Iceberg REST Catalog. We will break down this architecture into four pillars and demonstrate them live via an Apache Polaris (incubating) PoC:</p>
+<oll>
+<li>Stateless Coordination: Delegating atomicity to the catalog's backing DB.</li>
+<li>TxnSnapshots: Lightweight handles guaranteeing consistent reads across multiple engines (Spark, Flink) and apps.</li>
+<li>Selectable Isolation Levels: Flexible choices from READ COMMITTED to REPEATABLE READ.</li>
+<li>Retryable Subtransactions: Overcoming Optimistic Concurrency (OCC) limits using pessimistic locking to safely retry transient failures.</li>
+</oll>
+</div>
+</div>
+<div class="speaker-details">
+<h4 class="speaker-name">Qiegang Long / <span>Cloudera, Principal Engineer</span></h4>
+<div class="speaker-bio">
+<p>Qiegang Long is a Principal Engineer at Cloudera, where he works on advancing open table formats and compute engines, particularly Apache Spark and Apache Iceberg. Throughout his career, he has focused on the practical engineering challenges of building distributed systems, databases, and data lakes. Before joining Cloudera, Qiegang held technical lead roles at Amazon, where he helped launch AWS Aurora PostgreSQL and its read replica feature. His engineering experience extends deeply into the AI &amp; Data space, having served as the tech lead for Amazon Alexa's core Natural Language Understanding (NLU) service, alongside contributions to Amazon SageMaker Unified Studio and the DataZone catalog. He also spent time working on core data infrastructure at Meta. Qiegang is particularly interested in collaborating with the open-source community to solve difficult data and infrastructure problems.</p>
+</div>
+</div>
+</div>
+</div>
+<h4>Breakout 4</h4>
+<div class="card session-card">
+<div class="card-inner">
+<div class="session-info">
+<h3 class="session-title"> Apache Arrow, the Hostage Negotiator: Revisiting the case for Client Protocol Redesign </h3>
+<div class="session-description">
+In 2017, Mark Raasveldt and Hannes M&uuml;hleisen (who went on to create DuckDB) presented a VLDB paper entitled &ldquo;Don&rsquo;t Hold My Data Hostage &ndash; A Case For Client Protocol Redesign.&rdquo; Their paper proposed the use of columnar serialization to achieve order-of-magnitude improvements in query result transfer performance. Eight years later, this talk revisits Raasveldt and M&uuml;hleisen&rsquo;s argument and describes the central role that the Apache Arrow project has played in realizing this vision&mdash;through the dissemination of Arrow IPC, Arrow Flight, Arrow Flight SQL, Arrow over HTTP, and ADBC across numerous open source and commercial query systems. The talk concludes with a call to action to introduce Arrow-based transport to the systems that continue to &ldquo;hold data hostage.&rdquo;            </div>
+</div>
+<div class="speaker-details">
+<h4 class="speaker-name">Matt Topol / <span>ASF member, working on ~20 Apache projects</span></h4>
+<div class="speaker-bio">
+<p>Hailing from the faraway land of Brentwood, NY and currently residing in the rolling hills of Connecticut, Matt Topol has worked across infrastructure, application development, and large-scale distributed systems for financial analytics. A PMC member for both Apache Arrow and Apache Iceberg and an ASF member, he authored "In-Memory Analytics with Apache Arrow" and spent years growing the Arrow Golang community. He recently co-founded Columnar, focusing on data connectivity via Arrow Database Connectivity (ADBC).</p>
+<p>In his spare time, Matt enjoys bashing his head against a keyboard, running demented fantasy games for his friends, and sharing his knowledge with anyone who'll listen.</p>
+</div>
+</div>
+</div>
+</div>
+<h4>Breakout 5</h4>
+<div class="card session-card">
+<div class="card-inner">
+<div class="session-info">
+<h3 class="session-title">Redefining the Lakehouse: Spark Meets Iceberg via DataSource V2</h3>
+<div class="session-description">
+<p>DataSource V2 (DSv2) is a core but often overlooked part of Apache Spark. It connects Spark&rsquo;s engine to many data sources, from Apache Iceberg to JDBC and Parquet, allowing Spark to push down optimizations and use source-specific features.</p>
+<p>This talk covers recent progress in Spark&ndash;Iceberg integration. New features like the procedure catalog and row identifiers enable better table management and row-level operations. Improvements to MERGE INTO and INSERT INTO bring safer schema evolution and more reliable writes, while better data filtering improves query performance.</p>
+<p>We&rsquo;ll also cover DML summaries for clearer write visibility, cache fixes for correctness, and deeper Change Data Feed (CDF) support for incremental processing.</p>
+<p>Looking ahead, DSv2 is enabling new SQL features like constraints, default values, and generated columns. Spark&rsquo;s design here is not just evolving itself&mdash;it&rsquo;s also influencing Apache Iceberg, helping close the gap with data warehouses.</p>
+</div>
+</div>
+<div class="speaker-details">
+<h4 class="speaker-name">Szehon Ho / <span>Software Engineer at Databricks</span></h4>
+<div class="speaker-bio">
+<p>Szehon is a software engineer at Databricks, where he focuses on Apache Spark. Prior to this, he was at Apple, working on Apache Iceberg, and Criteo and Cloudera, working on Apache Hive. He is a committer and PMC in the Apache Hive and Iceberg projects.</p>
+</div>
+</div>
+</div>
+</div>
+<h3>11:45 AM - 12:15 PM</h3>
+<h4>Keynote</h4>
+<h4>Breakout 2</h4>
+<h4>Breakout 3</h4>
+<h4>Breakout 4</h4>
+<h4>Breakout 5</h4>
+<h3>1:15 PM - 1:45 PM</h3>
+<h4>Keynote</h4>
+<h4>Breakout 2</h4>
+<h4>Breakout 3</h4>
+<h4>Breakout 4</h4>
+<h4>Breakout 5</h4>
+<h3>1:45 PM - 2:15 PM</h3>
+<h4>Keynote</h4>
+<h4>Breakout 2</h4>
+<h4>Breakout 3</h4>
+<h4>Breakout 4</h4>
+<h4>Breakout 5</h4>
+<h3>2:30 PM - 3:00 PM</h3>
+<h4>Keynote</h4>
+<h4>Breakout 2</h4>
+<h4>Breakout 3</h4>
+<h4>Breakout 4</h4>
+<h4>Breakout 5</h4>
+<h3>3:30 PM - 4:00 PM</h3>
+<h4>Keynote</h4>
+<h4>Breakout 2</h4>
+<h4>Breakout 3</h4>
+<h4>Breakout 4</h4>
+<h4>Breakout 5</h4>
+<h3>4:15 PM - 5:00 PM</h3>
+<h4>Keynote</h4>
 <hr/>
 <h2>Selection Committee</h2>
 <table class="table">
