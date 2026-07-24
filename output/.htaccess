@@ -1,3 +1,6 @@
 RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# CSP permissions for communityovercode.apache.org - approved by VP Data Privacy.
+SetEnv CSP_PROJECT_DOMAINS "https://*.sessionize.com/ https://*.cvent.com/"
