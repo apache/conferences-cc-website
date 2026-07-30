@@ -49,9 +49,9 @@ events:
       - /images/events/glasgow-2026/glasgow-13.webp
   - name: Community Over Code Beijing 2026
     ref: asia-2026
-    href: https://asia.communityovercode.org/
+    href: https://communityovercode.apache.org/events/asia-2026/
     nav: nav-asia-2026.html
-    registrationHref: https://asia.communityovercode.org/#register  # optional registration link
+    registrationHref: https://www.bagevent.com/widget/ticket/9201152?widget=2&iframe=1  # optional registration link
     startDate: 2026-08-07 # REQUIRED: must use format YYYY-MM-DD
     endDate: 2026-08-09 # REQUIRED: must use format YYYY-MM-DD
     displayDate: August 7-9, 2026 # what is displayed on event card
