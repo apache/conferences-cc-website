@@ -3,6 +3,7 @@ template: page-event-default
 ref: asia-2026
 eventLogo: /images/logos/CommunityOverCode_Logo_beijing-stacked-white.svg
 inPageNav: true
+customcss: /events/asia-2026/css/asia-2026.css
 
 
 ## Visa Letter Request
