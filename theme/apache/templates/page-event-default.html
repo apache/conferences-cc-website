@@ -16,6 +16,10 @@
     {#  The ref value on the markdown file must match the ref value in the events data on events.yaml  #}
     
     {% set current_event = page.events | selectattr('ref', 'equalto', page.ref) | first if page.ref else none %}
+    {#  If the current event is not found in the upcoming events, check the archived events  #}
+    {% if not current_event and page.archived_events %}
+        {% set current_event = page.archived_events | selectattr('ref', 'equalto', page.ref) | first if page.ref else none %}
+    {% endif %}
    
     {% if current_event %}
         <div class="hero hero--single-event-default relative">
@@ -76,7 +80,9 @@
         <div class="inner py-xl">
             <div class="mb-medium cf">
                 <div class="float66 right" style="padding-left: 50px;">
+                    {% if current_event %}
                     <a class="breadcrumb" href="{{ current_event.href }}"><svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><polyline points="15 18 9 12 15 6"></polyline></svg> Back to Event Home</a>
+                    {% endif %}
                 </div>
             </div>
             <div class="cf flex-col-800">

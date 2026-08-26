@@ -57,7 +57,11 @@
             {# Check to see if the current page is an event and has a custom navigation. If so, we apply the custom nav instead of the default site nav #}
             
             {% set current_event = page.events | selectattr('ref', 'equalto', page.ref) | first if page.ref else none %}
-            
+            {#  If the current event is not found in the upcoming events, check the archived events  #}
+            {% if not current_event and page.archived_events %}
+                {% set current_event = page.archived_events | selectattr('ref', 'equalto', page.ref) | first if page.ref else none %}
+            {% endif %}
+
             {% if current_event and current_event.nav %}
                 {% include current_event.nav %}
             {% else %}
