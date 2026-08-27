@@ -1,60 +1,42 @@
 {
-    "platinum": [
-        {
-            "name": "Apple", 
-            "logo": "/images/sponsors/apple-platinum.png",
-            "link": "https://www.apple.com"
-        },
-        {
-            "name": "Snowflake", 
-            "logo": "/images/sponsors/Snowflake_Logo_CMYK_blue-1.webp",
-            "link": "https://www.snowflake.com/en/"
-        }
-    ],
     "gold": [
         {
-            "name": "Fivetran", 
-            "logo": "/images/sponsors/fivetran-logo.webp",
-            "link": "https://www.fivetran.com/"
-        },
-        {
-            "name": "Gradle", 
-            "logo": "/images/sponsors/logo-gradle.webp",
-            "link": "https://gradle.org/"
-        },
-        {
-            "name": "Oracle", 
-            "logo": "/images/sponsors/logo-oracle.webp",
-            "link": "https://www.oracle.com/"
-        },
-        {
             "name": "Google Cloud", 
-            "logo": "/images/sponsors/logo-google-cloud.png",
+            "logo": "/images/sponsors/GC_Logo_FullColor_cmkyC.svg",
             "link": "https://cloud.google.com/"
-        },
-        {
-            "name": "Red Hat", 
-            "logo": "/images/sponsors/red_hat_logo.webp",
-            "link": "https://www.redhat.com"
         }
     ],
     "silver": [
         {
             "name": "Bloomberg", 
             "logo": "/images/sponsors/logo-bloomberg.webp",
-            "link": "https://www.bloomberg.com/"
+            "link": "http://techatbloomberg.com/"
         },
         {
             "name": "NetApp", 
             "logo": "/images/sponsors/NetApp-Instaclustr-Logo.webp",
-            "link": "https://www.netapp.com/"
+            "link": "https://www.instaclustr.com/"
+        }
+    ],
+    "lanyard": [
+        {
+            "name": "Bloomberg", 
+            "logo": "/images/sponsors/logo-bloomberg.webp",
+            "link": "http://techatbloomberg.com/"
         }
     ],
     "video_recording": [
         {
             "name": "AWS", 
-            "logo": "/images/sponsors/logo-aws.webp",
-            "link": "https://aws.amazon.com/"
+            "logo": "/images/sponsors/AWS_logo_RGB_1c_Gray850.svg",
+            "link": "https://aws.amazon.com/opensource/"
+        }
+    ],
+    "lightning_talks": [
+        {
+            "name": "NetApp", 
+            "logo": "/images/sponsors/NetApp-Instaclustr-Logo.webp",
+            "link": "https://www.instaclustr.com/"
         }
     ]
 }
