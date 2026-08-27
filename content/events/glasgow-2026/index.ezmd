@@ -7,7 +7,7 @@ ctaText: Go to Schedule
 ctaLink: https://web.cvent.com/event/ac71ce47-2b5f-424c-abfe-5b48255315fb/summary?RefId=XSummary
 ctaTwoText: Register Now
 ctaTwoLink: /events/glasgow-2026/register
-<!-- sponsorsKey: glasgow-2026 -->
+sponsorsKey: glasgow-2026
 
 <!-- 
     ref: REQUIRED - Must be unique - Used for matching event data from events.yaml in events page templates.

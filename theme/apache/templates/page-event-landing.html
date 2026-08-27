@@ -307,6 +307,20 @@
                         </div>
                     </div>
                 {% endif %}
+                {%if page.sponsors[page.sponsorskey]['lanyard'] %}
+                    <div class="sponsor-logos-section py-large">
+                        <h3 class="text-center">Lanyard</h3>
+                        <div class="sponsor-logos sponsor-logos--lanyard">
+                            {% for sponsor in page.sponsors[page.sponsorskey]['lanyard'] %}
+                                <div class="sponsor-logo">
+                                    <a href="{{ sponsor.link }}" target="" class="sponsor-link">
+                                        <img src="{{ sponsor.logo }}" loading="" alt="{{ sponsor.name }}">
+                                    </a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endif %}
                 {%if page.sponsors[page.sponsorskey]['video_recording'] %}
                     <div class="sponsor-logos-section py-large">
                         <h3 class="text-center">Video Recording</h3>
@@ -326,6 +340,20 @@
                         <h3 class="text-center">Lightning Talks</h3>
                         <div class="sponsor-logos sponsor-logos--lightning_talks">
                             {% for sponsor in page.sponsors[page.sponsorskey]['lightning_talks'] %}
+                                <div class="sponsor-logo">
+                                    <a href="{{ sponsor.link }}" target="" class="sponsor-link">
+                                        <img src="{{ sponsor.logo }}" loading="" alt="{{ sponsor.name }}">
+                                    </a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endif %}
+                {%if page.sponsors[page.sponsorskey]['coffee_breaks'] %}
+                    <div class="sponsor-logos-section py-large">
+                        <h3 class="text-center">Coffee Breaks</h3>
+                        <div class="sponsor-logos sponsor-logos--coffee_breaks">
+                            {% for sponsor in page.sponsors[page.sponsorskey]['coffee_breaks'] %}
                                 <div class="sponsor-logo">
                                     <a href="{{ sponsor.link }}" target="" class="sponsor-link">
                                         <img src="{{ sponsor.logo }}" loading="" alt="{{ sponsor.name }}">

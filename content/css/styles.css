@@ -966,7 +966,7 @@ footer p {
     width: calc((100% - 80px) / 5);
     height: 160px;
 }
-.sponsor-logos.sponsor-logos--bronze .sponsor-logo, .sponsor-logos.sponsor-logos--lightning_talks .sponsor-logo {
+.sponsor-logos.sponsor-logos--bronze .sponsor-logo, .sponsor-logos.sponsor-logos--lightning_talks .sponsor-logo, .sponsor-logos.sponsor-logos--lanyard .sponsor-logo, .sponsor-logos.sponsor-logos--video_recording .sponsor-logo, .sponsor-logos.sponsor-logos--coffee_breaks .sponsor-logo{
     width: calc((100% - 100px) / 6);
     height: 140px;
 }
@@ -1312,13 +1312,13 @@ footer p {
     .sponsor-logos.sponsor-logos--silver, .sponsor-logo.sponsor-logos--colo {
         grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
     }
-    .sponsor-logos.sponsor-logos--bronze {
+    .sponsor-logos.sponsor-logos--bronze, .sponsor-logos.sponsor-logos--lanyard, .sponsor-logos.sponsor-logos--video_recording {
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     }
-    .sponsor-logos.sponsor-logos--lightning_talks {
+    .sponsor-logos.sponsor-logos--lightning_talks, .sponsor-logos.sponsor-logos--coffee_breaks {
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     }
-    .sponsor-logo, .sponsor-logos.sponsor-logos--gold .sponsor-logo, .sponsor-logos.sponsor-logos--silver .sponsor-logo, .sponsor-logos.sponsor-logos--bronze .sponsor-logo, .sponsor-logos.sponsor-logos--lightning_talks .sponsor-logo, .sponsor-logo.sponsor-logos--colo .sponsor-logo {
+    .sponsor-logo, .sponsor-logos.sponsor-logos--gold .sponsor-logo, .sponsor-logos.sponsor-logos--silver .sponsor-logo, .sponsor-logos.sponsor-logos--bronze .sponsor-logo, .sponsor-logos.sponsor-logos--lightning_talks .sponsor-logo, .sponsor-logo.sponsor-logos--colo .sponsor-logo, .sponsor-logos.sponsor-logos--lanyard .sponsor-logo, .sponsor-logos.sponsor-logos--video_recording .sponsor-logo, .sponsor-logos--coffee_breaks .sponsor-logo {
         width: 100%;
     }
     #in-page-nav.float33 {

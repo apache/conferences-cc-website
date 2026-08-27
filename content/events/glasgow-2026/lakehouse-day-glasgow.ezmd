@@ -836,42 +836,22 @@ The Security Layer: Moving beyond static Access/Secret keys by implementing Zero
 
 Lakehouse Day is a place for the projects in and around the lakehouse ecosystem to network, connect, and drive innovation across the space. With multiple tracks and a full day of programming, the event creates a focused space for deep technical discussion, real-world use cases, and cross-project collaboration. [[]Become a sponsor of Lakehouse Day](https://communityovercode.apache.org/events/glasgow-2026/sponsor).
 
-<!-- <div class="sponsors-section">
+<div class="sponsors-section">
      <div class="sponsor-logos sponsor-logos--colo">
         <div class="sponsor-logo">
-            <a href="#" target="" class="sponsor-link">
-                <img src="/images/sponsors/apple-platinum.png" loading="lazy" alt="Apple Platinum">
+            <a href="https://aws.amazon.com/opensource/" target="_blank" class="sponsor-link">
+                <img src="/images/sponsors/AWS_logo_RGB_1c_Gray850.svg" loading="lazy" alt="AWS Platinum">
             </a>
         </div>
         <div class="sponsor-logo">
-            <a href="#" target="" class="sponsor-link">
-                <img src="/images/sponsors/logo-aws.webp" loading="lazy" alt="AWS Platinum">
+            <a href="https://cloud.google.com/" target="_blank" class="sponsor-link">
+                <img src="/images/sponsors/GC_Logo_FullColor_cmkyC.svg" loading="lazy" alt="Google Cloud">
             </a>
         </div>
         <div class="sponsor-logo">
-            <a href="#" target="" class="sponsor-link">
-                <img src="/images/sponsors/fivetran-logo.webp" loading="lazy" alt="Fivetran">
-            </a>
-        </div>
-        <div class="sponsor-logo">
-            <a href="#" target="" class="sponsor-link">
-                <img src="/images/sponsors/google.png" loading="lazy" alt="AWS Platinum">
-            </a>
-        </div>
-        <div class="sponsor-logo">
-            <a href="#" target="" class="sponsor-link">
-                <img src="/images/sponsors/NetApp-Instaclustr-Logo.webp" loading="lazy" alt="NetApp Instaclustr">
-            </a>
-        </div>
-        <div class="sponsor-logo">
-            <a href="#" target="" class="sponsor-link">
-                <img src="/images/sponsors/logo-snowflake.webp" loading="lazy" alt="Snowflake">
-            </a>
-        </div>
-        <div class="sponsor-logo">
-            <a href="#" target="" class="sponsor-link">
-                <img src="/images/sponsors/vakamo-logo.svg" loading="lazy" alt="Vakamo">
+            <a href="https://vakamo.com/product/" target="_blank" class="sponsor-link">
+                <img src="/images/sponsors/VAKAMO_TEXT.svg" loading="lazy" alt="Vakamo">
             </a>
         </div>
     </div>
-</div> -->
+</div>
