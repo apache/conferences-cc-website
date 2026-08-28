@@ -102,14 +102,14 @@
                     <div id="in-page-nav" class="float33"></div>
                 <div class="float66 event-content">
                         <h2>About Lakehouse Day</h2>
-<p>Lakehouse Day 2026 is an all-day, multi-track conference co-located with Community Over Code Glasgow 2026. Taking place on October 10, the event is dedicated to all things related to open lakehouse technologies under the Apache Software Foundation (ASF) umbrella, with content supporting Apache Iceberg&trade;, Apache Hudi, Apache Parquet&trade;, Apache Gravitino, Apache Polaris&trade;, and more.
+<p>Lakehouse Day 2026 is an all-day, multi-track conference co-located with Community Over Code Glasgow 2026. Taking place on Saturday, October 10, the event is dedicated to all things related to open lakehouse technologies under the Apache Software Foundation (ASF) umbrella, with content supporting Apache Iceberg&trade;, Apache Hudi, Apache Parquet&trade;, Apache Gravitino, Apache Polaris&trade;, and more.
 The goal of the event is to provide a place for the projects in and around the lakehouse ecosystem to network, connect, and drive innovation across the space.</p>
 <p>You can <a href="/events/glasgow-2026/register">register</a> for just the Lakehouse Day event, or receive a special discount if you register for both Community Over Code and Lakehouse Day.</p>
 <p>Standalone tickets for Lakehouse Day are $85.</p>
 <hr/>
 <h2>Schedule</h2>
 <p><strong>October 10, 2026</strong></p>
-<p>Lakehouse Day takes place on Monday, October 10, 2026 colocated with Community Over Code.</p>
+<p>Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community Over Code.</p>
 <!-- Melissa!!! Uncomment the line below to show Sessionize embed schedule -->
 <!-- <script type="text/javascript" src="https://sessionize.com/api/v2/zmrett95/view/GridSmart"></script> -->
 <div>
@@ -136,9 +136,9 @@ The goal of the event is to provide a place for the projects in and around the l
 </div>
 </div>
 <div class="speaker-details">
-<h4 class="speaker-name">Joe Smith / <span>Software Engineer</span></h4>
+<h4 class="speaker-name">JB Onofr&eacute; / <span>ASF member, working on ~20 Apache projects</span></h4>
 <div class="speaker-bio">
-<p>lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+<p>JB is long time Apache member, enthusiast about Apache projects. He's active on several projects, more than 20.</p>
 </div>
 </div>
 </div>
@@ -156,9 +156,9 @@ The goal of the event is to provide a place for the projects in and around the l
 </div>
 </div>
 <div class="speaker-details">
-<h4 class="speaker-name">JB Onofr&eacute; / <span>ASF member, working on ~20 Apache projects</span></h4>
+<h4 class="speaker-name">Nikita Matckevich / <span>SE at Datadog</span></h4>
 <div class="speaker-bio">
-<p>JB is long time Apache member, enthusiast about Apache projects. He's active on several projects, more than 20.</p>
+<p>I&rsquo;m part of the team that manages the shared Iceberg REST catalog and automated table maintenance. We also provide general Iceberg consulting within Datadog. I previously developed proprietary databases, but I find open source more fun:)</p>
 </div>
 </div>
 </div>
@@ -223,10 +223,11 @@ The goal of the event is to provide a place for the projects in and around the l
 <div class="session-info">
 <h3 class="session-title"> Apache Arrow, the Hostage Negotiator: Revisiting the case for Client Protocol Redesign </h3>
 <div class="session-description">
-In 2017, Mark Raasveldt and Hannes M&uuml;hleisen (who went on to create DuckDB) presented a VLDB paper entitled &ldquo;Don&rsquo;t Hold My Data Hostage &ndash; A Case For Client Protocol Redesign.&rdquo; Their paper proposed the use of columnar serialization to achieve order-of-magnitude improvements in query result transfer performance. Eight years later, this talk revisits Raasveldt and M&uuml;hleisen&rsquo;s argument and describes the central role that the Apache Arrow project has played in realizing this vision&mdash;through the dissemination of Arrow IPC, Arrow Flight, Arrow Flight SQL, Arrow over HTTP, and ADBC across numerous open source and commercial query systems. The talk concludes with a call to action to introduce Arrow-based transport to the systems that continue to &ldquo;hold data hostage.&rdquo;            </div>
+<p>In 2017, Mark Raasveldt and Hannes M&uuml;hleisen (who went on to create DuckDB) presented a VLDB paper entitled &ldquo;Don&rsquo;t Hold My Data Hostage &ndash; A Case For Client Protocol Redesign.&rdquo; Their paper proposed the use of columnar serialization to achieve order-of-magnitude improvements in query result transfer performance. Eight years later, this talk revisits Raasveldt and M&uuml;hleisen&rsquo;s argument and describes the central role that the Apache Arrow project has played in realizing this vision&mdash;through the dissemination of Arrow IPC, Arrow Flight, Arrow Flight SQL, Arrow over HTTP, and ADBC across numerous open source and commercial query systems. The talk concludes with a call to action to introduce Arrow-based transport to the systems that continue to &ldquo;hold data hostage.&rdquo; </p>
+</div>
 </div>
 <div class="speaker-details">
-<h4 class="speaker-name">Matt Topol / <span>ASF member, working on ~20 Apache projects</span></h4>
+<h4 class="speaker-name">Matt Topol / <span>Author of "In-Memory Analytics with Apache Arrow" | Apache Arrow PMC | ASF Member | Iceberg Committer</span></h4>
 <div class="speaker-bio">
 <p>Hailing from the faraway land of Brentwood, NY and currently residing in the rolling hills of Connecticut, Matt Topol has worked across infrastructure, application development, and large-scale distributed systems for financial analytics. A PMC member for both Apache Arrow and Apache Iceberg and an ASF member, he authored "In-Memory Analytics with Apache Arrow" and spent years growing the Arrow Golang community. He recently co-founded Columnar, focusing on data connectivity via Arrow Database Connectivity (ADBC).</p>
 <p>In his spare time, Matt enjoys bashing his head against a keyboard, running demented fantasy games for his friends, and sharing his knowledge with anyone who'll listen.</p>
@@ -263,10 +264,12 @@ In 2017, Mark Raasveldt and Hannes M&uuml;hleisen (who went on to create DuckDB)
 <h3 class="session-title">Zero-Trust Data for AI: Scaling Open Table Formats on S3 Object Storage</h3>
 <div class="session-description">
 <p>As AI/ML workloads grow, the need for a scalable, secure, and vendor-neutral data layer becomes critical. Using Open Table Formats (OTF) provided by catalogs like Apache Polaris, organizations can now transform S3-compatible storage into a first-class Data Lakehouse. However, manual orchestration of these layers often leads to configuration drift and security gaps.</p>
-<p>This session breaks down a production-ready integration pattern designed for automation and high security:
-The Control Plane: Using a Kubernetes-native approach with a "Glue-Operator" and CRDs to orchestrate resources across different service</p>
-<p>The Data Plane: Achieving seamless integration with compute engines like Spark for high-performance AI/ML querying.
-The Security Layer: Moving beyond static Access/Secret keys by implementing Zero-Trust through vended credentials, ensuring short-lived, scoped access for every workload.</p>
+<p>This session breaks down a production-ready integration pattern designed for automation and high security:</p>
+<ol>
+<li>The Control Plane: Using a Kubernetes-native approach with a "Glue-Operator" and CRDs to orchestrate resources across different service</li>
+<li>The Data Plane: Achieving seamless integration with compute engines like Spark for high-performance AI/ML querying.</li>
+<li>The Security Layer: Moving beyond static Access/Secret keys by implementing Zero-Trust through vended credentials, ensuring short-lived, scoped access for every workload.</li>
+</ol>
 <p>The session concludes with a comprehensive live demo.</p>
 </div>
 </div>
@@ -286,13 +289,19 @@ The Security Layer: Moving beyond static Access/Secret keys by implementing Zero
 <div class="session-description">
 <p>Apache Spark is a foundational engine behind OpenAI&rsquo;s hyperscale lakehouse and many of our most critical data pipelines. In this talk, we&rsquo;ll share how we run Spark in production on a rapidly evolving platform, covering the design and architecture of key systems such as cluster lifecycle management, job submission and scheduling, access control, dynamic scaling, and release management.</p>
 <p>Beyond architecture, we&rsquo;ll dive into the realities of day to day operations: managing shuffle heavy workloads, supporting PySpark pipelines, and processing large scale semi structured data. We&rsquo;ll also show how we use AI to accelerate failure diagnosis and performance debugging, and how we are evolving the lakehouse into an AI native platform.</p>
-<p>Beyond architecture, we&rsquo;ll dive into the realities of day to day operations: managing shuffle heavy workloads, supporting PySpark pipelines, and processing large scale semi structured data. We&rsquo;ll also show how we use AI to accelerate failure diagnosis and performance debugging, and how we are evolving the lakehouse into an AI native platform.</p>
+<p>Finally, we&rsquo;ll walk through several mission-critical production use cases and the platform changes required to support them. These include reworking execution strategies for large, write-heavy pipelines, reducing storage and metadata overhead in cloud environments, and improving read and write patterns to sustain reliable performance at scale.</p>
 </div>
 </div>
 <div class="speaker-details">
 <h4 class="speaker-name">Chao Sun / <span>OpenAI</span></h4>
 <div class="speaker-bio">
 <p>Chao is currently a software engineer at OpenAI, focusing on core data infrastructure. He is passionate about open source and is committer to multiple ASF projects including Spark, Hadoop, Hive, Arrow, DataFusion etc.</p>
+</div>
+</div>
+<div class="speaker-details">
+<h4 class="speaker-name">Fred Liu / <span>OpenAI</span></h4>
+<div class="speaker-bio">
+<p>Fred is a MTS in OpenAI data platform team. His expertise had been open table formats (Delta Lake, Iceberg, Hudi) and compatibility. He had contributed to Iceberg unification with Delta lake, and had collaborated with OneTable on supporting Hudi in Delta UniversalFormat.</p>
 </div>
 </div>
 </div>
@@ -361,10 +370,16 @@ The Security Layer: Moving beyond static Access/Secret keys by implementing Zero
 <p>Sadanand Shenoy is a PMC &amp; committer in the Apache Ozone project and has keen interest in distributed systems . Sadanand is currently working as a Senior Software Engineer at Cloudera and has been actively contributing to the Apache Ozone project for the past 5.5 years</p>
 </div>
 </div>
+<div class="speaker-details">
+<h4 class="speaker-name">Aryan Gupta / <span>Senior Software Engineer at Cloudera</span></h4>
+<div class="speaker-bio">
+<p>Aryan is a Senior Software Engineer at Cloudera, specializing in distributed storage systems, consensus protocols, and large-scale data infrastructure. As an Apache PMC &amp; Committer, he actively contributes to Apache Ozone (scalable object store for big data) and Apache Ratis (Raft consensus implementation), improving performance, scalability, and reliability for enterprise-grade deployments.</p>
+</div>
+</div>
 </div>
 </div>
 <div class="spacer spacer-large"></div>
-<h3>1:15 PM - 1:45 PM</h3>
+<h3>1:15 PM - 1:30 PM</h3>
 <h4>Keynote</h4>
 <div class="card session-card">
 <div class="card-inner">
@@ -443,6 +458,12 @@ The Security Layer: Moving beyond static Access/Secret keys by implementing Zero
 <p>Mohammad Linjawi is a Software Engineer at IBM working on next-generation lakehouse execution systems, including Apache Gluten and Velox. His work focuses on building high-performance, portable query execution layers and bridging batch, streaming, and AI workloads through open standards. Passionate about open source and helping shape the future of open data infrastructure through open discussions.</p>
 </div>
 </div>
+<div class="speaker-details">
+<h4 class="speaker-name">Yuan Zhou / <span>Apache Committer, IBM</span></h4>
+<div class="speaker-bio">
+<p>Yuan Zhou is a engineer manager from IBM, he is a seasoned Performance Engineer with 12+ years of experience driving performance optimization across databases, open-source virtualization, and cloud computing environments. A recognized expert in the Big Data ecosystem for over a decade, he possess a deep understanding of Spark and database kernels. His proficiency extends to architecting and building robust Big Data solutions that foster customer adoption.</p>
+</div>
+</div>
 </div>
 </div>
 <h4>Breakout 5</h4>
@@ -480,10 +501,9 @@ The Security Layer: Moving beyond static Access/Secret keys by implementing Zero
 </div>
 </div>
 <div class="speaker-details">
-<h4 class="speaker-name">Sung Yun / <span>Engineering Team Lead at Bloomberg | Apache Iceberg PMC | Apache Polaris Committer</span></h4>
+<h4 class="speaker-name">Sung Yun / <span>Staff Software Engineer at Google | Apache Iceberg PMC | Apache Polaris PMC</span></h4>
 <div class="speaker-bio">
-<p>Sung Yun is an Engineering Team Lead at Bloomberg and serves as an Apache Iceberg PMC member and an Apache Polaris committer. He leads Bloomberg&rsquo;s managed Trino and Iceberg platform, architecting secure, cloud-native data infrastructure for enterprise-scale analytics. His work focuses on integrating Iceberg into enterprise environments with robust authentication, fine-grained authorization, and strong governance models.</p>
-<p>Sung actively contributes to Apache Iceberg and Apache Polaris and has spoken at KubeCon on building secure, modern data platforms.</p>
+<p>Sung Yun is a Staff Software Engineer at Google and a PMC member of Apache Iceberg and Apache Polaris. He works on catalog architecture and authorization models for open lakehouses, with a focus on how catalogs and policy systems fit together.</p>
 </div>
 </div>
 </div>
@@ -502,6 +522,12 @@ The Security Layer: Moving beyond static Access/Secret keys by implementing Zero
 <h4 class="speaker-name">Anton Borisov / <span>Principal Data Architect at Fresha</span></h4>
 <div class="speaker-bio">
 <p>Anton Borisov is a Principal Data Architect at Fresha working on real-time lakehouse platforms: CDC and streaming ingestion with Flink/Kafka, open table formats like Iceberg/Paimon, and analytics performance with StarRocks. He writes practical deep-dives on the engineering trade-offs behind modern lakehouse systems.</p>
+</div>
+</div>
+<div class="speaker-details">
+<h4 class="speaker-name">Nicoleta Lazar / <span>Fresha</span></h4>
+<div class="speaker-bio">
+<p>Nicoleta is a Senior Data Engineer at Fresha, working across Kafka, Debezium, Snowflake, and a broad mix of batch and streaming systems that power the company&rsquo;s analytics and real-time data flows. Coming from an Elixir/Erlang background, she brings a strong focus on reliability, fault-tolerance, and clean system design.</p>
 </div>
 </div>
 </div>
@@ -538,8 +564,8 @@ The Security Layer: Moving beyond static Access/Secret keys by implementing Zero
 <div class="speaker-details">
 <h4 class="speaker-name">Giannis Polyzos / <span>Ververica, Principal Streaming Architect</span></h4>
 <div class="speaker-bio">
-                Giannis is a Principal Streaming Architect working on large-scale data infrastructure and real-time systems. He has designed and operated streaming platforms used in production by high-scale organizations. He is a PPMC member of Apache Fluss and has been deeply involved in Apache Flink and the broader streaming ecosystem. His work focuses on unifying batch and streaming architectures, simplifying data primitives, and enabling streaming analytics and stateful workloads at scale.
-            </div>
+<p>Giannis is a Principal Streaming Architect working on large-scale data infrastructure and real-time systems. He has designed and operated streaming platforms used in production by high-scale organizations. He is a PPMC member of Apache Fluss and has been deeply involved in Apache Flink and the broader streaming ecosystem. His work focuses on unifying batch and streaming architectures, simplifying data primitives, and enabling streaming analytics and stateful workloads at scale.</p>
+</div>
 </div>
 </div>
 </div>
@@ -551,12 +577,9 @@ The Security Layer: Moving beyond static Access/Secret keys by implementing Zero
 <div class="session-description">
 <p>This talk explores how CloudNativePG-managed PostgreSQL clusters serve as the "last mile" serving layer in Lakehouse architectures.</p>
 <p>We'll examine three integration patterns:</p>
-<p><strong>"Shared Object Storage"</strong></p>
-<p>Lakehouses (Delta Lake, Iceberg, Hudi) and CloudNativePG backups/WAL archiving share S3-compatible storage, enabling unified policies, security models, and simplified operations.</p>
-<p><strong>"Foreign Data Wrappers"</strong></p>
-<p>PostgreSQL's FDW enables direct queries against Parquet files and Lakehouse tables, joining hot operational data with cold analytical data without complex ETL.</p>
-<p><strong>"pgvector for Embedding Retrieval"</strong></p>
-<p>Lakehouses process unstructured data into embeddings via Spark or Flink. CloudNativePG's pgvector support provides the high-performance retrieval layer, completing the pipeline to millisecond-latency similarity search.</p>
+<p>"Shared Object Storage" Lakehouses (Delta Lake, Iceberg, Hudi) and CloudNativePG backups/WAL archiving share S3-compatible storage, enabling unified policies, security models, and simplified operations.</p>
+<p>"Foreign Data Wrappers" PostgreSQL's FDW enables direct queries against Parquet files and Lakehouse tables, joining hot operational data with cold analytical data without complex ETL.</p>
+<p>"pgvector for Embedding Retrieval" Lakehouses process unstructured data into embeddings via Spark or Flink. CloudNativePG's pgvector support provides the high-performance retrieval layer, completing the pipeline to millisecond-latency similarity search.</p>
 <p>Attendees will leave with architectural patterns for deploying CloudNativePG as the bridge between batch-processed Lakehouse data and real-time applications.</p>
 </div>
 </div>
@@ -615,9 +638,15 @@ The Security Layer: Moving beyond static Access/Secret keys by implementing Zero
 </div>
 </div>
 <div class="speaker-details">
-<h4 class="speaker-name">Anil Khadka / <span>Apple Inc</span></h4>
+<h4 class="speaker-name">Anil Khadka / <span>Apple Inc.</span></h4>
 <div class="speaker-bio">
 <p>Anil Khadka is a Software Engineer at Apple Inc., where he has spent over a decade building and optimizing large-scale data infrastructure. With 20 years of industry experience and an MS in Computer Science, he specializes in Apache Spark, Apache Flink, and Apache Iceberg, with deep expertise in performance optimization across cloud-native platforms. His work focuses on Lakehouse architecture and production-grade reliability at massive scale.</p>
+</div>
+</div>
+<div class="speaker-details">
+<h4 class="speaker-name">Huang-Hsiang Cheng / <span>Apple Inc.</span></h4>
+<div class="speaker-bio">
+<p>Huang-Hsiang works for Apple Maps Data Infrastructure team and provides support to Apache Iceberg and DataFusion Comet.</p>
 </div>
 </div>
 </div>
@@ -637,6 +666,12 @@ The Security Layer: Moving beyond static Access/Secret keys by implementing Zero
 <h4 class="speaker-name">G&aacute;bor Kaszab / <span>Software Engineer @ Microsoft Gray Systems Lab</span></h4>
 <div class="speaker-bio">
 <p>He has been an active open‑source contributor in the big data ecosystem since 2017. With deep expertise in distributed query engines, he is a PMC member of Apache Impala and a long‑time contributor to the Apache Iceberg project, focusing on advancing performance, reliability, and real‑world adoption.</p>
+</div>
+</div>
+<div class="speaker-details">
+<h4 class="speaker-name">Peter Vary / <span>Microsoft Principal Software Engineer</span></h4>
+<div class="speaker-bio">
+<p>Peter Vary is a Principal Software Engineer at Microsoft and a PMC member of both Apache Iceberg and Apache Hive. His work centers on data storage, sharing, and querying. Previously, Peter played a key role in enhancing Hive transactional performance, which led to the integration of Iceberg as a new table format within Hive. Before joining Microsoft, he spearheaded the Flink&ndash;Iceberg integration at Apple and earlier led the Hungarian Hive Engineering team at Cloudera.</p>
 </div>
 </div>
 </div>
@@ -698,7 +733,8 @@ The Security Layer: Moving beyond static Access/Secret keys by implementing Zero
 <p>Whether you&rsquo;re modernizing a warehouse or building a new lakehouse, this session shows how to write once, govern once, and query everywhere.</p>
 </div>
 </div>
-<div class="speaker-details">Amit Gilad / <span>Lakesphere, CTO</span>
+<div class="speaker-details">
+<h4 class="speaker-name">Amit Gilad / <span>Lakesphere, CTO</span></h4>
 <div class="speaker-bio">
 <p>Seasoned data engineer with over eight years of experience architecting and managing large-scale data systems. Currently working as ceo at lakeops control plane for data lakes. In the past Amit has played an instrumental role in spearheading Cloudinary's transition to the cutting-edge Apache Iceberg distributed data table format, leveraging his deep expertise in optimizing data storage, enhancing data retrieval processes, and ensuring seamless data operations within cloud environments.</p>
 </div>
@@ -735,17 +771,17 @@ The Security Layer: Moving beyond static Access/Secret keys by implementing Zero
 <div class="card session-card">
 <div class="card-inner">
 <div class="session-info">
-<h3 class="session-title">Lean Metadata, Big Data: Keep the Query Fast in Apache Iceberg</h3>
+<h3 class="session-title">Primary Key Index for Apache Iceberg: Unlocking Fast Point Lookups and Efficient Upserts</h3>
 <div class="session-description">
-<p>Apache Iceberg's metadata layer is what makes schema evolution, partition evolution, and predicate pushdown possible . But at petabyte scale, that metadata itself can balloon to hundreds of gigabytes or more. When planning slows down the execution, something has to give.</p>
-<p>This talk explores how Iceberg's metadata is structured through manifests, partition summaries, and column-level metrics, and why each layer exists to enable fast analytical queries. We'll then walk through Iceberg's native APIs, procedures and practical strategies for applying them to keep metadata size in check at scale. Finally, we'll preview proposals in the Iceberg v4 spec that aim to make metadata more compact and scalable by default.</p>
-<p>You'll walk away with a clear picture of where all those gigabytes of metadata actually come from, a playbook for keeping them in check in an iceberg's own way, and enough context on the v4 spec to start contributing and where the format heads next.</p>
+<p>Apache Iceberg has become a standard table format for the lakehouse, but it still lacks an efficient way to answer a fundamental question: given a key, where is the row stored? This limitation leads to expensive full-table scans for point lookups, costly equality deletes in streaming CDC workloads, and inefficient joins for operations like MERGE INTO.</p>
+<p>In this talk, we introduce a primary key index for Iceberg that maps each key to its physical location (file path and row position). This enables scan-time file pruning for point queries, converts key-based deletes into position deletes, and significantly accelerates upsert workloads by avoiding full-table joins.</p>
+<p>We will walk through the design of the index as an Iceberg-native table, its integration with the IndexCatalog framework, and how it can be maintained asynchronously without impacting write paths. We will also share a Spark-based prototype and discuss how this approach can benefit multiple engines across the lakehouse ecosystem.</p>
 </div>
 </div>
 <div class="speaker-details">
-<h4 class="speaker-name">Hongyue Zhang / <span>Software Engineer at Snowflake</span></h4>
+<h4 class="speaker-name">Huaxin Gao / <span>Software Engineer at Snowflake</span></h4>
 <div class="speaker-bio">
-<p>Hongyue started to contribute to apache iceberg project since 2022 while work on Apple data platform. Now at Snowflake, he is building tools and systems around Apache Iceberg to help make data-driven decisions.</p>
+<p>Huaxin Gao is a software engineer at Snowflake and an Apache Spark committer and PMC member. She is also a committer for Apache Iceberg and Apache DataFusion Comet, with contributions spanning query engines, table formats, and distributed data systems.ked on a variety of SQL and machine learning projects at IBM.</p>
 </div>
 </div>
 </div>
@@ -767,30 +803,28 @@ The Security Layer: Moving beyond static Access/Secret keys by implementing Zero
 <p>Zolt&aacute;n is a software engineer at Cloudera, working on Apache Impala. He is also a PMC member on the project. Currently he is leading the Impala/Iceberg integration efforts. Before Cloudera, Zolt&aacute;n worked on C++ static analysis tools. He is interested in distributed, massively parallel systems, databases, and performance engineering.</p>
 </div>
 </div>
+<div class="speaker-details">
+<h4 class="speaker-name">P&eacute;ter R&oacute;zsa / <span>Cloudera, Software Engineer</span></h4>
+<div class="speaker-bio">
+<p>P&eacute;ter R&oacute;zsa, a Software Engineer at Cloudera since 2020, started contributing to Apache Impala in 2022. He's been working on different parts of the Impala project, recently on Iceberg integrations</p>
+</div>
+</div>
 </div>
 </div>
 <h4>Breakout 5</h4>
 <div class="card session-card">
 <div class="card-inner">
 <div class="session-info">
-<h3 class="session-title">Iceberg for Agents - Turning Lakehouse Data Into AI-Ready Context </h3>
+<h3 class="session-title">Bloom Filter Based Encrypted Data Skipping In DuckDB Iceberg</h3>
 <div class="session-description">
-<p>AI agents fail in production because they're overwhelmed with data but starved for context. LLM models aren&rsquo;t the problem. The bottleneck is the data stack: fragmented silos, inconsistent definitions, and logic hidden in tribal knowledge. Agents need structured, reliable, and interpretable context&mdash;not just data access.</p>
-<p>In this session, we'll show how Apache Iceberg becomes the backbone of AI-ready pipelines. You&rsquo;ll learn how to elevate your Iceberg implementation from a storage format to a live context layer that powers structured retrieval-augmented generation (RAG), schema-aware agents, and autonomous reasoning grounded in truth.</p>
-<p>What we&rsquo;ll cover:</p>
-<ol>
-<li>Iceberg Foundations for AI - from ACID to Time Travel</li>
-<li>From Rows to Relationships - The role of the semantic layer</li>
-<li>Structured RAG in Practice - Fully open source</li>
-</ol>
-<p>The session includes a live demo of a fully open-source Structured RAG stack built on Apache Iceberg, featuring semantic query translation, hybrid retrieval, and governed agent reasoning. Expect architecture diagrams, real code, and practical guidance.</p>
+<p>Sensitive data stored in the cloud needs to stay encrypted, but most database systems still have to decrypt metadata on the server just to run a query, exposing it to potential attackers. Existing encryption schemes either leak too much information or are too slow to be practical.</p>
+<p>This talk introduces Encrypted Data Skipping (EDS) and BF-EDS, a novel Bloom filter-based scheme that keeps both data and metadata encrypted on the server at all times, while still allowing efficient query execution. Integrated into DuckDB Iceberg, BF-EDS achieves only a 1.15&ndash;1.4x query overhead compared to plaintext and outperforms existing Order-Revealing Encryption approaches by 1.8x.</p>
 </div>
 </div>
 <div class="speaker-details">
-<h4 class="speaker-name">Andrew Madson / <span>Head of Developer Relations at Fivetran | Author of "Apache Polaris - The Definitive Guide". Authoring "AI-Ready Data" for Wiley and "Data Transformation" for O'Reilly</span></h4>
+<h4 class="speaker-name">Thijs van der Heijden / <span>Software Engineer @ Uber, Backend &amp; Infrastructure</span></h4>
 <div class="speaker-bio">
-<p>Andrew Madson leads Developer Relations at Fivetran, where he builds global programs that help developers and data teams adopt modern data and AI tooling. He has built DevRel, education, and evangelism functions at Fivetran, Tobiko Data, and Dremio, delivering technical content, large-scale community programs, and keynotes across major industry conferences.</p>
-<p>Andrew is a published author of the O&rsquo;Reilly &ldquo;Definitive Guide to Apache Polaris&rdquo; and a graduate professor of data science and engineering. Andrew previously led AI and data teams at Arizona State University, J.P. Morgan Chase, and MassMutual among others.</p>
+<p>Thijs is a 25 year old software engineer from the Netherlands. He recently graduated from the University of Amsterdam, studying computer science and focussing on large-scale distributed systems. His thesis was written at the CWI, the countries center for mathematics and computer science, at the database architectures group. Currently he works at Uber as part of the earners organisation.</p>
 </div>
 </div>
 </div>
@@ -804,15 +838,24 @@ The Security Layer: Moving beyond static Access/Secret keys by implementing Zero
 <h3 class="session-title">The Future of the Open Lakehouse</h3>
 <div class="session-description">
 <p>The open lakehouse has become the dominant architecture for modern data platforms, but it's still evolving fast. Table formats, catalogs, storage layers, and compute engines are all advancing independently, and the people building these projects don't always get the chance to sit down together and talk about where it's all headed.</p>
-<p>This panel brings together leaders and committers from across the lakehouse ecosystem to discuss what comes next. What hard problems remain unsolved? Where do the boundaries between formats, catalogs, and compute need to shift? How should these projects evolve to support emerging workloads like AI/ML, real-time analytics, and agentic data access? And where should the community focus its energy to have the greatest impact?</p>=
-                <p>Whether you're a contributor to one of these projects or an engineer building on top of them, this session offers a rare cross-project conversation about the future of the open lakehouse that's grounded in the perspectives of the people actually doing the work.</p>
+<p>This panel brings together leaders and committers from across the lakehouse ecosystem to discuss what comes next. What hard problems remain unsolved? Where do the boundaries between formats, catalogs, and compute need to shift? How should these projects evolve to support emerging workloads like AI/ML, real-time analytics, and agentic data access? And where should the community focus its energy to have the greatest impact?</p>
+<p>Whether you're a contributor to one of these projects or an engineer building on top of them, this session offers a rare cross-project conversation about the future of the open lakehouse that's grounded in the perspectives of the people actually doing the work.</p>
 </div>
 </div>
 <div class="speaker-details">
-<h4 class="speaker-name">Ryan Blue / <span>Original creator of Apache Iceberg</span></h4>
+<h4 class="speaker-name">Moderator: Ryan Blue / <span>Original creator of Apache Iceberg</span></h4>
 <div class="speaker-bio">
 <p>Ryan is the co-creator of Apache Iceberg and spent the last decade working on big data infrastructure at Tabular, Netflix, Cloudera, and now Databricks. He is an ASF member and a committer in the Apache Parquet, Avro, and Spark communities.</p>
 </div>
+</div>
+<div class="speaker-details">
+<h4 class="speaker-name">Panelist: Holden Karau / <span>Apache Spark&trade;</span></h4>
+</div>
+<div class="speaker-details">
+<h4 class="speaker-name">Panelist: Russell Spitzer / <span>Apache Iceberg&trade;</span></h4>
+</div>
+<div class="speaker-details">
+<h4 class="speaker-name">Panelist: Sung Yun / <span>Apache Polaris&trade;</span></h4>
 </div>
 </div>
 </div>
