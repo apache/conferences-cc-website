@@ -462,10 +462,9 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
             </div>
         </div>
         <div class="speaker-details">
-            <h4 class="speaker-name">Sung Yun / <span>Engineering Team Lead at Bloomberg | Apache Iceberg PMC | Apache Polaris Committer</span></h4>
+            <h4 class="speaker-name">Sung Yun / <span>Staff Software Engineer at Google | Apache Iceberg PMC | Apache Polaris PMC</span></h4>
             <div class="speaker-bio">
-                <p>Sung Yun is an Engineering Team Lead at Bloomberg and serves as an Apache Iceberg PMC member and an Apache Polaris committer. He leads Bloomberg’s managed Trino and Iceberg platform, architecting secure, cloud-native data infrastructure for enterprise-scale analytics. His work focuses on integrating Iceberg into enterprise environments with robust authentication, fine-grained authorization, and strong governance models.</p>
-                <p>Sung actively contributes to Apache Iceberg and Apache Polaris and has spoken at KubeCon on building secure, modern data platforms.</p>
+                <p>Sung Yun is a Staff Software Engineer at Google and a PMC member of Apache Iceberg and Apache Polaris. He works on catalog architecture and authorization models for open lakehouses, with a focus on how catalogs and policy systems fit together.</p>
             </div>
         </div>
     </div>
