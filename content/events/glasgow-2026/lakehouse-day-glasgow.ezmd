@@ -841,12 +841,12 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
         </div>
         <div class="speaker-details">
             <h4 class="speaker-name">Moderator: Ryan Blue / <span>Original creator of Apache Iceberg</span></h4>
-            <div class="speaker-bio">
-                <p>Ryan is the co-creator of Apache Iceberg and spent the last decade working on big data infrastructure at Tabular, Netflix, Cloudera, and now Databricks. He is an ASF member and a committer in the Apache Parquet, Avro, and Spark communities.</p>
-            </div>
         </div>
         <div class="speaker-details">
             <h4 class="speaker-name">Panelist: Holden Karau / <span>Apache Spark™</span></h4>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">Panelist: Matt Topol / <span>Apache Arrow</span></h4>
         </div>
         <div class="speaker-details">
             <h4 class="speaker-name">Panelist: Russell Spitzer / <span>Apache Iceberg™</span></h4>
