@@ -892,6 +892,11 @@ Lakehouse Day is a place for the projects in and around the lakehouse ecosystem 
             </a>
         </div>
         <div class="sponsor-logo">
+            <a href="https://olake.io/" target="_blank" class="sponsor-link">
+                <img src="/images/sponsors/olake-logo-vector.svg" loading="lazy" alt="OLake">
+            </a>
+        </div>
+        <div class="sponsor-logo">
             <a href="https://vakamo.com/product/" target="_blank" class="sponsor-link">
                 <img src="/images/sponsors/VAKAMO_TEXT.svg" loading="lazy" alt="Vakamo">
             </a>
