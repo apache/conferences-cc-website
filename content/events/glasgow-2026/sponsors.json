@@ -1,4 +1,11 @@
 {
+    "platinum": [
+        {
+            "name": "Snowflake", 
+            "logo": "/images/sponsors/snowflake-logo-reverse-rgb.svg",
+            "link": "https://www.snowflake.com/en/"
+        }
+    ],
     "gold": [
         {
             "name": "Google Cloud", 
