@@ -24,6 +24,11 @@
             "logo": "/images/sponsors/NetApp-Instaclustr-Logo.webp",
             "link": "https://www.instaclustr.com/"
         }
+        {
+            "name": "Oracle", 
+            "logo": "/images/sponsors/Java-community-process-horz-cmyk.svg",
+            "link": "https://jcp.org/"
+        }
     ],
     "lanyard": [
         {
