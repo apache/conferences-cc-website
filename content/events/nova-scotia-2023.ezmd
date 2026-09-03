@@ -81,6 +81,7 @@ We have all heard the rumours "Machines" will replace mankind. The rise of AI is
 Join me to dive into how best we can leverage AI to push forward the agenda of open source.
 
 **Speaker:** Robert Jakech
+
 Robert is CTO & Co-founder of fiter, the number one expert in Apache fineract in the World.
 
 Robert leads a diverse team in distribution of fineract around the World
@@ -92,12 +93,14 @@ Rewriting the entire TO application will be a highly time and resource intensive
 <a class="btn" href="/slides/na-2023/sat_apis_and_microservices_srijeet_chatterjee-srijeet-chatterjee.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Srijeet Chatterjee
+
 I work as a Principal Software Engineer on the Traffic Control team at Comcast, in Denver, Colorado. I mostly on content routing, optimization and just trying to make things simpler for everyone 🙂 Outside of work, I love hiking, trying new breweries and cuisines and playing cricket.
 
 #### Building Robust and Scalable APIs with Apache CXF
 Discover the power of Apache CXF in building robust and scalable APIs. This talk delves into the core concepts, architecture, and key features of Apache CXF, a mature framework for API development. Learn how CXF simplifies integration with JAX-RS and JAX-WS standards, and explore deployment options for optimal scalability and performance. Gain practical insights into handling data formats, supporting transport protocols, implementing security measures, and effectively managing errors and exceptions. Through practical examples and best practices, this session equips developers with the knowledge to design RESTful and SOAP-based APIs, integrate with other frameworks, and optimize API performance. Join us to unlock the potential of your APIs with Apache CXF!
 
 **Speaker:** Seyyed Ali Mohammadiyeh
+
 Seyyed Ali Mohammadiyeh, also known as Max Base, is a highly accomplished open-source maintainer at GitHub and CTO at Asrez. He is currently a Mathematics student/researcher at the university, where he is actively engaged in studying the application of mathematics on the computer. With over 10 years of programming experience, Ali is a seasoned software engineer and computer analyst, who has a deep understanding of the field and a passion for using his technical skills to solve real-world problems. He has a strong background in applied and pure mathematics and is particularly interested in group theory, computational algebra, coding theory, and other areas of computer science and mathematics. As one of the world’s most active programmers, Ali is highly dedicated to contributing and publishing his experience, making it widely available to others.
 
 #### Building Composable Data Microservices with Apache Arrow
@@ -123,6 +126,7 @@ Furthermore, we will provide insights into our Spark job submission service, whi
 Don’t miss this opportunity to learn from our journey and gain valuable insights into enhancing your big data processing capabilities with YuniKorn and Kubernetes, including supporting large-scale use cases.
 
 **Speaker:** Rainie Li
+
 Rainie Li is a senior software engineer at big data platform team at Pinterest. She worked at Microsoft Azure and AWS Rekognition before she joined Pinterest. Rainie got her master degree in Electrical Computer Engineering from Duke University.
 
 #### Deploying Apache Ranger in the Big Data ecosystem at CERN
@@ -132,6 +136,7 @@ This talk will cover our journey to deploying Apache Ranger in the multi-cluster
 <a class="btn" href="/slides/na-2023/mon_compute_emil-emil-kleszcz.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Emil Kleszcz
+
 Emil is a Big Data expert at CERN working in Hadoop, Spark, and OpenSearch services. Emil has over 5 years of experience in designing, deploying, and supporting scalable data stores and computing clusters. He enjoys sharing knowledge and experience with broader engineering communities at CERN and beyond. In his free time, he enjoys teaching skiing in the Alps and backpacking on all the continents.
 
 #### Impala learned some new tricks while living on Iceberg
@@ -152,6 +157,7 @@ Join us for this session to gain valuable insights into the integration between 
 <a class="btn" href="/slides/na-2023/mon_bigdata_impala_learned_some_new_tricks_while_living_on_iceberg-zoltan-borok-nagy.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Zoltán Borók-Nagy
+
 Zoltán is a software engineer at Cloudera, working on Apache Impala. He is also a PMC member on the project. Currently he is leading the Impala/Iceberg integration efforts. Before Cloudera, he worked at Ericsson where he was working on C++ static analysis tools. He is interested in distributed, massively parallel systems, and performance engineering.
 
 ### Apache YuniKorn: preemption for multi tenant Kubernetes clusters
@@ -205,6 +211,7 @@ In this talk we delve into the challenges we encountered during development and 
 <a class="btn" href="/slides/na-2023/tue_compute_transforming_resource_distribution_in_apache_hadoop_yarn-benjamin-teke.pdf"><strong>Got to Slides</strong></a>
 
 **Speakers:** Benjamin Teke, Tamas Domok
+
 Benjamin is a Staff Software Engineer, YARN Tech Lead, Hadoop Committer @ Cloudera. He has many years of experience in big data, mainly working with Java or lately Golang. Before YARN and Cloudera Data Engineering he worked on a mobile network traffic analyser used by multiple large network providers. He lives in Budapest and besides his interest in photography and cars, he is passionately automatizing his home via IoT.
 
 Tamas is a Staff Software Engineer at Cloudera, where he is working on Apache Hadoop YARN and also on Cloudera Data Engineering – a platform to run Spark jobs and Airflow workflows on top of Kubernetes. Previously, he worked for 10 years for Balabit (acquired by OneIdentity, Quest) where he was a Lead Developer designing a distributed system to process remote desktop protocols like SSH/ RDP/VNC that was able to replay, index and even intervene in the network traffic.
@@ -216,6 +223,7 @@ In this talk, we will embark on an in-depth exploration of different Kubernetes 
 <a class="btn" href="/slides/na-2023/tue_bigdata_naganarasimha-naganarasimha-ramesh-garla.pdf"><strong>Got to Slides</strong></a>
 
 **Speakers:** Naganarasimha, Harish Kumar
+
 Senior Principal Engineer and SVP @DBS. Contributing to Apache Hadoop project since 2013 in various roles as Hadoop Contributor, Hadoop Committer, and a member Project Management Committee (PMC). Majorly working on YARN Scheduling and observability improvements like Node Lablels and Attributes support, ATS V2 in YARN etc. As part of the ongoing work he is focusing on having cost effective and performance optimised containerised spark workloads in a multi cloud environment.
 
 Harish Kumar Malaga is a Principal Engineer in the DBS Data Platform team, specializing in Data Security, Privacy, Performance Engineering, and open source Big Data Technologies. He has made significant contributions to the Apache Ranger project and is actively involved in securing containerized Big Data Platforms in Kubernetes and other cloud-native environments.
@@ -229,6 +237,7 @@ Drawing from two-decades of experience in database optimization, our speaker wil
 Through this session, you will acquire a comprehensive toolkit of best practices and methodologies, honed by years of hands-on experience. Join us as we unlock the untapped potential of Cassandra, empowering you to efficiently manage and extract value from your vast time series data repositories.
 
 **Speaker:** Jon Haddad
+
 Jon Haddad is a highly experienced software engineer and consultant with over 20 years of industry experience. For the last 10 years, Jon has been deeply involved with Apache Cassandra, having worked on some of the largest and most complex Cassandra deployments in the world. Jon is a committer on the project and is widely recognized as a leading expert in the Cassandra community.
 Jon has held key roles at prominent technology companies including Datastax, The Last Pickle, Apple, and Netflix. During his tenure, Jon has developed a wealth of expertise in building and managing large-scale distributed systems, with a particular emphasis on Cassandra. In his current role as a consultant, Jon leverages his extensive experience to help teams succeed with Cassandra and other distributed systems, providing expert guidance on architecture, data modeling, performance optimization, and more.
 
@@ -240,6 +249,7 @@ In this presentation, we will go through the integrity challenges and other solu
 <a class="btn" href="/slides/na-2023/tuesdayoctober102023_bigdata_storage_track_data_integrity_guarantees_in_erasure_coding_storage_systems_by_uma_gangumalla_aswin_swami-uma-maheswara-rao-gangumalla.pdf"><strong>Got to Slides</strong></a>
 
 **Speakers:** Aswin Shakil Balasubramanian, Uma Maheswara Rao Gangumalla
+
 I am Aswin Shakil Balasubramanian. I work at Cloudera as a Software Engineer. I’m an active contributor and committer for Apache Ozone. Over the past year, I have contributed directly to multiple core functionalities for various sub-projects such as Multitenancy, Erasure Coding, and Snapshots.
 
 Uma Maheswara Rao is an Apache Software Foundation Member. An Apache Hadoop, Ozone, BookKeeper, Incubator committer and a member of the Project Management Committee, and a long-term active contributor to the Apache Hadoop project. He is also mentoring several incubator projects at Apache. Uma holds a bachelor’s degree in Electronics and Communications Engineering. He has more than 15 years of experience in large scale Distributed Software Platforms design and development. Currently, Uma is working as a Senior Engineering Manager at Cloudera, Inc, and primarily focuses on open source big data technologies. Prior to this, Uma worked as a Software Architect at Intel Corporation, California. He also served as chair for the review committee of the big data storage and compute track proceeding at Community Over Code conference.
@@ -257,12 +267,14 @@ Key points to be covered in the talk:
 <a class="btn" href="/slides/na-2023/tue_-bigdata_kenniche-hichem-kenniche.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Hichem Kenniche
+
 Hichem brings more than 15 years in the big data processing domain. He is currently an OSS Product Architect at Instaclustr (part of Spot by NetApp) working with the product team to priorities the market and customers needs into new features.
 
 #### Orchestrating Scalable Data Pipelines with Apache Toree, YuniKorn, Spark, and Airflow
 This session explores the integrated use of Apache Toree, YuniKorn, Spark, and Airflow to create efficient, scalable data pipelines. We will start by discussing how Apache Toree provides an interactive analysis environment with Spark via Jupyter Notebook. Then, we’ll discuss using Apache YuniKorn to manage and schedule these computational resources, ensuring system efficiency. Central to our talk, we’ll delve into the role of Apache Spark in large-scale data processing, highlighting its integration with Toree and YuniKorn. Finally, we’ll demonstrate how Apache Airflow orchestrates this complex workflow, managing dependencies, and providing end-to-end processing solutions. Attendees will learn to leverage these Apache projects for optimized data processing.
 
 **Speaker:** Luciano Resende
+
 Luciano Resende is an AI Platform Architect at Apple AI/ML organization. He’s a highly performant technical leader that embraces challenges and complex problems to drive breakthrough innovations. Luciano’s expertise is in open source, and enterprise-grade AI platform technologies with over 20 years of experience successfully designing, building and delivering complex software in fortune 500 companies and open source. He has a strong background in open source big data platforms such as Apache Spark, and data science building blocks such as the Jupyter Notebook Stack, Elyra and Apache Toree Scala kernel.
 
 --- 
@@ -294,6 +306,7 @@ By the end of this talk, you will learn about:
 <a class="btn" href="/slides/na-2023/sat_bigdata_dipankarmazumdar-dipankar-mazumdar.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Dipankar Mazumdar
+
 Dipankar is currently a Developer Advocate at Dremio where his primary focus is advocating data engineers/architects/scientists on Dremio’s open lakehouse platform & various open-sourced projects such as Apache Iceberg, Arrow, Project Nessie, etc. that helps data teams apply & scale analytics. In his past roles, he worked at the intersection of Machine Learning & Data visualization. Dipankar has a Masters in Computer Science with research area in ExplainableAI.
 
 #### Improving concurrency for a Hadoop Compatible Filesystem
@@ -303,12 +316,15 @@ This talk aims to engage with the community, share the work done so far, measure
 This talk will dive deep into the concurrency model for the various APIs exposed, internal implementations, snapshot concerns, and testing.
 
 **Speakers:** Ritesh Shukla
+
 Ritesh is an Apache Ozone committer. He has over a decade of experience with distributed storage solutions and systems. He is passionate about picking all three in a solution: simple, right, and efficient. He initiated the VMware Storage integration with Kubernetes, then designed a git for data solution integrated into Kubernetes for OneConcern (github.com/oneconcern/datamon), followed by integrating MinIO into VMware’s Tanzu platform over vSAN Direct. He is currently working on Ozone, a distributed object store that caters to HDFS and S3 workloads and scales beyond what HDFS can scale. Ozone is consumed as a Hadoop-compatible filesystem and S3-compatible store from multiple Kubernetes-based data services. There is an ongoing effort to run the entire stack, including Ozone in Kubernetes, including Ozone.
 
 **Speakers:** Duong Nguyen
+
 Duong Nguyen has worked on scaled software services for nearly 10 years, spanning companies such as Amazon AWS and Cloudera. He is an Apache Ozone committer, and his contributions have helped improve performance by multiple orders of magnitude.
 
 **Speakers:** Tanvi Penumudy
+
 Tanvi Penumudy started her Apache software contributor experience and her software career with Apache Ozone. She has been focused on improving Ozone’s performance.
 
 #### Multi Tenancy — Apache Hbase
@@ -327,12 +343,14 @@ Creating an object store for the Big Data Analytics ecosystem is a highly comple
 This presentation aims to provide a concise introduction to the extensive application support offered by Ozone. Additionally, it will showcase real-world examples of how community members have adopted and utilized Ozone, presenting compelling use cases to highlight its effectiveness in diverse scenarios.
 
 **Speakers:** Saketa Chalamchala
+
 Saketa is a Sr. Software Engineer at Cloudera working with the Storage Team at Cloudera. She has previous experience as a Solutions Architect developing and architecting Hadoop Platform & ETL solution for over 15 customers and brings a customer centric point of view to product engineering. She is a professional with a Master’s degree focused in Computer Science from Stony Brook University.
 
 #### Using temporal recency to improve upsert’s memory performance in Pinot
 Upsert is a very important feature in Pinot allowing updates for a primary key in real-time. In Uber, we use upserts at trips-scale. One of the major challenges of upsert is that we are bottlenecked by in-memory storage limiting us to just 200 million keys in one host. This leads us to higher cost for our use-cases even though disk space / compute is not used to its full capacity. This talk focuses on the various solutions we are exploring based on our time-series oriented data patterns resulting in bringing down the in-memory storage for upsert tables and unlocking use-cases with higher retention.
 
 **Speakers:** Atri Sharma
+
 Big Data hacker, Open source contributor at Pinot, Presto, Solr, Lucene
 
 **Speakers:** Pratik Tibrewal
@@ -343,9 +361,11 @@ To improve the speed of upserts, we introduced partial copy-on-write within Apac
 In this tech talk, we will discuss the row-level secondary index and the innovations we introduced in Parquet on how to upsert data inside a Parquet file. We will also demonstrate benchmarking results that show 3x to 20x faster speeds than traditional DeltaLake, Iceberg, and Hudi.
 
 **Speakers:** Xinli Shang
+
 Xinli Shang is Apache Parquet PMC Chair, Presto Committer, Tech Lead Manager on the Uber Big Data Infra, and Uber Open Source Committee member. He is leading the Apache Parquet community and contributing to several other communities. He is also leading several initiatives on data format for storage efficiency, security, and performance.
 
 **Speakers:** Mingmin Chen
+
 Mingmin is director of engineering and head of Data Infrastructure engineering team at Uber. He has been leading the team to build and operate Hadoop data lake to power multiple Exabytes data in storage, Kafka infrastructure to power tens of trillions messages per day, and compute infrastructure to power hundreds of thousands compute jobs per day. His team builds highly scalable, highly reliable yet efficient data infrastructure with innovative ideas while leveraging many open-source technologies such as Hadoop (HDFS/YARN), Hudi, Kafka, Spark, Flink, Zookeeper etc.
 
 #### When Hardware Fails, Ozone Prevails
@@ -354,6 +374,7 @@ Apache Ozone supports half petabyte nodes that scale horizontally to exabyte cap
 <a class="btn" href="/slides/na-2023/sun_bigdata_rose-ethan-rose.pdf"><strong>Got to Slides</strong></a>
 
 **Speakers:** Ethan Rose
+
 Ethan Rose is a Senior Software Engineer at Cloudera and an Apache Ozone PMC member.
 
 #### Unified Compaction Strategy in Cassandra (CEP-26)
@@ -364,6 +385,7 @@ Join us for a deeper dive into the key features of the strategy and the rational
 <a class="btn" href="/slides/na-2023/sun_bigdata_lambov-branimir-lambov.pdf"><strong>Got to Slides</strong></a>
 
 **Speakers:** Branimir Lambov
+
 Long-term Cassandra committer focusing on local data storage and retrieval.
 
 #### Snapshots for an Object Store
@@ -371,6 +393,7 @@ File system snapshots have been an integral part of a complete feature set for m
 In this presentation, we explore the challenges associated with offering a snapshot feature for an object storage system and how it is very different from object versioning. We also discuss the design and development of the snapshot feature for Apache Ozone object store.
 
 **Speakers:** Prashant Pogde
+
 Prashant is a seasoned technical leader with several industry disrupting products under his name over the last 23+ years in the distributed systems space. Some of the massively scalable distributed systems that he has designed and developed include Yahoo’s unstructured data object store, EMC -DD9500 platform, storage for Oracle Public cloud etc. More recently he has been involved with Apache Ozone object store and is an Apache PMC member for this project.
 
 #### Caching Framework for Exabyte-Scale Data Lakes
@@ -388,6 +411,7 @@ By the end of this session, you will learn:
 <a class="btn" href="/slides/na-2023/sun_storage_caching-framework-for-exabyte-scale-data-lakes-hope-wang.pdf"><strong>Got to Slides</strong></a>
 
 **Speakers:** Jing Zhao
+
 Jing Zhao is a software engineer at Uber Technologies, Inc. He is a committer and PMC member of Apache Hadoop and Apache Ratis. He got his Ph.D. from University of Southern California. **Speakers:** Hope Wang
 Hope Wang is a Developer Advocate at Alluxio with a decade of experience in Data, AI, and Cloud. She contributes to open-source projects such as Alluxio, Trino, and PrestoDB and is an AWS Certified Solutions Architect – Professional. Her prior roles include positions in venture capital and as a Data Architect. Academically, she holds a BS in Computer Science, a BA in Economics, an MEng in Software Engineering from Peking University, and an MBA from the University of Southern California.
 
@@ -395,6 +419,7 @@ Hope Wang is a Developer Advocate at Alluxio with a decade of experience in Data
 Iceberg is becoming synonymous with Lakehouse as this architecture pattern gains in popularity. But what does that mean for data practitioners? What is driving adoption of lakehouses for data engineers, data scientists, business analysts and machine learning professionals, and how does Iceberg help? This session covers four technical value drivers for data lakehouses, and how Iceberg’s unique capabilities help make these use cases possible or better.
 
 **Speakers:** David Dichmann
+
 David leads the product innovation team for Databases and Data Warehouses, with a focus on modern data architectures such as Data Mesh, Fabric and Lakehouses. David has over 30 years experience in data management, data ecosystems, information architecture and enterprise architecture. David has a passion for helping businesses and people make data into transformative insights that lead to product and market acceleration and disruption. Before joining Cloudera, David has worked for companies like Sybase, SAP, and Hewlett Packard Enterprise.
 
 #### Iceberg Replication
@@ -405,12 +430,15 @@ The current technical implementation utilizes Apache Hadoop YARN as the underlyi
 <a class="btn" href="/slides/na-2023/sun_iceberg_replication-rahul-buddhisagar.pdf"><strong>Got to Slides</strong></a>
 
 **Speakers:** Rahul Buddhisagar
+
 Rahul is a senior engineering manager from Cloudera based in Santa Clara, California. He has held various roles in engineering and leadership in several domains ranging from speech recognition, storage, replication, and distributed systems. In his current role, Rahul works on providing an analytics/data engineering on-prem platform along with a Data Recovery product portfolio.
 
 **Speakers:** Shailesh Shiwalkar
+
 Shailesh Shiwalkar is a Principal Software Engineer at Cloudera based in Santa Clara, CA. He is an Architect who primarily looks at data protection and replication strategy across the Cloudera Data Platform. In the past, he has worked on providing enterprise-grade replication solutions for HDFS, Hive, Impala, HBase, and most recently Apache Iceberg. His background has been in distributed systems and systems programming in his prior roles.
 
 **Speakers:** Teddy Choi
+
 Teddy Choi is a senior staff software engineer from Cloudera, and is based in South Korea. He improved Apache Hive’s performance as a committer. He implemented various performance optimization for distributed systems, with relational algebra, propositional calculus, SIMD, scheduling, cache, profiler, heuristics, compression, and hash. In his current role, Teddy works on designing reliable and scalable Apache Iceberg replication services for hybrid multi-clouds.
 
 ### Cloud and Runtime Track
@@ -421,6 +449,7 @@ Teddy Choi is a senior staff software engineer from Cloudera, and is based in So
 This talk will present Apache Karaf Minho as runtime, illustrating use of Minho to create a data gateway exposing REST API transformed in gRPC call to store data in Apache Iceberg table format.
 
 **Speakers:** JB Onofré
+
 JB is ASF member for ~ 15 years. He’s PMC member for about 20 Apache projects.
 
 #### Observable resource usage for cloud workloads with Apache YuniKorn
@@ -432,9 +461,11 @@ How do we make the usage observable for all these objects: a system that exposes
 <a class="btn" href="/slides/na-2023/sat_cloud_observable-resource-usage-yunikorn-wilfred-spiegelenburg.pdf"><strong>Got to Slides</strong></a>
 
 **Speakers:** Wilfred Spiegelenburg
+
 Wilfred is a Principal Software Engineer with Cloudera, based in Melbourne Australia. He has worked as a software engineer for more than 25 years. Involved in multiple open source projects for over 10 years. Tech lead of the Apache YuniKorn project. He is an Apache Software Foundation member, Apache YuniKorn PMC chair and Apache Hadoop committer.
 
 **Speakers:** Peter Bacsko
+
 Peter is a Senior Software Engineer with Cloudera. He is an Apache YuniKorn and Apache Oozie PMC member and Apache Hadoop committer.
 
 #### Developing infrastructure for using Guacamole
@@ -444,6 +475,7 @@ I developed automation around Apache Guacamole and a virtual desktop that incorp
 <a class="btn" href="/slides/na-2023/sat_cloudandruntimetrack_marklidd-mark-lidd.pdf"><strong>Got to Slides</strong></a>
 
 **Speakers:** Mark Lidd
+
 IT developer for over 35 years and AWS Cloud developer for 15 years.
 
 #### Apache HBase on K8s
@@ -470,6 +502,7 @@ In conclusion, this talk provides insights into the challenges and opportunities
 <a class="btn" href="/slides/na-2023/sat_cloud_ankit_wellington_stephen-tak-lon-stephen-wu.pdf"><strong>Got to Slides</strong></a>
 
 **Speakers:** Wellington Ramos Chevreuil
+
 **Speakers:** Ankit Singhal
 
 **Speakers:** Stephen Wu
@@ -480,6 +513,7 @@ This presentation will talk about Apache EventMesh project adoption in Huawei Cl
 <a class="btn" href="/slides/na-2023/sat_cloudnativetrack_alexluo-alex-luo.pdf"><strong>Got to Slides</strong></a>
 
 **Speakers:** Alex Luo
+
 Alex Luo has over 10 years of industry experience in software engineering and IT project management, with specialty in Cloud Platform as a Service (PaaS) and Cloud native Event-driven architecture (EDA). Alex currently is leading the R&D team in Huawei Canada Toronto Research Centre, working on next generation of cloud middleware technologies. Alex is also PMC and key contributor in Apache EventMesh. He is leading the EventMesh project adoption in Huawei Cloud, created EventGrid Service, the enterprise high performance cloud event centre for cloud native applications and services.
 Outside of the work Alex enjoys hiking and travelling. He loves bringing his family with his lovely son and daughter for travel.
 
@@ -497,6 +531,7 @@ No experience of Machine Learning, Large Language Models or Apache Tika required
 <a class="btn" href="/slides/na-2023/mon_content_nickburchdoublebill-nick-burch.pdf"><strong>Got to Slides</strong></a>
 
 **Speakers:** Nick Burch
+
 Nick began contributing to Apache projects in 2003, and hasn’t looked back since! Most of the projects Nick has worked in belong in the "Content" space, such as Apache POI (ex-PMC Chair), Apache Tika and Apache Commons. As well as coding projects, Nick is also involved in a number of foundation-wide activities, including Conferences, Travel Assistance, Community Development and the Incubator.
 
 #### Laptop-sized ML for Text, with Open Source
@@ -505,6 +540,7 @@ AI text models like GPT3, ChatGPT, LLaMA, Bing AI and Github Co-Pilot are gettin
 <a class="btn" href="/slides/na-2023/mon_content_nickburchdoublebill-nick-burch.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Nick Burch
+
 Nick began contributing to Apache projects in 2003, and hasn’t looked back since! Most of the projects Nick has worked in belong in the "Content" space, such as Apache POI (ex-PMC Chair), Apache Tika and Apache Commons. As well as coding projects, Nick is also involved in a number of foundation-wide activities, including Conferences, Travel Assistance, Community Development and the Incubator.
 
 #### Apache Tika: What’s New
@@ -512,6 +548,7 @@ In this talk, we offer a general introduction to Apache Tika and then turn to fo
 When all you have are files, but you need data, Apache Tika can help.
 
 **Speaker:** Tim Allison
+
 Tim has been working in content/metadata extraction (and evaluation), advanced search and relevance tuning for nearly 20 years. Tim is the founder of Rhapsode Consulting LLC, and he currently works as a data scientist at NASA’s Jet Propulsion Laboratory. Tim is a member of the Apache Software Foundation (ASF), the chair/VP of Apache Tika, and a committer on Apache OpenNLP (2020), Apache Lucene/Solr (2018), Apache PDFBox (2016) and Apache POI (2013). Tim holds a Ph.D. in Classical Studies, and in a former life, he was a professor of Latin and Greek.
 
 #### Apache OpenNLP and LLMs – Where does OpenNLP fit in?
@@ -521,6 +558,7 @@ Apache OpenNLP is a machine learning based toolkit for the processing of natural
 <a class="btn" href="/slides/na-2023/mon_contentwrangling_zemerick-jeff-zemerick.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Jeff Zemerick
+
 Jeff is the current chair of the Apache OpenNLP project, and works in the intersections of cloud, big-data, and NLP. He lives outside of Pittsburgh, PA, USA. Get in touch with Jeff at https://jeffzemerick.dev/.
 
 #### Neural Network tools within a clinical Natural Language Processing application.
@@ -530,6 +568,7 @@ Apache cTAKES Python Bridge to Java (PBJ) is the first modern next-generation op
 This talk will broadly cover NNs such as ChatGPT, as well as some tools that exist behind the scenes. It will then discuss the cTAKES platform and PBJ, as well as Apache UIMA, Apache Artemis and other open source tools used in its implementation.
 
 **Speaker:** Sean Finan
+
 Research Computing Principal Engineer
 Computational Health Informatics Program, Natural Language Processing Lab
 Boston Children’s Hospital
@@ -545,6 +584,7 @@ This session is a highly interactive review of the core behaviors that help keep
 Attendees will leave with a clear understanding of practical actions they can take to help improve their own open source experience, and how to help their communities succeed together. Lessons learned are tied back directly to relevant community and PMC documentation at the ASF, including the latest edits and updates in our docs.
 
 **Speaker:** Shane Curcuru
+
 Shane has been volunteering at the ASF since 1999, speaking at more than a dozen ApacheCons and leading one conference; as well as serving as VP, Brand Management and as a Director for many terms.
 Otherwise, Shane is a father, husband, and friend. Oh, and we have cats! Find me on socials as ShaneCurcuru.
 
@@ -560,9 +600,11 @@ In this talk, you will learn:
 <a class="btn" href="/slides/na-2023/mon_outreach_-two_way_street_logan_proffitt.pdf"><strong>Got to Slides</strong></a>
 
 **Speakers:** Melissa Logan
+
 Melissa Logan is part of the Marketing and Publicity team at the Apache Software Foundation. She is also the founder of Constantia.io, a tech community company that provides community and marketing consulting to data and open source organizations in addition to managing its own independent user communities – Data on Kubernetes Community and Data Mesh Learning. Prior to founding Constantia.io in 2018, Logan was a director at the Linux Foundation with a focus on Linux, networking, cloud, and automotive open source projects. 
 
 **Speaker:** Brian Proffitt
+
 Brian Proffitt is the VP of Marketing and Publicity for the Apache Software Foundation. He is also the Senior Manager, Community Outreach within Red Hat’s Open Source Program Office, focusing on enablement, community metrics and foundation and trade organization relationships. Brian’s experience with community management includes knowledge of community onboarding, community health and business alignment. Prior to joining Red Hat in 2013, he was a technology journalist with a focus on Linux and open source, and the author of 22 consumer technology books.
 
 #### How to participate and contribute to an Apache project as a non-developer, Apache Solr edition
@@ -573,6 +615,7 @@ We will check where and how to start getting involved, traditional and non-tradi
 <a class="btn" href="/slides/na-2023/mon_community_aarrieta-alejandro-arrieta.pptx"><strong>Got to Slides</strong></a>
 
 **Speaker:** Alejandro Arrieta
+
 Alejandro Arrieta is a Senior Staff Customer Operation Engineer at Cloudera, working with Apache Solr and other Apache projects since 2017.
 
 #### Starting my career The Apache Way
@@ -582,6 +625,7 @@ In my talk I’d like to give an inside look of my experience and how our commun
 <a class="btn" href="/slides/na-2023/mon_community_dombi-zita-dombi.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Zita Dombi
+
 She did her bachelor’s and master’s degree in Computer Science at the University of Szeged and during her last year she joined Cloudera as a software engineer intern. After graduation she became a full time employee and continued to work on the Apache Ozone project.
 
 #### Having Hard Conversations on Mailing lists
@@ -591,6 +635,7 @@ In this talk I will highlight both the benefits and the troubles I have seen whi
 <a class="btn" href="/slides/na-2023/mon_community_olivelli-enrico-olivelli.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Enrico Olivelli
+
 Enrico is an Open Source Software and ASF enthusiast, he is PMC member in a few projects (ZooKeeper, BookKeeper, Pulsar, Curator) and committer of Maven.
 
 #### Usability for high code software to help improve contributions
@@ -602,6 +647,7 @@ In this talk I present benefits of usability to ultimately ease the process for 
 <a class="btn" href="/slides/na-2023/mon_community_sundar-aparna-sundar.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Aparna Sundar
+
 Aparna Sundar is a Senior Researcher at OpenSearch Project. She has decades of experience in the field of research and design. She actively publishes in cognitive science journals. Aparna gives talks in various domains including Technology, Psychology and Marketing.
 
 #### A Journey through the ASF!
@@ -614,12 +660,14 @@ I’d like to share the story of my open source journey and how you too could be
 Amazon Managed Workflows for Apache Airflow (MWAA) was launched in November, 2020 with the goal of making it easy for users to adopt this popular orchestration tool without worrying about security, scalability, and infrastructure. From the start, MWAA intended to 1/Only offer the same Apache Airflow code as users could download themselves, and 2/Give back to the community by helping make Airflow better for everyone. In this talk, I will present the tenets that were followed when building and running this service, and show how being community-first can be a foundation for commercial success.
 
 **Speaker:** John Jackson
+
 John has over 20 years of software experience as a developer, systems architect, and product manager in both startups and large corporations and is the AWS Principal Product Manager responsible for Amazon Managed Workflows for Apache Airflow (MWAA).
 
 #### Empowering Responsible Community Decision-Making
 Community decision-making is a vital aspect of ASF communities. A decision-making framework provides a reliable and replicable process for navigating the complexities involved while ensuring community voices are heard. This talk focuses on the five phases of the framework: Frame, Shape, Evaluate, Refine, and Act, with a specific emphasis on community decision-making. By incorporating core questions, evaluating options through a matrix of values and principles that align with ASF values, and refining proposals, we can make informed decisions that prioritise the well-being and interests of the community and project over individuals or companies. Join me in exploring how decision-making empowers people to create positive impacts within their communities.
 
 **Speaker:** Justin Mclean
+
 Justin Mclean is a highly experienced professional with over 30 years in web application development, education, and community work, and is an active contributor to open source software. Justin is a renowned speaker at conferences worldwide and currently serves as the Community Manager at Datastrato. He mentors projects in the Apache Software Foundation and holds positions as VP of the ASF Incubator, and is an ASF board member.
 
 #### Category X for AI? Are LLM / ML projects repeating our licensing mistakes?
@@ -633,6 +681,7 @@ No AI (Artificial Inteligence), ML (Machine Learning), or LLM (Large Language Mo
 <a class="btn" href="/slides/na-2023/tue_community_categoryxforai-nick-burch.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Nick Burch
+
 Nick began contributing to Apache projects in 2003, and hasn’t looked back since! Most of the projects Nick has worked in belong in the "Content" space, such as Apache POI (ex-PMC Chair), Apache Tika and Apache Commons. As well as coding projects, Nick is also involved in a number of foundation-wide activities, including Conferences, Travel Assistance, Community Development and the Incubator.
 
 #### Lessons learned: Improving the security process of an Apache Project
@@ -643,11 +692,13 @@ The deliberate improvement effort, collaboration with the ASF security team and 
 <a class="btn" href="/slides/na-2023/tue_community_-lessons-learned_-improving-the-security-process-of-an-apache-project-jarek-potiuk.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Jarek Potiuk
+
 Independent Open-Source Contributor and Advisor, Committer and PMC member of Apache Airflow, Member of the Apache Software Foundation
 Jarek is an Engineer with a broad experience in many subjects – Open-Source, Cloud, Mobile, Robotics, AI, Backend, Developer Experience, Security, but he also had a lot of non-engineering experience – building a Software House from scratch, being CTO, organizing big, international community events, technical sales support, pr and marketing advisory but also looking at legal aspects of security, licensing, branding and building open-source communities are all under his belt.
 With the experience in very small and very big companies and everything in-between, Jarek found his place in Open-Source world, where his internal individual-contributor drive can be used to the uttermost of the potential.
 
 **Speaker:** Arnout Engelen
+
 Arnout is an independent Open Source developer and part of the ASF Security Team
 
 #### Embracing Differences for Innovation: The Path to Inclusive Open-Source Projects
@@ -656,6 +707,7 @@ Diversity and Inclusion are not limited to gender or physical disabilities, it a
 This presentation outlines best practices to be implemented in open-source projects to promote diversity and inclusion, such as accessibility tools and practices for websites, events accommodations, and codes of conduct. Notwithstanding, this presentation also aims to empower individuals and communities within ASF by offering insights and practical steps to create inclusive environments.
 
 **Speaker:** Glaucia Esppenchutz
+
 Hello there! I’m Gláucia, an experienced developer passionate about Python and DataOps. With over 8 years of coding, I’ve had the opportunity to work on a wide range of projects, harnessing the power of Python to solve complex problems and streamline data operations.
 
 ### Data Engineering Track
@@ -670,6 +722,7 @@ In this talk, we describe the features we are adding to Calcite to define busine
 <a class="btn" href="/slides/na-2023/mon_dataeng_building-a-semantic-metrics-layer-using-calcite-julian-hyde.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Julian Hyde
+
 Julian Hyde is the original developer of Apache Calcite, an open source framework for building data management systems, and Morel, a functional query language. Previously he created Mondrian, an analytics engine, and SQLstream, an engine for continuous queries. He is an engineer at Google, where he works on Looker and BigQuery.
 
 #### Iceberg Catalog as a Service
@@ -679,6 +732,7 @@ This talk highlights how the REST catalog was built and adopted at Apple and the
 <a class="btn" href="/slides/na-2023/mon_dataengineering_hongyue-hongyue-zhang.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Hongyue Zhang
+
 Hongyue started his career developing micro services in AWS to help schedule the serverless containers at scale. His journey with data started in 2021, and he immediately became the fan of the Apache Iceberg project. At Apple, Hongyue is building tools and systems around Apache Iceberg to help make data-driven decisions.
 
 #### The making of an Exabyte-scale Data Lakehouse
@@ -687,6 +741,7 @@ The Ozone community has actively collaborated with key stakeholders such as Hive
 During this presentation, we will delve into the recent integration endeavors undertaken. These efforts are aimed at providing a cohesive and integrated Data Lakehouse experience on the Ozone platform, offering enhanced capabilities and a unified environment for data management and analysis.
 
 **Speakers:** Saketa Chalamchala
+
 Saketa is a Sr. Software Engineer at Cloudera working with the Storage Team at Cloudera. She has previous experience as a Solutions Architect developing and architecting Hadoop Platform & ETL solution for over 15 customers and brings a customer centric point of view to product engineering. She is a professional with a Master’s degree focused in Computer Science from Stony Brook University.
 
 **Speaker:** Siddharth Wagle
@@ -698,6 +753,7 @@ In this talk we will go into detail about what we need to do to get up to speed 
 <a class="btn" href="/slides/na-2023/mon_dataengineering_the-free-lunch-is-over-we-have-to-really-deal-with-unstructured-data-ismael-mejia-1.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Ismaël Mejía
+
 Ismaël Mejía is a Senior Cloud Advocate at Microsoft working on the Azure Data team. He has more than a decade of experience architecting systems for startups and financial companies. He has been focused on distributed data and data engineering, he is a contributor to Apache Beam, Apache Avro and many other open-source projects. He is also a member of the Apache Software Foundation (ASF).
 
 #### Demystifying Apache Airflow: Separating Facts from Fiction
@@ -711,6 +767,7 @@ Notes:
 5. Making Informed Decisions: Choosing the Right Workflow Platform
 
 **Speaker:** Shubham Mehta
+
 Shubham is a skilled product manager with a diverse background in delivering successful products across various industries. As a Senior Product Manager at AWS, he oversees the roadmap and prioritization of Airflow features in Amazon Managed Workflows for Apache Airflow (MWAA) and leads the open-source contributions to enhance product functionality.
 Prior to joining AWS, Shubham held multiple roles at Skillz and Samsung Electronics, where he was responsible for devising data strategy for user acquisition, and launching innovative products like Samsung Pay and Bixby. He is an International Physics Olympiad Gold Medalist and holds a Bachelor of Technology in Computer Science from the Indian Institute of Technology, Bombay.
 
@@ -721,6 +778,7 @@ An attendee can expect to leave this talk with a high level understanding of Bea
 <a class="btn" href="/slides/na-2023/inference-at-scale-with-apache-beam-community-over-code-danny-mccormick.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Danny McCormick
+
 Danny is a committer on the Beam project and a senior software engineer at Google in Durham, NC where he gets to spend most of his time working on Beam. Previously, Danny worked at GitHub where he helped launch GitHub Actions and developed his love for open source communities.
 
 ### Frameworks Track
@@ -733,6 +791,7 @@ Announced almost six years ago by Oracle, the Javax to Jakarta migration has cre
 <a class="btn" href="/slides/na-2023/javax-to-jakarta-tales-from-the-crypt-v2-shawn-mckinney.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Shawn McKinney
+
 Software architect, PMC Apache Directory Project
 
 #### Integrate anything with Camel: A Beginner’s Guide
@@ -740,6 +799,7 @@ Apache Camel is an incredible integration framework. Sometimes called "the Swiss
 In this talk, we will explore the key concepts behind defining integration routes and the use of Enterprise Integration Patterns (EIPs). You will leave with a working understanding of Apache Camel and the ability to create basic integration tasks with ease!
 
 **Speaker:** Jesse Gorzinski
+
 Jesse Gorzinski is a longtime enthusiast of open source software (OSS). Currently, he is a Senior Business Architect at IBM, where he specializes in the the application of OSS in large-scale business computing. Jesse drives companies to success by leveraging the benefits of both legacy systems and cutting-edge technologies in harmony. He has worked with numerous Fortune 500 companies and also has applied experience in the finance/mortgage industry, where he specialized in data backup/recovery, process optimization, and information integrity. He has a Bachelor’s degree in Computer Science as well as a Master of Business Administration degree.
 
 #### WebAssembly plugin for Apache Traffic Server
@@ -751,6 +811,7 @@ We will conclude the talk by going through some missing features, limitations an
 <a class="btn" href="/slides/na-2023/tue_framework_wasmforats-shu-kit-chan.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Shu Kit Chan
+
 Kit is currently a software architect working in Yahoo. His team is tasked to leverage Apache Traffic Server to provide innovative, fast and safe solutions to delivery web contents to users. He has been a long time contributor to the Apache Traffic Server project and was responsible with a number of ATS plugins such as ESI (edge side include), Lua and WebAssembly.
 Kit is also a volunteer at the open source program office in Yahoo and has been providing some help in monitoring the usage and contribution of open source software as well as advising on the governance of these processes.
 
@@ -760,6 +821,7 @@ There are multiple levels where we can discuss compatibility, but this talk focu
 The presentation discusses the core concepts and the main idea of how the compatibility issues can be separated from the core business logic. To then take a sneak peak into the nasty details of pre-requisites, and the adoption procedure of the system showcasing our current state and future plans.
 
 **Speaker:** Istvan Fajth
+
 Started his carrier as a web developer in a small garage company in Budapest Hungary to join one of the leader Chemiformatics companies worldwide and start his journey in the world of Java.
 Nowadays after a detour to customer support at Cloudera he is working mainly on the Apache Ozone and HDFS projects in the last 4-5 years with a strong troubleshooting background.
 
@@ -769,6 +831,7 @@ Within Apache Ozone we would like to enable a pain free working solution that en
 In this talk I would like to give a deep dive about how Apache Ozone implements and automates the certificate maintenance required for its secure internal and external communication. How trust is being established, what measures we do or plan to do to ensure that the system is secure and remains secure without a glitch, at least without an expired certificate bringing down the system. Last but not least I would like to explore the possibility of turning this part of the system to an independent module other projects might include with well defined integration points.
 
 **Speaker:** Istvan Fajth
+
 Started his carrier as a web developer in a small garage company in Budapest Hungary to join one of the leader Chemiformatics companies worldwide and start his journey in the world of Java.
 Nowadays after a detour to customer support at Cloudera he is working mainly on the Apache Ozone and HDFS projects in the last 4-5 years with a strong troubleshooting background.
 
@@ -780,6 +843,7 @@ It’s time to share learnings and try to expand to other languages used at the 
 <a class="btn" href="/slides/na-2023/tue_frameworks_-reproducible-builds-for-the-jvm-and-beyond-herve-boutemy.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Hervé Boutemy
+
 Maven PMC member, Attic PMC Chair
 Trying to fill the gap between official ASF source releases and associated convenience binaries.
 
@@ -787,6 +851,7 @@ Trying to fill the gap between official ASF source releases and associated conve
 Know enough about Maven to get by, but not enough to thrive? Then this talk is for you. We will review the basics and then dive into the best practices for both Maven single and multi-module projects. You will also walk away with enough knowledge to troubleshoot your builds.
 
 **Speaker:** Brian Demers
+
 Brian Demers is a Developer at Gradle.
 
 ### Fintech Track
@@ -801,6 +866,7 @@ It started with a promise and a PoC. The goal was ambitios to achieve high perfo
 <a class="btn" href="/slides/na-2023/fineract_for_enterprise_customer-mihaly-dallos.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Mihaly Dallos
+
 Mihaly has been working in the industry for more than twenty years. He has software development from many angles leading him to managing the overall process of transforming an idea into a pragmatic solution as project manager. His experience is built from diverse sources; including Hungarian SMEs, a Fortune500 company and several years in outsourcing. He ended up forging his own success as an entrepreneur.
 
 #### Embedded Banking: The role of Fintech
@@ -821,6 +887,7 @@ Our journey is a testament to how prioritizing the power of collaboration can le
 <a class="btn" href="/slides/na-2023/mon_fintech_mezei-zoltan-mezei.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Zoltan Mezei
+
 Zoltan is an IT generalist, currently working with open source and cloud technologies for fintech and e-commerce companies.
 
 #### Fineract with Advanced Batch and Event frameworks
@@ -836,6 +903,7 @@ Integration with AVRO schema, ensuring data consistency and compatibility with d
 <a class="btn" href="/slides/na-2023/mon_fintech_istvanmolnar-advanced-batch-events-istvan-molnar.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Istvan Molnar
+
 Istvan Molnar is a founding member and Chief Technology Officer of BaasFlow. Istvan is a Financial Technology Architect from Budapest, Hungary that has decades of experience implementing banking and real-time payment solutions at scale. Istvan has led the deployment of Mifos and Fineract at a bank in Germany as well as banks in SE Asia. Building off of the experience implementing real-time payment systems for Singapore and Hungary, Istvan has lead the design and architecture of Payment Hub EE, a powerful bridge and microservices workflow orchestration tool
 
 #### PRQL: A Modern Data Transformation Language Empowering Fintech Data Engineering and Analysis
@@ -845,6 +913,7 @@ By seamlessly transpiling into SQL, PRQL ensures compatibility with any relation
 PRQL is a completely open-source (Apache licensed) and volunteer-driven project and is committed to staying that way forever. Having gained over 7000 stars on GitHub in just over a year, the community response has been incredibly enthusiastic! Come and join us!
 
 **Speaker:** Tobias Brandt
+
 Tobias is an experienced professional in data science and data engineering with 20 years of experience in quantitative finance. Currently serving as the Head of Analytics and Customized Solutions at Argon Asset Management in Cape Town, he leads teams responsible for portfolio analytics, systems, and data.
 With a strong background in finance and technology, Tobias has held key roles in the investment management industry. As a Portfolio Manager at Argon Asset Management, he focused on quantitative strategies within the Multi-Asset Class team and played a pivotal role in building an in-house platform for strategy research, risk monitoring, and portfolio optimization. Before that, he also worked as an Algorithmic Trading Systems Developer at AHL, part of the hedge fund group Man Group Plc in London.
 Tobias holds degrees in Applied Mathematics and Physics and is a CFA Charter Holder. With his deep knowledge of quantitative finance, combined with his proficiency in data science and engineering, Tobias brings valuable insights to the fields of data engineering and fintech.
@@ -858,9 +927,11 @@ Join us for an engaging session that explores the limitless possibilities of Apa
 <a class="btn" href="/slides/na-2023/mon_fintech_jamesdailey_opensourcebank-james-dailey.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** James Dailey
+
 James is the original brains behind Mifos which then contributed and created the Fineract project. A serial entrepreneur, he is currently CEO of BaaSFlow which offers commercial open source banking solutions. James is a fintech expert in emerging markets focused on banking and payment interoperability. He is an Apache member and current PMC Chair of Fineract.
 
 **Speaker:** Istvan Molnar
+
 Istvan Molnar is a founding member and Chief Technology Officer of BaasFlow. Istvan is a Financial Technology Architect from Budapest, Hungary that has decades of experience implementing banking and real-time payment solutions at scale. Istvan has led the deployment of Mifos and Fineract at a bank in Germany as well as banks in SE Asia. Building off of the experience implementing real-time payment systems for Singapore and Hungary, Istvan has lead the design and architecture of Payment Hub EE, a powerful bridge and microservices workflow orchestration tool
 
 #### Unbundling the Core: Exploring the Boundaries of a Core Banking System
@@ -874,6 +945,7 @@ We’ll lay out the playing field, establish the boundaries, and propose framewo
 * Properly define commons vs competitive space to catalyze a virtuous cycle enabling upstream contribution with clearer incentives to contribute and opportunities to commercialize.
 
 **Speaker:** Edward Cable
+
 As the President/CEO of the Mifos Initiative and founding member of the Apache Fineract PMC, Edward Cable is a leader in technology-enabled financial inclusion and open service financial services innovation. Since his time at the Wharton School at the University of Pennsylvania, Edward has understood and proven the catalytic power of communities – first through the cooperative movement, then through financial inclusion, and now through open source for financial services. Edward joined the Mifos project in 2007, incubating the open source community as part of the initial team guiding the project within the Grameen Technology Center. He led the spinout of the Mifos Initiative in 2011, overseeing the evolution of both the platform as well as the open source community as a transformative force for microfinance, financial inclusion and now digital financial services. Edward’s strategic vision and foresight has enabled the community to keep pace with rapid fintech innovation and nurtured the growth of a vibrant ecosystem of solution providers reaching nearly 20 million clients through solutions built on top of the open-source Mifos and Fineract APIs. When he’s not focused on cultivating innovative fintech solutions, Edward tends to his menagerie of animals including goats, dogs, rabbits, and chickens in the majestic Redwoods. Edward has spoken at numerous open source and fintech events including a keynote and LF Open Source Summit in Europe, and workshops/talks at Fintech DevCon hosted by Moov and OSCON.
 
 #### Open Banking Core for the Mexican Government
@@ -884,6 +956,7 @@ INFOTEC is a key contributor to Mexico’s Digital transformation and capacity b
 In conclusion, we believe that open technology has the potential to play a significant role in promoting financial and digital inclusion in Mexico. Our Banking CORE is an example of how open technology can be used to improve the efficiency and accessibility without a multimillion-dollar price tag.
 
 **Speakers:** Federico C González Waite
+
 Federico González Waite is a true hands-on innovator and cyber enthusiast with a keen eye for the use of technology as a tool for social inclusion and development. He has extensive experience in a range of roles within the Mexican and New Zealand governments, the private sector, and international organizations.
 Currently, Federico is the Executive Director of Mexico’s National Research and Innovation Center for ICT (INFOTEC). In this role, he has been a promoter of the use of open source technology and a key player in developing Mexico’s technological capacities and digital public infrastructure.
 Prior to this role, he served as Technology Advisor to the General Director of the Federal Electricity Commission, in the Internet for All Project. He also served as Chief Technology and Innovation Officer at the Ministry of Foreign Affairs, where he laid the foundations for the New Mexican Electronic Passport. In the Ministry of Agriculture, he served as Deputy CTO and as Director of Information Security and Strategic Planning. In this role, he led the implementation of the National Beneficiary Registry in Open Source and Cloud Technology.
@@ -907,6 +980,7 @@ This session will highlight real world use cases and practices the community and
 – modular security (authentication and authorization)
 
 **Speaker:** Aleksandar Vidakovic
+
 Aleks is an independent software developer and consultant who has been working for more than two decades in industries like security, publishing, automotive and telecommunications.
 He’s a PMC member and the release manager for Apache Fineract. He’s also a Member of the Apache Software Foundation.
 
@@ -920,6 +994,7 @@ By the end of this session, participants should be inspired by real-life success
 <a class="btn" href="/slides/na-2023/tue_fintech_cecilia-menso-cecilia-menso.pptx"><strong>Got to Slides</strong></a>
 
 **Speaker:** Cecilia Menso
+
 Delivery lead, Account and Project Manager with 20 years of experience in the IT industry, I’ve worked for clients in the Manufacturing, Telecommunications and now specifically in the Financial sector across the globe.
 
 #### Business date & Close of business day concept in Fineract
@@ -936,6 +1011,7 @@ This presentation will provide some insight about the functionalities and some u
 <a class="btn" href="/slides/na-2023/tues_fintech_adamsaghy_cob-adam-saghy.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Adam Saghy
+
 Seasoned Java developer with 10+ years of experience from Budapest, Hungary and an active Fineract contributor in the last couple years.
 
 #### Enhancing Apache Fineract capabilities to support wallet accounts
@@ -945,6 +1021,7 @@ Our implementation includes enhanced features for filtering and sorting transact
 Targeted at developers and individuals interested in Fineract development, this presentation will provide a practical exploration of real-world application of Fineract’s Savings Account as a wallet, sparking discussion on the potential of this platform.
 
 **Speaker:** Péter Sánta
+
 I’ve been working as software engineer since about 2010. I’ve been working on projects about loan origination, loan account management with Fineract, savings account management with Fineract, other banking projects and non-related other subjects. My roles were developer, technical analyst, program manager and lead of analyst team.
 
 ### Geospatial Track
@@ -956,6 +1033,7 @@ Apache Sedona is a cluster computing system designed to revolutionize the way we
 In this presentation, we will delve into the key features of Apache Sedona and showcase its powerful capabilities in handling large-scale spatial data. We will also showcase examples of how Sedona has been used in various industries such as transportation, logistics, and geolocation-based services, to gain insights and improve decision-making.
 
 **Speaker:** Jia Yu
+
 Jia Yu is a co-founder of Wherobots Inc., a venture-backed company for helping businesses to drive insights from spatiotemporal data, and leads the engineering team at Wherobots. He is currently on leave of absence from his role as a Tenure-Track Assistant Professor of Computer Science at Washington State University. He obtained his Ph.D. in Computer Science from Arizona State University in Summer 2020 under the guidance of Mohamed Sarwat. His research focuses on large-scale database systems and geospatial data management. In particular, he worked on distributed geospatial data management systems, database indexing, and geospatial data visualization. Jia’s research outcomes have appeared in the most prestigious database / GIS conferences and journals, including SIGMOD, VLDB, ICDE, SIGSPATIAL and VLDB Journal. He is the main contributor of several open-sourced research projects such as Apache Sedona, a cluster computing framework for processing big spatial data, which receives 800,000 downloads per month and has users / contributors from major companies.
 
 #### Efficient handling of geometry data in Apache Impala with Parquet files
@@ -967,6 +1045,7 @@ Our method is based on a two-level division of space into cells. The coarser div
 <a class="btn" href="/slides/na-2023/tue_geospatial_ringhofer-becker-daniel-becker.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Csaba Ringhofer
+
 Csaba Ringhofer has been working on Apache Impala since 2017 at Cloudera. He is a Member of the Apache Impala PMC. He studied at the Budapest University of Technology and Economics. Daniel Becker
 Daniel Becker started working on Apache Impala in 2019, first as an intern and later as a full time employee of Cloudera. He is a member of the Apache Impala PMC. He has a degree from Pázmány Péter Catholic University.
 
@@ -974,6 +1053,7 @@ Daniel Becker started working on Apache Impala in 2019, first as an intern and l
 Geoparquret, a version of the Parquet file format that supports geometries, has grown in adoption and integration over the past year. In this session we will share with you how Geoparquet is being used, where it is being integrated, and the future vision for the project. From integrations with GDAL, PostGIS, DuckDB, and more, we will show how this format is already scaling open source spatial analytics and providing a new way to process and analyze large geospatial data.
 
 **Speaker:** Matthew Forrest
+
 Matt is a technology leader at CARTO working on geospatial analytics and advocating for open and modern geospatial technology to be used by GIS practitioners. Matt has worked in geospatial analytics for his entire career and enjoys anything to do with spatial SQL, scalable data systems, and enabling users to make use of the great open technology in our ecosystem.
 
 #### Geospatial in the Apache Dataverse with GeoArrow
@@ -986,9 +1066,11 @@ Enterprise data systems increasingly expect geospatial support in the tools they
 Collectively, we hope to demonstrate the ways in which tools are able to benefit from the GeoArrow standard today and discuss opportunities for future development.
 
 **Speakers:** Dewey Dunnington
+
 Dewey Dunnington (Ph.D., P.Geo.) is an environmental researcher, programmer, and educator based in Nova Scotia, Canada. Dewey’s environmental research investigates the mechanisms that control toxic metals in lakes, whereas his programming has led him to develop mobile applications, web apps, and R packages, including a summer internship with RStudio working on the popular R package ggplot2. He has developed and taught many courses on R programming, Python programming, and GIS, and is a RStudio-certified tidyverse instructor. He recently completed his Ph.D. in the Centre for Water Resources Studies at Dalhousie University and is currently a Senior R Developer at Voltron Data working on all things Apache Arrow + R.
 
 **Speakers:** Joris Van den Bossche
+
 Joris Van den Bossche is an open source Python enthusiast. Joris is a core contributor to Pandas and is currently working at Voltron Data to advance Arrow-based data tools in Python. I am also a freelance teacher and developer.
 
 #### Geospatial in Space
@@ -1000,14 +1082,17 @@ Details will cover aspects such as identifying the celestial body, defining axes
 <a class="btn" href="/slides/na-2023/tue_geospatial_in_space-martin-desruisseaux.pdf"><strong>Got to Slides</strong></a>
 
 **Speakers:** Martin Desruisseaux
+
 Martin holds a Ph.D in oceanography, but has continuously focused on developing tools for analysis work. Programming experience was C/C++ before switching to Java in 1997. He has been developing geospatial libraries for more than 25 years, as a contributor to Apache SIS since 2013. He follows Open Geospatial Consortium (OGC) meetings since 2002. Martin works in a small IT services company (Geomatys) specialized in development of geoportals, which uses Apache SIS as a foundation.
 **Speakers:** Jérôme Jacovella-St-Louis
+
 Jérôme is founder and CTO of Ecere, designed the eC programming language, initiated the development of the FOSS Ecere Cross-Platform SDK (including a 2D/3D graphics engine, a cross-platform GUI toolkit and an IDE) and leads the development of GNOSIS geospatial software solutions. Jérôme is a co-chair of multiple OGC Standards Working Group and co-editor of several OGC standards such as OGC Styles & Symbology and OGC API – Tiles.
 
 #### Machine Learning over Streaming Spatiotemporal Data with Drifts, using Apache Kafka, Cadence and TensorFlow.
 This talk introduces a realistic real-time geospatial drone delivery demonstration application using two complementary open-source technologies working at different timescales – Uber’s Cadence (for long-running/scheduled workflows) and Apache Kafka (for fast streaming data). With up to 2,000 (simulated) drones and deliveries in progress at once this application generates a vast flow of spatiotemporal data. The second part of the talk uses this platform and data to explore Machine Learning over streaming data from Kafka. We will explore some of the challenges and solutions of incremental Machine Learning over fast-moving data, particularly when the data is spatiotemporal with concept drifts, and reveal how well a selection of open-source Kafka Machine Learning frameworks perform and scale at this demanding task. 
 
 **Speaker:** Paul Brebner
+
 Paul is an Open Source Technology Evangelist at Instaclustr (now part of Spot by NetApp). For the past six years, he has been learning new scalable Big Data technologies, building realistic demonstration applications, and blogging and talking about a growing list of open-source technologies including Apache Cassandra, Apache Spark, Apache Kafka, Apache ZooKeeper, Redis, OpenSearch, PostgreSQL, Cadence, and many more.
 Since learning to program on a VAX 11/780, Paul has extensive R&D, teaching, and consulting experience in distributed systems, technology innovation, software architecture and engineering, performance engineering, grid and cloud computing, and data analytics and machine learning.
 Paul has also worked at Waikato University (New Zealand), University of New South Wales (UNSW, Sydney), Commonwealth Scientific and Industrial Research Organisation (CSIRO, Australia), University College London (UCL, UK), National ICT Australia (NICTA), Australian National University (ANU), and several tech start-ups (including as a Founder/CTO). Paul has an MSc (1st Class Hons, Waikato) in Machine Learning and a BSc (Computer Science and Philosophy, Waikato).
@@ -1020,6 +1105,7 @@ Groovy and Groovy Ecosystem Update
 An update on the latest changes in production Groovy versions and what’s coming in Groovy 5. Including the latest stats for the project and what’s happening in the Groovy ecosystem in projects like Grails, Micronaut and Spock.
 
 **Speaker:** Paul King
+
 Dr Paul King has been contributing to open source projects for over 30 years and is an active committer on numerous projects including Groovy, GPars, and many other projects. Paul is VP Apache Groovy, speaks at international conferences, publishes in software magazines and journals, and is a co-author of Manning’s best-seller: Groovy in Action, 2nd Edition.
 
 #### Why use Groovy in 2023?
@@ -1027,6 +1113,7 @@ Groovy was originally developed as a "replacement for Java" to solve some of the
 This talk looks at the strong points of the Groovy language; the places where it still offers great value over other languages. It is an example rich journey covering a multitude of topics.
 
 **Speaker:** Paul King
+
 Dr Paul King has been contributing to open source projects for over 30 years and is an active committer on numerous projects including Groovy, GPars, and many other projects. Paul is VP Apache Groovy, speaks at international conferences, publishes in software magazines and journals, and is a co-author of Manning’s best-seller: Groovy in Action, 2nd Edition.
 
 #### Groovy for Java Developers
@@ -1043,12 +1130,14 @@ Topics include:
 – Build Tools & Frameworks
 
 **Speaker:** Jeff Scott Brown
+
 Jeff, Unity Foundation, has been committed to open source and open solutions for his entire career. He has contributed to numerous widely adopted OSS frameworks and enjoys engaging with the community. At the Unity Foundation, he and the team are dedicated to bringing technology solutions to bear on issues related to equality and creating solutions which provide equitable access to information regardless of socioeconomic status. Jeff is passionate about advocating for Inclusion, Diversity, Equity, and Action (IDEA).
 
 #### Testing your Java with Groovy, Spock, JUnit5, Jacoco, Jqwik and Pitest
 This talk examines a common scenario seen in the Groovy community which is projects which use Java for their production code and Groovy for their tests. Tests will be written using Groovy and utilise various testing frameworks including Spock, JUnit5, Jacoco, Jqwik and Pitest.
 
 **Speaker:** Paul King
+
 Dr Paul King has been contributing to open source projects for over 30 years and is an active committer on numerous projects including Groovy, GPars, and many other projects. Paul is VP Apache Groovy, speaks at international conferences, publishes in software magazines and journals, and is a co-author of Manning’s best-seller: Groovy in Action, 2nd Edition.
 
 #### It works on my cluster. Deploying a groovy kubernetes application to Okteto
@@ -1061,6 +1150,7 @@ This is a live coding show talk so if something can fails surely it will does
 <a class="btn" href="/slides/na-2023/sat_groovy_it_works_on_my_cluster-jorge.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Jorge Aguilera
+
 Software developer in Groovy and Java for a long time in different environments, as cash machines, bioinformatics or stocks applications
 As an passionate of Open Source I like to share my knowledge giving talks, mainly in the Madrid Groovy User Group, and publishing tech post at my blog.
 
@@ -1073,6 +1163,7 @@ In this talk I’ll show to you step by step how to create and deploy an operato
 <a class="btn" href="/slides/na-2023/sat_groovy_let_groovy_operate_your_cluster-jorge.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Jorge Aguilera
+
 Software developer in Groovy and Java for a long time in different environments, as cash machines, bioinformatics or stocks applications
 As an passionate of Open Source I like to share my knowledge giving talks, mainly in the Madrid Groovy User Group, and publishing tech post at my blog.
 
@@ -1082,6 +1173,7 @@ This talk looks at using Apache Groovy with Apache Ignite’s distributed K-Mean
 <a class="btn" href="/slides/na-2023/sun_groovy_jeremymeyer-jeremy-meyer.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Paul King
+
 Dr Paul King has been contributing to open source projects for over 30 years and is an active committer on numerous projects including Groovy, GPars, and many other projects. Paul is VP Apache Groovy, speaks at international conferences, publishes in software magazines and journals, and is a co-author of Manning’s best-seller: Groovy in Action, 2nd Edition.
 
 #### Scalable Distributed Computing with Groovy Using Apache Ignite
@@ -1091,6 +1183,7 @@ Groovy’s seamless integration with the Java ecosystem makes it the perfect com
 In this talk, we will explain the concepts of the Ignite compute grid and demonstrate this combination of Groovy and Ignite using the light-hearted example of solving oddly shaped Rubik’s cubes with brute force algorithms. We will show performance comparisons with single processor solutions and the incremental gains of adding CPUs / nodes to the compute grid. 
 
 **Speaker:** Jeremy Meyer
+
 Jeremy Meyer heads up the Professional Services and Education team at GridGain Systems, the creators and sponsors of the Apache Ignite project.
 
 #### GORM Data Services
@@ -1098,6 +1191,7 @@ GORM is the powerful ORM tool that has been developed as part of the Grails fram
 This session will introduce GORM and quickly get into details which highlight what has made GORM so successful, including an exploration of GORM Data Services which allow most of your data access layer to be written as interfaces with no classes necessary as GORM is able to generate most of the database interaction bytecode at compile time. I will also introduce GORM’s flexibility with respect to communication with fundamentally different types of datastores including relational databases, graph databases, document stores and more.
 
 **Speaker:** Jeff Scott Brown
+
 Jeff, Unity Foundation, has been committed to open source and open solutions for his entire career. He has contributed to numerous widely adopted OSS frameworks and enjoys engaging with the community. At the Unity Foundation, he and the team are dedicated to bringing technology solutions to bear on issues related to equality and creating solutions which provide equitable access to information regardless of socioeconomic status. Jeff is passionate about advocating for Inclusion, Diversity, Equity, and Action (IDEA).
 
 #### Open Source Software and You
@@ -1110,32 +1204,38 @@ The rapid advancements in large language models have opened new possibilities in
 The talk also introduces datasets we used for benchmarking, and based on empirical evaluation explains how we achieved state-of-the-art results on a wide range of SQL generation tasks.
 
 **Speakers:** Sreenath Somarajapuram
+
 Sreenath is an IC, Programmer, System Designer, UX Designer and Mentor. He comes with 15 years of experience in designing and developing cutting-edge web, mobile, and desktop applications. As an esteemed member of the Apache PMC. Sreenath has contributed significantly to numerous projects within the Hadoop ecosystem, leaving a lasting impact on the industry. He holds B.Tech in Computer Science from MGU, India. His passion for technology knows no bounds, and he finds particular fascination in the realms of AI, Theoretical Physics, and Space Exploration.
 **Speaker:** Subrata Nandi
+
 Subrata Nandi is leading the strategic & technical leadership and driving innovation within the engineering teams at Cloudera. He is a veteran in building distributable databases/Mobile platforms at Sybase and has delivered many enterprise applications at SAP. Subrata holds two MBAs from CSUEB, PMI & Data Warehouse from UC Berkeley & BS in Physics Honors from the University of Calcutta, India. He is currently working as a director of engineering at Cloudera.
 
 #### Developer Productivity Engineering for Open Source Communities [[]Gradle Sponsored Session]
 The emerging practice of Developer Productivity Engineering focuses on identifying and removing productivity pitfalls in the developer toolchain. This can encourage contribution and increase user confidence in your open source project. We will explore and demonstrate using Apache projects how we can make the developer toolchain faster and more stable with Develocity and how that leads to faster contributions, higher-quality contributions, and more contributions. 
 
 **Speaker:** Etienne Studer
+
 Etienne Studer is the SVP of Engineering, Gradle Enterprise, at Gradle Inc. He leads the engineering team behind Gradle Enterprise. As the founding team lead of Gradle Enterprise since 2015, he has successfully scaled and guided a fully distributed team of engineers across the globe that develops and delivers innovative technologies to improve developer productivity dramatically and transform the developer experience. Etienne holds a Master’s in Molecular Biology from the University of Basel, Switzerland.
 
 #### Setting up Apache Cassandra and Apache Kafka clusters [[]Instaclustr Sponsored Session]
 In this session come learn a little about Instaclustr as Kassian spins up a Cassandra and Kafka cluster using the dashboard and writes a basic application to use them. We’ll discuss the open source technologies behind Instaclustr and how you can get started.
 
 **Speaker:** Kassian Wren
+
 Kassian (they/their/them) is an Open Source Technology Evangelist at NetApp on the Instaclustr team. They read, learn, and write about technology regularly, and love to build IoT projects. When they’re not working on tech, they’re reading, gaming, crafting, or snuggling one of their three cats.
 
 #### If You Think Branding Is A Waste of Time, Come to This Talk
 Do you think logos and colors and branding are “just the make-it-pretty” part of an organization? What’s the big deal, anyway? Come to this session to get an introduction to the art and science of brand management, reminisce about some of history’s greatest branding fails, and get some insight into why this all matters. This is not a talk specifically about the ASF brand, but if you’re interested in the upcoming changes, you may learn a little bit more about the how and why that go into the process.
 
 **Speaker:** Ruth Suehle
+
 Ruth Suehle is Executive Vice President of the ASF, and a co-organizer of Community Over Code NA.
 
 #### M&P Office Hours
 As a follow up to today’s earlier talk about Marketing and Publicity, Brian Proffitt will be holding Office Hours for all things marketing, publicity, and ASF branding.
 
 **Speaker:** Brian Proffitt
+
 Brian Proffitt is VP – Marketing & Publicity for the ASF, and a co-organizer of Community Over Code NA.
 
 #### Internet of Things Track
@@ -1150,6 +1250,7 @@ The talk explains the journey from a test cluster with RPI to a small IoT infrac
 <a class="btn" href="/slides/na-2023/tue_iot_having-fun-with-a-solar-panel-camera-and-raspberry.-how-with-a-few-dollars-you-end-making-iot-jean-frederic-clere.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Jean-Frederic Clere
+
 Jean-Frederic has spent more than 30 years writing client/server software.
 His knowledges range from Cobol to Java, BS2000 to Linux and /390 to i386 but with preference to the later.
 He is committer in Httpd and Tomcat and he likes complex projects where different languages and machines are involved.
@@ -1162,6 +1263,7 @@ The cluster will be on hand to demonstrate; it is a five-node cluster with two R
 Come learn about creating, using, and maintaining a fully open-source cluster!
 
 **Speaker:** Kassian Wren
+
 Kassian (they/their/them) is an Open Source Technology Evangelist at NetApp on the Instaclustr team. They read, learn, and write about technology regularly, and love to build IoT projects. When they’re not working on tech, they’re reading, gaming, crafting, or snuggling one of their three cats.
 
 #### Faster, easier, more stable and scalable V1.x Apache IoTDB: A Time Series Database for IoT Applications
@@ -1171,6 +1273,7 @@ In the past year, IoTDB QueryEngine has also supported more time-series-related 
 Finally, I will also share with you some IoTDB application cases and solutions in various industries, including the Internet of Vehicles scenario with millions of vehicles and billions of time series, the application of end-edge-cloud collaboration technology in an industrial enterprise with the highest steel output in the world and so on.
 
 **Speaker:** Yuan Tian
+
 PMC Member of Apache IoTDB
 Graduated from School of Software, Tsinghua University.
 Now working in Timecho Ltd., engaged in query engine-related research.
@@ -1183,6 +1286,7 @@ Based on Apache PLC4X for collecting the data and Apache IoTDB for storing and p
 In this talk I want to talk about what we have already achieved, what still has to be worked on and what our plans are from there on.
 
 **Speaker:** Christofer Dutz
+
 Big open-source enthusiast, Apache Member and currently serving as VP of Apache PLC4X as well as a member of the Board of Directors of the ASF.
 
 #### Incubator Track
@@ -1193,6 +1297,7 @@ Big open-source enthusiast, Apache Member and currently serving as VP of Apache 
 This talk provides an overview of the Apache Software Foundation (ASF) and its incubation process. It guides projects on learning the Apache Way, ensuring compliance with licensing and intellectual property rights, and fostering community growth. The process involves creating a proposal, entering the incubator, focusing on community building and making releases, and eventually graduating as a top-level ASF project. Key aspects covered in this talk include, complying with licensing, engaging in open and transparent practices, and adopting a vendor-neutral approach. This presentation offers valuable insights for those interested in joining the ASF or seeking an understanding of the incubation process.
 
 **Speaker:** Justin Mclean
+
 Justin Mclean is a highly experienced professional with over 30 years in web application development, education, and community work, and is an active contributor to open source software. Justin is a renowned speaker at conferences worldwide and currently serves as the Community Manager at Datastrato. He mentors projects in the Apache Software Foundation and holds positions as VP of the ASF Incubator, and is an ASF board member.
 
 #### Podling Releases: Achieving Success in the Apache Incubator
@@ -1202,6 +1307,7 @@ Witness a review process demonstration using simple tools, accompanied by real-w
 Join this session to unlock the secrets of achieving an IPMC-approved podling release, shaping the future of your project within the Apache Incubator and towards graduation.
 
 **Speaker:** Justin Mclean
+
 Justin Mclean is a highly experienced professional with over 30 years in web application development, education, and community work, and is an active contributor to open source software. Justin is a renowned speaker at conferences worldwide and currently serves as the Community Manager at Datastrato. He mentors projects in the Apache Software Foundation and holds positions as VP of the ASF Incubator, and is an ASF board member.
 
 #### Migrating a Large Open Source project to the Apache Software Foundation
@@ -1209,6 +1315,7 @@ Discover the challenges, strategies, and benefits we have faced migrating a larg
 In this talk, you’ll discover how to maintain project momentum and leverage the opportunities provided by the Apache Software Foundation. We’ll also discuss the Apache Incubator and what it takes to become a Top Level Project within Apache. Whether you are a developer, project manager, or open-source enthusiast, this conference will equip you with valuable insights to navigate the migration journey.
 
 **Speaker:** Jason Porter
+
 Jason is a software engineer currently working within the Business Automation Management Team at IBM. He has also worked on Arquillian, Quarkus, and other developer experience projects while with Red Hat before IBM. His specialties include Wildfly, Quarkus, CDI, JSF, Java EE, solr, and Gradle. He has worked with PHP, Ruby, Groovy, SASS, and the rest of the web language arena (HTML, CSS, JS, etc). His current position as Principal Software Engineer at IBM keeps him busy with community work for the Business Automation Manager Open Editions product; however, he has also contributed to JBoss Forge, Arquillian, Apache DeltaSpike, Awestruct, Asciidoctor, and others as time allows. He’s very interested in the developer experience and helping to improve it in all aspects.
 He has co-authored two books: Testing Java Microservices, published by Manning, and, most recently, Quarkus Cookbook, published by O’Reilly. He has spoken at many conferences over the years, including JavaOne, Devoxx Belgium, Devoxx Ukraine, Devoxx Morocco, and JavaLand in Germany. For the past several years, he has also been President of the Utah Java Users Group. He is a native of Utah and a father of five children. Spare time is precious, as you can imagine!
 Twitter: lightguardjp
@@ -1223,12 +1330,14 @@ Listeners will gain insight into how a project that was open source for ~13 year
 This talk goes through the history of Akka, one of the largest and oldest formerly open source projects in Java + Scala and how the "incident" catalysed. Then we turn into the genesis of Pekko, where it is now, how we got there and the Apache Incubator’s hand that played a role in this memorable journey.
 
 **Speaker:** Matthew de Detrich
+
 Matthew is a Senior Software Engineer in the Open Source Program Office at Aiven, where he contributes to upstream Kafka as well as a member of Apache Foundation and PMC of the Apache Pekko Incubator project. Before joining Aiven, Matthew worked at Zalando on returns, arguably the most business-critical part of the system (ask him about his experience there over a beer). Based in Berlin for over 5 years, he was born in Australia. Knows too much about Scala. Knows how to dance (Salsa). And loves vegetables because they don’t taste bitter to him (scientific term: beta carotene), which is great news because he’s vegan
 
 #### Apache Toree: A Jupyter Kernel for Scala / Apache Spark
 Many data scientists are already heavily using the Jupyter ecosystem for analyzing data using interactive notebooks. Apache Toree (incubating) is a Jupyter kernel designed to enable data scientists and engineers to easily connect and leverage Apache Spark and its powerful APIs from a standard Jupyter notebook to execute their analytics workloads. In this talk, we will go over what’s new with the most recent Apache Toree release. We will cover available magics and visualization extensions that can be integrated with Toree to enable better data exploration and data visualization. We will also describe some high-level designs of Toree and how users can extend the functionality of Apache Toree powerful plugin system. And all of these with multiple live demos demonstrating how Toree can help with your analytics workloads in an Apache Spark environment including the new support for Apache 3.3 and Scala 2.13.
 
 **Speaker:** Luciano Resende
+
 Luciano Resende is an AI Platform Architect at Apple AI/ML organization. He’s a highly performant technical leader that embraces challenges and complex problems to drive breakthrough innovations. Luciano’s expertise is in open source, and enterprise-grade AI platform technologies with over 20 years of experience successfully designing, building and delivering complex software in fortune 500 companies and open source. He has a strong background in open source big data platforms such as Apache Spark, and data science building blocks such as the Jupyter Notebook Stack, Elyra and Apache Toree Scala kernel.
 
 #### Performance Engineering Track
@@ -1242,6 +1351,7 @@ But maybe it has become too easy to embark on building complex distributed appli
 <a class="btn" href="/slides/na-2023/sun_performanceengineering_brebner-paul-brebner.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Paul Brebner
+
 Paul is an Open Source Technology Evangelist at Instaclustr (now part of Spot by NetApp). For the past six years, he has been learning new scalable Big Data technologies, building realistic demonstration applications, and blogging and talking about a growing list of open-source technologies including Apache Cassandra, Apache Spark, Apache Kafka, Apache ZooKeeper, Redis, OpenSearch, PostgreSQL, Cadence, and many more.
 Since learning to program on a VAX 11/780, Paul has extensive R&D, teaching, and consulting experience in distributed systems, technology innovation, software architecture and engineering, performance engineering, grid and cloud computing, and data analytics and machine learning.
 Paul has also worked at Waikato University (New Zealand), University of New South Wales (UNSW, Sydney), Commonwealth Scientific and Industrial Research Organisation (CSIRO, Australia), University College London (UCL, UK), National ICT Australia (NICTA), Australian National University (ANU), and several tech start-ups (including as a Founder/CTO). Paul has an MSc (1st Class Hons, Waikato) in Machine Learning and a BSc (Computer Science and Philosophy, Waikato).
@@ -1252,6 +1362,7 @@ In this talk, we will discuss the challenges of scaling and how they can be miti
 Ozone is a Hadoop Filesystem and S3 API compatible Object Store designed to scale beyond the current limitations of other storage solutions. Ozone preserves low latency for metadata while allowing scaling capacity and object count without impacting performance for workloads.
 
 **Speakers:** Ritesh H Shukla
+
 Ritesh is an Apache Ozone committer and PMC member. He has over a decade of experience with distributed storage solutions and systems. He is passionate about picking all three in a solution: simple, right, and efficient.
 
 Duong Nguyen
@@ -1271,8 +1382,10 @@ After attending this talk the audience will better understand how to measure per
 <a class="btn" href="/slides/na-2023/sun_performance_cassandra50-german-eichberger.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** German Eichberger
+
 German Eichberger, MSc, is a Principal Software Engineer with Microsoft on the Azure Managed Instances for Apache Cassandra team. He has written articles on Cassandra and contributed bug fixes to the project. Previously, he was an architect on Rackspace’s Kubernetes team and led Hewlett-Packard’s Cloud Advanced Networking Team and was a core reviewer and contributor to many OpenStack projects. German has given talk at major conferences and teaches computer topics at University of California San Diego Extension.
 **Speaker:** Pallavi Iyengar
+
 Pallavi Iyengar, is a Software Engineer with Microsoft on the Azure Managed Instances for Apache Cassandra team and has contributed to cassandra-ldap and other OpenSource projects.
 
 #### Hunting Performance Monsters on the Back of a Camel
@@ -1282,6 +1395,7 @@ I’ll talk about the motivation for improving the performance of Apache Camel, 
 <a class="btn" href="/slides/na-2023/sun_performance_engineering-otavio-piske.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Otavio Rodolfo Piske
+
 Otavio is a Principal Software Engineer at RedHat’s Hybrid Integration Team where he works developing solutions for micro-services, cloud and integration. He has been involved with messaging and integration technologies for the last 17 years. He is a committer and a member of the Apache Camel PMC.
 
 #### Quick load testing from Selenium scripts
@@ -1299,6 +1413,7 @@ The search engine on Amazon’s retail website runs on Lucene. It makes billions
 <a class="btn" href="/slides/na-2023/sun_performance_vodita-stefan-vodita.pptx"><strong>Got to Slides</strong></a>
 
 **Speaker:** Stefan Vodita
+
 I’m a software engineer doing Product Search at Amazon, where I’ve had the opportunity to tackle a broad range of search problems, from indexing scalability, to faceted navigation, to benchmarking. Before that, I used to teach C programming and Control Theory as an assistant at the Polytechnic University of Bucharest. Outside of work, I indulge in the humanities: philosophy, history, music. Reconciling these with my technical interests has led to some of my best work – the successful application of a vision transformer for optical music recognition.
 
 ### Search Track
@@ -1312,6 +1427,7 @@ Join us as we explore the realm of neural search and its game-changing impact. W
 <a class="btn" href="/slides/na-2023/llms-in-search-asf-coc-atita-arora.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Atita Arora
+
 Atita has been working to develop, customize, and optimize Enterprise & E-commerce search engines for many years. She is an active contributor to many open-source tools. She holds 2 Masters degrees in Computer Applications and Strategic Business Management. She has worked and supported in many different roles in various organizations and even founded a small Search consultancy in India in 2017.
 She has a keen interest in personalizing search and influencing customer interaction using NLP, ML, and AI.
 
@@ -1321,6 +1437,7 @@ This talk discusses the implementation of vector search in Cassandra. Basics of 
 <a class="btn" href="/slides/na-2023/sat_search_ellis-jonathan-ellis.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Jonathan Ellis
+
 Jonathan is the founder of DataStax and a former project chair of Apache Cassandra.
 
 #### Search at Uber over Apache Lucene
@@ -1329,6 +1446,7 @@ In this talk, we’ll give an overview of the Search platform at Uber, and share
 <a class="btn" href="/slides/na-2023/sat_search_search-at-uber-over-apache-lucene-yupeng-fu.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Yupeng Fu
+
 Yupeng Fu is a Principal Engineer at Uber and he leads the Search platform at Uber and Real-time Data platform. Yupeng Fu is also an Apache Pinot committer and PMC.
 
 #### Completing the Puzzle: Lucene’s Missing Aggregation Engine
@@ -1337,15 +1455,18 @@ The navigation panel on the left of the Amazon retail search page presents users
 <a class="btn" href="/slides/na-2023/sat_search_shankarvodita-stefan-vodita.pptx"><strong>Got to Slides</strong></a>
 
 **Speakers:** Shradha Shankar
+
 I’m a software engineer who thrives on exploring topics deeply and creating extensible solutions that are built from first principles. Currently, I work at Product Search at Amazon where I get to work on a variety of problems in information retrieval and large scale systems. Prior to that, at Cisco, I developed PaaS database solutions for their internal cloud platform. My other professional interests revolve around the fascinating realm of graphs, graph databases, and recommendation engines. When I’m not working, you may find me engaged in friendly competition over board games, experimenting with my culinary skills in the kitchen, or challenging myself at the gym.
 
 **Speaker:** Stefan Vodita
+
 I’m a software engineer doing Product Search at Amazon, where I’ve had the opportunity to tackle a broad range of search problems, from indexing scalability, to faceted navigation, to benchmarking. Before that, I used to teach C programming and Control Theory as an assistant at the Polytechnic University of Bucharest. Outside of work, I indulge in the humanities: philosophy, history, music. Reconciling these with my technical interests has led to some of my best work – the successful application of a vision transformer for optical music recognition.
 
 #### Introducing Multi-valued Vector Fields in Apache Lucene
 Since the introduction of native vector-based search in Apache Lucene happened, many features have been developed, but the support for multiple vectors in a dedicated KNN vector field remained to explore. Having the possibility of indexing (and searching) multiple values per field unlocks the possibility of working with long textual documents, splitting them into paragraphs, and encoding each paragraph as a separate vector: a scenario that is often encountered by many businesses. This talk explores the challenges, the technical design and the implementation activities that happened during the work for this contribution to the Apache Lucene project. The audience is expected to get an understanding of how multi-valued fields can work in a vector-based search use case and how this feature has been implemented.
 
 **Speaker:** Alessandro Benedetti
+
 Alessandro Benedetti is an Apache Lucene/Solr committer and PMC member. Director and R&D Software Engineer at Sease Ltd.
 His focus is on R&D in Information Retrieval, Information Extraction, Natural Language Processing, and Machine Learning. He firmly believes in Open Source as a way to build a bridge between Academia and Industry and facilitate the progress of applied research. Experience with a great variety of clients has taught him to be a proficient and professional consultant.
 When he isn’t on clients’ projects, he is actively contributing to the open-source community and presenting the applications of leading-edge techniques in real-world scenarios at meet-ups and conferences such as ECIR, the Lucene/Solr Revolution, ApacheCon, Haystack, FOSDEM, Berlin Buzzword, and Open Source Summit
@@ -1359,6 +1480,7 @@ This talk will first briefly introduce how Lucene executes RegexpQuery using a p
 <a class="btn" href="/slides/na-2023/sat_search_patrickzhai-patrick-zhai.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Haoyu Zhai
+
 Lucene committer
 LinkedIn Senior Engineer
 
@@ -1373,6 +1495,7 @@ distributing your artifacts and everything in between, learn how ASF
 Infra has you covered.
 
 **Speaker:** Drew Foulks
+
 Drew Foulks is a member of the ASF Infrastructure team. In addition to many other topics, he set up and maintains the Gradle Enterprise server hosted by the ASF.
 
 #### How-To Infra
@@ -1381,6 +1504,7 @@ If you want to use foundation resources, you will likely need to interface with 
 <a class="btn" href="/slides/na-2023/mon_infra_wells-chris-wells.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Chris Wells
+
 Chris Thistlethwaite
 
 #### Towards an Attribute-Based Role-Based Access Control System
@@ -1390,6 +1514,7 @@ The talk will center around a typical RBAC use case to implement fine-grained ac
 <a class="btn" href="/slides/na-2023/mon_filled_open_slot_mckinney-shawn-mckinney.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Shawn McKinney
+
 Software architect, PMC Apache Directory Project
 
 #### Developer Productivity gains at ASF with Develocity (formerly Gradle Enterprise)
@@ -1398,6 +1523,7 @@ The ASF Infrastructure team will demonstrate their setup for ge.apache.org, wher
 The Develocity team will share how several projects, like Beam, Kafka, Pulsar, Solr, JMeter, etc., are already benefitting and how other Apache projects could immediately benefit from deep build insights, flaky test analysis, predictive test selection, and build caching, too.
 
 **Speaker:** Etienne Studer
+
 Etienne Studer is the SVP of Engineering, Develocity, at Gradle Inc. He leads the engineering team behind Develocity (formerly Gradle Enterprise). As the founding team lead of Develocity since 2015, he has successfully scaled and guided a fully distributed team of engineers across the globe that develops and delivers innovative technologies to improve developer productivity dramatically and transform the developer experience. Etienne holds a Master’s in Molecular Biology from the University of Basel, Switzerland.
 
 #### Artifact Distribution Platform
@@ -1445,6 +1571,7 @@ Drew Foulks is a member of the ASF Infrastructure team. In addition to many othe
 At the heart of modern data processing lies events. Events describe the roughest, most complete picture available of what has happened in the world, and practically every form of data processing ultimately begins with events.
 
 **Speaker:** Ryan Michael
+
 Kaskada community and strategy leader.
 Ryan leads strategy and community development for Kaskada, an open-source project focused on a novel event processing engine that utilizes stream-native query abstractions to simplify time-based reasoning.
 As Kaskada’s VP of Engineering and technology co-creator, Ryan was instrumental in the company’s evolution from a SaaS startup to an open-source project, following its acquisition by DataStax earlier this year.
@@ -1457,6 +1584,7 @@ We will demonstrate how to use Apache Pulsar’s multi-protocol capability to bu
 Attending this talk will give attendees a deeper understanding of Apache Pulsar’s multi-protocol capability and how it can be used to build modern, distributed applications that communicate with different messaging systems and applications using different protocols and languages. They will also learn about the key benefits and challenges of using Apache Pulsar for multi-protocol messaging and how to design and deploy polyglot messaging applications with Apache Pulsar. 
 
 **Speaker:** David Kjerrumgaard
+
 David is a committer on the Apache Pulsar project, and also the author of "Pulsar in Action" and co-author of "Practical Hive". He currently serves as a Developer Advocate for StreamNative where he focuses on strengthening the Apache Pulsar community through education and evangelization. Prior to that, he was a principal software engineer on the messaging team at Splunk, and Director of Solutions for two Big Data startups; Streamlio and Hortonworks.
 
 #### Building Scalable and Resilient Event-Driven Applications with Apache Pulsar
@@ -1468,6 +1596,7 @@ Finally, we will demonstrate how to use Apache Pulsar to build a sample event-dr
 <a class="btn" href="/slides/na-2023/sat-streaming-buildingscalableandresilientedawithapachepulsar-david-kjerrumgaard.pptx"><strong>Got to Slides</strong></a>
 
 **Speaker:** David Kjerrumgaard
+
 David is a committer on the Apache Pulsar project, and also the author of "Pulsar in Action" and co-author of "Practical Hive". He currently serves as a Developer Advocate for StreamNative where he focuses on strengthening the Apache Pulsar community through education and evangelization. Prior to that, he was a principal software engineer on the messaging team at Splunk, and Director of Solutions for two Big Data startups; Streamlio and Hortonworks.
 
 #### Streaming Incremental View Maintenance with Apache Calcite
@@ -1477,6 +1606,7 @@ This presentation will give a brief description of the DBSP framework, and it wi
 <a class="btn" href="/slides/na-2023/sat_streaming-mihai.pptx"><strong>Got to Slides</strong></a>
 
 **Speaker:** Mihai Budiu
+
 Mihai Budiu is chief scientist at Feldera, an early-stage start-up. He has a Ph.D. in CS from
 Carnegie Mellon University. He was previously employed at VMware
 Research, Barefoot Networks, and Microsoft Research. Mihai’s has
@@ -1491,6 +1621,7 @@ In this session, you’ll see how the Flink and Kafka communities are uniting to
 By the end of the talk, you’ll know the unique challenges of EOS with Flink and Kafka and the improvements you can expect across both projects.
 
 **Speaker:** Tzu-Li (Gordon) Tai
+
 Tzu-Li (Gordon) Tai is a Staff Software Engineer at Confluent, and a long-time Apache Flink Committer and PMC member. At Confluent, he is currently focusing on making Flink and Kafka work really well together. His past contributions in Flink spans various areas, including the Stateful Functions subproject (https://statefun.io), some of the more popular connectors for Flink (Apache Kafka, AWS Kinesis, etc.), as well as several topics surrounding evolvability of stateful Flink streaming applications. at Amazon, where I’ve had the opportunity to tackle a broad range of search problems, from indexing scalability, to faceted navigation, to benchmarking. Before that, I used to teach C programming and Control Theory as an assistant at the Polytechnic University of Bucharest. Outside of work, I indulge in the humanities: philosophy, history, music. Reconciling these with my technical interests has led to some of my best work – the successful application of a vision transformer for optical music recognition.
 
 #### Through the Looking Glass: Key Architectural Choices in Flink and Kafka Streams
@@ -1505,6 +1636,7 @@ Some key points:
 Attendees will walk away with a deeper understanding of stream processing fundamentals and potentially a few ideas to try out in their own projects!
 
 **Speaker:** John Roesler
+
 John Roesler is a principal software engineer at Confluent and an Apache Kafka PMC member. His current focus spans Apache Flink and Kafka Streams. Previously, he was at Bazaarvoice, building their massive-scale, high-throughput stream processing platform.
 
 #### Utilizing Real-Time Transit Data for Travel Optimization
@@ -1523,6 +1655,7 @@ Apache Tika, Apache Flink, Apache Avro, Apache Parquet, Apache Iceberg
 <a class="btn" href="/slides/na-2023/coc23_-utilizing-real-time-transit-data-for-travel-optimization-timothy-spann.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Timothy J. Spann
+
 Tim Spann is a Principal Developer Advocate in Data In Motion for Cloudera. He works with Apache NiFi, Apache Kafka, Apache Pulsar, Apache Flink, Flink SQL, Apache Pinot, Trino, Apache Iceberg, DeltaLake, Apache Spark, Big Data, IoT, Cloud, AI/DL, machine learning, and deep learning. Tim has over ten years of experience with the IoT, big data, distributed computing, messaging, streaming technologies, and Java programming. Previously, he was a Developer Advocate at StreamNative, Principal DataFlow Field Engineer at Cloudera, a Senior Solutions Engineer at Hortonworks, a Senior Solutions Architect at AirisData, a Senior Field Engineer at Pivotal and a Team Leader at HPE. He blogs for DZone, where he is the Big Data Zone leader, and runs a popular meetup in Princeton & NYC on Big Data, Cloud, IoT, deep learning, streaming, NiFi, the blockchain, and Spark.
 
 #### Harnessing Real-Time: Powering High Concurrency Streaming Analytics with Apache Druid
@@ -1531,6 +1664,7 @@ This presentation introduces Apache Druid, a modern, open-source data store desi
 Our exploration will cover the architecture of Apache Druid, its underlying principles and the unique features that make it optimal for high concurrency use-cases. We’ll dive into real-life applications, demonstrate how Druid addresses the challenge of immediate data visibility, and discuss its role in powering interactive, exploratory analytics on streaming data.
 
 **Speaker:** Tijo Thomas
+
 Lead Solutions Architect at Imply, an experienced Data Engineer with 20+ years of experience as a Software Engineer (R&D) and as a Solution Architect mostly in big data and streaming technologies. He has been part of developing big data platforms and helping customers in solving their Data challenges using Hadoop, Spark, and Apache Druid.
 He was instrumental in building tools for ease of the adoption of Apache Druid by the open-source community.
 During this time he has collected best practices, patterns, and anti-patterns applied in production environments.
@@ -1544,6 +1678,7 @@ To reinforce the concepts discussed, we will provide a live demonstration showca
 <a class="btn" href="/slides/na-2023/sun_streaming_bornet-christophe-bornet.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Christophe Bornet
+
 Christophe is a Senior Software Engineer at DataStax working on building real-time AI with streaming systems (Apache Kafka, Apache Pulsar). Through his love for open source, he is also an an Apache Pulsar committer and a core team member of JHipster and OpenAPI-generator projects. ASF Infrastructure team. In addition to many other topics, he set up and maintains the Gradle Enterprise server hosted by the ASF.
 
 #### A glide, skip or a jump: Efficiently stream data into your medallion architecture with Apache Hudi
@@ -1554,6 +1689,7 @@ Attendees will learn:
 -How the CDC feature unlocks incremental processing on the lake
 
 **Speaker:** Ethan Guo
+
 Ethan Guo is a Database Engineer at Onehouse, working on building and optimizing the next generation of Lakehouse. He’s an Apache Hudi committer and PMC member, passionate about streaming processing and Lakehouse architecture. Previously, he was a Senior Software Engineer at Uber, building mobile observability and data pipelines for monitoring Uber’s mobile network performance in production on a global scale.
 
 #### Looking at the New Features of Apache NiFi
@@ -1564,6 +1700,7 @@ I will and change a number of data flows utilizing the latest NiFi version and p
 <a class="btn" href="/slides/na-2023/coc23_-looking-at-the-new-features-of-apache-nifi-timothy-spann.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Timothy J. Spann
+
 Tim Spann is a Principal Developer Advocate in Data In Motion for Cloudera. He works with Apache NiFi, Apache Kafka, Apache Pulsar, Apache Flink, Flink SQL, Apache Pinot, Trino, Apache Iceberg, DeltaLake, Apache Spark, Big Data, IoT, Cloud, AI/DL, machine learning, and deep learning. Tim has over ten years of experience with the IoT, big data, distributed computing, messaging, streaming technologies, and Java programming. Previously, he was a Developer Advocate at StreamNative, Principal DataFlow Field Engineer at Cloudera, a Senior Solutions Engineer at Hortonworks, a Senior Solutions Architect at AirisData, a Senior Field Engineer at Pivotal and a Team Leader at HPE. He blogs for DZone, where he is the Big Data Zone leader, and runs a popular meetup in Princeton & NYC on Big Data, Cloud, IoT, deep learning, streaming, NiFi, the blockchain, and Spark.
 
 #### Kafka Monitoring: What Matters!
@@ -1574,6 +1711,7 @@ By the end of this presentation, attendees will have a better understanding of t
 <a class="btn" href="/slides/na-2023/kafka-monitoring_what-matters_10072023_streaming-amrit-sarkar.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Amrit Sarkar
+
 8+ years experiences engineer at Apple focussed on Search and Streaming.
 
 ### Sustainability Track
@@ -1587,6 +1725,7 @@ Come find out what companies are behind the popular open source foundations and 
 Surprises are guaranteed in this age of layoffs; I know I was surprised when I realized how many different FOSS projects that Microsoft is an annual sponsor for, what projects a few other companies supported with their cash, and how big one foundation has gotten.
 
 **Speaker:** Shane Curcuru
+
 Shane has been volunteering at the ASF since 1999, serving on multiple projects and roles including as VP, Brand Management, and as a many-term Director, as well as speaking at (and running one!) ApacheCon.
 Otherwise, Shane is a father, husband and friend. Oh, and we have cats! Find me on socials at ShaneCurcuru.
 
@@ -1596,6 +1735,7 @@ In this talk, I will share strategies for the succession planning process and po
 Through the development and retention of competent leaders within the open source ecosystem, we can enhance continuity of both the community and the project.
 
 **Speaker:** Abigail Mesrenyame Dogbe
+
 Abigail Mesrenyame Dogbe is an Open Source Programs Manager, Researcher and Community Builder who believes in the power of Open Source Community Building.
 She dedicates time and effort to promoting collaboration, sustainability, and inclusivity within the Open Source Community through contributions such as research, and organizing local and international community events among others. Her current research is focused on Improving Diversity and Inclusion in Open Source Community Leadership.
 When she is not contributing to open source, she is inspiring the next generation of Women in STEM at Mesrenyame & FRIENDS – Girls in STEM.
@@ -1608,6 +1748,7 @@ Key resource links included, to get you started with actionable and practical in
 Remember: your project’s brand is your most important asset – and the only one you can truly control!
 
 **Speaker:** Shane Curcuru
+
 Shane has been volunteering at the ASF since 1999, serving on multiple projects and roles including as VP, Brand Management, and as a many-term Director, as well as speaking at (and running one!) ApacheCon.
 Otherwise, Shane is a father, husband and friend. Oh, and we have cats! Find me on socials at ShaneCurcuru.
 
@@ -1616,6 +1757,7 @@ One of the major difficulties with open source sustainability is the fact that m
 In this talk, we’ll explore ethical (and ASF-approved) ways that ASF projects can better understand their adoption, usage and community trends, and how this can lead to more sustainable OSS maintenance. This includes tools like Matomo, Scarf, Kibble, and others.
 
 **Speaker:** Matt Yonkovit
+
 Matt Yonkovit is the Head of Open Source Strategy and Growth ( The HOSS!) at Scarf. He is a passionate open source professional with over 20 years of experience, where he has made a significant impact at companies like Percona, MySQL, StreamNative, Mattermost, and now Scarf. As a long-time veteran in the industry, Matt’s passion lies in building sustainable open source businesses and bridging the gap between community and business objectives.
 With a unique ability to engage both engineers and business professionals, Matt aims to make business topics approachable and appealing to those in the open source space. He wants to make engineers and open source professionals not cringe when thinking or talking about business topics. His focus on linking both technical innovation and business growth has played a crucial role in the success of the organizations he has been part of.
 Matt has held roles across the technical and leadership spectrum at open source companies including vp of services, chief experience officer, chief customer officer, and now the HOSS. He is the cohost of the Hacking Open Source Business Podcast.
@@ -1625,6 +1767,7 @@ GitHub recently posted a blog highlighting how since 2019 they have helped facil
 There are many different ways people fund their open source projects. Some are well known, some are obscure, and some elicit cringe-worthy responses. I will go through all the different ways open source projects and how companies fund themselves and make money. We will compare the pros and cons of each of the models. We will also explore the different trends and concerns plaguing the funding landscape. Join us as we discuss.
 
 **Speaker:** Matt Yonkovit
+
 Matt Yonkovit is the Head of Open Source Strategy and Growth ( The HOSS!) at Scarf. He is a passionate open source professional with over 20 years of experience, where he has made a significant impact at companies like Percona, MySQL, StreamNative, Mattermost, and now Scarf. As a long-time veteran in the industry, Matt’s passion lies in building sustainable open source businesses and bridging the gap between community and business objectives.
 With a unique ability to engage both engineers and business professionals, Matt aims to make business topics approachable and appealing to those in the open source space. He wants to make engineers and open source professionals not cringe when thinking or talking about business topics. His focus on linking both technical innovation and business growth has played a crucial role in the success of the organizations he has been part of.
 Matt has held roles across the technical and leadership spectrum at open source companies including vp of services, chief experience officer, chief customer officer, and now the HOSS. He is the cohost of the Hacking Open Source Business Podcast.
@@ -1637,6 +1780,7 @@ This talk should empathize that it’s important to invest in your open source d
 <a class="btn" href="/slides/na-2023/sun_sustainability_niklasmerz-niklas-merz.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Niklas Merz
+
 Apache Cordova PMC member, full-stack developer & open source enthusiast.
 
 ### Tomcat and httpd Track
@@ -1653,6 +1797,7 @@ start with your own performance testing so you can quantify those benefits.
 <a class="btn" href="/slides/na-2023/sun_tomcat_and_httpd_mark_thomas_second-mark-thomas.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Mark Thomas
+
 I have been an Tomcat committer since 2003. I initially worked on Tomcat in my free time but since 2008 I have been employed by SpringSource (now part of VMware) to work on Tomcat. I spend most of my time working on Tomcat but I also work on tc Server, VMware’s Servlet & JSP container based on Tomcat.
 I am the release manager for Tomcat 11.0 where I try to release a new version every month. I am currently focused on Tomcat 11 development which will support Jakarta EE 11. I am a committer for Eclipse Servlet, Server Pages, Expression Language and WebSocket.
 Elsewhere at the ASF, I am a member of the ASF security and infrastructure teams and I am also on the Commons PMC.
@@ -1664,6 +1809,7 @@ Development of Tomcat 11 is underway and is targetting Jakarta EE 11, which is d
 <a class="btn" href="/slides/na-2023/sun_tomcat_and_httpd_mark_thomas_first-mark-thomas.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Mark Thomas
+
 I have been an Tomcat committer since 2003. I initially worked on Tomcat in my free time but since 2008 I have been employed by SpringSource (now part of VMware) to work on Tomcat. I spend most of my time working on Tomcat but I also work on tc Server, VMware’s Servlet & JSP container based on Tomcat.
 I am the release manager for Tomcat 11.0 where I try to release a new version every month. I am currently focused on Tomcat 11 development which will support Jakarta EE 11. I am a committer for Eclipse Servlet, Server Pages, Expression Language and WebSocket.
 Elsewhere at the ASF, I am a member of the ASF security and infrastructure teams and I am also on the Commons PMC.
@@ -1678,6 +1824,7 @@ In this talk, I will use Apache Tomcat and Apache TomEE as examples of how the e
 <a class="btn" href="/slides/na-2023/sun_tomcat_grimstad-ivar-grimstad.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Ivar Grimstad
+
 Ivar Grimstad is the Jakarta EE Developer Advocate at Eclipse Foundation. He is a Java Champion and JUG Leader based in Sweden.
 Besides advocating the Jakarta EE technologies, Ivar is contributing to the Jakarta EE specifications as well as being the PMC Lead for Eclipse Enterprise for Java (EE4J). He is also one of the specification leads for Jakarta MVC and represents Eclipse Foundation on the JCP Executive Committee.
 Ivar is also involved in a wide range of other open-source projects and communities. He is a frequent speaker at International developer conferences.
@@ -1690,6 +1837,7 @@ Then the state of HTTP/3 in our 3 servers and how to implement HTTP/3 in them wi
 A demo configuration of each server supporting HTTP/3 will be run. 
 
 **Speaker:** Jean-Frederic Clere
+
 Jean-Frederic has spent more than 30 years writing client/server software.
 His knowledges range from Cobol to Java, BS2000 to Linux and /390 to i386 but with preference to the later ;).
 He is committer in Httpd and Tomcat and he likes complex projects where different languages and machines are involved.
@@ -1712,6 +1860,7 @@ In this presentation, we will be presenting Tomcat web server deployments using 
 – Conclusion
 Throught the presentation, We will focus on providing clear and easy to understand explanations rather than including complex and advanced details.
 **Speaker:** Utsav Akruvala
+
 Utsav Akruvala is a software developer and an open
 source evangelist with expertise in DevOps, AWS,
 Tomcat, Terraform, Jenkins etc.
@@ -1727,6 +1876,7 @@ open source contributor who supports other people who
 are new to the community.
 
 **Speaker:** Nikhatshahin Ansari
+
 Nikhatshahin Ansari is a software engineer and a open
 source contributor.
 A full stack developer who creates the dynamic
@@ -1749,6 +1899,7 @@ Panama allows us to retain the performance and capabilities of the existing tomc
 <a class="btn" href="/slides/na-2023/sun_tomcat_panama-jean-frederic-clere.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Jean-Frederic Clere
+
 Jean-Frederic has spent more than 30 years writing client/server software.
 His knowledges range from Cobol to Java, BS2000 to Linux and /390 to i386 but with preference to the later.
 He is committer in Httpd and Tomcat and he likes complex projects where different languages and machines are involved.
@@ -1761,6 +1912,7 @@ The Let’s Encrypt initiative has changed the landscape for online security. Th
 <a class="btn" href="/slides/na-2023/sat_webserver_schultz_lets-encrypt-apache-tomcat-christopher-schultz.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Christopher Schultz
+
 Christopher Schultz is the CTO of CHADIS, Inc. where he leads a small team of engineers to build server-side healthcare-related software in Java. Chris is an ASF Member active in the Apache Tomcat and Velocity communities as well as a committer on both projects, and Tomcat PMC and security team member. He has attended and spoken at several previous ApacheCon events and helped to organize an Apache BarCamp in the Washington, DC area.
 
 #### From Spring Boot 2 to Spring Boot 3 with the Help of Apache Tomcat and More
@@ -1771,6 +1923,7 @@ We will also briefly examine some of the changes planned for Jakarta EE 11 that 
 <a class="btn" href="/slides/na-2023/sun_extrasesion_grimstad-ivar-grimstad.pdf"><strong>Got to Slides</strong></a>
 
 **Speaker:** Ivar Grimstad
+
 Ivar Grimstad is the Jakarta EE Developer Advocate at Eclipse Foundation. He is a Java Champion and JUG Leader based in Sweden.
 Besides advocating the Jakarta EE technologies, Ivar is contributing to the Jakarta EE specifications as well as being the PMC Lead for Eclipse Enterprise for Java (EE4J). He is also one of the specification leads for Jakarta MVC and represents Eclipse Foundation on the JCP Executive Committee.
 Ivar is also involved in a wide range of other open-source projects and communities. He is a frequent speaker at International developer conferences. 
