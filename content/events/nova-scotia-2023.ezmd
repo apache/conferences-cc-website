@@ -189,11 +189,14 @@ Vivek is a software engineer in Linkedin’s Data Infrastructure group focusing 
 Apache Ignite 3.0, the next major version of one of the top Apache projects in Big Data, aims to dramatically improve the usability of the platform for developers and incite new use cases. Join this talk to learn how the Apache Ignite Developer Community achieves this goal by harnessing the power of open-source and using a number of well-known projects for its core components. Technologies such as Apache Calcite, RocksDB, ScaleCube, JRaft, and others will enhance the stability of Apache Ignite, reduce future maintenance, and open a path to future integrations.
 Join this talk to learn how Apache Ignite uses open-source to make the next generation of open-source distributed databases even better. Developers will get a major leg-up on the foundations of this technology and learn:
 
-    What are the key components of Apache Ignite’s architecture
-    Which battle-tested open-source technologies are fit for a modern distributed database
-    What challenges Apache Ignite developers have faced in the process and how they surmounted them
+- What are the key components of Apache Ignite’s architecture
+- Which battle-tested open-source technologies are fit for a modern distributed database
+- What challenges Apache Ignite developers have faced in the process and how they surmounted them
+
+<a class="btn" href="/slides/na-2023/mon_bigdatacompute_enhancing-apache-ignite-3-with-the-power-of-open-source-stanislav-lukyanov.pptx"><strong>Got to Slides</strong></a>
 
 **Speaker:** Stanislav Lukyanov
+
 Stanislav Lukyanov is a Director of Product Management at GridGain Systems, a provider of enterprise-grade in-memory computing solutions based on Apache Ignite. A software engineer and architect, he helps to build the next generation of in-memory computing solutions to answer modern industry challenges. Stanislav has been an Apache Ignite contributor and advocate for over 5 years.
 
 #### Transforming Resource Distribution in Apache Hadoop YARN: Enhancing Flexibility for the Cloud
