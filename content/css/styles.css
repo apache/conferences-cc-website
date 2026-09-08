@@ -81,6 +81,15 @@ h2 {
     color: #fff;
 }
 
+/* Sessionize schedule grids are wider than the content column they sit in, and
+   that column clips overflow, so the right-hand rooms were unreachable. Scroll
+   the grid itself, which keeps the day tabs and date heading in place.
+   .sz-root is a fallback in case the inner grid class changes. */
+.sz-cssgrid,
+.sz-root {
+    overflow-x: auto;
+}
+
 p {
     margin-bottom: 1em; 
     line-height: 1.5em;
