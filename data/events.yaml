@@ -89,26 +89,6 @@ events:
     year: 2023 # optional year event takes place
     location: Halifax, Nova Scotia, Canada
     image: /images/events/halifax_harbour_sunset_skyline.webp # optional image for event card
-  - name: ApacheCon 2000
-    nav:
-    ref: apachecon-2000
-    href: http://archive.apachecon.com/2000/US/
-    registrationHref:  # optional registration link
-    startDate: 2000-10-23 # REQUIRED: must use format YYYY-MM-DD
-    endDate: 2000-10-25 # REQUIRED: must use format YYYY-MM-DD
-    displayDate: October 23-25, 2000 # what is displayed on event card
-    year: 2000 # optional year event takes place
-    location: London, England
-  - name: ApacheCon 1998
-    nav:
-    ref: apachecon-1998
-    href: /events/apachecon-1998
-    registrationHref:  # optional registration link
-    startDate: 1998-10-14 # REQUIRED: must use format YYYY-MM-DD
-    endDate: 1998-10-16 # REQUIRED: must use format YYYY-MM-DD
-    displayDate: October 14-16, 1998 # what is displayed on event card
-    year: 1998 # optional year event takes place
-    location: San Francisco, CA
   - name: Community Over Code Asia 2023
     nav:
     ref: community-over-code-asia-2023
@@ -509,6 +489,7 @@ events:
     displayDate: October 23-25, 2000
     year: 2000
     location: London, England
+    image: /images/events/ac-london-2000-douglas-adams.webp
   - name: ApacheCon US 2000
     nav:
     ref: apachecon-us-2000
