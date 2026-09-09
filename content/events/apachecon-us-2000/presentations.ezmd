@@ -1,40 +1,36 @@
-title: ApacheCon US 2000 — Presentations
+title: Presentations
 template: page-event-default
 ref: apachecon-us-2000
 
-Session materials from ApacheCon 2000 speakers. These files were originally distributed as gzip-compressed documents and are preserved here in their original format.
+The following session materials are available from ApacheCon US 2000. These are the original presentation files from the speakers.
 
-| Session | Title | Format |
-|---------|-------|--------|
-| OR005 | Apache and LDAP | doc, ppt |
-| OR006 | Setting up the Apache Web Server for developers | ppt |
-| OR007 | Using C++ for Apache Modules | ppt |
-| OR010 | Helping your clients make the move to E-Commerce | doc, ppt |
-| OR012 | Adding XML capabilities with Cocoon | pdf |
-| OR014 | Migrating Apache 1.3 modules to Apache 2.0 | rtf |
-| OR016 | APR: What is it, and why we use it in Apache | rtf |
-| OR021 | *(title unknown — two parts)* | doc |
-| OR023 | Apache: A Business Server | rtf |
-| OR036 | Commercial use of PHP with SQL backends | rtf |
-| OR040 | Secure Authentication in an Insecure Environment | rtf |
-| OR045 | Getting Started with mod_perl | pdf |
-| OR046 | Advanced PHP: Web Applications — Sessions and Authentication | rtf |
-| OR052 | Improving script performance under mod_perl | pdf |
-| OR058 | High-Performance Dynamic Pages with Templates, XML, and mod_perl | rtf |
-| OR071 | Secure Financial Transactions with Open Source | rtf |
-| OR074 | Web Hosting for Fame and Fortune | ppt |
-| OR077 | Backhand — a load balancing module for Apache | rtf |
-| OR078 | PHP: Hackers Paradise | rtf |
-| OR080 | Design Patterns in Web Programming | rtf |
-| OR083 | Migration from ASP to PHP | rtf |
-| OR092 | Apache 2.0 Overview | html |
-| OR093 | Getting Started with mod_perl (part II) | pdf |
-| OR095 | WebDAV and Apache | rtf |
-| OR096 | Apache E-Commerce Solutions | rtf |
-
----
-
-These materials are preserved from the [original archive](http://archive.apachecon.com/2000/US/) for historical reference.
-
----
-
+| Session | Title | Format | Download |
+|---------|-------|--------|----------|
+| OR005 | Apache and LDAP | DOC | [OR005.doc](/slides/us-2000/OR005.doc) |
+| OR005 | Apache and LDAP | PPT | [OR005.ppt](/slides/us-2000/OR005.ppt) |
+| OR006 | Setting up the Apache Web Server for developers | PPT | [OR006.ppt](/slides/us-2000/OR006.ppt) |
+| OR007 | Using C++ for Apache Modules | PPT | [OR007.ppt](/slides/us-2000/OR007.ppt) |
+| OR010 | Helping your clients make the move to E-Commerce | DOC | [OR010.doc](/slides/us-2000/OR010.doc) |
+| OR010 | Helping your clients make the move to E-Commerce | PPT | [OR010.ppt](/slides/us-2000/OR010.ppt) |
+| OR012 | Adding XML capabilities with Cocoon | PDF | [OR012.pdf](/slides/us-2000/OR012.pdf) |
+| OR014 | Migrating Apache 1.3 modules to Apache 2.0 | RTF | [OR014.rtf](/slides/us-2000/OR014.rtf) |
+| OR016 | APR: What is it, and why we use it in Apache | RTF | [OR016.rtf](/slides/us-2000/OR016.rtf) |
+| OR021-1 | Comanche, a GUI for Apache | DOC | [OR021-1.doc](/slides/us-2000/OR021-1.doc) |
+| OR021-2 | Comanche, a GUI for Apache | DOC | [OR021-2.doc](/slides/us-2000/OR021-2.doc) |
+| OR023 | Apache: A Business Server | RTF | [OR023.rtf](/slides/us-2000/OR023.rtf) |
+| OR036 | Commercial use of PHP with SQL backends | RTF | [OR036.rtf](/slides/us-2000/OR036.rtf) |
+| OR040 | Secure Authentication in an Insecure Environment | RTF | [OR040.rtf](/slides/us-2000/OR040.rtf) |
+| OR045 | Getting Started with mod_perl | PDF | [OR045.pdf](/slides/us-2000/OR045.pdf) |
+| OR046 | Advanced PHP: Web Applications - Sessions and Authentication | RTF | [OR046.rtf](/slides/us-2000/OR046.rtf) |
+| OR052 | Improving script performance under mod_perl | PDF | [OR052.pdf](/slides/us-2000/OR052.pdf) |
+| OR058 | High-Performance Dynamic Pages with Templates, XML, and mod_perl | RTF | [OR058.rtf](/slides/us-2000/OR058.rtf) |
+| OR071 | Secure Financal Transactions with Open Source | RTF | [OR071.rtf](/slides/us-2000/OR071.rtf) |
+| OR074 | Web Hosting for Fame and Fortune | PPT | [OR074.ppt](/slides/us-2000/OR074.ppt) |
+| OR077 | Backhand - a load balancing module for Apache | RTF | [OR077.rtf](/slides/us-2000/OR077.rtf) |
+| OR078 | PHP: Hackers Paradise | RTF | [OR078.rtf](/slides/us-2000/OR078.rtf) |
+| OR080 | Design Patterns in Web Programming | RTF | [OR080.rtf](/slides/us-2000/OR080.rtf) |
+| OR083 | Migration from ASP to PHP | RTF | [OR083.rtf](/slides/us-2000/OR083.rtf) |
+| OR092 | Apache 2.0 Overview | HTML | [OR092.html](/slides/us-2000/OR092.html) |
+| OR093 | Getting Started with mod_perl (part II) | PDF | [OR093.pdf](/slides/us-2000/OR093.pdf) |
+| OR095 | WebDAV and Apache | RTF | [OR095.rtf](/slides/us-2000/OR095.rtf) |
+| OR096 | Apache E-Commerce Solutions | RTF | [OR096.rtf](/slides/us-2000/OR096.rtf) |

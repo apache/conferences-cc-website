@@ -1,0 +1,352 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}}{\colortbl;\red0\green0\blue0;
+\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;
+\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\widctlpar\adjustright \cgrid \snext0 Normal;}{\s1\keepn\widctlpar\adjustright \b\fs28\cgrid \sbasedon0 \snext0 heading 1;}{
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\i\cgrid \sbasedon0 \snext0 heading 2;}{\*\cs10 \additive Default Paragraph Font;}{\*\cs15 \additive \ul\cf2 \sbasedon10 Hyperlink;}{\s16\widctlpar\adjustright \sbasedon0 \snext17 Definition Term;}{
+\s17\li360\widctlpar\adjustright \sbasedon0 \snext16 Definition List;}{\s18\qc\widctlpar\adjustright \cgrid \sbasedon0 \snext18 Title;}{\s19\li540\ri540\widctlpar\adjustright \i\cgrid \sbasedon0 \snext19 Block Text;}{\s20\widctlpar\adjustright \cgrid 
+\sbasedon0 \snext20 endnote text;}{\*\cs21 \additive \super \sbasedon10 endnote reference;}{\s22\widctlpar\adjustright \i\cgrid \sbasedon0 \snext22 Body Text;}}{\*\listtable{\list\listtemplateid-1\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0
+\levelstartat0\levelspace0\levelindent0{\leveltext\'01*;}{\levelnumbers;}}{\listname ;}\listid-2}{\list\listtemplateid67698705\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00);}{\levelnumbers
+\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid3098888}}{\*\listoverridetable{\listoverride\listid-2\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat0\levelold\levelspace0
+\levelindent0{\leveltext\'01\'95;}{\levelnumbers;}\f0\fs64\fbias0 }}\ls1}{\listoverride\listid3098888\listoverridecount0\ls2}}{\info{\title WebDAV and Apache}{\author Greg Stein}{\operator Greg Stein}{\creatim\yr2000\mo1\dy20\hr4\min2}
+{\revtim\yr2000\mo1\dy20\hr8\min37}{\version62}{\edmins205}{\nofpages12}{\nofwords3884}{\nofchars22142}{\*\company  }{\nofcharsws27191}{\vern89}}\widowctrl\enddoc\aenddoc\aftnnar\formshade\viewkind4\viewscale75\pgbrdrhead\pgbrdrfoot \fet1{\*\template 
+C:\\Program Files\\Microsoft Office\\Templates\\Normal.dot}\sectd \linex0\endnhere\sectdefaultcl {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3
+\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain 
+\s18\qc\widctlpar\adjustright \cgrid {\b\fs32 WebDAV and Apache
+\par }\pard\plain \qc\widctlpar\adjustright \cgrid {
+\par Greg Stein
+\par }{\field\flddirty{\*\fldinst { HYPERLINK mailto:gstein@lyra.org }{{\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b020000001700000010000000670073007400650069006e0040006c007900720061002e006f00720067000000e0c9ea79f9bace118c8200aa004ba90b2e0000006d00610069006c0074006f003a00670073007400650069006e0040006c007900720061002e006f00720067000000}
+}}{\fldrslt {\cs15\ul\cf2 gstein@lyra.org}}}{, }{\field\fldedit{\*\fldinst { HYPERLINK http://www.lyra.org }{{\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b02000000170000001400000068007400740070003a002f002f007700770077002e006c007900720061002e006f00720067000000e0c9ea79f9bace118c8200aa004ba90b2a00000068007400740070003a002f002f007700770077002e006c007900720061002e006f0072006700
+2f000000}}}{\fldrslt {\cs15\ul\cf2 http://www.lyra.org/}}}{
+\par }\pard \widctlpar\adjustright {
+\par }\pard\plain \s1\keepn\widctlpar\outlinelevel0\adjustright \b\fs28\cgrid {Abstract
+\par }\pard\plain \s19\li540\ri540\widctlpar\adjustright \i\cgrid {WebDAV is an exciting new technology for the World Wide Web. WebDAV stands for Web-Based Distributed Autho
+ring and Versioning, and provides a way to remotely author and manage your Web servers (whether you are an author or an administrator). The WebDAV protocol is specified by RFC 2518 and is now available as an add-on module for the Apache Web server. This p
+a
+per presents an overview of WebDAV, its benefits for users, and scenarios for effective deployment. It also details how to set up the mod_dav Apache module, and describes the available tools and applications to use with your new WebDAV-enabled server. In 
+closing, this paper discusses the future directions of the WebDAV protoco. 
+\par }\pard\plain \widctlpar\adjustright \cgrid {
+\par }\pard\plain \s1\keepn\widctlpar\outlinelevel0\adjustright \b\fs28\cgrid {WebDAV Overview
+\par }\pard\plain \widctlpar\adjustright \cgrid {
+\par }{\i WebDAV}{ stands for \ldblquote Web-based Distributed Authoring and Versioning.\rdblquote  Simply speaking, it provides a mechanism for authors to create documents on a web server and to manage their organization. WebDAV, or \ldblquote DAV\rdblquote 
+ for short, is driven by a desire to create interoperable tools for distributed web authoring. Where the World Wide Web has generally been a read-only environment, DAV seeks to turn it into a }{\i writeable}{ medium.
+\par 
+\par DAV is specified by RFC 2518}{\cs21\super \chftn {\footnote\ftnalt \pard\plain \s20\widctlpar\adjustright \cgrid {\cs21\super \chftn }{ The WebDAV RFC (2518) can be found at }{\field{\*\fldinst { HYPERLINK http://www.webdav.org/specs/ }{{\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b02000000170000001d00000068007400740070003a002f002f007700770077002e007700650062006400610076002e006f00720067002f00730070006500630073002f000000e0c9ea79f9bace118c8200aa004ba90b3a00000068007400740070003a002f002f00770077007700
+2e007700650062006400610076002e006f00720067002f00730070006500630073002f000000}}}{\fldrslt {\cs15\ul\cf2 http://www.webdav.org/specs/}}}}}{
+ as a set of extensions to the HTTP protocol. Just like HTTP, DAV operates on all kinds of document types, such HTML pages, images, text files, or PDF documents.
+\par 
+\par It is important to note that RFC 2518 does not specify any versioning mechanisms. Versioning is a very large problem set, so it was deferred in order to get a basic, core level of WebDAV completed and available for use.
+\par 
+\par }\pard\plain \s1\keepn\widctlpar\outlinelevel0\adjustright \b\fs28\cgrid {Benefits of Using DAV
+\par }\pard\plain \widctlpar\adjustright \cgrid {
+\par Users, authors, and server administrators can receive benefits from the deployment of DAV technology. There are also technical benefits for developers, security personnel, and network administrators.
+\par 
+\par Users, in this context, refer to people who are visiting a web site. DAV can assist 
+these users with providing additional metadata about the documents they are viewing. For example, information about the author, the revision history, or the last modification can be fetched from the DAV server and made available to the user. This can be p
+e
+rformed in a consistent fashion rather than using ad hoc techniques, such as placing the last-modification date at the bottom of a web page. These ad hoc techniques may not even be in use by the site authors, may be used inconsistently throughout the site
+, and cannot easily be interpreted and used by sophisticated user agents. Historically, authors have provided users with an }{\f2\fs18 index.html}{
+ document to provide an index into the contents of a directory or site. Using DAV, a user can fetch complete listings of a server\rquote s contents, subject to access restrictions. The user\rquote 
+s browser could display this listing in varying formats according to the user\rquote s preferences, rather than according to the author\rquote s desires. In fact, the Web Folders add-on to Internet Explorer 5 does exactly this \endash 
+ it displays the listings in the same fashion as other resources on the user\rquote s local disk. Web Folders provides icons, varying layouts, and property pages to view detailed information.
+\par 
+\par For the author, DAV finally provides a way to consis
+tently move documents from their client, authoring machine to the web server. The author no longer needs to invoke FTP and then remember how the filesystem presented by FTP maps to the URL namespace provided by the web server. An author can specify the ex
+act URL where the document should be stored. In addition, DAV provides mechanisms to manage existing content on the server \endash  moves, copies, and deletes are possible. The author can also attach metadata to the documents \endash 
+ possibly for their own use, for brow
+sing by users, or for tracking among the authoring team members. A DAV server also provides overwrite protection for multiple authors to ensure they do not destroy changes made by others when a (changed) document is placed on the server.
+\par 
+\par The server admini
+strator can use DAV to increase the flexibility in the mapping of the URL namespace to an underlying filesystem or database. Portions may be placed into a database, others into a high-performance filesystem, and still others onto a network data repository
+.
+ All interactions will come through the web server, which can select the appropriate repository. Historically, web documents have had to reside in the filesystem so the authors can easily access them with editing tools. A second benefit is that the server
+ administrator is not even required to provide \ldblquote system\rdblquote  accounts for the authors \endash  authors\rquote 
+ authentication will happen through the web server. By preventing access, via system accounts, to the underlying system, the administrator can greatly enhance the reliability and security of the server.
+\par 
+\par From a technical standpoint, DAV introduces a number of features to the Web. These can be used by developers for new types or enhanced features in their products. These new features are discussed in the next section.
+\par 
+\par The fact that DAV builds upon HTTP can simplify a network or security administrator\rquote s job \endash 
+ there is a single protocol (HTTP) to worry about. Separate tunnels, proxies, and policies are no longer required. In fact, it becomes possible to throw out plain-te
+xt password mechanisms, such as the one used by the standard FTP protocol, and replace them with stronger system. Certificates, Kerberos, or tunneling passwords through encrypted channels, such as SSL, all becomes possible with HTTP.
+\par 
+\par }\pard\plain \s1\keepn\widctlpar\outlinelevel0\adjustright \b\fs28\cgrid {DAV\rquote s Features
+\par }\pard\plain \widctlpar\adjustright \cgrid {
+\par WebDAV introduces several key, new features for developers to use: properties, overwrite protection, namespace management, new infrastructure and reuse of existing infrastructure, and a basis for replacing other protocols.
+\par 
+\par }\pard\plain \s22\widctlpar\adjustright \i\cgrid Note: some new terminology will be used below \endash  please see the Appendix for a quick discussion of terminology used by DAV{\i0 
+\par }.
+\par \pard\plain \s2\sb240\sa60\keepn\widctlpar\outlinelevel1\adjustright \b\i\cgrid {Properties
+\par }\pard\plain \widctlpar\adjustright \cgrid {Properties, also known as \ldblquote metadata\rdblquote , are stored as name/value pairs on the server. Every resource, whether a member resource or a collection resource, may ha
+ve properties associated with it. Some properties will be defined by the server and are called \ldblquote live properties\rdblquote . Other properties are client-defined and are called \ldblquote dead properties\rdblquote .
+\par 
+\par A property name is a URI, which ensures that it is universally unique. Example property names are \ldblquote DAV:getlastmodified\rdblquote  or \ldblquote http://www.apache.org/davprops/allowoverride\rdblquote 
+. A property value is a well-formed XML fragment.
+\par 
+\par Properties can store items such as author, title, modification time, or size. If a property is server-defined (\ldblquote live\rdblquote ), then it may be read-only and/or the (XML) contents may be required to fit a particular pattern. Dead properties
+\rquote  formatting and integrity are specified and managed by the clients that store them on the server.
+\par 
+\par }\pard\plain \s2\sb240\sa60\keepn\widctlpar\outlinelevel1\adjustright \b\i\cgrid {Overwrite protection
+\par }\pard\plain \widctlpar\adjustright \cgrid {WebDAV provides different types of locks that clients may use for arbitrating access to resources. These locks can be applied to individual resources, or an entire \ldblquote tree\rdblquote 
+ of resources. A lock has different pieces of state, including a timeout, an owner, a \ldblquote lock token\rdblquote , and an associated, authenticated user.
+\par 
+\par It is important to note that timeouts are associated with the locks. A client may request a particular timeout, and the server may choose to honor or ignore that value. In addition, the client must also assume that a lock may disappear at any time 
+\endash  typically, for administrative reasons, but it could also be caused by, say, a server crash. These features of the locks may seem to create too much indeterminism for a DAV client, but the client actually has a number of
+ ways to cope with the situation. For example, the client can store the resource\rquote s \ldblquote entity-tag\rdblquote 
+ when the lock is acquired. If the lock disappears, then the client can reacquire the lock and compare it saved entity-tag against the resource\rquote s current entity-
+tag. If no change has occurred in the entity-tag, then the client knows it will not overwrite any changes when the document is saved. If a change }{\i has}{ occurred, then the client can work out a solution with the user.
+\par 
+\par }\pard\plain \s2\sb240\sa60\keepn\widctlpar\outlinelevel1\adjustright \b\i\cgrid {Namespace management
+\par }\pard\plain \widctlpar\adjustright \cgrid {In this context, \ldblquote namespace\rdblquote 
+ refers to the URL namespace exposed by a web server. DAV provides mechanisms to manage this namespace through copies, moves, deletes, and construction of resources.
+\par 
+\par }\pard\plain \s2\sb240\sa60\keepn\widctlpar\outlinelevel1\adjustright \b\i\cgrid {Infrastructure: old and new
+\par }\pard\plain \widctlpar\adjustright \cgrid {DAV is built using HTTP, so it inherits all of the b
+enefits of the existing HTTP infrastructure. Specifically, items such as strong authentication, encryption, proxy and firewall navigation, and caching become available to DAV. The worldwide deployment of HTTP helps greatly, too, in providing a base for DA
+V to be used worldwide. There are also more subtle benefits that HTTP provides: a very large talent pool of people who understand HTTP, a large number of books, tools, and applications that deal with HTTP, and a \ldblquote critical mass\rdblquote 
+ for further development and deployment.
+\par 
+\par Building on top of this infrastructure, DAV brings its new features: writeable resources, properties, overwrite protection, and namespace management. As additional DAV capabilities are introduced (such as access control and versioning), these w
+ill continue to grow the infrastructure. This expansion of the existing infrastructure can then lead to more features and capabilities.
+\par 
+\par }\pard\plain \s2\sb240\sa60\keepn\widctlpar\outlinelevel1\adjustright \b\i\cgrid {A replacement protocol
+\par }\pard\plain \widctlpar\adjustright \cgrid {There are a number of proprietary, specialized, or alternative mechanisms for transferring docum
+ents to a web server. DAV can easily replace these protocols and, at the same time, provide even more functionality.
+\par 
+\par For example, using FTP to move files to a web server is problematic in a number of areas: plain-text passwords, needing to map a filesyste
+m view to a URL namespace, and inconsistent directory listings. As an alternative, DAV can use stronger authentication (\ldblquote digest\rdblquote 
+, Kerberos, or even certificates), it can encrypt the channel, there is no mapping between namespaces, and DAV\rquote s form of a directory listing can reliably return modification dates, file size, names, and file types.
+\par 
+\par Proprietary protocols, such as those used by Microsoft\rquote s FrontPage or NetObjects\rquote  Fusion products, can be similarly replaced. If these tools become DAV-capable, then they can be used against }{\i any}{ DAV-enabled server.
+\par 
+\par Other ad hoc solutions, such as those based on \ldblquote file upload\rdblquote  or doing a POST to a CGI script, can be eliminated.
+\par 
+\par HTTP/1.1 defines a solid platform for extending HTTP, which DAV uses for its benefit. In turn,
+ this provides a solid base for other specialized protocols. A system might use DAV for moving data between a client and a server, and define new HTTP methods for invoking specialized server operations. This would avoid many pitfalls associated with tryin
+g to create a new protocol from scratch; it also provides leverage with HTTP\rquote s existing feature set.
+\par 
+\par }\pard\plain \s1\keepn\widctlpar\outlinelevel0\adjustright \b\fs28\cgrid {DAV Details
+\par }\pard\plain \widctlpar\adjustright \cgrid {
+\par As mentioned before, DAV is built upon HTTP/1.1. DAV adds new headers and methods to the protocol, along with providing additional semantics f
+or some of the existing HTTP/1.1 methods. Part of the changes introduced by HTTP/1.1 (over 1.0) is this mechanism for extending the protocol in a clean, well-understood fashion.
+\par 
+\par Briefly, the new headers are: }{\f2 DAV:}{, }{\f2 If:}{, }{\f2 Depth:}{, }{\f2 Overwrite:}{, }{\f2 Destination:}{, }{\f2 Lock-Token:}{, }{\f2 Timeout:}{, and }{\f2 Status-URI:}{
+. These headers will not be discussed in detail here, but will be mentioned in association with the HTTP methods.
+\par 
+\par The new HTTP methods are: }{\f2 COPY}{, }{\f2 MOVE}{, }{\f2 MKCOL}{, }{\f2 PROPPATCH}{, }{\f2 PROPFIND}{, }{\f2 LOCK}{, and }{\f2 UNLOCK}{. New semantics are provided for }{\f2 GET}{, }{\f2 PUT}{, }{\f2 POST}{, }{\f2 DELETE}{, and }{\f2 OPTIONS}{.
+\par 
+\par }\pard\plain \s2\sb240\sa60\keepn\widctlpar\outlinelevel1\adjustright \b\i\cgrid {COPY and MOVE
+\par }\pard\plain \widctlpar\adjustright \cgrid {These two methods are rather obvious: they move or copy resources on the DAV server. The }{\f2 Destination:}{ header is used to specify the target location. When collections are copied, the }{\f2 Depth:}{ heade
+r can be used to specify how deeply the copy will be performed. The }{\f2 Overwrite:}{ header is used to prevent overwriting, or to ensure that overwriting a target was intended.
+\par }\pard\plain \s2\sb240\sa60\keepn\widctlpar\outlinelevel1\adjustright \b\i\cgrid {MKCOL
+\par }\pard\plain \widctlpar\adjustright \cgrid {This method is used to create a new collection on the server. }{\f2 PUT}{ is only to be used for creating or updating the content of member resources.
+\par 
+\par An important point is that some servers implement }{\f2 PUT}{ to implicitly create parent collections for a resource, if those parents do not exist. DAV has modified the semantics of }{\f2 PUT}{ to state tha
+t all parents must exist; this ensure that parents are not accidentally created due to, say, a typographical error. A }{\f2 MKCOL}{ must be issued to create parents before a }{\f2 PUT}{ is performed.
+\par }\pard\plain \s20\widctlpar\adjustright \cgrid {
+\par }\pard\plain \s2\sb240\sa60\keepn\widctlpar\outlinelevel1\adjustright \b\i\cgrid {PROPPATCH and PROPFIND
+\par }\pard\plain \widctlpar\adjustright \cgrid {\f2 PROPPATCH}{ is used to set, change, or delete properties on a resource. Each }{\f2 PROPPATCH}{
+ operates on a single resource, but may perform an arbitrary, ordered sequence of property modifications on that resource.
+\par 
+\par }{\f2 PROPFIND}{ is used to fetch one or more property names and/or values from one or more resources. The body of the method is used to determine the exact fetching behavior for each target resource. The }{\f2 Depth:}{
+ header specifies the behavior of selecting resources when a }{\f2 PROPFIND}{ is performed on a collection resource.
+\par }\pard\plain \s2\sb240\sa60\keepn\widctlpar\outlinelevel1\adjustright \b\i\cgrid {LOCK and UNLOCK
+\par }\pard\plain \widctlpar\adjustright \cgrid {These two methods have obvious semantics: they apply and remove locks from resources. The }{\f2 Depth:}{ header is used to select resources when a }{\f2 LOCK}{ is performed on a resource. The }{\f2 Lock-Token:}{
+ header is used by both resources: for }{\f2 LOCK}{, it occurs in the response and specifies the resulting lock token; for }{\f2 UNLOCK}{, it occurs in the request specifies the lock token to be unlocked.
+\par 
+\par The }{\f2 LOCK}{ request must have a body, but it will not be detailed here. In short, it is used to specify the various pieces of lock state that were described earlier.
+\par }\pard\plain \s2\sb240\sa60\keepn\widctlpar\outlinelevel1\adjustright \b\i\cgrid {New semantics for existing methods
+\par }\pard\plain \widctlpar\adjustright \cgrid {The new semantics that were applied to the existing methods primarily deal with their interaction with locks, with the requirement to process the }{\f2 If:}{ header, and how to return a server\rquote 
+s DAV capabilities in an }{\f2 OPTION}{ request.
+\par 
+\par }\pard\plain \s1\keepn\widctlpar\outlinelevel0\adjustright \b\fs28\cgrid {Some Scenarios for Use
+\par }\pard\plain \widctlpar\adjustright \cgrid {
+\par There are many scenarios where WebDAV technology can be deployed effectively. A few samples are: collaborative authoring, a network file system, a uniform repository-access protocol, and remote/distributed software enginee
+ring projects. In each of these cases, DAV can provide a basis for communication between clients and servers.
+\par 
+\par Below are a couple detailed deployment scenarios. It is interesting to note that the scenarios are not restricted to the Internet, but may be used in various LAN, WAN, or VPN environments.
+\par 
+\par }\pard\plain \s2\sb240\sa60\keepn\widctlpar\outlinelevel1\adjustright \b\i\cgrid {Departmental server
+\par }\pard\plain \widctlpar\adjustright \cgrid {In this scenario, suppose there is a department with twenty staff members. Each member needs to author documents on their department\rquote s private web server.
+\par 
+\par Historically, this kind of scenario
+ has used a central file server for collaborative authoring. More recently, and certainly with the advent of DAV, it is possibly to entirely drop the notion of a file server and work solely with a DAV-enabled web server. The web server can provide better 
+navigation, overviews, offsite links, searching, and integration with operational systems such as finance and accounting.
+\par 
+\par By using a DAV server, the staff members can directly place and manage their documents on the web server. Each of these documents may 
+be tagged with metadata, by using DAV properties. The staff can create auxiliary index and overview documents, or use web server features to automatically perform these functions. The server administrator can partition the URL namespace as necessary to st
+o
+re the documents into different backup partitions, or to spread a load over the available computer resources. In addition, the server administrator can use HTTP authentication and authorization mechanisms to restrict access to the web server on an individ
+ual basis.
+\par }\pard\plain \s2\sb240\sa60\keepn\widctlpar\outlinelevel1\adjustright \b\i\cgrid {Web hosting
+\par }\pard\plain \widctlpar\adjustright \cgrid {In this scenario, there is a small Internet Service Provider (\ldblquote ISP\rdblquote ) that has 5000 users, each with personal web pages.
+\par 
+\par Typically, these users would be managing their web pages through some ad hoc system composed of FTP, NFS mounts, 
+and possibly a FrontPage-enabled server. Every user would need to have some form of access to the system that is running the web server process.
+\par 
+\par In the DAV-enabled scenario, the server administrator can dramatically restrict access to the server. Only ISP staff would have access to the server\rquote s command shell and facilities. The ISP\rquote 
+s users would access, create, and manage their web pages entirely through WebDAV. The web server could be configured to authenticate the user through, say, communication with the Radius server that authenticated the user\rquote s dialin process.
+\par 
+\par }\pard\plain \s1\keepn\widctlpar\outlinelevel0\adjustright \b\fs28\cgrid {Setting Up mod_dav
+\par }\pard\plain \widctlpar\adjustright \cgrid {
+\par This section is a brief overview of the processing of building, installing, and configuring the mod_dav module for the Apache web server. Detailed instructions are available at the mod_dav website}{\cs21\super \chftn {\footnote\ftnalt \pard\plain 
+\s20\widctlpar\adjustright \cgrid {\cs21\super \chftn }{ }{\field{\*\fldinst { HYPERLINK http://www.webdav.org/mod_dav/ }{{\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b02000000170000001f00000068007400740070003a002f002f007700770077002e007700650062006400610076002e006f00720067002f006d006f0064005f006400610076002f000000e0c9ea79f9bace118c8200aa004ba90b3e00000068007400740070003a002f002f007700
+770077002e007700650062006400610076002e006f00720067002f006d006f0064005f006400610076002f000000}}}{\fldrslt {\cs15\ul\cf2 http://www.webdav.org/mod_dav/}}}}}{ and within the distribution.
+\par 
+\par mod_dav is a module which adds DAV capabilities to an Apache server. Specifically, it recognizes and handles the new HTTP methods and modifies the behavior of the existing methods.
+\par 
+\par There are five basic steps:
+\par {\pntext\pard\plain\cgrid \hich\af0\dbch\af0\loch\f0 1)\tab}}\pard \fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta )}}\ls2\adjustright {
+Grab the tarball, unpack it, build it, and install it
+\par {\pntext\pard\plain\cgrid \hich\af0\dbch\af0\loch\f0 2)\tab}}\pard \fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta )}}\ls2\adjustright {
+Enable DAV for the appropriate portions of your servers\rquote  namespace
+\par {\pntext\pard\plain\cgrid \hich\af0\dbch\af0\loch\f0 3)\tab}}\pard \fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta )}}\ls2\adjustright {Prepare the repository
+\par {\pntext\pard\plain\cgrid \hich\af0\dbch\af0\loch\f0 4)\tab}}\pard \fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta )}}\ls2\adjustright {Enable locking
+\par {\pntext\pard\plain\cgrid \hich\af0\dbch\af0\loch\f0 5)\tab}}\pard \fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta )}}\ls2\adjustright {Tighten up the security
+\par }\pard \widctlpar\adjustright {
+\par }\pard\plain \s2\sb240\sa60\keepn\widctlpar\outlinelevel1\adjustright \b\i\cgrid {Grab, unpack, build, and install
+\par }\pard\plain \widctlpar\adjustright \cgrid {mod_dav is similar to other Apache modules. It has a \ldblquote configure\rdblquote 
+ script that allows you to set a few build-time options, and it can install itself as a dynamically-loaded module or statically-linked into the Apache executable. This step is a little more difficult if you have a version of Apache prior to 1.3.9 \endash 
+Expat must be installed in a \ldblquote typical\rdblquote  location on your system or you must tell the configure process where to find it. Apache versions 1.3.9 and later include Expat, so this dependency is handled automatically for those versions.
+
+\par 
+\par }\pard\plain \s2\sb240\sa60\keepn\widctlpar\outlinelevel1\adjustright \b\i\cgrid {Enabling DAV
+\par }\pard\plain \widctlpar\adjustright \cgrid {mod_dav has a simple directive for enabling DAV within a Directory or a Location. For example:
+\par 
+\par }{\f2 Alias /gstein /home/apache/davdirs/gstein
+\par <Location /gstein>
+\par }\pard \fi720\widctlpar\adjustright {\f2 DAV On
+\par }\pard \widctlpar\adjustright {\f2 </Location>
+\par }{
+\par In the above example, there is a location (in the URL namespace) named }{\f2 /gstein}{. That location, and all resources under it, becomes DAV-enabled. Further, the resources will be stored in the }{\f2 /home/apache/davdirs/gstein}{ directory.
+\par }\pard\plain \s2\sb240\sa60\keepn\widctlpar\outlinelevel1\adjustright \b\i\cgrid {Preparing the repository
+\par }\pard\plain \widctlpar\adjustright \cgrid {In the example in the previous subsection, the resources are stored into the }{\f2 /home/apache/davdirs/gstein}{ directory. It is important to make sure that the web server process can read and }{\b write}{
+ to that directory.
+\par 
+\par For example, if the webserver runs as user \ldblquote nobody\rdblquote  and group \ldblquote www\rdblquote , then the directory must allow reading and writing by that user and/or group. For example:
+\par 
+\par }{\f2 % ls -la /home/apache/davdirs/gstein
+\par }\pard\plain \s16\widctlpar\adjustright {\f2\cgrid total 3
+\par }\pard\plain \widctlpar\adjustright \cgrid {\f2 drwxr-s---   3 nobody   www   1024 Jun 25 14:32 .
+\par drwxr-s---   3 nobody   www   1024 Jun 28 17:26 ..
+\par -rw-r--r--   1 nobody   www    424 Jun 26 16:36 index.html
+\par drwxr-s---   4 nobody   www   1024 Jun 26 13:05 specs
+\par }{
+\par The repository used by mod_dav is considered }{\i private}{. Users are not allowed to modify the repository through any means other than WebDAV. This does imply that FTP cannot be used as an alternate access mechanism.
+\par }\pard\plain \s2\sb240\sa60\keepn\widctlpar\outlinelevel1\adjustright \b\i\cgrid {Enabling locking
+\par }\pard\plain \widctlpar\adjustright \cgrid {mod_dav requires a lock database for recording locks on the resources. The database is specified as a filename; for example:
+\par 
+\par }\pard\plain \s16\widctlpar\adjustright {\f2\cgrid DAVLockDB /home/apache/var/DAVLockDB
+\par }\pard\plain \widctlpar\adjustright \cgrid {
+\par This file will be created at runtime \endash  it does not have to exist before using mod_dav. However, this does imply that the web server process\rquote  user/group must have write access to the directory containing the file (}{\f2 /home/apache/var}{
+ in the above example).
+\par 
+\par Note that mod_dav will actually create a pair of files, such as }{\f2 DAVLockDB.pag}{ and }{\f2 DAVLockDB.dir}{.
+\par }\pard\plain \s2\sb240\sa60\keepn\widctlpar\outlinelevel1\adjustright \b\i\cgrid {Tightening security
+\par }\pard\plain \widctlpar\adjustright \cgrid {There are a few items needed to ensure that a DAV-enabled Apache server remains secure.
+\par 
+\par First, turn off options such as CGI for the DAV directories. Otherwise, it may be possible to place a CGI onto the server and perform an attack through that CGI. CGI, includes, and executable includes can all be turned off with the }{\f2 Options}{
+ directive. For example:
+\par 
+\par }\pard\plain \s16\widctlpar\adjustright {\f2\cgrid Options None
+\par }\pard\plain \widctlpar\adjustright \cgrid {
+\par Next, disable the capability for a .htaccess file to override the limitations imposed upon the DAV directory. This restriction is easily performed with:
+\par 
+\par }\pard\plain \s16\widctlpar\adjustright {\f2\cgrid AllowOverride None
+\par }\pard\plain \widctlpar\adjustright \cgrid {
+\par And lastly, ensure that modifications may only be performed by authenticated users:
+\par 
+\par }{\f2 <Limit PUT POST DELETE PROPFIND PROPPATCH \\\\
+\par }\pard \fi720\widctlpar\adjustright {\f2 MKCOL COPY MOVE LOCK UNLOCK>
+\par }\pard \widctlpar\adjustright {
+\par It is interesting to note that we normally want to restrict }{\f2 PROPFIND}{ to authenticated users. The reason is that }{\f2 PROPFIND}{
+ can return a listing of all the files within a DAV directory, whether they are normally discoverable through links or not. For example, there may be a P
+HP include file in a directory that contains a database password. It would be inadvisable to allow a user to discover that file through a }{\f2 PROPFIND}{ and then attempt to fetch it.
+\par 
+\par In the future, the server will have finer-grained functionality and the }{\f2 PROPFIND}{ would not need to be limited. For example, the server could hide the essential files, but allow a browser to see the \ldblquote appropriate\rdblquote 
+ files. This would allow a browser to use }{\f2 PROPFIND}{ to create a nicely formatted index of the resources at a location.
+\par }\pard\plain \s20\widctlpar\adjustright \cgrid {
+\par }\pard\plain \s1\keepn\widctlpar\outlinelevel0\adjustright \b\fs28\cgrid {Other Tools and Applications
+\par }\pard\plain \widctlpar\adjustright \cgrid {
+\par }\pard\plain \s20\widctlpar\adjustright \cgrid {There are a great number of tools, applications, and servers that are being created or DAV-enabled. Most of these can be found via the Projects page at webdav.org}{\cs21\super \chftn {\footnote\ftnalt 
+\pard\plain \s20\widctlpar\adjustright \cgrid {\cs21\super \chftn }{ }{\field{\*\fldinst { HYPERLINK http://www.webdav.org/projects/ }{{\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b02000000170000002000000068007400740070003a002f002f007700770077002e007700650062006400610076002e006f00720067002f00700072006f006a0065006300740073002f000000e0c9ea79f9bace118c8200aa004ba90b4000000068007400740070003a002f002f00
+7700770077002e007700650062006400610076002e006f00720067002f00700072006f006a0065006300740073002f000000}}}{\fldrslt {\cs15\ul\cf2 http://www.webdav.org/projects/}}}}}{, but this section will cover a few of the more significant tools.
+\par 
+\par }\pard\plain \s2\sb240\sa60\keepn\widctlpar\outlinelevel1\adjustright \b\i\cgrid {Sitecopy
+\par }\pard\plain \s20\widctlpar\adjustright \cgrid {Sitecopy}{\cs21\super \chftn {\footnote\ftnalt \pard\plain \s20\widctlpar\adjustright \cgrid {\cs21\super \chftn }{ }{\field{\*\fldinst { HYPERLINK http://www.lyra.org/sitecopy/ }{{\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b02000000170000001e00000068007400740070003a002f002f007700770077002e006c007900720061002e006f00720067002f00730069007400650063006f00700079002f000000e0c9ea79f9bace118c8200aa004ba90b3c00000068007400740070003a002f002f0077007700
+77002e006c007900720061002e006f00720067002f00730069007400650063006f00700079002f000000}}}{\fldrslt {\cs15\ul\cf2 http://www.lyra.org/sitecopy/}}}}}{
+ is an Open Source tool developed by Joe Orton. It allows an author to create and edit a web site on their local machine. Once the changes are complete, then sitecopy can be used to synchronize the target web server with the local copy \endash 
+ files will be copied up to the server, files will be moved or deleted on the server, etc. Sitecopy uses WebDAV or FTP to perform the synchronization, but the process operates much better through WebDAV. It is significantly faster and is more reliable. 
+
+\par }\pard\plain \s2\sb240\sa60\keepn\widctlpar\outlinelevel1\adjustright \b\i\cgrid {Cadaver
+\par }\pard\plain \s20\widctlpar\adjustright \cgrid {Cadaver}{\cs21\super \chftn {\footnote\ftnalt \pard\plain \s20\widctlpar\adjustright \cgrid {\cs21\super \chftn }{ }{\field{\*\fldinst { HYPERLINK http://www.webdav.org/cadaver/ }{{\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b02000000170000001f00000068007400740070003a002f002f007700770077002e007700650062006400610076002e006f00720067002f0063006100640061007600650072002f000000e0c9ea79f9bace118c8200aa004ba90b3e00000068007400740070003a002f002f007700
+770077002e007700650062006400610076002e006f00720067002f0063006100640061007600650072002f000000}}}{\fldrslt {\cs15\ul\cf2 http://www.webdav.org/cadaver/}}}}}{
+ is a very similar to the classic, command-line FTP tool, but uses the WebDAV protocol to talk to the target server. Files can be moved, copied, and deleted, on the server, by entering commands. Files can also be copied to and from the server
+, singly or in batch. Listings of directories can be fetched, and changing among directories is supported, both locally and remotely. Various locking operations are provided.
+\par 
+\par Cadaver is actually a very good tool for testing a server\rquote s operation.
+\par }\pard\plain \s2\sb240\sa60\keepn\widctlpar\outlinelevel1\adjustright \b\i\cgrid {Microsoft Office 2000
+\par }\pard\plain \s20\widctlpar\adjustright \cgrid {The Microsoft Office product has been DAV-enabled with the \ldblquote 2000\rdblquote 
+ release. While FrontPage must still converse with a FrontPage-enabled server, the Word, Excel, and PowerPoint applications all support DAV operations. An author may type a URL into the \ldblquote Open\rdblquote 
+ dialog. The file will be locked on the server, fetched, and made available for editing. When the file is saved, it is saved directly to the web server. When the file is closed, then it is unlocked on the server.
+\par 
+\par This is a very important product in the DAV world, as Microsoft Office enjoys such a broad distribution. Many offices around the world use this product, which means they can all use DAV for interacting with their web server.
+\par }\pard\plain \s2\sb240\sa60\keepn\widctlpar\outlinelevel1\adjustright \b\i\cgrid {Internet Explorer 5
+\par }\pard\plain \s20\widctlpar\adjustright \cgrid {Through the \ldblquote Web Folders\rdblquote  add-on package, Internet Explorer 5 can work with a DAV-enabled server. IE5 updates the Windows Explorer navigation tree to include a new node named \ldblquote 
+Web Folders\rdblquote . In this section, the user can directly browse a DAV server and use drag-and-drop to move files between th
+e local and remote machines. Many of the standard Windows Explorer idioms work, such as renaming, cut/copy/paste, and deleting files.
+\par 
+\par The only drawback to this add-on package is that it does not have a \ldblquote redirector\rdblquote  which would allow the DAV server to be m
+apped to a drive letter. This functionality is required for older applications to be able to open/save files on a DAV server. Without a change to the application to use the new DAV APIs in the Windows operating system, older applications can only work wit
+h files on a filesystem identified by a drive letter.
+\par }\pard\plain \s2\sb240\sa60\keepn\widctlpar\outlinelevel1\adjustright \b\i\cgrid {Language APIs
+\par }\pard\plain \s20\widctlpar\adjustright \cgrid {Various libraries, modules, or APIs exist for communicating with DAV servers. These can be found for the Python, Java, and C/C++ programming languages. A few people have stated a desire to 
+build a Perl library, but this has not yet appeared. In fact, the only formalized API is the Python module}{\cs21\super \chftn {\footnote\ftnalt \pard\plain \s20\widctlpar\adjustright \cgrid {\cs21\super \chftn }{ }{\field{\*\fldinst {
+ HYPERLINK http://www.lyra.org/greg/python/ }{{\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b02000000170000002100000068007400740070003a002f002f007700770077002e006c007900720061002e006f00720067002f0067007200650067002f0070007900740068006f006e002f000000e0c9ea79f9bace118c8200aa004ba90b4200000068007400740070003a002f00
+2f007700770077002e006c007900720061002e006f00720067002f0067007200650067002f0070007900740068006f006e002f000000}}}{\fldrslt {\cs15\ul\cf2 http://www.lyra.org/greg/python/}}}{
+\par }}}{ developed by Greg Stein; the C and Java APIs have not been formally published or extracted into a separate, useful format. It is just a matter of time, however, before these appear.
+\par 
+\par With a robust set of APIs available to programmers, we should start seeing a larger interest in WebDAV. More experimentation and development will be possible.
+\par 
+\par }\pard\plain \s1\keepn\widctlpar\outlinelevel0\adjustright \b\fs28\cgrid {Futures
+\par }\pard\plain \widctlpar\adjustright \cgrid {
+\par Several new groups of capabilities will be added to WebDAV over the next 12 to 18 months: Advanced Collections, Searching, Access Control, and Versioning.
+\par 
+\par As these specifications stabilize, they will be incorporated into mod_dav. It is also important to note that mod_dav will be folded into the Apache 2.0 distribution \endash  Apache will have DAV capabilities \ldblquote out of the box.\rdblquote 
+\par 
+\par }\pard\plain \s2\sb240\sa60\keepn\widctlpar\outlinelevel1\adjustright \b\i\cgrid {Advanced Collections
+\par }\pard\plain \widctlpar\adjustright \cgrid {The Advanced Collections functionality deals with creating references, or links, between resources and being able to specify particular orderings of the resources when returned in a }{\f2 PROPFIND}{.
+ The references are created using a new }{\f2 BIND}{ method; the draft specifying this functionality is currently in the \ldblquote IETF Last Call\rdblquote  meaning that it is likely to be completed 
+during the first half of 2000. The other portions of the Advanced Collections will most likely be finalized later in 2000.
+\par }\pard\plain \s2\sb240\sa60\keepn\widctlpar\outlinelevel1\adjustright \b\i\cgrid {Searching
+\par }\pard\plain \widctlpar\adjustright \cgrid {This functionality provides for searching for resources on a DAV server that match a specific set of conditions. For example, \ldblquote all resources authored by Joe Bob\rdblquote  or \ldblquote all
+ resources containing the word \lquote enterprise\rquote .\rdblquote  The searching specifications are reasonably stable and nearing completion, but it is likely they will not become an RFC until later in 2000.
+\par }\pard\plain \s2\sb240\sa60\keepn\widctlpar\outlinelevel1\adjustright \b\i\cgrid {Access Control
+\par }\pard\plain \widctlpar\adjustright \cgrid {The Access Control functionality is not about }{\i how}{ to do access control (since HTTP specifies the protocol behavior for this), but how to remotely }{\i manage}{ the 
+access control imposed by the DAV server. Through the WebDAV Access Control protocols, a remote user will be able to apply, change, and remove 
+access restrictions on server resources. This draft has been stagnant for a long time, but has recently seen a renewed interest. We may see Access Control later in 2000.
+\par }\pard\plain \s2\sb240\sa60\keepn\widctlpar\outlinelevel1\adjustright \b\i\cgrid {Versioning
+\par }\pard\plain \widctlpar\adjustright \cgrid {
+Versioning features were conceived very early in the design and requirements, but were deferred so they would not hold up the base protocol definition. The specification deals with different levels of conformance and capability, from simplisti
+c versioning to complete configuration management. The draft has gone through several iterations and may be nearing some kind of stability. Again, we may see versioning sometime towards the end of 2000.
+\par 
+\par }\pard\plain \s1\keepn\widctlpar\outlinelevel0\adjustright \b\fs28\cgrid {Appendix
+\par }\pard\plain \widctlpar\adjustright \cgrid {
+\par A \ldblquote collection\rdblquote  i
+s a collection, or a group, of resources. In URL namespace terms, if the URL /a/b/c is given, then /a and /a/b are collections. c may or may not be a collection in this example. Note that collections are considered to be resources, too, so that collection
+s can contain other collections.
+\par 
+\par A \ldblquote member resource\rdblquote  is the name given to a \ldblquote leaf\rdblquote  resource. Basically, member resources are files or documents on the web server.
+\par 
+\par A \ldblquote resource\rdblquote  refers to either a collection or a member resource.
+\par 
+\par This fancy naming is used for precision. In addition, \ldblquote collection\rdblquote  is used instead of \ldblquote directory\rdblquote 
+ because the server might actually be using a database rather than a filesystem for storing the resources. The same logic applies to the use of \ldblquote resource\rdblquote  and \ldblquote member resource.\rdblquote 
+\par 
+\par }}
