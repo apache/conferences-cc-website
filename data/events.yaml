@@ -512,6 +512,7 @@ events:
   - name: ApacheCon US 2000
     nav:
     ref: apachecon-us-2000
+    image: /images/events/event-card-apachecon-us-2000.webp
     href: http://archive.apachecon.com/2000/US/
     registrationHref:
     startDate: 2000-03-08

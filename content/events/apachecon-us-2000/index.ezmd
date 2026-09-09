@@ -1,0 +1,40 @@
+title: ApacheCon US 2000
+template: page-event-landing
+ref: apachecon-us-2000
+
+ApacheCon 2000 was the first official conference organized by the [Apache Software Foundation](http://www.apache.org/), held March 8–10, 2000 at the Caribe Royale Resort in Orlando, Florida. The conference brought together the most respected technology vendors, Apache developers, and the broader open source community for three days of sessions, keynotes, and an exhibition.
+
+## Keynotes
+
+The conference featured keynote addresses from leading figures in the technology industry:
+
+- **Alfred Z. Spector**, Senior Technical Strategist for Application Frameworks at IBM, presented *The Web and Technology Fusion*.
+- **Brian Behlendorf**, founder and CTO of Collab.Net and president of the ASF, presented *State of the Foundation*, giving an in-depth perspective on how the ASF established itself and its outlook for the coming year.
+- **George Paolini**, Vice President of Java Community Development at Sun Microsystems, presented *Sun's Apache Initiatives*, explaining how partnerships with the ASF were designed to provide fast, best-of-breed development of essential Java technologies.
+- **Douglas Adams**, author of *The Hitchhiker's Guide to the Galaxy*, delivered a special keynote on *Living In a Virtual World*.
+
+## Sessions
+
+The conference program featured four parallel tracks with sessions on a wide range of topics:
+
+- **Dynamic Content** — Java servlets, PHP, mod\_perl, Apache modules, XML/XSLT
+- **Performance** — Tuning Apache on Windows and Unix, optimizing Java servlets, Linux and FreeBSD performance
+- **Security** — mod\_ssl, SSL/TLS introduction, Apache security basics, NT security, public key infrastructure
+- **Case Studies** — Real-world deployments, GUI configuration tools for Apache, open source business models
+
+## Exhibition
+
+The expo floor featured exhibitors including the Apache Software Foundation, IBM, Sun Microsystems, Collab.Net, Covalent Technologies, Zend, VA Linux Systems, S.u.S.E., and many others. The exhibit floor was open Thursday and Friday of the conference.
+
+---
+
+## Archive
+
+- [Sponsors](sponsors)
+- [Exhibitors](expo)
+- [Presentations](presentations)
+- [Press Releases](press)
+- [Original archive site](http://archive.apachecon.com/2000/US/)
+
+---
+
