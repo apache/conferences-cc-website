@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/favicons/manifest.json">
+    <link rel="shortcut icon" href="/favicons/favicon.png">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#282661">
+
+    <title>ApacheCon North America 2022 | Community Over Code</title>
+    <link href="/fonts/Montserrat-300-600-800.css" async rel="stylesheet">
+    <link href="/css/styles.css" async rel="stylesheet">
+    <script src="https://www.apachecon.com/event-images/snippet.js" async></script>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/init.js"></script>
+</head>
+<body   class="body-apachecon-north-america-2022" >
+    <header id="header-main">
+         <div class="inner relative z1 flex flex-space-between flex-vert-center">
+            <a href="/" class="logo">
+                <img src="/images/CommunityOverCode_Logo_horizontal-color.svg" alt="ASF Events">
+            </a>
+            <div id="nav-toggle" class="nav-toggle hidden">
+                <span id="nav-top"></span>
+                <span id="nav-mid"></span>
+                <span id="nav-btm"></span>
+            </div>
+            
+
+<nav>
+    <ul class="flex">
+        <li><a href="/events/north-america-2022">Home</a></li>
+        
+         <li><a href="/events/north-america-2022/schedule">Schedule</a></li>
+         <li><a href="/events/north-america-2022/slides">Slides</a></li>
+         <li><a href="/events/north-america-2022/sponsorship">Sponsorship</a></li>
+    </ul>
+</nav>    </header>
+
+
+        <div class="hero hero--event-home relative" style="background-image: url('');">
+            <div class="inner flex py-xl relative flex-vert-center z1 flex-col-reverse-800 flex-gap-50">
+                <div class="hero__content flex-1">
+                    <div class="hero-event-dates text-white">October 2-6, 2022</div>
+                    <h1 class="hero__title">
+                        New Orleans, LA
+                    </h1>
+                    <div class="hero-hashtag text-white">#CommunityOverCode</div>
+                    <div class="hero-ctas flex flex-gap-20 flex-wrap">
+                    </div>
+                </div>
+                <div class="hero__logo flex-1">
+                        <img src="/images/CoC-logo-white.webp" alt="Community Over Code logo" class="hero__logo-image">
+                </div>
+            </div>
+                <script>
+                    // Countdown timer script
+                    let countdownInterval;
+                    
+                    function updateCountdown() {
+                        const countdownWrapper = document.getElementById('countdown-wrapper');
+                        const targetDate = new Date(countdownWrapper.getAttribute('data-date')).getTime();
+                        const now = new Date().getTime();
+                        const distance = targetDate - now;
+                        if(distance > 0) {
+                            countdownWrapper.classList.add('show');
+                        } else {
+                            clearInterval(countdownInterval); // Stop the interval
+                            // remove countdown from the dom
+                            countdownWrapper.remove();
+                            return;
+                        }
+                        
+                        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                        document.getElementById('cd-days').textContent = String(days).padStart(2, '0');
+                        document.getElementById('cd-hours').textContent = String(hours).padStart(2, '0');
+                        document.getElementById('cd-minutes').textContent = String(minutes).padStart(2, '0');
+                        document.getElementById('cd-seconds').textContent = String(seconds).padStart(2, '0');
+                    }
+
+                    countdownInterval = setInterval(updateCountdown, 1000);
+                    updateCountdown(); // Initial call to set values immediately
+                </script>
+                <div id="countdown-wrapper" class="countdown" data-date="2022-10-02">
+                    <div class="countdown__box card">
+                        <span id="cd-days" class="countdown__number">00</span>
+                        <span class="countdown__label">Days</span>
+                    </div>
+                    <div class="countdown__box card">
+                        <span id="cd-hours" class="countdown__number">00</span>
+                        <span class="countdown__label">Hours</span>
+                    </div>
+                    <div class="countdown__box card">
+                        <span id="cd-minutes" class="countdown__number">00</span>
+                        <span class="countdown__label">Minutes</span>
+                    </div>
+                    <div class="countdown__box card">
+                        <span id="cd-seconds" class="countdown__number">00</span>
+                        <span class="countdown__label">Seconds</span>
+                    </div>
+                </div>
+        </div>
+    <section class="maincontent maincontent--single-event">
+        <div class="inner flex-col-800 flex py-xl">
+            <div class="flex-1"></div>
+            <div class="flex-2 overflow-hidden">
+                    <p>ApacheCon North America 2022 will be held at the Sheraton, Canal Street, New Orleans, October 3-6 2022. With over 160 sessions, this year's in-person conference delivers the knowledge, connections, and expertise ApacheCon is known for.</p>
+<p>Speaker slides are <a href="/events/north-america-2022/slides">now available</a>.</p>
+<hr/>
+
+            </div>
+        </div>
+    </section>
+    <!-- 
+        NOTE: For this section to work, to update the sponsors.json file in the event directory.  
+        - Add all of your sponsors to the appropriate category (diamond, gold, silver).
+        - Make sure to include the sponsor's name, logo URL, and link URL in the JSON file.
+        - update the asfdata.yaml file to include the path to your sponsors.json file under the sponsors key, using a unique key for your event (e.g., glasgow-2026). 
+        - in the event landing page meta data, set the sponsorskey to match the key you used in asfdata.yaml (e.g., glasgow-2026) 
+    -->
+        <section class="sponsors">
+            <div class="inner py-xl">
+                <h2 class="text-center">Event Sponsors</h2>
+                    <div class="sponsor-logos-section py-large">
+                        <h3 class="text-center">Platinum</h3>
+                        <div class="sponsor-logos">
+                                <div class="sponsor-logo">
+                                        <img src="/images/sponsors/AWS_logo_RGB_1c_Gray850.svg" loading="lazy" alt="AWS">
+                                </div>
+                                <div class="sponsor-logo">
+                                        <img src="/images/sponsors/logo-cloudera.png" loading="lazy" alt="Cloudera">
+                                </div>
+                                <div class="sponsor-logo">
+                                        <img src="/images/sponsors/GC_Logo_FullColor_cmkyC.svg" loading="lazy" alt="Google Cloud">
+                                </div>
+                                <div class="sponsor-logo">
+                                        <img src="/images/sponsors/logo-gradle-enterprise.jpg" loading="lazy" alt="Gradle Enterprise">
+                                </div>
+                        </div>
+                    </div>
+                    <div class="sponsor-logos-section py-large">
+                        <h3 class="text-center">Gold</h3>
+                        <div class="sponsor-logos sponsor-logos--gold">
+                                <div class="sponsor-logo">
+                                        <img src="/images/sponsors/logo-datastax.png" loading="lazy" alt="DataStax">
+                                </div>
+                                <div class="sponsor-logo">
+                                        <img src="/images/sponsors/logo-instaclustr.png" loading="lazy" alt="Instclustr">
+                                </div>
+                                <div class="sponsor-logo">
+                                        <img src="/images/sponsors/red_hat_logo.webp" loading="lazy" alt="Red Hat">
+                                </div>
+                                <div class="sponsor-logo">
+                                        <img src="/images/sponsors/logo-salesforce.png" loading="lazy" alt="Salesforce">
+                                </div>
+                                <div class="sponsor-logo">
+                                        <img src="/images/sponsors/logo-sonatype.png" loading="lazy" alt="Sonatype">
+                                </div>
+                        </div>
+                    </div>
+                    <div class="sponsor-logos-section py-large">
+                        <h3 class="text-center">Silver</h3>
+                        <div class="sponsor-logos sponsor-logos--silver">
+                                <div class="sponsor-logo">
+                                        <img src="/images/sponsors/logo-apple.png" loading="lazy" alt="Apple">
+                                </div>
+                        </div>
+                    </div>
+                    <div class="sponsor-logos-section py-large">
+                        <h3 class="text-center">Bronze</h3>
+                        <div class="sponsor-logos sponsor-logos--bronze">
+                                <div class="sponsor-logo">
+                                        <img src="/images/sponsors/aiven.jpg" loading="lazy" alt="Aiven">
+                                </div>
+                                <div class="sponsor-logo">
+                                        <img src="/images/sponsors/datagrate-logo.png" loading="lazy" alt="Datagrate">
+                                </div>
+                                <div class="sponsor-logo">
+                                        <img src="/images/sponsors/dbeaver.png" loading="lazy" alt="DBeaver">
+                                </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+       
+    <!-- Footer -->
+        <div class="footer-top-border"></div>
+        <footer>
+            <div class="inner py-large flex flex-gap-50 flex-col-reverse-800">
+                <div class="flex flex-column flex-gap-20 flex-1 text-white text-center-800">
+                   <img src="/images/logos/CommunityOverCode_Logo_stacked-white.webp" width="200" alt="Apache Software Foundation" class="footer-logo">
+                   <p>The Apache® Software Foundation (The ASF) provides software for the public good, guided by community over code. Learn more at apache.org.</p>
+                   <p>Apache and the Apache logo are trademarks of The Apache Software Foundation.</p>
+                   <p>The Apache® Software Foundation is a 501(c)(3) nonprofit organization. Tax ID # 47-0825376</p>
+                   <div class="social-icons">
+                        <a target="_blank" href="http://s.apache.org/apachecon-slack"><img src="/images/slack-icon.svg" alt="slack icon"></a>
+                        <a target="_blank" href="https://github.com/apache"><img src="/images/github-mark-white.svg" alt="github icon"></a>
+                        <a target="_blank" href="https://www.linkedin.com/company/the-apache-software-foundation/"><img src="/images/linkedin-icon.png" alt="linkedIn icon"></a>
+                        <a target="_blank" href="https://www.youtube.com/@communityovercode"><img src="/images/youtube-icon.svg" alt="youtube icon"></a>
+                        <a target="_blank" href="https://twitter.com/TheASF"><img src="/images/x-icon.svg" alt="X icon"></a>
+                        <a target="_blank" href="https://bsky.app/profile/apache.org"><img src="/images/bluesky-icon.png" alt="Bluesky icon"></a>
+                        <a target="_blank" href="https://fosstodon.org/@TheASF" rel="me"><img src="/images/mastodon-icon.png" alt="Mastodon icon"></a>
+                </div>
+                </div>
+                <div class="flex flex-column flex-gap-20 flex-1">
+                    <nav class="footer-nav">
+                        <ul class="flex flex-column flex-gap-10 text-center-800 ">
+                            <li><a href="/events">Events</a></li>
+                            <li><a href="https://news.apache.org/foundation/entry/category/events">News</a></li>
+                            <li><a href="/about#contact-section">Contact</a></li>
+                            <li><a href="/code-of-conduct">Code of Conduct</a></li>
+                            <li><a href="https://privacy.apache.org/policies/privacy-policy-public.html">Privacy Policy</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="flex flex-column flex-gap-20 footer-events flex-1">
+                    <h2 class="text-heading-light text-center-800">ASF Events</h2>
+                        <div class="card card--footer">
+                            <a href="/events/glasgow-2026">
+                                <div class="card-inner flex flex-column">
+                                    <div class="event-card__date">October 11-14, 2026</div>
+                                    <h4>Community Over Code Glasgow 2026</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card card--footer">
+                            <a href="/events/sydney-2026">
+                                <div class="card-inner flex flex-column">
+                                    <div class="event-card__date">November 18-19, 2026</div>
+                                    <h4>Community Over Code Sydney 2026</h4>
+                                </div>
+                            </a>
+                        </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+
+

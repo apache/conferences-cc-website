@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/favicons/manifest.json">
+    <link rel="shortcut icon" href="/favicons/favicon.png">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#282661">
+
+    <title>Apache Geospatial Track | Community Over Code</title>
+    <link href="/fonts/Montserrat-300-600-800.css" async rel="stylesheet">
+    <link href="/css/styles.css" async rel="stylesheet">
+    <script src="https://www.apachecon.com/event-images/snippet.js" async></script>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/init.js"></script>
+</head>
+<body   class="body-apachecon-home-2021" >
+    <header id="header-main">
+         <div class="inner relative z1 flex flex-space-between flex-vert-center">
+            <a href="/" class="logo">
+                <img src="/images/CommunityOverCode_Logo_horizontal-color.svg" alt="ASF Events">
+            </a>
+            <div id="nav-toggle" class="nav-toggle hidden">
+                <span id="nav-top"></span>
+                <span id="nav-mid"></span>
+                <span id="nav-btm"></span>
+            </div>
+            
+
+<nav>
+    <ul class="flex">
+        <li><a href="/events/apachecon-home-2021">Home</a></li>
+        
+         <li><a href="/events/apachecon-home-2021/tracks">Schedule</a></li>
+         <li><a href="/events/apachecon-home-2021/sponsorship">Sponsorship</a></li>
+    </ul>
+</nav>    </header>
+
+    
+    
+   
+        <div class="hero hero--single-event-default relative">
+            <div class="inner flex flex-vert-center py-xl relative z1 flex-gap-50 flex-col-reverse-800">
+                <div class="hero__content flex-1">
+                    <h1 class="hero__title">
+                        Apache Geospatial Track
+                    </h1>
+                        <div class="hero-event-dates">September 21-23, 2021</div>
+                    <h2 class="hero__default-subtitle">
+                            <span class="hero__subtitle"> Online</span>
+                    </h2>
+                </div>
+                <div class="hero__logo flex-1">
+                        <img src="/images/logos/CommunityOverCode_Logo_stacked-color.svg" alt="Apache Geospatial Track logo" class="hero__logo-image">
+                </div>
+            </div>
+        </div>
+    <section class="maincontent maincontent--single-event">
+        <div class="inner py-xl">
+            <div class="mb-medium cf">
+                <div class="float66 right" style="padding-left: 50px;">
+                    <a class="breadcrumb" href="/events/apachecon-home-2021"><svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><polyline points="15 18 9 12 15 6"></polyline></svg> Back to Event Home</a>
+                </div>
+            </div>
+            <div class="cf flex-col-800">
+                    <div class="float33 full-width-800">&nbsp;</div>
+                <div class="float66 event-content">
+                        <hr/>
+<p><strong>Tuesday 14:10 UTC</strong></p>
+<h2>Twelve OGC/ISO standards used in Apache SIS and other projects</h2>
+<h3>Martin Desruisseaux</h3>
+<p>The Open Geospatial Consortium (OGC) conjointly with the International Organization for Standardization (ISO) define international standards that make interoperability possible between different geospatial applications. Many standards are articulated around data formats (Well Known Text, Geographic Markup Language, etc.) and web services (Web Map Service, Web Feature Service, etc.). But there is also an increasing number of standards for API.
+Apache SIS is a Java library for helping developers to create their own geospatial application. SIS follows closely a dozen of OGC/ISO standards. This presentation will do a quick overview of the following standards and give for each of them a few entry points in the API of Apache SIS 1.0 or later, together with PROJ (via JNI) and UCAR netCDF library when applicable.</p>
+<ul>
+<li>ISO 19115 &mdash; Metadata, for answering &ldquo;what, where, when&rdquo;.</li>
+<li>ISO 19157 &mdash; Data Quality, for answering &ldquo;how reliable&rdquo;.</li>
+<li>ISO 19111 &mdash; Referencing by coordinates, which includes map projections.</li>
+<li>ISO 19112 &mdash; Spatial referencing by geographic identifiers.</li>
+<li>ISO 19162 &mdash; Well-Known Text representation of coordinate reference systems.</li>
+<li>ISO 19136 &mdash; Geography Markup Language (reference systems only in Apache SIS).</li>
+<li>OGC GeoAPI 3.0.1 &mdash; Java interfaces derived from OGC/ISO abstract models.</li>
+</ul>
+<p>The use of a common Java API for the three above-cited implementations (SIS, PROJ, UCAR) is possible with GeoAPI. Wrappers for PROJ and UCAR are defined in separated projects, which will be presented.
+Above-cited standards are well established in Apache SIS 1.0. The following standards are either new or got substantial improvements in the SIS development branch:</p>
+<ul>
+<li>ISO 19143 &mdash; Filter encoding, for specifying a subset of resources.</li>
+<li>ISO 19109 &mdash; Rules for application schema (i.e., &ldquo;Features&rdquo;).</li>
+<li>OGC 18-075 &mdash; Moving Features, adding temporal variability to the above.</li>
+<li>OGC 10-092 &mdash; NetCDF binary encoding, for raster data and moving features.</li>
+<li>OGC 19-008 &mdash; GeoTIFF format, for raster data.</li>
+</ul>
+<p>The talk will expose some pros and cons of available formats and how the ongoing OGC TestBed 17 is experimenting their use in a cloud environment.</p>
+<p><em>Martin holds a Ph.D in oceanography, but has continuously focused on developing tools for analysis work. Programming experience was C/C++ before to switch to Java in 1997. He develops geospatial libraries for more than 25 years, as a contributor to Apache SIS since 2013. He follows Open Geospatial Consortium (OGC) meetings since 2002 in the hope to improve Apache SIS conformance to those standards. Martin works in a small IT services company (Geomatys) specialized in development of geoportals, which uses Apache SIS as a foundation.</em></p>
+<hr/>
+<p><strong>Tuesday 15:00 UTC</strong></p>
+<h2>An introduction to the OGC API - Processes and practical examples</h2>
+<h3>Benjamin Pross</h3>
+<p>The Open Geospatial Consortium (OGC) API - Processes - Part 1: Core is a standard that specifies a Web API that enables the execution of computing processes and the retrieval of metadata describing their purpose and functionality.
+Typically, these processes combine raster, vector, coverage and/or point cloud data with well-defined algorithms to produce new raster, vector, coverage and/or point cloud information.
+The standard builds on the OGC Web Processing Service (WPS) 2.0 Standard and defines the processing interface to communicate over a RESTful protocol using JSON encodings.
+Like all OGC APIs, the API - Processes is a modular specification consisting of multiple parts. Besides the Core, two additional Parts are currently worked on:
+Part 2: Transactions for deployment
+Part 3: Workflows and Chaining
+This talk gives an overview about the API and shows pratical examples using the 52&deg;North javaPS framework. The framework enables users to deploy new processes based on Docker images. Examples will be given using Docker images for processing of Earth Observation Data.</p>
+<p><em>Benjamin Pross holds a diploma degree in geoinformatics. He specialises in Web-based geoprocessing. He is the chair of the API - Processes standard working group within the Open Geospatial Consortium (OGC), editor of the OGC API - Processes - Part 1: Core and co-editor of the OGC WPS 2.0 standard.</em></p>
+<hr/>
+<p><strong>Tuesday 15:50 UTC</strong></p>
+<h2>Datacubes: Enabling Space/Time Analytics and AI</h2>
+<h3>Peter Baumann</h3>
+<p>Datacubes today are an accepted cornerstone in Earth Science, acting as an enabling paradigm for offering massive spatio-temporal Earth data - such as 1D sensor, 2D imagery, 3D x/y/t image timeseries and x/y/z geological data, 4D x/y/z/t atmospheric simulation, and nD statistics data - in an analysis-ready way. This is achieved by combining zillions of individual files into single, homogenized objects offering uninhibited navigation in space and time, analytics, and fusion. On top of this, APIs and clients can be crafted which save substantial work to the experts and unleash these data for non-experts in IT and Remote Sensing. Recent research investigates on a tight coupling of spatio-temporal AI with datacubes.
+In OGC and ISO standardization, coverages provide the unifying concept for spatio-temporal datacubes, with the streamlined service model of Web Coverage Service (WCS) including Web Coverage Processing Service (WCPS), OGC's geo datacube analytics language. A large, continuously growing number of open-source and proprietary tools support the coverage standards. In parallel, in 2019 ISO has enhanced the SQL standard with domain-independent datacube functionality.
+Actionable datacubes have been coined by the rasdaman Array Database engine, an idea subsequently taken up by many epigons, often by extending libraries like xarray or adding array layers on top of Hadoop and Spark. Operational datacube services exist on multi-Petabyte assets. EarthServer represents the first location-transparent federation of massive SAR, optical, and simulation datacubes.
+In our talk we introduce key concepts of datacube services with emphasis on analytics and AI, inspect relevant standards, and discuss implementation in distributed, federated contexts. This will be exemplified with real-life demos which participants can recap and modify on their Internet-connected laptop.</p>
+<p><em>Peter Baumann is Professor of Computer Science at Jacobs University, researching on datacube services and their application in science and engineering. With the rasdaman engine he and his team have pioneered datacubes and Array Databases, with over 160 scientific publications and international patents. The rasdaman datacube engine is successfully commercialized internationally and has received a series of innovation awards. Peter Baumann is editor of the core datacube standards in ISO and OGC.</em></p>
+<hr/>
+<p><strong>Tuesday 17:10 UTC</strong></p>
+<h2>Introduction to new GeoSPARQL features with Apache Jena</h2>
+<h3>Marco Neumann</h3>
+<p>Linked Data has now been widely adopted as the preferred option for creating, publishing and reuse for data on the Web. Spatial searches in Jena have been introduces now almost 20 years ago to the project. But now with the most recent Apacha Jena release the projects continues to consolidate and streamline the use of GeoSPARQL in a simple to use package.
+In the presentation we will give you a brief introduction to geospatial searches with Apache Jena and and update on current developments.</p>
+<p><em>Marco Neumann is an Information Scientist with keen interest in distributed information syndication and contexts for the Semantic Web, dynamic schema evolution in structured data, information visualization, ontology based knowledge management, reputation based ranking in Semantic Social Networks (augmented collaborative online communities such as <a href="http://www.lotico.com">http://www.lotico.com</a>), and last but not least the Semantic GeoSpatial Web. Since 2005 Marco applies his experiencing to large-scale information management projects in international cultural heritage institutions and the private sector.</em></p>
+<hr/>
+<p><strong>Tuesday 18:00 UTC</strong></p>
+<h2>Processing Geospatial Data at Scale with Python and Apache Sedona (incubating).</h2>
+<h3>Pawe&lstrok; Koci&nacute;ski</h3>
+<p>Nowadays we collect a lot of data from IoT sensors, mobile applications. We need somehow manage, and process the data to acquire knowledge which in data driven world lead to correct decisions and predictions.
+Apache Sedona (incubating) is an open source library which extends Apache Spark with geospatial capabilities. It has Scala, Java, Python and R API's which helps to process and analyze geospatial data at scale.
+This presentation focuses focus on Python API with examples (Spark 2.4 and 3.0)</p>
+<ul>
+<li>How to read the data from various spatial data sources including, geojson, shapefile, wkt, wkb.</li>
+<li>How to integrate other Python libraries with Apache Sedona (incubating) such as geopandas, shapely, pandas numpy, folium.</li>
+<li>How to join the data based on spatial relation like intersecting, containing, within distance using OSM data.</li>
+<li>How to read the data from external databases like PostgreSQL</li>
+<li>Geospatial indexes, spatial partitioning and why it is important to use them.</li>
+<li>Best practices while using Python API to avoid additional computing and memory issues.</li>
+</ul>
+<p>Apache Sedona (incubating) can help many data scientists to solve their daily problems with less code. This talk explain how actually Apache Sedona (incubating) Python API works, how to use it to get nearly the same performance as core Scala/Java API's.</p>
+<p><em>Pawe&lstrok; Koci&nacute;ski is currently working at allegro.pl, ASF and Apache Sedona (incubating) committer, main author of Sedona Python API. Big Data, Stream processing, Scala and Python enthusiast. Worked at various projects to help European and US companies expand their businesses based on geospatial data. Warsaw University of Technology Graduate.</em></p>
+<hr/>
+<p><strong>Tuesday 18:50 UTC</strong></p>
+<h2>Streaming Geospatial Vector Data with Apache Projects</h2>
+<h3>Jim Hughes</h3>
+<p>As IoT-based use cases increase, so has the need to create real-time geospatial views of the data generated. In this talk, we will describe how Apache Kafka and Apache NiFi can be leveraged to enable spatial data streaming and data management.
+The first part of the talk will dive into the details of indexing observation data for entities moving through space and time. Examples will show how a web-tier can be polled to show a live picture of multiple moving entities.
+The second part of the talk will focus on using NiFi to route data through an enterprise. Apache NiFi provides a visual programming interface to create, represent, and monitor data flows. The GeoMesa-NiFi project provides Processors which allow for handling spatial data with GeoMesa and GeoTools DataStores.</p>
+<p><em>Jim Hughes applies training in mathematics and computer science to build distributed, scalable system capable of supporting data science and machine learning. He is a core committer for GeoMesa, which leverages HBase, Accumulo and other distributed database systems to provide distributed computation and query capabilities. He is also a committer for the LocationTech projects JTS and SFCurve and serves a mentor for other LocationTech and Eclipse projects. He serves on the LocationTech Project Management Committee and Steering Committee. Through work with LocationTech and OSGeo projects like GeoTools and GeoServer, he works to build end-to-end solutions for big spatio-temporal problems. Jim received his Ph.D. in Mathematics from the University of Virginia for work studying algebraic topology. He enjoys playing outdoors and swing dancing.</em></p>
+<hr/>
+<p><strong>Tuesday 19:40 UTC</strong></p>
+<h2>Enabling Mars Exploration with AHTSE</h2>
+<h3>Dr. Lucian Plesea</h3>
+<p>Apache HTTPD Tile Serving Environment (AHTSE) is a loose collection of Apache HTTPD modules that can be combined to build highly scalable geospatial raster tile services. Cloud storage is a core feature of AHTSE, and when necessary, lightweight image processing and even map projections are done on the fly, in memory, greatly reducing the cost and effort to manage large collection of maps and support client applications with different requirements.
+Last year's AHTSE presentation was a very quick overview of existing capabilities. For this year, in addition to an AHTSE status update, details of the AHTSE architecture and configuration will be presented, as used to build the Esri Explore Mars application, available online at <a href="https://explore-mars.esri.com">https://explore-mars.esri.com</a>. These AHTSE based Mars services are used as a testing ground for AHTSE, with the goal of preserving the qualitites of the original data, for applications that can make use of those qualities, while preserving compatibility with legacy applications.</p>
+<p><em>Dr. Lucian Plesea career has always been intertwined with geospatial mapping and high performance web services. During his 20 years of work at the Jet Propulsion Laboratory, he transitioned from working on scientific supercomputing applications to processing satellite imagery and remote sensing data, and ultimately to developing high performance web services. While at JPL, he participated in some of the early OGC standardization efforts, especially the OGC WMS. While still contributing to NASA Earth and Planetary mapping projects, Dr. Plesea has transitioned to Esri, where he is the architect of the public basemap services, used by millions of users worldwide every day. He is also an active contributor to various geospatial open source projects, especially GDAL.</em></p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        // Smooth scroll for in-page navigation
+        const navContainer = document.getElementById('in-page-nav');
+        if(navContainer) {
+            document.addEventListener('DOMContentLoaded', function() {
+                // generate in-page navigation based on h2
+                const content = document.querySelector('.event-content');
+                const headings = content.querySelectorAll('h2');
+                const nav = document.getElementById('in-page-nav');
+                if (headings.length > 0) {
+                    const navList = document.createElement('ul');
+                    headings.forEach(heading => {
+                        const id = heading.textContent.trim().toLowerCase().replace(/\s+/g, '-');
+                        heading.setAttribute('id', id);
+                        const navItem = document.createElement('li');
+                        const navLink = document.createElement('a');
+                        navLink.setAttribute('href', `#${id}`);
+                        navLink.textContent = heading.textContent;
+                        navItem.appendChild(navLink);
+                        navList.appendChild(navItem);
+                    });
+                    nav.appendChild(navList);
+                }
+
+                const links = document.querySelectorAll('#in-page-nav a');
+                links.forEach(link => {
+                    link.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        // in this loop, 'this' refers to the clicked link
+                        // add class of current-section to the clicked link and remove from others
+                        links.forEach(l => l.classList.remove('current-section'));
+                        this.classList.add('current-section');
+                        const targetId = this.getAttribute('href').substring(1);
+                        const targetElement = document.getElementById(targetId);
+                        if (targetElement) {
+                            window.scrollTo({
+                                top: targetElement.offsetTop - 100, // Adjust for fixed header
+                                behavior: 'smooth'
+                            });
+                        }
+                    });
+                });
+
+                // Highlight the current section in the navigation as the user scrolls
+                window.addEventListener('scroll', function() {
+                    let currentSection = '';
+                    headings.forEach(heading => {
+                        const sectionTop = heading.offsetTop - 150; // Adjust for fixed header
+                        if (window.scrollY >= sectionTop) {
+                            currentSection = heading.getAttribute('id');
+                        }
+                    });
+                    links.forEach(link => {
+                        link.classList.remove('current-section');
+                        if (link.getAttribute('href').substring(1) === currentSection) {
+                            link.classList.add('current-section');
+                        }
+                    });
+                });
+            });
+        }
+    </script>
+    <!-- Footer -->
+        <div class="footer-top-border"></div>
+        <footer>
+            <div class="inner py-large flex flex-gap-50 flex-col-reverse-800">
+                <div class="flex flex-column flex-gap-20 flex-1 text-white text-center-800">
+                   <img src="/images/logos/CommunityOverCode_Logo_stacked-white.webp" width="200" alt="Apache Software Foundation" class="footer-logo">
+                   <p>The Apache® Software Foundation (The ASF) provides software for the public good, guided by community over code. Learn more at apache.org.</p>
+                   <p>Apache and the Apache logo are trademarks of The Apache Software Foundation.</p>
+                   <p>The Apache® Software Foundation is a 501(c)(3) nonprofit organization. Tax ID # 47-0825376</p>
+                   <div class="social-icons">
+                        <a target="_blank" href="http://s.apache.org/apachecon-slack"><img src="/images/slack-icon.svg" alt="slack icon"></a>
+                        <a target="_blank" href="https://github.com/apache"><img src="/images/github-mark-white.svg" alt="github icon"></a>
+                        <a target="_blank" href="https://www.linkedin.com/company/the-apache-software-foundation/"><img src="/images/linkedin-icon.png" alt="linkedIn icon"></a>
+                        <a target="_blank" href="https://www.youtube.com/@communityovercode"><img src="/images/youtube-icon.svg" alt="youtube icon"></a>
+                        <a target="_blank" href="https://twitter.com/TheASF"><img src="/images/x-icon.svg" alt="X icon"></a>
+                        <a target="_blank" href="https://bsky.app/profile/apache.org"><img src="/images/bluesky-icon.png" alt="Bluesky icon"></a>
+                        <a target="_blank" href="https://fosstodon.org/@TheASF" rel="me"><img src="/images/mastodon-icon.png" alt="Mastodon icon"></a>
+                </div>
+                </div>
+                <div class="flex flex-column flex-gap-20 flex-1">
+                    <nav class="footer-nav">
+                        <ul class="flex flex-column flex-gap-10 text-center-800 ">
+                            <li><a href="/events">Events</a></li>
+                            <li><a href="https://news.apache.org/foundation/entry/category/events">News</a></li>
+                            <li><a href="/about#contact-section">Contact</a></li>
+                            <li><a href="/code-of-conduct">Code of Conduct</a></li>
+                            <li><a href="https://privacy.apache.org/policies/privacy-policy-public.html">Privacy Policy</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="flex flex-column flex-gap-20 footer-events flex-1">
+                    <h2 class="text-heading-light text-center-800">ASF Events</h2>
+                        <div class="card card--footer">
+                            <a href="/events/glasgow-2026">
+                                <div class="card-inner flex flex-column">
+                                    <div class="event-card__date">October 11-14, 2026</div>
+                                    <h4>Community Over Code Glasgow 2026</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card card--footer">
+                            <a href="/events/sydney-2026">
+                                <div class="card-inner flex flex-column">
+                                    <div class="event-card__date">November 18-19, 2026</div>
+                                    <h4>Community Over Code Sydney 2026</h4>
+                                </div>
+                            </a>
+                        </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+
+

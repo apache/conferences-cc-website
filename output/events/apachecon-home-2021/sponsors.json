@@ -1,0 +1,62 @@
+{
+    "platinum": [
+        {
+            "name": "AWS", 
+            "logo": "/images/sponsors/AWS_logo_RGB_1c_Gray850.svg"
+        },
+        {
+            "name": "Cloudera", 
+            "logo": "/images/sponsors/logo-cloudera.png"
+        },
+        {
+            "name": "Google Cloud", 
+            "logo": "/images/sponsors/GC_Logo_FullColor_cmkyC.svg"
+        },
+        {
+            "name": "Gradle Enterprise", 
+            "logo": "/images/sponsors/logo-gradle-enterprise.jpg"
+        }
+    ],
+    "gold": [
+        {
+            "name": "DataStax", 
+            "logo": "/images/sponsors/logo-datastax.png"
+        },
+        {
+            "name": "Instclustr", 
+            "logo": "/images/sponsors/logo-instaclustr.png"
+        },
+        {
+            "name": "Red Hat", 
+            "logo": "/images/sponsors/red_hat_logo.webp"
+        },
+        {
+            "name": "Salesforce", 
+            "logo": "/images/sponsors/logo-salesforce.png"
+        },
+        {
+            "name": "Sonatype", 
+            "logo": "/images/sponsors/logo-sonatype.png"
+        }
+    ],
+    "silver": [
+        {
+            "name": "Apple", 
+            "logo": "/images/sponsors/logo-apple.png"
+        }
+    ],
+    "bronze": [
+        {
+            "name": "Aiven", 
+            "logo": "/images/sponsors/aiven.jpg"
+        },
+        {
+            "name": "Datagrate", 
+            "logo": "/images/sponsors/datagrate-logo.png"
+        },
+        {
+            "name": "DBeaver", 
+            "logo": "/images/sponsors/dbeaver.png"
+        }
+    ]
+}

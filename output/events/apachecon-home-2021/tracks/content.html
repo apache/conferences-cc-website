@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/favicons/manifest.json">
+    <link rel="shortcut icon" href="/favicons/favicon.png">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#282661">
+
+    <title>Apache Content Delivery Track | Community Over Code</title>
+    <link href="/fonts/Montserrat-300-600-800.css" async rel="stylesheet">
+    <link href="/css/styles.css" async rel="stylesheet">
+    <script src="https://www.apachecon.com/event-images/snippet.js" async></script>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/init.js"></script>
+</head>
+<body   class="body-apachecon-home-2021" >
+    <header id="header-main">
+         <div class="inner relative z1 flex flex-space-between flex-vert-center">
+            <a href="/" class="logo">
+                <img src="/images/CommunityOverCode_Logo_horizontal-color.svg" alt="ASF Events">
+            </a>
+            <div id="nav-toggle" class="nav-toggle hidden">
+                <span id="nav-top"></span>
+                <span id="nav-mid"></span>
+                <span id="nav-btm"></span>
+            </div>
+            
+
+<nav>
+    <ul class="flex">
+        <li><a href="/events/apachecon-home-2021">Home</a></li>
+        
+         <li><a href="/events/apachecon-home-2021/tracks">Schedule</a></li>
+         <li><a href="/events/apachecon-home-2021/sponsorship">Sponsorship</a></li>
+    </ul>
+</nav>    </header>
+
+    
+    
+   
+        <div class="hero hero--single-event-default relative">
+            <div class="inner flex flex-vert-center py-xl relative z1 flex-gap-50 flex-col-reverse-800">
+                <div class="hero__content flex-1">
+                    <h1 class="hero__title">
+                        Apache Content Delivery Track
+                    </h1>
+                        <div class="hero-event-dates">September 21-23, 2021</div>
+                    <h2 class="hero__default-subtitle">
+                            <span class="hero__subtitle"> Online</span>
+                    </h2>
+                </div>
+                <div class="hero__logo flex-1">
+                        <img src="/images/logos/CommunityOverCode_Logo_stacked-color.svg" alt="Apache Content Delivery Track logo" class="hero__logo-image">
+                </div>
+            </div>
+        </div>
+    <section class="maincontent maincontent--single-event">
+        <div class="inner py-xl">
+            <div class="mb-medium cf">
+                <div class="float66 right" style="padding-left: 50px;">
+                    <a class="breadcrumb" href="/events/apachecon-home-2021"><svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><polyline points="15 18 9 12 15 6"></polyline></svg> Back to Event Home</a>
+                </div>
+            </div>
+            <div class="cf flex-col-800">
+                    <div class="float33 full-width-800">&nbsp;</div>
+                <div class="float66 event-content">
+                        <hr/>
+<p><strong>Wednesday 14:10 UTC</strong></p>
+<h2>A Test Harness to Verify Traffic Router Performance</h2>
+<h3>Zach Hoffman</h3>
+<p>As the client-facing entrypoint of an Apache Traffic Control CDN, each Traffic Router must respond to clients quickly and rapidly, but ATC has historically lacked load tests for Traffic Router. The new Traffic Router Test Harness generates a high volume of requests to Delivery Services to ensure that the Traffic Routers' performance meets acceptable thresholds. This talk showcases features and coverage of the Traffic Router Test Harness and demonstrates how a CDN operator can use it to verify that Traffic Router performance meets expectations.</p>
+<p><em>Zach Hoffman lives in Denver, Colorado, is a software engineer at Comcast, and spends spare time contributing to online puzzle game communities and playing the piano. When working on Apache Traffic Control, Zach focuses on its Go and Java components.</em></p>
+<hr/>
+<p><strong>Wednesday 15:00 UTC</strong></p>
+<h2>CDN Locks: A way to ensure data integrity in the CDN</h2>
+<h3>Srijeet Chatterjee</h3>
+<p>Currently, there is no way to guarantee that only your changes will make their way into a snapshot for a CDN. If somebody else makes changes while you're in the middle of modifying your CDN components or properties, their changes will "dirty" your snapshot and change the integrity of the data that you'd expect in your snapshot. This could result in data mismatches and inconsistencies.
+With CDN locks, you can ensure one or both of the following conditions:</p>
+<ul>
+<li>Only you can make changes and snap/ queue your CDN (exclusive locks)</li>
+<li>Anybody can make changes but only you can snap/ queue your CDN (shared locks)</li>
+</ul>
+<p><em>Srijeet Chatterjee is a senior software engineer at Comcast, working on the Traffic Control (CDN) team. I've been with Comcast for 5 years, and with the TC team for 1 year and 6 months. Before this, I was working with Echostar (now Dish) for about 3 years. I've been involved with the media/ content field for more than 8 years now, and love every bit of it. My interests are developing large scale, robust software, and provide a highly satisfactory end product for the customer. Outside work, I'm a big sports fan, both playing and watching. I love playing cricket and football (soccer) and spend most of my weekends on the field.</em></p>
+<hr/>
+<p><strong>Wednesday 15:50 UTC</strong></p>
+<h2>Traffic Monitor Distributed Polling</h2>
+<h3>Dave Neuman</h3>
+<p>Traffic Monitor is undergoing a pretty major refactor that change it from only being able to monitor a whole CDN, to being able to monitor part of a CDN if so desired. This talk will discuss the motivation to make these changes, the desired outcome, and the current progress of this effort.</p>
+<p><em>Dave is an Apache member and the former chair of the ATC project. For his day job, Dave is the director of the CDN Application team at Comcast.</em></p>
+<hr/>
+<p><strong>Wednesday 17:10 UTC</strong></p>
+<h2>Updates on CDN Environment Automation and Managing a CDN Operating System at Scale</h2>
+<h3>Jonathan Gray</h3>
+<p>In the previous two years at ApacheCon North America, we&rsquo;ve discussed leveraging Ansible to automate the deployment of CDN environments. This talk is provide updates we&rsquo;ve made this year as well as to discuss how to maintaining CDN operating systems at scale.</p>
+<p><em>Jonathan Gray has been with Comcast on the Content Delivery Network team for approaching 4 years focusing on Operations and Automation. Prior to that he's served as a software developer, integrator, and devops lead for Milsoft Utility Solutions for 7 years. He holds a Bachelor of Science Degree in Computer Science from Abilene Christian University where he also served as an IT Systems Administrator, Datacenter Administrator, and Virtualization Administrator for over 3 years.</em></p>
+<hr/>
+<p><strong>Wednesday 18:00 UTC</strong></p>
+<h2>Caching Proxy Configuration on the Traffic Control CDN</h2>
+<h3>Robert O Butts</h3>
+<p>The Apache Traffic Control CDN has recently rewritten its monolithic caching proxy configuration tool in Golang as a modular set of UNIX-style apps. We will look at these tools, how they can be used to apply configuration like the previous traffic_ops_ort.pl tool, and how they interoperate and compose with themselves and other UNIX/Linux apps.</p>
+<p><em>Robert O Butts is a software engineer who works on Apache Traffic Control for the Comcast CDN. Rob is a Principal Engineer at Comcast with a Masters degree in Computer Science focused on Parallel Processing. Rob has worked on nearly every component of the Apache Traffic Control CDN. He was the initial author of the Golang Traffic Monitor, Traffic Ops, and the Grove HTTP Caching Proxy. He is currently working on Traffic Control caching and extending Apache Traffic Server for Traffic Control's needs.</em></p>
+<hr/>
+<p><strong>Wednesday 18:50 UTC</strong></p>
+<h2>Proxy Pains and Benefits Supporting HTTP/2 End to End</h2>
+<h3>Susan Hinrichs</h3>
+<p>Apache Traffic Server (ATS) proxies HTTP traffic. It has supported HTTP/2 for user agent requests almost since the HTTP/2 specification was finalized, but it does not support HTTP/2 for traffic from the proxy to the origin servers. ATS is not unique among proxy servers in supporting new protocols on the client side first. For reverse proxy deployments, many of the benefits for new proxy deployment are seen from the proxy side. An organization&rsquo;s origin servers are less likely to immediately move to the bleeding edge protocol versions. For forward proxy deployments the benefits of supporting newer protocols are more obvious, but after time even for reverse proxy deployments the need for supporting newer protocols to origin servers increases.
+ATS is in the process of refactoring to support multiple HTTP protocols to origin as well as from the user agent. In this talk, I will present some of the design issues we puzzled through and are still considering in this refactoring. For the different types of proxy deployments there are different constraints on supporting multiple protocols to origin. I will also present some preliminary performance experiences with the HTTP/2 to origin code base.</p>
+<p><em>Susan Hinrichs is a computer engineer who specializes in networking, security, and system development. She is a committer on the Apache Traffic Server project and a member of the Apache Software Foundation. Currently Susan leads efforts with the Edge team at Yahoo and now Verizon Media. Prior to that Susan worked in a variety of positions including teaching computer security at the University of Illinois, freelancing work in networking and security, and a couple start ups. Susan participated in the tech bubble by working with a network security company that got acquired by Cisco. Susan earned a PhD in Computer Science at Carnegie Mellon University and a BS in Computer Science from the University of Illinois at Urbana-Champaign.</em></p>
+<hr/>
+<p><strong>Wednesday 19:40 UTC</strong></p>
+<h2>Defining the data model of HTTP messages, not just the format</h2>
+<h3>Nicholas J. Car</h3>
+<p>Current Internet protocols (mainly IETF &amp; W3C standards) provide standard ways describe many aspects of HTTP messages, for example the format, language, cache time, etc. Until recently there has been no standard, or even candidate, to define the data model of messages either requested (by a client) or supplied (by a server).
+Content Negotiation by Profile is a dual proposed IETF RFQ &amp; W3C Recommendation. It provides mechanics for requesting and supplying HTTP messages that conform to profiles, which are identified data models.
+This extremely simple proposed extension to HTTP Headers has profound implications for the Internet: clients can request resources that meet their content needs, not just formats they can parse. Servers can tell clients what data models they support for representations of resources. The indication of profile conformance can be used for automated content validation too.
+This presentation will overview the motivation for these proposed standards and explain their potential impact, if adopted. Demonstration systems and data built since the initiation of these proposals will be shown.</p>
+<p><em>Nicholas is internationally recognised as a thought leader and expert in Data Architecture, Data Systems Design, Linked Data and Semantic technologies. He is active as a standards editor in the W3C&rsquo;s Dataset Exchange Working Group and the Open Geospatial Consortium&rsquo;s GeoSPARQL Standards Working Group and a member of the ISO&rsquo;s TC 211: Technical Committee for the geographic standards information. He was the design lead for Australian nationally significant and innovative Linked Data and Semantic Web projects, including the Location Index and the Longitudinal Spine of Government Functions, which are seeing emulation internationally. Nicholas has a Bachelor of Engineering (Hons) from the University of Sydney. and a Ph.D. (Engineering) from the University of Melbourne.</em></p>
+<hr/>
+<p><strong>Thursday 14:10 UTC</strong></p>
+<h2>The Future of Traffic Portal</h2>
+<h3>Steve Hamrick</h3>
+<p>Traffic Portal (the Traffic Control UI) was written many years ago in angularjs. With angularjs no longer receiving support at the end of 2021, it is important that we upgrade to the new angular. This has many benefits as over the years the web ecosystem has improved substantially. In this session, we will take a look at what new features angular can bring us such as developer speed/tooling, security improvements, and end user experience improvements (time to first paint, page size, accessibility, etc).</p>
+<p><em>Steve has his BS &amp; MS in Computer Science and has 5 years of experience in professional software development. He started using angularjs in 2015 where he rewrote an enterprise app from jQuery to angular. Steve also has experience with angular 2+, including converting multiple angularjs apps into angular. He currently works on the CDN team at Comcast.</em></p>
+<hr/>
+<p><strong>Thursday 15:00 UTC</strong></p>
+<h2>Cache Invalidation - Refresh vs Refetch</h2>
+<h3>Taylor C. Frey</h3>
+<ul>
+<li>"There are 2 hard problems in computer science: cache invalidation, naming things, and off-by-1 errors."</li>
+<li>Leon Bambrick</li>
+</ul>
+<p>Caches exist at all levels of a web request. These caches could be as low as the multi-level architecture within a CPU, stored on a client's computer by the browser, managed in a CDN, or the many steps in-between. While each of these types of caches are implemented differently they certainly share a common constraint: Caches cannot store everything forever. There are both growth (size) and scale (speed/access) limitations that prevent and force a limited capacity for caches. Because of these limitations, there are many strategies, policies, and algorithms to attempt to automatically manage the content being stored within a cache. However, not all caches can be automatically managed. Sometimes we must force a cache to refresh the content being stored, manually.
+As a content provider there are times where you may require cached content stored in a CDN to be re-validated. Validation is a process within the CDN to automatically perform a check against the origin to ensure the content is fresh, most often based on a Time-To-Live value or expiration date. This same logic is used to perform a manual check as well. Apache Traffic Control provides an ability to mark the content as stale, triggering an automatic validation with the origin. Still, this might not be sufficient. A mis-configured HTTP server on the origin could still be supplying a response saying the content is fresh, even though it is not. In this case we need the ability to force the CDN to treat the content as a miss, not just stale. To do this we added refetch (TM, hehe).
+Now within ATC, we have the ability to create an invalidation job that forces a cache miss (not just stale), causing the cache to retrieve the content regardless of whether it is currently storing a previous state or not. For example, a news company wishes to update a story as the details arrive. To ensure the customer is retrieving the latest, most accurate, information, a simple refresh invalidation job may not be sufficient. As mentioned before, the cache policy could be set incorrectly, for example. Administrators can create a refetch invalidation job, which can be interpreted by the cache servers as a miss so that the content must be retrieved from the origin. Now our news stories are brought up to date outside of the cache content policy.</p>
+<p><em>Taylor Frey is a Senior Software Engineer working on Apache Traffic Control for Comcast. Taylor received his Bachelor of Science in Computer Science and Master of Science in Software Engineering from Regis University. Since 2011, he has worked across a variety of technology stacks, including mobile (Android and iOS) and desktop applications (Windows and MacOS), although he primarily works with web technologies, focusing on the server side.</em></p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        // Smooth scroll for in-page navigation
+        const navContainer = document.getElementById('in-page-nav');
+        if(navContainer) {
+            document.addEventListener('DOMContentLoaded', function() {
+                // generate in-page navigation based on h2
+                const content = document.querySelector('.event-content');
+                const headings = content.querySelectorAll('h2');
+                const nav = document.getElementById('in-page-nav');
+                if (headings.length > 0) {
+                    const navList = document.createElement('ul');
+                    headings.forEach(heading => {
+                        const id = heading.textContent.trim().toLowerCase().replace(/\s+/g, '-');
+                        heading.setAttribute('id', id);
+                        const navItem = document.createElement('li');
+                        const navLink = document.createElement('a');
+                        navLink.setAttribute('href', `#${id}`);
+                        navLink.textContent = heading.textContent;
+                        navItem.appendChild(navLink);
+                        navList.appendChild(navItem);
+                    });
+                    nav.appendChild(navList);
+                }
+
+                const links = document.querySelectorAll('#in-page-nav a');
+                links.forEach(link => {
+                    link.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        // in this loop, 'this' refers to the clicked link
+                        // add class of current-section to the clicked link and remove from others
+                        links.forEach(l => l.classList.remove('current-section'));
+                        this.classList.add('current-section');
+                        const targetId = this.getAttribute('href').substring(1);
+                        const targetElement = document.getElementById(targetId);
+                        if (targetElement) {
+                            window.scrollTo({
+                                top: targetElement.offsetTop - 100, // Adjust for fixed header
+                                behavior: 'smooth'
+                            });
+                        }
+                    });
+                });
+
+                // Highlight the current section in the navigation as the user scrolls
+                window.addEventListener('scroll', function() {
+                    let currentSection = '';
+                    headings.forEach(heading => {
+                        const sectionTop = heading.offsetTop - 150; // Adjust for fixed header
+                        if (window.scrollY >= sectionTop) {
+                            currentSection = heading.getAttribute('id');
+                        }
+                    });
+                    links.forEach(link => {
+                        link.classList.remove('current-section');
+                        if (link.getAttribute('href').substring(1) === currentSection) {
+                            link.classList.add('current-section');
+                        }
+                    });
+                });
+            });
+        }
+    </script>
+    <!-- Footer -->
+        <div class="footer-top-border"></div>
+        <footer>
+            <div class="inner py-large flex flex-gap-50 flex-col-reverse-800">
+                <div class="flex flex-column flex-gap-20 flex-1 text-white text-center-800">
+                   <img src="/images/logos/CommunityOverCode_Logo_stacked-white.webp" width="200" alt="Apache Software Foundation" class="footer-logo">
+                   <p>The Apache® Software Foundation (The ASF) provides software for the public good, guided by community over code. Learn more at apache.org.</p>
+                   <p>Apache and the Apache logo are trademarks of The Apache Software Foundation.</p>
+                   <p>The Apache® Software Foundation is a 501(c)(3) nonprofit organization. Tax ID # 47-0825376</p>
+                   <div class="social-icons">
+                        <a target="_blank" href="http://s.apache.org/apachecon-slack"><img src="/images/slack-icon.svg" alt="slack icon"></a>
+                        <a target="_blank" href="https://github.com/apache"><img src="/images/github-mark-white.svg" alt="github icon"></a>
+                        <a target="_blank" href="https://www.linkedin.com/company/the-apache-software-foundation/"><img src="/images/linkedin-icon.png" alt="linkedIn icon"></a>
+                        <a target="_blank" href="https://www.youtube.com/@communityovercode"><img src="/images/youtube-icon.svg" alt="youtube icon"></a>
+                        <a target="_blank" href="https://twitter.com/TheASF"><img src="/images/x-icon.svg" alt="X icon"></a>
+                        <a target="_blank" href="https://bsky.app/profile/apache.org"><img src="/images/bluesky-icon.png" alt="Bluesky icon"></a>
+                        <a target="_blank" href="https://fosstodon.org/@TheASF" rel="me"><img src="/images/mastodon-icon.png" alt="Mastodon icon"></a>
+                </div>
+                </div>
+                <div class="flex flex-column flex-gap-20 flex-1">
+                    <nav class="footer-nav">
+                        <ul class="flex flex-column flex-gap-10 text-center-800 ">
+                            <li><a href="/events">Events</a></li>
+                            <li><a href="https://news.apache.org/foundation/entry/category/events">News</a></li>
+                            <li><a href="/about#contact-section">Contact</a></li>
+                            <li><a href="/code-of-conduct">Code of Conduct</a></li>
+                            <li><a href="https://privacy.apache.org/policies/privacy-policy-public.html">Privacy Policy</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="flex flex-column flex-gap-20 footer-events flex-1">
+                    <h2 class="text-heading-light text-center-800">ASF Events</h2>
+                        <div class="card card--footer">
+                            <a href="/events/glasgow-2026">
+                                <div class="card-inner flex flex-column">
+                                    <div class="event-card__date">October 11-14, 2026</div>
+                                    <h4>Community Over Code Glasgow 2026</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card card--footer">
+                            <a href="/events/sydney-2026">
+                                <div class="card-inner flex flex-column">
+                                    <div class="event-card__date">November 18-19, 2026</div>
+                                    <h4>Community Over Code Sydney 2026</h4>
+                                </div>
+                            </a>
+                        </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+
+

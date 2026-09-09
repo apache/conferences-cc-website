@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/favicons/manifest.json">
+    <link rel="shortcut icon" href="/favicons/favicon.png">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#282661">
+
+    <title>Apache Big Data Track | Community Over Code</title>
+    <link href="/fonts/Montserrat-300-600-800.css" async rel="stylesheet">
+    <link href="/css/styles.css" async rel="stylesheet">
+    <script src="https://www.apachecon.com/event-images/snippet.js" async></script>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/init.js"></script>
+</head>
+<body   class="body-apachecon-home-2021" >
+    <header id="header-main">
+         <div class="inner relative z1 flex flex-space-between flex-vert-center">
+            <a href="/" class="logo">
+                <img src="/images/CommunityOverCode_Logo_horizontal-color.svg" alt="ASF Events">
+            </a>
+            <div id="nav-toggle" class="nav-toggle hidden">
+                <span id="nav-top"></span>
+                <span id="nav-mid"></span>
+                <span id="nav-btm"></span>
+            </div>
+            
+
+<nav>
+    <ul class="flex">
+        <li><a href="/events/apachecon-home-2021">Home</a></li>
+        
+         <li><a href="/events/apachecon-home-2021/tracks">Schedule</a></li>
+         <li><a href="/events/apachecon-home-2021/sponsorship">Sponsorship</a></li>
+    </ul>
+</nav>    </header>
+
+    
+    
+   
+        <div class="hero hero--single-event-default relative">
+            <div class="inner flex flex-vert-center py-xl relative z1 flex-gap-50 flex-col-reverse-800">
+                <div class="hero__content flex-1">
+                    <h1 class="hero__title">
+                        Apache Big Data Track
+                    </h1>
+                        <div class="hero-event-dates">September 21-23, 2021</div>
+                    <h2 class="hero__default-subtitle">
+                            <span class="hero__subtitle"> Online</span>
+                    </h2>
+                </div>
+                <div class="hero__logo flex-1">
+                        <img src="/images/logos/CommunityOverCode_Logo_stacked-color.svg" alt="Apache Big Data Track logo" class="hero__logo-image">
+                </div>
+            </div>
+        </div>
+    <section class="maincontent maincontent--single-event">
+        <div class="inner py-xl">
+            <div class="mb-medium cf">
+                <div class="float66 right" style="padding-left: 50px;">
+                    <a class="breadcrumb" href="/events/apachecon-home-2021"><svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><polyline points="15 18 9 12 15 6"></polyline></svg> Back to Event Home</a>
+                </div>
+            </div>
+            <div class="cf flex-col-800">
+                    <div class="float33 full-width-800">&nbsp;</div>
+                <div class="float66 event-content">
+                        <hr/>
+<p><strong>Tuesday 14:10 UTC</strong></p>
+<h2>YARN Resource Management and Dynamic Max</h2>
+<h3>Fang Liu, Fengguang Tian, Prashant Golash, Hanxiong Zhang, Shuyi Zhang</h3>
+<p>Apache Hadoop YARN is an integral part of on-premise solutions and it will be for the foreseeable future. As one of the largest YARN deployments in the industry, Uber YARN has ~20k nodes, &gt;400k daily completed jobs, and &gt;2k queues to support our various analytical, machine learning use cases as well as our streaming processing platform Athena. The resource management, cluster management, and reliability at this scale have been very challenging. Yarn Resource Management (YRM) is a user-friendly and efficient self-service system that decentralizes YARN queue property and capacity management to organization administrators. It manages queues and partitions for all Uber YARN and Athena clusters. YARN Dynamic Max is a service built upon YRM, it dynamically adjusts queue capacities based on cluster utilization to maximize cluster resource utilization while ensuring the cluster does not overheat. For cluster management, to tame the ever-growing mammoth, we decided to dockerize YARN and run it on a container-orchestration system and provide better support to customers that can run jobs with their own docker image. To ensure reliability, we developed a new feature STRESSED_NODE as well as applied and turned YARN features such as interqueue preemption. The STRESSED_NODE feature makes the scheduler aware of heavily loaded nodes, avoids the noisy neighbor problem, and helps adjust oversubscription parameters which increase cluster overall utilization.</p>
+<p><em>Fang Liu: Three years of Hadoop ecosystem management and currently leading Hadoop YARN cluster and capacity management, resource isolation, metrics and monitoring in Uber.</em>
+<em>Fengguang Tian: Hadoop YARN development in Uber, currently leading the dynamic max resource project.</em>
+<em>Prashant Golash: Previous TLM of Hadoop YARN team in Uber. Currently working for Netflix.</em>
+<em>Hanxiong Zhang: The author of YARN Dynamic Max V1.</em>
+<em>Shuyi Zhang: Shuyi is a Senior software engineer at Uber Hadoop YARN team. She is leading YARN Containerization and YARN Proxy development efforts.</em></p>
+<hr/>
+<p><strong>Tuesday 15:00 UTC</strong></p>
+<h2>Covering indexes in Adobe Experience Platform Data Lake with Hyperspace</h2>
+<h3>Andrei Ionescu</h3>
+<p>At Adobe inside Adobe Experience Platform Data Lake we use Iceberg table format. Although Iceberg offers the possibility of file skipping, when the data is properly laid out and properly used, in multiple cases this is not enough, and the queries executed over the data are taking a lot of time to complete. Similar to the RDBMS use case where high latency on queries can be alleviated with additional indexing at the cost of some extra storage, in the case of Data Lakes the same pattern can be used. Hyperspace is an early-phase indexing subsystem for Apache Spark that introduces the ability for users to build indexes on data and together with Iceberg it can bring major improvements in query response time - up to 25 times faster in come cases. Hyperspace can accommodate our two major data flow use cases - stale datasets, fast changing datasets - through its mechanisms assuring consistency when used.</p>
+<p><em>Andrei Ionescu is a Senior Software Engineer with Adobe Systems, part of Adobe Experience Platform's Data Lake team, specialised in Big Data and Distributed Systems with Scala, Java, Spark, Kafka. At Adobe he is mainly contributing to Ingestion and Data Lake projects while on open source he's contributing to Hyperspace and Apache Iceberg.</em></p>
+<hr/>
+<p><strong>Tuesday 15:50 UTC</strong></p>
+<h2>Apache Yunikorn: State of Union and Future</h2>
+<h3>Sunil Govindan, Julia Kinga Marton</h3>
+<p>You will get an introduction to Apache YuniKorn (incubating) &ndash; an open-source resource scheduler to redefine the resource scheduling on Cloud. To ultimately explain how you can schedule large scale Apache Spark jobs efficiently on Kubernetes in the cloud.
+As part of the presentation, you will see the effort made on enhancing the core scheduling logic, in order to bring high performance, efficient resource sharing, and multi-tenancy oriented capabilities to the scheduling of Spark jobs. The focus will be on how Apache YuniKorn manages resource quotas, resource sharing, auto-scaling, and some of the optimizations for running distributed Apache Spark workloads on Kubernetes.
+You will also share some of our experiences of running large-scale Apache Spark and other K8s workloads with Apache YuniKorn.
+We will share a glimpse of the Apache YuniKorn 1.0 release roadmap and the features which are coming along with that to help Spark jobs on K8s much easier.</p>
+<p><em>Sunil Govindan: Sunil is contributing majorly towards resource scheduling and is looking into Kubernetes, YARN big data workload scheduling. He is contributing to Apache Hadoop projects since 2013 in various roles as Hadoop Contributor, Hadoop Committer, and a member of the Project Management Committee (PMC). Majorly working on YARN Scheduling improvements / Multiple Resource types support in YARN etc. He is also serving as Apache Submarine PMC member, Apache YuniKorn (incubating) PMC member.</em>
+<em>Julia Kinga Marton: Kinga is a Software Engineer at Cloudera, where initially she joined the Apache Oozie team. She is an Apache Oozie committer and PMC member. In early 2020 she joined the YuniKorn team and in the summer of 2020 she became an Apache YuniKorn (Incubating) committer. Before Cloudera she worked at Lufthansa Systems where she was contributing into a weight &amp; balance solution for airlines.</em></p>
+<hr/>
+<p><strong>Tuesday 17:10 UTC</strong></p>
+<h2>Uber HDFS Unit Storage Cost 10x Deduction</h2>
+<h3>Jeffrey Zhong, Jing Zhao, Leon Gao</h3>
+<p>Since 2018, Uber Hadoop HDFS team has innovated/adopted multiple technologies to significantly reduce unit storage cost to &frac14; of standard unit storage cost offered by major Cloud vendors. During the talk, we&rsquo;ll go through our journey on how we can achieve this and share the ways we put on site. High level optimization areas include data usage reduction, data tiering and data compression &amp; erasure encoding.</p>
+<p><em>Jeffrey Zhong: Jeffrey Zhong is an Uber Engineering Manager and Apache HBASE, Phoenix project PMC and Committer.</em>
+<em>Jing Zhao: Jing Zhao is a software engineer at Uber Technologies, Inc. He is a committer and PMC member of Apache Hadoop and Apache Ratis. He got his Ph.D. from University of Southern California.</em>
+<em>Leon Gao: Leon Gao is the software engineer in Uber working on the data infrastructure. He is also an active contributor of Apache Hadoop (HDFS).</em></p>
+<hr/>
+<p><strong>Tuesday 18:00 UTC</strong></p>
+<h2>Apache Deep Learning 302</h2>
+<h3>Timothy Spann</h3>
+<p>This talk will discuss and show examples of using Apache Hadoop, Apache Kudu, Apache Flink, Apache Hive, Apache MXNet, Apache OpenNLP, Apache NiFi and Apache Spark for deep learning applications. This is the follow up to previous talks on Apache Deep Learning 101 and 201 and 301 at ApacheCon, Dataworks Summit, Strata and other events. As part of this talk, the presenter will walk through using Apache MXNet Pre-Built Models, integrating new open source Deep Learning libraries with Python and Java, as well as running real-time AI streams from edge devices to servers utilizing Apache NiFi and Apache NiFi - MiNiFi. This talk is geared towards Data Engineers interested in the basics of architecting Deep Learning pipelines with open source Apache tools in a Big Data environment. The presenter will also walk through source code examples available in github and run the code live on Apache NiFi and Apache Flink clusters.</p>
+<p><em>Tim Spann is a Developer Advocate @ StreamNative where he works with Apache NiFi, Apache Pulsar, Apache Flink, Apache MXNet, TensorFlow, Apache Spark, big data, the IoT, machine learning, and deep learning. Tim has over a decade of experience with the IoT, big data, distributed computing, streaming technologies, and Java programming. Previously, he was a Principal Field Engineer at Cloudera, a senior solutions architect at AirisData and a senior field engineer at Pivotal. He blogs for DZone, where he is the Big Data Zone leader, and runs a popular meetup in Princeton on big data, the IoT, deep learning, streaming, NiFi, the blockchain, and Spark. Tim is a frequent speaker at conferences such as IoT Fusion, Strata, ApacheCon, Data Works Summit Berlin, DataWorks Summit Sydney, and Oracle Code NYC. He holds a BS and MS in computer science.</em></p>
+<hr/>
+<p><strong>Tuesday 18:50 UTC</strong></p>
+<h2>Scaling the Namenode - Lessons learnt</h2>
+<h3>Dinesh Chitlangia</h3>
+<p>We have all heard the phrase 'HDFS is battle tested'. Yet we often experience or hear from others about the HDFS scalability issues. This begs the question - what do we really mean by saying HDFS is battle tested and why do we still run into battleground situations with HDFS?
+This talk is targeted for HDFS/Hadoop users [admins, developers, end users, architects] basically anyone who uses HDFS in any capacity.
+This talk will present the lessons learnt from the field and will focus on key tuning/optimization in HDFS to help you leverage the underlying features of HDFS and run it smoothly at scale.</p>
+<p><em>Dinesh Chitlangia is an Apache Hadoop Committer, Apache Ozone Committer/PMC with over a decade of exposure working with customers across the globe. Aside from Distributed Systems, Java, Problem solving, he enjoys landscape photography.</em></p>
+<hr/>
+<p><strong>Tuesday 19:40 UTC</strong></p>
+<h2>Distributed Java Databases Under the Hood: Main Components and Interactions Between Them</h2>
+<h3>Valentin Kulichenko</h3>
+<p>Distributed databases are becoming more and more popular. Social networks, online banking, and retail-&mdash;these are only a few examples of applications that might require horizontal scalability to achieve the performance, capacity, and availability that organizations require.
+Using the Apache Ignite platform as a basis, we will identify major internal mechanisms that a typical distributed database uses to achieve the required goals. We will describe the minimal architecture of distributed data storage&mdash;-the main components and how these components work together.
+During the session, we will create a simple (although fully workable) distributed cache in Java, almost from scratch. The cache will feature basic CRUD operations, as well as automatic out-of-the-box scalability--the must-have requirement for any distributed system.</p>
+<p><em>Valentin Kulichenko is a distributed systems expert and an open-source software enthusiast. He is one of the original committers and PMC members of the Apache Ignite project &mdash; a distributed in-memory computing platform that enables scalability and high performance for thousands of applications all over the world. Valentin contributes to various aspects of the development, including code, documentation and architectural discussions.</em>
+<em>During the last 10+ years at GridGain Systems, Valentin has been acting as one of the lead architects of the GridGain platform, which is based on Apache Ignite. He also helped multiple customers of GridGain Systems to adapt the platform to their needs. Currently, as a Director of Product Management, Valentin leads the effort to transition to a new generation of GridGain products, with the main focus on improved usability, faster adoption and modernization.</em></p>
+<hr/>
+<p><strong>Wednesday 14:10 UTC</strong></p>
+<h2>Apache Hudi : The Data Lake Platform</h2>
+<h3>Vinoth Chandar</h3>
+<p>Originally open sourced in 2017, Hudi pioneered the modern transactional data lake movement as we know it. Hudi introduced a fundamentally new way of building a server-less, yet massively distributed database abstraction over lake storage, that has since been adopted by other projects in the space as well. At its core, Apache Hudi provides transactional updates/deletes and incremental change streams from tables on lake storage. Over the past couple years, the Hudi community has also steadily built a rich set of platform components, that enable users to go to production quickly with end-end solutions to common problems like data ingestion, compaction, CDC or incremental ETLs.
+In this talk, we provide a state-of-the-union update on the project, sharing the current platform components, how they interplay and the design choices therein. We then unveil a bold new vision for the project, that includes sorely missed platform components like caching/metaserver, expansion of existing capabilities like concurrency control, addition of new integration points with event streaming systems/OLAP engines. We then explain their roles in the platform and how they work together to unlock an open, universal data plane that is queryable from most query engines, from a user's perspective.</p>
+<p><em>Vinoth Chandar is the original creator &amp; VP of the Apache Hudi project, which has changed the face of data lake architectures over the past few years. Vinoth has a keen interest in unified data storage/processing architectures. He drove various efforts around stream processing/Kafka at Confluent. In the past, Vinoth has built large-scale, mission-critical infrastructure systems at companies like Uber and LinkedIn.</em></p>
+<hr/>
+<p><strong>Wednesday 15:00 UTC</strong></p>
+<h2>How Uber achieved millions of savings by managing disk IO across HDFS cluster</h2>
+<h3>Leon Gao, Ekanth Sethuramalingam</h3>
+<p>HDFS is the main storage platform for the data lake in Uber that holds hundreds of PB of data in two data centers. In the past year, we have spent a lot of effort improving the storage efficiency of our HDFS clusters. One of the most important findings we had is that the datanode IO across the cluster is under-utilized. Although the top node utilization is high, the average IO utilization is low.
+By balancing disk IO utilization across the cluster, we were able to adopt much denser disk (from 4TB/8TB to 16TB) to our fast-growing cluster with even better user experience, that reduced storage unit cost by 45%.
+First, we built a way to perform storage tiering on the same disk. By placing both HOT/COLD blocks on the same HDFS volume, we can control the disk hotness by configuring HOT/COLD ratio on the disk. Therefore, we can balance the IO utilization across different hardware SKUs and also across the cluster.
+Second, we improved the HDFS client to avoid reading from busy datanodes. We implemented fast-switch read, that HDFS stateful read can detect the datanode slowness and try reading from another replica. Also, we created a way to deprioritize certain datanodes from namenode, so clients are less likely to access them.
+In the talk, we will share the details of the above new HDFS features, how we manage hardware/software in our clusters, and the status of sharing them in the open-source community.</p>
+<p><em>Leon Gao: Leon Gao is the software engineer in Uber working on the data infrastructure. He is also an active contributor of Apache Hadoop (HDFS).</em>
+<em>Ekanth Sethuramalingam: Ekanth Sethuramalingam is a software engineer in Uber working on data infrastructure, he is also an Apache HDFS contributor.</em></p>
+<hr/>
+<p><strong>Wednesday 15:50 UTC</strong></p>
+<h2>Alluxio Data Orchestration for Machine Learning</h2>
+<h3>Bin Fan, Lu Qiu</h3>
+<p>Alluxio&rsquo;s capabilities as a Data Orchestration framework have encouraged users to onboard more of their data-driven applications to an Alluxio powered data access layer. Driven by strong interests from our open-source community, the core team of Alluxio started to re-design an efficient and transparent way for users to leverage data orchestration through the POSIX interface. This effort has a lot of progress with the collaboration with engineers from Microsoft, Alibaba and Tencent. Particularly, we have introduced a new JNI-based FUSE implementation to support POSIX data access, created a more efficient way to integrate Alluxio with FUSE service, as well as many improvements in relevant data operations like more efficient distributedLoad, optimizations on listing or calculating directories with a massive amount of files, which are common in model training. We will also share our engineering lessons and roadmap in future releases to support Machine Learning applications.</p>
+<p><em>Bin Fan: Bin Fan is the founding engineer and VP of Open Source at Alluxio, Inc. Prior to Alluxio, he worked for Google to build the next-generation storage infrastructure. Bin received his Ph.D. in Computer Science from Carnegie Mellon University on the design and implementation of distributed systems.</em>
+<em>Lu Qiu: Lu Qiu has been involved in open source software for many years and is currently a software engineer at Alluxio. Lu develops easier ways for Alluxio integration in the public cloud environment. Lu is mainly responsible for leader election, journal management, metrics management, and big data preparation for machine learning workloads. Lu received an M.S. degree from George Washington University in Data Science.</em></p>
+<hr/>
+<p><strong>Wednesday 17:10 UTC</strong></p>
+<h2>A Change-Data-Capture use-case: designing an evergreen cache</h2>
+<h3>Nicolas Fr&auml;nkel</h3>
+<p>When one&rsquo;s app is challenged with poor performances, it&rsquo;s easy to set up a cache in front of one&rsquo;s SQL database. It doesn&rsquo;t fix the root cause (e.g. bad schema design, bad SQL query, etc.) but it gets the job done. If the app is the only component that writes to the underlying database, it&rsquo;s a no-brainer to update the cache accordingly, so the cache is always up-to-date with the data in the database.
+Things start to go sour when the app is not the only component writing to the DB. Among other sources of writes, there are batches, other apps (shared databases exist unfortunately), etc. One might think about a couple of ways to keep data in sync i.e. polling the DB every now and then, DB triggers, etc. Unfortunately, they all have issues that make them unreliable and/or fragile.
+You might have read about Change-Data-Capture before. It&rsquo;s been described by Martin Kleppmann as turning the database inside out: it means the DB can send change events (SELECT, DELETE and UPDATE) that one can register to. Just opposite to Event Sourcing that aggregates events to produce state, CDC is about getting events out of states. Once CDC is implemented, one can subscribe to its events and update the cache accordingly. However, CDC is quite in its early stage, and implementations are quite specific.
+In this talk, an easy-to-setup architecture that leverages CDC to have an evergreen cache will be described.</p>
+<p><em>Nicolas Fr&auml;nkel is a Developer Advocate with 15+ years experience consulting for many different customers, in a wide range of contexts (such as telecoms, banking, insurances, large retail and public sector). Usually working on Java/Java EE and Spring technologies, but with focused interests like Rich Internet Applications, Testing, CI/CD and DevOps. Currently working for Hazelcast. Also double as a trainer and triples as a book author.</em></p>
+<hr/>
+<p><strong>Wednesday 18:00 UTC</strong></p>
+<h2>Apache Wayang: Bringing Big Data to the IoT</h2>
+<h3>Jorge-Arnulfo Quiane-Ruiz</h3>
+<p>We are living in a data deluge era, where data is being generated by a large number of sources. This just got exacerbated with the emergence of the Internet of Things (IoT). Nowadays, a large number of different devices are generating data at an unprecedented scale: smartphones, smartwatches, embedded sensors in cars, smart homes, wearable technology, just to mention a few. We are simply surrounded by data without even noticing it. This represents a great opportunity to improve our everyday lives by using the new advances in AI, which we called AIoT. Connecting IoT with data storage and AI technology is just gaining more and more attention. Yet, performing AIoT in an efficient and scalable manner is a cumbersome task. Today, users have to implement different ad hoc solutions to move data from the IoT to &ldquo;stable&rdquo; storage on which they can perform AI.</p>
+<p><em>Jorge-Arnulfo Quiane-Ruiz is Principal Researcher at the DIMA group (TU Berlin) and one of the two Scientific Coordinators of the Berlin Institute for the Foundations of Learning and Data (BIFOLD). He is also Scientific Advisor at the IAM group (DFKI). Earlier in his career, he was Senior Scientist at the Qatar Computing Research Institute (QCRI) and Research Associate at Saarland University. Jorge is a pioneer in cross-platform data processing (also known as polystores). He holds 5 patents and has published numerous research papers on query and data processing as well as on novel system architectures. He received the Best Paper Award at the ICDE conference in 2021 for his work on imperative iterative big data processing. Also, his works on prescriptive machine learning and on inequality join processing have been recognized as one of the Best Of the ICDM conference and the PVLDB journal, respectively. Additionally, he has received the VLDB Excellent Presentation Award in 2014 for the presentation of his work on unique column combination discovery. His work has resulted in the first cross-platform data processing system (Rheem), which then entered the Apache Incubator program in December 2020, as Apache Wayang and also has resulted in the creation of a startup (Scalytics Inc.). He did his Ph.D. in Computer Science at INRIA and the University of Nantes, France. He received an M.Sc. in Computer Science with a speciality in Networks and Distributed Systems from Joseph Fourier University, Grenoble, France. He also obtained, with the highest honours, an M.Sc. in Computer Science from the National Polytechnic Institute, Mexico.</em></p>
+<hr/>
+<p><strong>Wednesday 18:50 UTC</strong></p>
+<h2>The new generation of big data workflow scheduler platform - the architecture evolution of Apache DolphinScheduler</h2>
+<h3>Lidong Dai</h3>
+<p>This talk mainly includes:</p>
+<ul>
+<li>The introduction of DolphinScheduler</li>
+<li>The pain points of bigdata workflow scheduler platform</li>
+<li>The advantages of DolphinScheduler</li>
+<li>The architectural evolution from version 1.2 to 1.3</li>
+<li>The Roadmap of architecture 2.0</li>
+</ul>
+<p>Use cases will also be shared.</p>
+<p><em>Lidong Dai is a DolphinScheduler PMC &amp; Committer, the director of big data platform at analysys. He loves open source culture and promoting the Apache way.</em></p>
+<hr/>
+<p><strong>Wednesday 19:40 UTC</strong></p>
+<h2>Apache DataSketches</h2>
+<h3>Lee Rhodes</h3>
+<p>In&ZeroWidthSpace; the analysis of b&ZeroWidthSpace;ig data there are often problem queries that don&rsquo;t scale because they require huge compute resources to generate exact results, or don&rsquo;t parallelize well. Examples include c&ZeroWidthSpace;ount-distinct, &ZeroWidthSpace;quantiles, most frequent items, joins, matrix computations, and graph analysis.
+Algorithms that can produce accuracy guaranteed approximate answers for these problem queries are a required toolkit for modern analysis systems that need to process massive amounts of data&ZeroWidthSpace; quickly. For interactive queries there may not be other viable alternatives, and in the case of real&shy;-time streams, these specialized algorithms, called s&ZeroWidthSpace;treaming, sublinear algorithms,&ZeroWidthSpace; or 's&ZeroWidthSpace;ketches',&ZeroWidthSpace; are the only known solution.
+This technology has helped Yahoo successfully reduce data processing times from days to hours or minutes on a number of its internal platforms and has enabled subsecond queries on real-time platforms that would have been infeasible without sketches. This talk provides an introduction to sketching and to Apache DataSketches, an open source library in C++, Java and Python of algorithms designed for large production analysis systems.</p>
+<p><em>Lee Rhodes is a Distinguished Architect at Verizon Media (was Yahoo). He created the DataSketches project in 2012 to address analysis challenges in Yahoo's large data processing pipelines. DataSketches was Open Sourced in 2015 and is now a top level project at the Apache Software Foundation. He is a coauthor on sketching papers published in ICDT, IMC, and JCGS. He obtained his Master's Degree in Electrical Engineering from Stanford University and a bachelor's degree in physics from San Diego State University.</em></p>
+<hr/>
+<p><strong>Thursday 14:10 UTC</strong></p>
+<h2>Apache MXNet 2.0: Towards Synergistic ML and DL with Standardization</h2>
+<h3>Sheng Zha</h3>
+<p>In deep learning (DL) and machine learning (ML) communities, fragmentation in the frameworks have been a long-standing problem that comes with significant costs. Because of the fragmentation, resources are spread across different stacks to focus on competition which distracts the communities from innovation, and users and developers are forced to be locked into a side. As deep learning frameworks gradually mature and converge to similar design choices, opportunities arise to standardize the API to address the costly fragmentation by fostering collaboration across frameworks. To this end, Apache MXNet 2.0 adopts Python array API standard and Open Neural Network Exchange (ONNX), the two complementing standards for machine learning and deep learning. In this talk, I will share about these standardization efforts and MXNet's participation in them, and highlight the exciting new features that helps Apache MXNet as a framework that surfaces the innovation.</p>
+<p><em>Sheng Zha is a senior applied scientist at Amazon AI. He s also a committer and PPMC member of Apache MXNet (Incubating), a steering committee member of ONNX in LF Data &amp; AI Foundation, and a member on the Consortium for Python Data API Standard. In his research, Sheng focuses on the intersection between deep learning-based natural language processing and computing systems, with the aim of enabling large-scale model learning on language data and making it accessible.</em></p>
+<hr/>
+<p><strong>Thursday 15:00 UTC</strong></p>
+<h2>Containing an Elephant: How we moved Hadoop/HBase into Kubernetes and Public Cloud</h2>
+<h3>Dhiraj Hegde</h3>
+<p>We run a very large number of HBase and HDFS clusters in our data centers with multiple petabytes of data, billions of queries per day over thousands of machines. After more than a decade of operating our own data centers, we pivoted towards Public Cloud for its scalability and high availability features. As part of this effort, we made a bold decision to move our HBase and HDFS clusters from staid bare metal hosts to the dynamic and immutable world of containers and Kubernetes.
+This talk will go over why we chose Kubernetes, the challenges we ran into with this choice and how we overcame those challenges. Some of these challenges include:</p>
+<ul>
+<li>Limitations in Kubernetes while managing large scale stateful applications</li>
+<li>Failures experienced in HBase/HDFS in such environments</li>
+<li>Adapting HBase/HDFS availability and durability to Kubernetes</li>
+<li>Complexity of DNS in Public Cloud and its impact on HDFS/HBase clusters</li>
+</ul>
+<p><em>What started off as a casual exploration of Kubernetes turned into years of effort in designing management of scale out storage systems on Kubernetes. I have actively contributed to features around local volume management in Kubernetes community. I am an architect at Salesforce where I am responsible for designing the deployment and operation of Big Data services on Kubernetes in Public Cloud. I have been working in server and distributed systems space for the last 20 years.</em></p>
+<hr/>
+<p><strong>Thursday 15:50 UTC</strong></p>
+<h2>Apache Liminal (Incubating)&mdash;Orchestrate the Machine Learning Pipeline</h2>
+<h3>Aviem Zur, Assaf Pinhasi</h3>
+<p>Apache Liminal is an end-to-end platform for data engineers &amp; scientists, allowing them to build, train and deploy machine learning models in a robust and agile way. The platform provides the abstractions and declarative capabilities for data extraction &amp; feature engineering followed by model training and serving; using standard tools and libraries (e.g. Airflow, K8S, Spark, scikit-learn, etc.).
+Apache Liminal&rsquo;s goal is to operationalise the machine learning process, allowing data scientists to quickly transition from a successful experiment to an automated pipeline of model training, validation, deployment and inference in production, freeing them from engineering and non-functional tasks, and allowing them to focus on machine learning code and artifacts.</p>
+<p><em>Aviem Zur: Data tech Lead @ Natural Intelligence, PPMC Member, Apache Liminal, PMC Member, Apache Beam. Specializing in data frameworks and platforms as Well as open source software. Passionate about quality engineering, open source and Magic: The Gathering.</em>
+<em>Assaf Pinhasi: Technology leader, highly experienced in building large scale systems and teams, specializing in Big Data and Machine Learning.</em></p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        // Smooth scroll for in-page navigation
+        const navContainer = document.getElementById('in-page-nav');
+        if(navContainer) {
+            document.addEventListener('DOMContentLoaded', function() {
+                // generate in-page navigation based on h2
+                const content = document.querySelector('.event-content');
+                const headings = content.querySelectorAll('h2');
+                const nav = document.getElementById('in-page-nav');
+                if (headings.length > 0) {
+                    const navList = document.createElement('ul');
+                    headings.forEach(heading => {
+                        const id = heading.textContent.trim().toLowerCase().replace(/\s+/g, '-');
+                        heading.setAttribute('id', id);
+                        const navItem = document.createElement('li');
+                        const navLink = document.createElement('a');
+                        navLink.setAttribute('href', `#${id}`);
+                        navLink.textContent = heading.textContent;
+                        navItem.appendChild(navLink);
+                        navList.appendChild(navItem);
+                    });
+                    nav.appendChild(navList);
+                }
+
+                const links = document.querySelectorAll('#in-page-nav a');
+                links.forEach(link => {
+                    link.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        // in this loop, 'this' refers to the clicked link
+                        // add class of current-section to the clicked link and remove from others
+                        links.forEach(l => l.classList.remove('current-section'));
+                        this.classList.add('current-section');
+                        const targetId = this.getAttribute('href').substring(1);
+                        const targetElement = document.getElementById(targetId);
+                        if (targetElement) {
+                            window.scrollTo({
+                                top: targetElement.offsetTop - 100, // Adjust for fixed header
+                                behavior: 'smooth'
+                            });
+                        }
+                    });
+                });
+
+                // Highlight the current section in the navigation as the user scrolls
+                window.addEventListener('scroll', function() {
+                    let currentSection = '';
+                    headings.forEach(heading => {
+                        const sectionTop = heading.offsetTop - 150; // Adjust for fixed header
+                        if (window.scrollY >= sectionTop) {
+                            currentSection = heading.getAttribute('id');
+                        }
+                    });
+                    links.forEach(link => {
+                        link.classList.remove('current-section');
+                        if (link.getAttribute('href').substring(1) === currentSection) {
+                            link.classList.add('current-section');
+                        }
+                    });
+                });
+            });
+        }
+    </script>
+    <!-- Footer -->
+        <div class="footer-top-border"></div>
+        <footer>
+            <div class="inner py-large flex flex-gap-50 flex-col-reverse-800">
+                <div class="flex flex-column flex-gap-20 flex-1 text-white text-center-800">
+                   <img src="/images/logos/CommunityOverCode_Logo_stacked-white.webp" width="200" alt="Apache Software Foundation" class="footer-logo">
+                   <p>The Apache® Software Foundation (The ASF) provides software for the public good, guided by community over code. Learn more at apache.org.</p>
+                   <p>Apache and the Apache logo are trademarks of The Apache Software Foundation.</p>
+                   <p>The Apache® Software Foundation is a 501(c)(3) nonprofit organization. Tax ID # 47-0825376</p>
+                   <div class="social-icons">
+                        <a target="_blank" href="http://s.apache.org/apachecon-slack"><img src="/images/slack-icon.svg" alt="slack icon"></a>
+                        <a target="_blank" href="https://github.com/apache"><img src="/images/github-mark-white.svg" alt="github icon"></a>
+                        <a target="_blank" href="https://www.linkedin.com/company/the-apache-software-foundation/"><img src="/images/linkedin-icon.png" alt="linkedIn icon"></a>
+                        <a target="_blank" href="https://www.youtube.com/@communityovercode"><img src="/images/youtube-icon.svg" alt="youtube icon"></a>
+                        <a target="_blank" href="https://twitter.com/TheASF"><img src="/images/x-icon.svg" alt="X icon"></a>
+                        <a target="_blank" href="https://bsky.app/profile/apache.org"><img src="/images/bluesky-icon.png" alt="Bluesky icon"></a>
+                        <a target="_blank" href="https://fosstodon.org/@TheASF" rel="me"><img src="/images/mastodon-icon.png" alt="Mastodon icon"></a>
+                </div>
+                </div>
+                <div class="flex flex-column flex-gap-20 flex-1">
+                    <nav class="footer-nav">
+                        <ul class="flex flex-column flex-gap-10 text-center-800 ">
+                            <li><a href="/events">Events</a></li>
+                            <li><a href="https://news.apache.org/foundation/entry/category/events">News</a></li>
+                            <li><a href="/about#contact-section">Contact</a></li>
+                            <li><a href="/code-of-conduct">Code of Conduct</a></li>
+                            <li><a href="https://privacy.apache.org/policies/privacy-policy-public.html">Privacy Policy</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="flex flex-column flex-gap-20 footer-events flex-1">
+                    <h2 class="text-heading-light text-center-800">ASF Events</h2>
+                        <div class="card card--footer">
+                            <a href="/events/glasgow-2026">
+                                <div class="card-inner flex flex-column">
+                                    <div class="event-card__date">October 11-14, 2026</div>
+                                    <h4>Community Over Code Glasgow 2026</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card card--footer">
+                            <a href="/events/sydney-2026">
+                                <div class="card-inner flex flex-column">
+                                    <div class="event-card__date">November 18-19, 2026</div>
+                                    <h4>Community Over Code Sydney 2026</h4>
+                                </div>
+                            </a>
+                        </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+
+
