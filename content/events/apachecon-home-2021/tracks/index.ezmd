@@ -1,0 +1,100 @@
+title: Schedule
+template: page-event-default
+ref: apachecon-home-2021
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: true
+
+## ApacheCon@Home - Tracks
+
+### Keynote Presentations
+
+Each day starts at 13:00 UTC with introductory remarks from Rich Bowen, VP Conferences at the Apache Software Foundation
+
+#### Tuesday, September 21
+
+- 13:00 UTC - Welcome remarks and State of the Feather
+- 13:30 UTC - Ashley Wolf - The Inclusive Community Imperative (and where the next 50 million developers will come from)
+- 13:45 UTC - Apurva Desai (Google) - Open Data Lakes: Latest stop in the big data journey
+
+<a class="btn" href="tracks/keynotes">Details</a>
+
+#### Wednesday, September 22
+
+- 13:00 UTC - Opening remarks
+- 13:15 UTC - Mark Cox - community-led security at asf
+- 13:30 UTC - Anil Inamdar (Instaclustr) - Open Core Vs Open Source
+- 13:45 UTC - Willem Jiang (Huawei) - Open Source Community -- The Utopia for Programmers
+
+<a class="btn" href="tracks/keynotes">Details</a>
+
+#### Thursday, September 23
+
+- 13:00 UTC - Opening remarks
+- 13:15 UTC - Alison Parker, Michael Weinberg - Open Hardware vs. COVID-19
+- 13:30 UTC - Mark Shan (Tencent): Apache Way in Tencent
+
+<a class="btn" href="tracks/keynotes">Details</a>
+
+### Daily Breakout Tracks
+
+#### Tuesday, September 21st, 2021
+
+The sponsor booths will be available 14:10 until 21:10 UTC. Please visit our sponsors!
+
+- [[]API & Microservice](tracks/apimicro)
+- [[]Big Data](tracks/bigdata)
+- [[]Big Data: Streaming](tracks/bigdatastream)
+- [[]Cassandra](tracks/cassandra)
+- [[]Community](tracks/community)
+- [[]Fineract & Fintech](tracks/fineract)
+- [[]Geospatial](tracks/geospatial)
+- [[]Highlights](tracks/highlight)
+- [[]Observability](tracks/observability)
+- [[]Search](tracks/search)
+- [[]Tomcat](tracks/tomcat)
+
+#### Wednesday, September 22nd, 2021
+The sponsor booths will be available 14:10 until 21:10 UTC. Please visit our sponsors!
+
+- [[]API & Microservice](tracks/apimicro)
+- [[]Big Data](tracks/bigdata)
+- [[]Big Data: SQL/NoSQL](tracks/bigdatasql)
+- [[]Big Data: Streaming](tracks/bigdatastream)
+- [[]Cassandra](tracks/cassandra)
+- [[]Community](tracks/community)
+- [[]Content Delivery](tracks/content)
+- [[]Fineract & Fintech](tracks/fineract)
+- [[]Highlights](tracks/highlight)
+- [[]Incubator](tracks/incubator)
+- [[]Integration](tracks/integration)
+- [[]Internet of Things](tracks/iot)
+- [[]Search](tracks/search)
+
+#### Thursday, September 23rd, 2021
+The sponsor booths will be available 14:10 until 21:10 UTC. Please visit our sponsors!
+
+- [[]API & Microservice](tracks/apimicro)
+- [[]Big Data](tracks/bigdata)
+- [[]Big Data: Ozone](tracks/bigdataozone)
+- [[]Big Data: SQL/NoSQL](tracks/bigdatasql)
+- [[]Community](tracks/community)
+- [[]Content Delivery](tracks/content)
+- [[]Content Management](tracks/contentmgmt)
+- [[]Federated Data](tracks/feddata)
+- [[]Fineract & Fintech](tracks/fineract)
+- [[]Groovy](tracks/groovy)
+- [[]Incubator](tracks/incubator)
+- [[]Integration](tracks/integration)
+- [[]Internet of Things](tracks/iot)
+
+### Birds of a Feather
+
+At the end of each day (20:30 UTC), there will be a Birds of a Feather (BoF) session in each track, where you can gather for unstructured discussion of the project, related topics, content that was delivered during the day, or, really, anything at all.
+Tuesday 20:30 UTC
+Cassandra 4.0 benefits, upgrading, and the road ahead
+Patrick McFadin, Aaron Ploetz, Melissa Logan, Audra Carter
+
+Join a discussion between Apache Cassandra gurus Patrick McFadin and Aaron Ploetz as Mellissa Logan digs deep with them into Cassandra 4.0 benefits, upgrade, and more. Bring your questions to this interactive discussion, and you won't want to miss the fun cocktail / mocktail session at the end! 
+
+
+---

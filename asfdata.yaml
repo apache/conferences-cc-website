@@ -5,6 +5,7 @@
 # used on page-event-landing.html
 sponsors:
   glasgow-2026: content/events/glasgow-2026/sponsors.json
+  na-2022: content/events/north-america-2022/sponsors.json
   #london-2024: content/events/glasgow-2026/sponsors.json
 
 # used on index.ezmd, page-event-landing.html, and events.ezmd, footer.html

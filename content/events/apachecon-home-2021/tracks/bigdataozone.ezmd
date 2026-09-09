@@ -1,0 +1,68 @@
+title: Apache Big Data: SQL/NoSQL Track
+template: page-event-default
+ref: apachecon-home-2021
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: false
+
+---
+
+**Thursday 17:10 UTC**
+
+## Apache Ozone - State of the Union
+
+### Dinesh Chitlangia, Aravindan Vijayan
+
+Apache Ozone was initially a subproject under Apache Hadoop that aimed to solve the HDFS scalability challenges. Since its inception as a subproject few years ago, it has come a long way to graduate as an Apache Top Level Project.
+This talk will focus on a brief history of Ozone, the progress made thus far, comparisons with HDFS performance, and the road ahead in scaling beyond a billion files in the system.
+
+_Dinesh Chitlangia is an Apache Hadoop Committer, Apache Ozone PMC/Committer who has over a decade of exposure working with customers across the globe. Aside from Distributed Systems, Java, Problem solving, he enjoys landscape photography._
+
+_Aravindan Vijayan is a Staff Software engineer at Cloudera. PMC and committer on Apache Hadoop, Ozone, Ambari. Apache Ratis committer. Building the next gen of distributed object storage for the Big data ecosystem._
+
+---
+
+**Thursday 18:00 UTC**
+
+## Balancing data in Apache Ozone
+
+### Lokesh Jain
+
+Apache Ozone is an object store which scales to tens of billions of objects, hundreds of petabytes of data and thousands of datanodes. With such a scale the data can be non-uniformly distributed due to multiple reasons such as addition of new datanodes, deletion of data etc. Non-uniform distribution can lead to lower utilisation of resources and can affect the overall throughput of the cluster.
+The talk discusses the balancer service in Ozone which is responsible for uniform distribution of data across the cluster. It would cover the service design and how the service improves upon HDFS balancer service.
+
+_Lokesh Jain is a Senior Software Engineer at Cloudera. He is an early developer of Apache Ozone(Object Store) and Apache Ratis project(Raft Consensus Protocol implementation) and has been contributing for the past 4 years. He holds committer and PMC privileges for Apache Hadoop, Apache Ozone and Apache Ratis. He has pursued M.Sc.(Hons.) Mathematics and B.E.(Hons.) Computer Science from BITS Pilani. Lokesh has experience with distributed computing, data replication, data pipeline and storage systems._
+
+_Siddhant Sangwan is a Software Engineer at Cloudera and a contributor in Apache Ozone. He graduated with a B.Tech. in Computer Science from Manipal Institute of Technology, Manipal. Siddhant has a keen interest in Distributed Systems, and at Apache Ozone, his love for problem solving converges with his support for Open Source. Apart from Engineering, he has boundless enthusiasm for all things soccer and music._
+
+---
+
+**Thursday 18:50 UTC**
+
+## Ozone - Performance at billions' scale
+
+### Lokesh Jain
+
+Ozone is an object store which extends the design principles of HDFS while maintaining a 10-100x scale compared to HDFS. There are design and architecture improvements over HDFS which helps Ozone reach massive scale. But maintaining HDFS like performance with optimal use of resources has been a challenging problem.
+The talk discusses the hardships and challenges related to resource management and good performance in Ozone. The talk would cover some major pain points and present the performance issues in broad categories. Further operating at this scale can be very resource heavy, the talk covers the various problems related to resource management by the data and metadata layers in Ozone.
+
+_Lokesh Jain is a Senior Software Engineer at Cloudera. He is an early developer of Apache Ozone(Object Store) and Apache Ratis project(Raft Consensus Protocol implementation) and has been contributing for the past 4 years. He holds committer and PMC privileges for Apache Hadoop, Apache Ozone and Apache Ratis. He has pursued M.Sc.(Hons.) Mathematics and B.E.(Hons.) Computer Science from BITS Pilani. Lokesh has experience with distributed computing, data replication, data pipeline and storage systems._
+
+---
+
+**Thursday 19:40 UTC**
+
+## Secure Apache Ozone with High Availability
+
+### Bharat Viswanadham, Xiaoyu Yao
+
+Apache Ozone is a scalable, redundant, and distributed object store for Hadoop, which became Apache Top-level project in 2020. Apache Ozone has two metadata services 1) Storage Container Manager(SCM) which manages nodes, container/block replication, and certificates; 2) OzoneManager which manages namespace metadata.
+HA (High Availability) support for SCM and Ozone Manager are added in recent Apache Ozone 1.0 and 1.1 releases, respectively. In this talk we will introduce the background of securing Apache Ozone for non-HA, challenges lessons learned from securing distributed storage systems like Ozone in the context of HA enabled services.
+From this talk, the audience would learn:
+
+- What security mechanisms are chosen, the tradeoff behind the choices, and how do they work together to secure multiple protocols such as gRPC, Hadoop RPC and Amazon S3.
+- How security is built based on a distributed CA running in multiple SCM instances with consistency (root CA and SubCA).
+- How Ozone tokens are issued, used, and validated across HA-enabled Ozone services like SCM, Ozone Manager, and datanodes.
+
+_Bharat Viswanadham is a senior software engineer at Cloudera Inc., working on Apache Hadoop HDFS and Apache Ozone projects. He is a committer and PMC member of Apache Hadoop and Ozone projects with 7 years of experience designing and building scalable distributed storage systems._
+
+_Xiaoyu Yao is a principal software engineer at Cloudera Inc., working on Apache Hadoop HDFS and Ozone projects. He is a committer and PMC member of Apache Hadoop, Ozone and Ratis Projects with 14 years of experience developing and supporting distributed storage and file systems. Before that, he is a software engineer working at Microsoft on local/remote file systems and storage management._

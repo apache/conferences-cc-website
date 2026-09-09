@@ -257,9 +257,13 @@
                         <div class="sponsor-logos">
                             {% for sponsor in page.sponsors[page.sponsorskey]['platinum'] %}
                                 <div class="sponsor-logo">
-                                    <a href="{{ sponsor.link }}" target="_blank" class="sponsor-link">
+                                    {% if sponsor.link %}
+                                        <a href="{{ sponsor.link }}" target="_blank" class="sponsor-link">
+                                            <img src="{{ sponsor.logo }}" loading="lazy" alt="{{ sponsor.name }}">
+                                        </a>
+                                    {% else %}
                                         <img src="{{ sponsor.logo }}" loading="lazy" alt="{{ sponsor.name }}">
-                                    </a>
+                                    {% endif %}
                                 </div>
                             {% endfor %}
                         </div>
@@ -271,9 +275,13 @@
                         <div class="sponsor-logos sponsor-logos--gold">
                             {% for sponsor in page.sponsors[page.sponsorskey]['gold'] %}
                                 <div class="sponsor-logo">
-                                    <a href="{{ sponsor.link }}" target="" class="sponsor-link">
-                                        <img src="{{ sponsor.logo }}" loading="" alt="{{ sponsor.name }}">
-                                    </a>
+                                    {% if sponsor.link %}
+                                        <a href="{{ sponsor.link }}" target="_blank" class="sponsor-link">
+                                            <img src="{{ sponsor.logo }}" loading="lazy" alt="{{ sponsor.name }}">
+                                        </a>
+                                    {% else %}
+                                        <img src="{{ sponsor.logo }}" loading="lazy" alt="{{ sponsor.name }}">
+                                    {% endif %}
                                 </div>
                             {% endfor %}
                         </div>
@@ -285,9 +293,13 @@
                         <div class="sponsor-logos sponsor-logos--silver">
                             {% for sponsor in page.sponsors[page.sponsorskey]['silver'] %}
                                 <div class="sponsor-logo">
-                                    <a href="{{ sponsor.link }}" target="" class="sponsor-link">
-                                        <img src="{{ sponsor.logo }}" loading="" alt="{{ sponsor.name }}">
-                                    </a>
+                                    {% if sponsor.link %}
+                                        <a href="{{ sponsor.link }}" target="_blank" class="sponsor-link">
+                                            <img src="{{ sponsor.logo }}" loading="lazy" alt="{{ sponsor.name }}">
+                                        </a>
+                                    {% else %}
+                                        <img src="{{ sponsor.logo }}" loading="lazy" alt="{{ sponsor.name }}">
+                                    {% endif %}
                                 </div>
                             {% endfor %}
                         </div>
@@ -299,9 +311,13 @@
                         <div class="sponsor-logos sponsor-logos--bronze">
                             {% for sponsor in page.sponsors[page.sponsorskey]['bronze'] %}
                                 <div class="sponsor-logo">
-                                    <a href="{{ sponsor.link }}" target="" class="sponsor-link">
-                                        <img src="{{ sponsor.logo }}" loading="" alt="{{ sponsor.name }}">
-                                    </a>
+                                    {% if sponsor.link %}
+                                        <a href="{{ sponsor.link }}" target="_blank" class="sponsor-link">
+                                            <img src="{{ sponsor.logo }}" loading="lazy" alt="{{ sponsor.name }}">
+                                        </a>
+                                    {% else %}
+                                        <img src="{{ sponsor.logo }}" loading="lazy" alt="{{ sponsor.name }}">
+                                    {% endif %}
                                 </div>
                             {% endfor %}
                         </div>
@@ -313,9 +329,13 @@
                         <div class="sponsor-logos sponsor-logos--lanyard">
                             {% for sponsor in page.sponsors[page.sponsorskey]['lanyard'] %}
                                 <div class="sponsor-logo">
-                                    <a href="{{ sponsor.link }}" target="" class="sponsor-link">
-                                        <img src="{{ sponsor.logo }}" loading="" alt="{{ sponsor.name }}">
-                                    </a>
+                                    {% if sponsor.link %}
+                                        <a href="{{ sponsor.link }}" target="_blank" class="sponsor-link">
+                                            <img src="{{ sponsor.logo }}" loading="lazy" alt="{{ sponsor.name }}">
+                                        </a>
+                                    {% else %}
+                                        <img src="{{ sponsor.logo }}" loading="lazy" alt="{{ sponsor.name }}">
+                                    {% endif %}
                                 </div>
                             {% endfor %}
                         </div>
@@ -327,9 +347,13 @@
                         <div class="sponsor-logos sponsor-logos--video_recording">
                             {% for sponsor in page.sponsors[page.sponsorskey]['video_recording'] %}
                                 <div class="sponsor-logo">
-                                    <a href="{{ sponsor.link }}" target="" class="sponsor-link">
-                                        <img src="{{ sponsor.logo }}" loading="" alt="{{ sponsor.name }}">
-                                    </a>
+                                    {% if sponsor.link %}
+                                        <a href="{{ sponsor.link }}" target="_blank" class="sponsor-link">
+                                            <img src="{{ sponsor.logo }}" loading="lazy" alt="{{ sponsor.name }}">
+                                        </a>
+                                    {% else %}
+                                        <img src="{{ sponsor.logo }}" loading="lazy" alt="{{ sponsor.name }}">
+                                    {% endif %}
                                 </div>
                             {% endfor %}
                         </div>
@@ -341,9 +365,13 @@
                         <div class="sponsor-logos sponsor-logos--lightning_talks">
                             {% for sponsor in page.sponsors[page.sponsorskey]['lightning_talks'] %}
                                 <div class="sponsor-logo">
-                                    <a href="{{ sponsor.link }}" target="" class="sponsor-link">
-                                        <img src="{{ sponsor.logo }}" loading="" alt="{{ sponsor.name }}">
-                                    </a>
+                                    {% if sponsor.link %}
+                                        <a href="{{ sponsor.link }}" target="_blank" class="sponsor-link">
+                                            <img src="{{ sponsor.logo }}" loading="lazy" alt="{{ sponsor.name }}">
+                                        </a>
+                                    {% else %}
+                                        <img src="{{ sponsor.logo }}" loading="lazy" alt="{{ sponsor.name }}">
+                                    {% endif %}
                                 </div>
                             {% endfor %}
                         </div>
@@ -355,9 +383,13 @@
                         <div class="sponsor-logos sponsor-logos--coffee_breaks">
                             {% for sponsor in page.sponsors[page.sponsorskey]['coffee_breaks'] %}
                                 <div class="sponsor-logo">
-                                    <a href="{{ sponsor.link }}" target="" class="sponsor-link">
-                                        <img src="{{ sponsor.logo }}" loading="" alt="{{ sponsor.name }}">
-                                    </a>
+                                    {% if sponsor.link %}
+                                        <a href="{{ sponsor.link }}" target="_blank" class="sponsor-link">
+                                            <img src="{{ sponsor.logo }}" loading="lazy" alt="{{ sponsor.name }}">
+                                        </a>
+                                    {% else %}
+                                        <img src="{{ sponsor.logo }}" loading="lazy" alt="{{ sponsor.name }}">
+                                    {% endif %}
                                 </div>
                             {% endfor %}
                         </div>

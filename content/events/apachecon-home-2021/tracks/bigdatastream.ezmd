@@ -1,0 +1,158 @@
+title: Apache Big Data: Streaming Track
+template: page-event-default
+ref: apachecon-home-2021
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: false
+
+---
+
+**Tuesday 14:10 UTC**
+
+## Exclusive Producer: Using Apache Pulsar to build distributed applications
+
+### Matteo Merli
+
+There are several patterns that are very useful when designing and building distributed applications, like leader election or “atomic broadcast”. In practice, implementing these concepts is a very difficult undertaking and it is often offloaded to external services. These services in turn need to be maintained and operated and might even expose very complex APIs or semantics.
+“Exclusive Producer” is a new addition to the set of Pulsar’s features, and it allows an application to have the guarantee of exclusive access when writing to a topic and to discard any data from producers who lost the exclusive access.
+During this session we are going to show how easy it is, using Exclusive Producer, to build very robust mechanisms of communications across different services or instances of a single service.
+These mechanisms, like for example leader election, failover and “total order and atomic broadcast”, are the main building blocks to build consistent, correct and reliable distributed systems.
+We will also present how the exclusive producer is implemented internally, and how it can guarantee its properties in the presence of all different sorts of failures.
+
+_Matteo Merli is an architect and lead software engineer at Splunk. He was one of the original co-creators of Pulsar while at Yahoo!, co-founder of Streamlio, committer and PMC of Apache Pulsar and Apache BookKeeper._
+
+---
+
+**Tuesday 15:00 UTC**
+
+## Getting Started with Event Stream Processing via Apache Flink on Microsoft Azure
+
+### Israel Ekpo
+
+When it comes to Cloud-based event stream processing (ESP) with open source software, Apache Flink is one of the leading choices today. Are you considering leveraging Apache Flink as part of your toolkit for ESP on Microsoft Azure? In this talk, we will cover and demo all the options for deploying Apache Flink on Microsoft Azure and then do a deep dive into all the integration opportunities between the Apache Flink ecosystem and Azure data platform products as well as patterns and best practices for improving performance while bolstering the business continuity and disaster recovery strategies for your cluster.
+
+_Israel Ekpo is an experienced solutions architect based out of Windermere, Florida where he enjoys perennial summers. During the last 18 years, Israel has had to opportunity to evolve while wearing many hats including but not limited to technical trainer, software engineer, technical analyst, consultant and solutions architect. He is currently serving as a cloud solutions architect at Microsoft One Commercial Partner and is very passionate about learning new technologies. Israel loves to leverage his in-depth knowledge of a broad range of technologies to provide pragmatic solutions to real world problems._
+
+---
+
+**Tuesday 15:50 UTC**
+
+## Great Expectations: Data Lake as a Source to Apache Flink to Better Support Machine Learning Use Cases
+
+### Sofya Irwin, Charles Tan
+
+Apache Flink allows us to backfill data from Kafka by rewinding Kafka offsets. However, in practice a wide variety of our kafka topics do not have infinite retention. Data that falls out of retention for these streams can not be directly used as a source for Flink. This limitation made it impossible for us to support use cases that involved processing or reprocessing historical data. In particular, Machine Learning use cases benefit from training data that involves longer time periods than we could provide with Kafka.
+After surveying the state of the art, we were inspired by industry reports of transparent Dual Source Consumers for Data Lake and Kafka. We decided to leverage our Data Lake as a source for Apache Flink and build our own Dual Source Consumer with the goal of enabling Flink to read data that had fallen outside of Kafka retention.
+In this talk we’ll introduce the motivations and use cases that led us to develop the Dual Source Consumer. We will focus on the technical trade offs we faced integrating with our existing Data Lake, and we will describe the operational challenges we faced in deploying our implementation in a multi-region environment. Lastly, we’ll discuss how enabling a two year backfill capability for our customer unblocked their use case and the implications for improved support of machine learning in streaming.
+
+_Sofya Irwin: Sofya Irwin is a software engineer working in the Streaming Applications team at Yelp, where she has worked on streaming technology and data pipelines to make data access easier for users. Previously she worked in data processing at Akamai Technologies where she developed code that aggregated logging data for a large content delivery network. She holds a Master of Engineering in Computer Science from Cornell University._
+_Charles Tan: Charles Tan is a software engineer on the Streaming Applications team at Yelp. He is working on building and maintaining infrastructure that makes real-time data processing more accessible for other teams at Yelp. He holds a Bachelor's degree in Computer Science from Brown University._
+
+---
+
+**Tuesday 17:10 UTC**
+
+## Apache NIFi Deep Dive 300
+
+### Timothy Spann
+
+For Data Engineers who have flows already in production, I will dive deep into best practices, advanced use cases, performance optimizations, tips, tricks, edge cases, and interesting examples. This is a master class for those looking to learn quickly things I have picked up after years in the field with Apache NiFi in production.
+This will be interactive and I encourage questions and discussions.
+You will take away examples and tips in slides, github, and articles.
+This talk will cover:
+
+- Load Balancing
+- Parameters and Parameter Contexts
+- Stateless vs Stateful NiFi
+- Reporting Tasks
+- NiFi CLI
+- NiFi REST Interface
+- DevOps
+- Advanced Record Processing
+- Schemas
+- RetryFlowFile
+- Lookup Services
+- RecordPath
+- Expression Language
+- Advanced Error Handling Techniques
+
+_Tim Spann is a Developer Advocate @ StreamNative where he works with Apache NiFi, Apache Pulsar, Apache Flink, Apache MXNet, TensorFlow, Apache Spark, big data, the IoT, machine learning, and deep learning. Tim has over a decade of experience with the IoT, big data, distributed computing, streaming technologies, and Java programming. Previously, he was a Principal Field Engineer at Cloudera, a senior solutions architect at AirisData and a senior field engineer at Pivotal. He blogs for DZone, where he is the Big Data Zone leader, and runs a popular meetup in Princeton on big data, the IoT, deep learning, streaming, NiFi, the blockchain, and Spark. Tim is a frequent speaker at conferences such as IoT Fusion, Strata, ApacheCon, Data Works Summit Berlin, DataWorks Summit Sydney, and Oracle Code NYC. He holds a BS and MS in computer science._
+
+---
+
+**Tuesday 18:00 UTC**
+
+## Kafka as a Platform: the Ecosystem from the Ground Up
+
+### Robin Moffatt
+
+Kafka has become a key data infrastructure technology, and we all have at least a vague sense that it is a messaging system, but what else is it? How can an overgrown message bus be getting this much buzz? Well, because Kafka is merely the center of a rich streaming data platform that invites detailed exploration.
+In this talk, we’ll look at the entire streaming platform provided by Apache Kafka and the Confluent community-licensed components. Starting with a lonely key-value pair, we’ll build up topics, partitioning, replication, and low-level Producer and Consumer APIs. We’ll group consumers into elastically scalable, fault-tolerant application clusters, then layer on more sophisticated stream processing APIs like Kafka Streams and ksqlDB. We’ll help teams collaborate around data formats with schema management. We’ll integrate with legacy systems without writing custom code. By the time we’re done, the open-source project we thought was Big Data’s answer to message queues will have become an enterprise-grade streaming platform, all in 40 minutes.
+
+_Robin is a Senior Developer Advocate at Confluent, as well as an Oracle ACE Director (Alumnus). He has been speaking at conferences since 2009 including QCon, Devoxx, Strata, Kafka Summit, and Øredev. You can find many of his talks online at http://rmoff.net/talks/, and his blog articles at http://cnfl.io/rmoff and http://rmoff.net/. Outside of work, Robin enjoys running, drinking good beer, and eating fried breakfasts—although generally not at the same time._
+
+---
+
+**Tuesday 18:50 UTC**
+
+## Tracking and Triggering Pattern with Spark Stateful Streaming
+
+### Andrei Ionescu
+
+Inside Adobe Experience Platform we noticed that multiple times we need to track actions happening at the control plane level and act upon them at lower levels like Data Lake, Ingestion processes, etc. Using Apache Spark Stateful Streaming we've been able to create services that, based on rules and conditons, act by starting processes like compacting data, consolidating data, cleaning data but not limited here, at the proper time minimising the process time while keeping everything under the defined SLAs. The cost of operation is minimal as the applications/services did require no attention, they are reliable, offer exactly once execution through Spark Stateful Streaming, auto-scaling by the way the pattern is architected, and high resiliency in case of downstream dependencies failures. This talk presents a pattern that we've been using in production for the last 2-3 years inside Adobe Experience Platform in multiple services and with no high-severity on-call interventions and minimal-to-none operational costs in these years while the services where used on high throughput ingestions flows.
+
+_Andrei Ionescu is a Senior Software Engineer with Adobe Systems, part of Adobe Experience Platform's Data Lake team, specialised in Big Data and Distributed Systems with Scala, Java, Spark, Kafka. At Adobe he is mainly contributing to Ingestion and Data Lake projects while on open source he's contributing to Hyperspace and Apache Iceberg._
+
+---
+
+**Tuesday 19:40 UTC**
+
+## Extracting Insights from Big Data using Transactional Machine Learning with Kafka and Python
+
+### Sebastian Maurice
+
+The rise of fast data (data streams) and the increasing desire for organizations to perform deeper, and faster, analysis on big data using machine learning is becoming critical. We define TML as:
+The ability of a computer to learn from data streams by using automated machine learning applied to the entire, or partial, data stream set that leads to a frictionless, and elastic, machine learning process and solution that is continuous and mostly uninterrupted by humans.
+Currently, the industry does not think about machine learning solutions as frictionless and elastic. TML solutions are frictionless because they reduce the human touchpoints in building ML solutions (hence AutoML). TML solutions are Elastic because they can quickly scale up (add more data streams), and scale down (reduce data streams) quickly saving organization money on cloud compute and storage.
+
+_Sebastian Maurice, Ph.D., is Principal Architect for Analytics/ML at Ayla Networks, and the founder and CTO of OTICS Advanced Analytics. He has over 25 years of experience in AI and ML. Previously, he served as associate director at Gartner Consulting, and before that, he worked at Accenture, Hitachi Solutions, Capgemini, SAS, and Finning Digital. He has published several papers in international peer-reviewed journals and books. Dr. Maurice also teaches a course on data science at the University of Toronto and sits on the AI Advisory Board at McMaster University. He is the author of the book: Transactional Machine Learning with Data Streams and AutoML (Apress Publishing)_
+
+---
+
+**Wednesday 14:10 UTC**
+
+## Architectures and Trends for Event Stream Processing on Azure with Open Source Software
+
+### Israel Ekpo
+
+Organizations are transitioning from batch workloads to event streaming processing (ESP)to leverage insights from events in near realtime to set themselves apart from the pack. Open Source projects such as Apache Kafka, Apache Flink, Apache Spark, Apache Beam, Apache Storm and Apache Pulsar are leading the way. Are you considering leveraging one or more of these OSS projects in your project? In this talk, we will cover a variety of deployment strategies for each of these open source projects on Microsoft Azure, integration opportunities amongst these projects as well as Azure data platform products, architectural patterns, and best practices.
+
+_Israel Ekpo is an experienced solutions architect based out of Windermere, Florida where he enjoys perennial summers. During the last 18 years, Israel has had to opportunity to evolve while wearing many hats including but not limited to technical trainer, software engineer, technical analyst, consultant and solutions architect. He is currently serving as a cloud solutions architect at Microsoft One Commercial Partner and is very passionate about learning new technologies. Israel loves to leverage his in-depth knowledge of a broad range of technologies to provide pragmatic solutions to real world problems._
+
+---
+
+**Wednesday 15:00 UTC**
+
+## Smart Transit: Real-Time Transit Information with FLaNK
+
+### Timothy Spann
+
+This talk will describe how to use Apache NiFi to read real-time RSS and XML data from transit live event streams and process this data for real-time analytics with Apache Kafka and Apache Flink. We do live ELT with NiFi to add new fields, do lookups and update events as they stream live in the system.
+We then store the events in Apache Kudu for querying through Apache Impala via Apache Hue for reporting.
+We can then host this data as an API to use with microservices to do real-time route updates and alerts.
+
+_Tim Spann is a Developer Advocate @ StreamNative where he works with Apache NiFi, Apache Pulsar, Apache Flink, Apache MXNet, TensorFlow, Apache Spark, big data, the IoT, machine learning, and deep learning. Tim has over a decade of experience with the IoT, big data, distributed computing, streaming technologies, and Java programming. Previously, he was a Principal Field Engineer at Cloudera, a senior solutions architect at AirisData and a senior field engineer at Pivotal. He blogs for DZone, where he is the Big Data Zone leader, and runs a popular meetup in Princeton on big data, the IoT, deep learning, streaming, NiFi, the blockchain, and Spark. Tim is a frequent speaker at conferences such as IoT Fusion, Strata, ApacheCon, Data Works Summit Berlin, DataWorks Summit Sydney, and Oracle Code NYC. He holds a BS and MS in computer science._
+
+---
+
+**Wednesday 15:50 UTC**
+
+## Replicated Subscriptions: taking Apache Pulsar Geo-Replication to next level
+
+### Matteo Merli
+
+Replicated subscriptions is a powerful feature that was recently added to Apache Pulsar. It allows for applications to implement very sophisticated cluster-level failover strategies, by keeping the subscription status in-sync across different clusters.
+With replicated subscriptions, a consumer can switch to a different cluster and resume the consumption from a position very close to where it left off before.
+This session will explore various patterns of cluster failover, when it is appropriate to use them and the different tradeoffs of each approach.
+After that, we will dive into the implementation of the replicated subscriptions mechanism, to show how using a distributed protocol, Pulsar is able to establish associations for a given message across multiple different data-centers, while exchanging control messages through the replication data path.
+
+Matteo Merli is an architect and lead software engineer at Splunk. He was one of the original co-creators of Pulsar while at Yahoo!, co-founder of Streamlio, committer and PMC of Apache Pulsar and Apache BookKeeper. 

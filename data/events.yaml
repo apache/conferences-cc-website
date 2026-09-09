@@ -100,15 +100,16 @@ events:
     year: 2023
     location: Beijing, China
   - name: ApacheCon North America 2022
-    nav:
+    nav: nav-na-2022.html
     ref: apachecon-north-america-2022
-    href: https://apachecon.com/acna2022/
+    href: /events/north-america-2022
     registrationHref:
     startDate: 2022-10-02
     endDate: 2022-10-06
     displayDate: October 2-6, 2022
     year: 2022
     location: New Orleans, LA
+    image:  /images/events/event-card-apachecon-2022.webp
   - name: ApacheCon Asia 2021
     nav:
     ref: apachecon-asia-2021
@@ -120,9 +121,10 @@ events:
     year: 2021
     location: Online
   - name: ApacheCon @Home 2021
-    nav:
+    nav: nav-na-home-2021.html
     ref: apachecon-home-2021
-    href: https://apachecon.com/acah2021/
+    href: /events/apachecon-home-2021
+    image:  /images/events/event-card-apachecon-2021.webp
     registrationHref:
     startDate: 2021-09-21
     endDate: 2021-09-23
@@ -503,7 +505,7 @@ events:
   - name: ApacheCon 1998
     nav:
     ref: apachecon-1998
-    href: http://www.apacheweek.com/features/apachecon98
+    href: /events/apachecon-1998
     registrationHref:
     startDate: 1998-10-14
     endDate: 1998-10-16

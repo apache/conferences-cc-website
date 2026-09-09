@@ -1,0 +1,117 @@
+title: Apache Search Track
+template: page-event-default
+ref: apachecon-home-2021
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: false
+
+---
+
+**Tuesday 14:10 UTC**
+
+## Speed up your Lucene queries by avoiding searching
+
+### Adrien Grand
+
+Come and learn tips and tricks about how you can model your data and organize your Apache Lucene indices in such a way that you can get instant responses regardless of the size of your dataset.
+This presentation doesn't require prior knowledge of Apache Lucene and is also relevant to users of Apache Solr and Elasticsearch.
+
+_Adrien has been an Apache Lucene committer since 2012. He is currently working as a tech lead on Elasticsearch at Elastic._
+
+---
+
+**Tuesday 15:00 UTC**
+
+## Faster retrieval of top N documents in Apache Solr 8.6
+
+### Tomás Fernández Löbbe
+
+Lucene has supported skipping over non-competitive documents using the BlockMax-WAND algorithm since Lucene version 8.0.
+Starting with version 8.6, Solr can also take advantage of block-max indexing. Block-max WAND stores the maximum impact score for each block of documents matching a term in the index, enabling skipping large blocks of documents at search time and potentially leading to considerable performance gains.
+This talk covers the high level APIs in Solr as well as the lower level aspects of how Lucene Implements the BlockMax-WAND algorithm and its drawbacks.
+
+_Tomás is a senior engineer from the Apple Media Products Data Services team, and previous lead engineer of the Apple Cloud Infrastructure Search team. He is a committer and PMC member of the Apache Lucene and Solr projects. Tomás has deep search infrastructure expertise, with previous experience at Amazon AWS working on both Amazon CloudSearch and Amazon Elasticsearch services._
+
+---
+
+**Tuesday 15:50 UTC**
+
+## The future of Lucene's MMapDirectory: Why use it and what's coming with Java 16/17 and later?
+
+### Uwe Schindler
+
+Since version 3 of Apache Lucene and Solr and from the early beginning of Elasticsearch, the general recommendation was to use MMapDirectory as the implementation for index access on disk. But why is this so important?
+This talk will first introduce the user about the technical details of memory mapping and why using other techniques slows down index access by a significant amount. Of course we no longer need to talk about 32/64bit Java VMs - everybody uses now 64 bits with Apache Solr and Elasticsearch/Opensearch, but with current Java versions, Lucene still has some 32bit-like limitations on accessing the on-disk index with memory mapping. We will discuss those limitations especially with growing index size up to terabytes, and afterwards, Uwe will give an introduction to the new Java Foreign Memory Access API (JEP 370, JEP 383, JEP 393), that first appeared with Java 14, but still incubating.
+The new API sounds interesting and will remove all previous issues and limitations, but with Lucene's current design, the first and second JEP incubators (Java 14, 15) would have been hard to implement. In close cooperation between Lucene committers and OpenJDK committers (we actually share devs), starting with Java 16, the 3rd incubator is finally ready to be used from Lucene: A first preview of Lucene's implementation was developed as a draft pull request. This talk will show how future versions of Lucene will be backed by next generation memory mapping and what needs to be done to make this usable in Solr and Elasticsearch - bringing you memory mapping for indexes with tens or maybe hundreds of Terabytes in the future!
+
+_Uwe is committer and PMC member of Apache Lucene and Solr. His main focus is on development of Lucene Java. He implemented fast numerical search and is maintaining the new attribute-based text analysis API. He studied Physics at the University of Erlangen-Nuremberg and works as managing director for SD DataSolutions GmbH in Bremen, Germany, a company that provides consulting and support for Apache Lucene, Elasticsearch, and Apache Solr. He also works for “PANGAEA – Publishing Network for Geoscientific & Environmental Data” where he implemented the portal's geo-spatial retrieval functions with Lucene Java. Uwe had talks about Lucene at various international conferences like the previous Berlin Buzzwords, ApacheCon EU/US, Lucene Revolution, Lucene Eurocon, and various local meetups._
+
+---
+
+**Tuesday 17:10 UTC**
+
+## Managing Custom Plugins and Forks of Solr
+
+### David Smiley, Nazerke Seidan
+
+Do you write plugins for Solr or do you fork Solr? This talk discusses some strategies to maintain them: managing versions, branches and upgrades, whether to use "git submodule" or "git subtree", and how to test your plugins. We'll also enumerate a variety of Lucene & Solr test utilities and techniques for testing Solr in a variety of modes, including SolrCloud and use of Docker, and the randomized testing philosophy.
+
+_David Smiley: David has been on many search projects continuously since 2006 with a focus on back-end implementation with Apache Lucene and Solr. He's passionate about software development and contributing to open-source holding titles of Committer & PMC for Lucene & Solr, ASF Member, and Committer & PMC for Eclipse/LocationTech's Spatial4j. He is the lead author of the "Apache Solr Enterprise Search Server" book series and he has spoken at a number of search conference events and meetups. Nazerke Seidan: Solr Contributor. Software Engineer at Salesforce working in Search. Prior to Salesforce, she has worked and interned at CERN in the Hadoop HDFS project and at Cloudera in Search. She has a bachelor's degree in Computer Science, Budapest, Hungary._
+
+---
+
+**Tuesday 18:00 UTC**
+
+## Monitoring and Alerting for Apache Solr with the Prometheus Stack
+
+### Timothy Potter
+
+So you deployed Solr on Kubernetes and wired up the metrics exporter for Prometheus. You have a fancy Grafana dashboard, but now what? Which metrics matter most? Monitoring looks cool on a flat screen on the office wall, but you also need alerts for key health indicators so you can respond effectively and efficiently when something goes wrong.
+In this talk, I’ll walk through how to integrate Solr with the Prometheus Stack on Kubernetes. I’ll also cover key performance metrics you need to monitor in Grafana, how to interpret them. I’ll wrap up the talk with a look at building alerts using Prometheus alertmanager.
+Attendees will come away with actionable advice on building a world-class monitoring and alerting solution for their mission-critical Solr applications.
+
+_Timothy focuses on scalability, security, and stability of Apache Solr at Apple and is a Solr PMC member. He specializes in cloud native architecture and running large-scale distributed systems on Kubernetes. Prior to joining Apple, Tim was the Chief Architect at Lucidworks where he led a company-wide transformation from a legacy on-prem search platform to a cloud-native microservices architecture running on Kubernetes. Tim is also the co-author for Solr In Action._
+
+---
+
+**Wednesday 14:10 UTC**
+
+## On the path to a massive scale SolrCloud: removing Overseer
+
+### Ilan Ginzburg
+
+SolrCloud uses Zookeeper for coordination yet relies on a single central process (Overseer) for certain interactions.
+Allowing nodes to directly interact with Zookeeper instead seemed a reasonable evolution given Zookeeper is already a central point. The motivation was, in order:
+
+- Simplify the architecture and code, open the door for ambitious future changes
+- Remove complex (and at times inefficient) Zookeeper queue management
+- Remove scale and performance bottlenecks due to relying on a single process
+
+This talk will give some context around the role of Overseer (no prior knowledge assumed) and describe how cluster state updates and Collection and Config Set API commands execution was made possible on any node. Compare and swap (CAS) was used for distributing state updates and Zookeeper based distributed locks were used for the APIs.
+Existing semantics and behavior of Overseer based SolrCloud was preserved (even replicating some bugs!) to make the transition as seamless as possible. Most notably support for asynchronous Collection API jobs as well as commands continuing execution on the cluster even after user requests time out.
+Distributed cluster state updates and API command execution can be switched on using a configuration change in Solr 9. By default though Solr 9 runs in the “legacy” Overseer based mode.
+
+_Ilan works on search infrastructure and integration problems from the Salesforce office in Grenoble, France. He holds business administration and computer science engineering degrees and a PhD in parallel computing. Prior to Salesforce, Ilan worked at Intel, HP Labs in Palo Alto, a french telecom startup and EMC/Documentum. Before all that he wrote the Apple II computer game “Saracen.” When not in front of a screen, he’s often flying his paraglider above the Alps._
+
+---
+
+**Wednesday 15:00 UTC**
+
+## Scaling Apache Solr--Features Of Resilience
+
+### Atri Sharma
+
+This talk will focus on recent features added in Apache Solr which focus on stability and higher resiliency. The talk will highlight how to use the features and achieve a high degree of stability under high read and write load.
+
+_Atri Sharma is a Search and Databases Guy._
+
+---
+
+**Wednesday 15:50 UTC**
+
+## Panel Discussion: Handling vulnerability reports in Apache Solr
+
+### Cassandra Targett, David Smiley, Mike Drob
+
+As a project that is a part of critical infrastructure across various organizations, Solr has its fair share of vulnerabilities discovered and reported to the PMC. This session would be a discussion about how the PMC handles such reports, and fixes it while working in the best interest of both, the project as well as its users. Moderated by: Anshum Gupta, PMC member and committer for Apache Lucene and Solr.
+
+_Cassandra Targett: Cassandra has 20 years experience in search and knowledge management. She has been an Apache Lucene committer since 2013 and a member of the PMC since 2016. As Director of Engineering at Lucidworks, she manages the day-to-day work of the Solr development team. David Smiley: David has been on many search projects continuously since 2006 with a focus on back-end implementation with Apache Lucene and Solr. He's passionate about software development and contributing to open-source holding titles of Committer & PMC for Lucene & Solr, ASF Member, and Committer & PMC for Eclipse/LocationTech's Spatial4j. He is the lead author of the "Apache Solr Enterprise Search Server" book series and he has spoken at a number of search conference events and meetups. Mike Drob: Mike works in Apple Cloud Services as an Apache Solr PMC Member and Committer. He is a veteran of distributed systems, previously working on Apache Hadoop and Apache HBase. He is passionate about operational experience including tooling and security. When not working on Solr, he enjoys LEGO robotics and walking his two dogs._

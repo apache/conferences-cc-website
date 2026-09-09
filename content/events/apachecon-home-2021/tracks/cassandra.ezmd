@@ -1,0 +1,175 @@
+title: Apache Cassandra Track
+template: page-event-default
+ref: apachecon-home-2021
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: false
+
+---
+
+**Tuesday 15:00 UTC**
+
+## The Future of Security for CQLSH
+
+### Arturo Hinojosa, Derek Chen-Becker
+
+CQLSH does not use the same security extension mechanism as Apache Cassandra drivers. In this talk, we break down the plugin CEP proposal for how CQLSH could support authentication plugins, and how we can better secure Cassandra by default. We will also discuss additional security and user enhancements for the CQLSH tool.
+
+_Arturo Hinojosa: Arturo Hinojosa is a Principal Product Manager on the Amazon Keyspaces (for Apache Cassandra) team. Arturo is responsible for the overall product strategy of Amazon Keyspaces and has been with Amazon Web Services (AWS) for over four years. Derek Chen-Becker: Derek Chen-Becker is a Senior Software Development Engineer on the Amazon Keyspaces (for Apache Cassandra) team. Derek is the original author of the AWS authentication plugin for Apache Cassandra drivers. Derek is interested in network engineering and enterprise software development, with focuses in distributed systems, monitoring and management._
+
+---
+
+**Tuesday 15:50 UTC**
+
+## Making Cassandra Faster in Cloud-native architecture
+
+### Subrata Ashe
+
+This talk will deep dive into Salesforce journey in optimizing Cassandra for cloud-native architecture with focus on how C* performs in Kubernetes container along with strict encryption (FIPS and non-FIPS) using service mesh design. I will present a detailed deep dive into performance bottlenecks with encryption and implementation challenges and how C* JVM works in K8s container. I will also present a detailed analysis on Cassandra 4.0 optimization and challenges in adoption.
+
+_Subrata Ashe is a Principal Software Engineer at Salesforce focusing on performance of distributed systems. He works on internet sale technologies and how they perform for cloud-native architecture. He has several years of implementation and optimization experience in Apache Cassandra._
+
+---
+
+**Tuesday 17:10 UTC**
+
+## Cassandra powered workflows to automate at scale
+
+### Maciej Swiderski
+
+Nowadays, more and more data is distributed across many geographical locations and as such must be available in almost any location where users are. This can be by applying „follow the sun” organization setup or by supporting various businesses that rely on „anywhere data accessibility”. Apache Cassandra brings the required distributed data mechanics to power up workflow based services and functions. Workflows provide data processing layers that can be expressed as services, functions or even function flows that are designed to run anywhere and that require access to data in a highly distributed manner.
+In this presentation you will see a practical use of Apache Cassandra that enables running workflow based business logic at scale - from traditional services, to functions and function flows running in serverless fashion where Apache Cassandra shows its features in the best possible way. Combining workflows with Apache Cassandra enables various use cases that were not available with traditional approaches mainly constrained by data access challenges.
+
+_Maciej is an independent software engineer at OpenEnterprise. Since 2007 he is in business automation and workflow domain both from development point of view and helping to adopt business automation in different sectors. The last several years he spent at building and running workflows at scale utilising various cloud native solutions e.g. Kubernetes, KNative. He's passionate about open source and tries to promote it wherever possible. He is also a creator of open source project Automatiko (https://autmatiko.io) that aims at building services and functions based on workflows. In his spare time he enjoys calm and relax life on country side and travels._
+
+---
+
+**Tuesday 18:00 UTC**
+
+## Fuzz Testing and Verification of Apache Cassandra with "Harry"
+
+### Alex Petrov
+
+Cassandra is a mature database, and most of the “straightforward” issues are already found, fixed, and covered with regression tests. To gain more confidence in Apache Cassandra releases, we need to search for issues that reveal themselves only during extensive testing in scenarios that are as close to the real world as possible. Current testing tooling in Apache Cassandra largely tests for common- and edge-cases, and most of the tests use predefined datasets. Property-based tests can help explore a broader range of states, but often require either a complex model and a large state to test against. To solve this problem we’ve introduced, Harry, a component for fuzz testing and verification of Apache Cassandra.
+Using Harry, we’ve been able to identify and stably reproduce issues that would be difficult to find by hand. Found issues, when applicable, was reduced to a minimum number of steps needed to reproduce them using tools that comes with Harry.
+In this talk, you will learn about the main concepts behind Harry, how these concepts help to keep verification state to the minimum, make verifications performant, learn about the structure of its primary components are structured, and hear about the process of finding issues using Harry.
+
+_Alex Petrov is a polyglot programmer. Database Storage, Distributed Systems._
+
+---
+
+**Tuesday 18:50 UTC**
+
+## The trials and tribulations of a CI pipeline on Apache Infra
+
+### Mick Semb Wever
+
+Adventures with CloudBees at the ASF, running pipelines on donated hardware, using nightlies.apache.org and dockerhub, bintray, artifactory, and more.
+Taking a dive into the types of tests Cassandra has its pipeline, what is legacy and what is new, and what we want to add. Evaluating how volunteers can stay on top of 40K tests, tests that don't always break on the bad commit. And supporting all the other testing frameworks used by other surrounding projects, libraries and drivers, in the ecosystem.
+
+_Mick Semb Wever is an Apache Cassandra Committer and PMC member. Principal Architect with The Last Pickle and DataStax, helping Cassandra users from innovation to operations. Beyond technology, crazy about snowboarding, rock climbing, trail running, skiing, surfing, and just anything awesome in nature._
+
+---
+
+**Tuesday 19:40 UTC**
+
+## Improving Testing Patterns for Apache Cassandra
+
+### Brian Houser, Arturo Hinojosa
+
+Let's discuss the current state of testing, and ways that it can be improved through the use of Contract testing, Service tests, and singleton decoupling.
+
+_Brian Houser: Brian Houser is a Senior Software Development Engineer on the Amazon Keyspaces (for Apache Cassandra) team. Brian leads open-source efforts for Amazon Keyspaces and has been with Amazon for more than 10 years. Arturo Hinojosa: Arturo Hinojosa is a Principal Product Manager on the Amazon Keyspaces (for Apache Cassandra) team. Arturo is responsible for the overall product strategy of Amazon Keyspaces and has been with Amazon Web Services (AWS) for over four years._
+
+---
+
+**Wednesday 14:10 UTC**
+
+## Evolving Transactions in Apache Cassandra
+
+### Benedict Elliot Smith
+
+Cassandra offers its users “tuneable consistency,” but many users simply require strong causality - and want their database to provide it efficiently, without caveat or ceremony.
+After a quick crash course in Paxos, we’ll explore how transactions work today in Cassandra. We’ll then take a look at how Cassandra’s Paxos implementation can be improved over the coming year. Initially we’ll see how these workloads can be made more efficient by reducing the number of messages that must be exchanged within the cluster, incrementally taking the number of round-trips from four to one. We’ll follow up with a dive into how we can improve Cassandra’s transactions to provide atomicity when modifying many database records together (LWTs across multiple partitions).
+Since this kind of distributed problem is notoriously difficult, we will also explore how this evolution can be done with confidence, ensuring the safety of our users’ data and workloads.
+
+_Benedict Elliot Smith is a software engineer with an interest in performance, correctness, and algorithm design._
+
+---
+
+**Wednesday 15:00 UTC**
+
+## Designing Keys for NOSQL solutions
+
+### Nikolai Kolesnikov
+
+Designing keys for non-relational databases can be confusing and varies widely between engines. In this talk, we discuss how keys are used internally, and best practices for coming up with useful natural keys.
+
+_Nikolai Kolesnikov is a Sr. Data Architect for AWS._
+
+---
+
+**Wednesday 15:50 UTC**
+
+## Cassandra Data Migration with Dual Write Proxy
+
+### German Eichberger
+
+There are many databases implementing the Cassandra API and migrating from one to the other with zero downtime requires a dual write approach. The common approach is to modify the client applications to write to two API endpoints instead of one and potentially also read from the two endpoints and compare the results while write- and ttl-timestamp preserving offline migration tools (e.g. sstableloader) are used to move the other data. Modifying the client applications come at a huge cost and is not always feasible so many users are “stuck” with a particular Cassandra version or vendor.
+This talk will introduce an Open Source dual write proxy under Apache License which will act as one endpoint for client applications but forward writes to two Cassandra API endpoints – thus making changes to client applications obsolete while leveraging the dual write approach. As an added benefit it will also monitor reads and provide reports showing discrepancies to aid in deciding when the migration is complete. Furthermore, we will review multiple real life data migrations using this proxy and the accompanying offline migration method and share lessons learned.
+This talk is applicable to Cassandra users who want to upgrade from an older Cassandra version to 3.X or 4.X but also to users who want to switch to or from any of the cloud based Cassandra API offerings.
+
+_German Eichberger, MSc, is a Senior Software Engineer with Microsoft Azure Data & AI. In addition, he is a core reviewer for several OpenStack projects. Previously, he was an architect on Racksapce's Kubernetes team and led Hewlett-Packard's Cloud Advanced Networking Team. He also worked with clients from major corporations while at PricewaterhouseCoopers. German has given talk at major conferences and teaches computer topics at University of California San Diego Extension._
+
+---
+
+**Wednesday 17:10 UTC**
+
+## Modeling Financial Data In Cassandra To Serve Real Time And Batch Workloads At Same Time
+
+### Gokul Prabagaren
+
+This talk will explain how we have modeled customer rewards data in CapitalOne using Apache Cassandra to serve Real time microservice based workloads (Customer accessing their rewards online) and batch Apache Spark workloads (Customer statements) at same time.
+CapitalOne being Tech Company in Banking business, we are 100% Cloud operated Company. All our workloads are Cloud Native. This talk covers one of such use case which will explain how we have modeled customer rewards data in CapitalOne using Apache Cassandra to serve Real time microservice based workloads and batch Apache Spark workloads at same time. When customer accesses their Rewards from web or Customer receives their Rewards in Statements the Cassandra table we modeled plays a central role and services both the different workloads at same time. This talk will cover how Cassandra data is used by Spring based microservice and Spark based batch workload. I am part of team which designed and developed this application ground up and serving millions of customers now.
+
+_Gokul Prabagaren is an Engineering Manager at CapitalOne - Rewards Org, specialized in Distributing computing. Developed distributed Cloud Native applications based on Spark, Cassandra and Mongo which are currently serving millions of customers everyday. Previously developed Java apps from 1.2 on-prem & VMs._
+
+---
+
+**Wednesday 18:00 UTC**
+
+## How Netflix Provisions Optimal Cloud Deployments of Cassandra
+
+### Joey Lynch
+
+At Netflix we provision thousands of isolated Apache Cassandra clusters to meet our developer's ever growing requirements and scale. In the past, sizing the compute and storage requirements of a cluster was a somewhat obscure combination of black magic and institutional knowledge, but now we have developed flexible software models to optimally (and reproducibly!) provision our cloud footprints to meet requirements.
+Next, we will cover how the model reacts to various inputs and makes trade-offs between consistency, latency, availability and durability under the constraint of minimizing cost of infrastructure. I will show how the model reacts to a variety of use cases and explain why the model is making certain recommendations.
+In this talk I will cover how the Netflix Apache Cassandra Capacity Model works to transform the extremely uncertain developer inputs such as "I need around ten thousand queries per second and terabytes of storage" to concrete cloud footprints that minimize total cost for Netflix. Specifically, I will cover how user requirements such as traffic, data footprint and service tier can be combined with hardware properties such as disk latencies, disk capacity, CPU, and memory capacity to choose the optimal instance type for the job.
+Finally, I will present the metrics and processes we observe after we provision a cluster to help pinpoint scaling bottlenecks and identify which hardware resource we need to purchase more of. The Capacity Planner isn't always perfect, but understanding the model helps us to scientifically measure and identify bottlenecks even after we are live in production.
+
+_Joey Lynch is a Senior Software Engineer for Netflix who focuses on building high volume datastore infrastructure and abstractions. He is a core contributor to Netflix's datastore platform, which supports a polyglot data tier including Cassandra, Elasticsearch, Zookeeper and more. He loves building distributed systems and learning the fun and exciting ways that they scale, operate, and break. Having wrangled many large scale distributed systems over the years, he currently spends most of his time wrangling Cassandra._
+
+---
+
+**Wednesday 18:50 UTC**
+
+## Stargate.io, An OSS Api Layer for your Cassandra
+
+### Cedrick Lunven
+
+Cassandra is an incredibly powerful, scalable and distributed open source database system. Companies with extremely high traffic use it to provide their users with consistent uptime, blazing speed, and a solid framework. However, many developers find Cassandra to be challenging because the configuration can be complex and learning a new query language (CQL) is something they just don't have time to do.
+Stargate is an Open Source project which sits on top of Cassandra and provides HTTP interfaces to your data - it provides a REST API, a GraphQL API, and a document-oriented Schemaless API. You can install it on top of your own Cassandra instance and participate in the community.
+During this presentation we will demo, detail purpose, capabilities and internals of the tool. We also give a working sample as a docker-ready configuration file.
+
+_With several positions as Developer, Technical Architect or Presales, and strong background on integration middleware he had multiple opportunities to empower his customers to build cutting-edge distributed applications. In 2013 he joined the open source community and created a Feature Toggle Framework, "FF4J" which he has been actively maintaining. Today he is leading the developer advocate team at DataStax._
+
+---
+
+**Wednesday 19:40 UTC**
+
+## Cassandra for giant 3D tables
+
+### David North
+
+This talk will describe how Cassandra supports an application which allows users to do browser-based exploration of "large" 3-dimensional tables of financial data. We'll also cover how Cassandra fits into the wider application, including monitoring and running as part of Kubernetes.
+
+_David North heads up the development team at CoreFiling, an SME with a UK-based development team specialising in financial and business reporting. They've been using Cassandra for over five years._

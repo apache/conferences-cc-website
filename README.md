@@ -11,6 +11,18 @@ This repository provides the source for the CommunityOverCode website of The Apa
   - Static assets of all types.
   - .htaccess files for redirection and rewrite rules.
 
+## EZMD link syntax
+
+In `.ezmd` files, EZT processing runs before Markdown.
+Because both syntaxes use square brackets, write Markdown links and image alt text in `.ezmd` with an escaped opening bracket:
+
+- Link in `.ezmd`: `[[]Link text](https://example.org)`
+- Image in `.ezmd`: `![[]Alt text](./images/example.png)`
+
+In normal `.md` files, use regular Markdown syntax:
+
+- Link in `.md`: `[Link text](https://example.org)`
+- Image in `.md`: `![Alt text](./images/example.png)`
 
 ## Adding An Event
 

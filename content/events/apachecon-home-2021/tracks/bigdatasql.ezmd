@@ -1,0 +1,147 @@
+title: Apache Big Data: SQL/NoSQL Track
+template: page-event-default
+ref: apachecon-home-2021
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: false
+
+---
+
+**Wednesday 17:10 UTC**
+
+## Visual Flow, open-source ETL tool powered by Apache Spark
+
+### Dmitri Pavlov, Alexander Shevtsov
+
+We want to present Visual Flow - a cloud-native open-source ETL tool based on Apache Spark unified analytics engine with a Graphical User Interface. It combines the best features of Spark, Kubernetes and Argo into a single system with the following features:
+
+- Portability, flexibility and multi-cloud compatibility
+- Increased developer productivity
+- High availability, performance and fault tolerance
+- Cost-effective
+- Open source
+
+Visual Flow provides a Graphical User Interface to create ETL jobs and combine them in Data Processing Pipelines, run/schedule them, and monitor execution. It is a multi-tenant system. You can create multiple projects in a single cluster. Each project is represented as a namespace, which allows allocating resources and providing access to the users in different roles.
+
+- Visual Flow does not require a database. It is possible to create all objects as native Kubernetes resources.
+- Visual Flow leverages Kubernetes authorization to manage users and their roles within a project.
+- Visual Flow provides the ability to create parameters (e.g., connection info) and reuse them in Jobs.
+
+_Dmitri Pavlov is a data integration architect working in the fields of BI and Big Data Analytics for the last 10 years. ETL tools such as IBM Datastage have been instrumental in his work allowing for faster development cycles, more efficient deployments, workload monitoring and configuration management. Visual Flow is an attempt of his department to bring some of the time-tested features of traditional ETL tools into the Big Data world._
+
+_Alexander Shevtsov is a Data Architect at IBA Group company. He has been working for about 10 years in various enterprise data-oriented projects and has solid experience in building ETL solutions. His first experience was command-based tools for traditional relational databases which eventually led to complex and challenging data integration projects in Big Data._
+
+---
+
+**Wednesday 18:00 UTC**
+
+## Under-The-Hood of Druid without Zookeeper on Kubernetes
+
+### Himanshu Gupta
+
+Most distributed systems depend upon leader election, service/node discovery, node failure detectors in order to provide a resilient service that continues to work in the presence of a subset of node failures.
+Some implement their own crafted algorithms, some implement raft or paxos or other well-known distributed consensus algorithms. But they are notoriously hard to get right. So, Zookeeper became a popular solution to delegate distributed system coordination.
+Apache Druid initially depended on Zookeeper for most of its distributed coordination activities and having Zookeeper available was a hard requirement of operating a Druid cluster. In recent years, Druid made it possible to "plug" different extensions that could delegate distributed coordination to Zookeeper or something else.
+Kubernetes is becoming a common choice for deploying and operating Druid clusters. Kubernetes (backed by etcd, which is not accessible directly on most cloud Kubernetes services) provides the necessary building blocks or APIs to enable leader election, service/node discovery and failure detectors for applications deployed on Kubernetes.
+So, it was a logical next step to have a Druid extension that delegates Druid's distributed coordination needs to Kubernetes when Druid is deployed there.
+This talk is an under-the-hood look at how Druid made distributed coordination pluggable and how it works inside the Kubernetes-based extension.
+
+_Himanshu is a long term Apache Druid contributor and PMC member. He is also the author of Druid Kubernetes Operator (https://github.com/druid-io/druid-operator). Currently, he is a Principal Engineer at Cloudera bringing enterprise data cloud to customers. In the past, he worked at Yahoo!, Splunk solving all kinds of challenges to make sense out of large scale data._
+
+---
+
+**Wednesday 18:50 UTC**
+
+## Building modern SQL query optimizers with Apache Calcite
+
+### Vladimir Ozerov
+
+Query optimization is one of the most challenging problems in database systems. For many years, creating a query optimizer was considered black art, available only to a limited number of companies and products.
+Not any more. Apache Calcite is an open-source framework that allows you to build query engines, and query optimizers in particular, at a significantly lower engineering cost. In this talk, I will present query optimization capabilities of Apache Calcite, including cost-based and heuristic optimization drivers and an extensive library of optimization rules.
+
+_Vladimir Ozerov is a founder of Querify Labs, where he manages the research and development of innovative data management products for technology companies. Before that, Vladimir worked on in-memory data platforms Apache Ignite and Hazelcast for more than eight years, focusing on distributed data processing. Vladimir is a contributor to Apache Calcite and a committer to Apache Ignite._
+
+---
+
+**Wednesday 19:40 UTC**
+
+## Improving interactive querying experience on Spark SQL
+
+### Ashish Singh, Sanchay Javeria
+
+Being a data driven company, interactive querying on hundreds of petabytes of data is a very common and an important function at Pinterest. Interactive querying has different requirements and challenges from batch querying. In this talk, we will talk about various architectural alternatives one can choose from to perform interactive querying with Spark SQL. Through thorough discussion on trade-offs of each of those architectures and requirements for interactive querying, we will elaborate on the reasoning for our design choice. We will further share enhancements we made to open source projects including Apache Spark, Apache Livy and Dr. Elephant along with in-house technologies we built to improve interactive querying experience at Pinterest. We will share enhancements like DDL query speed ups, Spark session caching, Spark session sharing, Apache Yarn's diagnostic message improvements, query failure handling and query tuning recommendations. We will also discuss some challenges we faced along the way and future improvements we are working on.
+
+_Ashish Singh is a tech lead on the BigData Query Processing Platform team and focuses on making expressing computational needs with SQL easier, faster, and reliable. As an open source enthusiast and an Apache committer he has contributed to multiple open source big data projects, including Presto, Apache Parquet, Kafka, Hive and Sentry over the past several years. Before joining Pinterest, Ashish worked at Cloudera. Ashish holds an M.S. in computer science from The Ohio State University._
+
+_Sanchay Javeria is a Software Engineer on the BigData Query Processing Platform team and focuses on making the in-house interactive SQL query pipelines more efficient, reliable and feature rich. Prior to joining Pinterest, Sanchay finished his B.S. in computer science from The University of Illinois at Urbana-Champaign._
+
+---
+
+**Thursday 15:00 UTC**
+
+## Apache Hive Replication V3
+
+### Pravin Kumar Sinha
+
+Ability to schedule and manage the replication policy within Hive has been a gap in the replication solution Hive provided. Hive replication V3 comes up with many enhancement including but not limited to the replication policy management.
+This talk will talk about the new features introduced in Hive Replication V3, like scheduling, check-pointing, acknowledgment, support for Atlas and Ranger metadata replication and few performance enhancement we did as a part of it. For performance enhancement, it will discuss on enhancements like load partitions in batches for managed table, waiting for on-going transactions only for the databases under replication etc.
+
+_Pravin is a committer of Apache Hive project. Pravin is currently working in Cloudera, focusing on the Hive Replication component. Pravin has keen interest in distributed systems. With more than 13 years of experience in software development, Pravin has worked on distributed backend systems like XMPP server, indexing and search solution for email server etc._
+
+---
+
+**Thursday 15:50 UTC**
+
+## Challenges of Spark Application coexisting with NoSQL databases
+
+### Gokul Prabagaren
+
+CapitalOne is first US bank to exist out of on-premises and moved completely on Cloud. Over this process of modernizing our application in CapitalOne Card Rewards, we developed ground up custom transactions processing application on open source technologies like Spark, Mongo, Cassandra etc. This application currently processes millions of customer transactions daily providing them millions of miles, cash and points everyday. In process of building our application, we came across many challenging issues to have Spark application process data from MongoDB and Cassandra backend to serve customers. This talk is going to focus on few of those issues, what is the impact of those issue and how to mitigate them. To call out specifically following are list of issues this talk will focus on.
+
+- How Cassandra key sequence is important and how it impacts in querying
+- How Cassandra batching helps and works well with Spark partitions
+- Importance of Cassandra data modeling and its implications after MVP/deployment
+- How to manage Mongo connection (at JVM level)
+- Implications of using MongoSpark connector on its partitioner
+
+All the issues highlighted are faced by us in our application. This talk will focus on what are these issues in Spark/Mongo/Cassandra app environment and how to mitigate them. Anyone using Spark apps with Mongo and Cassandra databases as backend can benefit from this talk.
+
+_Gokul Prabagaren is an Engineering Manager at CapitalOne - Rewards Org, specialized in distributed computing. He developed distributed cloud native applications based on Spark, Cassandra and Mongo which are currently serving millions of customers every day. Previously he developed Java apps from 1.2 on-prem and VMs._
+
+---
+
+**Thursday 17:10 UTC**
+
+## Storage-Partitioned Join for Apache Spark
+
+### Chao Sun, Ryan Blue
+
+Spark currently supports shuffle join (either shuffled hash join or sort-merge join) which relies on both sides to be partitioned by Spark's internal hash function. To avoid the potentially expensive shuffle phase, users can create bucketed tables and use bucket joins which ensure data is pre-partitioned on disk when written, using the same hash function, and thus won't be shuffled again in subsequent joins.
+A storage partitioned join extends the idea beyond hash-based partitioning, and allows other types of partition transforms: two tables that are partitioned by hour could be joined hour-by-hour, or two tables partitioned by date and a bucket column could be joined using date/bucket partitions. It also paves the way for data sources to provide their own hash functions, for example, bucketed tables created by Hive.
+In this talk we propose extensions for Spark that will enable storage partitioned joins for v2 data sources, using partitions produced by any transform or a combination of partition values. This also proposes an extension to Spark's distribution model to avoid processing large partitions in a single task.
+
+_Chao Sun is currently a software engineer at Apple, working on Apache Spark. Previously he was involved in various Apache projects such as Apache Hive, Apache Hadoop, as well as Apache Arrow._
+
+_Ryan Blue is the co-creator and PMC chair of Apache Iceberg and works on open source data infrastructure. He is an ASF member, Avro and Parquet PMC member, and a Spark committer._
+
+---
+
+**Thursday 18:00 UTC**
+
+## Casting the spell: Druid in practice
+
+### Itai Yaffe, Yakir Buskilla
+
+At Nielsen Identity, we leverage Apache Druid to provide our customers with real-time analytics tools for various use-cases, including in-flight analytics, reporting and building target audiences.
+The common challenge of these use-cases is counting distinct elements in real-time at scale.
+We've been using Druid to solve these problems for the past 5 years, and gained a lot of experience with it.
+In this talk, we will share some of the best practices and tips we've gathered over the years.
+We will cover the following topics:
+
+- Data modeling
+- Ingestion
+- Retention and deletion
+- Query optimization
+
+_Itai Yaffe is a Senior Solutions Architect at Databricks. Prior to Databricks, Itai was a Principal Solutions Architect at Imply (founded by the original creators of Apache Druid), and before that, a big data tech lead at Nielsen Identity, where he dealt with big data challenges using tools like Spark, Druid, Kafka, and others. He is also a part of the Israeli chapter's core team of Women in Big Data. Itai is keen about sharing his knowledge and has presented his real-life experience in various forums in the past._
+
+_Yakir Buskilla is co-founder and CEO of cocohub.ai, and previously the SVP R&D and GM Israel at Nielsen Identity. His fields of interest are Big Data solutions and large scale machine learning._

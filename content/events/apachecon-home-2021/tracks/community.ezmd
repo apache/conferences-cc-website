@@ -1,0 +1,248 @@
+title: Apache Community Track
+template: page-event-default
+ref: apachecon-home-2021
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: false
+
+---
+
+**Tuesday 14:10 UTC**
+
+## Apache Local Community (ALC): Present & Beyond
+
+### Swapnil M Mane
+
+Apache Local Community (ALC) is an initiative by the Apache Community Development project.
+ALC comprises local groups of Apache (Open Source) enthusiasts, called an 'ALC Chapter'. For details please refer https://s.apache.org/alc
+The session will be majorly on two topics:
+
+- How the Apache Software Foundation provides the opportunity to flourish your idea. I shared the initial ALC idea with the community around mid-2019, from there with the great inputs from the community and mentors, we have given the shape to the idea. It is a great example, how the community can help you to transform and enhance your idea to match global standards.
+- Introduction, Present State and next plans of ALC
+- Introduction About ALC ALC Roles and Responsibilities Benefits of ALC
+- How to apply to set up ALC Chapter Code of conduct ALC Resources Addition information Contact ALC
+- Present State Current ALC Chapters (Indore, Beijing, Warsaw, Budapest, and others..)
+- Activities and health of these chapters, we had a great past year in terms of ALC activities.
+- Beyond (Next Steps) Establishing new ALCs and future roadmap.
+- How to participate in this initiative.
+
+More details on ALC can be found at
+
+- https://s.apache.org/alc
+- https://s.apache.org/alc-code-of-conduct
+- https://s.apache.org/alc-guidelines
+- https://s.apache.org/alc-chapters
+- https://s.apache.org/alc-reports
+- https://s.apache.org/establish-alc-chapter
+
+The following will be the take away from the session:
+
+- How community engagement can help in improvising and implementing your idea.
+- What is ALC and how to participate in this initiative.
+
+Swapnil M Mane is an open-source enthusiast and promoter. Also:
+
+- Apache Software Foundation Member
+- Founder, Open Source Wave (www.opensourcewave.io)
+- Apache Central Services / Editorial Member
+- Founder & Chair, Apache Local Community (ALC)
+- PMC Member, Apache Community Development, OFBiz, Roller
+- Founder Vue.js Indore community.
+- Skilled in E-commerce, Order Management System, Omni-Channel, and PWA strategy. Strong information technology professional with the intensive experience of building enterprise-grade applications.
+
+---
+
+**Tuesday 15:00 UTC**
+
+## Open Source Licensing 101
+
+### Jim Jagielski
+
+One of the most popular Open Source licenses in use the the Apache License, version 2 (aka: ALv2). But there are loads of other licenses available. Other than the name, why does the ASF choose the ALv2, and is it necessarily the best choice for *your* project? In this talk, the basics of open source licensing will be discussed, detailing the differences and governance models best suited for each.
+
+_Jim Jagielski is a well-known and acknowledged expert and visionary in open source, an accomplished coder, and frequent engaging presenter on all things open, web, blockchain, and cloud related. As a developer, he’s made substantial code contributions to just about every core technology behind the internet and web and in 2012 was awarded the O’Reilly Open Source Award. In 2015, he received the Innovation Luminary Award from the EU and in 2019 was picked by InterCon as one of their Top 50 Tech Leaders. He’s likely best known as one of the developers and cofounders of the Apache Software Foundation, where he has previously served as both chairman and president and where he’s been on the board of directors since day one. He’s served as president of the Outercurve Foundation and was also a director of the Open Source Initiative (OSI). He’s Uber’s Open Source Program Office lead, and he credits his wife Eileen with keeping him sensible._
+
+---
+
+**Tuesday 15:50 UTC**
+
+## Community Health Reporting 101
+
+### Sharan Foga
+
+Do you know if your community is growing or shrinking? Is your project centred around a core of 2 or 3 main contributors?
+Community health isn't only about ensuring releases are made or that code is being committed regularly. The health of an open source community is similar to our own personal health - there are symptoms that indicate when we are not well.
+In this presentation, I will talk about some of the simple and basic insights projects can gain by taking a look at their Apache Kibble statistics that are freely available and accessible to every ASF project.
+Come along and learn about how to know find simple indicators that can tell you if your project is looking healthy and sustainable.
+
+_Sharan Foga has been involved with the Apache Software Foundation (ASF) since 2008 and has presented at several conferences about 'The Apache Way' of engaing and empowering communities. She enjoys working actively with projects on on open source community management. She is VP Apache Kibble and a PMC Member several Apache projects including Apache Community Development, Apache OFBiz and Apache Training (Incubating).Sharan is an Apache Member and earlier this year was elected to serve on the ASF Board of Directors._
+
+---
+
+**Tuesday 17:10 UTC**
+
+## Running an Apache Project: 10 Traps and How to Avoid Them
+
+### Owen O'Malley
+
+When you are starting on your open source adventure, there are lot of things to learn that have very little to do with coding and instead relate to interacting with people. Apache is, at its best, a group of people who are trying to share their experience and teach new projects and contributors how to successfully manage open source projects. However, like the blind people each describing a part of an elephant, each mentor brings their personal experience to the table, and thus can give good, yet conflicting advice to new projects. However, that aggregate advice has helped many projects to become successful. Based on the author's experience, this talk will take you through 10 common traps in running Apache projects, why they happen, and how to avoid or mitigate them.
+
+_Owen O’Malley is a principal staff engineer at LinkedIn. Owen has been working on Hadoop since the beginning of 2006 at Yahoo, was the first committer added to the project, and used Hadoop to set the Gray sort benchmark in 2008 and 2009. Previously, he was the architect of MapReduce, Security, and now Hive. He’s driving the development of the ORC file format and adding ACID transactions to Hive._
+
+---
+
+**Tuesday 18:00 UTC**
+
+## Who Pays for Open Source?
+
+### Shane Curcuru
+
+Have you ever wondered who actually pays for open source? Not just developers, but the whole ecosystem around major open source projects, either at a FOSS Foundation, independent or an open core project at a company?
+The major software projects we all rely on are mostly hosted at Foundations like Apache, Eclipse, Linux, or Software Freedom Conservancy. Those foundations provide a wide variety of support to project communities, including legal and licensing assistance, trademark management, event support, and more. As non-profits, these foundations rely on donors and sponsors for all of their work. So who pays for all of this critical support for open source foundations?
+Come find out what companies are behind the popular open source foundations and major independent projects, and who’s actually paying for all of the other support work that’s done to keep the servers running, press releases coming, and license compliance work. Surprises are guaranteed; I know I was surprised when I realized how many different FOSS projects that Microsoft is an annual sponsor for, and what projects a few other companies supported with their cash. Similarly, see how responsible governance is critical to maintaining support - or losing it.
+
+_Shane is founder of Punderthings, helping organizations find better ways to engage with the critical open source projects that power modern technology and business. He blogs and tweets about open source governance and trademark issues, and has spoken at major technology conferences like ApacheCon, OSCON, All Things Open, Community Leadership Summit, and Ignite. Shane is serving a Vice Chair the ASF, providing governance oversight, community mentoring, and fiscal review for all Apache projects. Shane has served as a Director and as Vice President, Brand Management for multiple years in the past. Otherwise, Shane is: a father and husband, a BMW driver and punny guy. Oh, and we have cats. Follow @ShaneCurcuru and read about open source communities and see his FOSS Foundation directory._
+
+---
+
+**Tuesday 19:40 UTC**
+
+## Beyond bus-factor: data-visualizations and algorithms to better understand Apache communities
+
+### Márton Elek
+
+As a member of the community of an Apache project I was always very keen to understand better how our project is going. Do we have more diverse communities with every month? Do we need to do any action?
+One of the most well-know, single number for describing the project diversity is the bus-factor/pony number. But when I realized the limitation of this measurement I started to looking for more detailed and more expressive statistics.
+This presentation shares this journey with many graphs, data visualizations and calculations which can make the hidden patterns of Apache communities eventually more visible.
+
+_Marton Elek is PMC in Apache Hadoop, Apache Ozone, and Apache Ratis projects and working on the Ozone at Cloudera. Ozone is a new Hadoop sub-project, which provides an S3 compatible Object Store for Hadoop on top of a new generalized binary storage layer. He is also working on the containerization of Hadoop and creating different solutions to run Apache Big Data projects in Kubernetes and other could native environments._
+
+---
+
+**Wednesday 14:10 UTC**
+
+## Contributor Experience matters
+
+### Jarek Potiuk, Ash Berlin-Taylor
+
+In this talk Apache Airflow Committers will tell you why developer and contributor experience matters for Apache Community projects and what they have done together with other members of the community to improve it. They will tell you what kind of problems they had to solve and what their approach was to improve the local development environment and more importantly Continuous Integration environment of the project.
+They will tell you how they cut down on the unnecessary usage of the CI but at the same time they achieved higher stability and up to 90% speedups of Continuous Integration jobs.
+But this story does not end with Apache Airflow, part of the talk will be also on how what they learned might be applied to the whole Apache Community. Apache Airflow project’s learning has already been put in practice and improved upon by several other Apache Projects, and this talk hopes to encourage other Apache projects to follow.
+This talk has also a deep-dive counterpart talk “How to tame the GitHub Actions queue times” that explains technical details of how we solved long queue times in GitHub Actions - which was one of the biggest problems we had to deal with.
+
+_Jarek Potiuk: Jarek is a long-time engineer and for more than two years a big fan of Open Source communities. Worked on many different topics - from Business Intelligence, through backend system for Telecommunication, mobile app development, joining Robotics and AI, developing custom Operating Systems and contributing to Open Source projects. Recently focused on Apache Airflow, joined the project in 2018, then became committer and PMC member. Apache Software Foundation member as of 2021. Ash Berlin-Taylor: Ash is a long time open-source contributor across many programming langauges and has been through the gamut of Developer, Sys Admin, "Dev Ops" and back around to Developer again, these days writing Python (and YAML!). He has been on the Airflow PMC since 2018 (PPMC as it was then) and is currently the Director of Airflow Engineering at Astronomer.io._
+
+---
+
+**Wednesday 15:00 UTC**
+
+## Running open source community in China, the experiences from openEuler
+
+### Zhenyu Zheng, Baolin Li
+
+From the github report 2020, Asia has became the 2nd largest region for active open source contributors and among all the Asia countries, China is the country with the most contributors, about 10% of the total contributors across the world, and is predicted to continuously growing fast to about 15% of the total contributors across the world in the next decade.
+From the above statistics, we believe that to be able to successfully run an open source community in China is one of key element to become a successful open source community in the future.
+The openEuler community was founded in H2 2020 and growing very fast and became one of the most successful open source communities in China, it currently has over 3000 active contributors and over 60K users. In this presentation, we would like to share the experiences from openEuler community about how to attract contributors in China with SIGs(Special Interests Groups), local events, and small tricks that can help you run your community and events more suitable to Chinese contributors' taste. We would also like to share how did the openEuler community work with universities to attract students contributors which are very energetic and creative, making the community more successful.
+
+_Zhenyu Zheng: Zhenyu Zheng, Senior Software Engineer, Huawei Technologies, 6+ years of experiences in open source. Focus on promoting Arm data center ecosystem. Currently serviced as openEuler DB SIG and openEuler Bigdata-ai SIG maintainer. Baolin Li: Baolin Li is the contact person of openEuler community-university co-operation and mentor for openEuler courses and competations._
+
+---
+
+**Wednesday 15:50 UTC**
+
+## Quantifying the growth and evolution of open-source communities with Apache Superset
+
+### Robert Stolz
+
+Quantifying the growth and evolution of open-source communities with Apache Superset.
+In the world of open-source software, establishing and growing passionate communities of contributors and users is essential to success. As open-source projects have exploded in popularity, the tools available to collect and analyze quantitative data on these communities are surprisingly lacking. Here we present a comparative analysis of top open-source projects to better understand what drives successful, healthy open-source communities. For this purpose, we created a reusable data architecture built entirely on open-source software that enables organizations to collect information on the growth and evolution of their communities. Open-source leaders, investors, maintainers, and developer relations teams can all use this reference architecture with Apache Superset, an open-source data visualization and BI solution, to identify communities and contributors of interest, chart growth, predict, and evaluate the health of their communities.
+
+_Robert is an interdisciplinary mathematician, life scientist, and open-source software developer currently working as a data engineer and developer advocate at Preset. He has published original research in top interdisciplinary journals on novel biophysical phenomena in nucleic acids. Now he is focused on better understanding what drives successful open-source communities._
+
+---
+
+**Wednesday 17:10 UTC**
+
+## Apache TAC or "here's how YOU can make it to the next real conference!"
+
+### Christofer Dutz
+
+Behind the scenes, Apache has a lot of projects and committees that work in the background to keep the Foundation running.
+In this talk I want to tell you more about Apache TAC - The Apache Travel Assistance Committee.
+It's the goal of ApacheCons, to bring the Apache Community together, to spark new ideas, get to know each other and of course, to have a good time.
+Unfortunately, travelling to such conferences some times exceeds the budget of some of our community members.
+TAC is here to help exactly those, who are part of our community or which want to become part of it, but can't afford the trip.
+In this talk I want to talk about what TAC does, how it works and what you can do to make it to the next real conference.
+
+_Chris traveled to his first ApacheCon in Denver in 2014 as a speaker funded by TAC support. This trip has changed his life, so since then he has become a core member of the TAC team and, in now something near 9 rounds of travel assistance, has been trying to give as many people as possible the chance to share the same experience._
+
+---
+
+**Wednesday 18:00 UTC**
+
+## Apache Website Generation with Pelican
+
+### Dave Fisher
+
+The main foundation website is migrated from the deprecated Apache CMS. The new website uses Pelican and Python. This is a new pattern for building websites supported by the Apache Infra team. This talk will present the new and improved process using examples from CMS migrations.
+
+_Dave has a long career as a principal architect, software developer, and leader. He has been involved with Apache software since 2001, a PMC member since 2008, and a Foundation Member since 2012. In 2019-2020 he served for 6 months on the Board of Directors. He has been an Incubator Mentor since 2011. He has migrated the openoffice.org website twice and improved on the Incubator clutch analysis process. In 2021 he migrated the foundation and other websites from the deprecated Apache CMS to Infra's preferred Pelican GFM. Dave has made presentations at Apachecon since 2010 and also COSCon 2018 and 2019._
+
+---
+
+**Wednesday 18:50 UTC**
+
+## A Summary of the 2021 Joint OGC OSGeo ASF Code Sprint
+
+### Gobe Hobona, Angelos Tzotsos, Tom Kralidis, Martin Desruisseaux
+
+From February 17-19, 2021, the Open Geospatial Consortium (OGC), Open Source Geospatial Foundation (OSGeo), and the Apache Software Foundation (ASF) hosted a joint virtual code sprint. The first ever joint event between these organizations, the code sprint served to accelerate the support of open geospatial standards within the developer community. Part of the motivation for holding the code sprint was the growing uptake and use of location information across the global developer community. The code sprint brought together developers of Open Standards, Open Source Software, and Proprietary Software, providing a rare opportunity for developers across these communities to focus on common challenges within a short space of time in a shared collaborative environment.
+The code sprint facilitated the development and testing of prototype implementations of OGC Standards, including implementations of draft OGC API Standards. Further, the code sprint also enabled the participating developers to provide feedback to the editors of OGC Standards. The code sprint provided a collaborative environment for OSGeo and ASF developers to fix open issues in products, develop new features, improve documentation, improve interoperability with other libraries/products, and develop prototype implementations of OGC Standards. The proposed ApacheCon presentation will provide an overview of the code sprint, discuss what was achieved, and outline the recommendations from the participants.
+
+Gobe Hobona:
+Dr. Gobe Hobona is the OGC's Director of Product Management, Standards. In this role he manages coordination between Standards Working Groups (SWGs) and sets priorities for standards development (in cooperation with SWG chairs). He also provides oversight of OGC Application Programming Interface (API) evolution and harmonization activities.
+Angelos Tzotsos:
+Angelos is a remote sensing expert with background in surveying engineering and software development. He is involved in numerous activities around free and open source software and has great experience in geospatial applications, geospatial data catalogues and metadata. His research involves remote sensing, machine learning, computer vision and object-based image analysis. He is currently the OSGeo President and serves at the OSGeo Board of Directors. He is an active advocate of OSGeo around the world at related conferences. He is also an individual OGC member. His recent activity involved implementation of data.gov catalog service and implementation of the Greek national open data portal geodata.gov.gr. Tom Kralidis:
+Tom is a Senior Systems Scientist for the Meteorological Service of Canada, where he provides geospatial technical and architectural leadership in support of weather and climate data delivery. Tom’s professional background includes key involvement in the development and integration of geospatial standards, systems and services for the Canadian Geospatial Data Infrastructure (CGDI) with Natural Resources Canada, as well as using these principles in architecting RésEau, Canada’s first national water information portal in 2005. Tom is chief architect of the World Ozone and Ultraviolet Radiation Data Centre (WOUDC) in support of the WMO Global Atmospheric Watch, as well as GeoMet, MSC's Geospatial Web Services platform of real-time and archive weather, climate and water data. Tom is active in the Open Geospatial Consortium (OGC) community, was lead contributor to the OGC Web Map Context Documents Specification (2002-2007), member of the CGDI Architecture Advisory Board, as well as part of the Canadian Advisory Committee to ISO Technical Committee 211 Geographic Information / Geomatics. His current standards efforts are in discovery/cataloguing/metadata, the OGC API efforts as well as quality of service. He is also active in the World Meteorological Organization serving as a focal point and expert in a number of expert teams and scientific advisory groups (WIS Metadata, World Data Centres, WIGOS Metadata, Global Cryosphere Watch Information and Services). Tom is committed to free and open source geospatial software. He is the founder and lead developer of numerous open source geospatial projects implementing international standards including pycsw and pygeoapi. Tom is a developer on the MapServer, GeoNode, QGIS, PyWPS and OWSLib projects, and part of the MapServer, pycsw, and PyWPS Project Steering Committees. Tom is a charter member of the Open Source Geospatial Foundation and currently serves on the Board of Directors. Tom holds a Bachelors degree in Geography from York University, GIS certification from Algonquin College, and Masters degree in Geography and Environmental Studies (research and dissertation in Geospatial Web Services / Infrastructure) from Carleton University. Tom is a Certified Geomatics Specialist (GIS/LIS) with the Canadian Institute of Geomatics.
+Martin Desruisseaux:
+I hold a Ph.D thesis in oceanography, but have continuously developed tools for helping analysis work. I used C/C++ before to switch to Java in 1997. I develop geospatial libraries since that time, initially as a personal project then as a GeoTools contributor until 2008. I'm now contributing to Apache SIS since 2013. I attend to Open Geospatial Consortium (OGC) meetings about twice per year in the hope to follow closely standard developments and improve Apache SIS conformance to those standards. I work in a small IT services company (Geomatys) specialized in development of geoportals. Geomatys is an OGC member and develop a stack of open source software for spatial applications, with Apache SIS as the foundation to which Geomatys contributes actively.
+
+_Bertrand Delacretaz works as a Principal Scientist for Adobe in Basel, Switzerland. He spends a good portion of his time advocating and implementing Open Development as a way to make geographically dispersed teams more efficient and more fun for his coworkers. Bertrand is also an active Member of the Apache Software Foundation, currently on his twelfth term on the Foundation's Board of Directors._
+
+---
+
+**Wednesday 19:40 UTC**
+
+## Using Dashboards to Help Manage All Community Channels
+
+### Srini Kadamati
+
+After I joined the Superset project, I got to work creating Community Dashboards that can help us understand the health of our community across all of the many channels it lives on. In this talk, I hope to discuss some of the technical challenges of pulling in data from disparate data sources (and offer alternative options to people who don’t want to do all this data engineering themselves), cleaning and structuring the data so it’s ready to be visualized, and finally choosing the right visualizations and designing effective dashboards that can support multiple personas. We have people interested in understanding high level stats as well as digging into specific engaged contributors. Designing dashboards that support this wide range of use cases was challenging but fulfilling. I hope to share what I’ve learned throughout this massive multi-month project and help establish a framework for community managers & developer advocates properly blend in quantitative and qualitative data.
+
+_Srini Kadamati is a Senior Data Scientist & Developer Advocate that's on a mission to enable more people to work with data effectively. I spent 5 years building an online learning platform specifically to help people learn existing data tools before turning my attention to improving the data tools themselves. I now am a Developer Advocate at Preset.io, the main company driving and helping grow the Apache Superset project._
+
+---
+
+**Thursday 14:10 UTC**
+
+## What does the Treasurer's office do for the ASF, and how has it changed
+
+### Myrle Krantz
+
+A non-profit business is also a business. The Apache Software Foundation pays our awesome infra people, and we pay for hosting, for conference venues, for marketing, for lawyers, and for many other things. We do all of this to support our open source projects and let them focus on community and code. To help us fulfill our mission of open source for the public good, our awesome sponsors and donors give us money. Those money flows need to be organized and tracked.
+Believe it or not, after 20 years of operation, even The ASF has had a need for digitalization of its financial operations.
+In this talk, I'll explain how the Treasurer's office works, how it interacts with other parts of The ASF, and how we have updated processes, tools, and relationships over the last year and a half.
+
+_Myrle Krantz is Treasurer at The Apache Software Foundation, and former board member. She is also Senior Engineering Manager at Grafana Labs, mother of two daughters, and American expat in Germany since 2000._
+
+---
+
+**Thursday 15:00 UTC**
+
+## Interactively Exploring Socio-Technical Activities of ASFI Projects
+
+### Likang Yin, Vladimir Filkov, Anirudh Ramchandran
+
+Projects at a nascent development stage that strive to join ASF are housed by the ASF Incubator which provides them with a mature governance environment and expert help on their way to long-term sustainability. Each project in ASFI is extrinsically evaluated while in incubation and is eventually graduated or retired, an indication of how well its meeting established goals toward sustainability. Open Source Software sustainability has been studied from a variety of angles, more recently with a focus on their socio-technical structure.
+To better understand the dynamics of ASFI projects as they strive to their goals, here we present a tool, ASFI Project Explorer, for interactively exploring developer communication (social) and coding (technical) activities of 207 projects from the Apache Software Foundation (ASF) Incubator (ASFI), each annotated with extrinsic labels of sustainability success. Our tool presents the data in a dashboard-like fashion, visualizing the longitudinal social and technical networks between developer pairs and developers and files, as well as project reports, emails, and commits over time. We illustrate the tool on two separate use cases. This extrinsically labeled data set and tool together offer heretofore unavailable, fine-grained longitudinal exploration of nascent project trajectories to sustainability, under ASF policies and guidance.
+
+_Likang Yin: Likang Yin is currently a third-year CS PhD student at UC Davis. Likang's research interest lies in the knowledge graph, network/graph mining, time-series modeling, and interpretability of deep learners (e.g., variants of RNNs, GNNs). His work earned him the ACM Distinguished Paper Award at a top-tier conference (ASE 20'). Vladimir Filkov: Vladimir Filkov is a Professor of Computer Science at UC Davis. Anirudh Ramchandran: Anirudh is a second-year master's student with the ECE department at UC Davis. He is currently interning with a risk consultancy to analyze data and provide insights to mitigate risks for their clients. He enjoys developing machine learning models for different applications. Ping him for a cup of authentic Indian filter coffee._

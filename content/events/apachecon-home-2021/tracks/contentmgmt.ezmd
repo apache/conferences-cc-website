@@ -1,0 +1,44 @@
+title: Apache IoT Track
+template: page-event-default
+ref: apachecon-home-2021
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: false
+
+---
+
+**Thursday 18:00 UTC**
+
+## Extending Headless CMS APIs and Backend Services with Groovy
+
+### Russ Danner
+
+Typical headless content management system (CMS) platforms provide a fixed set of content APIs for building software applications across a variety of digital channels, ranging from websites to mobile apps to IoT devices and everything in between. The emergence of headless CMS architectures has improved developer productivity and flexibility for building these types of content-rich, multi-channel digital experiences.
+This talk describes an approach to extend traditional headless CMS architectures to include the ability to develop custom content APIs and backend services with Groovy. We will discuss architectural approaches to consider, the pros and cons of using Groovy scripting, and lessons learned from real-world use cases at several Fortune 500 enterprises over the course of the last 2 years.
+
+_Russ Danner is VP Products at Crafter Software responsible for product management, product development and support, and overall success of enterprise client, open source community and partner success. He is also the co-founder of the open source Crafter CMS project. Russ brings over 20 years of software architecture, design, and implementation experience. Prior to Crafter Software, Russ was Web Experience Management Practice Director at Rivet Logic where he was responsible for web CMS implementations at clients such as Citrix, Harvard, Mastercard, Marriott, and NFL.com. Prior to Rivet Logic, he was team lead for digital at the Christian Science Monitor._
+
+---
+
+**Thursday 18:50 UTC**
+
+## Tika 2.0 -- Robustness and Scale
+
+### Tim Allison
+
+Apache Tika is a critical component in many large scale document processing pipelines, content management systems and search systems around the world. Tika extracts text and metadata from hundreds of file formats. The release of Apache Tika 2.0 brings many exciting improvements in robustness and in scaling. This talk will offer a high level overview of the changes in 2.0 and then offer a deep dive into the new pipes module, a more robust and efficient way to connect Tika to various data sources and have it emit extracted text directly to content management systems and search systems such as Apache Solr. This module offloads the heavy lifting from the client to Tika servers so that developers can more easily scale Tika in Kubernetes or other cloud-scale computing frameworks.
+
+_Tim has been working in content/metadata extraction (and evaluation), advanced search and relevance tuning for nearly 20 years. Tim is the founder of Rhapsode Consulting LLC, and he currently works as a data scientist at NASA's Jet Propulsion Laboratory. Tim is a member of the Apache Software Foundation (ASF), the chair/VP of Apache Tika, and a committer on Apache OpenNLP (2020), Apache Lucene/Solr (2018), Apache PDFBox (2016) and Apache POI (2013). Tim holds a Ph.D. in Classical Studies, and in a former life, he was a professor of Latin and Greek._
+
+---
+
+**Thursday 19:40 UTC**
+
+## Making neural content meaningful and truthful relying on OpenNLP tools
+
+### Boris Galitsky, Jay Taylor
+
+In spite of the great progress neural content generation made over the last few years, the results are noisy and meaningless. In this talk we focus on laying the last mile in robust content generation, taking the neural content as a skeleton and populating it with truthful facts and correct values. To do that, we merge and align syntactic and semantic representation of neural content with that of an existing piece of content from an authoritative source. Overall logic, syntax and content flow are borrowed from the neural content. We form the query from the neural content to mine the web like Wikipedia or another source to obtain the truthful but non-original content to cross-breed with the neural one. As a result, we obtain original high quality content ready for consumption by humans.
+
+_Boris Galitsky has been presenting talks on AI over last two decades and at Apache conferences over last few years. He contributed linguistic and machine learning technologies to Silicon Valley startups for last 25 years, as well as eBay and Oracle, where he is currently an architect of the Digital Assistant project. An author of five computer science books, 150+ publications and 20+ patents related to search, he is now working on a book "AI for Health" to be published by Elsevier in 2022. Boris is an Apache committer to OpenNLP where he created OpenNLP.Similarity component which is a basis for search engine and chatbot development._
+
+_Jay Taylor is on Oracle Cloud Infrastructure team with the focus on Digital Assistant._

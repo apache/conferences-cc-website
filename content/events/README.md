@@ -14,6 +14,20 @@ Each event subdirectory may contain the following types of files:
 - `images/`: A directory containing images related to the event.
 - `sponsors.json`: A JSON file containing information about the event sponsors.
 
+## EZMD and Markdown links
+Some event pages use `.ezmd` files, which are processed by EZT before Markdown.
+Because both EZT and Markdown use square brackets, link text in `.ezmd` should use an escaped opening bracket.
+
+Use this in `.ezmd`:
+- Link: `[[]Link text](https://example.org)`
+- Image: `![[]Alt text](./images/example.png)`
+
+Use normal Markdown in `.md`:
+- Link: `[Link text](https://example.org)`
+- Image: `![Alt text](./images/example.png)`
+
+Rule of thumb: in `.ezmd`, escape the opening `[` as `[[]` for Markdown links and images.
+
 ## event.yaml
 In addition to the content files, there is an `events.yaml` file that contains metadata for each event, such as the event name, date, location, and a reference identifier that links to the content files. This metadata is used by the Pelican templates to generate the appropriate pages for each event.
 
