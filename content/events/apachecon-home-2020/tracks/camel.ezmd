@@ -1,0 +1,194 @@
+title: Apache Big Data Track (2)
+template: page-event-default
+ref: apachecon-home-2021
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: false
+
+---
+
+**Tuesday, September 29, 2020 at 9:15 AM PDT**
+
+## What's new with Apache Camel 3?
+
+### Andrea Cosentino, Claus Ibsen
+
+With the release of Apache Camel 3, the Camel family has been extended to include a full range of projects that are tailored to popular platforms including Spring Boot, Quarkus, Kafka, Kubernetes, and others; creating an ecosystem. Lets discover it.
+
+_Andrea_
+
+_Andrea Cosentino (@oscerd on Github and @oscerd2 on Twitter) is an open-source addicted and software developer. He’s co-leading Apache Camel and he’s actually the PMC Chair of the project. He’s currently working on expanding the Camel ecosystem through new subprojects like Camel-k, Camel-Quarkus and Camel-Kafka-connector (the latest project in the family). Andrea is active on multiple projects like Apache Karaf, where he is committer, Apache Servicemix, where he is PMC Member, Fabric8 Kubernetes-client, where he is a core maintainer and many others. Andrea is active on social media and blogs, trying to spread the word about Apache Camel and open-source in general. He is actually Senior Software Engineer in Red Hat, working in the Red Hat Fuse team, focusing on integration. He is based in Rome, Italy, where he lives with his wife and son._
+
+_Claus_
+
+_Claus Ibsen (@davsclaus) is an open-source enthusiast and software developer. He's co-leading the Apache Camel project, a project used for integration; which he has been working on full time for more than a decade. Currently Claus is working on expanding Camel into cloud-native and serverless with the latest innovations of Apache Camel K and Camel Quarkus. With passion and enthusiasm Claus evangelizes about Apache Camel, Java and open source by being active on social media, writing blogs and books, speaking at conferences, etc. Claus is also active in other open source projects such as Apache ActiveMQ, Eclipse Vert.x, Fabric8, Hawtio, and Quarkus. Besides being a JavaChampion, Claus is also a member at Apache Software Foundation. Prior to joining Red Hat, he has worked as a software developer, architect, and consultant for over a decade. He is based in Denmark._
+
+---
+
+**Tuesday, September 29, 2020 at 9:55 AM PDT**
+
+## Making Enterprise Integration Patterns Work for You
+
+### Justin Reock
+
+Learn about the powerful world of Enterprise Integration Patterns as implemented by the amazing Apache Camel framework. This session covers:
+A – Camel basics, understanding Exchanges, Routes, and how to implement EIPs with them
+B – Examples of real implementations of common EIPs like Content Based Routers and Recipient Lists
+C – Integration of Camel with common endpoints, like JMS, FTP, and HTTP
+
+_Justin has over 20 years’ experience working in various software roles and is an outspoken free software evangelist, delivering enterprise solutions and community education on databases, integration work, architecture, and technical leadership. He is currently the Chief Architect at OpenLogic by Perforce._
+
+---
+
+**Tuesday, September 29, 2020 at 10:35 AM PDT**
+
+## Getting started with Apache Camel on Quarkus
+
+### Alexandre Gallice
+
+Apache Camel is the proven Swiss knife of integration for more than a decade and still growing in the cloud era. As a Java based framework, it makes perfect sense for Camel to reap the benefit from Quarkus, the Kubernetes Java stack tailored for OpenJDK HotSpot and GraalVM. In this hands on demo, I will show what it looks like to develop with Camel Quarkus. One could expect to take away some key concepts and maybe a willingness to join the lively Camel community :)
+
+_Alexandre is a Senior Software Engineer at Red Hat and a member of the Apache Camel Project Management Committee. He is deepening his interest in Open Source for a few years now with a current focus on Camel Quarkus._
+
+---
+
+**Tuesday, September 29, 2020 at 11:15 AM PDT**
+
+## Build and Deploy Cloud Native Camel Quarkus Routes With Tekton and Knative
+
+### Omar Al-Safi
+
+In this talk, we will leverage all cloud native stacks and tools to build Camel Quarkus routes natively using GraalVM native-image on Tekton pipeline and deploy these routes to Kubernetes cluster with Knative installed. We will dive into the following topics in the talk: - Introduction to Camel - Introduction to Camel Quarkus - Introduction to GraalVM Native Image - Introduction to Tekon - Introduction to Knative - Demo shows how to deploy end to end a Camel Quarkus route which include the following steps: - Look at whole deployment pipeline for Cloud Native Camel Quarkus routes - Build Camel Quarkus routes with GraalVM native-image on Tekton pipeline. - Deploy Camel Quarkus routes to Kubernetes cluster with Knative Targeted Audience: Users with basic Camel knowledge
+
+_Omar Al-Safi is an Open Source Software Engineer at Talend. He is an active Apache Camel contributor and Apache Camel PMC. His experience before contributing to Apache Camel, revolved around building streaming platforms with Kafka, Kafka Streams as well as contributing to Debezium project._
+
+---
+
+**Tuesday, September 29, 2020 at 11:55 AM PDT**
+
+## Camel Kafka Connectors: when camel meets kafka
+
+### Andrea Tarocchi, Hugo Guerrero
+
+Apache Kafka is getting used as an event backbone in new organizations every day. We would love to send every byte of data through the event bus. However, most of the time, connecting to simple third party applications and services becomes a headache that involves several lines of code and additional applications. As a result, connecting Kafka to services like Google Sheets, communication tools such as Slack or Telegram, or even the omnipresent Salesforce, is a challenge nobody wants to face. Wouldn’t you like to have hundreds of connectors readily available out-of-the-box to solve this problem? Due to these challenges, communities like Apache Camel are working on how to speed up development on key areas of the modern application, like integration. The Camel Kafka Connect project, from the Apache foundation, has enabled their vastly set of connectors to interact with Kafka Connect natively. So, developers can start sending and receiving data from Kafka to and from their preferred services and applications in no time without a single line of code. In summary, during this session we will: - Introduce you to the Camel Kafka Connector sub-project from Apache Camel - Go over the list of connectors available as part of the project - Showcase a couple of examples of integrations using the connectors - Share some guidelines on how to get started with the Camel Kafka Connectors
+
+_Andrea_
+
+_Andrea Tarocchi is a Senior Software Engineer at Red Hat. He has been solving application integration problems for more than 10 years spanning different roles. Co-creator of camel-kakfa-connector project, Apache Camel committer. He is a long time opensource enthusiast been lucky enough to work with and contribute to some great open source projects, like Apache Camel, Apache Kafka,_
+
+_Drools to mention a few._
+
+_Hugo_
+
+_Hugo Guerrero works at Red Hat as an APIs and messaging developer advocate. In this role, he helps the marketing team with technical overview and support to create, edit, and curate product content shared with the community through webinars, conferences, and other activities. With more than 15 years of experience as a developer, consultant, architect, and software development manager, he also works on open source software with major private and federal public sector clients in Latin America_
+
+---
+
+**Tuesday, September 29, 2020 at 12:35 PM PDT**
+
+## Integrating Postgres with Apache Camel and ActiveMQ
+
+### Justin Reock
+
+Learn how to use Postgres as a backing persistence adapter for the ActiveMQ messaging platform, as well as an integration endpoint for the powerful Apache Camel integration framework. Not only will you learn about JDBC, but you'll also get a solid introduction to these two mature and powerful integration platforms.
+
+_Justin has over 20 years’ experience working in various software roles and is an outspoken free software evangelist, delivering enterprise solutions and community education on databases, integration work, architecture, and technical leadership. He is currently the Chief Architect at OpenLogic by Perforce._
+
+---
+
+**Wednesday, September 30, 2020 at 9:15 AM PDT**
+
+## Camel API Gateway
+
+### Rodrigo Coelho
+
+Open Source light API Gateway built with Apache Camel
+Recently I was challenged to find alternatives to the existing API Gateway infrastructure.
+Not being able to find any solution with all we need to offer, Apache Camel was the perfect candidate.
+We called it CAPI Gateway!
+CAPI provides the following features: Light API Gateway powered by Apache Camel and Spring Boot, Dynamic Routes (REST and Websockets), Customizable processors, Integration with external Identity Providers (Default is Keycloak), API Manager Interface, distributed tracing system (Zipkin), Metrics (Prometheus), API Subscription Engine (Keycloak), Traffic management (Apache Camel Kafka), analytics for the metrics (Grafana) and Error/Blocking strategies.
+
+_Rodrigo is a Software Architect and Technology lover particularly focus on Open Source technology and DevOps, and how we can apply this new paradigms to the real and challenging enterprise world. With more than 17 years of experience, I've always made a huge effort to stay on top of the big changes in the software industry, not only on the software itself but also on paradigm. Since 2013 I've been working as a software and solution architect, giving my contribution to companies like bpost (Belgium) and AXA Bank (Belgium). On this last project at AXA I was responsible for the design and implementation from scratch of a strategic application. Since January I've been working as a Software Architect , Technology Expert and Open Source advocate for the Reusable Components Office at the European Commission._
+
+---
+
+**Wednesday, September 30, 2020 at 9:55 AM PDT**
+
+## How to contribute textual tooling for Apache Camel in several IDEs
+
+### Aurélien Pupier
+
+Apache Camel allows to configure Integration projects using several textual Domain Specific Languages. In this talk, you will learn how tooling is proposed for several IDEs and editors thanks to the Language Server Protocol and its implementation for Apache Camel language. Entry points to allow you to join the party and contribute will be presented.
+
+_Aurélien is working in Red Hat Integration Tooling team. Developing tooling targeting developers for more than 10 years._
+
+---
+
+**Wednesday, September 30, 2020 at 10:35 AM PDT**
+
+## Serverless Integration Anatomy
+
+### Christina Lin
+
+A quick study of the structure on building Serverless Integration. Piecing together how Kubernetes, Knative, Kafka and Apache Camel. Going over the lifecycle of a serverless application, from development, deployment to monitoring it live. Talk about things to consider when building this type of architecture. At the end a quick demo to show how it works.
+
+_Christina Lin is the Technical evangelist for Red Hat Integration Products. She helps to grow market awareness and establish thought leadership for Fuse, AMQ and 3scale. By creating online videos, getting started blogs and also spoke at many conference around the globe. She has worked in software integration for the finance, telecom, and manufacturing industries, mostly architectural design and implementation. These real life system experiences helps her to be practical and combining open source technology, she hopes to bring more innovative ideas for the future system development._
+
+---
+
+**Wednesday, September 30, 2020 at 11:15 AM PDT**
+
+## Testing Camel K integrations with Cloud Native BDD
+
+### Christoph Deppisch
+
+Apache Camel K is a lightweight integration platform built from Apache Camel. Integrations built with Camel K run natively on Kubernetes and are specifically designed for serverless architectures. With the declarative nature in Camel K users can instantly run integration code written in Camel DSL on their preferred cloud. The presentation outlines typical integration scenarios with Camel K and shows how to write automated tests for these enterprise integrations. The session covers classical service provider/consumer scenarios with common messaging protocols (e.g. REST, JMS, Kafka) as well as more complex integrations with data access and 3rd party Saas services included. The tests itself will also be Cloud Native citizens and make use of Behavior Driven Development concepts.
+
+_Christoph is a senior software engineer at Red Hat working on Middleware application services with Apache Camel. He has worked in enterprise integration projects for more than 10 years and has gained special interest in test automation. Christoph is the founder of the Open Source test framework Citrus and believes in automated integration testing with passion._
+
+---
+
+**Wednesday, September 30, 2020 at 11:55 AM PDT**
+
+## "Cloud Native" My Camel
+
+### Michael Costello, David Gordon
+
+This talk takes a look at our traditional enterprise integration needs, how we have typically solved them with Enterprise Integration Patterns (EIP) via Apache Camel (running in Apache Karaf) and how to use a new way of deploying Camel (and ultimately our enterprise integration solutions) with Camel K to put enterprise integration on "Cloud Native" steroids. During the talk we'll discuss a typical integration performed using Enterprise Integration Patterns with Apache Camel, why approaching problems with this technology is even more valuable in our brave new cloud world, and demonstrate how to put this on cloud native steroids with Camel K.
+
+_Mike has spent the last 2 decades in the enterprise integration space. Beginning with his love for J2EE, emerged a love for Service Oriented Architecture and as the years carried on his romance with MicroServices and cloud native distributed integration platforms began to really flourish. Mike, spent his college years at the University of Texas and currently works for Red Hat as an Architect in an Emerging Techonology Practice (Enterprise Integration) of Red Hat Consulting. His views may or may not be shared by his employer (or anyone else for that matter). When not swashbuckling with containers, or integrating event streams, Mike may be found kicking a soccer ball around the Austin, Texas area._
+
+_David helps organizations use open source software to implement integration solutions. David specializes in open source including Camel, Spring Boot, Kubernetes, ActiveMQ, Enmasse, Kafka, Strimzi, 3scale, Keycloak, Istio, and more. David helps design and develop implementations using these components, and leverage those experiences to develop feedback for engineering groups he works with and upstream development communities._
+
+---
+
+**Wednesday, September 30, 2020 at 12:35 PM PDT**
+
+## Software Architecture and Architectors: useless VS valuable
+
+### Andrei Shakirin
+
+Talk introduces definitions and sense of system architecture. Presenter will show seven cases from real projects, where wrong, missing or over-sophisticated architecture decisions really hurt the development teams. The rescue solution and lesson learned will be presented for each situation. The presenting cases and solutions are related to Apache Projects: Apache Karaf, CXF, Camel, Kafka. Open discussion and own cases and project situations are welcome.
+
+_Andrei is a software architect in the Talend team developing the open source Application Integration platform based on Apache projects. The areas of his interest are REST API design, Microservices, Cloud, resilient distributed systems, security and agile development. Andrei is PMC and committer of Apache CXF and committer of Syncope projects. He is member of OASIS S-RAMP Work Group and speaker at Java and Apache conferences._
+
+---
+
+**Thursday, October 1, 2020 at 9:15 AM PDT**
+
+## Panel on the future of Software Integration
+
+### Maria Arias de Reyna Dominguez
+
+Panel on the future of Software Integration.
+
+_María Arias de Reyna is a Java Senior Software Engineer, geospatial enthusiast and Open Source advocator. She has been a community leader and core maintainer of several free and open source projects since 2004. She is currently working at Red Hat where she focuses on Middleware and maintains Apache Camel and Syndesis. María is an experienced keynoter and speaker. Between 2017 and 2019 María was the elected President of OSGeo, the Open Source Geospatial Foundation which serves as an umbrella for the most used geospatial free and open source software. She is also well known as a feminist and Women In Tech activist._
+
+---
+
+**Thursday, October 1, 2020 at 10:35 AM PDT**
+
+## Camel Lightning Talks
+
+### You! Any speaker is welcome!
+
+Submitted lightning talks are shown here. 

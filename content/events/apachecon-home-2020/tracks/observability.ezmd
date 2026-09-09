@@ -1,0 +1,127 @@
+title: Apache Observability Track
+template: page-event-default
+ref: apachecon-home-2020
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: false
+
+---
+
+**Tuesday, September 29, 2020 at 2:30 AM PDT**
+
+## Improve Apache APISIX observability with Apache Skywalking
+
+### Yuansheng Wang
+
+Apache APISIX is a cloud-native microservices API gateway, delivering the ultimate performance, security, open-source and scalable platform for all your APIs and microservices. Apache SkyWalking: an APM(application performance monitor) system, especially designed for microservices, cloud-native and container-based (Docker, Kubernetes, Mesos) architectures. Through the powerful plug-in mechanism of Apache APISIX, Apache Skywalking is quickly supported, so that we can see the complete life cycle of requests from the edge to the internal service. Monitor and manage each request in a visual way, and improve the observability of the service.
+
+_Open source enthusiasts, participated in and contributed to many open source projects, and wrote some open source e-books. Apache APISIX ppmc._
+
+---
+
+**Tuesday, September 29, 2020 at 3:10 AM PDT**
+
+## Another backend storage solution for the APM system
+
+### Juan Pan
+
+The APM system provides the tracing or metrics for distributed systems or microservice architectures. Back to APM themselves, they always need backend storage to store the necessary massive data. What are the features required for backend storage? Simple, fewer dependencies, widely used query language, and the efficiency could be into your consideration. Based on that, traditional SQL databases (like MySQL) or NoSQL databases would be better choices. However, this topic will present another backend storage solution for the APM system viewing from NewSQL. Taking Apache Skywalking for instance, this talking will share how to make use of Apache ShardingSphere, a distributed database middleware ecosystem to extend the APM system's storage capability.
+
+_As a senior DBA worked at JD.com, the responsibility is to develop the distributed database and middleware, and the automated management platform for database clusters. As a PMC of Apache ShardingSphere, I am willing to contribute to the OS community and explore the area of distributed databases and NewSQL._
+
+---
+
+**Tuesday, September 29, 2020 at 3:50 AM PDT**
+
+## Distributed Tracing in Microservices with Apache Karaf and CXF
+
+### Andrei Shakirin
+
+Microservice Architectural Pattern suggests splitting of the business domain to several independent bounded contexts exposed as microservices. It brings a lot of benefits for teams working on microservices independently, but, from other side, complicates the problem analysis and monitoring. Sometimes it is very hard to detect which component causes slowdown and failure, to analyse what happens with request spans multiple services. The solutions for this challenge are distributed tracing and monitoring. Talk will introduce and explain basic tracing terminology: span, trace and context. Presenter will show common approaches to distributed tracing using Apache Karaf, CXF and Zipkin, SpringBoot and Sleuth frameworks. Talk contains some real project examples and demos.
+
+_The areas of his interest are REST API design, Microservices, Cloud, resilient distributed systems, security and agile development._
+
+_Andrei is_
+
+_PMC and committer of_
+
+_Apache_
+
+_CXF and committer of_
+
+_Syncope projects._
+
+_He is member of_
+
+_OASIS_
+
+_S-RAMP_
+
+_Work_
+
+_Group and speaker at_
+
+_Java and_
+
+_Apache conferences._
+
+_• DOAG 2019, Nov 2019, Nurnberg, Design Production-Ready Software • Karlsruhe Entwickertag 2017, Mai 2017, Karlsruhe, Microservices with OSGi • ApacheCon Europe 2016, Nov 2016, Seville,_
+
+_Microservices with_
+
+_Apache_
+
+_Karaf and_
+
+_Apache_
+
+_Practical Experience • ApacheCon Europe 2015, Oct 2015, Budapest, Create and Secure Your REST API with Apache CXF • ApacheCon Europe 2014, Nov 2014, Budapest,_
+
+_Design_
+
+_REST_
+
+_Services_
+
+_With_
+
+_CXF_
+
+_JAX-RS_
+
+_Lessons Learned • WJAX 2011, Nov 2011, Munich, Apache Days, Enabling Services with Apache CXF_
+
+---
+
+**Tuesday, September 29, 2020 at 4:30 AM PDT**
+
+## The history of distributed tracing storage
+
+### Hongtao Gao
+
+Over the past few years, and coupled with the growing adoption of microservices, distributed tracing has emerged as one of the most commonly used monitoring and troubleshooting methodologies. New tracing tools are increasingly being introduced, driving adoption even further. One of these tools is Apache SkyWalking, a popular open-source tracing, and APM platform. This talk explores the history of the SkyWalking storage module, shows the evolution of distributed tracing storage layers, from the traditional relational database to document-based search engine. I hope that this talk contributes to the understanding of history and also that it helps to clarify the different types of storage that are available to organizations today.
+
+_Hongtao Gao is the engineer of tetrate.io and the former Huawei Cloud expert. One of PMC members of Apache SkyWalking and participates in some popular open-source projects such as Apache ShardingSphere and Elastic-Job. He has an in-depth understanding of distributed databases, container scheduling, microservices, ServicMesh, and other technologies._
+
+---
+
+**Tuesday, September 29, 2020 at 5:10 AM PDT**
+
+## SourceMarker - Continuous Feedback for Developers
+
+### Brandon Fergerson
+
+Today's monitoring solutions are geared towards operational tasks, displaying behavior as time-series graphs inside dashboards and other abstractions. These abstractions are immensely useful but are largely designed for software operators, whose responsibilities require them to think in systems, rather than the underlying source code. This is problematic given that an ongoing trend of software development is the blurring boundaries between building and operating software. This trend makes it increasingly necessary for programming environments to not just support development-centric activities, but operation-centric activities as well. Such is the goal of the feedback-driven development approach. By combining IDE and APM technology, software developers can intuitively explore multiple dimensions of their software simultaneously with continuous feedback about their software from inception to production.
+
+_Brandon Fergerson is an open-source software developer who does not regard himself as a specialist in the field of programming, but rather as someone who is a devoted admirer. He discovered the beauty of programming at a young age and views programming as an art and those who do it well to be artists. He has an affinity towards getting meta and combining that with admiration of programming, has found source code analysis to be exceptionally interesting. Lately, his primary focus involves researching and building AI-based pair programming technology._
+
+---
+
+**Tuesday, September 29, 2020 at 5:50 AM PDT**
+
+## Why averages lie and how to truely monitor your systems
+
+### Filipe Costa Oliveira
+
+We spend most of our time looking at the reported averages of our monitoring systems, completely disregarding the painful truth that the numbers that we look at and present to our bosses, to our business and make decisions based upon, do not represent our user experience. This simple fact seems to surprise many people. It feels good looking at steady state monitoring charts. In this session, you will be told why is it important to pay to the "higher end" of the percentile spectrum in most application monitoring, benchmarking, and tuning environments and how you can make better usage of the open-source tooling we have at our disposal ( giving examples on both OSS HDR and T-Digest Histograms ).
+
+_Performance Engineer, RedisLabs High-performance scientist, low-level C++ grid and distributed computing. Open Source Contributor._

@@ -1,0 +1,73 @@
+title: Apache Royale Track
+template: page-event-default
+ref: apachecon-home-2020
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: false
+
+---
+
+**Tuesday, September 29, 2020 at 9:55 AM PDT**
+
+## Hello, Royale!
+
+### Andrew Wetmore
+
+A high-level, task-focused view of Apache Royale, including a bit of history, how it has evolved, its core of AS3 and MXML, what it inherits from Flex and how it differs, where it is going, and what you can do with it.
+
+_Documentation and QA specialist during 15 years in the software industry with projects ranging from kitchen-table startups to major corporations. Has built several applications using Flex/Royale as the front end technology. Chief editor for the Apache Royale project._
+
+---
+
+**Wednesday, September 30, 2020 at 9:55 AM PDT**
+
+## Apache Royale - moving a Flex app to Royale
+
+### Andrew Wetmore, Alina Kazi
+
+There are many applications of all sizes that are facing their end-of-life because they were built in Flex presuming the availability of Adobe Flash. Now that browsers are ending their support of Flash, we need to either migrate those apps to Royale or throw away a rich code resource. This sessions steps through the process of migrating an existing Flex application to Royale. It explores how the two platforms are similar and where they diverge, and the tools that are in place to help you get from the dying app to a one with a new life.
+
+_Andrew has 15 years in QA and documentation in the software industry and experience building many Flex and Royale applications. Alina is a participant in the Apache Royale project, and a former staffer at DBIZ Solutions, where she was involved in a major migration from Flex to Royale_
+
+---
+
+**Wednesday, September 30, 2020 at 11:15 AM PDT**
+
+## Apache Royale - starting from a blank file
+
+### Andrew Wetmore, Carlos Rovira
+
+This is how-to-do-it session for people who have not worked with Apache Royale, and do not have experience in the Adobe/Apache Flex ecosystem. Focusing on a model to-do list application using an MVC structure, the session steps through setting up Royale, getting the first files compiled and running, and what goes into making a robust, extensible application that can run on any major browser or as an app on a mobile device.
+
+_Andrew_
+
+_Andrew worked in and led documentation and QA teams in projects ranging from startups to groups in major corporations for 15 years._
+
+_He is the main editor for the_
+
+_Apache_
+
+_Royale project._
+
+_Carlos_
+
+_Creator of the Jewel component set for Apache Royale. Author of many tutorials and blog entries on different aspects of Royale._
+
+---
+
+**Thursday, October 1, 2020 at 9:55 AM PDT**
+
+## Apache Royale: Tour de Jewel
+
+### Andrew Wetmore, Carlos Rovira
+
+A walk-through of the Jewel component set, using the examples in the Tour de Jewel site, showing how Royale code achieves a wide range of effects and functions for a user interface.
+
+_Andrew_
+
+_15 years' experience leading QA and documentation teams for software projects large and small. Experience building Flex/Flash and_
+
+_Royale applications._
+
+_Carlos_
+
+_Creator of the Tour de Jewel feature and author of many tutorials on using Royale._

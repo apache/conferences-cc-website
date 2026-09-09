@@ -1,0 +1,121 @@
+title: Apache Machine Learning Track
+template: page-event-default
+ref: apachecon-asia-2021
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: false
+
+---
+
+**Tuesday, September 29, 2020 at 9:15 AM PDT**
+
+## TVM: An End to End Deep Learning Compiler Stack
+
+### Tianqi Chen
+
+Apache(incubating) TVM is an open deep learning compiler stack for CPUs, GPUs, and specialized accelerators. It aims to close the gap between the productivity-focused deep learning frameworks, and the performance- or efficiency-oriented hardware backends. TVM provides the following main features: - Compilation of deep learning models in Keras, MXNet, PyTorch, Tensorflow, CoreML, DarkNet into minimum deployable modules on diverse hardware backends. - Infrastructure to automatic generate and optimize tensor operators on more backend with better performance. In this talk, I will cover the new developments in TVM in the past year around the areas of more backend, automation and model support.
+
+_Tianqi Chen received his PhD. from the Paul G. Allen School of Computer Science & Engineering at the University of Washington, working with_
+
+_Carlos_
+
+_Guestrin on the intersection of machine learning and systems._
+
+_XGBoost, TVM, and MXNet(co-creator). He is a recipient of the Google Ph.D. Fellowship in Machine Learning. He is currently the CTO of OctoML._
+
+---
+
+**Tuesday, September 29, 2020 at 9:55 AM PDT**
+
+## Apache Submarine: State of the union
+
+### Wangda Tan, Zhankun Tang
+
+Apache Submarine is the ONE PLATFORM to allow Data Scientists to create end-to-end machine learning workflow. ONE PLATFORM means it supports Data Scientists to finish their jobs on the same platform without frequently switching their toolsets. From dataset exploring data pipeline creation, model training (experiments), and push model to production (model serving and monitoring). All these steps can be completed within the ONE PLATFORM. In this talk, we’ll start with the current status of Apache Submarine – how it is used today in deployments large and small. We'll then move on to the exciting present & future of Submarine – features that are further strengthening Submarine as the ONE PLATFORM for data scientists to train/manage machine learning models. We’ll discuss highlight of the newly released 0.4.0 version, and new features 0.5.0 release which is planned in 2020 Q3: - New features to run model training (experiments) on K8s, submit mode training job by using easy-to-use Python/REST API or UI. - Integration to Jupyter notebook, and allows Data-Scientists to provision, manage notebook session, and submit offline machine learning jobs from notebooks. - Integration with Conda kernel, Docker images to make hassle-free experiences to manage reusable notebook/mode-training experiments within a team/company. - Pre-packaged Training Template for Data-Scientists to focus on domain-specific tasks (like using DeepFM to build a CTR prediction model). We will also share mid-term/long-term roadmap for Submarine, including Model management for model-serving/versioning/monitoring, etc.
+
+_Wangda_
+
+_Wangda Tan is Sr. Manager of Compute Platform engineering team @ Cloudera, responsible for all engineering efforts related to Kubernetes, Apache Hadoop YARN, Resource Scheduling, and internal container cloud. In open-source world, he's a member of Apache Software Foundation (ASF), PMC Chair of Apache Submarine project, He is also project management committee (PMC) members of Apache Hadoop, Apache YuniKorn (incubating). Before joining Cloudera, he leads High-performance-computing on Hadoop related work in EMC/Pivotal. Before that, he worked in Alibaba Cloud and participated in the development of a distributed machine learning platform (later became ODPS XLIB)._
+
+_Zhankun_
+
+_Zhankun Tang is Staff Software Engineer @Cloudera. He’s interested in big data, cloud computing, and operating system. Now focus on contributing new features to Hadoop as well as customer engagement. Zhankun is PMC member of Apache Hadoop/Submarine, prior to Cloudera/Hortonworks, he works for Intel._
+
+---
+
+**Tuesday, September 29, 2020 at 10:35 AM PDT**
+
+## Apache MXNet 2.0: Bridging the Gap between DL and ML
+
+### Sheng Zha
+
+Deep learning community has largely evolved independently from the prior community of data science and machine learning community in NumPy. While most deep learning frameworks now provide NumPy-like math and array library, they differ in the definition of the operations which creates a steeper learning curve of deep learning for machine learning practitioners and data scientists. This creates a chasm not only in the skillsets of the two different communities, but also hinders the exchange of knowledge. The next major version, 2.0, of Apache MXNet (incubating) seeks to bridge the fragmented deep learning and machine learning ecosystem. It provides NumPy-compatible programming experiences and simple enhancements to NumPy for deep learning with the new Gluon 2.0 interface. The NumPy-compatible array API also brings the advances in GPU acceleration, auto-differentiation, and high-performance one-click deployment to the NumPy ecosystem.
+
+_Sheng Zha is an Applied Scientist at Amazon AI. He’s also a committer and PPMC member of Apache MXNet (Incubating), steering committee member of Linux AI Foundation ONNX, and maintainer of the GluonNLP project. In his research, Sheng focuses on the intersection between deep learning-based natural language processing and computing systems, with the aim of enabling learning from large-scale language data and making it accessible._
+
+---
+
+**Tuesday, September 29, 2020 at 11:15 AM PDT**
+
+## Streaming Machine Learning with Apache Kafka and TensorFlow (without a Data Lake)
+
+### Kai Waehner
+
+Machine Learning (ML) is separated into model training and model inference. ML frameworks typically load historical data from a data store like HDFS or S3 to train models. This talk shows how you can avoid such a data store by ingesting streaming data directly via Apache Kafka from any source system into TensorFlow for model training and model inference using the capabilities of “TensorFlow I/O”. The talk compares this modern streaming architecture to traditional batch and big data alternatives and explains benefits like the simplified architecture, the ability of reprocessing events for training different models, and the possibility to build a scalable, mission-critical, real time ML architecture with muss less headaches and problems
+
+_Kai Waehner is a Technology Evangelist at Confluent. He works with customers across Europe, US, Middle East and Asia and internal teams like engineering and marketing. Kai’s main area of expertise lies within the fields of Big Data Analytics, Machine Learning, Hybrid Cloud Architectures, Event Stream Processing and Internet of Things. He is regular speaker at international conferences such as ApacheCon and Kafka Summit, writes articles for professional journals, and shares his experiences with new technologies on his blog: www.kai-waehner.de._
+
+---
+
+**Wednesday, September 30, 2020 at 9:15 AM PDT**
+
+## Deep Learning in Java
+
+### Qing Lan
+
+AI is evolving rapidly, and is used widely in a variety of industries. Machine learning (ML) applications ranging from basic text classification to complex applications such as object detection and pose estimation are being developed to be used in enterprise applications. Currently, software engineers using Java have a large barrier to entry when they try to adopt Deep Learning (DL) for their applications. Python being the de-facto programming language for ML adds additional gradient to an already steep learning curve. This tutorial will introduce an open-source, framework-agnostic Java library — Deep Java Library (DJL) for high-performance training and inference in production. DJL supports a variety of Deep Learning engines (including but not limited to Apache MXNet, TensorFlow and PyTorch) and provides a simple and clean Java API that will work the same with each engine. Additionally, DJL offers the DJL Model Zoo - a repository of models that makes it easy to share models across teams. This tutorial will walk software engineers through the core features of DJL and demonstrate how it can be used to simplify experience of serving models. By the end of the session, users will be able to train and deploy DL models from a variety of DL frameworks into production environments and serve user requests using Java. Website: https://djl.ai/
+
+_Qing is a SDE II in the AWS Deep Learning Toolkits team. He is one of the co-authors of DJL (djl.ai) and PPMC member of Apache MXNet. He graduated from Columbia University in 2017 with a MS degree in Computer Engineering and has worked on model training and inference. Qing has presented a workshop about Apache MXNet in ApacheCon 2019(Las Vegas) about using Java for Deep Learning inference._
+
+---
+
+**Wednesday, September 30, 2020 at 9:55 AM PDT**
+
+## Running ML algorithms with ML tools available in Apache Ecosystem
+
+### Shekhar Prasad Rajak
+
+In these days, having libraries to get abstract methods to use machine learning algorithm in the application is important but to train our model effectively in lesser time & resources; for our own customize algorithm is more important. Machine learning technology is changing every single day, so let's spend time on how Researchers and Software Developers can leverage the powerful features provided by Apache libraries & frameworks. In this talk we will focus on Apache libraries/frameworks available for distributed training, large scale & less costly data transfer during the whole Model training life cycle. Fundamentals and motive behind following Apache Projects: * Apache Spark MLlib: Simplifies large scale machine learning pipelines, using distributed memory-based Spark architecture. The best for building & experimenting new algorithms. * Apache MxNet: A lean, flexible, and ultra-scalable deep learning framework that supports state of the art in deep learning models * Apache Singa: It provides intelligent database system, distributed deep learning by partitioning the model and data onto nodes in a cluster and parallelize the training. * Apache Ignite: A distributed database , caching and processing platform designed to store and compute on large volumes of data across a cluster of nodes - which can be super useful to perform distributed training and inference instantly without massive data transmissions * Apache Mahout : A distributed linear algebra framework that support multiple distributed backends like Apache Spark, to use by data scientists to quickly implement algorithms and statistics analysis of data. Practical guide for above Apache projects, focusing following points: * Data processing, implementing existing & customised own ML algorithms, tuning, scaling up and finally deploying to optimising it using Apache cluster management tools and(or) Kubernetes. Performance and benchmark with Kubernetes. * Handling large-scale batch, streaming data & realtime processing. * Caching data or in-memory for faster ML predictions
+
+_Shekhar is passionate about Open Source Softwares and active in various Open Source Projects. During college days he has contributed SymPy - Python library for symbolic mathematics ,_
+
+_Data_
+
+_Science related_
+
+_daru, dart-view(Author), nyaplot - which is under Ruby Science Foundation (SciRuby),_
+
+_a gem to bundle gems, NumPy & SciPy for creating the interactive website and documentation website using sphinx and Hugo framework, CloudCV for migrating the Angular JS application to Angular 8, and few others. He has successfully completed Google Summer of Code 2016 & 2017 and mentored students after that on 2018, 2019. Shekhar also talked about daru-view gem in RubyConf India 2018 and PyCon India 2017 on SymPy & SymEngine._
+
+---
+
+**Wednesday, September 30, 2020 at 10:35 AM PDT**
+
+## Apache Deep Learning 301
+
+### Timothy Spann
+
+In my talk I will discuss and show examples of using Apache Hadoop, Apache Kudu, Apache Flink, Apache Hive, Apache MXNet, Apache OpenNLP, Apache NiFi and Apache Spark for deep learning applications. This is the follow up to previous talks on Apache Deep Learning 101 and 201 at ApacheCon, Dataworks Summit, Strata and other events. As part of my talk I will walk through using Apache MXNet Pre-Built Models, integrating new open source Deep Learning libraries with Python and Java, as well as running real-time AI streams from edge devices to servers utilizing Apache NiFi and Apache NiFi - MiNiFi. This talk is geared towards Data Engineers interested in the basics of architecting Deep Learning pipelines with open source Apache tools in a Big Data environment. I will walk through source code examples available in github and run the code live on Apache NiFi and Apache Flink clusters.
+
+_Tim Spann is a Principal Field Engineer at Cloudera in the Data in Motion Team where he works with Apache NiFi, MiniFi, Kafka, Kafka Streams, Edge Flow Manager, MXNet, TensorFlow, Apache Spark, Big Data, IoT, Cloud, Machine Learning, and Deep Learning. Tim has over a decade of experience with the IoT, big data, distributed computing, streaming technologies, and Java programming. Previously, he was a senior solutions architect at AirisData and a senior field engineer at Pivotal. He blogs for DZone, where he is the Big Data Zone leader, and runs a popular meetup in Princeton on big data, IoT, deep learning, streaming, NiFi, blockchain, and Spark. Tim is a frequent speaker at conferences such as IoT Fusion, Strata, ApacheCon, Data Works Summit Berlin, DataWorks Summit Sydney, DataWorks Summit DC, DataWorks Summit Barcelona and Oracle Code NYC. He holds a BS and MS in computer science._
+
+---
+
+**Wednesday, September 30, 2020 at 11:15 AM PDT**
+
+## Edge to AI: Analytics from Edge to Cloud with Efficient Movement of Machine Data
+
+### Timothy Spann, Paul Vidal
+
+In this talk, we will walk you through the simple steps to build and deploy machine learning for sentiment analysis and YOLO object detection as part of an IoT application that starts from devices collecting sensor data and camera images with MiNiFi. This data is streamed to Apache NiFi which integrates with Cloudera Data Science Workbench for classification with models in real-time as part of the real-time event stream. We parse, filter, fork, sort, query with SQL, dissect, enrich, transform,utilizing TensorFlow and MXNet processors in NiFi, join and aggregate data as it is ingested. The data is landed in Big Data stores in the cloud for batch and interactive analytics with Apache Flink, Apache Spark, Apache Hive, Apache Kudu and Apache Impala. Utilizing Intel Movidius, NVidia Jetson Xavier, NVidia Jetson Nano and Google Coral Edge processors as part of a real-time streaming deep learning flow that includes Deep Learning Classification at the edge, at the gateway, in the cloud and at every step along the way. Reference: https://blog.cloudera.com/blog/2019/02/integrating-machine-learning-models-into-your-big-data-pipelines-in-real-time-with-no-coding/ https://community.cloudera.com/t5/Community-Articles/Edge-to-AI-IoT-Sensors-and-Images-Streaming-Ingest-and/ta-p/249474 https://community.cloudera.com/t5/Community-Articles/Using-Cloudera-Data-Science-Workbench-with-Apache-NiFi-and/ta-p/249469 https://github.com/tspannhw/nifi-cdsw
+
+_Tim Spann is a Principal DataFlow Field Engineer at Cloudera, the Big Data Zone leader and blogger at DZone and an experienced data engineer with 15 years of experience. He runs the Future of Data Princeton meetup as well as other events. He has spoken at Philly Open Source, ApacheCon in Montreal, Strata NYC, Oracle Code NYC, IoT Fusion in Philly, meetups in Princeton, NYC, Philly, Berlin and Prague, DataWorks Summits in San Jose, Washington DC, Barcelona, Berlin and Sydney. https://www.youtube.com/watch?v=bOfSnNVum_M&t=397s_

@@ -1,0 +1,149 @@
+title: Apache Mandarin Track
+template: page-event-default
+ref: apachecon-home-2020
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: false
+
+---
+
+**Tuesday, September 29, 2020 at 2:30 AM PDT**
+
+## New Apache Members from China, responsibilities and obligations
+
+### Sheng Wu, Juan Pan, Ning Jiang, Duo Zhang
+
+There are 11 of 35 new ASF members from China. With more and more project initialized from China and graduated from Incubator as new TLPs, China has more people involved in the Apache. In this panel, we invited Chinese Apache Members to talk about their open source journey and their responsibilities and obligations for the Apache Software Foundation and open source world.
+
+_Sheng_
+
+_He is an Apache Member, the Apache SkyWalking VP, and a PMC member. Also be a member of Apache ShardingSphere, APISIX, and_
+
+_Incubator_
+
+_PMC._
+
+_He mentors several_
+
+_China initialized incubator project._
+
+_Talked a lot about the open source in many conferences._
+
+_Juan_
+
+_As a senior DBA worked at JD.com, the responsibility is to develop the distributed database and middleware, and the automated management platform for database clusters. As a PMC of Apache ShardingSphere,_
+
+_I am willing to contribute to the_
+
+_OS community and explore the area of distributed databases and_
+
+_NewSQL._
+
+_Ning_
+
+_Willem Jiang is the technical expert of Huawei, a member of the Apache Software Foundation, he worked on many Apache projects like Camel, CXF, ServiceMix and ServiceComb. Before joining Huawei, Willem was the principal engineer of RedHat working on Fuse ESB, he also worked for FuseSource, IONA and Travelsky.inc. Willem gave talks on micro-services, distributed systems and open source in several conferences, like QCon Beijing,_
+
+_ArchSummit etc._
+
+_Duo_
+
+_Duo Zhang is a principal software engineer at Xiaomi, works for the cloud platform department. He is a member of the Apache Software Foundation, and also the chair of the Apache HBase PMC. Besides HBase, he also works on several other Apache projects like Hadoop, Yetus, etc. He is a mentor of several Apache incubator projects such as NuttX and Pegasus._
+
+---
+
+**Tuesday, September 29, 2020 at 3:10 AM PDT**
+
+## From Web Engineer to Apache APISIX PMC
+
+### Zhiyuan Ju
+
+The open source project Apache HTTP Server, carry the data connectivity between many terminals. Without the help of open source projects, today's Internet will be much inferior. Therefore, we encourage developers to actively participate in open source projects in order to better maintain the community ecology. In this meeting, I will share my experience from a Web engineer to continuous participation in open source projects, as well as the cultural differences between the Apache community and others, so that more developers can understand, embrace and participate in open source projects.
+
+_PMC member of Apache APISIX The core member of freeCodeCamp China, an organization involving to help people to learn web technologies Web and Security are also my favorites._
+
+---
+
+**Tuesday, September 29, 2020 at 3:50 AM PDT**
+
+## New Features of Apache CarbonData 2.0
+
+### Cai Qiang
+
+Apache CarbonData is an indexed columnar data format for fast analytics on big data platform. The latest version 2.0 is a milestone version. Compared with the 1.x version, the data loading and index capabilities are greatly improved. The CDC capability is improved to support the update, delete, and merge functions. The reconstructed MV supports multiple formats.
+
+_Cai Qiang, Apache CarbonData PMC, Committer, more 10 years code experience in big data domain, has deep understanding for Hadoop, Spark, Hive etc. As CarbonData’s initial member, who was responsible for core architecture design of data loading and index features._
+
+---
+
+**Tuesday, September 29, 2020 at 4:30 AM PDT**
+
+## ECharts: could the customization be both easy and highly personalized?
+
+### Shuang Su
+
+The major task of a charting library is to find out some appropriate ways to abstract the data visualization programing. Usually, common cases, easy-to-use, "flexibility" and "maintainability" should be considered to come up with some concepts and API for users to learn and express their requirements. In this designing, is it possible to both satisfy the easy-to-use and highly personalized? This topic will share the understanding of these abstraction in the evolution of echarts program, and illustrate the cases that benefited from the concepts like "custom series", "series/coordinate system combination".
+
+_Apache ECharts (incubating) PPMC member_
+
+---
+
+**Tuesday, September 29, 2020 at 5:10 AM PDT**
+
+## New Feature of Apache ShardingSphere 5.x
+
+### Liang Zhang
+
+The first version of Apache ShardingSphere 5.x will be released soon. In version 5.x, Apache ShardingSphere has made significant innovations from architecture design to product scope. Apache ShardingSphere 5.x follow pluggable architecture design concept to build a flexible, embeddable and extensible project. Apache ShardingSphere 5. X no longer takes data sharding as kernel, but turns to building distributed database ecosystem. In the new version, core functions such as data sharding, distributed transaction and database governance are completely separated from the kernel and become a part of its pluggable component. Through SPI, the ecosystem is fully opened, and the functions of data migration, elastic scheduling, data encryption, shadow table are fully integrated into the product ecology. This presentation will comprehensively introduce the new features of Apache ShardingSphere 5.x.
+
+_Liang Zhang, Architecture expert of Technical Center, JD Digital Technology(JD.com), Apache ShardingSphere PMC Chair. Passionate to open source, and advocate clean code. He recently focuses on building distributed database middleware Apache ShardingSphere as the first-rate data solution in the finance industry. Liang Zhang has published a book named "Future_
+
+_from SOA to Cloud Native" on March, 2019._
+
+_https://github.com/terrymanu, communications are always welcomed._
+
+---
+
+**Wednesday, September 30, 2020 at 2:00 AM PDT**
+
+## How does Apache Dolphin Scheduler (Incubator) support 100,000-level data task scheduling?
+
+### Lidong Dai
+
+First I will introduce the development of the DolphinScheduler community, and then introduce why we had to reinvent the wheel to rebuild the scheduling of big data tasks, the overall design ideas of DolphinScheduler, considerations, and the features and capabilities of DolphinScheduler. Next, I will introduce evolution process of DolphinScheduler architecture. In this share, I will also talk about the challenges and accumulated experience we have encountered in the scheduling of big data tasks. then, I will share some user cases and usage scenarios. Finally, I will share the history of open source.
+
+_He is currently the director of Analysys Big Data Platform & Apache DolphinScheduler PPMC, responsible for the data process architecture, technology selection, and technical breakthroughs of the daily 30 billion-level data processing chain. Focusing on the research and development of data platform architecture for 10 years, he good at data platform construction, cluster performance tuning, and data warehouse construction. He has served as a data architect for many big data companies and has some experience in retail business, olap data analysis, and mining._
+
+---
+
+**Wednesday, September 30, 2020 at 2:40 AM PDT**
+
+## OSS.Chat - A bridge to the Apache Way in China
+
+### Huan
+
+The mission of the OSS.Chat project is to bridge the three-way communication and translation barriers between WeChat and other social platforms (future) and GitHub Issues and mailing lists to the open source development community, making ASF's cultural, technical, and collaborative processes acceptable quickly and easily, rather than stumbling from the start. With Chatbot, an automated process mechanism, developers can more easily share and communicate information about the development of open source projects. In particular, the archiving and secondary induction of open information to the community is one of the things that we think is very meaningful. Through OSS.Chat project, we hope to further promote, disseminate, and even optimize the culture, technology, and collaboration of the Apache project community.
+
+_Huan, PreAngel Partner, Author of Wechaty, an Angel Investor, Serial Entrepreneur, Machine Learning PhD Student, Microsoft AI MVP, Google ML GDE, Tencent Chatbot TVP, Conversational AI Coder with passion_
+
+---
+
+**Wednesday, September 30, 2020 at 3:20 AM PDT**
+
+## Apache TubeMQ: a new choice of MQ in big data scenarios
+
+### Gosonzhang
+
+This paper introduces the challenges faced by Message Queue (MQ) when data transmission changes from 10 billion to trillions in the big data scenario, and how TubeMQ solves such problems to meet business needs.
+
+_TubeMQ project PPMC member, working in the data storage group of Tencent Data Platform Department._
+
+---
+
+**Wednesday, September 30, 2020 at 4:00 AM PDT**
+
+## Apache Doris - A fast MPP database for all modern analytics on big data
+
+### Mingyu Chen
+
+Doris is an analytical database project that entered the Apache incubator in 2018. The design goal of Doris is to provide users with an interactive analysis system that responds to massive amounts of data in sub-second levels through an elegant and simple system architecture, effectively supporting real-time data analysis. Doris's distributed architecture is very simple, easy to operate and maintain, and can support very large data sets of more than 10PB. Doris can also meet a variety of data analysis needs, including history data reports, real-time data analysis, interactive data analysis, and exploratory data analysis. Make data analysis easier. The speech mainly introduced the development history of Doris, architecture design, key features and classic use cases.
+
+_Baidu senior R&D engineer, Apache Doris(incubating) PPMC, Bachelor of University of Science and Technology of China, Master of Institute of Computing Technology, Chinese Academy of Sciences, 6 years of big data research and development experience._

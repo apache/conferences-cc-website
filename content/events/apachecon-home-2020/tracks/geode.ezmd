@@ -1,0 +1,137 @@
+title: Apache Geode Track
+template: page-event-default
+ref: apachecon-home-2020
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: false
+
+---
+
+**Tuesday, September 29, 2020 at 9:15 AM PDT**
+
+## A Caching Approach to Data Transformation of Legacy RDBMS
+
+### Gregory Green
+
+This session will a test driven development approach to building data domains where the source system of record is a legacy Relation Database Management System. The initial code will focus on mainframe based DB2 migration. The pattern will be applicable to similar solutions using Oracle, Sybase and other similar traditional relational databases. The talk will highlight the pros and cons of different styles of data pipelines. For example, Day 0 initial loads, Change Data Capture, Event based streams and scheduled pulled based tasks. The following are the highlighted technologies; - Apache Geode - Spring Data Geode - Spring Data/JDBC - Kakfa - Spring Cloud Stream - Spring Task/Spring Batch - Spring Cloud DataFlow
+
+_Senior Consultant with over 23 years of software development and architecture experience. Specializing in application transformation from legacy/monolith systems to microservices cloud-native applications with a focus on scalable, highly available and self-healing cloud-native data platforms._
+
+---
+
+**Tuesday, September 29, 2020 at 9:55 AM PDT**
+
+## How I contributed the transactionality in WAN replication feature to Apache Geode
+
+### Alberto Gomez
+
+In this talk I will describe the use case that drove me to develop the "Transactionality in WAN replication" feature and then I will sketch the technical solution implemented. In a second part, I will walk you through the process I followed to contribute the feature, from the point of view of a recent member of the Apache Geode Community.
+
+_Software engineer with more than 20 years of experience in the telco world. Husband, father of three and stylish tennis contender._
+
+---
+
+**Tuesday, September 29, 2020 at 10:35 AM PDT**
+
+## Introduction to Apache Geode Through Spring Data
+
+### Patrick Johnson
+
+Apache Geode is a distributed in-memory data-grid designed with speed, concurrency, and scalability in mind. Apache Geode can be used as a system of record, cache, and much more. Spring Data is an extension of the Spring Framework that adds useful abstractions to make working with data simpler with less boilerplate code. In this presentation, Patrick will dive into what Apache Geode is, how it works, what it does, and how to get started using it with Spring Data for Apache Geode.
+
+_A (semi)recent graduate of Oregon Institute of Technology, Patrick is employed as a Software Engineer at VMware in Portland, Oregon, where he works primarily on Spring Data for Apache Geode._
+
+---
+
+**Tuesday, September 29, 2020 at 11:15 AM PDT**
+
+## Got Javascript Apps? We Can Do That!
+
+### Karen Miller, Blake Bender
+
+Your app is written in Javascript, and that's not going to change. Your app needs a cache, and you want to use Apache Geode for your caching layer. Until now, you've been out of luck. VMware has developed a Node.js Client for Apache Geode. The donation to Apache Geode is in progress. Stay tuned! You can keep your Javascript app, and use the Node.js Client to interact with an Apache Geode cluster.
+
+_Karen_
+
+_Karen is the current Apache Geode PMC chair. She writes technical documentation for VMware, where she pursues opportunities to promote the understanding of Apache Geode. Prior to VMware,_
+
+_Karen taught_
+
+_Computer_
+
+_Sciences courses at the_
+
+_University of_
+
+_Wisconsin-Madison and is also a textbook author._
+
+_Blake_
+
+_Blake is the Apache Geode Native project anchor. He works for VMWare in this capacity, and in the same role at Pivotal prior to the VMWare acquisition. He previously worked at Intel Architecture Labs in Hillsboro, OR, and at Microsoft in Redmond, WA, specializing in media and contributing to Microsoft Silverlight, Media Foundation, DirectX, and several releases of Windows._
+
+---
+
+**Wednesday, September 30, 2020 at 9:15 AM PDT**
+
+## Running a Apache Geode on Kubernetes
+
+### Michael Oleske, Aaron Lindsey
+
+As application developers move workloads to Kubernetes, they expect data services to run on Kubernetes alongside their applications. Kubernetes excels at running stateless workloads, but how does it handle complex stateful applications such as Apache Geode, a distributed in-memory database? We will describe challenges faced while building a Geode operator for Kubernetes, including controlling pod terminations, working with a dynamic network, and ensuring state management during the lifecycle of the deployment. We will explain the solutions we took to control these challenges, and dive into how we tested these solutions. You will leave with an understanding of how we moved a system designed to run on bare metal to a Kubernetes environment, uniting your workloads with your data services.
+
+_Michael_
+
+_Michael is a software engineer on_
+
+_Apache_
+
+_Geode and_
+
+_Tanzu_
+
+_GemFire._
+
+_He works on making_
+
+_Geode both run well and easy to deploy for_
+
+_Kubernetes._
+
+_Aaron_
+
+_Aaron works as a software engineer on Apache Geode and VMware Tanzu GemFire, focusing on making Geode run well on Kubernetes. Outside of work, he enjoys hiking and backpacking in the Pacific Northwest mountains, and volunteering with his local community and church._
+
+---
+
+**Wednesday, September 30, 2020 at 9:55 AM PDT**
+
+## Apache Geode: Exposing just one ip for all your gateway receivers in K8s
+
+### Alberto Bustamante
+
+Apache Geode uses gateway senders and gateway receivers for events replication in multisite configuration. Each receiver usually has its own ip, which has some drawbacks in cloud environments as Kubernetes. In this talk I would like to show why we decided to expose all our gateway receivers with the same ip, the problems we found, the solution proposed and how I contributed it to Geode.
+
+_Alberto is a Computer Science engineer by Carlos III University of Madrid, with a Master on Software Craftsmanship by Polytechnic University of Madrid. He has been working at Ericsson Spain since 2008 mainly as Software Developer. Since 2019 he works as Open Source Developer contributing to Apache Geode, a data management platform ( in-memory data grid ) that provides real-time, consistent access to data-intensive applications throughout widely distributed cloud architectures._
+
+---
+
+**Wednesday, September 30, 2020 at 10:35 AM PDT**
+
+## vMotion and Apache Geode: Investigating the impact of live migration of virtual machines on an in-memory data grid
+
+### Nabarun Nag
+
+Avoiding downtime during maintenance or unforeseen machine issues is paramount for mission-critical, ready and available systems. To achieve this goal, VMware vSphere vMotion provides the capability for a zero-downtime live migration of virtual machine workloads from one server to another. During the entire duration of migration, all applications continue running and providing access to users. This feature can be also be automated using Dynamic Resource Scheduler which places a virtual machine in an optimal location in the server cluster. Pivotal Cloud Cache is an in-memory key-value store powered by Apache Geode, which is responsible for responding to large volume of concurrent read/write requests without compromising throughput and latency. Pivotal Cloud Cache also serves multiple use cases like event processing, transaction and session state caching, etc. in industries like finance and travel. To evaluate the impact of vMotion migration of virtual machines hosting Cloud Cache servers, we devised experiments where we deploy a Cloud Cache cluster using the Pivotal Platform in VMware’s Solutions lab. We then continuously migrate the virtual machines using vSphere SDK, while the cluster is under read and write workloads. We measure the impact on latency and throughput and also monitor that no members are being kicked out of the distributed system due to lack of response to heartbeat messages during the migration phase. This paper discusses the experiment design and results in detail.
+
+_Nabarun has been a code contributor and PMC member for Apache Geode since 2016, after graduating from University of Wisconsin-Madison. Prior to that, he worked for Samsung Research Institute. In his spare time, he likes to explore Portland's food scene and playing Apex Legends and Overwatch_
+
+---
+
+**Wednesday, September 30, 2020 at 11:15 AM PDT**
+
+## Improving the Performance of Apache Geode Persistence Recovery
+
+### Jianxia Chen
+
+Apache Geode offers super fast write-ahead-logging (WAL) persistence with a shared-nothing architecture that is optimized for fast parallel recovery of nodes or an entire cluster. In this talk, we will first introduce how Geode disk stores work. Then we will present the recent work to improve the performance of persistence recovery. With the analysis of Geode logs, we find that the performance of persistence recovery can be significantly improved by unblocking some of the server initialization threads and parallelizing the process of disk stores recovery. Our experiments have proved that persistence recovery becomes remarkably more scalable and efficient with the improved process.
+
+_Jianxia is a PMC member and committer of Apache Geode. He enjoys working on open source software._

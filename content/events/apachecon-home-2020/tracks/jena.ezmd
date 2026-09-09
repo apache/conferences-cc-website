@@ -1,0 +1,67 @@
+title: Apache Jena Track
+template: page-event-default
+ref: apachecon-home-2020
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: false
+
+---
+
+**Wednesday, September 30, 2020 at 2:40 AM PDT**
+
+## Apache Jena GeoSPARQL
+
+### Marco Neumann
+
+This presentation will discuss an implementation of GeoSPARQL for Apache Jena and a Fuseki integration. GeoSPARQL adds spatial functions to the SPARQL query language and enables the processing of spatial data with the popular Apache Jena project. In this presentation basic filter and property functions will be discussed in context of spatial relations and geometry shapes or types for the use with the Resource Description Framework (RDF) and SPARQL. Apache Jena GeoSPARQL spatial filters can be a applied to Well-known text (WKT) representation of geometry objects and datasets using the WGS84 Geo predicates for latitude and longitude. The goal for the latest release of Apache Jena GeoSPARQL module was to follow generally the 11-052r4 OGC GeoSPARQL standard where possible while providing an easy to use extension for Apache Jena users.
+
+_Marco Neumann is an Information Scientist with keen interest in distributed information syndication and contexts for the Semantic Web, dynamic schema evolution in structured data, information visualisation, ontology based knowledge management, reputation based ranking in Semantic Social Networks (augmented collaborative online communities such as http://www.lotico.com), and last but not least the Semantic GeoSpatial Web. Since 2005 Marco applies his experiencing to large-scale information management projects in international cultural heritage institutions and the private sector._
+
+---
+
+**Wednesday, September 30, 2020 at 10:35 AM PDT**
+
+## XML -> JSON -> RDF : Another iteration in data format evolution
+
+### Claude Warren
+
+Starting with a brief history of web and micro server data serialization formats, this talk looks at the advantages of using RDF as the data format for web and micros service processing. An example of the processing as performed in a live application is presented. The talk demonstrates how RDF processed by Jena can deliver a clean, extensible data format with simple merge characteristics and mechanisms for reasoning.
+
+_Claude Warren is a Senior Software Engineer with over 30 years experience. He currently lives in Galway, Ireland where he works on innovative solutions to technical problems. He is also a Comitter and Project Management Committee member on the Apache Jena project and has several small open source projects on Github. He has presented papers at several conferences and has several papers published both in the popular IT press and in refereed journals. He is a founding member of the Denver Mad Scientists Club and winner of the original Critter Crunch competition._
+
+---
+
+**Wednesday, September 30, 2020 at 11:15 AM PDT**
+
+## SHACL in Apache Jena
+
+### Andy Seaborne
+
+RDF databases holds data in a schema-less fashion. Adding new RDF data from new sources does not require existing data to be reorganised or redesigned, nor do applications using the existing data need to be changed. Information about what the data looks like is not part of the database and not enforced, leaving it to the application to deal with data mistakes such as bad formats, or missing information needed by the application. This in turn makes writing applciations more cumbersome because checking data is fit for the applications purpose needs to be performed. An approach that is gaining ground is data shapes; higher level descriptions of the RDF data that say which RDF triples are expected, and what the format of data values is required to be. SHACL is the W3C standard for expressing data shapes for such validation tasks This talk will introduce the SHACL standard and show how it can be used with Apache Jena.
+
+_Andy works on infrastructure for RDF data systems. He has been an specification editor in the SPARQL standardization process at W3C for both the original SPARQL 1.0 and also SPARQL 1.1 standards. Within the Apache Jena project, he contributes to the query engine and SPARQL server, ensuring that complete implementations of standards are available._
+
+---
+
+**Wednesday, September 30, 2020 at 11:55 AM PDT**
+
+## Buddhist Digital Archives (BUDA), RDF and jena-text
+
+### Chris Tomlinson, Élie Roux
+
+BUDA is s Linked Data Platform built on Jena-Fuseki using RDF and Jena’s Lucene integration, jena-text. The platform enables collaboration in digital humanities among a variety of partners and leverages RDF and IIIF to provide open-access to a vast collection of textual materials and cultural heritage metadata about these materials.
+
+_Chris_
+
+_Senior Technologist, working with BDRC (tbrc.org) for 18 years developing systems for the preservation, access and distribution of Buddhist texts and their cultural context. Developed contributions to Jena in support of the multilingual needs of BUDA. Élie_
+
+_Project Lead, working with BDRC for 4 years, with experience in open-source cultural preservation projects (such as Gregorian Chant score engraving software . Developed contributions to IIIF and other open-source activities for use in BUDA._
+
+---
+
+**Wednesday, September 30, 2020 at 12:35 PM PDT**
+
+## Semantic Graph BoF hosted by Apache Jena
+
+### Community Participation
+
+Birds of a feather meeting to discuss all things semantic graph. Who is using them? What issues have projects encountered and how have they overcome them? Could the Jena help in making transition to semantic graphs easier? 

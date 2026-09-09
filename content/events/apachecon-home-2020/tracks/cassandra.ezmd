@@ -1,0 +1,281 @@
+title: Apache Cassandra Track
+template: page-event-default
+ref: apachecon-home-2020
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: false
+
+---
+
+**Tuesday, September 29, 2020 at 2:30 AM PDT**
+
+## Lessons Learned: Building Cassandra DBaaS on Alibaba Cloud
+
+### Maxwell Guo
+
+During this session, we will share the lessons we learned when we built Apache Cassandra as a Service on Alibaba Cloud. Specific topics include: - how we boosted Cassandra performance through soft raid on cloud disk, - why we do a continuous full incremental backup - how to apply automatic data repairs Additionally, we will share the experience of doing non-stop data migration between different Cassandra clusters and between Cassandra and other databases as well as how we optimize a Cassandra service for different use case.
+
+_Maxwell is a cloud software architect at Alibaba, working on offering Apache Cassandra as a cloud based service._
+
+---
+
+**Tuesday, September 29, 2020 at 9:15 AM PDT**
+
+## Towards Practical Self-Healing Distributed Databases
+
+### Dinesh Joshi, Joey Lynch
+
+As distributed databases expand in popularity, there is ever-growing research into new database architectures that are designed from the start with built-in self-tuning and self- healing features. In real world deployments, however, migration to these entirely new systems is impractical and the challenge is to keep massive fleets of existing databases available under constant software and hardware change. Apache Cassandra is one such existing database that helped to popularize "scale-out" distributed databases and it runs some of the largest existing deployments of any open-source distributed database. In this talk, we demonstrate the techniques needed to transform the typical, highly manual, Apache Cassandra deployment into a self-healing system. We start by composing specialized agents together to surface the needed signals for a self-healing deployment and to execute local actions. Then we show how to combine the signals from the agents into the cluster level control- planes required to safely iterate and evolve existing deployments without compromising database availability. Finally, we show how to create simulated models of the database's behavior, allowing rapid iteration with minimal risk. With these systems in place, it is possible to create a truly self-healing database system within existing large-scale Apache Cassandra deployments.
+
+_Dinesh_
+
+_Dinesh A. Joshi has been a professional Software Engineer for over a decade building highly scalable realtime Web Services and Distributed Streaming Data Processing Architectures serving over 1 billion devices. Dinesh is an active contributor to the Apache Cassandra codebase. He has a Masters degree in Computer Science (Distributed Systems & Databases) from Georgia Tech, Atlanta,_
+
+_USA._
+
+_Joey_
+
+_Joey helps keep the wheels on the bus for Netflix’s data infrastructure._
+
+---
+
+**Tuesday, September 29, 2020 at 9:55 AM PDT**
+
+## Building Apache Cassandra 4.0: behind the scenes
+
+### Dinesh Joshi
+
+Building a database is hard. Building a distributed database is harder. Building a distributed database that the industry relies on is even harder. Our goal to build Apache Cassandra 4.0 is to make it rock solid. In this talk, we go behind the scenes to show you how the Apache Cassandra community is building and testing Apache Cassandra 4.0 so that it is the most stable release ever!
+
+_Dinesh A. Joshi has been a professional Software Engineer for over a decade building highly scalable realtime Web Services and Distributed Streaming Data Processing Architectures serving over 1 billion devices. Dinesh is an active contributor to the Apache Cassandra codebase. He has a Masters degree in Computer Science (Distributed Systems & Databases) from Georgia Tech, Atlanta, USA._
+
+---
+
+**Tuesday, September 29, 2020 at 10:35 AM PDT**
+
+## 5 Ways to Solve Cassandra GC Problems
+
+### Caroline George
+
+Garbage Collection can be painful, impact performance and stability, and can even take down entire clusters. In this talk, we will start by going over the 5 most common reasons for GC in Apache Cassandra. Then we will discuss ways to address these issues. And end with how to monitor your cluster going forward to avoid running into GC problems.
+
+_Spent over 6 years working with Apache Cassandra as an SE at Datastax, Caroline is now helping customers increase performance and provide stability with their JVM at Azul Systems. Originally from France, she has spent most of her life in NYC and holds a BA in Computer Science from NYU and MBA from NYU Stern School of Business._
+
+---
+
+**Tuesday, September 29, 2020 at 11:15 AM PDT**
+
+## Cloud-Native Cassandra
+
+### Patrick McFadin
+
+Kubernetes is becoming a standard tool to deploy large scale infrastructure and lately, Apache Cassandra. We'll look at some of the methods used to deploy Cassandra using Kubernetes including storage options, networking configuration, and monitoring. In the past year, the Apache Cassandra project has also taken on the task of creating a common operator closer to the project. This will be a chance to get the latest status of the operator effort and where it will be headed post-Cassandra 4.0.
+
+_Patrick McFadin is the VP of Developer Relations at DataStax, where he leads a team devoted to making users of Apache Cassandra successful. He has also worked as Chief Evangelist for Apache Cassandra and consultant for DataStax, where he helped build some of the largest and exciting deployments in production. Previous to DataStax, he was Chief Architect at Hobsons and an Oracle DBA/Developer for over 15 years._
+
+---
+
+**Tuesday, September 29, 2020 at 11:55 AM PDT**
+
+## Getting started with Cassandra the right way
+
+### Erick Ramirez
+
+Cassandra users run into problems particularly when they're new to the technology. In this session, I'll talk about: - the common pitfalls so you don't fall into the trap; - top things users ask for help; - how to quickly diagnose issues; - where to get help.
+
+_I'm an Apache Cassandra enthusiast at DataStax. I've been educating and helping other users become successful with Cassandra for 7 years. I answer questions on various channels including ASF Slack and the users mailing list._
+
+---
+
+**Tuesday, September 29, 2020 at 12:35 PM PDT**
+
+## Advanced data modeling techniques for Cassandra
+
+### Arturo Hinojosa, Michael Raney
+
+Whether your storing timeseries data for a messaging app or device metadata for an industrial IoT application, your Cassandra data model can have a massive impact on your application’s performance and scalability. In this talk, we will walk through advanced techniques and best practices for building highly scalable, fast, and robust data models. You will learn how to model your data based on your queries and access patterns to ensure you have well-distributed data that will enable your application to scale up as traffic grows. We will talk through examples of deformalizing data, modeling complex relationships, and optimizations that you can apply to your schemas and data models to improve performance.
+
+_Arturo_
+
+_Arturo Hinojosa is a Principal Product Manager on the Amazon Keyspaces (for Apache Cassandra) team at Amazon Web Services (AWS)._
+
+_Arturo is responsible for_
+
+_Amazon_
+
+_Keyspaces' overall product strategy and has been with_
+
+_AWS for over four years._
+
+_Michael_
+
+_Michael is the lead specialist solution architect (SA) for Amazon Keyspaces (for Apache Cassandra). As the lead SA for Amazon Keyspaces, Michael works with customers every day to design cloud-based NoSQL solutions for large-scale distributed systems._
+
+---
+
+**Wednesday, September 30, 2020 at 2:00 AM PDT**
+
+## Large scale Cassandra Use Cases and Best Practices at Huawei Consumer Cloud
+
+### Duican Huang
+
+Cassandra is widely used in key business scenarios in Huawei Consumer Cloud. You can find Cassandra databases serving as the real-time data store behind almost all Huawei consumer electronic products that are used by billions of people in China and the rest of the world. With a long history of Cassandra adoption ever since 2010, Huawei Consumer Cloud’s Cassandra deployments have grown to 30,000+ nodes, supporting more than 10 million operations per second with average latency of 4ms, and the maximum number of table records reaches 300 billion. Along this journey, we have gained a lot of experience in data modeling, fine-tuning leveled compaction with high node density, day-to-day operations such as repair and handling tombstones, monitoring and problem identification and quick resolution under very tight SLA, which we are thrilled to share with the community. We also summarized our lessons learned and best practices in managing those low-latency, high-concurrency and mission-critical use cases.
+
+_Duican Huang is a Huawei Senior R&D Engineer_
+
+---
+
+**Wednesday, September 30, 2020 at 2:40 AM PDT**
+
+## Making Cassandra more capable, faster, and more reliable
+
+### Hiroyuki Yamada, Yuji Ito
+
+Cassandra is widely adopted in real-world applications and used by large and sometimes mission-critical applications because of its high performance, high availability and high scalability. However, there is still some room for improvement to take Cassandra to the next level. We have been contributing to Cassandra to make it more capable, faster, and more reliable by, for example, proposing non-invasive ACID transaction library, adding GroupCommitLogService, and maintaining and conducting Jepsen testing for lightweight transactions. This talk will present the contributions we have done including the latest updates in more detail, and the reasons why we made such contributions. This talk will be one of the good starting points for discussing the next generation Cassandra.
+
+_Hiroyuki_
+
+_Hiroyuki Yamada is CTO and CEO at Scalar, Inc. He has been passionate about parallel and distributed data management systems for more than 15 years. Prior to Scalar, he worked at IIS UTokyo, Yahoo,_
+
+_IBM._
+
+_Ph.D. from the_
+
+_University of_
+
+_Tokyo._
+
+_Yuji_
+
+_Working on distributed database/storage. Formerly, worked on SSD firmware. Master's degree in Information Science and Technology from The University of Tokyo._
+
+---
+
+**Wednesday, September 30, 2020 at 9:15 AM PDT**
+
+## How Netflix Manages Version Upgrades of Cassandra at Scale
+
+### Sumanth Pasupuleti
+
+We at Netflix have about 70% of our fleet on Apache Cassandra 2.1, while the remaining 30% is on 3.0. We have embarked on a multi quarter task of upgrading our 2.1 fleet to 3.0, as part of which we are doing several kinds of verification overarching both correctness and performance. It is a known issue that cross version streaming is not supported in Cassandra. To work around this, we've also developed a version agnostic upgrade mechanism using our desire based automation, to avoid needing to do cross version streaming. Through this approach, we can tolerate loosing a node while the upgrade is in progress and the cluster is in mixed mode of major versions. As part of this talk, I would like to elaborate on what kinds of verification we are doing as well as the upgrade mechanism we have developed to avoid cross version streaming.
+
+_Sumanth Pasupuleti is a Senior Software Engineer at Netflix, focusing on innovating and operating at scale, both caching and persistent datastore solutions like EVCache and Cassandra, offered as a platform within Netflix._
+
+---
+
+**Wednesday, September 30, 2020 at 9:55 AM PDT**
+
+## Hidden features of Apache Cassandra 4.0
+
+### Dinesh Joshi
+
+Apache Cassandra 4.0 is a huge community effort! It has over 400 patches including features and bug fixes. We have a lot of features that are well known and there are great features that are not so well known. In this talk, you will learn about some of those hidden features that might make your life easier, give you great performance boost or just surprise you!
+
+_Dinesh A. Joshi has been a professional Software Engineer for over a decade building highly scalable realtime Web Services and Distributed Streaming Data Processing Architectures serving over 1 billion devices. Dinesh is an active contributor to the Apache Cassandra codebase. He has a Masters degree in Computer Science (Distributed Systems & Databases) from Georgia Tech, Atlanta, USA._
+
+---
+
+**Wednesday, September 30, 2020 at 11:15 AM PDT**
+
+## Reasoning about Cassandra performance from first principles
+
+### Jeff Hajewski
+
+There are a plethora of articles and blog posts on Cassandra performance and performance tuning. Typically these resources contain specific pieces of advice on how to improve read or write throughput. The problem with these resources is that they focus on a specific solution to specific problem. In this talk we will start from first principles and develop a mental model that will allow us to reason about Cassandra's performance. The goal of the talk is for attendees to leave with a deeper understanding of how Cassandra works and how they can use that information to think through Cassandra's performance characteristics. We will start off by looking at how Cassandra stores data, the underlying data structures, and the implications of these design choices. The next two parts of the talk will discuss how Cassandra handles reads and writes and the associated trade-offs in the context of distributed systems. This talk is suitable both for those that regularly use Cassandra as well as those who are new to Cassandra because we focus on the ideas and principles behind Cassandra, rather than specific APIs or configurations.
+
+_Jeff is a software engineer at Salesforce, where he works on distributed systems for machine learning on streaming data. Prior to working at Salesforce he did his PhD at the University of Iowa. He works remotely from Iowa, where he lives with his wife, kid, and dog._
+
+---
+
+**Wednesday, September 30, 2020 at 12:35 PM PDT**
+
+## Cassandra Upgrade in production : Strategies and Best Practices
+
+### Laxmikant Upadhyay
+
+This session will cover how to perform Cassandra cluster upgrade in production effectively. We will learn about best practices for planning & executing Cassandra upgrades. We will also discuss and understand different Cassandra upgrade strategies and their respective pros & cons so that Operations team can select the appropriate strategy. Finally, we will talk about standard upgrade issues and how we have created custom solutions at Ericsson to overcome those issues. The session is useful for Cassandra Operators, Administrators and other Cassandra users involved in planning, performing and testing upgrades.
+
+_Laxmikant Upadhyay is an Apache Cassandra enthusiast with over 10 years of experience in developing mutliple distributed scalable and HA software solutions. Currently, he works as Sr. Data engineer (nosql) and Cassandra SME with American Express R&D. He is core contributor of open source Cassandra Audtiing plugin ecaudit . He has designed and implemented multiple distributed, fault tolerant, scalable and HA software systems. He has helped many teams in designing efficient and scalable data model and performance tuning of C*._
+
+---
+
+**Thursday, October 1, 2020 at 9:15 AM PDT**
+
+## Getting Involved with the Apache Cassandra Project
+
+### Ekaterina Dimitrova
+
+They say it’s always hard the first time you do something. Is it really? In this talk we prove the opposite and give some guidance on how to simplify the way new open-source contributors learn and contribute for the first time to a project like Apache Cassandra. Contributions can happen in many forms, from documentation, testing and bug fixing to developing new cool features. Come, join us in our exciting adventure to Cassandra 4.0, the most stable release ever, and beyond to 5.0!
+
+_Cassandra contributor and distributed systems deva._
+
+---
+
+**Thursday, October 1, 2020 at 9:55 AM PDT**
+
+## Containerized Cassandra Cluster (CCC)
+
+### Stanislav Kelberg
+
+Elegant and fully controllable Cassandra cluster for local testing and development. A modern and robust alternative to ccm (Cassandra Cluster Manager), taking advantage of containers, while keeping the full control of Cassandra configuration. This talk will demonstrate how to easily test locally against a cluster with production like features, for example: multi DC, SSL, Authentication etc.
+
+_Stan is a seasoned DevOps engineer who has worked for small startups and large enterprises like Deutsche Bank and Sky. Stan has been heavily involved with Cassandra and DSE in the last 6 years, 4 of which he has worked for digilalis.io_
+
+---
+
+**Thursday, October 1, 2020 at 10:35 AM PDT**
+
+## Re-imaging Cassandra authentication using short-term credentials
+
+### Arturo Hinojosa, Derek Chen-Becker, Brian Houser
+
+Apache Cassandra manages access by using traditional usernames and passwords. However, organizations and developers are moving towards more secure access management techniques for programmatic access, such as using short-term credentials. In this talk, we will dive deep on how Amazon Web Services (AWS) designed and built an open-source authentication plugin for Cassandra drivers that enables developers to use short term credentials for access management instead of hard-coding credentials in their application code. You will learn how the plugin integrates with Cassandra drivers and how the security model works in comparison to traditional authentication.
+
+_Arturo_
+
+_Arturo Hinojosa is a Principal Product Manager on the Amazon Keyspaces (for Apache Cassandra) team. Arturo is responsible for the overall product strategy of Amazon Keyspaces and has been with Amazon Web Services (AWS) for over four years._
+
+_Derek_
+
+_Derek Chen-Becker is a senior software development engineer on the Amazon Keyspaces (for Apache Cassandra) team. Derek is the original author of the AWS authentication plugin for Apache Cassandra drivers. Derek is interested in network engineering and enterprise software development, with focuses in distributed systems, monitoring and management._
+
+_Brian_
+
+_Brian Houser is a Senior Software Development Engineer on the Amazon Keyspaces (for Apache Cassandra) team. Brian leads open-source efforts for Amazon Keyspaces and has been with Amazon for more than 10 years._
+
+---
+
+**Thursday, October 1, 2020 at 11:15 AM PDT**
+
+## Upgrading Cassandra using Automation, with cstar
+
+### Valerie Parham-Thompson
+
+I recently did an upgrade of 200+ nodes of Cassandra across multiple environments sitting behind multiple applications using the cstar tool. We chose the cstar tool because, out of all automation options, it has topology awareness specifically to Cassandra. I will share my experience with this upgrade, including observations and surprises, as well as a walk-through of the process using a Cassandra cluster provisioned in Docker.
+
+_With experience as an open-source DBA and developer for software-as-a-service environments, Valerie has expertise in web-scale data storage and data delivery, including MySQL, Cassandra, Postgres, and MongoDB._
+
+---
+
+**Thursday, October 1, 2020 at 11:55 AM PDT**
+
+## Hadoop as a Cassandra SSTables producer
+
+### Serban Teodorescu, Adelina Vidovici
+
+We’re using a lambda architecture, with Hadoop used for the main database and Cassandra deployed as persistent cache at edges, in total about 7-800 Cassandra nodes. One issue is daily push of data from Hadoop to Cassandra, which is the main factor that impacts the clusters performance and costs. We used to produce JSON data in Hadoop, then convert it to SSTables at the edges and streaming them to Cassandra. I’ll show why this architecture is unable to take advantage of Cassandra 4 streaming improvements, why is that important for us, how to combine Hadoop with Cassandra vnodes in order to achieve optimal streaming, and show some (preliminary) performance figures. The later is work in progress, but I hope it will be finished by the time the conference is startin
+
+_Serban Teodorescu is an SRE at Adobe, part of a small team that manages 30+ Cassandra clusters for Adobe Audience Manager. Previously, he was a Python programmer, and is still trying to find out how a software developer who preferred SQL databases ended up as an SRE for a Cassandra team and then started to work in Java._
+
+_Adelina Vidovici is a Software Engineer in Adobe Romania with a background in Computer Science and a big passion for Chemistry. In the last 2.5 years, she was part of the Adobe Audience Manager team and had the chance to learn and work with Big Data. Trust me! We have cookies! :) Besides work, she enjoys reading, travelling, and going for a bike ride from time to time._
+
+---
+
+**Thursday, October 1, 2020 at 12:35 PM PDT**
+
+## Truth Hurts: How to Migrate your Data Model to Apache Cassandra
+
+### Amanda Moran
+
+I just took a DNA test, and it turns out my data model is 100% wrong. This session will focus on how to correctly data model for Apache Cassandra and NoSQL databases. Topics will include: - A brief comparison of relational databases and NoSQL databases - The benefits of Apache Cassandra - Transitioning a relational data model to a Cassandra data model - Common issues that can be solved with a good data model This session is intended for folks new to Cassandra/NoSQL or folks transitioning from operations to a more data engineering and cloud-focused role.
+
+_Amanda has been an committer and PMC member for Apache Trafodion since 2015. She was previously a Developer Advocate with DataStax where she spent many, many hours helping users get better with Apache Cassandra._

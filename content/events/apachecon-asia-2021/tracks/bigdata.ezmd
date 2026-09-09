@@ -1,0 +1,307 @@
+title: Big Data
+template: page-event-default
+ref: apachecon-asia-2021
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: false
+
+---
+
+**Tuesday, September 29, 2020 at 9:15 AM PDT**
+
+## Spark and Iceberg at Apple's Scale - Leveraging differential files for efficient upserts and deletes
+
+### Anton Okolnychyi, Vishwanath Lakkundi
+
+Apple leverages Apache Spark for processing large datasets to power key components of Apple’s production services. As users begin to use Apache Spark in a bigger range of data processing scenarios, it is essential to support efficient and transactional update/delete/merge operations even in read-mostly data lake environments. For example, such functionality is required to implement change data capture, support some forms of slowly changing dimensions in data warehousing, fix corrupted records without rewriting complete partitions. The original implementation of update/delete/merge operations in Apple's internal version of Apache Spark relied on snapshot isolation in Apache Iceberg and rewriting complete files if at least one record had to be changed. This approach performs well if we can limit the scope of updates/deletes to a small number of files using indexing. However, modifying a couple of records in a large number of files is still expensive as all unmodified records in touched files have to be copied over. Therefore, Apple collaborates with other members of the Apache Iceberg and Apache Spark communities on a way to leverage differential files, an efficient method for storing large and volatile databases, for update/delete/merge operations. This approach allows us to reduce write amplification, support online updates to data warehouses and sustain more concurrent operations on the same table. This talk will briefly describe common ways to implement updates in analytical databases, challenges between providing updates and optimizing data structures for reading, outline the proposed solution alongside its benefits and drawbacks.
+
+_Anton is a committer and PMC member of Apache Iceberg as well as an Apache Spark contributor at Apple. He has been dealing with internals of various Big Data systems for the last 5 years. At Apple, Anton is working on data lakes and an elastic, on-demand, secure, and fully managed Spark as a service. Prior to joining Apple, he optimized and extended a proprietary Spark distribution at SAP. Anton holds a Master’s degree in Computer Science from RWTH Aachen University. Vishwanath Lakkundi is the engineering lead for the team that focuses on Data Orchestration and Data Lake at Apple. This team is responsible for development of an elastic fully managed Apache Spark as a service, a Data Lake engine based on Apache Iceberg and a data pipelines product based on Apache Airflow. He has been working with Apple since the lastseven years focusing on various analytics infrastructure and platform products._
+
+---
+
+**Tuesday, September 29, 2020 at 9:55 AM PDT**
+
+## Presentation of DLab toolset
+
+### Mykola Bodnar, Vira Vitanska, Oleg Fuks
+
+We are going to introduce DLab: - Similar user experience across AWS, GCP, and Azure clouds - Automatically configurable exploratory environment integrated with enterprise security and templates - Project level collaboration environment across multiple clouds - Aggregated billing with cost comparison across cloud providers - Project level resource management
+
+_Mykola_
+
+_Mykola Bodnar has worked in EPAM since 2019, primary skill DevOps.BigData;_
+
+_Vira_
+
+_Vira has worked in EPAM since 2017 as a functional tester. Oleg Fuks Oleg Fuks has been working in EPAM since 2019, primary skill is Java._
+
+---
+
+**Tuesday, September 29, 2020 at 10:35 AM PDT**
+
+## Efficient Spark Scheduling on K8s with Apache YuniKorn
+
+### Weiwei Yang, Gao Li
+
+Apache Yunicorn (Incubating) is a new open-source project, which is a standalone resource scheduler of container orchestration platforms. Currently, it provides a fully functional resource scheduler alternative for K8s that manages and schedules Big Data workloads. We embrace Apache Spark for data engineering and machine learning, and by running Spark on K8s, we are able to exploit compute power promisingly under such highly elastic, scalable, and multi-paradigm architecture. We made a lot of effort on enhancing the core resource scheduling, in order to bring high performance, efficient-sharing, and multi-tenancy oriented capabilities to Spark jobs. In this talk, we will focus on revealing the architecture of the cloud-native infrastructure; How we leverage YuniKorn scheduler to redefine the resource scheduling on Cloud. We will introduce how YuniKorn manages quotas, resource sharing, and auto-scaling, and ultimately how to schedule large scale Spark jobs efficiently on Kubernetes in the cloud.
+
+_Weiwei_
+
+_Weiwei Yang is a Staff Software Engineer from Cloudera, an Apache Hadoop committer and PMC member. He is focused on technology around large scale, hybrid computation systems. Before Cloudera, he worked in Alibaba’s realtime computation infrastructure team that serves large scale big data workloads. Currently, Weiwei is leading the efforts for resource scheduling and management on K8s. Weiwei holds a master’s degree from_
+
+_Peking_
+
+_University._
+
+_Gao_
+
+_Li Gao is an engineering lead and infrastructure software engineer from Databricks, a leading open source and cloud vendor focusing on unified analytics cloud. Li’s focuses are mainly on large scale distributed infrastructure across public cloud vendors and bringing kubernetes to the AI and big data compute workloads. Prior to Databricks, Li has led major data infrastructure and data platform efforts in companies such as Lyft, Fitbit, Salesforce, etc._
+
+---
+
+**Tuesday, September 29, 2020 at 11:15 AM PDT**
+
+## Everything you want to know about running Apache Big Data projects on ARM datacenters
+
+### Zhenyu Zheng, Sheng Liu
+
+With more and more vendors starts to provide ARM based chips, PCs and datacenters, more and more people starts to think about the portability of Apache big data projects running on ARM based hardwares: Will it run? How will it perform? Are there any difference running on different platforms? In this session, we will introduce what we have done in the past years to make Apache Big Data projects be able to running on ARM platforms, including the problems we sloved, how did we add CIs to related projects to provide a long-term ARM support, and what are the remaining gaps in projects like Hadoop, Spark, Hive, HBase, Kudu etc., these general ideas can provide very useful information for users, devlopers and other projects that are intrested to verify thier portability on ARM platforms. We will also introduce some of our comparison results between running Big Data cluster on ARM datacenter and x86 datacenters, together with some improvement ideas which could make Big Data projects perform better on ARM datacenters.
+
+_Zhenyu_
+
+_Working in Open Source communities for over 5 years, currently focus on_
+
+_ARM portability for_
+
+_Open_
+
+_Source software._
+
+_Sheng_
+
+_Working on OpenSource for over 7 years, currently focus on arm portability for big data projects and performance tuning_
+
+---
+
+**Tuesday, September 29, 2020 at 11:55 AM PDT**
+
+## Heating Up Analytical Workloads with Apache Druid
+
+### Gian Merlino
+
+Apache Druid is a modern analytical database that implements a memory-mappable storage format, indexes, compression, late tuple materialization, and a vectorized query engine that can operate directly on compressed data. This talk goes into detail on how Druid's query processing layer works, and how each component contributes to achieving top performance for analytical queries. We'll also share war stories and lessons learned from optimizing Druid for different kinds of use cases.
+
+_Gian Merlino is CTO and a co-founder of Imply, a San Francisco based technology company, and a committer on Apache Druid. Previously, Gian led the data ingestion team at Metamarkets (now a part of Snapchat) and held senior engineering positions at Yahoo. He holds a BS in Computer Science from Caltech._
+
+---
+
+**Tuesday, September 29, 2020 at 12:35 PM PDT**
+
+## FOSS Never Forgets: An Introduction to Free and Open Source Solutions for Data Processing and Management with an Emphasis on Fault Tolerance
+
+### Katie McMillan
+
+This talk will provide an introduction to data processing and management in two of the most popular Free and Open Source Solutions: Hadoop and PostgreSQL. The talk will link these solutions to current challenges in big data, with an emphasis on the fault tolerancy of each solution. It will then show how the solutions can be used together, using Foreign Data Wrappers. By combining the functionality of PostgreSQL and Hadoop with Foreign Data Wrappers, one is able to apply ACID properties to processes (transactions) in Hadoop.
+
+_Katie McMillan leads strategic and creative projects that advance the public health, information technology, and social sectors. She currently works for a multi-site Canadian hospital, and is an advisor to local, national and international healthcare and public interest initiatives. Katie brings passion and talent for new now know-how and engaging a diverse range of stakeholders to co-create solutions to complex organizational, industry and systems challenges. She leverages a multi-disciplinary background in Health Systems, Geographic Information Systems, Public Policy, and Data Science, and works with communities to design, select, implement, and monitor solutions in order to improve outcomes with an emphasis on multi-intervention approaches, interoperability, mixed methods, and Ubuntu. She has worked for organizations including Health Canada, the Canadian Institute for Health Information, and the Royal College of Physicians and Surgeons of Canada. Additional information:_
+
+---
+
+**Wednesday, September 30, 2020 at 9:15 AM PDT**
+
+## Apache Spark Development Lifecycle at Workday
+
+### Eren Avsarogullari, Pavel Hardak
+
+Apache Spark is the backbone of Workday's Prism Analytics Platform, supporting various data processing use-cases such as Data Ingestion, Preparation(Cleaning, Transformation & Publishing) and Discovery. At Workday, we extend Spark OSS repo and build custom Spark releases covering our custom patches on the top of Spark OSS patches. Custom Spark release development introduces the challenges when supporting multiple Spark versions against to a single repo and dealing with large numbers of customers, each of which can execute their own long-running Spark Applications. When building the custom Spark releases and new Spark features, dedicated Benchmark pipeline is also important to catch performance regression by running the standard TPC-H & TPC-DS queries against to both Spark versions and monitoring Spark driver & executors' runtime behaviors before production. At deployment phase, we also follow progressive roll-out plan leveraged by Feature Toggles used to enable/disable the new Spark features at the runtime. As part of our development lifecycle, Feature Toggles help on various use cases such as selection of Spark compile-time and runtime versions, running test pipelines against to both Spark versions on the build pipeline and supporting progressive roll-out deployment when dealing with large numbers of customers and long-running Spark Applications. On the other hand, executed Spark queries' operation level runtime behaviors are important for debugging and troubleshooting. Incoming Spark release is going to introduce new SQL Rest API exposing executed queries' operation level runtime metrics and we transform them to queryable Hive tables in order to track operation level runtime behaviors per executed query. In the light of these, this session aims to cover Spark feature development lifecycle at Workday by covering custom Spark Upgrade model, Benchmark & Monitoring Pipeline and Spark Runtime Metrics Pipeline details through used patterns and technologies step by step.
+
+_Eren Avsarogullari Eren Avsarogullari holds both B.Sc & M.Sc. degrees in Electrical & Electronics Engineering. Currently, he works at Workday on Data Analytics as Data Engineer. His current focus are Apache Spark internals and Distributed System challenges. He is also open source contributor and member at Apache Software Foundation (Contributed_
+
+_Apache Spark, Pulsar, Heron). Pavel Hardak Pavel is Director of Product Management with Workday. He works on Prism Analytics product, focusing on backend technologies, powered by Hadoop and Apache Spark. Pavel is particularly excited about Big Data, cloud, and open source, not necessarily in this order. Before Workday, Pavel was with Basho, the company behind Riak, open-source NoSQL database with Mesos, Spark and Kafka integrations. Earlier, Pavel was with Boundary, which has developed real-time SaaS monitoring solution and was acquired by BMC Corp. Before that, Pavel worked in Product Management and Engineering roles, focusing on Big Data, Cloud, Networking and Analytics, and authored several patents._
+
+---
+
+**Wednesday, September 30, 2020 at 9:55 AM PDT**
+
+## Build a reliable, efficient and easy-to-use service for Apache Spark at Uber's scale
+
+### Nan Zhu, Wei Han
+
+As the global platform supporting 14+ million daily trips, Uber leverages huge amounts of data to power decisions like pricing, routing, etc. Spark is the backbone of large-scale batch computing at Uber. Nearly 250K+ Spark applications serve in scenarios like data ingestion, data cleaning/transformation, and machine learning model training/inference, etc. on a daily basis. Running Spark as a service at Uber’s scale faces many challenges. (a) reliability is the top priority for us while there are many factors that could cause outages and negative business impact. We build an end-to-end robust solution from job service to the Spark distro as well as the thoughtfully designed integrations with other components in data infrastructure. (b) centralized management of Spark applications is also crucial at Uber’s scale. In the past 2-3 years, the Spark ecosystem in Uber has been evolving from a partially managed situation to a service with full-fledged functionalities like monitoring, version management, etc. (c) Processing the massive volume of data in Uber raises challenges against the efficiency of Spark framework itself. We have developed optimizations for nested column pruning, parallel hive table committing implementation, etc. to significantly improve the Spark application performance. In this talk, we will walk through the aforementioned journey in Uber and share the experiences and lessons learned along the way. We hope that this talk can showcase how Apache software serves industry worldwide, help others who face similar challenges, and raise more discussions around the topic.
+
+_Nan_
+
+_Nan is Tech Lead of Spark team in Uber. He works on Spark service handling 100s of 1000s of Spark application every day in Uber, and the internal features which scales Spark to handle massive volume of data in Uber. He is also PMC member of XGBoost, one of the most popular machine learning library in both industry and academia._
+
+_Wei_
+
+_Wei Han is an Engineering Manager, leading a few teams in Uber’s data platform org, including Spark platform, Data security and Compliance, Privacy platform, and File Format(Apache Parquet)_
+
+---
+
+**Wednesday, September 30, 2020 at 10:35 AM PDT**
+
+## Project Optimum: Spark Performance at LinkedIn Scale
+
+### Yuval Degani
+
+A typical day for Spark at LinkedIn means running 35 million RAM-GB-hours, on top of 7 million CPU-core-hours of 20,000 unique applications. Maintaining predictable performance and SLAs, as-well-as optimizing performance across a complex infrastructure stack and a massive application base, all while keeping up with a 4x YoY workload growth is an immense challenge. Project Optimum addresses those needs by providing a set of performance analysis, reporting, profiling, and regression detection tools designed for a massive-scale production environment. It allows platform developers as-well-as application developers to detect even subtle regressions or improvements in application performance with a limited sample set, using a statistically-rigorous approach that can be automated and integrated into production monitoring systems. In this talk, we will cover how Project Optimum is used at LinkedIn to scale our Spark infrastructure while providing a reliable production environment. We will demonstrate its role as an ad-hoc performance debugging and profiling tool, an automatic regression detection tracking pipeline, and an elaborate reporting system geared towards providing users with insights about their jobs.
+
+_Yuval is a Staff Software Engineer at Linkedin, where he is focused on scaling and developing new features for Hadoop and Spark. Before that, Yuval was a Sr. Engineering Manager at Mellanox Technologies, leading a team working on introducing network acceleration technologies to Big Data and Machine Learning frameworks. Prior to his work in the Big Data and AI fields, Yuval was a developer, an architect, and later a team leader in the areas of low-level kernel development for cutting-edge high-performance network devices. Yuval holds a BSc in Computer Science from the Technion Institute of Technology, Israel._
+
+---
+
+**Wednesday, September 30, 2020 at 11:15 AM PDT**
+
+## Secure your Big Data Cloud cluster with SDX (Ranger, Atlas, Knox, HMS)
+
+### Deepak Sharma
+
+Security is very important aspect whether it is onprem or cloud infrastructure. we are here to discuss about how can we secure our DWX/Data science/Data mart cluster with SDX/Data lake. Data Lake security and governance is managed by a shared set of services referred to as a Data Lake cluster. A Data Lake cluster includes the following services: Hive MetaStore (HMS) -- table metadata Apache Ranger -- fine-grained authorization policies, auditing Apache Atlas -- metadata management and governance: lineage, analytics, attributes Apache Knox: Authenticating Proxy for Web UIs and HTTP APIs -- SSO IDBroker -- identity federation; cloud credentials this talk will explain how can we secure multiple workload using single/shared datalake and what are the configuration we need to take care, and how each of the apache open source component like Ranger, atlas, knox helps in this case.
+
+_Deepak Sharma, Apache Ranger Committer Senior Software Engineer, Cloudera._
+
+---
+
+**Wednesday, September 30, 2020 at 11:55 AM PDT**
+
+## Extracting Patient Narrative from Clinical Notes : Implementing Apache Ctakes at scale using Apache Spark
+
+### Debdipto Misra
+
+Patient notes not only document patient history and clinical conditions but are rich in contextual data and are usually more reliable sources of medical information compared to discrete values in the Electronic Health Record (EHR). For a medium-sized integrated Health System like Geisinger this amounts to approximately fifty thousand notes each day. For information extraction on retrospective data, the volume can run into millions of notes depending on the selection criteria. This talk describes the journey taken by the Data Science Team at Geisinger to implement a distributed pipeline which uses Apache Ctakes as the Natural Language Processing (NLP) Engine to annotate notes across the entire spectrum of patient care. From re-writing certain components in the Ctakes engine to architecting data store and pipeline optimization for a better throughput, this talk delves into various technical difficulties faced while aspiring to truly do NLP at scale on clinical notes. Towards the end, the talk also demonstrates few usecases and how using Ctakes has helped clinicians and stakeholders to extract patient narratives from patient notes using Apache Solr and Banana.
+
+_Debdipto Misra is a Data Scientist with Geisinger Health. Previously, he worked with AOL Inc. as a Platform Engineer in Audience Analytics and with EMC Corp. as a Systems Engineer. He has worked in the Data Mining and Analytics space for over half a decade. He won a fellowship and presented the “Evolution of Prosthetics using Pattern Recognition on Ultrasound Signals” at the 2014 IEEE Big Data Conference in Washington, DC. He has also published at multiple journals and presented at healthcare conferences like HIMSS. Currently,his main focus is on building capacity planning tools for healthcare organizations for bed-supply demand using various deep learning approaches and integrating it with patient notes._
+
+---
+
+**Wednesday, September 30, 2020 at 12:35 PM PDT**
+
+## Zeus: Uber’s Highly Scalable and Distributed Shuffle as a Service
+
+### Mayank Bansal, Bo Yang
+
+Zeus is an efficient, highly scalable and distributed shuffle as a service which is powering all Data processing (Spark and Hive) at Uber. Uber runs one of the largest Spark and Hive clusters on top of YARN in industry which leads to many issues such as hardware failures (Burn out Disks), reliability and scalability challenges. Zeus is built ground up to support hundreds of thousands of jobs and millions of containers which shuffles petabytes of shuffle data. Zeus has changed the paradigm of current external shuffle which resulted in far better performance for shuffle. Although the shuffle data is getting written Remote, the performance is better or the same for most of the Jobs. In this talk we’ll take a deep dive into the Zeus architecture and describe how it’s deployed at Uber. We will then describe how it’s integrated to run shuffle for Spark, and contrast it with Spark’s built-in sort-based shuffle mechanism. We will also talk about future roadmap and plans for Zeus.
+
+_Mayank_
+
+_Mayank_
+
+_Bansal is currently working as a_
+
+_Staff engineer at_
+
+_Uber in data infrastructure team._
+
+_He is co-author of_
+
+_Peloton._
+
+_He is_
+
+_Apache_
+
+_Hadoop_
+
+_Committer and_
+
+_Oozie_
+
+_PMC and_
+
+_Committer._
+
+_Previously he was working at ebay in hadoop platform team leading_
+
+_YARN and_
+
+_MapReduce effort._
+
+_Prior to that he was working at_
+
+_Yahoo and worked on_
+
+_Oozie._
+
+_Bo_
+
+_Bo is Sr. Software Engineer II in Uber and working on Spark team. In the past he worked on many streaming technologies._
+
+---
+
+**Thursday, October 1, 2020 at 9:55 AM PDT**
+
+## Flink SQL in 2020: Time to show off!
+
+### Timo Walther
+
+Four years ago, the Apache Flink community started adding SQL support to ease and unify the processing of static and streaming data. Today, Flink runs business critical batch and streaming SQL queries at Alibaba, Huawei, Lyft, Uber, Yelp, and many others. Although the community made significant progress in the past years, there are still many things on the roadmap and the development is still speeding up. In the past months, several significant improvements and extensions were added including support for DDL statements, refactorings of the type system and the catalog interface, as well as Apache Hive integration. Since it is difficult to follow all development efforts that happen around Flink SQL and its ecosystem, it is time for an update. This session will focus on a comprehensive demo of what is possible with Flink SQL in 2020. Based on a realistic use case scenario, we'll show how to define tables which are backed by various storage systems and how to solve common tasks with streaming SQL queries. We will demonstrate Flink's Hive integration and show how to define and use user-defined functions. We'll close the session with an outlook of upcoming features.
+
+_Timo Walther is a committer and PMC member of the Apache Flink project. He studied Computer Science at TU Berlin. Alongside his studies, he participated in the Database Systems and Information Management Group there and worked at IBM Germany. Timo joined the project before it became part of the Apache Software Foundation. Today he works as a senior software engineer at Ververica. In Flink, he is mainly working on the Table & SQL ecosystem._
+
+---
+
+**Thursday, October 1, 2020 at 10:35 AM PDT**
+
+## Stepping towards Bigdata on ARM
+
+### Vinayakumar B, Liu Sheng
+
+We find ARM processors in most devices around us always. ARM processors are mostly used today in small devices due to their power efficiency and reduced cost. But until few years back, ARM processors were found in only small devices. In recent years, since major OS providers are supporting ARM processors, ARM ecosystem is stepping into server class business as well. Now since major cloud providers started providing instances based on ARM, with far less price of-course, many businesses moving towards using ARM processors for the deployment. Major factors for considering the deployment environment for any business are Cost and Performance. ARM being cheaper (upto ~50%) than x86, reduces the overall cost of deployment and maintainance for horizontally scalable business deployments. So what about Bigdata workloads on ARM? Bigdata components are mostly scalable. They will benefit from this model as well, provided they support deployment on ARM. This talk, discusses about such initiative to support deployment and optimizations on ARM servers of Major bigdata components and reduce the total cost of deployment and management for the user. This includes contributions done in various apache projects like, Hadoop, Spark, Hive, HBase, Kudu, Impala, to support deployments on ARM nodes and optimizations for ARM processor. Finally, shows some benchmark results in ARM and x86 deployments.
+
+_Vinayakumar B, having vast experience with Hadoop for 10+ years. Focuses on improvements in and around Hadoop and Big-Data. Contributing to Hadoop community from 8+ years, and currently a_
+
+_Committer and member of_
+
+_Apache_
+
+_Hadoop_
+
+_PMC._
+
+_Liu_
+
+_LiuSheng, Focusing on promoting opensource projects in Big-Data components running on ARM platform. Contributed towards building ARM CI for Hadoop community and others. Currently working on ARM support for Kudu project_
+
+---
+
+**Thursday, October 1, 2020 at 11:15 AM PDT**
+
+## Managing Transaction on Ethereum with Apache Airflow
+
+### Michael Ghen
+
+Apache Airflow is a Python-based workflow management system that can be used to actively monitor and execute transactions on blockchain networks like Ethereum. This presentation is an introduction to Apache Airflow followed by a demonstration of a production deployment. Apache Airflow is an excellent tool for anyone already familiar with Python. Its ability to process jobs and handle errors makes it a good choice tool for managing activity on blockchain networks. The goal of this talk is to demonstrate how Apache Airflow can be used for environmental scanning and batch processing transactions. The demonstration will cover using Airflow and Python for monitoring and executing ERC20 token transactions on the Ethereum blockchain.
+
+_Michael Ghen is a computer engineer from Philadelphia that has contributed to Apache Airflow and Apache Unomi. He has a B.S. in computer engineering from Pennsylvania State University and an M.S. in analytics from Brandeis. Currently, he is a GAANN Cybersecurity Fellow at Drexel where he is pursuing a Ph.D. in electrical engineering. He previously served as a data architect and engineer at start-ups and non-profits where he used Apache Airflow to build data pipelines._
+
+---
+
+**Thursday, October 1, 2020 at 11:55 AM PDT**
+
+## After NoSQL discover CloudSQL databases
+
+### Romain Manni-Bucau, Enrico Olivelli
+
+Application without persistence are rare and since some years the persistence layer is changing a lot. After years where SQL databases where the only ones, we saw NoSQL popping up bringing new concepts. More recently, the cloud changed again our paradigms with distributed computing and microservices. However, even with these brand new solutions, we still lack the flexibility of the SQL in terms of evolutivity and tooling. This is where HerdDB is entering into the game. Built as a SQL database, its foundations are Apache BookKeeper (bookie for close friends) and Apache Calcite. Therefore it brings to our architecture new solutions. This talk will first go through the challenges which led to creating HerdDB, then how it is designed and why it merges the best of both NoSQL and SQL worlds and finally we will illustrate its usage by two applications using very different deployment modes (from plain old bare metal to Kubernetes) using Apache Meecrowave and Geronimo Microprofile Stack.
+
+_Romain_
+
+_Joined the Apache EE family (OpenWebBeans, Meecrowave, Johnzon, BatchEE...) in 2011._
+
+_My goal is to make development a detail of an idea becoming reality._
+
+_Enrico_
+
+_Software Developer Manager at https://MagNews.com and https://EmailSuccess.com. PMC in Apache BookKeeper,ZooKeeper,Curator, Committer in Maven. OpenSource/ASF Enthusiast Initial creator of other OpenSource projects:HerdDB,BlazingCache,BlobIt_
+
+---
+
+**Thursday, October 1, 2020 at 12:35 PM PDT**
+
+## Apache Big-Data meets Cloud-Native and Kubernetes
+
+### Márton Elek
+
+Apache big-data projects / the Hadoop ecosystem is widely adopted and very popular so the Kubernetes / Cloud-native tools. Surprisingly there are only a very minimal number of projects in the intersection of the two words. This presentation explains why could it be, shows the key problems to run Apache Big-Data projects (such as Hadoop, Kafka, Flink, Spark...) on Kubernetes and gives a demo of a possible solution.
+
+_Marton Elek is PMC in Apache Hadoop and Apache Ratis projects and working on the Apache Hadoop Ozone at Cloudera. Ozone is a new Hadoop sub-project which provides an S3 compatible Object Store for Hadoop on top of a new generalized binary storage layer. He is also working on the containerization of Hadoop and creating different solutions to run Apache Big Data projects in Kubernetes and other could native environments._

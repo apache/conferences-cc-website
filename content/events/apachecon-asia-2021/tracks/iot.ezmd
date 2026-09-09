@@ -1,0 +1,173 @@
+title: Apache IoT Track
+template: page-event-default
+ref: apachecon-asia-2021
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: false
+
+---
+
+**Tuesday, September 29, 2020 at 9:15 AM PDT**
+
+## IndustryFusion: The democratization of Industry 4.0
+
+### Konstantin Kernschmidt, Matt Mikulina, Marcel Wagner
+
+Small and mediumsized machine manufacturers (SMEs) currently are undergoing a tremendous transformation process. For decades high quality machines were the main development focus and precision on the scale of a human hair made the engineers' hearts beat faster. However, growing global competition, changed customer requirements and the wish to extend innovation leadership require that additional data-driven services are offered to the cutsomers in addition to selling the machines. Implementing an IIoT-solution for their machines confronts the companies with two major challenges: 1. SMEs do not have the ressources to „experiment“ with proprietary IIoT-solutions, pushing them into an undesirable vendor lock-in. 2. The solution has to be interoperable with the solutions from other manufacturers, as usually up to 100 different machines are present in a factory and the customers only want to have one transparent Smart Factory and not 100 different digital solutions. In order to achieve an IIoT-solution that fits these needs of SMEs, a growing group of innovative machine manufacturers teamed up with IT- and Open-Source experts to implement IndustryFusion, a cross-manufacturer interoperable open source solution for Industry 4.0. IndustryFusion is an Apache 2.0 licensed, fully deployable End-2-End IIoT-solution covering all required layers - i.e. perception, network, middleware, application - for implementing a digital ecosystem. The architecture intergrates several Apache projects(PLC4X, Kafka, Cassandra, Beam, Flink) and can either run entirley on premises, using StarlingX, or be deployed in any cloud environment.
+
+_Konstantin_
+
+_Konstantin Kernschmidt is passionate about the digital transformation of small and medium-sized enterprises. He has a broad experience in mechanical engineering, IT and smart factory solutions. Konstantin is head of Research & Development / Industry 4.0 at MicroStep Europa GmbH and the technical lead of IndustryFusion. Prior to his current position, he was general manager of a cross-disciplinary research center focusing on innovation processes and new business models in the context of Industry 4.0. He holds a PhD in automation and information systems as well as a diploma in mechanical engineering and management from the Technical University of Munich (TUM)._
+
+_Matt_
+
+_At MicroStep Europa - a manufacturer of high-end CNC cutting systems - he accompanied the digital transformation of key business processes. In his new role within the IndustryFusion Team, besides the brand communication, he passionately takes care of the user experience & application design, streamlining processes and building a scalable solution._
+
+_Marcel_
+
+_Marcel Wagner is Software Application Engineer in Intel's IoT Group. In this role, he works with cusomters on Open Source Edge-Cloud platforms and Cloud Native architectures, with focus on Industrial IoT. He contributed to open source projects like StarlingX, the OpenStack open source Edge-Cloud, and Open IoT Service Platform, an open source cloud platform which is based on Apache projects like Kafka, Beam, Flink, and Casssandra. Before joining Intel, Marcel was researching at Siemens Corporate Technology and Nokia Networks on video transmission protocols and distributes applications. Marcel holds a Dr. rer. nat from the University of Freiburg, Germany, and a master of science (Dipl. Inform.) from the Karlsruhe Institute of Technology._
+
+---
+
+**Tuesday, September 29, 2020 at 9:55 AM PDT**
+
+## Apache StreamPipes – Flexible Industrial IoT Management
+
+### Patrick Wiener
+
+Emerging data-driven use cases in the manufacturing business often require continuous integration and analysis of sensor data to identify time-critical situations. Apache StreamPipes is a new project in the Apache Incubator which aims at providing a self-service industrial IoT toolbox to enable non-technical users to connect, analyze and explore IoT data streams. It provides many connectors for industrial communication protocols and a library of reusable algorithms to analyze sensor measurements or camera images based on simple rules up to machine learning methods. A variety of data sinks allow for easy exchange with third party systems, including many Apache IoT and Big Data projects (including Apache PLC4X, Apache Kafka, Apache IoTDB). In this talk, we give an overview of Apache StreamPipes (incubating) and interactively show how to extend the IoT toolbox and create a custom data processor using the integrated Software Development Kit.
+
+_Patrick Wiener currently works at the FZI Research Center for Information Technology in Karlsruhe. His research interests include Distributed Computing (Cloud, Edge/Fog Computing), IoT, and Stream Processing. Patrick is an expert for infrastructure management such as containers and container orchestration frameworks. He has worked in several public-funded research projects related to Big Data Management and Stream Processing in domains such as manufacturing, logistics and geographical information systems._
+
+---
+
+**Tuesday, September 29, 2020 at 10:35 AM PDT**
+
+## Analyzing IIoT data with PLC4X and StreamPipes
+
+### Philipp Zehnder, Christofer Dutz
+
+The adoption of the Industrial Internet of Things (IIoT) in manufacturing companies is constantly increasing. Apache software and other open source efforts play a key role in creating value from such data, from connecting machines to processing streaming data and storing it in databases. There are several successful projects within the Apache Foundation that can be used as building blocks to create a tailor-made IIoT solution for your company. In this presentation, we will show how Apache StreamPipes (incubating) can be used as a solution that already provides a flexible infrastructure for IIoT data analytics. It is an “out of the box” solution, consisting of several microservices, which allow domain experts to easily analyze data streams. Therefore, it is closely integrated with several other Apache projects, e.g. PLC4X, Flink or IoTDB. We present how we have implemented this integration and show the advantages of the cooperation of different Apache projects. The aim of our demonstration is to detect faulty parts on the basis of sensor values. First, we show how to realize machine connectivity with Apache PLC4X. Then we pre-process data with StreamPipes pipelines and store it in a time-series database (Apache IoTDB). After that, we introduce how domain knowledge can be used to define a rule for classifying parts to detect quality deviations. In addition, for cases where a simple rule cannot be defined, we will use a machine learning model, trained on the previously collected data.
+
+_Philipp_
+
+_Philipp Zehnder is a research scientist at the FZI Research Center of Information Technology. His current research interests are in the areas of Distributed Stream Processing and Streaming Machine Learning. He is very interested in open source software, especially in the field of IIoT, and is involved in the Apache StreamPipes (incubation) project._
+
+_Christofer_
+
+_Full blooded Apache and Open-Source enthusiast. Invests all of his work and private time in multiple Apache Projects. Deeply interested in the IoT Area he is currently VP of the Apache PLC4X project and deeply involved in Apache Edgent (incubator) as well as mentor to the Apache IoTDB (incubating) podling._
+
+---
+
+**Tuesday, September 29, 2020 at 11:15 AM PDT**
+
+## Using the Mm FLaNK Stack for Edge AI (Apache MXNet, Apache Flink, Apache NiFi, Apache Kafka, Apache Kudu)
+
+### Timothy Spann
+
+Today, data is being generated from devices and containers living at the edge of networks, clouds and data centers. We need to run business logic, analytics and deep learning at the edge before we start our real-time streaming flows. Fortunately using the all Apache Mm FLaNK stack we can do this with ease! Streaming AI Powered Analytics From the Edge to the Data Center is now a simple use case. With MiNiFi we can ingest the data, do data checks, cleansing, run machine learning and deep learning models and route our data in real-time to Apache NiFi and/or Apache Kafka for further transformations and processing. Apache Flink will provide our advanced streaming capabilities fed real-time via Apache Kafka topics. Apache MXNet models will run both at the edge and in our data centers via Apache NiFi and MiNiFi. Our final data will be stored in Apache Kudu via Apache NiFi for final SQL analytics. We can now solve IoT problems with a scalable all Apache solution that incorporates real-time streaming, analytics and AI. Tools Apache Flink, Apache Kafka, Apache NiFi, MiNiFi, Apache MXNet, Apache Kudu, Apache Impala, Apache HDFS References https://www.datainmotion.dev/2019/08/rapid-iot-development-with-cloudera.html https://www.datainmotion.dev/2019/09/powering-edge-ai-for-sensor-reading.html https://www.datainmotion.dev/2019/05/dataworks-summit-dc-2019-report.html https://www.datainmotion.dev/2019/03/using-raspberry-pi-3b-with-apache-nifi.html
+
+_Tim Spann is a Field Engineer at Cloudera in the Data in Motion Team where he works with Apache NiFi, MiniFi, Kafka, Kafka Streams, Edge Flow Manager, MXNet, TensorFlow, Apache Spark, Big Data, IoT, Cloud, Machine Learning, and Deep Learning. Tim has over a decade of experience with the IoT, big data, distributed computing, streaming technologies, and Java programming. Previously, he was a senior solutions architect at AirisData and a senior field engineer at Pivotal. He blogs for DZone, where he is the Big Data Zone leader, and runs a popular meetup in Princeton on big data, IoT, deep learning, streaming, NiFi, blockchain, and Spark. Tim is a frequent speaker at conferences such as IoT Fusion, Strata, ApacheCon, Data Works Summit Berlin, DataWorks Summit Sydney, DataWorks Summit DC, DataWorks Summit Barcelona and Oracle Code NYC. He holds a BS and MS in computer science._
+
+---
+
+**Tuesday, September 29, 2020 at 12:35 PM PDT**
+
+## Use cases and optimizations of IoTDB
+
+### Jialin Qiao
+
+Apache IoTDB is a high performance database for time-series data management on the edge and cloud for Internet of Things. This talk will introduce some use cases of IoTDB, including Meteorological station data management, Subway data management and power plants monitoring applications. The read/write performance optimization and database tunning are also involved.
+
+_Ph.D student of school of software, Tsinghua University. Expert in IoTDB's storage engine, query engine and application implementation on IoTDB._
+
+---
+
+**Wednesday, September 30, 2020 at 9:15 AM PDT**
+
+## How to Become an IoT Developer (and Have Fun!)
+
+### Justin Mclean
+
+I started off my life as a developer writing machine code and C and working on some low-level hardware projects. Then this thing called the internet come along and I moved into the web application space for a couple of decades. More recently I've moved back into commercial IoT development and not unexpectedly a lot has changed over that time. In this talk, I'll cover what it's like developing IoT projects. I'll go over the tools you need and the protocols you need to be familiar with. I'll look at how the C language has evolved to what it is today and how to write code that works well on memory constrained devices. I'll go over producing prototypes, rapid development, debugging and testing embedded applications and what and how much electronics you should learn. In short, everything you need to know in becoming an IoT developer and have fun doing it.
+
+_Justin Mclean has more than 25 years’ experience in developing web-based applications and is heavily involved in open source hardware and software. He runs his own consulting company Class Software and has spoken at numerous conferences in Australia and overseas. In his free time, he's active in several Apache Software Foundation projects, including the Apache Incubator, and is a mentor for a number of their projects. He is also current the chair of the Apache Incubator and on the ASF board. He also teaches at an online college and runs the IoT meetup in Sydney._
+
+---
+
+**Wednesday, September 30, 2020 at 9:55 AM PDT**
+
+## Home automation with Apache
+
+### Christofer Dutz
+
+Even if Apache PLC4X was initiated in order to communicate with industrial hardware, in the last years it has grown to also allow communication with building and home-automation systems. In this talk I'd like to demonstrate how I use Apache PLC4X to communicate with the KNX, Modbus and Luxtronic2 drivers to talk to my house and how easy it is to store this data in Apache IoTDB (Incubating) to process it with Apache Camel, Apache NiFi, Apache Edgent (Incubating) (RIP) or others and to create a Frontend using Apache Royale (perhaps even with some nifty Apache ECharts (incubating) diagrams).
+
+_Full blooded Apache Member, who likes to think out of the box. If others say something's impossible, that's when Chris starts to become interested. He's involved in numerous Apache and even more non-Apache projects and currently serving as the VP of Apache PLC4X which he had the pleasure and the luck to write the first lines of code for (ok ... and a "few" after that)._
+
+---
+
+**Wednesday, September 30, 2020 at 10:35 AM PDT**
+
+## Apache PLC4X or: How I Learned to Stop Worrying and Love the Industrial IoT
+
+### Julian Feinauer
+
+The Apache PLC4X project left the incubator last year and is one of the younger projets of the ASF. It is a set of libraries for communicating with industrial programmable logic controllers (PLCs) using a variety of protocols but with a shared API. At pragmatic minds we had the first (known) productive deployments of PLC4X in industrial projects. As many may know, there still is a gap between the very IT affine Open Source world and the OT or shop floor world in the industry. So, at the beginning, these projects sometimes felt like Alices adventures when she fell down the rabbit hole. During these projects we entered a world that is completely different, sometimes strange but very exciting.
+
+_Julian Feinauer studied mathematics at the university of Stuttgart and received his PhD in mathematics at Ulm University. Besides his interest in open source and big data he had many contacts with timeseries data, storage and evaluation. In 2016 he founded the company pragmatic industries GmbH with focus on industrial iot and industry data processing._
+
+---
+
+**Wednesday, September 30, 2020 at 11:15 AM PDT**
+
+## Solving IoT and Edge connectivity with Apache projects
+
+### Dejan Bosanac, Hugo Guerrero
+
+IoT and Edge solutions are all about connecting distributed systems together. But different use cases need different kinds of communication technologies. Luckily, Apache Software Foundation hosts multiple projects in this domain that can solve even the most challenging problems. Bonus point? They work great together as well, providing a great foundation layer for all your needs. In this session we'll discuss common communication patterns and where they fit IoT and Edge solutions. We'll dig into the Apache projects that enable them, such as Kafka, Qpid dispatch router and ActiveMQ. We'll discuss the differences and show where different approaches make the most sense. Finally, we'll explore how these projects can work together and provide a foundation layer for a wider ecosystem targeting specifically IoT and Edge use cases. We'll give a brief architecture of Eclipse Hono, EnMasse, Strimzi and Skupper projects. All based on Apache technologies. We'll see their benefits and place in the wider cloud IoT and Edge ecosystems.
+
+_Dejan_
+
+_Dejan Bosanac is an engineer at Red Hat with broad expertise in messaging and integration technologies. He’s been an active member of open source communities for many years and a contributor to various projects._
+
+_His latest interests revolve around open source_
+
+_IoT cloud and_
+
+_Edge computing solutions._
+
+_Hugo_
+
+_Hugo Guerrero works at Red Hat as an APIs and messaging developer advocate. In this role, he helps the marketing team with technical overview and support to create, edit, and curate product content shared with the community through webinars, conferences, and other activities. With more than 15 years of experience as a developer, consultant, architect, and software development manager, he also works on open source software with major private and federal public sector clients in Latin America._
+
+---
+
+**Wednesday, September 30, 2020 at 11:55 AM PDT**
+
+## Utilizing Apache NiFi and MiNiFi for EdgeAI IoT at Scale
+
+### Timothy Spann, Sunile Manjee
+
+A hands-on deep dive on using Apache NiFi + Edge Flow Manager + MiniFi Agents with Apache MXNet, OpenVino, TensorFlow Lite, and other Deep Learning Libraries on the actual edge devices including Raspberry Pi with Movidius 2, Google Coral TPU, NVidia Jetson Xavier, and NVidia Jetson Nano. We run deep learning models on the edge devices and send images, capture real-time GPS and sensor data. With our low coding IoT applications providing easy edge routing, transformation, data acquisition and alerting before we decide what data to stream real-time to our data space. These edge applications classify images and sensor readings real-time at the edge and then send Deep Learning results to Apache NiFi for transformation, parsing, enrichment, querying, filtering and merging data to various Apache data stores including Apache Kudu and Apache HBase. https://www.datainmotion.dev/2019/08/updating-machine-learning-models-at.html
+
+_Tim Spann is a Principal Field Engineer at Cloudera in the Data in Motion Team where he works with Apache NiFi, MiniFi, Kafka, Kafka Streams, Edge Flow Manager, MXNet, TensorFlow, Apache Spark, Big Data, IoT, Cloud, Machine Learning, and Deep Learning. Tim has over a decade of experience with the IoT, big data, distributed computing, streaming technologies, and Java programming. Previously, he was a senior solutions architect at AirisData and a senior field engineer at Pivotal. He blogs for DZone, where he is the Big Data Zone leader, and runs a popular meetup in Princeton on big data, IoT, deep learning, streaming, NiFi, blockchain, and Spark. Tim is a frequent speaker at conferences such as IoT Fusion, Strata, ApacheCon, Data Works Summit Berlin, DataWorks Summit Sydney, DataWorks Summit DC,_
+
+_DataWorks_
+
+_Summit_
+
+_Barcelona and_
+
+_Oracle_
+
+_Code_
+
+_NYC._
+
+_He holds a_
+
+_BS and_
+
+_MS in computer science._
+
+_As a open source first champion in the Data of Anything space, I have lead and enabled unreasonably successful data strategies for several premier fortune 100s. I simplify technical solutions through ubiquitous language for complex business challenges. Evangelism of open source adoption with a maniacal business centric solutions approach earned me the Hortonworks 2016 Technical Leadership Award. With paramount passion, I am a business enabler who has built from soup to nuts habitually secure, dynamic, scalable, distributed, versatile, and remunerative enterprise grade analytic and transactional solutions._

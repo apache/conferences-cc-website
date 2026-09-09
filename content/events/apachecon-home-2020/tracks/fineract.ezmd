@@ -1,0 +1,335 @@
+title: Apache Fineract Track
+template: page-event-default
+ref: apachecon-home-2020
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: false
+
+---
+
+**Tuesday, September 29, 2020 at 9:15 AM PDT**
+
+## The present of Fineract - Panel discussion
+
+### Javier Borkenztain, Michael Vorburger, Ed Cable, James Dailey
+
+In this panel, we will discuss how the community is working, what are the current challenges and what are we seeing from our unique perspectives.
+
+_Javier_
+
+_Javier is a serial entrepreneur with more than twenty years of experience working with technology in several industries and more than a decade in the financial industry. He is co-Founder and CEO of Fiter. Javier was involved with the Apache Fineract and Mifos X communities since 2014, and he had several roles within The Mifos Initiative. He was the Founder and CEO of the first Latin American startup granted with a banking grade license from a Central Bank. Javier holds a title of Industrial and Mechanical Engineer from the Universidad de la República del Uruguay, MBA from the IEEM,_
+
+_Universidad de_
+
+_Montevideo._
+
+_Michael_
+
+_Father. EPFL alumni. Working on The Supercomputer for advertisement & more (at G); prev. at @RedHat. Also ScratchDay.ch,_
+
+_Fineract.dev_
+
+_Ed_
+
+_Pioneer in catalyzing community growth and financial inclusion innovation as the leader of the global open source Mifos community for the past decade. Perched at the compelling intersection of financial inclusion and open source technology,_
+
+_James_
+
+_James Dailey is the Board Chair and founder of Mifos, the open source community that created and then contributed the fineract code base. He works at the intersection of financial inclusion and energy inclusion in the global south. A serial entrepreneur, James has created several social ventures and open source projects, aimed at solving big hairy problems. He sits on the fineract PMC and helps with identifying gaps and strategies._
+
+---
+
+**Tuesday, September 29, 2020 at 9:55 AM PDT**
+
+## Leverage Fintech with Fineract
+
+### Javier Borkenztain
+
+Fintech is disrupting the financial industry, as Open Source disrupted the software industry. Now the two of them meet at Fineract. The Open Source platform for financial disruption. In this presentation, we will explore how Fineract can be utilized to implement Fintech applications from Nigeria to Mexico.
+
+_Javier is a serial entrepreneur with more than twenty years of experience working with technology in several industries, and more than a decade in the financial industry. He is co-Founder and CEO of Fiter. Javier was involved with the Apache Fineract and Mifos X communities since 2014, and he had several roles within The Mifos Initiative. He was the Founder and CEO of the first Latin American startup granted with a banking grade license from a Central Bank. Javier holds a title of Industrial and Mechanical Engineer from the Universidad de la República del Uruguay, MBA from the IEEM, Universidad de Montevideo._
+
+---
+
+**Tuesday, September 29, 2020 at 10:35 AM PDT**
+
+## Fineract: Reinvigorating Community
+
+### Michael Vorburger
+
+The Apache Fineract community has seen a marked uptake in new activity in PRs and on the dev mailing list. This talk will present some of the measures that we have taken which enabled this. It will use the Apache Fineract project as an example, but the shared lessons learnt will be generally applicable.
+
+_Michael is a long time open sourcerer who over the years has been involved in too many projects to enumerate. He started in FLOSS one fateful night many moons ago through a friendly interaction with a maintainer on an IRC channel of what was then the Mifos project. Ever since, he has been actively supporting the humanitarian open source platform for financial inclusion that is now known as Apache Fineract in a volunteer capacity. Currently employed by Google, previously at Red Hat, this talk is given in a purely personal capacity._
+
+---
+
+**Tuesday, September 29, 2020 at 11:15 AM PDT**
+
+## Open Source as a counterweight to PlatFins (facebook, Google, Tencent, Alibaba)
+
+### James Dailey
+
+The public square needs open source for payments, banking, identity and financial inclusion. Fortunately, a number of projects, some new, some old are there to provide a stack for payments and banking for everyone on the planet. We’ll survey some recent developments in Fineract, Mifos Payment Gateway, Mojaloop, and related technologies around auth, identity, and put it together with announcements around open G2P, open Banking, CBDC, and open ID. We'll get into tech enablers like biometrics on a secure device. We’ll put together a stack of technology built on Fineract, and demonstrate what might be possible. From remittances to self-sovereign identity, we’ll explore how these new trends intersect with specific technologies. Low cost, cloud, offline device enabled, the future is open.
+
+_James Dailey is the Board Chair and founder of Mifos, the open source community that created and then contributed the fineract code base. He works at the intersection of financial inclusion and energy inclusion in the global south. A serial entrepreneur, James has created several social ventures and open source projects, aimed at solving big hairy problems. He sits on the fineract PMC and helps with identifying gaps and strategies._
+
+---
+
+**Tuesday, September 29, 2020 at 11:55 AM PDT**
+
+## Open Banking: a Revolutionary Democratizing Force for Financial Services Innovation
+
+### Matt Millar, Ali Hussein Kassim, Victor Romero
+
+This panel consisting of technologists and practitioners from the Fineract ecosystem will look at how Open Banking is and will dramatically transform how financial services are delivered. The panel will explore how Open Banking has already impacted sectors like the UK and Europe, the revolutionary potential it will have for the underbanked in emerging markets, the ongoing status and roadmap of Open Banking APIs being implemented on top of Fineract, as well trends and emerging API standards that will continue to unlock new innovation democratizing financial services.
+
+_Matt_
+
+_Matt is a serial entrepreneur with experience in delivering mass consumer mobile solutions. At Updraft he is co-founder and CTO, Updraft helps get consumers out of debt, and achieve their financial goals. Prior to updraft Matt built the online booking platform for Slick, a startup founded by Brent Hoberman’s Founder’s Factory and founded and built Tellybug, which pioneered app voting for TV shows including X Factor, Britain’s Got Talent, The Voice on primetime broadcasters including BBC, ITV, and broadcasters across Germany, Denmark, Poland, Sweden, Singapore, Thailand, Australia and more. A pioneer in the mobile industry Matt was building consumer applications on mobile before App Stores existed, delivering applications embedded in mobile phones produced by Nokia, Samsung,_
+
+_Ericsson and more._
+
+_Ali_
+
+_Hussein_
+
+_Ali is the CEO of Kipochi, a Pan-African Fintech company that enables the financial ecosystem to utilize digital technologies towards enhancing efficiency, bring innovative financial solutions to the unbanked across the continent and create awareness towards the transformative nature of Financial Technologies. Ali is a Co-Founder and Partner at Demo Ventures. DEMO Ventures is an early stage, smart capital fund, currently raising its inaugural fund, focused on digital innovation and digital transformation in selected sectors in Africa. DEMO leverages its proprietary Pan African deal to catalyze investment into early stage, high growth potential startups in Africa. Ali is a Global Board Advisor at the Mifos Initiative. As a true visionary in the fintech world, he uses his expertise and critical insight into the sector to help shape the ongoing product and community development strategy and advance sustainability endeavors for the_
+
+_Mifos_
+
+_Initiative._
+
+_Victor_
+
+_Victor is a professional with more than 20 years of experience in the Information Technology sector, throughout which he has consolidated knowledge and forged technical and administrative skills focused on providing solutions, meeting national and international quality standards, focused mainly on the Financial sector. He has participated in Development, Operations, Management and Control areas, the experience in these areas gives him a broad vision to take strategic decisions that enhance the social and business objectives promoted by technology demanded by financial institutions, always acting with a high sense of professional ethical values. He co-founder of Fintecheando where we have been working with the Mifos Initiative using Fineract 1.x/CN for providing digital solutions for the Mexican financial institution which serve the population at an enterprise level._
+
+---
+
+**Tuesday, September 29, 2020 at 12:35 PM PDT**
+
+## Digital Field Applications: Exploring the Spectrum of Apps to Truly Reach the Last Mile.
+
+### Avik Ganguly
+
+From loan origination to loan collections, from e-commerce to remittances, from savings to billpay, there are a wide range of use cases and different types of field staff and agents that DFAs enable. The APIs in Fineract already power a broad variety of digital field applications but there are many more use cases we could enable. Avik Ganguly of Fynarfin will explore the spectrum of digital field applications, the requirements they entail and the roadmap we can advance in Fineract. He’ll illustrate the breadth of the Fineract APIs by presenting a case study on the agent banking solution his team has built on top of Fineract.
+
+_Avik Ganguly is the founder of Fynarfin, a fintech company building scalable enterprise solutions on top of Apache Fineract. Avik is a Fintech specialist and open source evangelist who picked up his trade while working with Mifos, Conflux and Novopay._
+
+---
+
+**Wednesday, September 30, 2020 at 9:15 AM PDT**
+
+## Fineract in 2030
+
+### Javier Borkenztain, Saransh Sharma, David Yahalomi, James Dailey, Gabriele Columbro
+
+In this panel, we will discuss the future of our community and product.
+
+_Javier_
+
+_Javier is a serial entrepreneur with more than twenty years of experience working with technology in several industries and more than a decade in the financial industry. He is co-Founder and CEO of Fiter. Javier was involved with the Apache Fineract and Mifos X communities since 2014, and he had several roles within The Mifos Initiative. He was the Founder and CEO of the first Latin American startup granted with a banking grade license from a Central Bank. Javier holds a title of Industrial and Mechanical Engineer from the Universidad de la República del Uruguay, MBA from the IEEM,_
+
+_Universidad de_
+
+_Montevideo._
+
+_Saransh_
+
+_Researcher at Muellners David Yahalomi David is the co-founder of Hypercore a new startup that provides non-banks a SaaS platform for credit issuing, and Articode, a software development company that specializes in financial and real-time GIS systems development and deployment. David has worked for the first digital bank in Israel - Pepper - as an R&D team leader and after seeing the legacy systems used by the current banks, has decided to join the Fineract community after falling for the idea of open-source core financial system. David and his team have developed Fineract as a service, a free service that provides easy provisioning of a Fineract tenant for developers and startups looking to build on or experiment with Fineract and Mifos X. James Dailey James Dailey is the Board Chair and founder of Mifos, the open source community that created and then contributed the fineract code base. He works at the intersection of financial inclusion and energy inclusion in the global south. A serial entrepreneur, James has created several social ventures and open source projects, aimed at solving big hairy problems. He sits on the fineract PMC and helps with identifying gaps and strategies. Gabriele Columbro Gabriele is an open source executive and technologist at heart. He spent over 15 years building developer ecosystems to deliver value through open source across Europe and the US. He thrives on driving innovation both contributing to open source communities and joining commercial open source ventures, whether it’s for an early stage tech startup, a Fortune 500 firm or a non profit foundation. Previously Director of Product Management at Alfresco, as Executive Director Gabriele grew the Fintech Open Source Foundation FINOS from the ground up, with the vision of creating a trusted arena for the global financial services industry to innovate faster, leveraging open source as a model of collaboration. Gabriele holds a Master in Computer Engineering, is a Committer for the Apache Software Foundation and advises open source startups. He’s a passionate soccer fan, reggae music connoisseur and special needs dad and advocate wannabe._
+
+---
+
+**Wednesday, September 30, 2020 at 10:35 AM PDT**
+
+## How to implement a digital bank with a social approach using open source
+
+### Raúl Sibaja, Karina Ortiz
+
+Latin America has become a world benchmark where social mobility is hampered by public policies, access to information and therefore to financial services. The use of Open Source, Fineract in this particular case, allows to be the base of the ecosystem that is changing the difficulties in opportunities for Public and Private Institutions that have a perspective of social and financial inclusion. In the proposal we expose the challenges we face in sharing knowledge to the Fineract and Open Source community.
+
+_Raúl_
+
+_Degree in_
+
+_Applied_
+
+_Mathematics and_
+
+_Computing._
+
+_Implementation of_
+
+_Core_
+
+_Banking in financial institutions._
+
+_Financial education workshops for banks and educational institutions._
+
+_Participation in hackathons to provide innovative solutions to financial inclusion through the use of artificial intelligence and personal assistants._
+
+_Karina_
+
+_Licenciada en Matemáticas Aplicadas y Computación. Desarrollo de aplicaciones móviles híbridas y páginas web. Experiencia en el sector fintech. Participación en diversos hackathons para brindar soluciones a la inclusión financiera._
+
+---
+
+**Wednesday, September 30, 2020 at 11:55 AM PDT**
+
+## Fintech, the most disruptive technology of the Century.
+
+### Maria Luisa Martinez
+
+The 4th Industrial Revolution, technology has made us jump light-years in terms of well-being, human capacity, knowledge, equality, and social inclusion. The change has been so big, so profound and so fast, that not everybody has been available to experience it, and not every industry could be adaptable and innovative enough to survive this change. The power of Technology used for good, and all the benefits it can provide, has not only changed our ways of living, but also our ways of thinking, bringing financial inclusion (a key pillar in social inclusion) to places never think of thanks to mobile and electronic money. Technology and innovation applied to Finance with Financial Inclusion as its mission and vision, took out of poverty millions of people; giving them access not only to financial services, but also to education, safety and equality. In addition, half of the world’s population is under 30: all background people born and raced in the eye of the storm. A generation that knows and wants to change the world, that claims for more rights, benefits and comfort. A generation becoming, if not already become, the economic machine to move our financial and banking system. A System with more than 200 years, reluctant to adapt this new Era, will have what it takes to provide ethical, innovative, equally, useful, and human centered financial services? Fintechs have already started and succeeding.
+
+_I’m a young, committed woman, always caring for others, and thinking of the next steps on how to solve financial inclusion problems. I am the Vice President of Market Entry at Kuelap, Inc. In where my team calls me ‘a force of nature’, since I am convinced that as part of my generation everybody should be a change agent, improving the state of the world, and doing the little things today that will have an incredible impact tomorrow. I am a problem-solution driven person. Always searching for a way to improve and find a solution to any given problem. I am highly committed to Social Inclusion, and work to fulfill that vision bringing Financial Inclusion to people all over the world. Before Kuelap, I worked at the Mifos Initiative; where I was the Account Manager. The Mifos Initiative is a non-profit open-source and free software project, with a presence in 37 countries, with more than 500 Finance Institutions using the software and reaching over 6 million final users. I have worked for and committed to projects that promote Social Inclusion as a volunteer for the past decade. As a former Law student, I was involved in projects that included the coordination of legal assistance of the largest free clinic of Uruguay; project deployed by the Student’s Centre of Law School at the Universidad de la República. Since 2013, I am a Global Shaper, an initiative of the World Economic Forum, which gathers young leaders to create a high impact on social projects. In 2014, I decided to bring my experience, knowledge, and enthusiasm on Social Inclusion to my professional life and started to work on Financial Inclusion, as a key pillar to overcome poverty around the world. In that regard, I co-founded $ERO, an Electronic Bank for the Base of the Pyramid in Uruguay, which was the first Latin-America startup in obtaining a Central Bank’s banking license._
+
+---
+
+**Wednesday, September 30, 2020 at 12:35 PM PDT**
+
+## Running Fineract.dev like a Cloud Native SRE
+
+### Michael Vorburger
+
+https://www.fineract.dev runs https://github.com/apache/fineract as a service. This talk will give a peek behind the curtain of how that has been set up, detailing e.g. http://blog2.vorburger.ch/2020/05/fineractdev-cicd-from-github-to-google.html etc. It will mention the details of that cloud's used services, but go easy on marketing the particular cloud (Google's) that Fineract.dev runs on. We will also lightly touch upon a few SRE principles from https://landing.google.com/sre/books, and mention some Cloud Native application architecture principles (hint: it's not all about microservices only).
+
+_Michael is a long time open sourcerer who over the years has been involved in too many projects to enumerate. He started in FLOSS one fateful night many moons ago through a friendly interaction with a maintainer on an IRC channel of what was then the Mifos project. Ever since, he has been actively supporting the humanitarian open source platform for financial inclusion that is now known as Apache Fineract in a volunteer capacity. Currently employed by Google, previously at Red Hat, this talk is given in a purely personal capacity._
+
+---
+
+**Thursday, October 1, 2020 at 9:15 AM PDT**
+
+## BitRupee: Passwordless Authentication using ZKP Bitcoin Protocol
+
+### Saransh Sharma, Atharva Dhekne, Advait Madhekar
+
+In this digital day and age, passwords are no longer adequate. Users worldwide are victims of multiple malfeasances like brute force attacks, injection attacks, phishing, unsafe credentials, data theft, among others. The flaws of using passwords - which have increasingly become predictable, leave users vulnerable to data and identity theft. Even the strongest passwords are easy to crack and prone to phishing nonetheless. Hence, given all these nuisances, there’s a need to eliminate character-based authentication protocols, which would ultimately benefit all developers as well as end-users. An implementation on Apache Fineract will also be presented.
+
+_Saransh Sharma Saransh carries out research in multiple fields like mathematics and Open Source. He is a Researcher at Muellners, as well as its non-profit arm Muellners Foundation. Saransh is a Core Committer of Apache Fineract and is an active supporter of Fintech. Atharva Dhekne Atharva is a Research Fellow & Technical Writer for Muellners Foundation, working on multiple projects in Fintech as well as other domains. Being an Open Source enthusiast, Atharva contributes to multiple OSS organizations - he is also a Technical Writer & Core Committer at WordPress.org. Atharva is completing his undergraduate Computer Engineering studies at the University of Pune (SPPU). Advait Madhekar Advait is a Research Fellow & Technical Writer for Muellners Foundation, working on multiple projects in Fintech as well as other domains. He is completing his undergraduate Mechanical Engineering studies at the University of Pune (SPPU)._
+
+---
+
+**Thursday, October 1, 2020 at 9:55 AM PDT**
+
+## AI for All: Democratizing Data Science for Financial Inclusion
+
+### Jeremy Engelbrecht, Lalit Mohan, Ed Cable
+
+In this session members of the community working group leading artificial intelligence and machine learning will outline the vision and roadmap for leveraging Apache Fineract to democratize data science for financial inclusion. They’ll share case studies highlighting how members of the community are currently pioneering tools for explainable decision making, enhance customer experience, and micro-analytics. The roadmap will lay out how to evolve the Apache Fineract platform to support credit scoring and origination tools, targeted segmentation and predictive product insights, KYC, AML, and accelerated onboarding, fraud detection, chatbots with natural and regional language support, customer churn prediction, and more.
+
+_Jeremy_
+
+_Jeremy has 20 years experience in the design of software systems from end to end (SDLC). He has worked for two banks in Southern Africa, First National Bank and Standard bank and also worked for a JSE listed insurance company, Clientele. He was the Solutions Architect for an award-winning European fintech company called Mybucks. He was selected to be the CTO to start the first digital bank in Saudi Arabia. He has co-founded LNDR which is a fintech company that has started the first digital bank in Swaziland and is the chosen fintech company of choice for a large bank in south africa. He is currently completing his MSc in advanced computer science at the University of Liverpool, majoring in Artificial Intelligence with a dissertation based on proving a hypothesis to use DBN(Deep Belief Networks) to do credit scoring using large unstructured datasets._
+
+_Lalit_
+
+_Lalit is pursuing his PhD in Computer Science & Engineering at IIIT Hyderabad in the area of Information Retrieval, Software Engineering, ML and NLP. Lalit has been a GSOC mentor at Mifos/Fineract for the last 2 years. Lalit has 23+ Years of IT experience at Infosys, Wells Fargo, IDRBT (India’s central bank - Reserve Bank of India - Technology research institute). He has published papers on Credit risk evaluation using ML Models, Digital Banking, FAQs on Cloud Computing for Banks, API Banking, Open source for Banks and other articles. He is also a member of Banking Industry Architecture Network (BIAN). Some of the key projects executed include a) Treasury Management for World Bank b) Establishment of Indian Banking Community Cloud c)_
+
+_Deployment of_
+
+_Payment_
+
+_Systems in a_
+
+_SaaS model to reduce the capital expenses for cooperative_
+
+_Banks._
+
+_Ed_
+
+_Ed has been a part of the Mifos project since 2007 in its early days at Grameen Foundation. He oversaw the open source community, connecting its members worldwide with the tools, support, and engagement needed to build and use Mifos. Leading the growth of this burgeoning community, he saw the dedication and persistence of its members and decided to found COSM (now the Mifos Initiative) to unite their efforts and help them collectively fulfill the vision Grameen Foundation set out to achieve. Prior to this, he graduated from the Wharton School at the University of Pennsylvania where he led marketing for the nation’s largest student-run credit union and discovered his passion for technology-driven international development in their budding social entrepreneurship program. When he’s not watching over the Mifos community, he’s tending to another community of sorts, his mini-farmhouse of animals – chickens, bunnies, dogs, goats, cats, birds, and fish._
+
+---
+
+**Thursday, October 1, 2020 at 10:35 AM PDT**
+
+## To Infinity and Beyond: Scaling Fineract for the Enterprise.
+
+### Avik Ganguly, Nayan Ambali, Ed Cable, Istvan Molnar, Victor Romero
+
+This panel discussion will showcase a number of institutions that have extended to Fineract to support different use cases at scale including lending, payments, wallets, and digital credit. They will discuss the platforms enhancements they made along with the DevOps strategies to help scale Fineract to reach millions. They will also explore the practical ways in which the community could achieve greater performance in the upstream Fineract codebase, the roadmap to achieve the same, and replicable tools the community can collaborate on to continually improve performance on both generations of Fineract.
+
+_Avik_
+
+_Avik Ganguly is the founder of Fynarfin, a fintech company building scalable enterprise solutions on top of Apache Fineract. Avik is a Fintech specialist and open source evangelist who picked up his trade while working with Mifos,_
+
+_Conflux and_
+
+_Novopay._
+
+_Nayan_
+
+_Nayan is the Co-Founder and CEO of Finflux, a leading Mifos partner, whose cloud distribution built on top of the Fineract APIs is reaching more than several dozen financial institutions serving more than 3M clients and a portfolio greater than $2.5B_
+
+_USD._
+
+_Ed_
+
+_Ed has been a part of the Mifos project since 2007 in its early days at Grameen Foundation. He oversaw the open source community, connecting its members worldwide with the tools, support, and engagement needed to build and use Mifos. Leading the growth of this burgeoning community, he saw the dedication and persistence of its members and decided to found COSM (now the Mifos Initiative) to unite their efforts and help them collectively fulfill the vision Grameen Foundation set out to achieve. Prior to this, he graduated from the Wharton School at the University of Pennsylvania where he led marketing for the nation’s largest student-run credit union and discovered his passion for technology-driven international development in their budding social entrepreneurship program. When he’s not watching over the Mifos community, he’s tending to another community of sorts, his mini-farmhouse of animals – chickens, bunnies, dogs, goats, cats, birds, and fish._
+
+_Istvan_
+
+_Istvan is Partner and Architect for DPC Consulting, an enterprise Java consultancy from Budapest, Hungary that has decades of experience implementing banking and real-time payment solutions at scale. Istvan has led the deployment of Mifos and Fineract at a bank in Germany as well as banks in SE Asia. Building off of the experience implementing real-time payment systems for Singapore and Hungary, Istvan has lead the design and architecture of Payment Hub EE, a powerful bridge and microservices workflow orchestration tool spearheaded by the Mifos Initiative, for integrating_
+
+_Fineract with real-time payment systems like_
+
+_Mojaloop._
+
+_Victor_
+
+_Victor is a professional with more than 20 years of experience in the Information Technology sector, throughout which he has consolidated knowledge and forged technical and administrative skills focused on providing solutions, meeting national and international quality standards, focused mainly on the Financial sector. He has participated in Development, Operations, Management and Control areas, the experience in these areas gives him a broad vision to take strategic decisions that enhance the social and business objectives promoted by technology demanded by financial institutions, always acting with a high sense of professional ethical values. He co-founder of Fintecheando where we have been working with the Mifos Initiative using Fineract 1.x/CN for providing digital solutions for the Mexican financial institution which serve the population at an enterprise level._
+
+---
+
+**Thursday, October 1, 2020 at 11:15 AM PDT**
+
+## OpenG2P: Open Source Building Blocks for Digitizing Large Scale Cash Transfers
+
+### Salton Massally, Keyzom Massally, Steve Conrad, James Dailey, Ed Cable
+
+The global COVID-19 pandemic has unleashed an unprecedented period of economic turmoil and instability that governments will have to overcome. Those in the informal economy are impacted the most and governments must be able to effectively mobilize large scale cash transfer programs to help them survive. Emerging from the government of Sierra Leone, based on their experiences digitizing payments to healthcare workers during the Ebola crisis, OpenG2P is a framework, community of practice, and set of open source building blocks to address the common pervasive challenges making it difficult to scale government to person payments. Fineract acts as the of the key building blocks managing wallets, accounts, and stores of value for individuals. This panel will explore the full open source stack for Open G2P and lessons learned in implementing large scale cash transfer programs.
+
+_Salton is a believer in the transformative impact of technology. He is experienced in building and scaling tech-based solutions to expanding access to much-needed information & services to the un(der)served, across Africa. Focused on Digital Financial Services (DFS) & Financial Technologies as a driver for Financial Inclusion, his competencies include Financial Inclusion Thought Leadership,_
+
+_Product_
+
+_Development and_
+
+_Delivery and_
+
+_Software_
+
+_At 23, he founded iDT Labs, https://idtlabs.xyz, known for its expertise in developing & applying practical and sustainable technology to key sectors such as finance, agriculture, justice, & health through effective leadership, team-building, project planning, and delivery, fundraising, and multilateral stakeholder management. During the height of West Africa's 2014 Ebola crisis, he led the technology component of the Ebola response, implementing an innovative program that combined technology, inclusive finance, public health, and responsive governance. We broke new grounds in the use of mobile wallets, cloud computing, and open source technology to deliver scale, efficiency and achieve transparency of payments in crisis, playing a critical role in preventing the collapse of the Ebola response and recovery efforts, and the health sector as a whole in Sierra Leone. In recognition, iDT Labs was awarded the 2016 UPS International Disaster Relief Award, and Salton, the 2017 Queen's Young Leader Award._
+
+---
+
+**Thursday, October 1, 2020 at 11:55 AM PDT**
+
+## Real-Time Payments: Enabling a Connected, Cashless, and Inclusive Society
+
+### Istvan Molnar, Godfrey Kutumela
+
+Across the globe, real-time payment systems are being rolled out providing a higher degree of convenience, transparency, and efficiency enabling secure, cashless, and more inclusive economies transforming commerce at all levels - consumers, business, and governments. The Apache Fineract architecture will need to continue to evolve and keep pace with how value is exchanged. The Mifos Initiative has been aligning its development on Apache Fineract and Mifos to equip governments and institutions to effectively participate in the real-time systems being built in accordance with emerging standards like the Gates Foundation’s Level One Principles and complementary open source systems like Mojaloop enabling real-time interoperable payments. This session will explore the emerging trends and standards around real-time payment systems including a closer look at the ecosystems in a couple of countries, an overview of these guiding principles illustrated by Mojaloop as a reference implementation and a showcase and roadmap of the Payment Hub EE - the open source bridge and microservices orchestration layer Mifos is building to seamlessly enable accounts and wallets managed on Fineract to initiate transactions over modern real-time payment rails via mobile channels and Open APIs.
+
+_Istvan is Partner and Architect for DPC Consulting, an enterprise Java consultancy from Budapest, Hungary that has decades of experience implementing banking and real-time payment solutions at scale. Istvan has led the deployment of Mifos and Fineract at a bank in Germany as well as banks in SE Asia. Building off of the experience implementing real-time payment systems for Singapore and Hungary, Istvan has lead the design and architecture of Payment Hub EE, a powerful bridge and microservices workflow orchestration tool spearheaded by the Mifos Initiative, for integrating Fineract with real-time payment systems like Mojaloop Godfrey has 20 years of Technology Consulting experience specializing in Fintech, Cybersecurity, DevSecOps\BizSecOps, Cloud Native and General Solution Architect. Extensive background working with large scale, high-profile systems integration and development projects that span a customer’s organization, and experience designing robust solutions that bring together multiple platforms. He is passionate about the use of technology and its applications in every aspect of humanity in order to advance the livelihood and economic conditions of the under developed world. My interests lie in helping businesses create and deliver value through innovative application of information and communication technologies with an outside-in approach, focusing on consumer and market needs_
+
+---
+
+**Thursday, October 1, 2020 at 12:35 PM PDT**
+
+## Fineract CN improvement proposal
+
+### Kevin Madhu, Saransh Sharma
+
+With most of the projects showing negligible or no activity at all for about an year, the fineract-cn project looks so close to being looked upon as an abandoned beast. And because the difficulties one has to go through to tame this beast, not many people get to enjoy the real beauty it really is. With our work, we hope to make a difference to this current state of the project and to attract more people into getting to know the project and make contributions by making it easier for them so that we can steer the project towards a more mature, stable, complete and releasable version.
+
+_Kevin_
+
+_Developer implementing_
+
+_Finscale version inspired from fineract_
+
+_CN_
+
+_Saransh_
+
+_Technical writers working for Muellners Foundation_

@@ -1,0 +1,125 @@
+title: API / Microservice
+template: page-event-default
+ref: apachecon-asia-2021
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: false
+
+## Track Chairs : Ming Wen
+
+**Tuesday, September 29, 2020 at 9:15 AM PDT**
+
+API is the base of service connectivity. Through API, we can build various services and provide them to users. With the increasing complexity of applications, monolith is gradually split into microservices, and products can be iterated quickly at the same time, it also brings technical challenges in terms of safety, maintenance and observability.
+
+There are many projects in ASF that are related to APIs and microservices, such as [[]Apache ServiceComb](https://servicecomb.apache.org/), [[]Apache APISIX](https://apisix.apache.org/) , [[]Apache Dubbo](https://dubbo.apache.org/) etc.
+
+In this topic, you can not only learn about cutting-edge technologies and prospects, but also learn the best practices of these Apache projects.
+
+## 2021-08-06
+
+**13:30 GMT+8** 
+### Speed limiting with Apache APISIX Chinese Session 陈军旭
+
+Nginx is often the first thing that comes to mind when it comes to limiting traffic and speed. However, Nginx is implemented through a configuration file, which requires a reload every time you make a change, making it extremely cumbersome to run and maintain. On the other hand, speed limiting conditions are restricted to Nginx variables, making it difficult for Nginx to achieve fine-grained speed limiting for business purposes.
+
+This session will show how to use Apache APISIX to achieve dynamic, fine-grained, distributed rate-limiting, and how to use plug-in orchestration to achieve rate-limiting that better meets your business needs.
+Speakers:
+
+Chen Junxu: Internet veteran, worked in Sina, Xunlei, 360 and other well-known Internet companies. In the last two years, he has been deeply involved in open source and loves it. Currently engaged in open source commercialization startup.
+
+**14:10 GMT+8** 
+### Apache Dubbo 3 - A more Cloud Native and high performance cross platform RPC framework Chinese Session Albumen Kevin (江河清)
+
+In recent years, Apache Dubbo has been widely used for microservice governance based on Java language. There are three keywords about Dubbo 3, cloud native, high performance, cross platform.
+
+In the future, we plan to make Dubbo 3 become more Cloud Natively and Dubbo can work with Cloud Native infrastructure like Kubernetes, Istio, etc in a more native way. For high performance, we will introduce a new kind service register model and conduct a series of performance stress tests to strengthen Dubbo. As for cross platform, next generation communication protocol, triple, based on HTTP/2 and grpc will make Dubbo communicate with other application more easier and more traffic management facilities friendly. Also, Dubbogo will simultaneous release with java implementation.
+
+Speakers:
+
+Albumen Kevin (江河清): Apache Dubbo Committer
+
+Interested in microservice and leading Kubernetes Native Service and xDS implementation for Dubbo.
+
+**14:50 GMT+8** 
+### Test Apache APISIX Resilience with Chaos Mesh English Session Shuyang Wu
+
+Apache APISIX is one of the leading API gateway OSS. To ensure everything works as intended, APISIX uses different kinds of tests including unit, e2e, and fuzzing tests. However, we are still uncertain about how APISIX would perform when some abnormal but inevitable situations happen, say network faults, IO stress, or pod failure.
+
+So here we use Chaos Mesh, a Kubernetes-based Chaos Engineering Platform to smoothly inject different kinds of chaos, and integrate them into our CI pipelines. At the end of this talk, the audiences would get to know in which aspects would Chaos Engineering benefit API gateway, and how to integrate Chaos Mesh into your own testing pipeline.
+Speakers:
+
+Shuyang Wu: Shuyang is Apache APISIX and Chaos Mesh committer, and currently work as Software Engineer Intern in API7. He led the integration of Chaos Mesh into Apache APISIX CI.
+
+**15:30 GMT+8** 
+### Using APISIX to do Authentication and Authorization Chinese Session Xinxin Zhu
+
+OVERVIEW: Authentication and authorization are very necessary functions in an API gateway. In this way, services that sit behind the gateway can be protected from unauthorized or malicious access, data breaches, and hacks. The Apache APISIX is a dynamic, real-time, high-performance API gateway. And it provides a number of plugins, includes authentication and authorization like key-auth, Open-ID, wolf-RBAC, and so on. This proposal introduces how to use APISIX to do the authentication and authorization.
+
+GOALS:
+
+- Introduce “what is API gateway Authentication”
+- Introduce “why are API authentication and authorization important”
+- How to use APISIX to do Authentication and Authorization
+
+Speakers:
+
+Xinxin Zhu: The committer of Apache APISIX.Have many years of working experience on CDN and be familiar with the API gateway.
+    
+**16:10 GMT+8** 
+### Relying on the community to get Apache APISIX up to speed Chinese Session Yuansheng Wang
+Over the past year, APISIX has become the most active API gateway project in the world, thanks not only to its technical advancement but also to the high level of community activity. To date, 225 contributors from all over the world have contributed, and the number is still growing. This session will introduce APISIX’s experience in putting “community over code” into practice. As an idealistic startup, how to combine with Apache culture to make even startups grow fast.
+Speakers:
+
+Yuansheng Wang: OpenSource Lover Apache APISIX Founder && PMC
+
+## 2021-08-07
+
+**13:30 GMT+8** 
+### How to extend Apache APISIX into a Service Mesh sidecar Chinese Session Chao Zhang
+In this theme, I will introduce the apisix-mesh-agent project, which has some capabilities to extend Apache APISIX into a sidecar program in the Service Mesh scenario, what’s more, it uses xDS protocol to fetch configurations from control planes like Istio, Kuma. After that, I will introduce the future plan and expectations about using Apache APISIX in Service Mesh.
+Speakers:
+
+Chao Zhang: Apache APISIX PMC, OpenResty Contributor, Open Source enthusiast, now I’m working on Service Mesh, Kubernetes, and API Gateway.
+
+**14:10 GMT+8** 
+### The evolution of APISIX Chinese Session Zexuan Luo
+APISIX is one of the most popular API gateway: https://github.com/apache/apisix
+
+I will take about the evolution of APISIX, including
+
+- the good decision we have made
+- the not-good decision we have made
+- our future plan
+
+Speakers:
+
+Zexuan Luo: Core developer of Apache APISIX & OpenResty
+
+**14:50 GMT+8** 
+### Implementation of Kubernetes Ingress based on Apache APISIX Chinese Session Wei Jin
+
+Introduce the advantages of Kubernetes Ingress based on Apache APISIX and the features of Apache APISIX Ingress.
+
+- What is ingress
+- Key features of Apache APISIX Ingress
+- What are our advantages
+- Examples
+- Direction to continue iterating
+- Welcome to contribute
+
+Speakers:
+
+Wei Jin: Apache APISIX PMC / Apache apisix-ingress-controller Founder / Apache Skywalking Committer.
+
+Lead the Apache apisix-ingress-controller project(https://github.com/apache/apisix-ingress-controller).
+
+Participate in contributing to projects such as Apache APISIX / Apache Skywalking.
+
+As a lecturer, he has given lectures many times, including Apache APISIX DevCon 2020, Opentalk (6th issue) online live broadcast.
+
+**15:30 GMT+8** 
+### APISIX Application and Practice in Mobile Cloud Object Storage EOS Chinese Session 陈焱山
+
+The topic of this presentation is about the application and practical experience of APISIX in China Mobile’s public cloud object storage EOS. Firstly, we introduced the construction plan of China Mobile’s public cloud and the evolution of its object storage products, then we explained why we chose APISIX as the load balancing gateway and gave a detailed introduction of the three phases of the evolution of the EOS traffic management architecture. We also shared what practical production problems we have solved based on APISIX, what solutions and development work we have done, and finally explained some of our future evolution plans.
+Speakers:
+
+Yanshan Chen: After graduation, he has been engaged in distributed storage software development and architecture design, and has been deeply involved in the construction process of China Mobile Cloud. At the same time, he has rich practical experience in the field of distributed object storage, and is currently thinking of implementing object storage traffic governance based on APISIX seven-tier gateway to achieve further architectural upgrade.

@@ -1,0 +1,55 @@
+title: Apache Highlight Track
+template: page-event-default
+ref: apachecon-home-2021
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: false
+
+---
+
+**Tuesday 14:10 UTC**
+
+## Apache Karaf 5 and Decanter for overall observability
+
+### JB Onofré
+
+Apache Karaf 5 is a new runtime supporting different kind of applications colocated.
+With Decanter, we have a global observability solution, global to any kind of applications.
+This presentation will quickly introduce Karaf 5 and Decanter, and show how to use Karaf 5 to run couple of different applications with the same observability layer.
+
+_JB is Apache member for more than 10 years. He's PMC member for ~ 20 Apache projects, and helping incubator projects. He's also PMC Chair for Apache Karaf._
+
+---
+
+**Tuesday 18:50 UTC**
+
+## Apache projects, let's embrace ARM!
+
+### Martin Grigorov, Yikun Jiang, Sheng Liu
+
+In the last several years, there is more and more wide application of ARM architecture resources, not only in embedded or mobile devices, but also in backend servers. In common software area, there are also more and more voices that require to support ARM platform. Apache is the largest open source community. It has incubated many excellent and widely used open source projects, we have found there are customers who want to run the Apache projects like Hadoop, Spark, Kudu on ARM server, so it is meaningful for Apache projects to embrace ARM. Lately, we have done some efforts about making Apache projects support ARM platform, one important step is promoting ARM CI support for these projects. In this session, we will talk about the current status about ARM support in Apache projects, that mainly includes how we have built ARM CI on different CI infrastructures (Jenkins, Travis, Github action) and what common issues we have met during this process. We will also discuss the following works with other people.
+
+_Martin Grigorov: Martin Grigorov is a PMC member of Apache Wicket, Apache Tomcat and Apache Isis projects. Martin has been working in IT industry since 2003 developing software for different industries. As an Open Source believer he has contributed to many projects and communities. He likes to spend his free time with his family, to travel and to care about his garden. Yikun Jiang: Yikun Jiang is senior software engineer from Huawei opensource development team, working on multi-arch support and improvement of projects in bigdata area. He has five years experience in cloud computing and bigdata optimization. Previously, he was the committer of OpenStack storage project. Sheng Liu: Liu sheng is a senior engineer from Huawei open source development team, he was mainly engaged in open source development and CI/CD related works in past 7 years, now he is focus on promoting ARM support and ARM CI for popular open source projects, has done some ARM support works especially in Big-data area projects, such as Hadoop, Storm, Kudu._
+
+---
+
+**Tuesday 19:40 UTC**
+
+## Getting Apache James to serve 1M+ digital mailboxes of all Estonian residents
+
+### Juhan Aasaru
+
+Every Estonian (e)resident has a digital mailbox that is a secure application for the state and local government bodies to contact the resident and vice versa. A year ago our company won the tender to improve this service and to replace the legacy systems with something scalable. This is the story of how we started to look out for best technical solutions for the problem and found Apache James. How we made a proposition to the government agency responsible for providing this mailing service to use Apache James (and Apache Cassandra that powers the system under the hood). How we jumped into the Apache James community to understand the product and find a way to solve the requirements that were missing from the feature set. How we get tremendous help from the community and how we managed to give something back as well. Eventually our story could be a lesson learned for someone who plans to undertake something similar together with tips on how to correctly build a system on top of open source and what to avoid.
+
+_Most of his working life Juhan has worked as a Java developer and Solutions Architect. He has also been CTO in two startup companies. A few years ago he was working on a Fintech startup and contributed to Apache Fineract but recently his attention has moved away from Fintech towards Apache James._
+
+---
+
+**Wednesday 14:10 UTC**
+
+## POI at 20
+
+### David North
+
+Apache POI is almost old enough to buy a beer in the USA, and still arguably the gold standard for working with the Microsoft Office file formats. This talk will take a look at the evolution of the project, how it compares to other options in other programming languages, and what the future might hold.
+
+_David North runs the development team at CoreFiling, a business and financial reporting SME with a UK-based development team. He's a sometime contributor to Apache POI and his team make use of it every day._

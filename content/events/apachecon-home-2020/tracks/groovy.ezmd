@@ -1,0 +1,193 @@
+title: Apache Groovy Track
+template: page-event-default
+ref: apachecon-home-2020
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: false
+
+---
+
+**Tuesday, September 29, 2020 at 9:15 AM PDT**
+
+## Groovy update: What's new in Groovy 3.0 and coming in 4.0
+
+### Paul King
+
+This talk looks at the latest features in Groovy from 3.0 and beyond. This includes the Parrot parser and a myriad of other new miscellaneous features. This will be the first ApacheCon talk going into details of the features planned for Groovy 4.0 including numerous large scale reworking effects and Groovy's response to features coming in JDK versions up to JDK 14. The talk outlines a broad roadmap of how the new features are planned to be rolled out and the system requirements for each version.
+
+_Paul King is a JavaOne Rockstar who has been contributing to open source projects for nearly 30 years. He is an active committer on numerous projects including Groovy, GPars and Gradle. Paul speaks at international conferences, publishes in software magazines and journals, and is a co-author of Manning’s best-seller: Groovy in Action, 2nd Edition. He is also VP Apache Groovy and Chair of the Apache Groovy PMC._
+
+---
+
+**Tuesday, September 29, 2020 at 9:55 AM PDT**
+
+## What's in Groovy for Functional Programming
+
+### Naresha K
+
+The directions in which popular programming languages are heading to is clear evidence of the need for multiple programming paradigms. One such programming paradigm that is gaining attention these days is functional programming. Groovy too has embraced functional programming and provides a wide variety of features for a developer to code in the functional style. In this live coding session, I demonstrate the functional programming features of Groovy. We start with the higher-order function support in Groovy and see the benefits they offer. From the example, we can observe that functional programming is indeed idiomatic in several parts of Groovy. We then step into implementing functional composition, currying, memoizing tail-call optimization, and recursion. We conclude the session by understanding how dependency injection works in functional programming. By the end of the session, developers understand how functional programming leads to concise and better maintainable code. Developers using Java learn additional support for functional programming in Groovy. About the speaker(s):
+
+_Naresha works as Developer, Technical Excellence Coach and Cloud Transformation Catalyst. He works with the developers to improve their professional practices to get better at developing maintainable applications that continuously deliver business value. He also helps teams to architect solutions for the cloud and migrate applications to cloud platforms. He has been developing enterprise software for more than 13 years. TDD, Refactoring, Programming languages, Cloud architecture and Continuous Delivery are his current areas of interest. He is passionate about learning new technologies/ programming paradigms and applying them to solve business problems. Naresha is the founder organiser of Bangalore Groovy User Group. Naresha has been a speaker at several conferences including GR8 Conf EU, Functional Conf, GR8 Conf India, GIDS, Java2Days Bulgaria, Eclipse Summit, Selenium Conf, AWS Community Day, and FOSSCON India._
+
+---
+
+**Tuesday, September 29, 2020 at 10:35 AM PDT**
+
+## Apache Groovy's Metaprogramming Options and You
+
+### Andres Almiray
+
+Apache Groovy provides several ways to modify and update programs and classes by means of metaprogramming. Some of this options are available at runtime, some others at compile time, and some are even reachable to other JVM languages. These options allow library and framework authors to design better integrations, prototype new language constructs without grammar changes, deliver powerful and and gratifying DSLs, and more. Come to this talk to discover these options and learn how you can put them to work on your projects.
+
+_Andres is a Java/Groovy developer and a Java Champion with more than 20 years of experience in software design and development. He has been involved in web and desktop application development since the early days of Java. Andres is a true believer in open source and has participated in popular projects like Groovy, Griffon, and DbUnit, as well as starting his own projects (Json-lib, EZMorph, GraphicsBuilder, JideBuilder). Founding member of the Griffon framework and Hackergarten community event._
+
+---
+
+**Tuesday, September 29, 2020 at 11:15 AM PDT**
+
+## Effective Java with Groovy - How Language Influences Adoption of Good Practices
+
+### Naresha K
+
+'Effective Java' presents the most effective ways of using language. However, the adoption of these practices among Java developers is less than satisfactory. In my observation, the effort required to implement them can be a barrier to the adoption of these practices. Since Groovy runs on JVM, most of the suggestions from Effective Java are equally relevant for Groovy developers. Groovy provides out of the box constructs for many of the recommended practices which can boost developer productivity. In this talk, I walk you through code examples that follow these good practices, highlighting the Groovy way of implementing the 'Effective Java' suggestions. As a participant, you walk away, appreciating the simplicity with which Groovy empowers the developers. The talk also provides food for thought - how a language can influence its users to adopt good practices. Java users learn the techniques a language can use to reduce the friction to adoption of good practices, instead of coming up with a prescription on how to implement good practices. Developers familiar with Groovy understand the reason behind the design of their favourite language features.
+
+_Naresha works as Developer, Technical Excellence Coach and Cloud Transformation Catalyst. He works with the developers to improve their professional practices to get better at developing maintainable applications that continuously deliver business value. He also helps teams to architect solutions for the cloud and migrate applications to cloud platforms. He has been developing enterprise software for more than 13 years. TDD, Refactoring, Programming languages, Cloud architecture and Continuous Delivery are his current areas of interest. He is passionate about learning new technologies/ programming paradigms and applying them to solve business problems. Naresha is the founder organiser of Bangalore Groovy User Group. Naresha has been a speaker at several conferences including GR8 Conf EU, Functional Conf, GR8 Conf India, GIDS, Java2Days Bulgaria, Eclipse Summit, Selenium Conf, AWS Community Day, and FOSSCON India._
+
+---
+
+**Tuesday, September 29, 2020 at 11:55 AM PDT**
+
+## What would a new Groovy web console look like?
+
+### Guillaume Laforge
+
+The venerable Groovy web console helps developers share snippets of groovy code. However, it doesn’t really look fresh. Furthermore, there are certain limitations that could potentially be lifted. What could a redesigned web console look like? Sometimes, you’d like to pin a specific version of Groovy: you might want to try the new Groovy 3 or are stuck with a 2.5.x version. Perhaps you are using @Grab to take advantage of some dependencies in your script, and you would like to test and run this snippet online. Is it possible? Let’s see what we can do for the long awaited v2 of the Groovy web console!
+
+_At Google, Guillaume Laforge is Developer Advocate for the Google Cloud Platform, where he spreads the word about the rich set of products and services offered for developers wishing to take advantage of the cloud for their projects and businesses. Before joining Google, at Restlet, Guillaume was taking care of the Product Leadership around the APISpark API management platform, the Restlet Studio for crafting Web APIs and the Restlet Framework for authoring restful applications. He is also leading the Developer Advocacy team, to interact with developers using those projects. He's also well known for his deep involvement with the Apache Groovy programming language and community over many years._
+
+---
+
+**Tuesday, September 29, 2020 at 12:35 PM PDT**
+
+## Favouring Composition - The Groovy Way
+
+### Naresha K
+
+Most developers I met agree that composition is better than inheritance. However, in most codebases, we see the use of inheritance where composition would have been a better design choice. Then why are the Java developers falling into this trap? It is easy to implement inheritance over composition, Isn’t it? But we end up paying for the consequences in terms of reduced maintainability. Can language offer anything for the developers to implement compositions? In this presentation, I walk you through what Groovy has to offer to make sure implementing composition is as easy as inheritance, if not simpler. I dive into three techniques for applying compositions in your Groovy applications. We start with the technique of delegation and see how easy it is to implement compositions. We uncover the limitations of this technique and introduce traits. After walking through plenty of code examples covering various aspects of using traits, we briefly touch upon functional composition, since Groovy also supports functional programming.
+
+_Naresha works as Developer, Technical Excellence Coach and Cloud Transformation Catalyst. He works with the developers to improve their professional practices to get better at developing maintainable applications that continuously deliver business value. He also helps teams to architect solutions for the cloud and migrate applications to cloud platforms. He has been developing enterprise software for more than 13 years. TDD, Refactoring, Programming languages, Cloud architecture and Continuous Delivery are his current areas of interest. He is passionate about learning new technologies/ programming paradigms and applying them to solve business problems. Naresha is the founder organiser of Bangalore Groovy User Group. Naresha has been a speaker at several conferences including GR8 Conf EU, Functional Conf, GR8 Conf India, GIDS, Java2Days Bulgaria, Eclipse Summit, Selenium Conf, AWS Community Day, and FOSSCON India._
+
+---
+
+**Wednesday, September 30, 2020 at 2:00 AM PDT**
+
+## Groovy Hackathon
+
+### Groovy Community
+
+Groovy Hackathon
+
+_..._
+
+---
+
+**Wednesday, September 30, 2020 at 9:15 AM PDT**
+
+## Grails 4: Leveling Up Your Game
+
+### Zachary Klein
+
+Grails 4 takes the powerful and flexibility of the Grails framework to a new level, with the latest versions of core frameworks like Spring 5.1, Spring Boot 2.1, Gradle 5, and Groovy 2.5. Additionally, Micronaut is now part of the Grails foundation, allowing many powerful features from Micronaut to be used natively within your Grails apps. In this talk, we’ll look at how you can upgrade your Grails 3 project (with a little aside for Grails 2 projects as well) to Grails 4, and get a taste of the new features at your disposal in this exciting new release.
+
+_Zachary Klein has been practicing web development since 2010 and front-end development since 2015. He's a contributor to both the Grails and Micronaut frameworks, as well as an instructor in Object Computing's training practice._
+
+---
+
+**Wednesday, September 30, 2020 at 9:55 AM PDT**
+
+## A Groovy Apache Fortress
+
+### Shawn McKinney
+
+Of late, some experimentation around a couple of API sets, specifically AccessMgr and AdminMgr in Apache Fortress, a Role-Based Access Control system. The goal: To simplify and enhance the API interactions with Apache Fortress specifically, and security authorization systems in general. Admittedly, the fortress managers have grown over the years, both in number of methods, and their complexity. That is, as new use cases or features pop up, say dynamic constraints placed on roles, new APIs must be invented to handle the new patterns. While this is a good thing, the system’s evolving/adaptable, it’s bad from the standpoint of the number of methods users must learn, and having to maintain new method entry points into the system. Let’s take the [[]AdminMgr](https://github.com/apache/directory-fortress-core/blob/master/src/main/java/org/apache/directory/fortress/core/AdminMgr.java) for example. It has over 50 public methods! Perhaps understandable when one considers all of the entities that are being processed. But also highly complicated and confusing for someone who is new to the space. What does groovy got to do with it? Enter Apache Groovy. As most of you know, a dynamic scripting language that sits on top of the Java virtual machine. It accelerates development through the elimination of boilerplate and bringing some convenience to longstanding irritations in the platform. Things like checked exceptions, brackets, even semi-colons are no longer required. Here it brought the means to rapidly iterate over some design patterns, in order to find easier to use call/response flows. The new GroovyAdmin manager has really just one method! Basically, the ‘doIt' passing an operation and entity names, along with a map, that contains the model (data). The map maps directly to the fortress model, using the same entity names and attributes. Similarly, the Access manager can be simplified. No longer do we need many methods to create the session (for example). Again, only one method, start, is needed. Again passing only a map containing the operands pertinent to the requires. One envisions how this API pattern works in a service-based setting. Instead of calling a groovy function, the client would invoke a service, passing a JSON map with the data. But it's expensive to code API gateways and so Groovy helps in the prototyping phase. It allows us to quickly get up to speed, giving more freedom to experiment with new ideas, possibly leading to more improvements and growth within the target systems themselves.
+
+_Code Monkey_
+
+---
+
+**Wednesday, September 30, 2020 at 10:35 AM PDT**
+
+## Micronaut + Groovy
+
+### Sergio del Amo
+
+In this talk, Micronaut committer, Sergio del Amo introduces the framework and demonstrates how you can take your web application development to the next level with Micronaut features and Groovy succinctness to create powerful applications in the most productive way. It showcases how to use Micronaut with Groovy related technologies such as GORM, Spock, Geb. After this talk you should have an understanding of what Micronaut development with Groovy looks like. No initial knowledge of Micronaut is required.
+
+_Sergio del Amo feels genuinely empowered by Grails and how succinct and powerful Groovy is. After 6 years contributing his expertise to Grails applications, Guides, plugins, and other related technologies, Sergio assisted the 2GM team in the development of Micronaut. Since April 2015, Sergio has been the author of Groovy Calamari, a weekly newsletter about the_
+
+_Groovy_
+
+_Grails, Geb, Gradle, and Ratpack._
+
+---
+
+**Wednesday, September 30, 2020 at 11:15 AM PDT**
+
+## Getting Groovy with Micronaut & JHipster
+
+### Zachary Klein
+
+JHipster is a rapid development platform that makes it easy to build modern JavaScript frontends backed by JVM microservices, including support for Micronaut. This allows you to produce microservice or monolith projects quickly, with plenty of customization options and a project structure that illustrates best practices when developing with Micronaut. As Micronaut is a JVM framework, it is compatible with Groovy, making it easy to use the Groovy language for tests (with Spock) and for general purpose application code, even within standard Java project. In this talk we'll see how you can add Groovy to your Micronaut project (using JHipster as a starting point, but applicable even in your own non-JHipster projects), and still take advantage of Micronaut's powerful Dependency Injection and configuration support.
+
+_Zachary Klein has been practicing web development since 2010 and front-end development since 2015. He's a contributor to both the Grails and Micronaut frameworks, as well as an instructor in Object Computing's training practice._
+
+---
+
+**Wednesday, September 30, 2020 at 11:55 AM PDT**
+
+## Taming your browser with Geb
+
+### Sergio del Amo
+
+Geb is a Groovy layer on top of Selenium Webdriver. Geb integrates the Page Object patter, with CSS selectors and several DSLs to empower you to write browser test in an elegant and succinct way. In this beginner talk, Sergio de Amo, will introduce you to Geb and show you how to test a real Web. If you ever used Selenium, Geb opens a world of possibilities.
+
+_Sergio del Amo feels genuinely empowered by Grails and how succinct and powerful Groovy is. After 6 years contributing his expertise to Grails applications, Guides, plugins, and other related technologies, Sergio assisted the 2GM team in the development of Micronaut. Since April 2015, Sergio has been the author of Groovy Calamari, a weekly newsletter about the_
+
+_Groovy_
+
+_Grails, Geb, Gradle, and Ratpack._
+
+---
+
+**Wednesday, September 30, 2020 at 12:35 PM PDT**
+
+## Interacting with Ethereum Blockchains using Groovy and web3j
+
+### Kevin Wittek
+
+Ethereum is currently one of the most exciting technologies in the Blockchain domain, providing us with a Turing-complete distributed “world-computer” and a “rich statefulness”. But how do you actually interact with such a system from within your applications and your code? Is it like using a database, a web service, the cloud? The answer is probably yes and no… In this talk, we want to have a look under the hood and see some real code examples of how to interact with Ethereum. We will use web3j, a Java implementation of the quasi-standard Javascript Etheuerem client library web3 and we will use it not only with Java but with Groovy to get the flexibility and ease of a scripting language onto the JVM. And we will get sciency and use Groovy to get some data science work done with data we extract from Ethereum, demonstrating that Python and R aren’t the answer for everything.
+
+_Testcontainers co-maintainer and Testcontainers-Spock author, passionate about FLOSS and Linux. Received the Oracle Groundbreaker Ambassador award for his contributions to the Open Source community. Software Craftsman and testing fan. Fell in love with TDD because of Spock. Believes in Extreme Programming as one of the best Agile methodologies. Likes to write MATLAB programs to support his wife in performing behavioural science experiments with pigeons. Plays the electric guitar and is a musician in his second life. After many years working in the industry as an engineer, Kevin is now doing his PhD at RWTH Aachen on the topic of verification of Smart Contracts and is leading the Blockchain Research Lab at the Institute for Internet Security in Gelsenkirchen at the Westphalian University of Applied Sciences._
+
+---
+
+**Thursday, October 1, 2020 at 2:00 AM PDT**
+
+## Groovy and Data Science Workshop
+
+### Paul King
+
+Groovy is a powerful multi-paradigm programming language for the JVM that offers a wealth of features that make it ideal for many data science and big data scenarios.
+
+- Groovy has a dynamic nature like Python, which means that it is very powerful, easy to learn, and productive. The language gets out of the way and lets data scientists write their algorithms naturally.
+- Groovy has a static nature like Java and Kotlin, which makes it fast when needed. Its close alignment with Java means that you can often just cut-and-paste the Java examples from various big data solutions and they'll work just fine in Groovy.
+- Groovy has first-class functional support, meaning that it offers features and allows solutions similar to Scala. Functional and stream processing with immutable data structures can offer many advantages when working in parallel processing or clustered environments.
+
+This workshop reviews the benefits of using Groovy to develop data science solutions, including integration with various JDK libraries commonly used in data science solutions including libraries for data manipulation, machine learning, plotting and various big data solutions for scaling up these algorithms. Math/Data Science libraries covered include: Weka, Smile, Tablesaw, Apache Commons Math, Jupyter/Beakerx notebooks, Deep Learning4J. Libraries for scaling/concurrency include: Apache Spark, Apache Ignite, Apache MXNet, GPars, Apache Beam.
+Slides for this workshop are here: https://speakerdeck.com/paulk/groovy-data-science
+Github repo for this workshop is here: https://github.com/paulk-asert/groovy-data-science
+Setup involves either:
+
+- 1. Just follow along online from the repo page which has links to beakerx notebooks, or
+- 2. Clone the repo and have a recent Java (JDK11 is recommended) and your favourite IDE (optional) installed
+
+_Paul King is a JavaOne Rockstar who has been contributing to open source projects for nearly 30 years. He is an active committer on numerous projects including Groovy, GPars and Gradle. Paul speaks at international conferences, publishes in software magazines and journals, and is a co-author of Manning’s best-seller: Groovy in Action, 2nd Edition. He is also VP Apache Groovy and Chair of the Apache Groovy PMC._

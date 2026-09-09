@@ -1,0 +1,82 @@
+title: Apache Content Delivery Track
+template: page-event-default
+ref: apachecon-home-2020
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: false
+
+
+---
+
+**Tuesday, September 29, 2020 at 9:15 AM PDT**
+
+## Making New Friends - Traffic Control and Varnish
+
+### Eric Friedrich
+
+Traffic Control is a full featured CDN Control Plane built around Traffic Server caches. This session describes integration of ATC’s Traffic Router and Traffic Manager with Varnish Cache. Varnish Cache uses a specialized configuration language (VCL) which is generated alongside Traffic Control configuration files.
+
+Eric is currently a Content Distribution Architect with Disney Streaming Services. He is also a PMC member and committer of Apache Traffic Control.
+
+---
+
+**Tuesday, September 29, 2020 at 9:55 AM PDT**
+
+## Flexible Topologies: Scaling your CDN to N tiers
+
+### Zach Hoffman, Robert O Butts, Jeremy Mitchell
+
+Until recently, any CDN built using Apache Traffic Control would be limited to at most 2 tiers—an Edge Tier and a Mid Tier—which limits the CDN's ability to scale as needed. A recent project allows a CDN to be broken into Topologies, each of which can span any number of tiers. This talk explores the changes to the project this initiative has involved, the capabilities of Flexible Topologies, and the steps involved to adapt an existing CDN to use Flexible Topologies.
+
+Zach Hoffman lives in Denver, Colorado and is a software engineer at Comcast. They spend their spare time contributing to online puzzle game communities and playing the piano. When working on Apache Traffic Control, they focus on its Go and Java components.
+
+Robert O Butts is a software engineer who works on Apache Traffic Control for the Comcast CDN. Rob is a Principal Engineer at Comcast with a Masters in Computer Science focusing on Parallel Processing. Rob has worked on nearly every component of the Apache Traffic Control CDN. He is the primary author of Traffic Monitor, was the initial primary author of the Golang Traffic Ops, and wrote the Grove HTTP Caching Proxy. He is currently working on extending Apache Traffic Server for Traffic Control's needs.
+
+Jeremy has been an Apache Traffic Control contributor for over 5 years with a primary focus on the Traffic Portal (UI) and Traffic Ops API components. During that time, he has witnessed exponential growth of the Comcast CDN enabled by the power, flexibility and reliability of ATC.
+
+---
+
+**Tuesday, September 29, 2020 at 10:35 AM PDT**
+
+## Preview: Parent Selection Strategy Plugins, How They Work, and What They Mean for Apache Traffic Control
+
+### Robert O Butts
+
+Parent Selection Strategies are an upcoming feature of Apache Traffic Server. We will discuss how they work, and why they're valuable to Apache Traffic Control. We will also preview Parent Selection Strategy Plugins, a feature currently being developed, what they may look like, how a plugin may be written by ATS users and ATC administrators, and the additional benefits Strategy Plugins offer to Apache Traffic Control deployments.
+
+Robert O Butts is a software engineer who works on Apache Traffic Control for the Comcast CDN. Rob is a Principal Engineer at Comcast with a Masters in Computer Science focusing on Parallel Processing. Rob has worked on nearly every component of the Apache Traffic Control CDN. He is the primary author of Traffic Monitor, was the initial primary author of the Golang Traffic Ops, and wrote the Grove HTTP Caching Proxy. He is currently working on extending Apache Traffic Server for Traffic Control's needs.
+
+---
+
+**Tuesday, September 29, 2020 at 11:15 AM PDT**
+
+## Traffic Ops API Design
+
+### ocket8888
+
+For the past few months, the Traffic Ops working group has been iterating on a design document for the Traffic Ops API. Some pieces of it have already been incorporated into the existing API, others are still a work in progress. This talk will be an overview of the design in progress, motivations and considerations, and lessons learned.
+
+ocket8888 is a software engineer on the CDN team at Comcast. ocket8888 is an Apache Traffic Control committer and one of the leads of the Traffic Ops Working group.
+
+---
+
+**Tuesday, September 29, 2020 at 11:55 AM PDT**
+
+## Uplink redundancy for Apache Traffic Control CDN Caches
+
+### Sergey Dremin
+
+Apache Traffic Control CDN Caches at Comcast have been configured with a simple LAG with LACP connection to a single uplink router with a single IP. That created maintance costs for the CDN caused by router maintanence, and impacted overall reliability during router outages. To solve these problems an update to ATC now enables configuring connections to multiple uplink routers. Virtual IPs can now be assigned to the cache and advertised to the rest of the network via BGP peering allowing further flexibility with content routing.
+
+Sergey is a Sr Engineer on the CDN team at Comcast.
+
+---
+
+**Tuesday, September 29, 2020 at 12:35 PM PDT**
+
+## Extending Automation towards Self-Service CDNs
+
+### Jonathan Gray
+
+Apache Traffic Control is a set of applications designed to complement Apache Traffic Server to comprise a Content Delivery Network. Currently the creation of production-like CDN environments is a complex process. I will be demonstrating how I’ve been able to augment existing OSS Ansible automation to produce disposable test CDN environments.
+
+_Jonathan Gray has been with Comcast on the Content Delivery Network team for approaching 3 years focusing on Operations and Automation. Prior to that he's served as a software developer, integrator, and devops lead for Milsoft Utility Solutions for 7 years. He holds a Bachelor of Science Degree in Computer Science from Abilene Christian University where he also served as an IT Systems Administrator, Datacenter Administrator, and Virtualization Administrator for over 3 years._

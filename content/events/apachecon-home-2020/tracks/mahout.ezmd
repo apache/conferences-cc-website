@@ -1,0 +1,84 @@
+title: Apache Mahout Track
+template: page-event-default
+ref: apachecon-home-2020
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: false
+
+---
+
+**Thursday, October 1, 2020 at 9:15 AM PDT**
+
+## A Data Scientist First-Time Mahout Experience: Tips and Takeaways (Talk in Spanish)
+
+### Jose Francisco Hernandez Santa Cruz
+
+El constante incremento en la disponibilidad de la data y su crecimiento exponencial crean una oportunidad perfecta para descubrir los detalles más reveladores y predicciones más precisas que los datos pueden entregar. Desafortunadamente, esto viene, a veces, a expensas de una alta compejidad computacional: la cada vez más grande ingesta de datos requiere un mayor poder de cómputo, creando limitaciones en un proyecto. Una solución planteada es el empleo de computación distribuida: sistema distribuido de computadores ejecutando tareas en paralelo. Un framework que rápidamente se volvió popular en este ámbito es Apache-Spark. Sin embargo, a medida que el aprendizaje automático se volvió, no solo más popular, pero más demandante de poder de cómputo, Apache Mahout nos trajo un framework enfocado a estadistica y aprendizaje automático. Como científico de datos, y primera vez como usuario de Apache Mahout, mis experiencias proveen de detalles y contenido desde un punto de vista de nuevo usuario, que por primera vez experimenta con Apache Mahout, proveyendo lecciones aprendidas especialmente para usuarios de Python con poca o ninguna experiencia en Scala o aprendizaje distribuido.
+(English Translation, Talk will be in Spanish) The constant increase of data availability and exponential growth makes an excellent opportunity to uncover the most revealing insights and most accurate predictions data can give us. Unfortunately this comes, sometimes, at the expense of highly complex computation. One framework which quickly became popular is Apache-Spark: distributed computing for big data processing. However, as machine learning became, not only more popular, but more demanding of distributive computation, Apache Mahout brought us a nice framework with statisticians and machine learning practitioners in mind. As a data scientist for IBM and first time user of Apache Mahout, my experiences provide an insight from a first-time user point-of-view, providing takeaways and lessons learned, specially for Python and R users with no or little experience in Scala or distributed learning.
+
+_Graduated as Industrial Engineer in the city of Lima, Peru, I started pursuing the data scientist career at the age of 24, focused in Machine Learning algorithms and Artificial Neural Networks research. Certified by IBM and Open Group as level 1 data scientist, I'm currently finishing MIT's Micromaster in Statistics and Data Science and preparing my application for a master's program in Machine Learning. With two research papers under review for publication, and leading for one year a Machine Learning mentoring program at IBM, I'm starting my giveback period, trying to contribute to open source technology as well as the scientific community with articles published as independent researcher._
+
+---
+
+**Thursday, October 1, 2020 at 9:55 AM PDT**
+
+## Modern Recommenders with Mahout
+
+### Patrick (Pat) Ferrel
+
+Mahout in years past was known for being the place to go for premium OSS recommenders. Time passed and recommender technology moved on. With Mahout 0.13+ Mahout is once contains a state-of-the-art modern recommender targeting broad use. This talk covers the the 3rd generation Correlated Cross Occurrence Algorithm as it is implemented in Spark-based Mahout. CCO will be explained via the mathematics and theory behind it as well as optimizations made in Mahout to produce a production worthy implementation. We call CCO a 3rd generation algorithm since it comes after Cooccurrence and Matrix Factorization and is fully multimodal, making it possible to use many indicators of user behavior as well as contextual and content or metadata based indicators. While Mahout implements the core of the algorithm we will discuss how Mahout can be integrated into a full end-to-end data ingestion and serving architecture. We will also review some comparative performance data.
+
+_Pat has worked in startups building apps based on Machine Learning since 2000. He has worked in NLP/NER, text mining, and recommenders. He became a committer to Apache Mahout in 2012, and Apache PredictionIO in 2017. He is currently the Chief Consultant at the OSS and ML consultancy ActionML where he has led nesarly 100 deployments of their Harness ML Server which makes use of Apache Mahout and Apache Spark._
+
+---
+
+**Thursday, October 1, 2020 at 10:35 AM PDT**
+
+## Mahout and Kubeflow Together At Last
+
+### Trevor Grant
+
+Kubeflow is an exciting and fashionable new platform for Data Science. In this talk we will discuss how to use Apache Mahout (and Apache Spark) on it.
+
+_Someday he will be the Chief Mugwug. Not today, but someday._
+
+---
+
+**Thursday, October 1, 2020 at 11:15 AM PDT**
+
+## Apache Mahout on Zeppelin
+
+### Andrew Musselman
+
+This talk will demonstrate adding a Mahout interpreter to the Zeppelin notebook system. Zeppelin is an extensible notebook project which allows users to add interpreters which will understand and run a wide variety of code, ranging from Python, to Spark-flavored Scala, to SQL dialects, to other domain-specific languages (DSLs). In our case we will add an interpreter which understands the Mahout DSL called Samsara, which focuses on matrix math at scale. The activities in this tutorial will span: (1) Getting the latest software releases (2) Setting environment variables (3) Creating and configuring the Samsara interpreter (4) Starting a notebook and importing a data set (5) Doing some data manipulation and calculation (6) Producing some plots and charts (7) Showing some ways to publish dashboards and individual cells The audience should be prepared with an operating system which has a recent version of Java (>= jdk 1.8), and an installation script will be provided for people who would like to set a computer up in advance to follow along. This talk is for anyone with an interest in data science and analytics. Blog post with similar previous work/style: https://mahout.apache.org/docs/latest/tutorials/misc/mahout-in-zeppelin
+
+_Andrew Musselman runs business and data operations in North America for 24i, chairs the Apache Mahout Project, and hosts the Adversarial Learning podcast. He loves distributed matrix math and lives in Seattle with his wife and kids._
+
+---
+
+**Thursday, October 1, 2020 at 11:55 AM PDT**
+
+## The Long and Winding Road to Becoming A Mahout Committer
+
+### Trevor Grant, Andrew Musselman, Pat Ferrel
+
+Jk! We want you to be a committer. In this panel discussion various PMC members from (past and?) present will discuss how someone who knows very little or maybe nothing about Apache can go about getting involved with our community, what parts of the project we need help on, how we operate and more. If we can get some PMC members from Mahout of Yesteryear we will listen their stories of the Mahout of the Past. If we're really hurting for time, AKM will freeform about the joys of being a HAM Radio operator.
+
+_Trevor_
+
+_Trevor is a former data scientist who has given it all up to pursue the app game, however will have probably given that up to pursue some other game by the time the conference rolls around._
+
+_Andrew_
+
+_Andrew Musselman runs business and data operations in North America for 24i, chairs the Apache Mahout Project, and hosts the Adversarial Learning podcast. He loves distributed matrix math and lives in Seattle with his wife and kids._
+
+---
+
+**Thursday, October 1, 2020 at 12:35 PM PDT**
+
+## Mahout: State of the Matrix
+
+### Trevor Grant
+
+In this talk we will go over recent developments, discuss upcoming changes, and share the PMC's vision for Mahout over the next 12 months and beyond.
+
+_PMC of Mahout_

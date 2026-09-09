@@ -1,0 +1,128 @@
+title: ApacheCon @ Home 2020: Keynotes
+template: page-event-default
+ref: apachecon-home-2020
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: false
+
+## Tuesday, September 29th
+
+**7:45 AM PDT** 
+### Opening Remarks
+#### Rich Bowen, VP Conferences, The Apache Software Foundation 
+ A quick overview of what's coming today, and how to make the most of the event. 
+
+**8:00 AM PDT UTC**
+### The State of the Feather
+#### David Nalley, President, The Apache Software Foundation 
+
+The annual report from the Apache Software Foundation 
+
+_David Nalley is the current President of the Apache Software Foundation_
+
+**8:15 AM PDT**
+### Why Build a Castle When You Can Create a Community Advancing Satellite Data Analysis through Professional Open Source 
+#### Thomas Huang, NASA Jet Propulsion Laboratory
+
+Technical Group Supervisor and Strategic Lead for Interactive Analytics
+
+_Thomas Huang is a Technical Group Supervisor for the JPL’s Data Product Generation Software group. He is also the Strategic Lead for Interactive Analytics for the JPL's National Space Technology Applications Program Office, the Principal Investigator on several NASA Cloud-based big data analytic projects, and the System Architect for the NASA’s Sea Level Change Portal. As an expert in large-scale, distributed intelligent data systems, Thomas led both planetary and earth data system projects. Thomas was the Project Technologist for NASA's Physical Oceanography Distributed Active Archive Center (PO.DAAC). As an advocate for free and open source software, Thomas led the open sourcing of many NASA-funded technologies. He is the architect and founder of the Apache Science Data Analytics Platform (SDAP) as a community-driven, Cloud-based Analytic Center Framework. As an expert in data management and big data architecture, Thomas is a frequent invited speaker and panelist at various Earth and Space Informatics and Open Source events. He recently delivered keynote addresses at the ESA’s Conference on Big Data From Space (BiDS’19) and the Australasian eResearch Organisations (AeRO)’s Collaborative Conference on Computational & Data Intensive Science (C3DIS 2019). Thomas is a member of the NOAA’s Data Archive and Access Requirements Working Group (DAARWG) of the NOAA’s Science Advisory Board (SAB). As an educator, Thomas is also a Computer Science lecturer at the California State Polytechnic University, Pomona, and member of its Industry Advisory Board._
+
+
+**2:00 AM PDT**
+### Apache grows in China 
+#### Sheng Wu, Founding Engineer, Tetrate.io
+
+In the Apache FY2020 report, China is on the top of the download statistics. More China initiated projects joined the incubator, and some of them graduated as the Apache TLP. Sheng joined the Apache community since 2017, in the past 3 years, he witnessed the growth of the open-source culture and Apache way in China.
+Many developers have joined the ASF as new contributors, committers, foundation members. Chinese enterprises and companies paid more attention to open source contributions, rather than simply using the project like before. In the keynote, he would share the progress about China embracing the Apache culture, and willing of enhancing the whole Apache community. 
+
+_Sheng Wu is a founding engineer at tetrate.io, leads the observability for service mesh and hybrid cloud. A searcher, evangelist, and developer in the observability, distributed tracing, and APM. He is a member of the Apache Software Foundation. Love open source software and culture. Created the Apache SkyWalking project and being its VP and PMC member. Co-founder and PMC member of Apache ShardingSphere. Also as a PMC member of Apache Incubator and APISIX. He is awarded as Microsoft MVP, Alibaba Cloud MVP, Tencent Cloud TVP._
+
+---
+
+## Wednesday, September 30th
+
+**8:00 AM PDT**
+### Opening Remarks
+#### Rich Bowen, VP Conferences, The Apache Software Foundation 
+A quick welcome message, and highlights of the day. 
+
+**8:15 AM PDT**
+#### Camille Fournier, Head of Platform Engineering, Two Sigma
+
+_Camille Fournier is the head of Platform Engineering at Two Sigma, a financial company in New York City. Prior to joining Two Sigma she was the Chief Technology Officer of Rent the Runway, a transformative brand that offers unprecedented access to designer fashion, disrupting the way millions of women get dressed._
+
+_She is an open source contributor and project committee member for both Apache ZooKeeper and the Dropwizard web framework. Prior to working for Rent the Runway, Camille served as a software engineer at Microsoft, and most recently, spent several years as a technical specialist at Goldman Sachs, creating distributed systems for managing risk analysis and firmwide infrastructure._
+
+_She has a BS in Computer Science from Carnegie Mellon University and an MS in Computer Science from the University of Wisconsin-Madison. Camille is a well-respected voice within the tech community, speaking on a variety of topics such as engineering leadership, distributed systems, scaling teams, and technical architecture. In 2017 she released her book, "The Manager’s Path: A Guide for Tech Leaders Navigating Growth and Change."_
+
+---
+
+## Thursday, October 1st
+
+**8:00 AM PDT**
+### Opening Remarks
+#### Rich Bowen, VP Conferences, The Apache Software Foundation 
+A quick overview of what's coming today, and how to make the most of the event. 
+
+**8:15 AM PDT**
+### High Performance Computing with Apache Spark and Parquet on Mission Critical Tasks 
+#### Edmon Begoli 
+
+Oak Ridge National Laboratory (ORNL) is known for its deployment of some of the world's fastest supercomputers. This legacy brings us opportunities to work on some of the most challenging societal problems. Often, these problems require approaches that are more comprehensive than what specific high-performance computing solutions can solve. In this talk, we will talk about the essential role that Apache Spark and Parquet played in solving some of these problems. We will illustrate Apache Spark and Parquet's uses with a case study related to suicide and overdose risk where prevention. The result is a 300x speedup in processing from 75+ hours for the original algorithm to 15 minutes with a new one. We will discuss specific techniques behind this accomplishment and the lessons learned.
+
+_Edmon Begoli, PhD works at Oak Ridge National Laboratory (ORNL), where he leads research and development programs aimed at scaling and improving the resilience of critical decision making._
+
+_Edmon is a committer with Apache Software Foundation, and is a joint faculty professor of Computer Science at the University of Tennessee, EECS department._
+
+
+---
+
+## Sponsored Keynotes
+
+**Tuesday, September 29, 2020 at 8:45 AM PDT**
+### Double inflection point: Open Source meets AI
+#### Sam Lightstone: Chief Technology Officer for AI Strategy, IBM
+
+Abstract: Machine Learning is almost as old as the electronic computer, but the domain has experienced a massive infusion of energy and investment over the past 8 years. During this time the open source community has simultaneously developed a wide landscape of rich, sophisticated OSS packages for machine learning and deep learning such as Apache Marvin-AI, DLlab, Spark, MLlib, MADlib and OpenNLP. In this talk IBM CTO for AI Strategy, Sam Lightstone, will explore the confluence of these two disruptions and the possibilities that lie ahead for dramatic advances in AI, computation power, distributed computing, and a sea-change in computer science.
+
+_Sam Lightstone is IBM Chief Technology Officer for AI Strategy, IBM Fellow and a Master Inventor in the IBM Data and AI group. He is also chair of the Data and AI Technical Team, the working group of IBM’s technical executives in the division. He has been the founder and co-founder of several large-scale initiatives including AI databases, next generation data warehousing, data virtualization, autonomic computing for data systems, serverless cloud SQL query, and cloud native database services. He co-founded the IEEE Data Engineering Workgroup on Self-Managing Database Systems. Sam has more than 65 patents issued and pending and has authored 4 books and over 30 papers. Sam’s books have been translated into Chinese, Japanese and Spanish. In his spare time he is an avid guitar player and fencer. His Twitter handle is @samlightstone._
+
+**Tuesday, September 29, 2020 at 9:00 AM PDT**
+### DataStax Astra and Apache Cassandra: Sustainable Open Source in the Cloud Era
+#### Jonathan Ellis, Co-founder and CTO, DataStax
+
+Apache Cassandra solves database performance at scale better than any other system in the world, but it was designed for a world of self-managed infrastructure. This created a lot of rough edges for the level of automation DataStax needed to build its Astra managed service for Cassandra. Building Astra also exposed some gaps in Cassandra’s feature set that modern developers want and expect from a database-as-a-service.
+
+DataStax believes that developers and businesses shouldn’t have to give up ownership of their data to take advantage of the benefits of cloud infrastructure. We want everyone to have the freedom to deploy anywhere, without lock-in. This talk will explain how we’re bringing the enhancements we made for Astra back to Apache Cassandra. Following the Cassandra Enhancement Proposal process, we are showing that cloud and open source are not mutually exclusive.
+
+_Jonathan Ellis is a co-founder of DataStax. Before DataStax, Jonathan was Project Chair of Apache Cassandra for six years, where he built the Cassandra project and community into an open-source success. Previously, Jonathan built an object storage system based on Reed-Solomon encoding for data backup provider Mozy that scaled to petabytes of data and gigabits per second throughput._
+
+**Wednesday, September 30, 2020 at 8:45 AM PDT**
+### Rethinking Language: Why Now, What’s Next
+#### Kim Huang, Content Strategist, Red Hat
+
+At the core of open source is the idea that we continually change and adapt as we learn new information or discover better ways of doing things. We welcome ideas from anyone to help us make the best software available. Adapting the language we use in our code to become more welcoming for all current and future community members is part of that ethos. Learn about why Red Hat is taking steps to rethink the language of our code and documentation, and the impact this work will have.
+
+
+**Wednesday, September 30, 2020 at 9:00 AM PDT**
+### Fostering strong, open source communities that benefit all of us
+#### Catherine McGarvey, VP Engineering, VMWare
+
+We all desire strong open source communities, but what does that even mean? What are health metrics that you can track and measure to see that you are making an impact here. Let's explore the different open source communities approaches as case studies. What actions can you take to help make your community more inclusive?
+
+_Catherine McGarvey is the VP of Engineering at VMware, leading engineering for developer facing communities. She has had the privilege of being involved in a number of OS communities including Apache Geode, RabbitMQ, Kubernetes, cloud foundry and knative._
+
+**Thursday, October 1, 2020 at 8:45 AM PDT**
+### A Rising Tide Lifts All Boats: Working With Contributors of All Sizes
+#### Anil Inamdar, Head of US Consulting and Delivery, Instaclustr
+
+The Open source development model has changed significantly since its heydays in the 1990s. Today there are more projects, more contributors, additional financing and vendors of various kinds – support, add-ons, cloud providers. The Apache community still continues to play a pivotal role in promoting open source projects, setting community standards, providing framework for arbitrations and ensuring quality for the projects.
+
+Participations from contributors of all sizes – individual, company affiliated, and vendor supported act as the rising tide and help expand the open source market. The key however is to ensure that we contribute back to the project and the foundation. Working together creates a rising tide lifting its participants. As the saying goes – “If you want to go fast, go alone; but if you want to go far, go together.”
+
+
+**Thursday, October 1, 2020 at 9:00 AM PDT**
+### The heat is on: architecting for hot analytics
+#### Gian Merlino, CTO and Co-Founder, Imply and Apache Druid PMC Chair
+
+Today, the industry offers numerous systems for the analysis of large amounts of data. Under the hood, they span a variety of interesting and unique architectures. In this talk, we'll discuss why you can never seem to find that single perfect system, and how to think about and evaluate the capabilities of various systems through the prism of a temperature-based spectrum of use cases, from cold to hot analytics. 

@@ -1,0 +1,159 @@
+title: Apache Tomcat Track
+template: page-event-default
+ref: apachecon-home-2020
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: false
+
+---
+
+**Tuesday, September 29, 2020 at 9:15 AM PDT**
+
+## State of the Cat
+
+### Mark Thomas
+
+A review of the past year or so for Apache Tomcat and a look forward to what is expected in the coming 12 months.
+
+_I have been an Apache Tomcat committer since November 2003. I initially worked on Tomcat in my free time but since August 2008 I have been employed by SpringSource (now part of VMware) to work on Apache Tomcat. I spend most of my time working on Tomcat but I also work on tc Server, VMware's Servlet & JSP container based on Apache Tomcat. I am the release manager Apache Tomcat 8.5, 9.0 and 10.0 where I try to release a new version every month or so. I am currently focused on Tomcat 10 development which supports Jakarta EE 9. I am a committer for Eclipse Servlet, Server Pages, Expression Language and WebSocket. Elsewhere at the ASF, I am a member of the ASF security and infrastructure teams and I am also on the Commons PMC where I focus on Commons Pool and DBCP. I am a member of the ASF and served as a Director from 2016 to 2019. I have held the position of VP, Brand Management since February 2018._
+
+---
+
+**Tuesday, September 29, 2020 at 9:55 AM PDT**
+
+## Lost in the Docs
+
+### Felix Schumacher
+
+Tomcat has a lot of documentation and a lot of features. We will look at some of the features that are overlooked or not found but could be handy.
+
+_Felix started to use open source at university while trying to compile Fortran for his math studies. He stayed with Linux but left Fortran for other languages like Java, Perl and Python. He continued in working in IT -- building thin clients and management systems for DHCP and DNS. With time his interests faded into looking after a horde of Tomcat servers and felt responsible to make them run faster and more stable. He contributes to both Apache Tomcat and JMeter projects adapting them to his own needs and helping others for fun. He gladly became a committer on both projects and is a member of the Apache Software Foundation._
+
+---
+
+**Tuesday, September 29, 2020 at 10:35 AM PDT**
+
+## Deploying a Production Instance
+
+### Andrew Carr
+
+Deploying Tomcat in a local development environment is a task that most developers are familiar with. Setting up a consistent, reliable, dependable and hardened Tomcat instance in a production environment is not as difficult as most would assume. Here we will discuss important aspects of a Production deployment, along with the configuration of other environments, like Staging, Integration, and Quality Assurance. There are pitfalls to avoid, common tasks to accomplish and automation that can assist in these tasks.
+
+_About: Andrew has been working in the I.T. industry since 1996 developing hardware, network and software solutions to suit business needs and requirements. Leveraging open source software, he has implemented enterprise software solutions for a number of large corporations while delivering training to staff, both entry-level and expert. Currently, Andrew works as a Consulting Enterprise Architect at Perforce._
+
+---
+
+**Tuesday, September 29, 2020 at 11:15 AM PDT**
+
+## HTTP/2, HTTP/3, and SSL/TLS State of the Art in our Servers (httpd, Traffic Server, and Tomcat)
+
+### Jean-Frederic Clere
+
+A new protocol is getting ready HTTP/3 we will look to where we are with it in our serves. The "old" HTTP/2 protocol and the corresponding TLS/SSL are common to Traffic Server, HTTP Server and Tomcat. The presentation will shortly explain the new protocol and the ALPN extensions and look to the state of the those in our 3 servers and show the common parts and the specifics of each servers. A demo configuration of each server will be run.
+
+_Jean-Frederic has spent more than 20 years writing client/server software. His knowledges range from Cobol to Java, BS2000 to Linux and /390 to i386 but with preference to the later ;). He is committer in Httpd and Tomcat and he likes complex projects where different languages and machines are involved. Borne in France, Jean-Frederic lived in Barcelona (Spain) for 14 years. Since May 2006 he lives in Neuchatel (Switzerland) where he works for RedHat in the JBoss division on Tomcat, httpd and cloud/cluster related topics._
+
+---
+
+**Tuesday, September 29, 2020 at 11:55 AM PDT**
+
+## Split your Tomcat Installation for Easier Upgrades
+
+### Christopher Schultz
+
+Upgrading Apache Tomcat can seem like a risky process if your team isn't well-versed in the process. Splitting your Tomcat installation into stock install + customized deployment can make the process much less risky and even allow you to quickly downgrade if necessary. We'll explore how to split your Tomcat installation to get you more comfortable upgrading Tomcat, reduce deployment times, and improve your security.
+
+_Christopher Schultz is the CTO of Total Child Health, Inc. where he leads a small team of engineers to build server-side healthcare-related software in Java. Chris is an ASF Member active in the Apache Tomcat and Velocity communities as well as a committer on both projects, and Tomcat PMC and security team member. He has attended and spoken at several previous ApacheCon events and helped to organize an Apache BarCamp in the Washington, DC area._
+
+---
+
+**Tuesday, September 29, 2020 at 12:35 PM PDT**
+
+## Tomcat: New and Upcoming
+
+### Rémy Mucherat
+
+This session presents the new features that were recently introduced in Apache Tomcat with examples and ideas to take advantage of them, as well as upcoming development plans.
+
+_Remy is a long time Tomcat committer and ASF member. Lately he's been focusing on various areas such as IO, ahead of time compilation and optimizations, and various other additions to Tomcat._
+
+---
+
+**Wednesday, September 30, 2020 at 9:15 AM PDT**
+
+## Reverse-Proxying with nginx
+
+### Igal Sapir
+
+"nginx, pronounced "Engine X", is a high performance Web Server, Load Balancer, and Reverse Proxy, which has been released as free and open source (FreeBSD license) since 2004. I will show how to configure nginx to serve as a reverse proxy and load balancer in front of Apache Tomcat backend servers.
+
+_Igal has been fascinated with software ever since he got his first computer at the age of 12. Based in Los Angeles, Igal is an Open Source advocate, and in the past two decades he has been developing web applications and helping organizations around the globe to solve issues of scalability, security, and performance._
+
+---
+
+**Wednesday, September 30, 2020 at 9:55 AM PDT**
+
+## Tomcat: From a Cluster to a Cloud
+
+### Jean-Frederic Clere
+
+Using Tomcat in a cluster and in a cloud. We start by looking how to configure tomcat to get a cluster and then explore the problems and solutions to have distributed applications running in a cloud. Most cloud providers now have a Kubernetes API. We will look to what we have to add to Tomcat to have a decent cloud support for monitoring, tracing and operating on the cloud. We will show how to use all the pieces. A demo of a cluster will be prepared and run during the presentation and the corresponding application will be moved to a Kubernetes cloud.
+
+_Jean-Frederic has spent more than 20 years writing client/server software. His knowledges range from Cobol to Java, BS2000 to Linux and /390 to i386 but with preference to the later ;). He is committer in Httpd and Tomcat and he likes complex projects where different languages and machines are involved. Borne in France, Jean-Frederic lived in Barcelona (Spain) for 14 years. Since May 2006 he lives in Neuchatel (Switzerland) where he works for RedHat in the JBoss division on Tomcat, httpd and cloud/cluster related topics._
+
+---
+
+**Wednesday, September 30, 2020 at 10:35 AM PDT**
+
+## Migrating from AJP to HTTP: It's About Time
+
+### Christopher Schultz
+
+The Apache JServ Protocol was developed in 1997 as a proxying protocol between Apache httpd and Apache Jserv. At the time, mod_proxy was not an option for connecting to Apache Jserv, so Apache mod_jk was developed and generations of developers have used it to great effect. But AJP has some serious flaws, including lack of encryption and the inability to upgrade connections to use Websockets. In the intervening years, mod_proxy has become much more fully-featured and can solve all the problems with using AJP. We will cover all of the reasons AJP should be abandoned, all the nice things mod_jk does for you, and how to achieve the same results using mod_proxy with the http and wstunnel child-mods.
+
+_Christopher Schultz is the CTO of Total Child Health, Inc. where he leads a small team of engineers to build server-side healthcare-related software in Java. Chris is an ASF Member active in the Apache Tomcat and Velocity communities as well as a committer on both projects, and Tomcat PMC and security team member. He has attended and spoken at several previous ApacheCon events and helped to organize an Apache BarCamp in the Washington, DC area._
+
+---
+
+**Wednesday, September 30, 2020 at 11:15 AM PDT**
+
+## Tomcat 10 and Jakarta EE
+
+### Mark Thomas
+
+The move of Java EE to the Eclipse Foundation and its transformation to Jakarta EE has resulted in some potentially significant changes for end users. The part of this session will look at what the changes are, the impact they have for end users and what the Apache Tomcat project is doing to help mitigate those impacts. In the second part of the session, the current progress of Tomcat 10 towards Jakarta EE 9 support will be discussed along with the expected timeline for a stable Tomcat 10.0 release. The final part of the session will look at Jakarta EE 10, the likely changes and new features and the road map for Jakarta EE 10 support in Apache Tomcat.
+
+_I have been an Apache Tomcat committer since November 2003. I initially worked on Tomcat in my free time but since August 2008 I have been employed by SpringSource (now part of VMware) to work on Apache Tomcat. I spend most of my time working on Tomcat but I also work on tc Server, VMware's Servlet & JSP container based on Apache Tomcat. I am the release manager Apache Tomcat 8.5, 9.0 and 10.0 where I try to release a new version every month or so. I am currently focused on Tomcat 10 development which supports Jakarta EE 9. I am a committer for Eclipse Servlet, Server Pages, Expression Language and WebSocket. Elsewhere at the ASF, I am a member of the ASF security and infrastructure teams and I am also on the Commons PMC where I focus on Commons Pool and DBCP. I am a member of the ASF and served as a Director from 2016 to 2019. I have held the position of VP, Brand Management since February 2018._
+
+---
+
+**Thursday, October 1, 2020 at 9:15 AM PDT**
+
+## Getting Started Hacking Tomcat
+
+### Christopher Schultz
+
+Something bugging you in Tomcat? Think you have a great idea for a feature or improvement? Documentation needs improvement? Getting started hacking on Tomcat's code or documentation is easy! We'll cover how to get a copy of Tomcat's source code, build it locally, communicate with the Tomcat committers, and submit a patch or pull-request.
+
+_Christopher Schultz is the CTO of Total Child Health, Inc. where he leads a small team of engineers to build server-side healthcare-related software in Java. Chris is an ASF Member active in the Apache Tomcat and Velocity communities as well as a committer on both projects, and Tomcat PMC and security team member. He has attended and spoken at several previous ApacheCon events and helped to organize an Apache BarCamp in the Washington, DC area._
+
+---
+
+**Thursday, October 1, 2020 at 9:55 AM PDT**
+
+## Apache Tomcat and Spring Boot
+
+### Andrew Carr
+
+Discover how Spring leverages code provided by the Apache Tomcat project allowing developers to quickly prototype and deploy advanced Java web applications. A lot of developers use Spring Boot to bootstrap applications and these applications frequently end up in production. How does Spring use Tomcat to deploy your Java application with minimal effort? How much of the Tomcat code is included in the Spring Boot project? What is the best way to leverage features offered by both software packages? Dive deep into the workings of Tomcat and Spring, exploring their interaction.
+
+_About: Andrew has been working in the I.T. industry since 1996 developing hardware, network and software solutions to suit business needs and requirements. Leveraging open source software, he has implemented enterprise software solutions for a number of large corporations while delivering training to staff, both entry-level and expert. Currently, Andrew works as a Consulting Enterprise Architect at Perforce._
+
+---
+
+**Thursday, October 1, 2020 at 10:35 AM PDT**
+
+## Openly Handling Security Vulnerabilities (Q&A/Panel)
+
+### Mark Thomas, Christopher Schultz, Coty Sutherland
+
+Apache Tomcat is one of the most popular Java application servers in the world. The Apache Tomcat Security Team handles many vulnerability reports via its private "security" list each year where potential and actual vulnerabilities are discussed in a decidedly non-open way to help keep the public safe. At some point, the software needs to change to address any security shortcomings in the product and all of those changes are available immediately, and publicly, to the whole world. In this Q&A/panel discussion, members of the Apache Tomcat Security Team will discuss how the Apache Tomcat Security Team handles those vulnerability reports and manages patches in an open and (mostly) transparent way. Audience participation is highly encouraged, so come prepared with any questions you may have about our processes. 

@@ -111,7 +111,7 @@ events:
     location: New Orleans, LA
     image:  /images/events/event-card-apachecon-2022.webp
   - name: ApacheCon Asia 2021
-    nav:
+    nav: nav-asia-2021.html
     ref: apachecon-asia-2021
     href: https://apachecon.com/acasia2021/
     registrationHref:
@@ -120,6 +120,7 @@ events:
     displayDate: August 6-8, 2021
     year: 2021
     location: Online
+    image:  /images/events/event-card-apachecon-2021-asia.webp
   - name: ApacheCon @Home 2021
     nav: nav-na-home-2021.html
     ref: apachecon-home-2021
@@ -132,15 +133,16 @@ events:
     year: 2021
     location: Online
   - name: ApacheCon @Home 2020
-    nav:
+    nav: nav-na-home-2020.html
     ref: apachecon-home-2020
-    href: https://apachecon.com/acah2020/
+    href: /events/apachecon-home-2020
     registrationHref:
     startDate: 2020-09-28
     endDate: 2020-10-01
     displayDate: September 28 - October 1, 2020
     year: 2020
     location: Online
+    image:  /images/events/event-card-apachecon-2020-home.webp
   - name: ApacheCon EU 2019
     nav:
     ref: apachecon-eu-2019

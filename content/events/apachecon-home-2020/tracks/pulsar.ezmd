@@ -1,0 +1,209 @@
+title: Apache Pulsar/Bookkeeper Track
+template: page-event-default
+ref: apachecon-home-2020
+eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
+inPageNav: false
+
+---
+
+**Tuesday, September 29, 2020 at 2:30 AM PDT**
+
+## Transactional event streaming with Apache Pulsar (Mandarin)
+
+### ran gao
+
+Transactional event streaming with Apache Pulsar The highest message delivery guarantee that Apache Pulsar provides is `exactly-once`, producing at a single partition via Idempotent Producer. Users are guaranteed that every message produced to a single partition via an Idempotent Producer will be persisted exactly once, without data loss. However, there is no `atomicity` when a producer attempts to produce messages to multiple partitions. From the consumer side, acknowledgement is a best-effort operation, which results in message redelivery, hence consumer will receive duplicate messages. Pulsar only guarantees `at-least-once` consumption for consumers. It creates inconvenience and brings in complexity when you use Pulsar to build mission critical services (such as billing services). Pulsar introduces transaction support in 2.7.0 version, to simplify the process of building reliable and fault resilient services using Apache Pulsar and Pulsar Functions. It only provides the capability to achieve end-to-end exactly-once for streaming jobs in other stream processing engines. This presentation deep dives into the details of Pulsar transaction and how Pulsar transaction is applied to Pulsar Functions and other processing engines to achieve transactional event streaming. How does Pulsar transaction work? How do Pulsar Functions offer transaction support using Pulsar transaction?
+
+_Ran Gao is a software engineer at StreamNative. Prior to StreamNative, he worked at Zhaopin.com and JD Logistics, responsible for the development of the front-end and back-end of the business system. Being interested in open source and messaging systems, Ran is an Apache Pulsar contributor._
+
+---
+
+**Tuesday, September 29, 2020 at 3:10 AM PDT**
+
+## Using Apache Pulsar in China Mobile billing system (Mandarin)
+
+### Song Xue
+
+Telecommunication is a complex system. We’ve adopted Apache Kafka, RocketMQ and other messaging systems in our business. However, they hardly meet our requirements. When we met Apache Pulsar, we found it was an ideal solution for us. Apache Pulsar has multi-layer and segment-centric architecture, and supports geo-replication. We can query data with Pulsar SQL, and create complex processing logic without deploying other systems with Pulsar Functions.
+
+_Song Xue is a senior software engineer. He is experienced in telecommunication, big data and stream processing._
+
+---
+
+**Tuesday, September 29, 2020 at 3:50 AM PDT**
+
+## Pulsar application in Ksyun cloud log service (Mandarin)
+
+### Bin Liu
+
+Our log service is a one-stop service for logging data. The services cover log collection, log storage, log retrieval and analysis, real-time consumption, log delivery and so on. Currently, our service supports log query and monitoring for many businesses, and processes tens of terabytes of data every day. Apache Pulsar is a cloud-native distributed messaging platform with multi-layer and segment-centric architecture and multi-tenancy. With Pulsar, we can scale up partitions and merge partitions easily, and process millions of topics.
+
+_Apache open source community contributor, tech lead of Ksyun log service_
+
+---
+
+**Tuesday, September 29, 2020 at 4:30 AM PDT**
+
+## The Practice of Apache Pulsar in BIGO (Mandarin)
+
+### Hang Chen
+
+Powered by Artificial Intelligence technology, BIGO's video-based products and services have gained immense popularity, with users in more than 150 countries. These include Bigo Live (live streaming) and Likee (short-form video). Bigo Live is available in more than 150 countries and Likee has more than 100 million users and is popular among the Generation Z. In the past few years, we have deployed many Kafka clusters to support real-time ETL and short-form video recommendation. The Apache Pulsar's layered architecture and new features, such as Low latency with durability, Horizontally scalable, Multi-tenancy etc, help us solve a lot of problems in production. We have adopted Apache Pulsar to build our Message Processing System, especially in Real-Time ETL, short-form video recommendation and Real-Time Data report. In this talk, I will share our journal of adopting Apache Pulsar in our Real-Time Message Processing System, especially in Flink & Flink SQL working with Pulsar. I will also discuss the problems we have encountered in using Pulsar and experience in performance tuning.
+
+_Hang Chen is the tech lead of the Messaging Platform team at BIGO. He is responsible for creating a centralized pub-sub messaging Platform, which provides a vast number of service/application traffics. He introduced Apache Pulsar into their Messaging Platform and integrated it with upstream and downstream systems, such as Flink, ClickHouse and other inner systems for Real-Time recommendation and analysis. He focuses on Pulsar performance tuning, new features development and Pulsar ecosystem integration._
+
+---
+
+**Tuesday, September 29, 2020 at 5:10 AM PDT**
+
+## Work with Apache Pulsar broker interceptors (Mandarin)
+
+### Penghui Li
+
+Broker interceptor is a new feature that allows users to add the custom interceptor to intercept Pulsar requests. The broker interceptor enables many enterprise features such as audit log, reject illegal requests, and so on. In this talk, I will show how broker interceptor works, and how to write a broker interceptor step by step.
+
+_Penghui Li is a PMC member of Apache Pulsar, and tech lead in Zhaopin.com, where he promotes Apache Pulsar proactively. He focuses on messaging service, including messaging system, microservice, and Apache Pulsar._
+
+---
+
+**Tuesday, September 29, 2020 at 5:50 AM PDT**
+
+## Pulsar adoption in SAAS platform (Mandarin)
+
+### Shaohong Pan
+
+In the past, we used AMQP. The service broke down occasionally and had a serious negative impact on our business. AMQP does not support multi-tenancy. I came to know Apache Pulsar last year. After investigation, we found it was an ideal streaming data platform and could solve our problems quite well. In this talk, I will share how we adopt Pulsar in our parking system. We customize a messaging system with EMQX, Pulsar and Sink to deal with our data in our parking system. The following is a general workflow of our business. Upstream: The real-time data at the parking lot is first transmitted to EMQX, and then transmitted to Pulsar with a bridge. The business system processes the data and returns the result to Pulsar. Downstream: Sink retrieves the result from Pulsar, and sends it to EMQX, and then EMQX sends the data to the parking lot. Data analysis: Process data in Hive via pulsar-flink connector. Data query: Develop the features of querying data in Pulsar Manager via Pulsar SQL and sending data via TOPIC.
+
+_Shaohong Pan is tech lead of the messaging system(including Pulsar, EMQX, etc.) at Keytop, a leading smart parking solution provider. He introduced Apache Pulsar to Keytop, and promote Apache Pulsar in their business proactively._
+
+---
+
+**Wednesday, September 30, 2020 at 2:00 AM PDT**
+
+## Application of Apache Pulsar in Tencent Midas Scenario (Mandarin)
+
+### Dezhi Liu
+
+Midas is an Internet billing platform that supports the 100-billion-level revenue in Tencent's internal business. It integrates domestic and international payment channels, provides various services such as account management, precision marketing, security risk control, auditing and accounting, billing analysis and so on. The platform carries daily revenue of hundreds of millions of dollars. It provides services for 180+ countries (regions), 10,000+ businesses and more than 1 million settlers. Working as an all-round one-stop billing platform, the total number of its escrow accounts is more than 30 billions. The characteristics of Tencent billing, a combination of financial attributes and massive Internet attributes, such as tens of billions of account custody and daily tens of billions of transaction requests, for such a huge transaction volume and complex business processes,Various asynchronous or abnormal situations require the support of distributed message queues. The characteristics of pulsar, the cloud-native storage and computing separation design, for Tencent's large-scale system, on-demand elastic scaling is very necessary; millions of topics, delayed messages, any number of consumers, etc., for high concurrency of billing Such scenes are suitable; The ability to replicate across regions is also necessary for billing globalization. Combining high consistency, high reliability and performance considerations, we currently use pulsar as the core part of the system as the standard method of exception handling and communication between services of the consistent transaction engine. It has already carried tens of billions of messages per day and maintains a good stability. In actual operation, we also found some problems with pulsar. For example, the dependence on zookeeper is still relatively heavy. At present, there is no separation of consumption and production of brokers. The cross-region strong consistency is not perfect for node selection. We have tried to solve some of the problems. Submit to the community, and others also communicate and discuss with the community. In general, pulsar currently meets our needs better. We are also happy to share our experience and problems with you, and look forward to more exchanges with each other. Pulsar can be more perfect and have a wider range of applications under the joint efforts of the community.
+
+_Focusing on the development of financial-level distributed components, he is mainly engaged in the design and development of distributed distributed message transactions and transaction engines, and escorts Tencent's revenue. Pay more attention to the field of distributed messaging, participate in the construction of the Apache Pulsar community, and introduce the Tencent transaction message bus to the ground._
+
+---
+
+**Wednesday, September 30, 2020 at 2:40 AM PDT**
+
+## AMQP-on-Pulsar — bring native AMQP protocol support to Apache Pulsar (Mandarin)
+
+### Hao Zhang
+
+China Mobile is the Gold Member of OpenStack Foundation and has the largest OpenStack cluster deployment practice in the world. RabbitMQ is the default integration of the message middleware in OpenStack, and China Mobile has encountered great challenges in the deployment and maintenance of RabbitMQ. In the OpenStack system, RabbitMQ, as an RPC communication component, has a large number of messages flowing in and out. During the operation process, there is often a backlog of messages. This will cause memory exceptions, and processes will often be stuck due to memory exceptions. On the other hand, RabbitMQ's mirrored queue is used in order to ensure high availability of data. When a node runs into an abnormal state, the entire cluster is unavailable regularly. Moreover, RabbitMQ's programming language erlang is obscure and difficult to troubleshoot. In summary, considering the instability of RabbitMQ cluster, the difficulty of operation and maintenance, and the difficulty of troubleshooting, China Mobile intends to develop a middleware product that can replace RabbitMQ. Then China Mobile's middleware team begins to investigate the self-developed technical route of AMQP message queue. By comparing Qpid, RocketMQ and Pulsar, China Mobile is attracted by Pulsar's unique architecture which decouples data serving and data storage into separate layers. Apache Pulsar is an event streaming platform designed from the ground up to be cloud-native- deploying a multi-layer and segment-centric architecture. The architecture separates serving and storage into different layers, making the system container-friendly. The cloud-native architecture provides scalability, availability, and resiliency and enables companies to expand their offerings with real-time data-enabled solutions. Pulsar has gained wide adoption since it was open-sourced in 2016 and was designated an Apache Top-Level project in 2018. So we decided to develop AMQP on Pulsar(AoP). By adding the AoP protocol handler in your existing Pulsar cluster, you can migrate your existing RabbitMQ applications and services to Pulsar without modifying the code. This enables RabbitMQ applications to leverage Pulsar’s powerful features, such as infinite event stream retention with Apache BookKeeper and tiered storage. I will introduce how we develop AoP, the architecture, and how to deploy it in container. Then I will present the performance comparison of AoP and RabbitMQ.
+
+_Hao Zhang is a senior software engineer at China Mobile, where he specializes in message queue and distributed cache with extensive experience in handling high-reliability and high-performance projects. He is also a contributor to Apache Pulsar and Apache RocketMQ._
+
+---
+
+**Wednesday, September 30, 2020 at 3:20 AM PDT**
+
+## Apache Pulsar in AI data service (Mandarin)
+
+### Dongliang Jiang
+
+Appen is a leading company in the AI data service area. When serving a large volume of data collection and annotation, we faced some challenges on task distribution, anti-scamming and AI model training. The traditional task distribution was based on database, it has flexibility on messing around data, but it’s not easy to scale horizontally and has performance issues when the dataset grows large. We adopt the Apache Pulsar and NoSQL database solution to resolve those pain points and keep the flexibility. We have also used Apache Pulsar with Apache Flink in our workload reporting, anti-scamming and AI model training for both real-time pipeline and batch pipeline. Apache Pulsar plays a key role in our AI data platform as the data lake to connect all the business features and make each component decoupled.
+
+_Architect in Appen China. Have 20 years experience on high performance computing, distributed systems and messaging/streaming architectures._
+
+---
+
+**Wednesday, September 30, 2020 at 4:00 AM PDT**
+
+## Unified data processing with Apache Spark and Apache Pulsar (Mandarin)
+
+### Jia Zhai, Vincent Xie
+
+Lambda is widely used in the industry when people need to process both real-time and historical data to get a result. It is effective, and a good balance of speed and reliability. But there are still challenges to use Lambda in the practice. The biggest detraction has been the need to maintain two distinct (and possibly complex) systems to generate both batch and streaming layers. Thus, the operational cost of maintaining multiple clusters is nontrivial, and in some cases, one business logic would have to be split into many segments across different places, which is a challenge to maintain as the business grows and it also increases communication overhead. In this session, we'd like to present a unique data processing architecture with Apache Spark and Apache Pulsar, a solution, with the core idea of "One data storage, one computing engine, and one API", to solve the problems of Lambda architecture.
+
+_Jia Zhai is the co-founder of StreamNative, as well as PMC member of both Apache Pulsar and Apache BookKeeper, and contributes to these two projects continually. Vincent (Weisheng) Xie is the chief data scientist and senior Director at Orange Financial. Previously, he worked as a tech lead of ML engineering at Intel._
+
+---
+
+**Wednesday, September 30, 2020 at 4:40 AM PDT**
+
+## Serverless Event Streaming with Pulsar Functions (Mandarin)
+
+### Xiaolong Ran
+
+Apache Pulsar is a cloud-native new generation messaging system and real-time processing platform. The messaging system is closely related to the real-time computing platform, and it is often separated and loosely deployed and managed. As the computing component of Pulsar, the Pulsar function is a fusion and innovation of the message and computing platform in the serverless direction. The Pulsar function provides multi-language support for Go, Python, and Java; and runtimes for threads, processes, and Kubernetes. This provides good functionality for users to write, run, and deploy functions. Let users only care about the logic of the real calculation, without complicated configuration or management; more convenient built-in message-based streaming platform.
+
+_Xiaolong Ran is a Software Engineer at StreamNative and the committer of Apache Pulsar. The main contributor to Go Functions and pulsar-client-go projects._
+
+---
+
+**Wednesday, September 30, 2020 at 9:15 AM PDT**
+
+## Pulsar Function Mesh - Complex Streaming Jobs in a Simple Way
+
+### Neng Lu, Sijie Guo
+
+Pulsar Function is a succinct computing abstraction Apache Pulsar provides users to express simple ETL and streaming tasks. The simplicity comes in two folds: Simple Interface and Simple Deployment. As it has been adopted, we realized that the native support of organizing multiple functions into integrity will be very beneficial. With such support, people can express and manage multi-stage jobs easily. In addition, this support also provides the possibility of higher-level abstraction DSL to further simplify the job composition. We call this new feature -- Pulsar Function Mesh. This talk aims to provide a thorough walkthrough of this new Pulsar Function Mesh Feature, including its design, implementation, use cases, and examples, to help people seeking simple streaming solutions understand this newly created powerful tool in Apache Pulsar.
+
+_Neng_
+
+_Neng Lu is a staff software engineer at StreamNative where he drives the development of Apache Pulsar and the integrations with big data ecosystem. Before that, he was a senior software engineer at Twitter. He was the core committer to the Heron project and the leading engineer for Heron development at Twitter. He also worked on Twitter’s monitoring and key-value storage systems. Before joining Twitter, he got his master's degree from_
+
+_UCLA and a bachelor degree from_
+
+_Zhejiang_
+
+_University._
+
+_Sijie_
+
+_Sijie Guo is the co-founder and CEO of StreamNative. StreamNative is a real-time data infrastructure startup offering a cloud-native event streaming platform powered by Apache Pulsar for the enterprises. Before StreamNative, he co-founded Streamlio. Before Streamlio, he worked for Twitter as the tech lead for the messaging infrastructure group, where he co-created DistributedLog and Twitter EventBus. Before Twitter, he worked on the push notification infrastructure at Yahoo!. He is also the VP of Apache BookKeeper and PMC member of Apache Pulsar._
+
+---
+
+**Wednesday, September 30, 2020 at 9:55 AM PDT**
+
+## Indestructible storage in the cloud with Apache BookKeeper
+
+### Anup Ghatage, Ankit Jain, Charan Reddy Guttapalem, Karan Mehta, Venkateswararao Jujjuri
+
+This talk highlights how Apache software, community, and corporate interaction works well together. The Salesforce team goes over how they have implemented a highly durable and available cloud storage service based on Apache Bookkeeper. Specifically, they speak about their requirements, why they chose Apache BookKeeper and the changes they made in cooperation with the Apache community to make it as cloud-aware. As software is increasingly deployed in public cloud environments, foundational platforms such as Apache BookKeeper must also continuously evolve to effectively work in multi availability zone environments and be designed to work around problems unique to such environments. We at Salesforce added to BookKeeper the ability to function effectively in a Multi-AZ public cloud environment. The first step to this was adding awareness in bookies about their location in the cluster. Which then enabled zone aware placement policies and handling of entire zone failures. They also go over how all of these functions without allowing any downtime to upper-level services. All of these changes go hand in hand with the core tenets of Apache BookKeeper's core quorum based storage principles but rethought to work across availability zones in a cloud-native manner. This talk goes over how we manage various challenges such as the creation of ensembles, placement, and replication of ledgers, tolerance to bookie/zone failures, upgrade scenarios and backward compatibility all the while satisfying the durability guarantees promised by BookKeeper in a public cloud environment.
+
+_Anup Ghatage Anup works on Salesforce's Infrastructure platform. Previously, he has worked on database internals, query processing and storage at SAP, Cisco Systems and other companies for more than 7 years. Anup holds a BS from the University of Pune and an MS from Carnegie Mellon University. Ask him to perform some close-up magic / read your mind for you. Ankit Jain Ankit has worked in Salesforce big data infrastructure for the past few years after graduating from Carnegie Mellon University. He is passionate about distributed systems and big data. Charan Reddy Guttapalem Charan is a PMTS, working on a highly available and durable Storage layer for Database System at Salesforce. He serves as the committer and PMC member for the Apache Bookkeeper project. Previously he worked on Windows Phone client side features and APIs. Karan Mehta Karan has worked in Salesforce big data infrastructure for the past few years after graduating from UC Irvine. Current Apache Phoenix PMC member. Venkateswararao Jujjuri Currently leading an effort to build a massively scalable, highly performant distributed storage service at Salesforce. Previously an Architect and member of the IBM Cloud, Open Virtualization. Current Apache Bookkeeper PMC member._
+
+---
+
+**Wednesday, September 30, 2020 at 11:15 AM PDT**
+
+## KoP, AoP and MoP - Facilitating interoperability between different messaging protocols in Apache Pulsar
+
+### Sijie Guo
+
+Pulsar is a cloud-native event streaming platform that provides the ability to connect, store, and process event streams in real-time. It also provides many different language clients for applications to ingest and consume events and offers connectors for people to connect Pulsar with external systems easily without writing any code. However, there are many applications already written in other messaging protocols such as JMS, Kafka, AMQP, and HTTP-based protocols. It is hard for people to rewrite those existing applications. In order to reduce the adoption barrier for the existing world, we at StreamNative introduced the protocol handler mechanism in Pulsar 2.5.0 to allow a Pulsar broker to support different message protocols by reusing its core event streaming infrastructure (i.e. multi-layered architecture, infinite stream storage, multi-tenancy and etc). It facilitates the interoperability between different message protocols in Pulsar. In this talk, we will give a deep-dive into the protocol handler mechanism and share the experiences of using this mechanism to support different message protocols (Kafka, AMQP, REST, and etc) and the interoperability in Pulsar.
+
+_Sijie Guo is the co-founder and CEO of StreamNative, which provides a cloud-native event streaming platform powered by Apache Pulsar. Sijie has worked on messaging and streaming data technologies for more than a decade. Prior to StreamNative, Sijie cofounded Streamlio, a company focused on real-time solutions. At Twitter, Sijie was the tech lead for the messaging infrastructure group, where he co-created DistributedLog and Twitter EventBus. Prior to that, he worked on the push notification infrastructure at Yahoo!, where he was one of the original developers of BookKeeper and Pulsar. He is also the VP of Apache BookKeeper and PMC member of Apache Pulsar. You can follow him on twitter._
+
+---
+
+**Wednesday, September 30, 2020 at 11:55 AM PDT**
+
+## Pulsar Functions Deployment Options
+
+### Sanjeev Kulkarni
+
+Pulsar functions bring stream processing capabilities to Pulsar topics without needing to setup a different cluster for a processing engine. With its simple API and flexible deployment options, it makes it very easy for even novice developers to write stream processing applications that work both on their laptop as well as in the data-center. In this talk, I will go over the different deployment models for Pulsar Functions. We will explore the thread-based, process-based and Kubernetes based runtime options for running Pulsar Functions. We will also explore different tradeoffs between running functions within the broker vs running them on dedicated function workers.
+
+_Sanjeev Kulkarni works on Splunk's Data Stream Processor product, focusing on systems and infrastructure layers. Prior to Splunk, he was the co-founder of Streamlio that was building next generation real time processing engines based on Apache Pulsar. Before that Sanjeev was the technical lead for real-time analytics at Twitter where he co-created Twitter Heron. Sanjeev also worked in the Adsense team at Google leading several initiatives. He has a MS. in computer science from the University of Wisconsin, Madison._
+
+---
+
+**Wednesday, September 30, 2020 at 12:35 PM PDT**
+
+## Streaming Best Practices with Apache Pulsar for Enabling ML
+
+### Devin Bost
+
+In this presentation, we introduce best practices of streaming, some of the most important lessons we can teach about how to build sustainable streaming architectures that transform the enterprise. We will cover innovative architectural patterns that combine distributed technologies intended for scale and show how these best practices open the doors for enabling machine learning at an unprecedented level. We will discuss best practices for enabling ML with Kappa architecture. We will also demonstrate how to leverage an innovative approach to streaming validation that builds on existing best practices developed at Overstock and accelerates the productionalization of streaming pipelines.
+
+_With over 10 years of experience in the software industry, Devin has developed software in over 15 different languages. Between his experience of performing data migrations, applying vector calculus for ML, and building enterprise applications, he learned the critical role of data in opening doors of insight into novel market opportunities. He also observed many companies architect their software with the mindset of "we’ll figure out the data later," only to code themselves into life-threatening dead-ends. These observations fueled his interests in context-rich stream-based architectures like Kappa that thrive on live data capture and real-time analysis for instant value-creation._
