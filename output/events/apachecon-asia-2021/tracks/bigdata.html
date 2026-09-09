@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/favicons/manifest.json">
+    <link rel="shortcut icon" href="/favicons/favicon.png">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#282661">
+
+    <title>Big Data | Community Over Code</title>
+    <link href="/fonts/Montserrat-300-600-800.css" async rel="stylesheet">
+    <link href="/css/styles.css" async rel="stylesheet">
+    <script src="https://www.apachecon.com/event-images/snippet.js" async></script>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/init.js"></script>
+</head>
+<body   class="body-apachecon-asia-2021" >
+    <header id="header-main">
+         <div class="inner relative z1 flex flex-space-between flex-vert-center">
+            <a href="/" class="logo">
+                <img src="/images/CommunityOverCode_Logo_horizontal-color.svg" alt="ASF Events">
+            </a>
+            <div id="nav-toggle" class="nav-toggle hidden">
+                <span id="nav-top"></span>
+                <span id="nav-mid"></span>
+                <span id="nav-btm"></span>
+            </div>
+            
+
+<nav>
+    <ul class="flex">
+        <li><a href="/events/apachecon-asia-2021">Home</a></li>
+        <li><a href="/events/apachecon-asia-2021/tracks">Schedule</a></li>
+        <li><a href="/events/apachecon-asia-2021/sponsorship">Sponsorship</a></li>
+    </ul>
+</nav>    </header>
+
+    
+    
+   
+        <div class="hero hero--single-event-default relative">
+            <div class="inner flex flex-vert-center py-xl relative z1 flex-gap-50 flex-col-reverse-800">
+                <div class="hero__content flex-1">
+                    <h1 class="hero__title">
+                        Big Data
+                    </h1>
+                        <div class="hero-event-dates">August 6-8, 2021</div>
+                    <h2 class="hero__default-subtitle">
+                            <span class="hero__subtitle"> Online</span>
+                    </h2>
+                </div>
+                <div class="hero__logo flex-1">
+                        <img src="/images/logos/CommunityOverCode_Logo_stacked-color.svg" alt="Big Data logo" class="hero__logo-image">
+                </div>
+            </div>
+        </div>
+    <section class="maincontent maincontent--single-event">
+        <div class="inner py-xl">
+            <div class="mb-medium cf">
+                <div class="float66 right" style="padding-left: 50px;">
+                    <a class="breadcrumb" href="https://apachecon.com/acasia2021/"><svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><polyline points="15 18 9 12 15 6"></polyline></svg> Back to Event Home</a>
+                </div>
+            </div>
+            <div class="cf flex-col-800">
+                    <div class="float33 full-width-800">&nbsp;</div>
+                <div class="float66 event-content">
+                        <hr/>
+<p><strong>Tuesday, September 29, 2020 at 9:15 AM PDT</strong></p>
+<h2>Spark and Iceberg at Apple's Scale - Leveraging differential files for efficient upserts and deletes</h2>
+<h3>Anton Okolnychyi, Vishwanath Lakkundi</h3>
+<p>Apple leverages Apache Spark for processing large datasets to power key components of Apple&rsquo;s production services. As users begin to use Apache Spark in a bigger range of data processing scenarios, it is essential to support efficient and transactional update/delete/merge operations even in read-mostly data lake environments. For example, such functionality is required to implement change data capture, support some forms of slowly changing dimensions in data warehousing, fix corrupted records without rewriting complete partitions. The original implementation of update/delete/merge operations in Apple's internal version of Apache Spark relied on snapshot isolation in Apache Iceberg and rewriting complete files if at least one record had to be changed. This approach performs well if we can limit the scope of updates/deletes to a small number of files using indexing. However, modifying a couple of records in a large number of files is still expensive as all unmodified records in touched files have to be copied over. Therefore, Apple collaborates with other members of the Apache Iceberg and Apache Spark communities on a way to leverage differential files, an efficient method for storing large and volatile databases, for update/delete/merge operations. This approach allows us to reduce write amplification, support online updates to data warehouses and sustain more concurrent operations on the same table. This talk will briefly describe common ways to implement updates in analytical databases, challenges between providing updates and optimizing data structures for reading, outline the proposed solution alongside its benefits and drawbacks.</p>
+<p><em>Anton is a committer and PMC member of Apache Iceberg as well as an Apache Spark contributor at Apple. He has been dealing with internals of various Big Data systems for the last 5 years. At Apple, Anton is working on data lakes and an elastic, on-demand, secure, and fully managed Spark as a service. Prior to joining Apple, he optimized and extended a proprietary Spark distribution at SAP. Anton holds a Master&rsquo;s degree in Computer Science from RWTH Aachen University. Vishwanath Lakkundi is the engineering lead for the team that focuses on Data Orchestration and Data Lake at Apple. This team is responsible for development of an elastic fully managed Apache Spark as a service, a Data Lake engine based on Apache Iceberg and a data pipelines product based on Apache Airflow. He has been working with Apple since the lastseven years focusing on various analytics infrastructure and platform products.</em></p>
+<hr/>
+<p><strong>Tuesday, September 29, 2020 at 9:55 AM PDT</strong></p>
+<h2>Presentation of DLab toolset</h2>
+<h3>Mykola Bodnar, Vira Vitanska, Oleg Fuks</h3>
+<p>We are going to introduce DLab: - Similar user experience across AWS, GCP, and Azure clouds - Automatically configurable exploratory environment integrated with enterprise security and templates - Project level collaboration environment across multiple clouds - Aggregated billing with cost comparison across cloud providers - Project level resource management</p>
+<p><em>Mykola</em></p>
+<p><em>Mykola Bodnar has worked in EPAM since 2019, primary skill DevOps.BigData;</em></p>
+<p><em>Vira</em></p>
+<p><em>Vira has worked in EPAM since 2017 as a functional tester. Oleg Fuks Oleg Fuks has been working in EPAM since 2019, primary skill is Java.</em></p>
+<hr/>
+<p><strong>Tuesday, September 29, 2020 at 10:35 AM PDT</strong></p>
+<h2>Efficient Spark Scheduling on K8s with Apache YuniKorn</h2>
+<h3>Weiwei Yang, Gao Li</h3>
+<p>Apache Yunicorn (Incubating) is a new open-source project, which is a standalone resource scheduler of container orchestration platforms. Currently, it provides a fully functional resource scheduler alternative for K8s that manages and schedules Big Data workloads. We embrace Apache Spark for data engineering and machine learning, and by running Spark on K8s, we are able to exploit compute power promisingly under such highly elastic, scalable, and multi-paradigm architecture. We made a lot of effort on enhancing the core resource scheduling, in order to bring high performance, efficient-sharing, and multi-tenancy oriented capabilities to Spark jobs. In this talk, we will focus on revealing the architecture of the cloud-native infrastructure; How we leverage YuniKorn scheduler to redefine the resource scheduling on Cloud. We will introduce how YuniKorn manages quotas, resource sharing, and auto-scaling, and ultimately how to schedule large scale Spark jobs efficiently on Kubernetes in the cloud.</p>
+<p><em>Weiwei</em></p>
+<p><em>Weiwei Yang is a Staff Software Engineer from Cloudera, an Apache Hadoop committer and PMC member. He is focused on technology around large scale, hybrid computation systems. Before Cloudera, he worked in Alibaba&rsquo;s realtime computation infrastructure team that serves large scale big data workloads. Currently, Weiwei is leading the efforts for resource scheduling and management on K8s. Weiwei holds a master&rsquo;s degree from</em></p>
+<p><em>Peking</em></p>
+<p><em>University.</em></p>
+<p><em>Gao</em></p>
+<p><em>Li Gao is an engineering lead and infrastructure software engineer from Databricks, a leading open source and cloud vendor focusing on unified analytics cloud. Li&rsquo;s focuses are mainly on large scale distributed infrastructure across public cloud vendors and bringing kubernetes to the AI and big data compute workloads. Prior to Databricks, Li has led major data infrastructure and data platform efforts in companies such as Lyft, Fitbit, Salesforce, etc.</em></p>
+<hr/>
+<p><strong>Tuesday, September 29, 2020 at 11:15 AM PDT</strong></p>
+<h2>Everything you want to know about running Apache Big Data projects on ARM datacenters</h2>
+<h3>Zhenyu Zheng, Sheng Liu</h3>
+<p>With more and more vendors starts to provide ARM based chips, PCs and datacenters, more and more people starts to think about the portability of Apache big data projects running on ARM based hardwares: Will it run? How will it perform? Are there any difference running on different platforms? In this session, we will introduce what we have done in the past years to make Apache Big Data projects be able to running on ARM platforms, including the problems we sloved, how did we add CIs to related projects to provide a long-term ARM support, and what are the remaining gaps in projects like Hadoop, Spark, Hive, HBase, Kudu etc., these general ideas can provide very useful information for users, devlopers and other projects that are intrested to verify thier portability on ARM platforms. We will also introduce some of our comparison results between running Big Data cluster on ARM datacenter and x86 datacenters, together with some improvement ideas which could make Big Data projects perform better on ARM datacenters.</p>
+<p><em>Zhenyu</em></p>
+<p><em>Working in Open Source communities for over 5 years, currently focus on</em></p>
+<p><em>ARM portability for</em></p>
+<p><em>Open</em></p>
+<p><em>Source software.</em></p>
+<p><em>Sheng</em></p>
+<p><em>Working on OpenSource for over 7 years, currently focus on arm portability for big data projects and performance tuning</em></p>
+<hr/>
+<p><strong>Tuesday, September 29, 2020 at 11:55 AM PDT</strong></p>
+<h2>Heating Up Analytical Workloads with Apache Druid</h2>
+<h3>Gian Merlino</h3>
+<p>Apache Druid is a modern analytical database that implements a memory-mappable storage format, indexes, compression, late tuple materialization, and a vectorized query engine that can operate directly on compressed data. This talk goes into detail on how Druid's query processing layer works, and how each component contributes to achieving top performance for analytical queries. We'll also share war stories and lessons learned from optimizing Druid for different kinds of use cases.</p>
+<p><em>Gian Merlino is CTO and a co-founder of Imply, a San Francisco based technology company, and a committer on Apache Druid. Previously, Gian led the data ingestion team at Metamarkets (now a part of Snapchat) and held senior engineering positions at Yahoo. He holds a BS in Computer Science from Caltech.</em></p>
+<hr/>
+<p><strong>Tuesday, September 29, 2020 at 12:35 PM PDT</strong></p>
+<h2>FOSS Never Forgets: An Introduction to Free and Open Source Solutions for Data Processing and Management with an Emphasis on Fault Tolerance</h2>
+<h3>Katie McMillan</h3>
+<p>This talk will provide an introduction to data processing and management in two of the most popular Free and Open Source Solutions: Hadoop and PostgreSQL. The talk will link these solutions to current challenges in big data, with an emphasis on the fault tolerancy of each solution. It will then show how the solutions can be used together, using Foreign Data Wrappers. By combining the functionality of PostgreSQL and Hadoop with Foreign Data Wrappers, one is able to apply ACID properties to processes (transactions) in Hadoop.</p>
+<p><em>Katie McMillan leads strategic and creative projects that advance the public health, information technology, and social sectors. She currently works for a multi-site Canadian hospital, and is an advisor to local, national and international healthcare and public interest initiatives. Katie brings passion and talent for new now know-how and engaging a diverse range of stakeholders to co-create solutions to complex organizational, industry and systems challenges. She leverages a multi-disciplinary background in Health Systems, Geographic Information Systems, Public Policy, and Data Science, and works with communities to design, select, implement, and monitor solutions in order to improve outcomes with an emphasis on multi-intervention approaches, interoperability, mixed methods, and Ubuntu. She has worked for organizations including Health Canada, the Canadian Institute for Health Information, and the Royal College of Physicians and Surgeons of Canada. Additional information:</em></p>
+<hr/>
+<p><strong>Wednesday, September 30, 2020 at 9:15 AM PDT</strong></p>
+<h2>Apache Spark Development Lifecycle at Workday</h2>
+<h3>Eren Avsarogullari, Pavel Hardak</h3>
+<p>Apache Spark is the backbone of Workday's Prism Analytics Platform, supporting various data processing use-cases such as Data Ingestion, Preparation(Cleaning, Transformation &amp; Publishing) and Discovery. At Workday, we extend Spark OSS repo and build custom Spark releases covering our custom patches on the top of Spark OSS patches. Custom Spark release development introduces the challenges when supporting multiple Spark versions against to a single repo and dealing with large numbers of customers, each of which can execute their own long-running Spark Applications. When building the custom Spark releases and new Spark features, dedicated Benchmark pipeline is also important to catch performance regression by running the standard TPC-H &amp; TPC-DS queries against to both Spark versions and monitoring Spark driver &amp; executors' runtime behaviors before production. At deployment phase, we also follow progressive roll-out plan leveraged by Feature Toggles used to enable/disable the new Spark features at the runtime. As part of our development lifecycle, Feature Toggles help on various use cases such as selection of Spark compile-time and runtime versions, running test pipelines against to both Spark versions on the build pipeline and supporting progressive roll-out deployment when dealing with large numbers of customers and long-running Spark Applications. On the other hand, executed Spark queries' operation level runtime behaviors are important for debugging and troubleshooting. Incoming Spark release is going to introduce new SQL Rest API exposing executed queries' operation level runtime metrics and we transform them to queryable Hive tables in order to track operation level runtime behaviors per executed query. In the light of these, this session aims to cover Spark feature development lifecycle at Workday by covering custom Spark Upgrade model, Benchmark &amp; Monitoring Pipeline and Spark Runtime Metrics Pipeline details through used patterns and technologies step by step.</p>
+<p><em>Eren Avsarogullari Eren Avsarogullari holds both B.Sc &amp; M.Sc. degrees in Electrical &amp; Electronics Engineering. Currently, he works at Workday on Data Analytics as Data Engineer. His current focus are Apache Spark internals and Distributed System challenges. He is also open source contributor and member at Apache Software Foundation (Contributed</em></p>
+<p><em>Apache Spark, Pulsar, Heron). Pavel Hardak Pavel is Director of Product Management with Workday. He works on Prism Analytics product, focusing on backend technologies, powered by Hadoop and Apache Spark. Pavel is particularly excited about Big Data, cloud, and open source, not necessarily in this order. Before Workday, Pavel was with Basho, the company behind Riak, open-source NoSQL database with Mesos, Spark and Kafka integrations. Earlier, Pavel was with Boundary, which has developed real-time SaaS monitoring solution and was acquired by BMC Corp. Before that, Pavel worked in Product Management and Engineering roles, focusing on Big Data, Cloud, Networking and Analytics, and authored several patents.</em></p>
+<hr/>
+<p><strong>Wednesday, September 30, 2020 at 9:55 AM PDT</strong></p>
+<h2>Build a reliable, efficient and easy-to-use service for Apache Spark at Uber's scale</h2>
+<h3>Nan Zhu, Wei Han</h3>
+<p>As the global platform supporting 14+ million daily trips, Uber leverages huge amounts of data to power decisions like pricing, routing, etc. Spark is the backbone of large-scale batch computing at Uber. Nearly 250K+ Spark applications serve in scenarios like data ingestion, data cleaning/transformation, and machine learning model training/inference, etc. on a daily basis. Running Spark as a service at Uber&rsquo;s scale faces many challenges. (a) reliability is the top priority for us while there are many factors that could cause outages and negative business impact. We build an end-to-end robust solution from job service to the Spark distro as well as the thoughtfully designed integrations with other components in data infrastructure. (b) centralized management of Spark applications is also crucial at Uber&rsquo;s scale. In the past 2-3 years, the Spark ecosystem in Uber has been evolving from a partially managed situation to a service with full-fledged functionalities like monitoring, version management, etc. (c) Processing the massive volume of data in Uber raises challenges against the efficiency of Spark framework itself. We have developed optimizations for nested column pruning, parallel hive table committing implementation, etc. to significantly improve the Spark application performance. In this talk, we will walk through the aforementioned journey in Uber and share the experiences and lessons learned along the way. We hope that this talk can showcase how Apache software serves industry worldwide, help others who face similar challenges, and raise more discussions around the topic.</p>
+<p><em>Nan</em></p>
+<p><em>Nan is Tech Lead of Spark team in Uber. He works on Spark service handling 100s of 1000s of Spark application every day in Uber, and the internal features which scales Spark to handle massive volume of data in Uber. He is also PMC member of XGBoost, one of the most popular machine learning library in both industry and academia.</em></p>
+<p><em>Wei</em></p>
+<p><em>Wei Han is an Engineering Manager, leading a few teams in Uber&rsquo;s data platform org, including Spark platform, Data security and Compliance, Privacy platform, and File Format(Apache Parquet)</em></p>
+<hr/>
+<p><strong>Wednesday, September 30, 2020 at 10:35 AM PDT</strong></p>
+<h2>Project Optimum: Spark Performance at LinkedIn Scale</h2>
+<h3>Yuval Degani</h3>
+<p>A typical day for Spark at LinkedIn means running 35 million RAM-GB-hours, on top of 7 million CPU-core-hours of 20,000 unique applications. Maintaining predictable performance and SLAs, as-well-as optimizing performance across a complex infrastructure stack and a massive application base, all while keeping up with a 4x YoY workload growth is an immense challenge. Project Optimum addresses those needs by providing a set of performance analysis, reporting, profiling, and regression detection tools designed for a massive-scale production environment. It allows platform developers as-well-as application developers to detect even subtle regressions or improvements in application performance with a limited sample set, using a statistically-rigorous approach that can be automated and integrated into production monitoring systems. In this talk, we will cover how Project Optimum is used at LinkedIn to scale our Spark infrastructure while providing a reliable production environment. We will demonstrate its role as an ad-hoc performance debugging and profiling tool, an automatic regression detection tracking pipeline, and an elaborate reporting system geared towards providing users with insights about their jobs.</p>
+<p><em>Yuval is a Staff Software Engineer at Linkedin, where he is focused on scaling and developing new features for Hadoop and Spark. Before that, Yuval was a Sr. Engineering Manager at Mellanox Technologies, leading a team working on introducing network acceleration technologies to Big Data and Machine Learning frameworks. Prior to his work in the Big Data and AI fields, Yuval was a developer, an architect, and later a team leader in the areas of low-level kernel development for cutting-edge high-performance network devices. Yuval holds a BSc in Computer Science from the Technion Institute of Technology, Israel.</em></p>
+<hr/>
+<p><strong>Wednesday, September 30, 2020 at 11:15 AM PDT</strong></p>
+<h2>Secure your Big Data Cloud cluster with SDX (Ranger, Atlas, Knox, HMS)</h2>
+<h3>Deepak Sharma</h3>
+<p>Security is very important aspect whether it is onprem or cloud infrastructure. we are here to discuss about how can we secure our DWX/Data science/Data mart cluster with SDX/Data lake. Data Lake security and governance is managed by a shared set of services referred to as a Data Lake cluster. A Data Lake cluster includes the following services: Hive MetaStore (HMS) -- table metadata Apache Ranger -- fine-grained authorization policies, auditing Apache Atlas -- metadata management and governance: lineage, analytics, attributes Apache Knox: Authenticating Proxy for Web UIs and HTTP APIs -- SSO IDBroker -- identity federation; cloud credentials this talk will explain how can we secure multiple workload using single/shared datalake and what are the configuration we need to take care, and how each of the apache open source component like Ranger, atlas, knox helps in this case.</p>
+<p><em>Deepak Sharma, Apache Ranger Committer Senior Software Engineer, Cloudera.</em></p>
+<hr/>
+<p><strong>Wednesday, September 30, 2020 at 11:55 AM PDT</strong></p>
+<h2>Extracting Patient Narrative from Clinical Notes : Implementing Apache Ctakes at scale using Apache Spark</h2>
+<h3>Debdipto Misra</h3>
+<p>Patient notes not only document patient history and clinical conditions but are rich in contextual data and are usually more reliable sources of medical information compared to discrete values in the Electronic Health Record (EHR). For a medium-sized integrated Health System like Geisinger this amounts to approximately fifty thousand notes each day. For information extraction on retrospective data, the volume can run into millions of notes depending on the selection criteria. This talk describes the journey taken by the Data Science Team at Geisinger to implement a distributed pipeline which uses Apache Ctakes as the Natural Language Processing (NLP) Engine to annotate notes across the entire spectrum of patient care. From re-writing certain components in the Ctakes engine to architecting data store and pipeline optimization for a better throughput, this talk delves into various technical difficulties faced while aspiring to truly do NLP at scale on clinical notes. Towards the end, the talk also demonstrates few usecases and how using Ctakes has helped clinicians and stakeholders to extract patient narratives from patient notes using Apache Solr and Banana.</p>
+<p><em>Debdipto Misra is a Data Scientist with Geisinger Health. Previously, he worked with AOL Inc. as a Platform Engineer in Audience Analytics and with EMC Corp. as a Systems Engineer. He has worked in the Data Mining and Analytics space for over half a decade. He won a fellowship and presented the &ldquo;Evolution of Prosthetics using Pattern Recognition on Ultrasound Signals&rdquo; at the 2014 IEEE Big Data Conference in Washington, DC. He has also published at multiple journals and presented at healthcare conferences like HIMSS. Currently,his main focus is on building capacity planning tools for healthcare organizations for bed-supply demand using various deep learning approaches and integrating it with patient notes.</em></p>
+<hr/>
+<p><strong>Wednesday, September 30, 2020 at 12:35 PM PDT</strong></p>
+<h2>Zeus: Uber&rsquo;s Highly Scalable and Distributed Shuffle as a Service</h2>
+<h3>Mayank Bansal, Bo Yang</h3>
+<p>Zeus is an efficient, highly scalable and distributed shuffle as a service which is powering all Data processing (Spark and Hive) at Uber. Uber runs one of the largest Spark and Hive clusters on top of YARN in industry which leads to many issues such as hardware failures (Burn out Disks), reliability and scalability challenges. Zeus is built ground up to support hundreds of thousands of jobs and millions of containers which shuffles petabytes of shuffle data. Zeus has changed the paradigm of current external shuffle which resulted in far better performance for shuffle. Although the shuffle data is getting written Remote, the performance is better or the same for most of the Jobs. In this talk we&rsquo;ll take a deep dive into the Zeus architecture and describe how it&rsquo;s deployed at Uber. We will then describe how it&rsquo;s integrated to run shuffle for Spark, and contrast it with Spark&rsquo;s built-in sort-based shuffle mechanism. We will also talk about future roadmap and plans for Zeus.</p>
+<p><em>Mayank</em></p>
+<p><em>Mayank</em></p>
+<p><em>Bansal is currently working as a</em></p>
+<p><em>Staff engineer at</em></p>
+<p><em>Uber in data infrastructure team.</em></p>
+<p><em>He is co-author of</em></p>
+<p><em>Peloton.</em></p>
+<p><em>He is</em></p>
+<p><em>Apache</em></p>
+<p><em>Hadoop</em></p>
+<p><em>Committer and</em></p>
+<p><em>Oozie</em></p>
+<p><em>PMC and</em></p>
+<p><em>Committer.</em></p>
+<p><em>Previously he was working at ebay in hadoop platform team leading</em></p>
+<p><em>YARN and</em></p>
+<p><em>MapReduce effort.</em></p>
+<p><em>Prior to that he was working at</em></p>
+<p><em>Yahoo and worked on</em></p>
+<p><em>Oozie.</em></p>
+<p><em>Bo</em></p>
+<p><em>Bo is Sr. Software Engineer II in Uber and working on Spark team. In the past he worked on many streaming technologies.</em></p>
+<hr/>
+<p><strong>Thursday, October 1, 2020 at 9:55 AM PDT</strong></p>
+<h2>Flink SQL in 2020: Time to show off!</h2>
+<h3>Timo Walther</h3>
+<p>Four years ago, the Apache Flink community started adding SQL support to ease and unify the processing of static and streaming data. Today, Flink runs business critical batch and streaming SQL queries at Alibaba, Huawei, Lyft, Uber, Yelp, and many others. Although the community made significant progress in the past years, there are still many things on the roadmap and the development is still speeding up. In the past months, several significant improvements and extensions were added including support for DDL statements, refactorings of the type system and the catalog interface, as well as Apache Hive integration. Since it is difficult to follow all development efforts that happen around Flink SQL and its ecosystem, it is time for an update. This session will focus on a comprehensive demo of what is possible with Flink SQL in 2020. Based on a realistic use case scenario, we'll show how to define tables which are backed by various storage systems and how to solve common tasks with streaming SQL queries. We will demonstrate Flink's Hive integration and show how to define and use user-defined functions. We'll close the session with an outlook of upcoming features.</p>
+<p><em>Timo Walther is a committer and PMC member of the Apache Flink project. He studied Computer Science at TU Berlin. Alongside his studies, he participated in the Database Systems and Information Management Group there and worked at IBM Germany. Timo joined the project before it became part of the Apache Software Foundation. Today he works as a senior software engineer at Ververica. In Flink, he is mainly working on the Table &amp; SQL ecosystem.</em></p>
+<hr/>
+<p><strong>Thursday, October 1, 2020 at 10:35 AM PDT</strong></p>
+<h2>Stepping towards Bigdata on ARM</h2>
+<h3>Vinayakumar B, Liu Sheng</h3>
+<p>We find ARM processors in most devices around us always. ARM processors are mostly used today in small devices due to their power efficiency and reduced cost. But until few years back, ARM processors were found in only small devices. In recent years, since major OS providers are supporting ARM processors, ARM ecosystem is stepping into server class business as well. Now since major cloud providers started providing instances based on ARM, with far less price of-course, many businesses moving towards using ARM processors for the deployment. Major factors for considering the deployment environment for any business are Cost and Performance. ARM being cheaper (upto ~50%) than x86, reduces the overall cost of deployment and maintainance for horizontally scalable business deployments. So what about Bigdata workloads on ARM? Bigdata components are mostly scalable. They will benefit from this model as well, provided they support deployment on ARM. This talk, discusses about such initiative to support deployment and optimizations on ARM servers of Major bigdata components and reduce the total cost of deployment and management for the user. This includes contributions done in various apache projects like, Hadoop, Spark, Hive, HBase, Kudu, Impala, to support deployments on ARM nodes and optimizations for ARM processor. Finally, shows some benchmark results in ARM and x86 deployments.</p>
+<p><em>Vinayakumar B, having vast experience with Hadoop for 10+ years. Focuses on improvements in and around Hadoop and Big-Data. Contributing to Hadoop community from 8+ years, and currently a</em></p>
+<p><em>Committer and member of</em></p>
+<p><em>Apache</em></p>
+<p><em>Hadoop</em></p>
+<p><em>PMC.</em></p>
+<p><em>Liu</em></p>
+<p><em>LiuSheng, Focusing on promoting opensource projects in Big-Data components running on ARM platform. Contributed towards building ARM CI for Hadoop community and others. Currently working on ARM support for Kudu project</em></p>
+<hr/>
+<p><strong>Thursday, October 1, 2020 at 11:15 AM PDT</strong></p>
+<h2>Managing Transaction on Ethereum with Apache Airflow</h2>
+<h3>Michael Ghen</h3>
+<p>Apache Airflow is a Python-based workflow management system that can be used to actively monitor and execute transactions on blockchain networks like Ethereum. This presentation is an introduction to Apache Airflow followed by a demonstration of a production deployment. Apache Airflow is an excellent tool for anyone already familiar with Python. Its ability to process jobs and handle errors makes it a good choice tool for managing activity on blockchain networks. The goal of this talk is to demonstrate how Apache Airflow can be used for environmental scanning and batch processing transactions. The demonstration will cover using Airflow and Python for monitoring and executing ERC20 token transactions on the Ethereum blockchain.</p>
+<p><em>Michael Ghen is a computer engineer from Philadelphia that has contributed to Apache Airflow and Apache Unomi. He has a B.S. in computer engineering from Pennsylvania State University and an M.S. in analytics from Brandeis. Currently, he is a GAANN Cybersecurity Fellow at Drexel where he is pursuing a Ph.D. in electrical engineering. He previously served as a data architect and engineer at start-ups and non-profits where he used Apache Airflow to build data pipelines.</em></p>
+<hr/>
+<p><strong>Thursday, October 1, 2020 at 11:55 AM PDT</strong></p>
+<h2>After NoSQL discover CloudSQL databases</h2>
+<h3>Romain Manni-Bucau, Enrico Olivelli</h3>
+<p>Application without persistence are rare and since some years the persistence layer is changing a lot. After years where SQL databases where the only ones, we saw NoSQL popping up bringing new concepts. More recently, the cloud changed again our paradigms with distributed computing and microservices. However, even with these brand new solutions, we still lack the flexibility of the SQL in terms of evolutivity and tooling. This is where HerdDB is entering into the game. Built as a SQL database, its foundations are Apache BookKeeper (bookie for close friends) and Apache Calcite. Therefore it brings to our architecture new solutions. This talk will first go through the challenges which led to creating HerdDB, then how it is designed and why it merges the best of both NoSQL and SQL worlds and finally we will illustrate its usage by two applications using very different deployment modes (from plain old bare metal to Kubernetes) using Apache Meecrowave and Geronimo Microprofile Stack.</p>
+<p><em>Romain</em></p>
+<p><em>Joined the Apache EE family (OpenWebBeans, Meecrowave, Johnzon, BatchEE...) in 2011.</em></p>
+<p><em>My goal is to make development a detail of an idea becoming reality.</em></p>
+<p><em>Enrico</em></p>
+<p><em>Software Developer Manager at <a href="https://MagNews.com">https://MagNews.com</a> and <a href="https://EmailSuccess.com">https://EmailSuccess.com</a>. PMC in Apache BookKeeper,ZooKeeper,Curator, Committer in Maven. OpenSource/ASF Enthusiast Initial creator of other OpenSource projects:HerdDB,BlazingCache,BlobIt</em></p>
+<hr/>
+<p><strong>Thursday, October 1, 2020 at 12:35 PM PDT</strong></p>
+<h2>Apache Big-Data meets Cloud-Native and Kubernetes</h2>
+<h3>M&aacute;rton Elek</h3>
+<p>Apache big-data projects / the Hadoop ecosystem is widely adopted and very popular so the Kubernetes / Cloud-native tools. Surprisingly there are only a very minimal number of projects in the intersection of the two words. This presentation explains why could it be, shows the key problems to run Apache Big-Data projects (such as Hadoop, Kafka, Flink, Spark...) on Kubernetes and gives a demo of a possible solution.</p>
+<p><em>Marton Elek is PMC in Apache Hadoop and Apache Ratis projects and working on the Apache Hadoop Ozone at Cloudera. Ozone is a new Hadoop sub-project which provides an S3 compatible Object Store for Hadoop on top of a new generalized binary storage layer. He is also working on the containerization of Hadoop and creating different solutions to run Apache Big Data projects in Kubernetes and other could native environments.</em></p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        // Smooth scroll for in-page navigation
+        const navContainer = document.getElementById('in-page-nav');
+        if(navContainer) {
+            document.addEventListener('DOMContentLoaded', function() {
+                // generate in-page navigation based on h2
+                const content = document.querySelector('.event-content');
+                const headings = content.querySelectorAll('h2');
+                const nav = document.getElementById('in-page-nav');
+                if (headings.length > 0) {
+                    const navList = document.createElement('ul');
+                    headings.forEach(heading => {
+                        const id = heading.textContent.trim().toLowerCase().replace(/\s+/g, '-');
+                        heading.setAttribute('id', id);
+                        const navItem = document.createElement('li');
+                        const navLink = document.createElement('a');
+                        navLink.setAttribute('href', `#${id}`);
+                        navLink.textContent = heading.textContent;
+                        navItem.appendChild(navLink);
+                        navList.appendChild(navItem);
+                    });
+                    nav.appendChild(navList);
+                }
+
+                const links = document.querySelectorAll('#in-page-nav a');
+                links.forEach(link => {
+                    link.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        // in this loop, 'this' refers to the clicked link
+                        // add class of current-section to the clicked link and remove from others
+                        links.forEach(l => l.classList.remove('current-section'));
+                        this.classList.add('current-section');
+                        const targetId = this.getAttribute('href').substring(1);
+                        const targetElement = document.getElementById(targetId);
+                        if (targetElement) {
+                            window.scrollTo({
+                                top: targetElement.offsetTop - 100, // Adjust for fixed header
+                                behavior: 'smooth'
+                            });
+                        }
+                    });
+                });
+
+                // Highlight the current section in the navigation as the user scrolls
+                window.addEventListener('scroll', function() {
+                    let currentSection = '';
+                    headings.forEach(heading => {
+                        const sectionTop = heading.offsetTop - 150; // Adjust for fixed header
+                        if (window.scrollY >= sectionTop) {
+                            currentSection = heading.getAttribute('id');
+                        }
+                    });
+                    links.forEach(link => {
+                        link.classList.remove('current-section');
+                        if (link.getAttribute('href').substring(1) === currentSection) {
+                            link.classList.add('current-section');
+                        }
+                    });
+                });
+            });
+        }
+    </script>
+    <!-- Footer -->
+        <div class="footer-top-border"></div>
+        <footer>
+            <div class="inner py-large flex flex-gap-50 flex-col-reverse-800">
+                <div class="flex flex-column flex-gap-20 flex-1 text-white text-center-800">
+                   <img src="/images/logos/CommunityOverCode_Logo_stacked-white.webp" width="200" alt="Apache Software Foundation" class="footer-logo">
+                   <p>The Apache® Software Foundation (The ASF) provides software for the public good, guided by community over code. Learn more at apache.org.</p>
+                   <p>Apache and the Apache logo are trademarks of The Apache Software Foundation.</p>
+                   <p>The Apache® Software Foundation is a 501(c)(3) nonprofit organization. Tax ID # 47-0825376</p>
+                   <div class="social-icons">
+                        <a target="_blank" href="http://s.apache.org/apachecon-slack"><img src="/images/slack-icon.svg" alt="slack icon"></a>
+                        <a target="_blank" href="https://github.com/apache"><img src="/images/github-mark-white.svg" alt="github icon"></a>
+                        <a target="_blank" href="https://www.linkedin.com/company/the-apache-software-foundation/"><img src="/images/linkedin-icon.png" alt="linkedIn icon"></a>
+                        <a target="_blank" href="https://www.youtube.com/@communityovercode"><img src="/images/youtube-icon.svg" alt="youtube icon"></a>
+                        <a target="_blank" href="https://twitter.com/TheASF"><img src="/images/x-icon.svg" alt="X icon"></a>
+                        <a target="_blank" href="https://bsky.app/profile/apache.org"><img src="/images/bluesky-icon.png" alt="Bluesky icon"></a>
+                        <a target="_blank" href="https://fosstodon.org/@TheASF" rel="me"><img src="/images/mastodon-icon.png" alt="Mastodon icon"></a>
+                </div>
+                </div>
+                <div class="flex flex-column flex-gap-20 flex-1">
+                    <nav class="footer-nav">
+                        <ul class="flex flex-column flex-gap-10 text-center-800 ">
+                            <li><a href="/events">Events</a></li>
+                            <li><a href="https://news.apache.org/foundation/entry/category/events">News</a></li>
+                            <li><a href="/about#contact-section">Contact</a></li>
+                            <li><a href="/code-of-conduct">Code of Conduct</a></li>
+                            <li><a href="https://privacy.apache.org/policies/privacy-policy-public.html">Privacy Policy</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="flex flex-column flex-gap-20 footer-events flex-1">
+                    <h2 class="text-heading-light text-center-800">ASF Events</h2>
+                        <div class="card card--footer">
+                            <a href="/events/glasgow-2026">
+                                <div class="card-inner flex flex-column">
+                                    <div class="event-card__date">October 11-14, 2026</div>
+                                    <h4>Community Over Code Glasgow 2026</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card card--footer">
+                            <a href="/events/sydney-2026">
+                                <div class="card-inner flex flex-column">
+                                    <div class="event-card__date">November 18-19, 2026</div>
+                                    <h4>Community Over Code Sydney 2026</h4>
+                                </div>
+                            </a>
+                        </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+
+

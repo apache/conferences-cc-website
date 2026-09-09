@@ -26,7 +26,7 @@
     <meta name="msapplication-config" content="/favicons/browserconfig.xml">
     <meta name="theme-color" content="#282661">
 
-    <title>Observability | Community Over Code</title>
+    <title>Apache OpenOffice Track | Community Over Code</title>
     <link href="/fonts/Montserrat-300-600-800.css" async rel="stylesheet">
     <link href="/css/styles.css" async rel="stylesheet">
     <script src="https://www.apachecon.com/event-images/snippet.js" async></script>
@@ -34,7 +34,7 @@
     <script src="/js/jquery.min.js"></script>
     <script src="/js/init.js"></script>
 </head>
-<body   class="body-apachecon-home-2021" >
+<body   class="body-apachecon-home-2020" >
     <header id="header-main">
          <div class="inner relative z1 flex flex-space-between flex-vert-center">
             <a href="/" class="logo">
@@ -49,10 +49,8 @@
 
 <nav>
     <ul class="flex">
-        <li><a href="/events/apachecon-home-2021">Home</a></li>
-        
-         <li><a href="/events/apachecon-home-2021/tracks">Schedule</a></li>
-         <li><a href="/events/apachecon-home-2021/sponsorship">Sponsorship</a></li>
+        <li><a href="/events/apachecon-home-2020">Home</a></li>
+        <li><a href="/events/apachecon-home-2020/tracks">Schedule</a></li>
     </ul>
 </nav>    </header>
 
@@ -63,15 +61,15 @@
             <div class="inner flex flex-vert-center py-xl relative z1 flex-gap-50 flex-col-reverse-800">
                 <div class="hero__content flex-1">
                     <h1 class="hero__title">
-                        Observability
+                        Apache OpenOffice Track
                     </h1>
-                        <div class="hero-event-dates">September 21-23, 2021</div>
+                        <div class="hero-event-dates">September 28 - October 1, 2020</div>
                     <h2 class="hero__default-subtitle">
                             <span class="hero__subtitle"> Online</span>
                     </h2>
                 </div>
                 <div class="hero__logo flex-1">
-                        <img src="/images/logos/CommunityOverCode_Logo_stacked-color.svg" alt="Observability logo" class="hero__logo-image">
+                        <img src="/images/logos/CommunityOverCode_Logo_stacked-color.svg" alt="Apache OpenOffice Track logo" class="hero__logo-image">
                 </div>
             </div>
         </div>
@@ -79,53 +77,48 @@
         <div class="inner py-xl">
             <div class="mb-medium cf">
                 <div class="float66 right" style="padding-left: 50px;">
-                    <a class="breadcrumb" href="/events/apachecon-home-2021"><svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><polyline points="15 18 9 12 15 6"></polyline></svg> Back to Event Home</a>
+                    <a class="breadcrumb" href="/events/apachecon-home-2020"><svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><polyline points="15 18 9 12 15 6"></polyline></svg> Back to Event Home</a>
                 </div>
             </div>
             <div class="cf flex-col-800">
                     <div class="float33 full-width-800">&nbsp;</div>
                 <div class="float66 event-content">
                         <hr/>
-<p><strong>Tuesday 14:10 UTC</strong></p>
-<h2>End User Tracing in a SkyWalking-Observed Browser</h2>
-<h3>Qiuxia Fan</h3>
-<p>Introduction the background of observation browser and SkyWalking browser monitoring.
-How the SkyWalking browser monitoring extends its monitoring to include the browser, providing performance metrics and error collection to the SkyWalking backend.
-Make the Browser the Starting Point for Distributed Tracing.</p>
-<p><em>Qiuxia Fan is an Engineer, Skywalking PMC, and Apache committer. Ex-Alibaba Cloud and ex-Didi senior developer.</em></p>
+<p><strong>Wednesday, September 30, 2020 at 9:15 AM PDT</strong></p>
+<h2>Apache OpenOffice the Schr&ouml;dinger App - Quo vadis?</h2>
+<h3>Peter (petko) Kovacs</h3>
+<p>This talk will be a general talk on the situation on the Apache OpenOffice project. I will outline the situation where we are today. Outline a bit the difficulties we have moving to the future. To understand the title see Clabuurn's article at <a href="https://www.theregister.com/2018/10/10/apache_open_office_not_dead/">https://www.theregister.com/2018/10/10/apache_open_office_not_dead/</a> ) Measure position - A short summary on current project state Messure the speed - what is underway and where we go. the project blur effect - A short view on our difficulties and Gaps that we have</p>
+<p><em>Joined AOO in Sept 2016 Commiter in 2017, PMC Memeber in 2017 Chairman at end of 2017 ASF Memember in 2018 ASF Emeritus in end of 2019 Freetime Volunteer</em></p>
 <hr/>
-<p><strong>Tuesday 15:00 UTC</strong></p>
-<h2>Getting back to sleep as soon as possible for the on-call developer</h2>
-<h3>Shai Almog</h3>
-<p>It&rsquo;s the middle of the night, and there&rsquo;s much ado about nothing. Well, not quite about nothing - there&rsquo;s definitely something happening: one of the services your team owns is crashing. And by crashing, I mean sometimes crashing. It&rsquo;s not really that bad, but it&rsquo;s bad enough for the floodgates to open and for the DevOps folks to lose their marbles and ping you relentlessly on Slack. Ping. Ping. Ping.
-This talk is all about that feeling, and what we can do to make the whole situation suck less when it inevitably comes up again. We will walk through a close-to-real life incident from the perspective of the on-call developer, and discuss practical and technical steps developers can take to increase observability while on-call (even when a serious, hard to debug issue arises).</p>
-<p><em>Shai is a developer Advocate at Lightrun, Co-Founder of Codename One, Java Rockstar, Speaker, Author, Blogger, open source hacker. He's been developing software professionally for ~30 years in a multitude of platforms/languages. Shai has extensive experience in the full stack of backend, desktop, and mobile. This includes going all the way into the internals of VM implementation, debuggers etc. Shai started working with Java in 96 (the first public beta) and later on moved to VM porting/authoring/internals and development tools. He worked for over a decade as a consultant where he advised over 100 companies focusing on Java enterprise, internals, and more.</em></p>
+<p><strong>Wednesday, September 30, 2020 at 9:55 AM PDT</strong></p>
+<h2>Streiflichter eines langen Weges</h2>
+<h3>Michael Stehmann</h3>
+<p>Some highlights of the long history of OpenOffice, a nearly 20 years old project, which is an Apache top level project since nearly 8 years. The focus is on the german community and the language of the talk will be also german.</p>
+<p><em>member of the germanophone community of OpenOffice.org, initial committer of Apache OpenOffice, member of the PMC of Apache OpenOffice, author of an extention for Apache OpenOffice for german lawyers, former fellow of the FSFE, ,member of the legal network of FSFE, cofounder of Freie Software Freunde e. V., recent chair person of this charitable organisation, Debian user since 2002</em></p>
 <hr/>
-<p><strong>Tuesday 15:50 UTC</strong></p>
-<h2>Un-breaking production bugs with non-breaking breakpoints</h2>
-<h3>Brandon Fergerson</h3>
-<p>Debugging in production doesn't have to be dangerous. In this talk, we will see how continuous feedback tools such as SourceMarker can be used to debug production applications safely using instruments known as "non-breaking breakpoints". While seemingly contradictory, non-breaking breakpoints are simple to use and operate similarly to conventional breakpoints. The key difference being these breakpoints are "non-breaking", meaning they will not halt a program's execution, and are specifically designed to run harmlessly in production. Tune in to this talk and see how we can debug a live application and un-break some bugs with non-breaking breakpoints.</p>
-<p><em>Brandon Fergerson is an open-source software developer who does not regard himself as a specialist in the field of programming, but rather as someone who is a devoted admirer. He discovered the beauty of programming at a young age and views programming as an art and those who do it well to be artists. He has an affinity towards getting meta and combining that with admiration of programming, has found source code analysis to be exceptionally interesting. Lately, his primary focus involves researching and building AI-based pair programming technology.</em></p>
+<p><strong>Wednesday, September 30, 2020 at 10:35 AM PDT</strong></p>
+<h2>Building Apache OpenOffice on MacOS</h2>
+<h3>Jim Jagielski</h3>
+<p>A talk about building Apache OpenOffice on MacOS.</p>
+<p><em>Jim Jagielski is a well-known and acknowledged expert and visionary in open source, an accomplished coder, and frequent engaging presenter on all things open, web, and cloud related. As a developer, he&rsquo;s made substantial code contributions to just about every core technology behind the internet and web and in 2012 was awarded the O&rsquo;Reilly Open Source Award. In 2015, he received the Innovation Luminary Award from the EU. He is likely best known as one of the developers and cofounders of the Apache Software Foundation, where he has previously served as both chairman and president and where he&rsquo;s been on the board of directors since day one. He&rsquo;s served as president of the Outercurve Foundation and was also a director of the Open Source Initiative (OSI). He works at Uber in their Open Source Program Office. He credits his wife Eileen with keeping him sane.</em></p>
 <hr/>
-<p><strong>Tuesday 17:10 UTC</strong></p>
-<h2>The journey of migration between Apache SkyWalking and Service Mesh</h2>
-<h3>Rei Shimizu</h3>
-<p>Today is the era of microservices which is adopted widely in the world. Service Mesh is the first choice to overcome largely evolved microservices platforms, it provides common infrastructures to compose the distributed, highly scalable services such as monitoring, routing, rate-limiting, mutual TLS, and so on. Istio is the first solution to compose the Service Mesh system. Istio is composed of Envoy, which is the proxy optimized for Cloud-Native environment, as a data plane, it handles all east-west traffic on microservices. We can utilize Envoy as distributed tracing agent for Service Mesh observability. But Apache SkyWalking hadn't been available for a long time on Envoy. In this session, we will provide the journey of migration between Apacne SkyWalking and Service Mesh ecosystem from developing C++ native Apache SkyWalking SDK to provide features to utilize Apache SkyWalking as a tracing provider on Istio.</p>
-<p><em>Rei Shimizu is a graduate student and Envoy/Istio contributor.</em></p>
+<p><strong>Wednesday, September 30, 2020 at 10:35 AM PDT</strong></p>
+<h2>Translation of an application - How does it work</h2>
+<h3>Mechtilde Stehmann</h3>
+<p>In this talk I will show the steps which are need for the translation of Apache OpenOffice. This is an example to do a translation of a very big project, too. The translation is done at a Pootle Server hosted by ASF. Most steps are automated by scripts to handle the translation. Nearly 550000 strings in more than 60 languages</p>
+<p><em>Part of the project since 2005 (former OpenOffice.org) Working on translation, qa and the base modul.</em></p>
 <hr/>
-<p><strong>Tuesday 18:00 UTC</strong></p>
-<h2>BanyanDB: A Purpose-Built Observability database</h2>
-<h3>Hongtao Gao</h3>
-<p>BanyanDB, as an observability database, aims to ingest, analyze and store Metrics, Tracing, and Logging data. It's designed to handle observability data generated by Apache SkyWalking. Before BanyanDB emerges, the Databases that SkyWalking is using are not ideal for the APM data model, especially for saving tracing and logging data. Consequently, There&rsquo;s room to improve the performance and resource usage based on the nature of SkyWalking data patterns.
-The database research community usually uses RUM conjecture to describe how a database access data. In this talk, I will share the details about BanyanDB based on this conjecture, explaining why BanyanDB is more effective and reliable than other storage layers.</p>
-<p><em>Hongtao Gao is the founding engineer of tetrate.io and the former Huawei Cloud expert. One of PMC members of Apache SkyWalking and participates in some popular open-source projects such as Apache ShardingSphere and Elastic-Job. He has an in-depth understanding of distributed databases, container scheduling, microservices, ServicMesh, and other technologies.</em></p>
+<p><strong>Wednesday, September 30, 2020 at 11:15 AM PDT</strong></p>
+<h2>OpenOffice UNO Programming with Groovy</h2>
+<h3>Carl Marcum</h3>
+<p>The talk will discuss using the Apache Groovy programming language with Apache OpenOffice UNO API's and some associated projects that allow this to happen. Projects include the Groovy UNO Extension that adds convenience methods to the OpenOffice API's allowing less coding, an OpenOffice Extension that adds Groovy as a macro language to the office, and an associated extension to add sample macros to the office written in Groovy. Examples of usages like Groovy scripts as OpenOffice client applications, OpenOffice macros in Groovy, and a compiled OpenOffice extension application in Groovy.</p>
+<p><em>Software developer and Open Source enthusiast. Owner of Code Builders, LLC specializing in Java-based technologies including Apache Groovy language and the Grails framework for web applications. Apache OpenOffice committer and PMC member. Currently serving as VP OpenOffice. Sun Certified Java Programmer.</em></p>
 <hr/>
-<p><strong>Tuesday 18:50 UTC</strong></p>
-<h2>Observability in Nginx: Apache APISIX it is</h2>
-<h3>Ming Wen</h3>
-<p>Nginx can only obtain observable data by accessing logs, which not only consumes more resources, but is also not good in real-time and flexibility, and does not meet the requirements of a cloud native environment.
-Apache APISIX provides another solution, through a fully dynamic API interface, and skywalking's APM capability, it provides a better alternative for the original nginx users.</p>
-<p><em>Ming Wen is CEO of api7.ai and Apache APISIX PMC chair.</em></p>
+<p><strong>Thursday, October 1, 2020 at 9:15 AM PDT</strong></p>
+<h2>OpenOffice on the Web</h2>
+<h3>Dave Fisher</h3>
+<p>A talk about our Website Infrastructure. - openoffice.org - forum.openoffice.org - wiki.openoffice.org - confluence wikis - bugzilla - mailing lists</p>
+<p><em>Dave has been a member of the Apache OpenOffice PMC since OpenOffice.org started Incubation at the ASF. He ported ported the OpenOffice.org website to the Apache CMS and has helped with Sysadmin tasks with the Forums.</em></p>
 
                 </div>
             </div>

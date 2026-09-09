@@ -26,7 +26,7 @@
     <meta name="msapplication-config" content="/favicons/browserconfig.xml">
     <meta name="theme-color" content="#282661">
 
-    <title>Observability | Community Over Code</title>
+    <title>Apache httpd and the Web Track | Community Over Code</title>
     <link href="/fonts/Montserrat-300-600-800.css" async rel="stylesheet">
     <link href="/css/styles.css" async rel="stylesheet">
     <script src="https://www.apachecon.com/event-images/snippet.js" async></script>
@@ -34,7 +34,7 @@
     <script src="/js/jquery.min.js"></script>
     <script src="/js/init.js"></script>
 </head>
-<body   class="body-apachecon-home-2021" >
+<body   class="body-apachecon-home-2020" >
     <header id="header-main">
          <div class="inner relative z1 flex flex-space-between flex-vert-center">
             <a href="/" class="logo">
@@ -49,10 +49,8 @@
 
 <nav>
     <ul class="flex">
-        <li><a href="/events/apachecon-home-2021">Home</a></li>
-        
-         <li><a href="/events/apachecon-home-2021/tracks">Schedule</a></li>
-         <li><a href="/events/apachecon-home-2021/sponsorship">Sponsorship</a></li>
+        <li><a href="/events/apachecon-home-2020">Home</a></li>
+        <li><a href="/events/apachecon-home-2020/tracks">Schedule</a></li>
     </ul>
 </nav>    </header>
 
@@ -63,15 +61,15 @@
             <div class="inner flex flex-vert-center py-xl relative z1 flex-gap-50 flex-col-reverse-800">
                 <div class="hero__content flex-1">
                     <h1 class="hero__title">
-                        Observability
+                        Apache httpd and the Web Track
                     </h1>
-                        <div class="hero-event-dates">September 21-23, 2021</div>
+                        <div class="hero-event-dates">September 28 - October 1, 2020</div>
                     <h2 class="hero__default-subtitle">
                             <span class="hero__subtitle"> Online</span>
                     </h2>
                 </div>
                 <div class="hero__logo flex-1">
-                        <img src="/images/logos/CommunityOverCode_Logo_stacked-color.svg" alt="Observability logo" class="hero__logo-image">
+                        <img src="/images/logos/CommunityOverCode_Logo_stacked-color.svg" alt="Apache httpd and the Web Track logo" class="hero__logo-image">
                 </div>
             </div>
         </div>
@@ -79,53 +77,45 @@
         <div class="inner py-xl">
             <div class="mb-medium cf">
                 <div class="float66 right" style="padding-left: 50px;">
-                    <a class="breadcrumb" href="/events/apachecon-home-2021"><svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><polyline points="15 18 9 12 15 6"></polyline></svg> Back to Event Home</a>
+                    <a class="breadcrumb" href="/events/apachecon-home-2020"><svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><polyline points="15 18 9 12 15 6"></polyline></svg> Back to Event Home</a>
                 </div>
             </div>
             <div class="cf flex-col-800">
                     <div class="float33 full-width-800">&nbsp;</div>
                 <div class="float66 event-content">
                         <hr/>
-<p><strong>Tuesday 14:10 UTC</strong></p>
-<h2>End User Tracing in a SkyWalking-Observed Browser</h2>
-<h3>Qiuxia Fan</h3>
-<p>Introduction the background of observation browser and SkyWalking browser monitoring.
-How the SkyWalking browser monitoring extends its monitoring to include the browser, providing performance metrics and error collection to the SkyWalking backend.
-Make the Browser the Starting Point for Distributed Tracing.</p>
-<p><em>Qiuxia Fan is an Engineer, Skywalking PMC, and Apache committer. Ex-Alibaba Cloud and ex-Didi senior developer.</em></p>
+<p><strong>Wednesday, September 30, 2020 at 9:15 AM PDT</strong></p>
+<h2>Apache's 25th Anniversary: a timeline of The Apache HTTP Server</h2>
+<h3>Jim Jagielski, Nick Vidal</h3>
+<p>This year, the Apache HTTP Server Project celebrates its 25th Anniversary. In February 1995, a small group of webmasters known as the Apache Group came together with the goal of releasing a common distribution based on multiple "patches" to the NCSA HTTPd Server. The first public release of Apache was in April 1995 and, after a major re-architecture, Apache 1.0 was officially released in December 1995. Apache rapidly grew to become the most popular server on the Internet, playing a key role in the growth of the World Wide Web and Open Source. The goal of this talk to present a timeline of the Apache HTTP Server Project, highlighting the most important milestones of this amazing software and community.</p>
+<p><em>Jim</em></p>
+<p><em>Jim is a well known and acknowledged expert and visionary in Open Source and IT, an accomplished coder (in numerous languages) and frequent presenter/interviewee/consultant on all things Web and Cloud related. He is best known as one of the developers and co-founders of the Apache Software Foundation and has served as President and Chairman. He also served on the board, as well as President, for the Outercurve Foundation and was a director for the Open Source Initiative (OSI). Jim works for Uber as their Head of Open Source, after stints at ConsenSys, Capital One, Red Hat, VMware, and others.</em></p>
+<p><em>Nick</em></p>
+<p><em>Nick Vidal has been an open source advocate for over 15 years. He helped the Open Source Initiative to celebrate the "20th Anniversary of Open Source" by organizing 100 activities across 40 major open source events worldwide.</em></p>
 <hr/>
-<p><strong>Tuesday 15:00 UTC</strong></p>
-<h2>Getting back to sleep as soon as possible for the on-call developer</h2>
-<h3>Shai Almog</h3>
-<p>It&rsquo;s the middle of the night, and there&rsquo;s much ado about nothing. Well, not quite about nothing - there&rsquo;s definitely something happening: one of the services your team owns is crashing. And by crashing, I mean sometimes crashing. It&rsquo;s not really that bad, but it&rsquo;s bad enough for the floodgates to open and for the DevOps folks to lose their marbles and ping you relentlessly on Slack. Ping. Ping. Ping.
-This talk is all about that feeling, and what we can do to make the whole situation suck less when it inevitably comes up again. We will walk through a close-to-real life incident from the perspective of the on-call developer, and discuss practical and technical steps developers can take to increase observability while on-call (even when a serious, hard to debug issue arises).</p>
-<p><em>Shai is a developer Advocate at Lightrun, Co-Founder of Codename One, Java Rockstar, Speaker, Author, Blogger, open source hacker. He's been developing software professionally for ~30 years in a multitude of platforms/languages. Shai has extensive experience in the full stack of backend, desktop, and mobile. This includes going all the way into the internals of VM implementation, debuggers etc. Shai started working with Java in 96 (the first public beta) and later on moved to VM porting/authoring/internals and development tools. He worked for over a decade as a consultant where he advised over 100 companies focusing on Java enterprise, internals, and more.</em></p>
+<p><strong>Thursday, October 1, 2020 at 9:55 AM PDT</strong></p>
+<h2>Apache httpd and TLS/SSL certificates validation</h2>
+<h3>Jean-Frederic Clere</h3>
+<p>We will look to 2 different things here, validation of the server certificate and validation of the client certificates. For the server certificate we will show Let's encrypt and mod_md and speak about the new ACMEv2 protocol and OCSP stapling. For the client certificates we look to OCSP and other validations. Demo and quick start example will provided during the tal</p>
+<p><em>Jean-Frederic has spent more than 20 years writing client/server software. His knowledges range from Cobol to Java, BS2000 to Linux and /390 to i386 but with preference to the later ;). He is committer in Httpd and Tomcat and he likes complex projects where different languages and machines are involved. Borne in France, Jean-Frederic lived in Barcelona (Spain) for 14 years. Since May 2006 he lives in Neuchatel (Switzerland) where he works for RedHat in the JBoss division on Tomcat, httpd and cloud/cluster related topics.</em></p>
 <hr/>
-<p><strong>Tuesday 15:50 UTC</strong></p>
-<h2>Un-breaking production bugs with non-breaking breakpoints</h2>
-<h3>Brandon Fergerson</h3>
-<p>Debugging in production doesn't have to be dangerous. In this talk, we will see how continuous feedback tools such as SourceMarker can be used to debug production applications safely using instruments known as "non-breaking breakpoints". While seemingly contradictory, non-breaking breakpoints are simple to use and operate similarly to conventional breakpoints. The key difference being these breakpoints are "non-breaking", meaning they will not halt a program's execution, and are specifically designed to run harmlessly in production. Tune in to this talk and see how we can debug a live application and un-break some bugs with non-breaking breakpoints.</p>
-<p><em>Brandon Fergerson is an open-source software developer who does not regard himself as a specialist in the field of programming, but rather as someone who is a devoted admirer. He discovered the beauty of programming at a young age and views programming as an art and those who do it well to be artists. He has an affinity towards getting meta and combining that with admiration of programming, has found source code analysis to be exceptionally interesting. Lately, his primary focus involves researching and building AI-based pair programming technology.</em></p>
+<p><strong>Thursday, October 1, 2020 at 10:35 AM PDT</strong></p>
+<h2>GraphQL in Apache Sling - but isn't it the opposite of REST?</h2>
+<h3>Bertrand Delacretaz</h3>
+<p>GraphQL is often presented as the opposite of REST, but how could a query language be the opposite of an architectural style? Opposing technologies and tools is rarely productive, and although Sling is firmly based on REST principles, it makes absolute sense to take advantage of GraphQL's rich query language and "one request does it all" interaction model in Sling. In this talk we'll present a GraphQL scripting engine for Sling, which enables GraphQL queries either "hidden" on the server side, for more control, or provided by the clients in the more traditional way to provide the full flexibility of the query language. Generating GraphQL schemas dynamically, based on Sling Resource Types, Sling Models and scripted schemas, provides a lot of flexibility in mapping Sling content to the outside world and makes the query subsystem modular and flexible. This talk will will help you make the best use of this new and exciting query language, without compromising on the principles of adaptable and discoverable Web applications.</p>
+<p><em>Bertrand Delacretaz works as a Principal Scientist for Adobe in Basel, Switzerland. He's involved in software design and development for Adobe Experience Cloud products, which use many open source modules, mostly from Apache projects to which his teams contribute extensively. Bertrand is a currently (2020-2021) on his eleventh term on the Apache Software Foundation's Board of Directors and has been active in the Foundation for about 20 years.</em></p>
 <hr/>
-<p><strong>Tuesday 17:10 UTC</strong></p>
-<h2>The journey of migration between Apache SkyWalking and Service Mesh</h2>
-<h3>Rei Shimizu</h3>
-<p>Today is the era of microservices which is adopted widely in the world. Service Mesh is the first choice to overcome largely evolved microservices platforms, it provides common infrastructures to compose the distributed, highly scalable services such as monitoring, routing, rate-limiting, mutual TLS, and so on. Istio is the first solution to compose the Service Mesh system. Istio is composed of Envoy, which is the proxy optimized for Cloud-Native environment, as a data plane, it handles all east-west traffic on microservices. We can utilize Envoy as distributed tracing agent for Service Mesh observability. But Apache SkyWalking hadn't been available for a long time on Envoy. In this session, we will provide the journey of migration between Apacne SkyWalking and Service Mesh ecosystem from developing C++ native Apache SkyWalking SDK to provide features to utilize Apache SkyWalking as a tracing provider on Istio.</p>
-<p><em>Rei Shimizu is a graduate student and Envoy/Istio contributor.</em></p>
+<p><strong>Thursday, October 1, 2020 at 11:15 AM PDT</strong></p>
+<h2>Apache Web Server Security Hardening</h2>
+<h3>Andrew Carr</h3>
+<p>In my 2017 presentation I discussed hardening Apache Web server with Apache Tomcat behind it. There was a lot of interest in hardening Apache and recommendations. We will review possible exploits and how proper mitigation can prevent breaches. Apache has security holes, especially in older versions. While upgrading fixes a lot of problems, there will always be exploits. We want to demonstrate a system that is reliable and robust, with the least amount of information exposed to the public. Additionally, there will be a review of some standard configurations you can build from to protect your environment</p>
+<p><em>About: Andrew has been working in the I.T. industry since 1996 developing hardware, network and software solutions to suit business needs and requirements. Leveraging open source software, he has implemented enterprise software solutions for a number of large corporations while delivering training to staff, both entry-level and expert. Currently, Andrew works as a Consulting Enterprise Architect at Perforce.</em></p>
 <hr/>
-<p><strong>Tuesday 18:00 UTC</strong></p>
-<h2>BanyanDB: A Purpose-Built Observability database</h2>
-<h3>Hongtao Gao</h3>
-<p>BanyanDB, as an observability database, aims to ingest, analyze and store Metrics, Tracing, and Logging data. It's designed to handle observability data generated by Apache SkyWalking. Before BanyanDB emerges, the Databases that SkyWalking is using are not ideal for the APM data model, especially for saving tracing and logging data. Consequently, There&rsquo;s room to improve the performance and resource usage based on the nature of SkyWalking data patterns.
-The database research community usually uses RUM conjecture to describe how a database access data. In this talk, I will share the details about BanyanDB based on this conjecture, explaining why BanyanDB is more effective and reliable than other storage layers.</p>
-<p><em>Hongtao Gao is the founding engineer of tetrate.io and the former Huawei Cloud expert. One of PMC members of Apache SkyWalking and participates in some popular open-source projects such as Apache ShardingSphere and Elastic-Job. He has an in-depth understanding of distributed databases, container scheduling, microservices, ServicMesh, and other technologies.</em></p>
-<hr/>
-<p><strong>Tuesday 18:50 UTC</strong></p>
-<h2>Observability in Nginx: Apache APISIX it is</h2>
-<h3>Ming Wen</h3>
-<p>Nginx can only obtain observable data by accessing logs, which not only consumes more resources, but is also not good in real-time and flexibility, and does not meet the requirements of a cloud native environment.
-Apache APISIX provides another solution, through a fully dynamic API interface, and skywalking's APM capability, it provides a better alternative for the original nginx users.</p>
-<p><em>Ming Wen is CEO of api7.ai and Apache APISIX PMC chair.</em></p>
+<p><strong>Thursday, October 1, 2020 at 11:55 AM PDT</strong></p>
+<h2>Hardware-protected Keys for TLS: the httpd Angle</h2>
+<h3>Sander Temme</h3>
+<p>Using hardware-protected cryptographic modules (Hardware Security Modules or HSMs) is a requirement in many applications for governments, banking and financial environments, and others. This session will discuss these requirements, provide an update on how the Apache HTTP Server's mod_ssl integrate with HSMs, and demonstrate how to configure httpd to use hardware-based keys for TLS.</p>
+<p><em>A long time contributor to the Apache HTTP Server, in his copious spare time Sander Temme is the product manager at nCipher Security, an Entrust Datacard company, for the nShield as a Service Cloud-accesslble Hardware Security Modules.</em></p>
 
                 </div>
             </div>

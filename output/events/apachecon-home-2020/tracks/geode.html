@@ -26,7 +26,7 @@
     <meta name="msapplication-config" content="/favicons/browserconfig.xml">
     <meta name="theme-color" content="#282661">
 
-    <title>Observability | Community Over Code</title>
+    <title>Apache Geode Track | Community Over Code</title>
     <link href="/fonts/Montserrat-300-600-800.css" async rel="stylesheet">
     <link href="/css/styles.css" async rel="stylesheet">
     <script src="https://www.apachecon.com/event-images/snippet.js" async></script>
@@ -34,7 +34,7 @@
     <script src="/js/jquery.min.js"></script>
     <script src="/js/init.js"></script>
 </head>
-<body   class="body-apachecon-home-2021" >
+<body   class="body-apachecon-home-2020" >
     <header id="header-main">
          <div class="inner relative z1 flex flex-space-between flex-vert-center">
             <a href="/" class="logo">
@@ -49,10 +49,8 @@
 
 <nav>
     <ul class="flex">
-        <li><a href="/events/apachecon-home-2021">Home</a></li>
-        
-         <li><a href="/events/apachecon-home-2021/tracks">Schedule</a></li>
-         <li><a href="/events/apachecon-home-2021/sponsorship">Sponsorship</a></li>
+        <li><a href="/events/apachecon-home-2020">Home</a></li>
+        <li><a href="/events/apachecon-home-2020/tracks">Schedule</a></li>
     </ul>
 </nav>    </header>
 
@@ -63,15 +61,15 @@
             <div class="inner flex flex-vert-center py-xl relative z1 flex-gap-50 flex-col-reverse-800">
                 <div class="hero__content flex-1">
                     <h1 class="hero__title">
-                        Observability
+                        Apache Geode Track
                     </h1>
-                        <div class="hero-event-dates">September 21-23, 2021</div>
+                        <div class="hero-event-dates">September 28 - October 1, 2020</div>
                     <h2 class="hero__default-subtitle">
                             <span class="hero__subtitle"> Online</span>
                     </h2>
                 </div>
                 <div class="hero__logo flex-1">
-                        <img src="/images/logos/CommunityOverCode_Logo_stacked-color.svg" alt="Observability logo" class="hero__logo-image">
+                        <img src="/images/logos/CommunityOverCode_Logo_stacked-color.svg" alt="Apache Geode Track logo" class="hero__logo-image">
                 </div>
             </div>
         </div>
@@ -79,53 +77,78 @@
         <div class="inner py-xl">
             <div class="mb-medium cf">
                 <div class="float66 right" style="padding-left: 50px;">
-                    <a class="breadcrumb" href="/events/apachecon-home-2021"><svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><polyline points="15 18 9 12 15 6"></polyline></svg> Back to Event Home</a>
+                    <a class="breadcrumb" href="/events/apachecon-home-2020"><svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><polyline points="15 18 9 12 15 6"></polyline></svg> Back to Event Home</a>
                 </div>
             </div>
             <div class="cf flex-col-800">
                     <div class="float33 full-width-800">&nbsp;</div>
                 <div class="float66 event-content">
                         <hr/>
-<p><strong>Tuesday 14:10 UTC</strong></p>
-<h2>End User Tracing in a SkyWalking-Observed Browser</h2>
-<h3>Qiuxia Fan</h3>
-<p>Introduction the background of observation browser and SkyWalking browser monitoring.
-How the SkyWalking browser monitoring extends its monitoring to include the browser, providing performance metrics and error collection to the SkyWalking backend.
-Make the Browser the Starting Point for Distributed Tracing.</p>
-<p><em>Qiuxia Fan is an Engineer, Skywalking PMC, and Apache committer. Ex-Alibaba Cloud and ex-Didi senior developer.</em></p>
+<p><strong>Tuesday, September 29, 2020 at 9:15 AM PDT</strong></p>
+<h2>A Caching Approach to Data Transformation of Legacy RDBMS</h2>
+<h3>Gregory Green</h3>
+<p>This session will a test driven development approach to building data domains where the source system of record is a legacy Relation Database Management System. The initial code will focus on mainframe based DB2 migration. The pattern will be applicable to similar solutions using Oracle, Sybase and other similar traditional relational databases. The talk will highlight the pros and cons of different styles of data pipelines. For example, Day 0 initial loads, Change Data Capture, Event based streams and scheduled pulled based tasks. The following are the highlighted technologies; - Apache Geode - Spring Data Geode - Spring Data/JDBC - Kakfa - Spring Cloud Stream - Spring Task/Spring Batch - Spring Cloud DataFlow</p>
+<p><em>Senior Consultant with over 23 years of software development and architecture experience. Specializing in application transformation from legacy/monolith systems to microservices cloud-native applications with a focus on scalable, highly available and self-healing cloud-native data platforms.</em></p>
 <hr/>
-<p><strong>Tuesday 15:00 UTC</strong></p>
-<h2>Getting back to sleep as soon as possible for the on-call developer</h2>
-<h3>Shai Almog</h3>
-<p>It&rsquo;s the middle of the night, and there&rsquo;s much ado about nothing. Well, not quite about nothing - there&rsquo;s definitely something happening: one of the services your team owns is crashing. And by crashing, I mean sometimes crashing. It&rsquo;s not really that bad, but it&rsquo;s bad enough for the floodgates to open and for the DevOps folks to lose their marbles and ping you relentlessly on Slack. Ping. Ping. Ping.
-This talk is all about that feeling, and what we can do to make the whole situation suck less when it inevitably comes up again. We will walk through a close-to-real life incident from the perspective of the on-call developer, and discuss practical and technical steps developers can take to increase observability while on-call (even when a serious, hard to debug issue arises).</p>
-<p><em>Shai is a developer Advocate at Lightrun, Co-Founder of Codename One, Java Rockstar, Speaker, Author, Blogger, open source hacker. He's been developing software professionally for ~30 years in a multitude of platforms/languages. Shai has extensive experience in the full stack of backend, desktop, and mobile. This includes going all the way into the internals of VM implementation, debuggers etc. Shai started working with Java in 96 (the first public beta) and later on moved to VM porting/authoring/internals and development tools. He worked for over a decade as a consultant where he advised over 100 companies focusing on Java enterprise, internals, and more.</em></p>
+<p><strong>Tuesday, September 29, 2020 at 9:55 AM PDT</strong></p>
+<h2>How I contributed the transactionality in WAN replication feature to Apache Geode</h2>
+<h3>Alberto Gomez</h3>
+<p>In this talk I will describe the use case that drove me to develop the "Transactionality in WAN replication" feature and then I will sketch the technical solution implemented. In a second part, I will walk you through the process I followed to contribute the feature, from the point of view of a recent member of the Apache Geode Community.</p>
+<p><em>Software engineer with more than 20 years of experience in the telco world. Husband, father of three and stylish tennis contender.</em></p>
 <hr/>
-<p><strong>Tuesday 15:50 UTC</strong></p>
-<h2>Un-breaking production bugs with non-breaking breakpoints</h2>
-<h3>Brandon Fergerson</h3>
-<p>Debugging in production doesn't have to be dangerous. In this talk, we will see how continuous feedback tools such as SourceMarker can be used to debug production applications safely using instruments known as "non-breaking breakpoints". While seemingly contradictory, non-breaking breakpoints are simple to use and operate similarly to conventional breakpoints. The key difference being these breakpoints are "non-breaking", meaning they will not halt a program's execution, and are specifically designed to run harmlessly in production. Tune in to this talk and see how we can debug a live application and un-break some bugs with non-breaking breakpoints.</p>
-<p><em>Brandon Fergerson is an open-source software developer who does not regard himself as a specialist in the field of programming, but rather as someone who is a devoted admirer. He discovered the beauty of programming at a young age and views programming as an art and those who do it well to be artists. He has an affinity towards getting meta and combining that with admiration of programming, has found source code analysis to be exceptionally interesting. Lately, his primary focus involves researching and building AI-based pair programming technology.</em></p>
+<p><strong>Tuesday, September 29, 2020 at 10:35 AM PDT</strong></p>
+<h2>Introduction to Apache Geode Through Spring Data</h2>
+<h3>Patrick Johnson</h3>
+<p>Apache Geode is a distributed in-memory data-grid designed with speed, concurrency, and scalability in mind. Apache Geode can be used as a system of record, cache, and much more. Spring Data is an extension of the Spring Framework that adds useful abstractions to make working with data simpler with less boilerplate code. In this presentation, Patrick will dive into what Apache Geode is, how it works, what it does, and how to get started using it with Spring Data for Apache Geode.</p>
+<p><em>A (semi)recent graduate of Oregon Institute of Technology, Patrick is employed as a Software Engineer at VMware in Portland, Oregon, where he works primarily on Spring Data for Apache Geode.</em></p>
 <hr/>
-<p><strong>Tuesday 17:10 UTC</strong></p>
-<h2>The journey of migration between Apache SkyWalking and Service Mesh</h2>
-<h3>Rei Shimizu</h3>
-<p>Today is the era of microservices which is adopted widely in the world. Service Mesh is the first choice to overcome largely evolved microservices platforms, it provides common infrastructures to compose the distributed, highly scalable services such as monitoring, routing, rate-limiting, mutual TLS, and so on. Istio is the first solution to compose the Service Mesh system. Istio is composed of Envoy, which is the proxy optimized for Cloud-Native environment, as a data plane, it handles all east-west traffic on microservices. We can utilize Envoy as distributed tracing agent for Service Mesh observability. But Apache SkyWalking hadn't been available for a long time on Envoy. In this session, we will provide the journey of migration between Apacne SkyWalking and Service Mesh ecosystem from developing C++ native Apache SkyWalking SDK to provide features to utilize Apache SkyWalking as a tracing provider on Istio.</p>
-<p><em>Rei Shimizu is a graduate student and Envoy/Istio contributor.</em></p>
+<p><strong>Tuesday, September 29, 2020 at 11:15 AM PDT</strong></p>
+<h2>Got Javascript Apps? We Can Do That!</h2>
+<h3>Karen Miller, Blake Bender</h3>
+<p>Your app is written in Javascript, and that's not going to change. Your app needs a cache, and you want to use Apache Geode for your caching layer. Until now, you've been out of luck. VMware has developed a Node.js Client for Apache Geode. The donation to Apache Geode is in progress. Stay tuned! You can keep your Javascript app, and use the Node.js Client to interact with an Apache Geode cluster.</p>
+<p><em>Karen</em></p>
+<p><em>Karen is the current Apache Geode PMC chair. She writes technical documentation for VMware, where she pursues opportunities to promote the understanding of Apache Geode. Prior to VMware,</em></p>
+<p><em>Karen taught</em></p>
+<p><em>Computer</em></p>
+<p><em>Sciences courses at the</em></p>
+<p><em>University of</em></p>
+<p><em>Wisconsin-Madison and is also a textbook author.</em></p>
+<p><em>Blake</em></p>
+<p><em>Blake is the Apache Geode Native project anchor. He works for VMWare in this capacity, and in the same role at Pivotal prior to the VMWare acquisition. He previously worked at Intel Architecture Labs in Hillsboro, OR, and at Microsoft in Redmond, WA, specializing in media and contributing to Microsoft Silverlight, Media Foundation, DirectX, and several releases of Windows.</em></p>
 <hr/>
-<p><strong>Tuesday 18:00 UTC</strong></p>
-<h2>BanyanDB: A Purpose-Built Observability database</h2>
-<h3>Hongtao Gao</h3>
-<p>BanyanDB, as an observability database, aims to ingest, analyze and store Metrics, Tracing, and Logging data. It's designed to handle observability data generated by Apache SkyWalking. Before BanyanDB emerges, the Databases that SkyWalking is using are not ideal for the APM data model, especially for saving tracing and logging data. Consequently, There&rsquo;s room to improve the performance and resource usage based on the nature of SkyWalking data patterns.
-The database research community usually uses RUM conjecture to describe how a database access data. In this talk, I will share the details about BanyanDB based on this conjecture, explaining why BanyanDB is more effective and reliable than other storage layers.</p>
-<p><em>Hongtao Gao is the founding engineer of tetrate.io and the former Huawei Cloud expert. One of PMC members of Apache SkyWalking and participates in some popular open-source projects such as Apache ShardingSphere and Elastic-Job. He has an in-depth understanding of distributed databases, container scheduling, microservices, ServicMesh, and other technologies.</em></p>
+<p><strong>Wednesday, September 30, 2020 at 9:15 AM PDT</strong></p>
+<h2>Running a Apache Geode on Kubernetes</h2>
+<h3>Michael Oleske, Aaron Lindsey</h3>
+<p>As application developers move workloads to Kubernetes, they expect data services to run on Kubernetes alongside their applications. Kubernetes excels at running stateless workloads, but how does it handle complex stateful applications such as Apache Geode, a distributed in-memory database? We will describe challenges faced while building a Geode operator for Kubernetes, including controlling pod terminations, working with a dynamic network, and ensuring state management during the lifecycle of the deployment. We will explain the solutions we took to control these challenges, and dive into how we tested these solutions. You will leave with an understanding of how we moved a system designed to run on bare metal to a Kubernetes environment, uniting your workloads with your data services.</p>
+<p><em>Michael</em></p>
+<p><em>Michael is a software engineer on</em></p>
+<p><em>Apache</em></p>
+<p><em>Geode and</em></p>
+<p><em>Tanzu</em></p>
+<p><em>GemFire.</em></p>
+<p><em>He works on making</em></p>
+<p><em>Geode both run well and easy to deploy for</em></p>
+<p><em>Kubernetes.</em></p>
+<p><em>Aaron</em></p>
+<p><em>Aaron works as a software engineer on Apache Geode and VMware Tanzu GemFire, focusing on making Geode run well on Kubernetes. Outside of work, he enjoys hiking and backpacking in the Pacific Northwest mountains, and volunteering with his local community and church.</em></p>
 <hr/>
-<p><strong>Tuesday 18:50 UTC</strong></p>
-<h2>Observability in Nginx: Apache APISIX it is</h2>
-<h3>Ming Wen</h3>
-<p>Nginx can only obtain observable data by accessing logs, which not only consumes more resources, but is also not good in real-time and flexibility, and does not meet the requirements of a cloud native environment.
-Apache APISIX provides another solution, through a fully dynamic API interface, and skywalking's APM capability, it provides a better alternative for the original nginx users.</p>
-<p><em>Ming Wen is CEO of api7.ai and Apache APISIX PMC chair.</em></p>
+<p><strong>Wednesday, September 30, 2020 at 9:55 AM PDT</strong></p>
+<h2>Apache Geode: Exposing just one ip for all your gateway receivers in K8s</h2>
+<h3>Alberto Bustamante</h3>
+<p>Apache Geode uses gateway senders and gateway receivers for events replication in multisite configuration. Each receiver usually has its own ip, which has some drawbacks in cloud environments as Kubernetes. In this talk I would like to show why we decided to expose all our gateway receivers with the same ip, the problems we found, the solution proposed and how I contributed it to Geode.</p>
+<p><em>Alberto is a Computer Science engineer by Carlos III University of Madrid, with a Master on Software Craftsmanship by Polytechnic University of Madrid. He has been working at Ericsson Spain since 2008 mainly as Software Developer. Since 2019 he works as Open Source Developer contributing to Apache Geode, a data management platform ( in-memory data grid ) that provides real-time, consistent access to data-intensive applications throughout widely distributed cloud architectures.</em></p>
+<hr/>
+<p><strong>Wednesday, September 30, 2020 at 10:35 AM PDT</strong></p>
+<h2>vMotion and Apache Geode: Investigating the impact of live migration of virtual machines on an in-memory data grid</h2>
+<h3>Nabarun Nag</h3>
+<p>Avoiding downtime during maintenance or unforeseen machine issues is paramount for mission-critical, ready and available systems. To achieve this goal, VMware vSphere vMotion provides the capability for a zero-downtime live migration of virtual machine workloads from one server to another. During the entire duration of migration, all applications continue running and providing access to users. This feature can be also be automated using Dynamic Resource Scheduler which places a virtual machine in an optimal location in the server cluster. Pivotal Cloud Cache is an in-memory key-value store powered by Apache Geode, which is responsible for responding to large volume of concurrent read/write requests without compromising throughput and latency. Pivotal Cloud Cache also serves multiple use cases like event processing, transaction and session state caching, etc. in industries like finance and travel. To evaluate the impact of vMotion migration of virtual machines hosting Cloud Cache servers, we devised experiments where we deploy a Cloud Cache cluster using the Pivotal Platform in VMware&rsquo;s Solutions lab. We then continuously migrate the virtual machines using vSphere SDK, while the cluster is under read and write workloads. We measure the impact on latency and throughput and also monitor that no members are being kicked out of the distributed system due to lack of response to heartbeat messages during the migration phase. This paper discusses the experiment design and results in detail.</p>
+<p><em>Nabarun has been a code contributor and PMC member for Apache Geode since 2016, after graduating from University of Wisconsin-Madison. Prior to that, he worked for Samsung Research Institute. In his spare time, he likes to explore Portland's food scene and playing Apex Legends and Overwatch</em></p>
+<hr/>
+<p><strong>Wednesday, September 30, 2020 at 11:15 AM PDT</strong></p>
+<h2>Improving the Performance of Apache Geode Persistence Recovery</h2>
+<h3>Jianxia Chen</h3>
+<p>Apache Geode offers super fast write-ahead-logging (WAL) persistence with a shared-nothing architecture that is optimized for fast parallel recovery of nodes or an entire cluster. In this talk, we will first introduce how Geode disk stores work. Then we will present the recent work to improve the performance of persistence recovery. With the analysis of Geode logs, we find that the performance of persistence recovery can be significantly improved by unblocking some of the server initialization threads and parallelizing the process of disk stores recovery. Our experiments have proved that persistence recovery becomes remarkably more scalable and efficient with the improved process.</p>
+<p><em>Jianxia is a PMC member and committer of Apache Geode. He enjoys working on open source software.</em></p>
 
                 </div>
             </div>
