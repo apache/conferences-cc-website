@@ -897,6 +897,11 @@ Lakehouse Day is a place for the projects in and around the lakehouse ecosystem 
             </a>
         </div>
         <div class="sponsor-logo">
+            <a href="https://www.snowflake.com/en/developers/open-source/" target="_blank" class="sponsor-link">
+                <img src="/images/sponsors/snowflake-logo-color-rgb.svg" loading="lazy" alt="Snowflake">
+            </a>
+        </div>
+        <div class="sponsor-logo">
             <a href="https://vakamo.com/product/" target="_blank" class="sponsor-link">
                 <img src="/images/sponsors/VAKAMO_TEXT.svg" loading="lazy" alt="Vakamo">
             </a>
