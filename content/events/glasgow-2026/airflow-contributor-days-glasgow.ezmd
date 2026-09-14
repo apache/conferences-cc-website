@@ -1,4 +1,4 @@
-title: Airflow Contributor Days
+title: Airflow Contributor Day
 template: page-event-default
 ref: glasgow-2026
 eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
@@ -6,14 +6,14 @@ isColocatedEvent: true
 colocatedEventDate: October 11, 2026
 inPageNav: true
 
-## About Airflow Contributor Days
+## About Airflow Contributor Day
 
-Airflow Contributor Days is a user-focused embedded event taking place during the main Community Over Code conference that will bring together the Airflow community to focus on this workflow platform. It’s an opportunity for contributors to not only meet other contributors, but also meet the wider ASF community of contributors.
+Airflow Contributor Day is a user-focused embedded event taking place during the main Community Over Code conference that will bring together the Airflow community to focus on this workflow platform. It’s an opportunity for contributors to not only meet other contributors, but also meet the wider ASF community of contributors.
 
 ---
 
 ## Schedule
 
-To view the Airflow Contributor Days schedule, click on Filters then select “Airflow Contributor Days” to see the full track.
+To view the Airflow Contributor Day schedule, click on Filters then select “Airflow Contributor Day” to see the full track.
 
 <a href="https://web.cvent.com/event/ac71ce47-2b5f-424c-abfe-5b48255315fb/summary?RefId=XSummary" class="btn" target="_blank">Go to Track</a>
