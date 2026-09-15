@@ -1,4 +1,4 @@
 RewriteEngine On
-RewriteRule ^(.+)\.html$ /$1 [R=301,L]
+RewriteRule ^/(.+)\.html$ /$1 [R=301,L]
 
 Redirect 301 /events/glasgow-2026/airflow-contibutor-days-glasgow /events/glasgow-2026/airflow-contributor-day
