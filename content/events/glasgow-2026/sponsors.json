@@ -8,6 +8,11 @@
     ],
     "gold": [
         {
+            "name": "AxonOps", 
+            "logo": "/images/sponsors/AxonopsDigital_FullLogoBlack.png",
+            "link": "https://axonops.com/"
+        },
+        {
             "name": "Google Cloud", 
             "logo": "/images/sponsors/GC_Logo_FullColor_cmkyC.svg",
             "link": "https://cloud.google.com/"
