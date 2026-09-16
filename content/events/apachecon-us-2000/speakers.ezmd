@@ -245,15 +245,15 @@ Sessions: Convincing Management to Let You Work on Open Development, State of th
 
 ### Stas Bekman
 
-Sessions: Getting Started with mod_perl (Slides: [PDF](/slides/us-2000/OR045.pdf)), Getting Started with mod_perl, Getting Started with mod_perl, Getting Started with mod_perl, Getting Started with mod_perl (part II) (Slides: [PDF](/slides/us-2000/OR093.pdf)), Improving performance under mod_perl, Improving script and handler performance under mod_perl, Improving script and handler performance under mod_perl, Improving script performance under mod_perl (Slides: [PDF](/slides/us-2000/OR052.pdf))
-Stas Bekman is an author of the [](http://perl.apache.org/guide), a monthly columnist at
-[PerlMonth](http://perlmonth.com/) and Ap
+Sessions: Getting Started with mod_perl (Slides: [[]PDF](/slides/us-2000/OR045.pdf)), Getting Started with mod_perl, Getting Started with mod_perl, Getting Started with mod_perl, Getting Started with mod_perl (part II) (Slides: [[]PDF](/slides/us-2000/OR093.pdf)), Improving performance under mod_perl, Improving script and handler performance under mod_perl, Improving script and handler performance under mod_perl, Improving script performance under mod_perl (Slides: [[]PDF](/slides/us-2000/OR052.pdf))
+Stas Bekman is an author of the [[]](http://perl.apache.org/guide), a monthly columnist at
+[[]PerlMonth](http://perlmonth.com/) and Ap
 cheToday. He is currently co-authoring a mod_perl
 book for O'Reilly and Associates, Inc. He is a
 maintainer of The Ultimate Learn
 and
 Resource Center and a developer of the
-[SinglesHeaven.com](http://singlesheaven.com/)
+[[]SinglesHeaven.com](http://singlesheaven.com/)
 service at his
 spare time.
 
@@ -282,7 +282,7 @@ tuned for application service providers (ASPs) in Asia.
 
 ### Ryan Bloom
 
-Sessions: Apache 2.0, Apache 2.0, Apache upon Win32 in the round, APR: What is it, and why we use it in Apache (Slides: [RTF](/slides/us-2000/OR016.rtf)), Migrating Apache 1.3 modules to Apache 2.0 (Slides: [RTF](/slides/us-2000/OR014.rtf)), The future of Apache after 2.0, Writing Apache 2.0 filters, Writing Apache Filters, Writing Apache Modules for 2.0, Writing Code with APR
+Sessions: Apache 2.0, Apache 2.0, Apache upon Win32 in the round, APR: What is it, and why we use it in Apache (Slides: [[]RTF](/slides/us-2000/OR016.rtf)), Migrating Apache 1.3 modules to Apache 2.0 (Slides: [[]RTF](/slides/us-2000/OR014.rtf)), The future of Apache after 2.0, Writing Apache 2.0 filters, Writing Apache Filters, Writing Apache Modules for 2.0, Writing Code with APR
 Ryan Bloom is a senior software engineer for Covalent
 Technologies and a member of the Apache Software
 Foundation. Ryan has been working on Apache 2.0 and APR since
@@ -350,7 +350,7 @@ information about hi can be found at
 
 ### Jeffrey Buchbinder
 
-Sessions: Commercial use of PHP with SQL backends (Slides: [RTF](/slides/us-2000/OR036.rtf))
+Sessions: Commercial use of PHP with SQL backends (Slides: [[]RTF](/slides/us-2000/OR036.rtf))
 Coming from a background of working mainly with SCO
 Unix, Jeff migrated to the more open and malleable Linux
 OS a year or two ago, and has since done work packaging
@@ -511,7 +511,7 @@ for
 Dummies' (IDG), a lead
 author of 'Apache Server
 Unleashed'
-(Macmillan/Sams), a columnist for '[ApacheToday.Com](http://apachetoday.com/),' and is
+(Macmillan/Sams), a columnist for '[[]ApacheToday.Com](http://apachetoday.com/),' and is
 currently working ona new book, 'Apache
 Module Developmentin C'
 (Addison-Wesley-Longman).
@@ -520,16 +520,16 @@ Module Developmentin C'
 
 ### Mark Cox
 
-Sessions: Apache E-Commerce Solutions (Slides: [RTF](/slides/us-2000/OR096.rtf))
-[Mark Cox](http://www.awe.com/mark/) is
+Sessions: Apache E-Commerce Solutions (Slides: [[]RTF](/slides/us-2000/OR096.rtf))
+[[]Mark Cox](http://www.awe.com/mark/) is
 Director of
-Research for [Red Hat](http://www.redhat.com/). He has
+Research for [[]Red Hat](http://www.redhat.com/). He has
 developed
 a number of free and open-source software
 products for more than 9 years; being a founding
-member of both the [OpenSSL group](http://www.openssl.org/)
+member of both the [[]OpenSSL group](http://www.openssl.org/)
 and the Mozilla Crypto Group, a core Apache
-developer since 1995, and the editor of [Apache Week](http://www.apacheweek.com/).
+developer since 1995, and the editor of [[]Apache Week](http://www.apacheweek.com/).
 
 ---
 
@@ -576,7 +576,7 @@ Thing&quot;.
 
 ### Frank DeChellis
 
-Sessions: Helping your clients make the move to E-Commerce (Slides: [DOC](/slides/us-2000/OR010.doc) | [PPT](/slides/us-2000/OR010.ppt)), Workshop for small/medium ISPs entering Web hosting industry
+Sessions: Helping your clients make the move to E-Commerce (Slides: [[]DOC](/slides/us-2000/OR010.doc) | [[]PPT](/slides/us-2000/OR010.ppt)), Workshop for small/medium ISPs entering Web hosting industry
 I am president of Internet Access Worldwide in
 Welland, ON, Canada.  Our company provides dial up and high
 speed access, server co-location and web hosting.  We
@@ -768,7 +768,7 @@ ecommerce tool business.
 
 ### Christian Gross
 
-Sessions: A look at the Apache 2.0 APR, C++ and Apache using C++ Server, Setting up the Apache Web Server for developers (Slides: [PPT](/slides/us-2000/OR006.ppt)), Using C++ for Apache Modules (Slides: [PPT](/slides/us-2000/OR007.ppt))
+Sessions: A look at the Apache 2.0 APR, C++ and Apache using C++ Server, Setting up the Apache Web Server for developers (Slides: [[]PPT](/slides/us-2000/OR006.ppt)), Using C++ for Apache Modules (Slides: [[]PPT](/slides/us-2000/OR007.ppt))
 
 Christian Gross is an independent consultant
 specializing in Internet Application Development. He has been
@@ -1049,7 +1049,7 @@ home network.
 
 ### Jim Jagielski
 
-Sessions: ApacheCon Europe 2000 Closing Session, ApacheCon Europe 2000 Opening Session, Running a Successful Web Hosting Company, The future of Apache after 2.0, Web Hosting for Fame and Fortune (Slides: [PPT](/slides/us-2000/OR074.ppt))
+Sessions: ApacheCon Europe 2000 Closing Session, ApacheCon Europe 2000 Opening Session, Running a Successful Web Hosting Company, The future of Apache after 2.0, Web Hosting for Fame and Fortune (Slides: [[]PPT](/slides/us-2000/OR074.ppt))
 
 Jim's been active on the 'Net since the early
 80's, starting as editor of the A/UX FAQ. He
@@ -1086,10 +1086,10 @@ database products.
 
 ### Bill Jones
 
-Sessions: Apache: A Business Server (Slides: [RTF](/slides/us-2000/OR023.rtf))
-Bill Jones (aka -[Sneex](http://www.fccj.org/cgi/mail?sneex)-)
+Sessions: Apache: A Business Server (Slides: [[]RTF](/slides/us-2000/OR023.rtf))
+Bill Jones (aka -[[]Sneex](http://www.fccj.org/cgi/mail?sneex)-)
 has developed distributed, enterprise-wide solutions
-using [Apache](http://www.apache.org/) and
+using [[]Apache](http://www.apache.org/) and
 various open source technologies. His areas of
 interest
 include research and development of new and emerging
@@ -1098,7 +1098,7 @@ environment. He holds a BS in Data Processing and has
 over twenty years experience in the computer industry.
 
 Bill, currently a E-Systems Developer for
-[FCCJ](http://www.fccj.org/), manages the
+[[]FCCJ](http://www.fccj.org/), manages the
 Jacksonville
 Perl Mongers.
 
@@ -1120,7 +1120,7 @@ Francisco State University.
 
 ### Manoj Kasichainula
 
-Sessions: Apache 2.0 Overview (Slides: [HTML](/slides/us-2000/OR092.html)), The future of Apache after 2.0
+Sessions: Apache 2.0 Overview (Slides: [[]HTML](/slides/us-2000/OR092.html)), The future of Apache after 2.0
 
 Manoj is one of the primary developers for
 Apache 2.0. He has also dabbled in such fields
@@ -1140,7 +1140,7 @@ Director, IBM Hursley Laboratory
 
 ### Craig Kohtz
 
-Sessions: Migration from ASP to PHP (Slides: [RTF](/slides/us-2000/OR083.rtf))
+Sessions: Migration from ASP to PHP (Slides: [[]RTF](/slides/us-2000/OR083.rtf))
 Craig Kohtz is a Web builder for Covalent
 Technologies, Inc. He has extensive experience with IIS, ASP,
 DHTML, JavaScript and SQL Server development. When Craig
@@ -1246,7 +1246,7 @@ architectures, and object-oriented databases.
 
 ### Daniel Lopez Ridruejo
 
-Sessions: Apache projects overview, Apache projects overview, Comanche, a GUI configuration tool for Apache, Comanche, a GUI for Apache (Slides: [DOC](/slides/us-2000/OR021-1.doc) | [DOC](/slides/us-2000/OR021-2.doc)), XML configuration for Apache
+Sessions: Apache projects overview, Apache projects overview, Comanche, a GUI configuration tool for Apache, Comanche, a GUI for Apache (Slides: [[]DOC](/slides/us-2000/OR021-1.doc) | [[]DOC](/slides/us-2000/OR021-2.doc)), XML configuration for Apache
 
 *No bio available.*
 
@@ -1329,7 +1329,7 @@ use of XML in documentation.
 
 ### Stefano Mazzocci
 
-Sessions: Adding XML capabilities with Cocoon (Slides: [PDF](/slides/us-2000/OR012.pdf)), Adding XML capabilities with Cocoon, Toward the Semantic Web: a view of XML from outer space
+Sessions: Adding XML capabilities with Cocoon (Slides: [[]PDF](/slides/us-2000/OR012.pdf)), Adding XML capabilities with Cocoon, Toward the Semantic Web: a view of XML from outer space
 *No bio available.*
 
 ---
@@ -1344,7 +1344,7 @@ Sessions: Authentication and Access Control in Web Applications, Building Web Ap
 
 ### Michael Meyer
 
-Sessions: Secure Financal Transactions with Open Source (Slides: [RTF](/slides/us-2000/OR071.rtf))
+Sessions: Secure Financal Transactions with Open Source (Slides: [[]RTF](/slides/us-2000/OR071.rtf))
 Michael Meyer is responsible for interactive
 web based applications. His
 areas of interest include research and design of
@@ -1673,7 +1673,7 @@ NeXTSTEP machines.
 
 Ovidiu was
 also involved in the early design and
-implementation phases of the [GNUstep](http://www.gnustep.org/), a
+implementation phases of the [[]GNUstep](http://www.gnustep.org/), a
 free-software implementation of OpenStep,
 a precursor of MacOS X. He implemented major
 components in all the libraries, starting from
@@ -1702,7 +1702,7 @@ mainly responsible for the reference implementation.
 
 ### Tobias Ratschiller
 
-Sessions: Advanced PHP: Web Applications - Sessions and Authentication (Slides: [RTF](/slides/us-2000/OR046.rtf)), Advanced PHP: Web Applications - Sessions and Authentication, PHP from an IT Manager's Perspective
+Sessions: Advanced PHP: Web Applications - Sessions and Authentication (Slides: [[]RTF](/slides/us-2000/OR046.rtf)), Advanced PHP: Web Applications - Sessions and Authentication, PHP from an IT Manager's Perspective
 Tobias Ratschiller is a New Media Consultant in Italy,
 specializing in the creation of large-scale dynamic
 Web sites. He has provided consulting and implementation
@@ -1827,7 +1827,7 @@ sites.
 
 ### Theo Schlossnagle
 
-Sessions: Backhand - a load balancing module for Apache (Slides: [RTF](/slides/us-2000/OR077.rtf)), mod_backhand: internals explained, mod_backhand: Resource Allocation and Content Intelligence, Scalable Internet Architectures, Spread as an Infrastructure for the Future of Clustered Apache
+Sessions: Backhand - a load balancing module for Apache (Slides: [[]RTF](/slides/us-2000/OR077.rtf)), mod_backhand: internals explained, mod_backhand: Resource Allocation and Content Intelligence, Scalable Internet Architectures, Spread as an Infrastructure for the Future of Clustered Apache
 Services., The Backhand Project: load-balancing and monitoring Apache Web clusters
 Theo
 Schlossnagle is currently
@@ -1910,7 +1910,7 @@ found at http://cryp.to/.
 
 ### James Smith
 
-Sessions: Secure Authentication in an Insecure Environment (Slides: [RTF](/slides/us-2000/OR040.rtf))
+Sessions: Secure Authentication in an Insecure Environment (Slides: [[]RTF](/slides/us-2000/OR040.rtf))
 James Smith graduated from Texas A&M
 University in the spring of 2000 with a B.S. in
 Math and Physics. He is currently working for
@@ -1939,13 +1939,13 @@ WebSphere, Visual Age, and MQSeries.
 
 ### Greg Stein
 
-Sessions: A Fireside Chat about WebDAV, WebDAV and Apache (Slides: [RTF](/slides/us-2000/OR095.rtf)), WebDAV and Apache, WebDAV and Apache
+Sessions: A Fireside Chat about WebDAV, WebDAV and Apache (Slides: [[]RTF](/slides/us-2000/OR095.rtf)), WebDAV and Apache, WebDAV and Apache
 Greg
 Stein is an independent software
 developer spending much of his time with
-open-source projects, such as [Subversion](http://subversion.tigris.org/),
+open-source projects, such as [[]Subversion](http://subversion.tigris.org/),
 WebDAV for
-Apache, and [Python](http://www.python.org/). Between
+Apache, and [[]Python](http://www.python.org/). Between
 1996 and 1998, Mr. Stein worked at
 Microsoft as a Development Manager, in the
 Commerce Server and Site Server groups. He was
@@ -2207,7 +2207,7 @@ of Research and Advanced Technologies.
 
 ### Sander van Zoest
 
-Sessions: Audio and Apache, Audio and Apache, High-Performance Dynamic Pages with Templates, XML, and mod_perl (Slides: [RTF](/slides/us-2000/OR058.rtf)), XML and I18N
+Sessions: Audio and Apache, Audio and Apache, High-Performance Dynamic Pages with Templates, XML, and mod_perl (Slides: [[]RTF](/slides/us-2000/OR058.rtf)), XML and I18N
 
 Sander is a late night developer in San Diego, US
 working on Perl, XML and in the online audio space. He
@@ -2232,7 +2232,7 @@ science from University of Louisiana.
 
 ### Nathan Wallace
 
-Sessions: Apache Knowledge Base, Design Patterns in Web Programming (Slides: [RTF](/slides/us-2000/OR080.rtf)), Design Patterns in Web Programming, PHP: Hackers Paradise (Slides: [RTF](/slides/us-2000/OR078.rtf)), PHP: Hackers Paradise, PHP: Hackers Paradise Revisited
+Sessions: Apache Knowledge Base, Design Patterns in Web Programming (Slides: [[]RTF](/slides/us-2000/OR080.rtf)), Design Patterns in Web Programming, PHP: Hackers Paradise (Slides: [[]RTF](/slides/us-2000/OR078.rtf)), PHP: Hackers Paradise, PHP: Hackers Paradise Revisited
 Nathan began his development career with IBM
 helping to build their Visual Age for Java and
 Smalltalk suites.  From there he moved into web
@@ -2336,7 +2336,7 @@ cats.
 
 ### Mark Wilcox
 
-Sessions: Apache and LDAP (Slides: [DOC](/slides/us-2000/OR005.doc) | [PPT](/slides/us-2000/OR005.ppt))
+Sessions: Apache and LDAP (Slides: [[]DOC](/slides/us-2000/OR005.doc) | [[]PPT](/slides/us-2000/OR005.ppt))
 Mark Wilcox is the Web Administrator and LDAP guru for
 the University of North Texas, where he co-designed
 the Bulk Communication System (BCS). BCS uses LDAP, the
