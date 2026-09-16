@@ -1,0 +1,191 @@
+<html>
+<head>
+    <title>Overview of Apache 2.0</title>
+</head>
+
+<body>
+
+    <h1>Overview of Apache 2.0</h1>
+
+    <p>Manoj Kasichainula, Collab.Net
+    <br>manojk+ac2k@io.com, manoj@collab.net
+
+    <h2>New features for users</h2>
+
+    <h3>Threaded on Unix</h3>
+
+    <p>Apache 1.3 on Unix is a preforking web server. This means that it
+    maintains a pool of processes that are responsible for handling
+    connections. Each child process deals with a single HTTP connection
+    as it arrives, and after that connection is handled, the process
+    hangs around waiting for another connection to process.
+
+    <p>This method is robust; the death of a single process
+    affects only a single connection. But, it's not very scalable. A web
+    server handling 5000 incoming connections needs 5000 processes
+    running to deal with them. Each of these processes can potentially
+    live a long time, since today's traffic is full of low-speed modem
+    users.
+
+    <p>To alleviate the problem somewhat, Apache 2.0 will have support
+    for threads on Unix systems that have a pthreads interface. This is
+    done through multiprocessing modules (MPMs) that are responsible for
+    managing processes and threads while passing the actual handling of
+    a connection to the Apache core.
+
+    <p>In addition for support for the original preforking model, there
+    are also MPMs that use a single thread per connection. There can be
+    a single process that contains all the connection-handling threads,
+    or these threads can be split between different processes to improve
+    reliability.
+
+    <h4>New directives</h4>
+
+    <p>For the administrator, the addition of MPMs can add some
+    complication. Each MPM can have its own configuration directives,
+    because they behave differently. For example, a simple preforking
+    MPM naturally wouldn't have any sort of threading configuration. We
+    hope to simplify the situation before the final 2.0 release, but for
+    now, here is the layout. Note that the names of these MPMs probably
+    will change.
+
+    <h5>prefork</h5>
+
+    The prefork MPM behaves like Apache 1.3 on Unix, and it has the same
+    directives.
+
+    <h5>mpmt_pthread</h5>
+
+    The mpmt_pthread MPM has a pool of processes that grows and shrinks,
+    just like the prefork MPM. The difference is that each process also
+    has a fixed number of threads, and each thread can handle a single
+    connection. So, the directives for process management change
+    somewhat. <code>MinSpareServers</code> and
+    <code>MaxSpareServers</code> are gone, and replaced with:
+
+    <dl>
+        <dt><code>ThreadsPerChild</code></dt>
+        <dd>Number of threads running in each child process</dd>
+        <dt><code>MinSpareThreads</code></dt>
+        <dd>Every so often, the number of idle threads in the whole
+        server is counted. If the number is too low, the server is busy,
+        and more processes are started. If the number is too high, we
+        have processes doing nothing, so they are told to stop.
+        MinSpareThreads is the lower threshold for idle threads</dd>
+        <dt><code>MaxSpareThreads</code></dt>
+        <dd>This goes with <code>MinSpareThreads</code> and specifies
+        the upper threshold for idle threads</dd>
+    </dl>
+
+    <h5>dexter</h5>
+
+    The dexter MPM also has multiple processes that handle requests,
+    each with multiple threads. But it differs from mpmt_pthread by
+    varying the number of threads per process, instead of varying the
+    number of processes. Each process maintains its own thread pool,
+    independantly of the other processes. I think this scheme will work
+    very well on multiprocessor systems with user threading, at least as
+    a stopgap until async I/O support is implemented.
+
+    <p>Dexter's directives are a more radical shift from 1.3 and the
+    prefork MPM.  Almost all the process-management directives have been
+    replaced.
+    
+    <dl>
+        <dt><code>NumServers</code></dt>
+        <dd>Number of processes started to handle requests. This number
+        is maintained until changed by the administrator.</dd>
+        <dt><code>StartThreads</code></dt>
+        <dd>Number of threads started initially for each server process.
+        The actual number of threads active in a given process changes
+        over time depending on load.</dd>
+        <dt><code>MinSpareThreads</code></dt>
+        <dd>This is the minimum number of idle threads running in any
+        given process. If this number is hit, more threads are started.</dd>
+        <dt><code>MaxSpareThreads</code></dt>
+        <dd>This goes with <code>MinSpareThreads</code> and specifies
+        the upper threshold for idle threads in a process</dd>
+    </dl>
+
+    <h3>Better support for non-Unix platforms</h3>
+
+    <p>Apache 2.0's support for platforms other than Unix should be far
+    better as well. The MPMs described above allow each platform to have
+    its own module for managing threads and/or processes. There are MPMs
+    written for Windows, OS/2, and BeOS, all taking advantage of special
+    features and quirks of their platforms.
+
+    <p>We have also based the web server on a new library called the
+    Apache Portable Runtime (APR). APR provides a mostly
+    platform-independant wrapper around platform-dependant system
+    services. This allows Apache to avoid using OS-provided
+    POSIX-emulation layers, which can severly hurt performance and
+    stability.
+
+    <h3>New Build System</h3>
+
+    <p>The build system from 1.3 has been rewritten. It is now based on
+    autoconf and uses libtool. This makes the process of building Apache
+    similar to that for other open source packages, and will hopefully
+    allow us to expend less effort on build configuration and more on
+    cool features. We may provide a configuration interface similar to
+    that used since the early days of Apache. Many people prefer using a
+    text file rather than a command line for build-time configuration
+
+    <h3>Multiprotocol Support</h3>
+
+    <p>Apache now has some of the infrastructure in place to support
+    serving multiple protocols. mod_echo has been written as an example.
+    In theory, any protocol that runs over a single TCP connection
+    should be implementable, and many multi-connection protocols (FTP,
+    for example) should be possible.
+
+    <h2>New Features for Developers</h2>
+
+    <h3>Module hook system</h3>
+
+    <p>Apache 1.3 used a table of calls into a module to allow the
+    module to take over processing of an HTTP request at various stages.
+    This wasn't very flexible, and a misordering of modules in the
+    configuration file was troublesome.
+
+    <p>Modules for 2.0 will instead call a function to register their
+    hooks. For example, mod_auth calls:
+
+    <blockquote>
+        <code>ap_hook_check_user_id(authenticate_basic_user,NULL,NULL,HOOK_MIDDLE);</code>
+    </blockquote>
+
+    <p>to register its interest in the <code>check_user_id</code> stage.
+
+    <p>With this change, modules get more control over how and when they
+    are called. For example, a module can specify
+    <code>HOOK_FIRST</code> or <code>HOOK_LAST</code> to specify that
+    it needs to be called before or after all over modules in that
+    particular stage of processing.
+
+    <p>Modules can also specify that a certain hook must not be allowed
+    to run before or after another module's hook. This functionality is
+    used in mod_mime_magic, to make sure that it only gets called to
+    check a MIME type if mod_mime fails.
+
+    <p>This topic is further discussed in Ryan Bloom's talk "Migrating
+    Apache 1.3 modules to Apache 2.0."
+
+    <p>There is also a new <code>process_connection</code> hook that's
+    used by modules that provide support for protocols other than HTTP.
+
+    <h3>Apache Portable Runtime</h3>
+
+    <p>APR allows Apache to avoid many details of platform independance.
+    APR should also be used by any modules developed for Apache 2.0. The
+    2.0 APIs have changed to use APR types instead of POSIX types. So at
+    minimum, modules will need to use the translation functions to
+    convert to APR types and back. However, using the APR types
+    throughout the module can be beneficial, because it will improve
+    portability of your module to many different platforms.
+
+    <p>This topic is further discussed in Ryan Bloom's talk "APR: What
+    is it, and why we use it in Apache."
+</body>
+</html>

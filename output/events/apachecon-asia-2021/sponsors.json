@@ -1,0 +1,56 @@
+{
+    "strategic": [
+        {
+            "name": "Huawei", 
+            "logo": "/images/sponsors/huawei.png"
+        }
+    ],
+    "platinum": [
+        {
+            "name": "Alibaba Cloud", 
+            "logo": "/images/sponsors/allibaba.png"
+        },
+        {
+            "name": "AP17", 
+            "logo": "/images/sponsors/apl7.png"
+        },
+        {
+            "name": "DiDi", 
+            "logo": "/images/sponsors/didi.png"
+        },
+        {
+            "name": "Kyligence", 
+            "logo": "/images/sponsors/kyligence.png"
+        },
+        {
+            "name": "Tencent Cloud", 
+            "logo": "/images/sponsors/tecent-cloud.png"
+        }
+    ],
+    "gold": [
+        {
+            "name": "AWS", 
+            "logo": "/images/sponsors/AWS_logo_RGB_1c_Gray850.svg"
+        },
+        {
+            "name": "Baidu", 
+            "logo": "/images/sponsors/bai.png"
+        }
+    ],
+    "silver": [
+        {
+            "name": "imply", 
+            "logo": "/images/sponsors/imply.png"
+        },
+        {
+            "name": "Sphere Ex", 
+            "logo": "/images/sponsors/sphere-ex.png"
+        }
+    ],
+    "strategic_media": [
+        {
+            "name": "segmentfault", 
+            "logo": "/images/sponsors/segment-fault.png"
+        }
+    ]
+}

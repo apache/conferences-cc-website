@@ -1,0 +1,399 @@
+{\rtf1\ansi\deflang1024\deff0{\fonttbl{\f0\froman Times Roman;}{\f1\fnil Times;}{\f2\fmodern Courier;}{\f3\ftech Symbol;}}{\colortbl;\red0\green0\blue0;\red255\green255\blue255;\red0\green0\blue255;}{\stylesheet{\f1\cf1 \snext0 Normal;}{\s1\sa144
+\brdrt\brdrs\brdrcf1\brdrw5 \brdrl\brdrs\brdrcf1\brdrw5 \brdrr\brdrs\brdrcf1\brdrw5 \brdrb\brdrs\brdrcf1\brdrw5 \f2\cf1 \sbasedon0\snext1 Code;}{\s2\keepn\sb288 \f1\fs16\cf1 \sbasedon0\snext2 CodeHeading;}{\s3\sb180\sa108\tqc\tx2429\tqr\tx4680 \f1
+\fs20\cf1 \sbasedon0\snext3 Equation;}{\s4 \f1\cf1 \sbasedon0\snext4 Footnote;}{\s5\tqc\tx5040\tqr\tx10080\tqr\tx13680 \f1\cf1 \sbasedon0\snext5 HdrFtr;}{\s6\keepn\li-720\sb360\sa360 \b\f1\fs48\cf1 \sbasedon0\snext6 Heading;}{\s7\phcol\posxl\pvmrg
+\posyb\dxfrtext0 \f1\cf1 \sbasedon8\snext7 LRCorner;}{\s8\phcol\absw4860\posxi\pvmrg\posyt\nowrap\dxfrtext0 \f1\cf1 \sbasedon0\snext8 ULCorner;}{\s9 \ul\f1\cf3 \sbasedon0\snext9 html_hyperlink_text;}}{\info{\title ax26973w.aw}{\author jgsmith}{
+\doccomm Created by ApplixWare Release 4.30 (build 807.135) #17  RTF Export Filter}}\paperw12240\paperh15840\margl1080\margr1080\margt1440\margb1440\widowctrl\ftnbj\sectd\marglsxn1080\margrsxn1080\margtsxn1440\margbsxn1440\sbknone\headery360
+\footery360\endnhere\pard\plain \qc \f1\cf1 {\b\fs48 Secure Authentication }
+\par {\b\fs48 in an Insecure Environment}
+\par 
+\par J. G. Smith
+\par 
+\par \pard\plain \qj\li1440\ri1440 \f1\cf1 {\fs16 Secure authorization is increasingly important in today's Internet environment.  For small, well controlled environments, traditional authentication methods work well.  However, as systems become more 
+decentralized and untrusted, secure authentication becomes more difficult.  Signed tickets in the form of cookies provide for an authentication mechanism comparable to existing methods in the level of security offered without compromising the integrity 
+of the central authentication database.  In this paper, we present one such method being developed at Texas A&M University and a general methodology for evaluating authentication protocols.}
+\par \pard\plain \qj\fi629 \f1\cf1 
+\par \sect \sectd\marglsxn1080\margrsxn1080\margtsxn1440\margbsxn1440\sbknone\headery360\footery360\cols2\colsx360\endnhere\titlepg\facpgsxn{\headerf \pard\plain \s5\tqc\tx5040\tqr\tx10080\tqr\tx13680 \f1\cf1 
+\par }{\headerl \pard\plain \s5\tqc\tx5040\tqr\tx10080\tqr\tx13680 \f1\cf1 {\field{\fldinst PAGE}{\fldrslt???}} - J. G. Smith
+\par }{\headerr \pard\plain \s5\qr\tqc\tx5040\tqr\tx10080\tqr\tx13680 \f1\cf1 J. G. Smith - {\field{\fldinst PAGE}{\fldrslt???}}
+\par }{\footerf \pard\plain \s5\tqc\tx5040\tqr\tx10080\tqr\tx13680 \f1\cf1 
+\par }\pard\plain \qj\fi629 \f1\cf1 {\fs20 As the world becomes smaller and more greatly interconnected, the importance of a well secured web site grows.  The Internet has brought people together much as the airplane and telephone did years ago by lowering 
+the cost of travel and communication.  No longer are people hours or minutes apart, but mere microseconds.  To borrow a phrase, we can truly ``reach out and touch someone.''  Due to the nature of the Internet, though, we do not always know who is trying 
+to touch us.}
+\par {\fs20 Because of our innate desire to know who is on the other side of the door when we answer a knock, a process for identifying people has been developed.  This process is called authentication, and the decision to accept or deny a request is 
+made purely on the ability of the person to identify himself.}
+\par {\fs20 While much discussion concerning security can be made quite general, we will be looking specifically at the environment provided by the hypertext transfer protocol (HTTP).  Most transactions can be made quite secure by using Transport Layer 
+Security (TLS), but in the interest of providing useful information, we will consider the nontrivial solutions in which the communication is open and available to third-party observers.}
+\par {\fs20 After a brief overview of some basic methods that can be used when investigating protocols and methods and the potential risks associated with them, we will look at how those methods can be used in the environment that is present at Texas 
+A&M University (TAMU) and why a secure authentication scheme is important there.  We will then cover general security concerns present in most protocols using authentication, followed by specific methods available within the HTTP standard.  Finally, 
+we will examine a method developed at TAMU which addresses most of the concerns raised in the earlier discussions.}
+\par {\fs20 In the rest of this paper, a browser is any client under the HTTP standard which can connect to a web site, which is any HTTP server.  The bit of information that a user can give to a web site to prove their identity is the secret (e.g., 
+password).  A person is identified by a particular secret in the context of a username or other publicly available information, since it is only the secret that distinguishes the true person from an imposter in that context.  The collection of secrets 
+and other information used to confirm an identity is held in an identity repository.  A remote web site is any web site not under the direct control of the person or group controlling the authentication database.}
+\par \pard\plain \s6\qj\keepn\fi1349\li-720\sb360\sa360 \b\f1\fs48\cf1 {\fs28 Methodology}
+\par \pard\plain \qj\fi629 \f1\cf1 {\fs20 The first task in either adopting an existing protocol or designing a new one is to identify the constraints placed upon the protocol by the environment in which it is to operate.  Only after all these constraints 
+are identified should a solution be found that can fit the constraints.  Never beat the constraints to match a method, and never beat a method to match the constraints.  If the good fit is cannot be found, then designing a new method should be considered..}
+\par {\fs20 When evaluating protocols, the complete environment in which the protocol is to exist must be considered.  This includes the network, both intranet and extranet (everything not in the intranet), the clients, and the servers.  These three 
+areas are quite large in scope.  The clients, for example, include not only the hardware and the operating system running on that hardware, but also the system administrators and any users.}
+\par {\fs20 When comparing protocols, some measure of security must be made for the comparisons to be objective.  We will develop in later sections some mathematical tools to help with this part of the evaluation.  We will consider such factors as the 
+length of the request in time, the potential number of sniffers, and the lifetime of the sensitive information (e.g., secrets used for identification).  The result will be some measure of the risk of a security compromise for the particular methods or 
+protocols being studied.}
+\par {\fs20 Another important factor in choosing a protocol is the effort required on the part of other system administrators and end users in the implementation.  The most desirable protocol requires zero effort on the part of others which might not 
+be as intimately familiar with the details.  The less effort required, the more likely others will readily accept the particular proposed method.  A method with a manageable security risk can be more secure at times than a method with no risk and no 
+implementation.}
+\par {\fs20 If after evaluating the existing protocols, no protocol is found that will meet the needs of the organization, a new protocol may be developed.  This new protocol should meet the requirements demanded of the other methods as much as possible. 
+ One of the best ways to evaluate any new protocol is to write an `RFC'-like document and use this document to identify weak areas in the protocol.  An example is provided at the end of this paper for the }{\f2\fs20 Authen::Ticket}{\fs20  methods.}
+\par \pard\plain \s6\qj\keepn\fi1349\li-720\sb360\sa360 \b\f1\fs48\cf1 {\fs28 TAMU Environment}
+\par \pard\plain \qj\fi629 \f1\cf1 {\fs20 World wide, the Apache web server is used on over half the web sites while Microsoft server products account for approximately a quarter of the sites [14].  At TAMU, this is reversed, with Microsoft products 
+serving slightly more than half the web sites while Apache serves approximately a third of the sites.}
+\par {\fs20 The TAMU network is actually a small picture of the Internet.  The networking group within Computing and Information Services (CIS), the central department of TAMU computer services, manages the campus network, while the departments are allowed 
+to manage their own networks within their buildings.  The departments are able to contract with the networking group for network installation, but this is not a requirement.  As a result, different departments can have different network characteristics.}
+\par {\fs20 The interdepartmental, or campus network implements anti-sniffing measures while some department networks do not, especially those not installed by the CIS network group.}
+\par {\fs20 As a result of the TAMU network environment, most systems can be considered to live on a fairly secure network, and those portions of the network that are considered insecure are fairly well known.  However, as soon as the network connection 
+leaves the TAMU network, no security can be assumed.}
+\par {\fs20 In the TAMU network environment, then, any connection coming from within the TAMU network can be considered sniff-proof with a high degree of reliability.  Any connection coming from outside the TAMU network should be considered sniffed at 
+all times.}
+\par {\fs20 With a distributed environment like that at TAMU, not only must the network be considered, but also the system administrators and webmasters of remote websites.  Many web applications at TAMU rely on the central directory (currently PH) for 
+authentication information.  However, not everyone is allowed access to all the information contained within the directory.  Allowing remote system administrators access to a person's PH authentication credentials grants them access to all the information 
+in the directory accessible with those credentials and also allows them access to other web applications.}
+\par {\fs20 In addition to the webmasters and system administrators being themselves an unknown risk, the security of the actual machines is also unknown.  If the web applications are poorly written and the machine is insecure, an attacker could gain 
+access to the machine and be able to monitor the memory to obtain sensitive information, including the authentication information.}
+\par \pard\plain \s6\keepn\fi1349\li-720\sb360\sa360 \b\f1\fs48\cf1 {\fs28 Security Concerns}
+\par \pard\plain \qj\fi629 \f1\cf1 {\fs20 With any authentication scheme, several security issues must be considered.  These range from storing secrets to actual interaction with the browser to securing against third parties.}
+\par {\fs20 Mark Twain was to have said once that ``three people can keep a secret if two of them are dead.''  This is especially true in the computer world.  For a secret to truly work, only the person whom the secret identifies should know it.  The 
+secret should never be known by the server or any other process.  One-way maps, or hashes, are best for this purpose.  The server is able to store the hash of the secret, which is then known only by the person.  When the person authenticates, the server 
+can take the provided secret, hash it through the same process as before, and compare with the stored results.  If they match, then the person knows the correct secret.  Given a sufficiently strong hash, no one else, not even the server, can know the 
+secret.  As soon as two entities (people, processes, etc.) know the proper password in a persistent manner, the identity the secret represents and protects is open to impersonation.}
+\par {\fs20 Of course, if the browser must authenticate to a web site, knowledge of the secret must be transmitted in some form from the one to the other.  The simplest protocols require open transmission of the secret.  This allows third parties to 
+listen in and capture the secret along with any other identifying information.  While the client and server could use TLS to encrypt the session and thereby disallow third party inspection of any transactions, doing so places a heavy computational burden 
+on both the browser and the web site.}
+\par {\fs20 When the identity repository is maintained on the same machine as the web site requiring authentication, the only security concerns are protecting the secret in transit and in the repository.  However, when the secrets are stored in a central 
+repository that is then used by remote web sites, additional security risks must be considered.}
+\par {\fs20 Keeping the previous proscription in mind against multiple entities having knowledge of the secret, consider the case of remote web sites querying a central database to confirm the authority of a given secret, as at TAMU.  Each request for 
+a protected resource results in network traffic between the remote site and the central identity repository.  With basic authentication, the remote site will know the secret but can conceal it in it's transactions with the identity repository.  With 
+digest authentication, the secret must be available in the identity repository and passed to the remote site.  In either situation, the remote site gains access to the person's identity.  In certain situations, this access is unacceptable, and lowering 
+that risk is worth slightly higher risk in other areas.}
+\par \pard\plain \s6\qj\keepn\fi1349\li-720\sb360\sa360 \b\f1\fs48\cf1 {\fs28 Measuring Risk}
+\par \pard\plain \qj\fi629 \f1\cf1 {\fs20 Using some fairly simple mathematics, we can form a crude measure of the risk inherent in a particular protocol. After exploring these crude measures, we will look at a little of the more advance probability 
+theory available and how it might apply to measuring the inherent risk in a protocol.}
+\par {\fs20  We will begin by defining a few functions and variables.  Each transaction has a window of opportunity during which anyone sniffing the network has access to potentially sensitive information.  We will denote this window by the variable 
+}{\i\f3\fs20 t}{\fs20 .  }
+\par {\fs20 The number of sniffers on a network with access to and an interest in a particular bit of information is a function of time since once a sniffer has the information, further sniffing of the secret does not affect the probability it will be 
+used.  We will therefore denote the number of sniffers as }{\i\fs20 s}{\fs20 (}{\i\fs20 t}{\fs20 )}{\fs20 .  The probability that a particular sniffer can catch part of the transaction in the window and be able to make use of it is }{\f3\fs20 rt}{
+\fs20  }{\fs20 and the number of sniffers that will be able to successfully make use of the transaction  is}
+\par \pard\plain \s3\qj\sb180\sa108\tqc\tx2429\tqr\tx4680 \f1\fs20\cf1 \tab\tab
+\par \pard\plain \qj \f1\cf1 {\fs20 Keeping in mind a sniffer need not be considered once it has sniffed a particular secret, the number of sniffers can be defined as}
+\par \pard\plain \s3\qj\sb180\sa108\tqc\tx2429\tqr\tx4680 \f1\fs20\cf1 \tab
+\par \pard\plain \qj \f1\cf1 {\fs20 Differentiating both sides of the equation leads to the following definition for }{\i\fs20 s}{\fs20 (}{\i\fs20 t}{\fs20 ):}
+\par \pard\plain \s3\qj\sb180\sa108\tqc\tx2429\tqr\tx4680 \f1\fs20\cf1 \tab
+\par \pard\plain \qj \f1\cf1 {\fs20 Thus, the percentage of sniffers which have successfully sniffed the transaction is}
+\par \pard\plain \s3\qj\fi629\sb180\sa108\tqc\tx2429\tqr\tx4680 \f1\fs20\cf1 \tab
+\par \pard\plain \qj\fi629 \f1\cf1 {\fs20 If the network is considered fairly secure, then }{\f3\fs20 r}{\fs20  will be close to zero, but if the network is insecure (e.g., connections from the Internet), then }{\f3\fs20 r}{\fs20  will be much greater 
+than zero.  For the truly paranoid, }{\f3\fs20 r}{\fs20  can be considered one unless the network and protocol can be proven secure against sniffers.  }{\i\fs20 T}{\fs20  should be considered the number of transactions, which is inherently discrete. 
+Since }{\i\fs20 T}{\fs20  is discrete, }{\fs20 the previously developed equations can only be considered approximations to be used for comparisons between methods.}
+\par {\fs20 Seeing how quantities might evolve in time can be nice but not always helpful.  Doing some manipulation, we can find the number of transactions}{\fs20  which will result in half the sniffers sniffing the secret:}
+\par \pard\plain \s3\qj\fi629\sb180\sa108\tqc\tx2429\tqr\tx4680 \f1\fs20\cf1 \tab
+\par \pard\plain \qj \f1\cf1 {\fs20 Since we do not know the value of }{\i\fs20 s}{\dn6\fs16 0}{\fs20 , we can combine it with }{\i\fs20 t}{\fs20  to produce a new quantity }{\i\fs20 T}{\dn6\fs16 1/2}{\dn6\fs20  which we can use to compare authentication 
+methods:}
+\par \pard\plain \s3\qj\sb180\sa108\tqc\tx2429\tqr\tx4680 \f1\fs20\cf1 \tab
+\par \pard\plain \qj \f1\cf1 {\fs20 The larger }{\i\fs20 T}{\dn6\fs16 1/2}{\fs20 , the less risky the authentication method.}
+\par \pard\plain \qj\fi629 \f1\cf1 {\fs20 For a more rigorous approach, consider the methods developed in [6,7,11].  These references develop some probability theory and present some statistical methods in physics which we will now use to explore some 
+of the complexities in modelling authentication mechanisms and their information flow.  Some authentication methods (e.g., basic authentication) can be modelled as a Markov chain.  These are much simpler to model than others which cannot be so modelled 
+(e.g., digest authentication).}
+\par \pard\plain \s6\qj\keepn\fi1349\li-720\sb360\sa360 \b\f1\fs48\cf1 {\fs28 HTTP Authentication}
+\par \pard\plain \qj\fi629 \f1\cf1 {\fs20 The hypertext transfer protocol (HTTP) version 1.1 provides for two authentication methods [4].  The older, and less secure, of the two is basic authentication.  The newer one is digest authentication.  Both 
+work within the protocol and require special knowledge within the browser.}
+\par {\fs20 Basic authentication can not be considered secure unless used in conjunction with encrypted channels such as TLS.  With every authenticated request, the username and password are sent as plaintext.  However, because the password is readily 
+available to the web server, the usernames and passwords may be stored in any format on the server.  This allows for effective protection of the passwords in the case of a security breach on the server.  Almost all browsers support basic authentication. 
+ With basic authentication, we can consider }{\f3\fs20 r}{\fs20  to be close to unity while }{\f3\fs20 t}{\fs20  is close to 0.028 seconds.  These lead to a value for }{\i\fs20 T}{\dn6\fs16 1/2}{\fs20  of about 40.}
+\par {\fs20 Digest authentication is designed to do only one thing better than basic authentication.  No passwords pass over the network in a usable fashion.  The username, realm, and password are hashed together to form an ``effective'' password which 
+is then combined with other information (e.g., a nonce and the URL) and passed back to the web server with the request.  The password is never passed from the browser to the server, and the server must store the hash of the username, realm, and password. 
+ Because this information must be available to the web server, security of the machine is more important than in the case of basic authentication since any attack yielding the password database trivially opens the site to attack via HTTP.  Few browsers 
+support digest authentication [5,8,13].  With digest authentication, we should consider }{\f3\fs20 r}{\fs20  to be near zero, yet positive, and }{\f3\fs20 t}{\fs20  to be approximately twice that for basic authentication.  These lead to a value for }{
+\i\fs20 T}{\dn6\fs16 1/2}{\fs20  of more than 2}{\up6\fs16 32}{\fs20 .}
+\par \pard\plain \s6\qj\keepn\fi1349\li-720\sb360\sa360 \b\f1\fs48\cf1 {\fs28 Authentication with Cookies}
+\par \pard\plain \qj\fi629 \f1\cf1 {\fs20 Because basic authentication is insecure with the authentication information passing across the network with each request and digest authentication does not enjoy widespread support among browsers, several authentication 
+schemes have been developed using cookies.  These schemes allow the user's credentials to pass over the network once, either in the clear (usually) or obfuscated (e.g., a Java applet).  After the user has authenticated, a cookie is set containing a session-id 
+which can then be used to track the user as they browse through the web site.  These schemes thus combine the wide support of cookies with the relative security of digest authentication.}{  }{\fs20 However, like basic and digest authentication, the web 
+site must have intimate knowledge of the user.  In this case, the session-id is used to track user information for the current session and is devoid of any intrinsic value.}
+\par {\fs20 Let us take a look at  a few of the Perl modules available on the Comprehensive Perl Archive Network (CPAN) for managing cookies with session-ids.  }{\f2\fs20 Apache::AuthCookie}{\fs20  provides authentication and authorization using cookies. 
+ }{\f2\fs20 Apache::Session}{\fs20  maintains persistent information on a per-user basis across connections.  Either package can be used to build a session-id scheme.}
+\par {\f2\fs20 Apache::AuthCookie}{\fs20  uses the authentication and authorization phases of the request to provide an HTML login page.  Upon successful authentication, a session key is returned to the browser in the form of a cookie.  This session 
+key is then used to authenticate future requests and can be used  to index into a database to retrieve user information such as the username.  The primary focus of }{\f2\fs20 Apache::AuthCookie}{\fs20  is user authentication and authorization.}{\up6
+\fs20 \chftn }{\*\footnote \pard\plain \s4 \f1\cf1 {\up6\fs16 \chftn }{\fs16 As of when this was written, ownership of the }{\f2\fs16 Apache::AuthCookie}{\fs16  package was being transfered to new ownership.  The direction of future development is not 
+entirely clear at this point and may render some comments in this paper obsolete.}}
+\par {\f2\fs20 Apache::Session}{\fs20  provides the means to maintain server state across requests by issuing a session identifier to the browser as either a cookie or part of the URL.  The specifics are not part of the actual package and are left to 
+the web site developer.  If the session id is set in the browser  with a cookie, then }{\f2\fs20 Apache::Session}{\fs20  and }{\f2\fs20 Apache::AuthCookie}{\fs20  may be combined to provide both session tracking and user authentication.}
+\par {\fs20 As cookies are typically used for authentication, the secret identifying the user is only passed over the network once, with subsequent page requests using a token returned by the earlier authentication procedure.  This breaks the problem 
+of measuring the risk into two problems.  First, the risk in passing the secret and associated information, and the second being the risk in passing the token.  If the token has a finite lifetime, this second risk can be much less than that with basic 
+authentication, even though the various parameters are similar.  When giving a finite lifetime to the cookie used to identify a user once they have logged in, }{\i\fs20 T}{\dn6\fs16 1/2}{\fs20  should be much larger than the lifetime of the cookie.  
+This value will be affected by how well the cookie can be used by another browser and possibly how is is encoded.}
+\par \pard\plain \s6\qj\keepn\fi1349\li-720\sb360\sa360 \b\f1\fs48\cf1 {\fs28 Ticket Authentication}
+\par \pard\plain \qj\fi629 \f1\cf1 {\fs20 The authentication schemes offered by HTTP 1.1 and the various cookie mechanisms publicly available do well when the secrets database is held on the same machine as the web site requiring authentication.  However, 
+as soon as we are no longer able to maintain such a configuration, we must  consider other security risks besides the mere transmission of secrets from the browser and storage of secrets on the web site.}
+\par {\fs20 If the network might be sniffed, the secrets must not pass over the network between the web site and the authentication database in the clear.  Any communication between the two systems must either be encrypted or involve a challenge}{
+\fs12  }{\fs20 /}{\fs12  }{\fs20 response mechanism.  However, a challenge}{\fs12  }{\fs20 /}{\fs12  }{\fs20 response mechanism requires knowledge of the secret by the web site.}
+\par {\fs20 The authentication server presents an authentication ticket to the browser when the browser has successfully authenticated itself to the server.  This ticket is handled as a cookie by the browser and may be used at any web site which is able 
+to understand the ticket.}
+\par {\fs20 In order for a client web site to understand who is presenting the ticket, the ticket must contain at least the identity of the user in a readily usable form such as a username or user id.  In addition, the ticket must contain an expiration 
+time to limit the usefulness of the ticket if a third-party obtains the ticket.  In addition to these two requirements, any authentication ticket should contain at least the network portion of the browser's IP address if not the complete IP address, 
+and a list of additional fields that may be used for authorization.  By including the IP address of the browser, anyone capturing a ticket must use it ``as is'' within a certain time period and must spoof the IP address of the browser.}
+\par {\fs20 The information contained in the ticket is serialized and base-64 encoded to allow transmission as a cookie.  This encoded form is then hashed using the MD5 algorithm and the resulting hash (now a 128-bit number) signed.  Various signature 
+algorithms are available, but due to patents and possible U. S. export restrictions, El Gamal is the algorithm of choice [10].  The two numbers comprising the El Gamal signature are prepended to the encoded, serialized ticket information and sent to 
+the browser as a cookie.}
+\par {\fs20 Once the browser has identified itself and obtained a ticket, the ticket may be used anywhere it is accepted until it expires.  On occasion, the browser may no longer need the ticket and will want to revoke it to disallow third-party use 
+of the ticket.  This might happen when a user presses a ``logout'' button.  }
+\par {\fs20 Because tickets are essentially stateless, once the ticket is issued, it cannot be taken back.  The digital signature verifies the authenticity of the ticket and the ticket contents identify the owner and duration of the ticket.  No other 
+information is contained within the ticket.  }
+\par {\fs20 To revoke a ticket, each entity which relies on the veracity of the tickets must know which tickets are invalid.  Each client web site must register with the ticket server and publish a well-known URL where the ticket server can PUT (referring 
+to the HTTP method) known revoked tickets.  The ticket server must do this in such a way that an arbitrary client cannot revoke an arbitrary ticket.}
+\par {\fs20 Ticket authentication carries much the same risks as other cookie based authentication mechanisms.  However, it is much more usual to include some type of IP address restrictions and lifetimes in the tickets than with session ids used elsewhere.}
+\par \pard\plain \s6\qj\keepn\fi1349\li-720\sb360\sa360 \b\f1\fs48\cf1 {\fs28 Authen::Ticket}
+\par \pard\plain \qj\fi629 \f1\cf1 {\fs20 The }{\f2\fs20 Authen::Ticket}{\fs20  package provides a toolkit which may be used to build the clients and server for a ticket based authentication scheme.  The toolkit not only includes ticket creation and 
+verification, but also digital signatures of the tickets using the El Gamal algorithm.  The code is quite configurable and extensible.}
+\par {\fs20 The }{\f2\fs20 Authen::Ticket}{\fs20  class itself provides the Apache server extensions to run the ticket server and handle authentication in the client web site.  This class cannot be used outside the mod_perl environment.  Every effort 
+is made to isolate all mod_perl dependencies within the Authen::Ticket package and allow the }{\f2\fs20 Authen::Ticket::*}{\fs20  }{\fs20 classes to operate in any server environment from mod_perl to simple CGI.}
+\par {\f2\fs20 Authen::Ticket}{\fs20  acts as a ticket server when it is installed as a content handler.  Using the }{\f2\fs20 Authen::Ticket::Server}{\fs20  class, it will prompt the user for a username and password along with the duration for which 
+the ticket will be valid and the amount of IP information to include in the ticket.  The default lifetime of a ticket is fifteen minutes.  The default IP information is the IP address of the browser.}
+\par {\fs20 The }{\f2\fs20 Authen::Ticket::Server}{\fs20  class provides all the code necessary for creating a ticket server.  This class is used by }{\f2\fs20 Authen::Ticket}{\fs20  to actually do the work in issuing tickets.  All the login and error 
+screens, ticket construction and encoding, and user authentication code is contained within this class.}
+\par {\fs20 The client class is designed to complement the ticket server and provides the code to verify an authentication ticket.  If the client class inherits from }{\f2\fs20 Authen::Ticket::Signature}{\fs20  as well as }{\f2\fs20 Authen::Ticket::Client}{
+\fs20 , then the ticket must contain a valid signature.}
+\par {\fs20 To use the client class, construct a new object with an optional reference to the Apache request structure.  If the request information is available (i.e., in a mod_perl environment), then the environmental variables normally used for passing 
+information to CGI scripts will not be used.  Constructing the object will extract the ticket information and store it for later manipulation.  In addition, if the ticket signature code is available (e.g., in a derived class), then the signature is also 
+verified at this time.}
+\par {\fs20 To verify that the ticket is valid, use the }{\f2\fs20 verify}{\fs20  method without any arguments.  This will verify that the ticket has not expired and the ticket is being used by the appropriate browser.}
+\par {\fs20 When designing a custom client module, the }{\f2\fs20 verify}{\fs20  method may be overridden to provide additional checks.  We recommend placing a call to the existing routine somewhere in the new one to ensure proper expiration and browser 
+checks without having to rewrite that code.}
+\par {\fs20 The }{\f2\fs20 Authen::Ticket::Signature}{\fs20  class is an optional class which may be used to provide digital signatures.  In an environment with distributed and untrusted web sites, this class is a must.  This class not only provides 
+the ticket signature creation and verification routines, but also provides key server and ticket revocation handlers.  The default signature algorithm is El Gamal with a nominally 512-bit key.  El Gamal is not encumbered with any patents [10].}
+\par {\fs20 Digital signature generation and verification are mathematically intensive operations.  If the client web site and the ticket server are both trusted systems (e.g., operated by the same group), then signatures may be replaced with a simple 
+hash of the encoded ticket information combined with a shared secret [11].}
+\par \pard\plain \s6\qj\keepn\fi1349\li-720\sb360\sa360 \b\f1\fs48\cf1 {\fs28 Building a Ticket Scheme}
+\par \pard\plain \qj\fi629 \f1\cf1 {\fs20 To illustrate how }{\f2\fs20 Authen::Ticket}{\fs20  may be used to create a ticket scheme, let us assume a backend database stored in MySQL.  Our code will use the DBI/DBD modules to access the information.  
+See Listings 1 and 2 for the MySQL and Perl code.  At a minimum, an authenticating function must be defined which can authenticate an individual based on a hash of values built from an HTML form.  If the default fields are insufficient, the form may 
+be overridden with a customized page.}
+\par {\fs20 The subclasses in Listing 2 do not provide for digital signatures.  To add a signature to the ticket, both }{\f2\fs20 @ISA}{\fs20  arrays (lines 11 and 40) must include a class comparable in function to }{\f2\fs20 Authen::Ticket::Signature}{
+\fs20 .  }
+\par \pard\plain \fi720 \f1\cf1 {\fs20 Given a proper Apache configuration, the code in Listing 2 is able to provide a login screen and confirmation of the secret, construct a properly signed ticket (with the additions mentioned from }{\f2\fs20 Authen::Ticket::Signature}{
+\fs20 ), provide the public key to the client web site for ticket verification, and verify tickets on the client web site.}
+\par {\fs20 Ticket revocation in }{\f2\fs20 Authen::Ticket}{\fs20  }{\fs20 is currently under development.  Revocation places a fair burden on both client and server and should be designed with care.  Current design calls for client websites to register 
+with the server, and the server to then notify the client sites of all revoked tickets.  Since the tickets have a finite lifetime, the clients only need track revoked tickets until they expire.}
+\par \pard\plain \s6\keepn\fi1349\li-720\sb360\sa360 \b\f1\fs48\cf1 {\fs28 Conclusions}
+\par \pard\plain \qj\fi629 \f1\cf1 {\fs20 Ultimately, the methods and protocols used in an organization must be tailored to meet the needs and expectations of that organization.}{  }{\fs20 The security of any system depends not only on the services offered 
+by a system and the quality of the code and/or protocols being used, but also on the environment.  This includes not only the physical location of the system, but also the network through which it communicates and the people interacting with it.  In 
+addition, any collection of systems is only as secure as the least secure among them.}
+\par \pard\plain \s8\phpg\absw4877\posx6278\pvmrg\posyt\nowrap\dxfrtext0 \f1\cf1 {\fs16 Listing 1. MySQL User Information Table Creation}
+\par \pard\plain \s1\sa144\tqr\tx360\tx540\brdrt\brdrs\brdrcf1\brdrw5 \brdrl\brdrs\brdrcf1\brdrw5 \brdrr\brdrs\brdrcf1\brdrw5 \brdrb\brdrs\brdrcf1\brdrw5 \phpg\absw4877\posx6278\pvmrg\posyt\nowrap\dxfrtext0 \f2\cf1 {\fs16 \tab 1\tab use test;\line
+\tab 2\tab create table users (\line \tab 3\tab\tab username char(8),\line\tab 4\tab\tab password char(32)\line\tab 5\tab);}
+\par \pard\plain \qj\fi629 \f1\cf1 {\fs20 While the standard authentication methods provided in the HTTP standard are sufficient for those web sites with local control of both content and authentication information, they fall short of being a secure 
+mechanism when the web site requiring the authentication is not trusted by the system providing the identity repository.  In those situations, a more secure method is required that not only considers the security of the secret between the browser and 
+the web site, but also the security of the secret on all systems other than the central identity repository.}
+\par \pard\plain \s2\keepn\sb288\phpg\absw4780\posx6395\pvmrg\posyb\dxfrtext0 \f1\fs16\cf1 Listing 2. Perl Authentication Sub-class
+\par \pard\plain \s1\sa144\tqr\tx360\tx540\brdrt\brdrs\brdrcf1\brdrw5 \brdrl\brdrs\brdrcf1\brdrw5 \brdrr\brdrs\brdrcf1\brdrw5 \brdrb\brdrs\brdrcf1\brdrw5 \phpg\absw4780\posx6395\pvmrg\posyb\dxfrtext0 \f2\cf1 {\fs16 \tab 1\tab package My::Auth;\line
+\tab 2\tab use strict;\line\tab 3\tab use vars (qw/$VERSION @ISA/);\line\tab 4\tab$VERSION = '0.01';\line\tab 5\tab@ISA = (qw/Authen::Ticket/);}
+\par {\fs16 \tab 6\tab package My::Auth::Server;\line\tab 7\tab use DBI;\line\tab 8\tab use DBD::mysql;\line\tab 9\tab use vars (qw/$VERSION @ISA %DEFAULTS/);\line\tab 10\tab$VERSION = '0.01';\line\tab 11\tab@ISA = (qw/Authen::Ticket::Server/);\line
+\tab 12\tab%DEFAULTS = (\line\tab 13\tab    TicketUserDatabase => 'mysql:test',\line\tab 14\tab    TicketDatabaseUser => undef,\line\tab 15\tab    TicketDatabasePassword => undef,\line\tab 16\tab    TicketUserFields =>\line\tab 17\tab        'users:username:password',
+\line\tab 18\tab);}
+\par {\fs16 \tab 19\tab sub authenticate \{\line\tab 20\tab  my($self, $u) = @_;\line\tab 21\tab  my($table, $userfield, $passfield) =\line\tab 22\tab    split ':', $self->\{TicketUserFields\};\line\tab 23\line\tab 24\tab  tie my %DB, 'Tie::DBI', \{
+\line\tab 25\tab    db => $self->\{TicketDatabase\},\line\tab 26\tab    table => $table, key => $userfield,\line\tab 27\tab  \} or return undef;\line\tab 28\line\tab 29\tab  return undef unless $DB\{$u->\{user\}\};\line\tab 30\line\tab 31\tab  my $sp 
+= $DB\{$u->\{user\}\}->\{$passfield\};\line\tab 32\tab  return undef unless\line\tab 33\tab      $sp eq crypt($u->\{password\}, $sp);\line\tab 34\tab  return \{ \};\line\tab 35\tab\}}
+\par {\fs16 \tab 36\tab package My::Auth::Client;\line\tab 37\tab use strict;\line\tab 38\tab use vars (qw/$VERSION @ISA/);\line\tab 39\tab$VERSION = '0.01';\line\tab 40\tab@ISA = (qw/Authen::Ticket::Client/);}
+\par \pard\plain \qj\fi629 \f1\cf1 {\fs20 At present, no HTTP standard provides for a third-party authentication mechanism (e.g., kerberos) that does not require mass deployment of such objects as certificates (e.g., public key infrastructure).  Building 
+a ticket scheme with }{\f2\fs20 Authen::Ticket}{\fs20  provides an intermediate system whereby temporary certificates are issued as required allowing time for such mass deployments or changes in the identity repository without inducing confusion among 
+customers as system gradually convert. }
+\par \pard\plain \s6\keepn\fi1349\li-720\sb360\sa360 \b\f1\fs48\cf1 {\fs28 References}
+\par \pard\plain \fi-449\li449\tqr\tx360\tx449 \f1\cf1 {\fs20 \tab[1]\tab Berners-Lee, T., Fielding, R. and H. Frystyk, "Hypertext Transfer Protocol -- HTTP/1.0", RFC 1945, May 1996.}
+\par {\fs20 \tab[2]\tab Bradner, S., "Key Words for Use in RFCs to Indicate Requirement Levels", BCP 14, RFC 2119, March 1997.}
+\par {\fs20 \tab[3]\tab Fielding, R., Gettys, J., Mogul, J., Frystyk, H. and T. Berners-Lee, "Hypertext Transfer Protocol -- HTTP/1.1", RFC 2068, January 1997.\tab}
+\par {\fs20 \tab[4]\tab Fielding, R.,  Gettys, J., Mogul, J., Frysyk, H., Masinter, L., Leach, P. and T. Berners-Lee, "Hypertext Transfer Protocol -- HTTP/1.1", RFC 2616, June 1999.}
+\par {\fs20 \tab[5]\tab Franks, J., Hallam-Baker, P., Hostetler, J., Lawrence, S., Leach, P., Luotonen, A. and L. Stewart, "HTTP Authentication: Basic and Digest Access Authentication", RFC 2617, June 1999.}
+\par \pard\plain \fi-449\li449\tqr\tx360\tx449 \f1\cf1 {\fs20 \tab[6]\tab Friedman, A. and W. Littman, }{\i\fs20 Industrial Mathematics, A Course in Solving Real-World Problems}{\fs20 , SIAM, 1994.}
+\par \pard\plain \fi-449\li449\tqr\tx360\tx449 \f1\cf1 {\fs20 \tab[7]\tab Kittel, C. and H. Kroemer, }{\i\fs20 Thermal Physics}{\fs20 , 2nd. Ed., W. H. Freeman and Co., 1980.}
+\par {\fs20 \tab[8]\tab Laurie, B. and P. Laurie, }{\i\fs20 Apache: The Definitive Guide}{\fs20 , 2nd ed., O'Reilly, February, 1999.}
+\par {\fs20 \tab[9]\tab Orwant, J., Hietaniemi, J. and J. Macdonald, }{\i\fs20 Mastering Algorithms with Perl}{\fs20 , O'Reilly, August 1999.}
+\par {\fs20 \tab[10]\tab Schneier, B., }{\i\fs20 Applied Cryptography}{\fs20 , 2nd ed., John Wiley and Sons, 1996.}
+\par {\fs20 \tab[11]\tab Stein, L. and D. MacEachern, }{\i\fs20 Writing Apache Modules with Perl and C}{\fs20 , O'Reilly, April 1999.}
+\par {\fs20 \tab[12]\tab Williams, D., }{\i\fs20 Probability with Martingales}{\fs20 , Cambridge University Press, 1991.}
+\par {\fs20 \tab[13]\tab http://www.apache.org/}
+\par {\fs20 \tab[14]\tab http://www.netcraft.co.uk/}
+\par {\fs20 \tab[15]\tab http://www.perl.com/CPAN/}
+\par {\fs20 \tab[16]\tab http://www.php.net/}
+\par \pard\plain \fi-360\li360 \f1\cf1 
+\par \pard\plain \fi360 \f1\cf1 {\i\fs20 The code described in this paper (}{\i\f2\fs20 Authen::Ticket}{\i\fs20 ) is owned by Texas A&M University and available on CPAN under a BSD-style license.}
+\par {\i\fs20 Opinions expressed in this paper are those of the author and not necessarily those of Texas A&M University.}
+\par \sect \sectd\marglsxn1080\margrsxn1080\margtsxn1440\margbsxn1440\sbknone\headery360\footery360\endnhere\pard\plain \fi360 \f1\cf1 
+\par \pard\plain \s6\keepn\li720\sb360\sa360 \b\f1\fs48\cf1 {\fs28 Sample RFC-style Document}
+\par \pard\plain \ri1440 \f1\cf1 {\f2\fs16  }{\f2\fs20           HTTP Authentication: Ticket Authentication}
+\par 
+\par {\f2\fs20 Table of Contents}
+\par 
+\par \pard\plain \li360\ri1440 \f1\cf1 {\f2\fs20 1   Introduction}
+\par \pard\plain \li540\ri1440 \f1\cf1 {\f2\fs20 1.1   Goals}
+\par {\f2\fs20 1.2   Reliance on the HTTP/1.1 Specification}
+\par {\f2\fs20 1.3   Terminology}
+\par {\f2\fs20 1.4   Reference Implementation}
+\par \pard\plain \li360\ri1440 \f1\cf1 {\f2\fs20 2   Authentication Ticket Construction}
+\par \pard\plain \li540\ri1440 \f1\cf1 {\f2\fs20 2.1   Available Information}
+\par {\f2\fs20 2.2   Information Consolidation}
+\par {\f2\fs20 2.3   Information Encoding}
+\par {\f2\fs20 2.4   Authentication Ticket Signature}
+\par \pard\plain \li720\ri1440 \f1\cf1 {\f2\fs20 2.4.1   Signature Generation}
+\par {\f2\fs20 2.4.2   Signature Inclusion}
+\par \pard\plain \li360\ri1440 \f1\cf1 {\f2\fs20 3   Key Server}
+\par {\f2\fs20 4   Security}
+\par \pard\plain \li540\ri1440 \f1\cf1 {\f2\fs20 4.1   Security Requirements of the Authentication Server}
+\par {\f2\fs20 4.2   Security Requirements of the Authentication Client}
+\par \pard\plain \li360\ri1440 \f1\cf1 {\f2\fs20 5   References}
+\par \pard\plain \ri1440 \f1\cf1 
+\par {\f2\fs20 1. Introduction}
+\par 
+\par \pard\plain \li360\ri1440 \f1\cf1 {\f2\fs20 HTTP provides for two authentication methods that MAY be used to determine the identity of the client.  In both methods, access to the effective password is REQUIRED for proper authentication.}
+\par \pard\plain \ri1440 \f1\cf1 
+\par {\f2\fs20 1.1. Goals}
+\par 
+\par \pard\plain \li360\ri1440 \f1\cf1 {\f2\fs20 The method described in this document is designed to meet the following criteria:}
+\par \pard\plain \ri1440 \f1\cf1 
+\par \pard\plain \li720\ri1440 \f1\cf1 {\f2\fs20 Password information MUST not be stored on the authentication server in a format that may be of use to a browser.}
+\par 
+\par {\f2\fs20 Authentication information MUST only be known by and presented to the authentication server.}
+\par 
+\par {\f2\fs20 The authentication client MUST be able to verify the validity of any issued authentication ticket.}
+\par 
+\par {\f2\fs20 The authentication ticket SHOULD NOT be easily used by an imposter.}
+\par \pard\plain \ri1440 \f1\cf1 
+\par {\f2\fs20 1.2. Reliance on the HTTP/1.1 Specification}
+\par 
+\par \pard\plain \li720\ri1440 \f1\cf1 {\f2\fs20 The method described in this document work within the HTTP/1.1 specification [1].  It uses the augmented BNF section 2.1 of that document, and relies on both the non-terminals defined in that document 
+and other aspects of the HTTP/1.1 specification.}
+\par \pard\plain \ri1440 \f1\cf1 
+\par {\f2\fs20 1.3. Terminology}
+\par 
+\par \pard\plain \li360\ri1440 \f1\cf1 {\f2\fs20 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in RFC 2119 [2].}
+\par \pard\plain \ri1440 \f1\cf1 
+\par {\f2\fs20       Authentication Server}
+\par 
+\par \pard\plain \li1080\ri1440 \f1\cf1 {\f2\fs20 The website from which browsers may obtain a proper authentication ticket.}
+\par \pard\plain \ri1440 \f1\cf1 
+\par {\f2\fs20       Authentication Client}
+\par 
+\par \pard\plain \li1080\ri1440 \f1\cf1 {\f2\fs20 Any website which may make use of the authentication ticket issued by an Authentication Server for authentication purposes.}
+\par \pard\plain \ri1440 \f1\cf1 
+\par {\f2\fs20       Authentication Ticket}
+\par 
+\par \pard\plain \li1080\ri1440 \f1\cf1 {\f2\fs20 A cookie set on the browser by the Authentication Server for use by any Authentication Client.}
+\par \pard\plain \ri1440 \f1\cf1 
+\par {\f2\fs20       browser}
+\par 
+\par \pard\plain \li1080\ri1440 \f1\cf1 {\f2\fs20 Any client as defined in the HTTP/1.1 specification [1].}
+\par \pard\plain \ri1440 \f1\cf1 
+\par {\f2\fs20 1.4. Reference Implementation}
+\par 
+\par \pard\plain \li360\ri1440 \f1\cf1 {\f2\fs20 The reference implementation of the authentication method described in this document is the Authen::Ticket module available on CPAN.}
+\par \pard\plain \ri1440 \f1\cf1 
+\par {\f2\fs20 2. Authentication Ticket Construction}
+\par 
+\par \pard\plain \li360\ri1440 \f1\cf1 {\f2\fs20 The Authentication Ticket is presented to the browser by the Authentication Server as a cookie with no expiration time.  The lifetime of the cookie is then the lifetime of the browser session.  The browser 
+presents the Authentication Ticket to the Authentication Client as a cookie.  The browser SHOULD NOT need to understand the contents of the Authentication Ticket.}
+\par \pard\plain \ri1440 \f1\cf1 
+\par {\f2\fs20 2.1. Available Information}
+\par 
+\par \pard\plain \li269\ri1440 \f1\cf1 {\f2\fs20 The Authentication Ticket MUST contain the following information:}
+\par \pard\plain \ri1440 \f1\cf1 
+\par \pard\plain \li720\ri1440 \f1\cf1 {\f2\fs20 uid      username}
+\par {\f2\fs20 expiry   expiration time of ticket}
+\par \pard\plain \ri1440 \f1\cf1 
+\par \pard\plain \li360\ri1440 \f1\cf1 {\f2\fs20 The Authentication Ticket SHOULD contain the following information:}
+\par \pard\plain \ri1440 \f1\cf1 
+\par \pard\plain \li720\ri1440 \f1\cf1 {\f2\fs20 ip       IP address or network address of browser}
+\par {\f2\fs20 fields   list of any optional fields included in ticket}
+\par \pard\plain \ri1440 \f1\cf1 
+\par {\f2\fs20 2.2. Information Consolidation}
+\par 
+\par \pard\plain \li360\ri1440 \f1\cf1 {\f2\fs20 The informational portion of the Authentication Ticket is constructed by}
+\par \pard\plain \ri1440 \f1\cf1 
+\par \pard\plain \li720\ri1440 \f1\cf1 {\f2\fs20 ticket-info = 1#field}
+\par {\f2\fs20 field       = token "=" (token | quoted_string)}
+\par {\f2\fs20 token       = 1*<any CHAR except CTLs or separators>}
+\par {\f2\fs20 separators  = "," | <">}
+\par \pard\plain \ri1440 \f1\cf1 
+\par \pard\plain \li360\ri1440 \f1\cf1 {\f2\fs20 Example construction of `ticket-info':}
+\par \pard\plain \ri1440 \f1\cf1 
+\par \pard\plain \li720\ri1440 \f1\cf1 {\f2\fs20 uid => jgsmith}
+\par {\f2\fs20 ip  => 165.91.250.23}
+\par {\f2\fs20 expiry => 944119401}
+\par \pard\plain \ri1440 \f1\cf1 
+\par \pard\plain \li720\ri1440 \f1\cf1 {\f2\fs20 ticket-info = uid=jgsmith,ip=165.91.250.23,expiry=944119401}
+\par \pard\plain \ri1440 \f1\cf1 
+\par {\f2\fs20 2.3. Information Encoding}
+\par 
+\par \pard\plain \li360\ri1440 \f1\cf1 {\f2\fs20 The information included in the Authentication Ticket is encoded to ensure proper handling by the client browser.  The actual method of encoding is not important but both the Authentication Client and 
+Authentication Server MUST agree on the encoding method and the encoding method MUST be transparent to HTTP/1.1.  The encoding MUST be done before signing.}
+\par \pard\plain \ri1440 \f1\cf1 
+\par \pard\plain \li720\ri1440 \f1\cf1 {\f2\fs20 Note that the requirement for encoding the information before signing reduces the latency between receiving a ticket and verifying the signature by the Authentication Client.  This requirement in no way 
+affects the security of the ticket.}
+\par \pard\plain \ri1440 \f1\cf1 
+\par \pard\plain \li360\ri1440 \f1\cf1 {\f2\fs20 The reference encoding is uuencoding (base 64).}
+\par \pard\plain \ri1440 \f1\cf1 
+\par {\f2\fs20 2.4. Authentication Ticket Signature}
+\par 
+\par \pard\plain \li360\ri1440 \f1\cf1 {\f2\fs20 The Authentication Server MUST sign the informational portion of the Authentication Ticket (which is the encoded ticket-info) and MUST include the resulting signature as a part of the Authentication Ticket.}
+\par \pard\plain \ri1440 \f1\cf1 
+\par {\f2\fs20 2.4.1. Signature Generation}
+\par 
+\par \pard\plain \li360\ri1440 \f1\cf1 {\f2\fs20 A hash of the informational portion of the Authentication Ticket is signed by the Authentication Server.  The reference hash is MD5.  The reference signature algorithm is El Gamal.}
+\par \pard\plain \ri1440 \f1\cf1 
+\par \pard\plain \ri1440 \f1\cf1 {\f2\fs20 2.4.2. Signature Inclusion}
+\par 
+\par \pard\plain \li360\ri1440 \f1\cf1 {\f2\fs20 The RECOMMENDED format for including the signature within the Authentication Ticket is:}
+\par \pard\plain \ri1440 \f1\cf1 
+\par \pard\plain \li720\ri1440 \f1\cf1 {\f2\fs20 signed-ticket = signature ":" encoded-ticket-info}
+\par {\f2\fs20 signature     = hex[ a ] ":" hex[ b ]}
+\par \pard\plain \ri1440 \f1\cf1 
+\par \pard\plain \li360\ri1440 \f1\cf1 {\f2\fs20 Here, `a' and `b' represent the El Gamal signature of the encoded ticket-info.  The `hex' function produces a text hexadecimal form of its argument.  A similar signature format MAY be defined for any other 
+signature algorithm.}
+\par \pard\plain \ri1440 \f1\cf1 
+\par \pard\plain \li360\ri1440 \f1\cf1 {\f2\fs20 The contents of signed-ticket MUST be transparent to HTTP/1.1 and understood by the Authentication Client.}
+\par \pard\plain \ri1440 \f1\cf1 
+\par {\f2\fs20 3. Key Server}
+\par 
+\par \pard\plain \li360\ri1440 \f1\cf1 {\f2\fs20 Any Authentication Server MUST make public sufficient information to allow an arbitrary Authentication Client to verify any current ticket issued by the Authentication Server.}
+\par \pard\plain \ri1440 \f1\cf1 
+\par \pard\plain \li360\ri1440 \f1\cf1 {\f2\fs20 The format and method are implementation dependent.  The reference implementation provides keys in the following format for El Gamal.}
+\par \pard\plain \ri1440 \f1\cf1 
+\par \pard\plain \li720\ri1440 \f1\cf1 {\f2\fs20 key = "y" ":" hex[}{\f2\fs12  }{\f2\fs20 y}{\f2\fs12  }{\f2\fs20 ] ";" "p" ":" hex[}{\f2\fs12  }{\f2\fs20 p}{\f2\fs12  }{\f2\fs20 ] ";" "g" ":" hex[}{\f2\fs12  }{\f2\fs20 g}{\f2\fs12  }{\f2\fs20 ]}
+\par \pard\plain \ri1440 \f1\cf1 
+\par \pard\plain \li360\ri1440 \f1\cf1 {\f2\fs20 The Authentication Client MUST NOT depend on any ordering of the key components.}
+\par \pard\plain \ri1440 \f1\cf1 
+\par \pard\plain \li360\ri1440 \f1\cf1 {\f2\fs20 The public key MAY be made available at a well known URL to satisfy the requirement to provide sufficient information to verify Authentication Tickets.}
+\par \pard\plain \ri1440 \f1\cf1 
+\par {\f2\fs20 4. Security}
+\par 
+\par \pard\plain \li360\ri1440 \f1\cf1 {\f2\fs20 To ensure the security and authenticity of any tickets issued by an Authentication Server, certain actions must be taken by both the Authentication Server and the Authentication Client.}
+\par \pard\plain \ri1440 \f1\cf1 
+\par {\f2\fs20 4.1. Security Requirements of the Authentication Server}
+\par 
+\par \pard\plain \li360\ri1440 \f1\cf1 {\f2\fs20 The Authentication Server MUST include sufficient information within the Authentication Ticket to identify the authenticated user to the satisfaction of a reasonable Authentication Client.}
+\par 
+\par {\f2\fs20 The Authentication Server MUST sign the Authentication Ticket such that the signature verifies the authenticity of the issued Authentication Ticket.}
+\par 
+\par {\f2\fs20 The Authentication Server SHOULD include the IP address of the browser requesting the Authentication Ticket.  The Authentication Server MUST include at least sufficient information in the Authentication Ticket to identify the network of 
+the browser requesting the Authentication Ticket.}
+\par 
+\par {\f2\fs20 The Authentication Server MUST include in the Authentication Ticket a finite expiration time.}
+\par \pard\plain \ri1440 \f1\cf1 
+\par \pard\plain \ri1440 \f1\cf1 {\f2\fs20 4.2. Security Requirements of the Authentication Client}
+\par 
+\par \pard\plain \li360\ri1440 \f1\cf1 {\f2\fs20 The Authentication Client MUST verify the signature of any Authentication Ticket before accepting the authenticity of the Authentication Ticket.}
+\par 
+\par {\f2\fs20 The Authentication Client MUST reject any request from a browser whose IP address does not match the IP address contained within the Authentication Ticket.  If the Authentication Ticket only contains network information, then the browser 
+must be on the indicated network.}
+\par 
+\par {\f2\fs20 The Authentication Client MUST reject any ticket which has expired.}
+\par \pard\plain \ri1440 \f1\cf1 
+\par {\f2\fs20 5. References}
+\par 
+\par \pard\plain \fi-720\li1080\ri1440 \f1\cf1 {\f2\fs20 [1]\tab Fielding, R.,  Gettys, J., Mogul, J., Frysyk, H., Masinter, L., Leach, P. and T. Berners-Lee, "Hypertext Transfer Protocol -- HTTP/1.1", RFC 2616, June 1999.}
+\par \pard\plain \ri1440 \f1\cf1 
+\par \pard\plain \fi-720\li1080\ri1440 \f1\cf1 {\f2\fs20 [2]\tab Bradner, S., "Key Words for Use in RFCs to Indicate Requirement Levels", BCP 14, RFC 2119, March 1997.}
+\par \pard\plain \ri1440 \f1\cf1 {\f2\fs20 \tab}
+\par }
