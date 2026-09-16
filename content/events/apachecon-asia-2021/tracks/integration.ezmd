@@ -1,0 +1,167 @@
+title: Apache Integration Track
+template: page-event-default
+ref: apachecon-asia-2021
+inPageNav: false
+
+## Track Chairs : Willem Jiang, Zoran Regvart, María Arias de Reyna
+
+Integration is a method and technology that integrates heterogeneous systems based on various platforms and with different solutions. There are a variety of projects in ASF that provide a variety of integrated solutions. For example, [[]Apache Camel](https://camel.apache.org/) provides application integration solutions, Apache Gobblin provides data integration solutions. In the integration topic, you will not only learn about the practical experience of first-line users in applying these Apache projects to integration projects, but also learn about the latest developments in the ecology of these Apache integration projects, and visions on where software integration is heading in the future.
+
+___
+
+## 2021-08-06
+
+**13:30 GMT+8** 
+### Apache Camel 3: the next generation of enterprise integration 
+English Session 
+
+_Claus Ibsen, Andrea Cosentino_
+
+Apache Camel is the leading open source integration framework, which has been around for over a decade. In the last year and half, the Camel team has been working on the next generation v3.
+
+The overall goal of this webinar is to show you what’s new in Camel 3, and how Camel is aimed for running modern cloud native workloads.
+
+Apache Camel is now a family of Camel projects:
+
+- Camel 3
+- Camel K
+- Camel Quarkus
+- Camel Kafka Connector
+- Camel Spring Boot
+- Camel Karaf
+
+Camel is the Swiss knife of integration, and the most powerful integration framework. In this session you will hear about the latest features in the new 3rd generation.
+
+Camel K is the serverless integration platform, enabling low-code/no-code capabilities, where integrations can be snapped together quickly using the powers from integration patterns and Camel’s extensive set of connectors.
+
+Using Knative, the fast runtime of Quarkus, and Camel K; then the trio brings awesome serverless features such as auto-scaling, scaling to zero, and event-based communication, and with great integration capabilities from Apache Camel.
+
+We will show quick demos of how Camel 3 and Camel k and present insights into what’s coming next.
+Speakers:
+
+Claus Ibsen: Claus Ibsen (@davsclaus) is an open-source enthusiast and software developer. He’s co-leading the Apache Camel project, a project used for integration; which he has been working on full time for more than a decade. Currently Claus is working on expanding Camel into cloud-native and serverless with the latest innovations of Apache Camel K and Camel Quarkus.
+
+With passion and enthusiasm Claus evangelizes about Apache Camel, Java and open source by being active on social media, writing blogs and books, speaking at conferences, etc.
+
+Besides being a JavaChampion, Claus is also a member at Apache Software Foundation.
+
+Prior to joining Red Hat, he has worked as a software developer, architect, and consultant for over a decade. He is based in Denmark.
+
+Andrea Cosentino: Andrea Cosentino (@oscerd2) is an open-source addicted and software developer. He co-leads Apache Camel and he’s the Project Management Committee (PMC) Chair of the project. He’s currently working on expanding the Camel ecosystem through new subprojects like Camel K, Camel Quarkus, and Camel Kafka Connector (the latest project in the family).
+
+Andrea is a Principal Software Engineer at Red Hat where he works on the Red Hat® Fuse Team, focusing on integration.
+
+Andrea is active on multiple open-source projects like Apache Karaf, Apache Servicemix, in the roles of committer and PMC Member respectively and on Fabric8 Kubernetes-client as one of the core maintainer.
+
+Andrea is active on social media and blogs, talking about Apache Camel and open source in general.
+
+**14:10 GMT+8** 
+### Building and maintaining an army of Camels to tackle your Cloud Native Problems 
+English Session 
+
+_Christina Lin_
+
+Getting Started with Apache Camel ? This session is for you. This will not touch on learning HOW to write camel routes. But every other thing around Camel. Focusing on Cloud Native ways. From what IDE tools, testing frameworks, scaling instance, configuring, CI/CD processes and lastly monitoring. Let’s dive into the life of a Camel application. From its birth to a working Camel, and how they can be managed throughout its lifecycle. We will be looking at two different ways using Camel Quarkus and Camel K.
+Speakers:
+
+Christina Lin: Christina Lin is the Technical Evangelist for Red Hat Middleware Integration Products. She helps to grow market awareness and establish thought leadership for Fuse, AMQ and 3scale. By creating online videos, getting started blogs and also spoke at many conference around the globe. She has worked in software integration for the finance, telecom, and manufacturing industries, mostly architectural design and implementation. These real life system experiences help her to be practical and combine open source technology, she hopes to bring more innovative ideas for the future system development.
+
+**14:50 GMT+8** 
+### From Camel to Kamelets: new connectors for event-driven applications 
+English Session 
+
+_Nicola Ferraro_
+
+Event-driven architectures are having a great moment among developers. Whether they’re using Kafka as the events backbone, or a serverless environment such as Knative, developers now need new ways to connect their applications to external systems: they need connectors.
+
+Kamelets are a new technology in the Apache Camel ecosystem that provide a solution for this problem: they are general purpose connectors that are ready to use and can connect your platform to virtually any of the 300+ systems supported by Apache Camel, and much more than that.
+
+Kamelets are built with ease-of-use and extensibility in mind. Developers can use them out of the box, picking their favorite one from the constantly growing open catalog of Kamelets at Apache, or easily building their own for their specific needs, or even for their enterprise systems. Contributing to the catalog is also easy for everyone.
+
+Additionally, in case you’re not building a single application, but a platform that needs connectors for external systems, there’s no better choice than using Kamelets for connectivity, given the abstract configuration interface that they provide and make them suitable for building any kind of visual UI (we’ll see some examples).
+
+In this presentation, we’re going to explore how these new connectors are made and how they work in various contexts. With a live demo, we’re also going to see them in action using the Camel K runtime on Kubernetes, solving some real world problems.
+Speakers:
+
+Nicola Ferraro: Nicola Ferraro is a Principal Software Engineer at Red Hat. He is Apache Camel PMC member and co-creator of Camel K, the serverless integration runtime for Kubernetes. He often contributes to Knative, Syndesis and the Fabric8 development tools for Kubernetes.
+
+**15:30 GMT+8** 
+### Integration as a Script -- Integration made easy with Apache Camel and JBang 
+English Session 
+
+_Tadayoshi Sato_
+
+In this session, I’ll talk about how easily you can write code that integrates systems with Apache Camel and JBang. Apache Camel is the swiss knife Java framework for integrations, and JBang is a command-line developer tool for running Java programs as a script. Here is the outline (draft) of the session:
+
+    the idea of Integration as a Script, and how easy you can make day-to-day integration tasks,
+    brief introduction to Apache Camel and JBang,
+    compare the standard development steps of a Camel application (w/ Quarkus or Spring Boot) with scripting Camel code,
+    how to script a Camel route with JBang (both *.java and *.jsh),
+    common pitfalls and some advanced tips,
+    and on related projects: Camel K, ICamel (a Jupyter kernel).
+
+Speakers:
+
+Tadayoshi Sato: An open-source software engineer working for Red Hat, and Apache Camel / Hawtio committer.
+
+___
+
+## 2021-08-08
+
+**13:30 GMT+8** 
+### Huawei Cloud ROMA Connect : Enterprise integration platform with Apache Camel 
+English Session 
+
+_Eugene Chan, Reji Mathews_
+
+Quick introduction of Huawei Cloud ROMA Connect. ROMA Connect is a full-stack application & data integration platform that is derived from Huawei’s digital transformation integration practice. Combined with the powerful Apache Camel platform, Huawei has built the next generation low-code/no-code iPaaS under ROMA Connect offering. In this session, we will share our experience from our journey with building on Apache Camel and show you how we enriched with a no code/low code focus for integration development.
+Speakers:
+
+Eugene Chan: Eugene Chan is a Principal Engineer at the Huawei Canada Research Lab. He joined Huawei in 2017 and works in the Application Platform Service team focusing on the next generation middleware service offerings. Prior to Huawei, Eugene was an Advisory Software Developer of IBM Cloud. Eugene’s background also includes development of IBM WebSphere Application Developer suite and IBM Profiling Tools. He was an active committer and PMC member of the Eclipse TCTP projects.
+
+Reji Mathews: Reji Mathews works as a Principal Engineer at the Huawei Canada Research Lab based in Toronto. He joined the research team at Huawei in 2019 and is currently working on prototyping the next generation iPaaS to support Huawei’s cloud customers. Prior to joining Huawei, Reji has worked as an engineer for diverse organizations including but not limited to insurance, retail, telecom and consulting. On the side, he loves contributing to Apache Camel codebase.
+
+**14:10 GMT+8** 
+### Introduction of Camel Quarkus 
+Chinese Session 
+
+_冯征_
+
+Camel Quarkus is an extension of Quarkus framework to use the camel dsl and it could be compiled to the native execution by using the Graal VM. In this talk, I want to introduce the basic idea of Camel Quarkus and how we do to improve the performance by leveraging the Quarkus build time optimization.
+Speakers:
+
+Zheng Feng (冯征) : I work for Red Hat since 2009 and contribute to many upstream open source projects as well as the apache camel recently. My interests are related to the transactions and middleware.
+
+**14:50 GMT+8** 
+### Apache projects, let's embrace ARM! 
+English Session 
+
+_Martin Grigorov, Yikun Jiang, Sheng Liu_
+
+In the last several years, there is more and more wide application of ARM architecture resources, not only in embedded or mobile devices, but also in backend servers. In common software area, there are also more and more voices that require to support ARM platform. Apache is the largest open source community. It has incubated many excellent and widely used open source projects, we have found there are customers who want to run the Apache projects like Hadoop, Spark, Kudu on ARM server, so it is meaningful for Apache projects to embrace ARM. Lately, we have done some efforts about making Apache projects support ARM platform, one important step is promoting ARM CI support for these projects. In this session, we will talk about the current status about ARM support in Apache projects, that mainly includes how we have built ARM CI on different CI infrastructures (Jenkins, Travis, Github action) and what common issues we have met during this process. We will also discuss the following works with other people.
+Speakers:
+
+Martin Grigorov: Martin Grigorov is a PMC member of Apache Wicket, Apache Tomcat and Apache Isis projects. Martin has been working in IT industry since 2003 developing software for different industries. As an Open Source believer he has contributed to many projects and communities. He likes to spend his free time with his family, to travel and to care about his garden.
+
+Yikun Jiang: Yikun Jiang is senior software engineer from Huawei opensource development team, working on multi-arch support and improvement of projects in bigdata area. He has five years experience in cloud computing and bigdata optimization. Previously, he was the committer of OpenStack storage project.
+
+Sheng Liu: Liu sheng is a senior engineer from Huawei open source development team, he was mainly engaged in open source development and CI/CD related works in past 7 years, now he is focus on promoting ARM support and ARM CI for popular open source projects, has done some ARM support works especially in Big-data area projects, such as Hadoop, Storm, Kudu.
+
+**15:30 GMT+8** 
+### How to integrate LDAP & Active Directory with Apache Openmeetings 
+English Session 
+
+_Wentao Liu_
+
+Openmeetings provides video conferencing, instant messaging, white board, collaborative document editing and other groupware tools. It uses API functions of Media Server for Remoting and Streaming Kurento. Openmeetings can be integrated with LDAP & Active Directory to let domain users login the system by domain username and password. In this presentation, the speaker will illustrate details of how to configure LDAP & ADS with Openmeetings. Classes and functions in code snippets of Apache openmeetings and Apache Directory will be explained. Configuration file will be discussed from a user’s point of view assuming you have basic knowledge of java and LDAP. The speaker will show the configuration step by step. At the end of speech, a demo will be given.
+Speakers:
+
+Wentao Liu: The speaker, Mr.Wentao Liu, has more than 10 years IT and teaching experience. In his earlier career, he worked as a software developer and network engineer for China’s telecommunication carriers, such as China telecom.
+
+Then he taught java programming and data structures in colleges. During that time, he founded the embedded system lab. He also co-founded a test center of National Qualification Certificate of Computer and Software Technology Proficiency in P.R.China
+
+He was a contracted offshore project manager of Oracle. In 2015, he co-founded a startup landed in the area of cloud computing and mobile application development. He is eager to open source projects. In China, he co-developed online video conference bridge Onemeeting derived from Apache Openmeetings. The system can be installed on Linux，such as Ubuntu, Debian, CentOS and Windows platform. He received Apache Travel Assistance to attend 2015 ApacheCon Europe. In the past a few years, he was involved in market promotion of Apache Hadoop for some Chinese companies.
+
+He is a personal formal member of KaiYuanShe, a Chinese open source community. As a dad of two lovely boys, he likes travel, music and singing.
+
+

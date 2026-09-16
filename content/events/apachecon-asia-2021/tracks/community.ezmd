@@ -1,299 +1,218 @@
 title: Apache Community Track
 template: page-event-default
 ref: apachecon-asia-2021
-eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
 inPageNav: false
 
-**Tuesday, September 29, 2020 at 2:30 AM PDT**
+## Track Chairs : Jianshen Li
 
-## Apache Software Foundation and The Apache Way (in Hindi language) [[]ALC Indore]
+Why ASF believes “Community over Code”? There is more to open source than just code contribution.
 
-### Swapnil M Mane
+The Community track covers topics such as community governance model, growing open source project communities, diversity & inclusion, measuring community health, community management tools and data, project roadmaps, case studies, and any other topic around sustaining open source and open source communities.
 
-This talk will be part of Track prepared by ALC Indore, and *language for the talk will be Hindi*. In this session, will speak about Apache Software Foundation, and about the Apache Way. # Apache Software Foundation -- History -- Projects -- How Apache project works? -- Apache Project Ecosystem # The Apache Way -- Community - over code -- Merit - recognizing your work -- Communication - how communities communicate -- Open Development -- Decision Making - Consensus
+We welcome you to share your community story with a broader audience.
 
-_An open-source enthusiast, and promoter. -- Apache Software Foundation Member -- Apache Central Services / Editorial Member -- Founder & Chair, Apache Local Community (ALC) -- PMC Member, Apache Community Development, OFBiz, Roller -- Founder Vue.js Indore community Skilled in E-commerce, Order Management System, Omni-Channel, and PWA strategy. Strong information technology professional with the intensive experience of building enterprise-grade applications._
+___
 
----
+## 2021-08-07
 
-**Tuesday, September 29, 2020 at 3:10 AM PDT**
+**13:30 GMT+8** 
+### How to Make Company be the Top Open Source Contributor 
+English Session
 
-## InnerSource updates in China
+_Yu Liu, Jennifer Huang_
 
-### Jerry Tan
+In today’s increasingly connected world, there are enormous companies participating in various open-source projects. Many of the companies are not just consumers, they contribute back to the open-source communities. This talk deeply dives into how the company (StreamNative) works productively with the open-source community (Apache Pulsar) by following the principles of Apache Way. It also demonstrates how the company solves the challenges in the community and evolves with the community sustainably. Moreover, it reveals how the company can be a great supporter to reinforce the value of collaboration in a shared software development environment and achieve great milestones for the open-source community.
+Speakers:
 
-There are more and more projects donated to Apache foundation from China in recent years. So more engineers are familiar with Apache Way. InnerSource is adopting Apache Way with an organization. And then More companies are beginning their InnerSource Journey. In this talk, I will give a brief update of InnerSource adoption in China, including some company's practices. Some are using it to build engineer culture, some are using it as a tool to remove duplicate wheels. InnerSource is a long journey, but I am happy to see that Chinese companies are more willing to embrace Open Source more deeply.
+Yu Liu: Yu Liu is a committer for two Apache Top-Level Projects — Apache Pulsar and Apache Trafodion. She is a content strategist and responsible for community growth and content development.
 
-_Committer of apache.org, mozilla.org, gnome.org PPMC of apache brpc incubating project, InnerSourceCommon Foundation member, InnerSource advocator in China, more than 20 years of Open Source Experience_
+Jennifer Huang: Jennifer Huang is an Apache Pulsar PMC. She works as a senior content strategist at StreamNative, responsible for Apache Pulsar documentation and growth of the community.
 
----
+**14:00 GMT+8** 
+### Open Source Community Growth by a Modern Way 
+Chinese Session
 
-**Tuesday, September 29, 2020 at 3:50 AM PDT**
+_Dianjin Wang_
 
-## Apache Pulsar: a borderless community
+As we all know, in the traditional open source communities, there are some classic ways and experiences for us to manage and maintain the community, which are great inspirations for us. But as the community changes with different communications tools, industry technology trends, and COSS company’s strong impact, there’s a need for one community manager to adopt modern operation ways for maintaining one community, such as AB testing, hacking growth model, and community user’s journey optimization, and motivating contributions to projects. They’re not totally new ways, but lack adoptions for open source communities, which are still run in the old ways. It’s time to bring these new methods to open source communities. In this talk, I will share my thoughts and experience to provide a reference for community managers.
+Speakers:
 
-### Jennifer Huang
+Dianjin Wang: Dianjin Wang is the community manager at StreamNative. He focuses on building a friendly, strong Apache Pulsar community. He has extensive experience in the open source community, user growth and marketing of SaaS.
 
-Apache Pulsar is an open-source distributed pub-sub messaging system originally created at Yahoo and now part of the Apache Software Foundation(ASF). It is a multi-tenant, high-performance solution for server-to-server messaging. After graduation from ASF, the community grows bigger and stronger, with more and more users and contributors. This presentation shares how Apache Pulsar develops a borderless community in a short period.
+**14:45 GMT+8** 
+### The beauty of open source 
+Chinese Session
 
-_Jennifer Huang is an Apache Pulsar committer and a senior technical writer at StreamNative. She contributes to Apache Pulsar documentation and community development proactively. She is dedicated to growing the Apache Pulsar community globally._
+_琚致远_
 
----
+The Apache Software Foundation’s top project, Apache APISIX, and its sub-projects, have merged 250+ PRs in the last 30 days and the trend of contributors is very positive. In addition to this, the quality of the mailing list, the active QQ group and GitHub are attracting a lot of community interest. As the Apache APISIX PMC, what are some of the things that Apache APISIX has done to catalyse an active community from my perspective?
+Speakers:
 
-**Tuesday, September 29, 2020 at 9:15 AM PDT**
+Zhiyuan Ju: Zhiyuan Ju, from api7.ai, is an active member of the Apache APISIX PMC, and maintains the project and community ecosystem. In addition to that, he is also a core organizer of freeCodeCamp China, guiding more people to learn about web projects.
 
-## The Apache Way
+**15:10 GMT+8** 
+### The apache way - the values needed to implement both InnerSource and DevOps within the enterprise 
+Chinese Session
 
-### Kevin A. McGrail
+_谭中意_
 
-The Apache Way is how the Apache Software Foundation works. It's a collection of tribal knowledge and stories that loosely define how we work. Not all of it is intuitive but it does work. In 21 years we have changed the way computing around the world happens through our mission to provide open source software to the world and doing so at no charge! Want to work more effectively with the foundation? Want to model our leadership? Want to bring a new project under our umbrella? Come learn more about the Apache Way! Kevin A. McGrail has served in a number of roles at the foundation as member, as a chairperson, in the incubator, as a mentor, in the treasury and in fundraising. He will talk about his experience and some of the mistakes he's made too.
+InnerSource is adopting the apache way inside one organization. when I practice InnerSource together with DevOps, I found that to make DevOps Practice successful, the same core value such as Open, transparent, Collaboration are also very important. They are the apache way that works for the open source community, but also works for DevOps.
 
-_Kevin A. McGrail Director of Business Growth, InfraShield https://www.linkedin.com/in/kmcgrail, kmcgrail@infrashield.com Kevin A. McGrail, aka KAM, is Director of Business Growth @ InfraShield.com doing cyberphysical security for critical infrastructure. Kevin loves Open Source Software and is a member of the Apache Software Foundation. He is a cyber security and privacy expert, and his research protects millions of Internet users every day. He is an advisor for SecurityUniversity.edu & Virtru.com as well as a Director at the Dysautonomia Support Network and The McGrail Foundation. His latest honor is becoming a member of the U.S. Marine Corps Cyber Auxiliary. Kevin has spoken all over the United States and worldwide in Canada, Germany, Belgium, Sweden & China on Open Source Software, the Cloud & Cybersecurity._
+In my talk, I will describe what I found and explain why.
+Speakers:
 
----
+Jerry Tan: 20 years of open source experience, apache/mozilla/gnome committer, member of apache brpc PPMC Member of InnerSource Commons, the International Inner Source Foundation, Inner Source Evangelist
 
-**Tuesday, September 29, 2020 at 9:55 AM PDT**
+**15:50 GMT+8** 
+### Is it possible to run an open source commercialisation company based on the Apache Way? 
+Chinese Session
 
-## Open Source changes the world!
+_Ming Wen_
 
-### Bertrand Delacretaz
+The Apache Way is a proven community success for countless open source projects, but does it work for open source commercial companies? Does it work in the business world? Having run an open source commercial company for 2 years, Tributary Technologies would like to answer this question from the company’s own experience.
+Speakers:
 
-In a world that's increasingly digital, Open Source software is everywhere: in your phone, your elevator, your car, behind your bank account...more than ever, Open Source is at the heart of our world. Beyond these very concrete contributions to our society's well being, Open Source communities have also helped design innovative collaboration techniques, especially around remote and distributed work. Often running without a formal boss and without a formal schedule, Open Source communities consistently produce software that's of great quality, sometimes world-changing. COVID-19 has prompted many companies and organizations to speed up their transition to digital transformation and distributed collaboration. This talk will show what Open Source communities can bring to this new world, based on a number of concrete example where simple tools and techniques make all the difference in terms of digital and remote collaboration.
+Ming Wen: CEO of API7.ai, Chairman of Apache APISIX PMC, member of Apache Foundation
 
-_Bertrand Delacretaz works as a Principal Scientist for Adobe in Basel, Switzerland. He's involved in software design and development for Adobe Experience Cloud products, which use many open source modules, mostly from Apache projects to which his teams contribute extensively. Bertrand is currently (2020-2021) on his eleventh term as a member of the Apache Software Foundation's Board of Directors and has been active in the Foundation for about 20 years._
+**16:15 GMT+8** 
+### RT-Thread Open Source Community Building Practices and Reflections 
+Chinese Session
 
----
+_陈峰_
 
-**Tuesday, September 29, 2020 at 10:35 AM PDT**
+Introducing some of RT-Thread’s experiences in building developer ecosystems and open source communities over the past 15 years, and the thoughts on building open source communities in the process
+Speakers:
 
-## Teaching Open Source
+Chen Feng: Director of RT-Thread Developer Ecology Operations, many years of experience in the developer community
 
-### Daniel Ruggeri
+**16:50 GMT+8** 
+### OSINFRA: One Infrastructure Behind Four Communities 
+English Session
 
-How did you learn about Open Source? Did you learn from a mentor? Did you learn from a colleague? Did you learn through hard fought experience? For a lot of us, we learned the hard way. But... what if all of the concepts, the tools, the licensing, the methods, and the terms were gathered into a course? Come join our presenter as he walks through his motivations and experience designing and teaching a college-level course about Open Source. We will discuss how to get started, what the curriculum includes, how you could deliver such a course, and other tips and tricks.
+_Sheng Hu, Zhi Cao_
 
-_Daniel is Vice President of Middleware at Mastercard and an Open Source evangelist. Responsible for setting the direction of Mastercard regarding the Web and Cloud space, he spends his days and nights playing with infrastructure and the code that powers it both inside the firewall and outside. He is a member of the Apache Software Foundation and has contributed code to Open Source projects from simple pet projects to widely utilized servers. As a lover of Open Source, he even taught a course about Open Source Software Development (and will share the curriculum with you!). He has spoken at several conferences about expanding Open Source in enterprises, introducing Open Source, and growing understanding of Open Source in education._
+Open source and opensource communities became one of the most important way of software development, there are tons of new open source projects and communities appears each year or even each day.
 
----
+In order to make the open source community/project successful, the creativity and quality of the project itself is just one part of story, the infrastructure behind the community is just as important. An infrastructure system that is powerful, effective and easy-to-use can not only help your community/project development more smooth, providing high quality codes and attract more contributors, it can also help you reduce costs and operation manpowers significantly.
 
-**Tuesday, September 29, 2020 at 11:15 AM PDT**
+OSINFRA is the infrastructure system behind four major open source communities: openEuler, openGauss, openLooKeng and MindSpore, supporting the everyday development for over 7.5k developers. In this session, we would like to share our experiences and best practise about how it is done and what are the future plans.It could be useful for audiences that want to run their own open source projects/communities.
+Speakers:
 
-## From no open source experience to Apache Member and PMC of Commons
+Sheng Hu: Sheng Hu, Senior Software Engineer from Huawei, leader of OSINFRA, 6+ years of experiences in open source. Currently focus on develop and operate infrastructures of the openEuler, openGauss, openLooKeng and MindSpore communities.
 
-### Rob Tompkins
+Zhi Cao: Zhi Cao, Senior Software Engineer from Huawei, openEuler Infra-SIG maintainer, currently focus on openEuler infrastructure management.
 
-Between 2016 and 2019 I went from having not made any Apache contributions to being on the PMC of Apache Commons. I will tell my story here and give insights about how the Apache Way works. This talk has been previously given at the DC Apache Roadshow with a positive response.
+**17:30 GMT+8** 
+### How We Build a Global Community of 1K Users in Two Years 
+English Session
 
-_I am a software developer and mathematician from Richmond, Virginia who happens to be an Apache Member and am on the PMC of Apache Commons. I also particularly enjoy outdoor adventure sports for those interested._
+_Jun Gu_
 
----
+As the world’s most popular open source vector database, Milvus has been adopted by over 1000 organizations in one years and a half. We will present our experiences in building a global user community and also share some interesting user stories.
+Speakers:
 
-**Tuesday, September 29, 2020 at 12:35 PM PDT**
+Jun Gu, partner and chief evangelist of Zilliz, member of Technical Advisory. Before joining Zilliz, he worked as a database SME for 14 years in companies like ICBC, IBM, Morgan Stanley, and Huawei. Jun received his undergraduate degree in Computer Science from Peking University.
 
-## The State of D&I at the ASF
+___
 
-### Anita Sarma, Daniel Izquierdo, Griselda Cuevas, Mariam Guizani
+## 2021-08-08
 
-In this talk we'll talk about the research efforts the D&I committee has been working on for the past year. We'll talk with our researchers and will deep dive into the insights and results we obtained from the three phases of our work: The ASF Community Survey, the D&I research interviews and our quantitative analysis with Bitergia's technology. We'll also have an opportunity to ask questions to the researchers and the team behind this effort.
+**13:30 GMT+8** 
+### Grow and manage your open source project with a proven way - The Apache Way 
+English Session
 
-_Anita Sarma Anita Sarma is an Associate Professor at Oregon State University. Before this she was an Assistant Professor at University of Nebraska, Lincoln; a post-doctoral scholar at Carnegie Mellon University, and a doctoral student at University of California, Irvine. Through this journey her passion has been on helping humans make better software and work together. A primary focus of her research is in facilitating onboarding of newcomers and increasing diversity in open source projects. Overall, Dr. Sarma’s research has resulted in more than 100 peer-reviewed publications an several best paper records and the NSF CAREER award. Her work has been regularly funded through the National Science Foundation and Airforce (AFOSR). Daniel Izquierdo Daniel Izquierdo Cortazar is a researcher and one of the founders of Bitergia, a company that provides software analytics for open source ecosystems. Currently the chief data officer at Bitergia, he is focused on the quality of the data, research of new metrics, analysis, and studies of interest for Bitergia customers via data mining and processing. Daniel holds a PhD in free software engineering from the Universidad Rey Juan Carlos in Madrid, where he focused on the analysis of buggy developers activity patterns in the Mozilla community. Daniel is an active member of the CHAOSS community at the D&I and GrimoireLab working groups as well as an active member of the InnerSource Commons. Griselda Cuevas Griselda is the V.P. of D&I at the ASF and also a product manager in Google Cloud. She has 13 years of experience in a variety of industries, from oil and gas to cloud computing. She has a Masters in Operation Research and Data Science from UC Berkeley and is passionate about data engineering, open source technology, information architecture, diversity and inclusion in tech & Italian wines. In her spare time she reads and works on diversity and inclusion topics, specially around building frameworks that enable participation of under represented groups in tech. Mariam Guizani Mariam Guizani is a PhD student in Computer Science at Oregon State University. Her research area is in Human-Computer Interaction and Software Engineering. She studies inclusivity in open source environments with a focus on supporting cognitive diversity from the tool perspective. She holds a Master of Science in Computer Science from Oregon State University and was a recipient of the Fulbright scholarship in 2016._
+_Swapnil M Mane_
 
----
+The Apache Way is an effective way of open source management. In this talk, we will discuss how you can incorporate the Apache way principles to grow and manage your open source project.
 
-**Wednesday, September 30, 2020 at 2:00 AM PDT**
+The following are the core parts of Apache Way, which helps us managing the 350+ project efficiently and effectively.
 
-## building one active internal opensource community is crucial for InnerSource
+- Community - over code
+- Merit - recognizing your work
+- Communication - how we write
+- Open Development - for everything
+- Decision Making - consensus & Votes
 
-### Jerry Tan
+Speakers:
 
-InnerSource is the use of Apache Way within an organization. it needs both high-level support and internal engineers community support. Sometimes, high-level support is easy to get and implemented, but internal engineers' community support is much hard, it means culture shift. So building one active internal open source community is very important. As OSPO of Baidu, I adopt InnerSource inside Baidu for more than 4 years. I will talk about how I build the internal community in my company, including how I plan, how I implement it. I need to attract the target people, set small tasks to let them participate and contribute, and incentivize them. InnerSource is a long journey, but it is worth the investment.
+Swapnil M Mane: Swapnil is an open-source enthusiast, and promoter, he is spreading open source awareness with Open Source Wave initiative.
 
-_Committer of apache.org, mozilla.org, gnome.org PPMC of apache brpc incubating project, InnerSourceCommon Foundation member, InnerSource advocator in China, more than 20 years of Open Source Experience_
+– Apache Software Foundation Member – Founder, Open Source Wave (www.opensourcewave.io) – Apache Central Services / Editorial Member – Founder & Chair, Apache Local Community (ALC) – PMC Member, Apache Community Development, OFBiz, Roller – Founder Vue.js Indore community.
 
----
+Skilled in E-commerce, Order Management System, Omni-Channel, and PWA strategy. Strong information technology professional with the intensive experience of building enterprise-grade applications.
 
-**Wednesday, September 30, 2020 at 2:40 AM PDT**
+**14:10 GMT+8** 
+### How TiDB build Community 
+Chinese Session
 
-## Apache Local Community (in Hindi language) [[]ALC Indore]
+_Wink Yao_
 
-### Priya Sharma
+Talking about how PingCAP is trying to build an international open-source community in China. How PingCAP has explored, learned, and built TiDB into what it is today. Here we will discuss what is unique to TiDB Community, and what are unchanged principles are also followed by the apache foundation and the LSF.
+Speakers:
 
-This talk will be part of Track prepared by ALC Indore, and *language for the talk will be Hindi* Apache Local Community (ALC) is an initiative by the Apache Community Development project. ALC comprises local groups of Apache (Open Source) enthusiasts, called an 'ALC Chapter'. For details please refer https://s.apache.org/alc The talk will include the details on introduction, Present State and next plans of ALC ## Introduction About ALC ALC Roles and Responsibilities Benefits of ALC How to apply to set up ALC Chapter Code of conduct ALC Resources Addition information Contact ALC ## Present State Current ALC Chapters (Indore, Beijing, Warsaw, Budapest, and others.) Activities and health of these chapters ## Beyond (Next Steps) Establishing new ALCs and future roadmap. How to participate in this initiative. More details on ALC can be found at -- https://s.apache.org/alc The following will be the take away from the session: -- What is ALC and how to participate in this initiative.
+Wink Yao: Was in charge of the open-source MySQL middleware project(Atlas) in the Qihoo 360 infrastructure team, and started his own Android push system, JuNengTui, in 2012. After joining PingCAP, I led some engineering teams(the TiDB SQL Infra Team, TiKV transaction Team, PD Team). Now I mainly focus on community development.
 
-_Core member, Apache Local Community Indore Chapter Contributor to Apache Projects since 2017, majorly contributed in OFBiz, and Community Development project._
+**14:50 GMT+8** 
+### The tricks and techniques of running an open source community 
+Chinese Session
 
----
+_Zhuang Biaowei_
 
-**Wednesday, September 30, 2020 at 9:15 AM PDT**
+During the operation of the open source community, we have many methods, indicators, and tools. However, above all these, the most important thing is still people, the communication between people, the feelings generated in the process of communication, and the creativity generated due to sudden inspiration, which should be called “mind skill”. This is the most difficult part of the open-source community operation.
+Speakers:
 
-## Apache Local Community (ALC): Present & Beyond
+Zhuang Biaowei: senior product manager of HUAWEI CLOUD, and director of the kaiyuanshe for 2020-2021. He has been working in the “front line” of programming since he graduated from university in 1997. He has always been dedicated to promoting and serving open source, loves communities, and participates in communication activities in various communities.
 
-### Swapnil M Mane
+**15:30 GMT+8** 
+### Community Health Reporting 101 
+English Session
 
-Apache Local Community (ALC) is an initiative by the Apache Community Development project. ALC comprises local groups of Apache (Open Source) enthusiasts, called an 'ALC Chapter'. For details please refer https://s.apache.org/alc The session will be majorly on two topics: #1. How the Apache Software Foundation provides the opportunity to flourish your idea. I shared the initial ALC idea to the community around mid-2019, from there with the great inputs from the community and mentors, we have given the shape to the idea. It is a great example, how the community can help you to transform and enhance your idea to match global standards. #2. Introduction, Present State and next plans of ALC ## 2.1 Introduction About ALC ALC Roles and Responsibilities Benefits of ALC How to apply to set up ALC Chapter Code of conduct ALC Resources Addition information Contact ALC ##2.2 Present State Current ALC Chapters (Indore, Beijing, Warsaw, Budapest, and others.. Activities and health of these chapters ##2.3) Beyond (Next Steps) Establishing new ALCs and future roadmap. How to participate in this initiative. More details on ALC can be found at -- https://s.apache.org/alc -- https://s.apache.org/alc-code-of-conduct -- https://s.apache.org/alc-guidelines -- https://s.apache.org/alc-chapters -- https://s.apache.org/alc-reports -- https://s.apache.org/establish-alc-chapter The following will be the take away from the session: -- How community engagement can help in improvising and implementing your idea. -- What is ALC and how to participate in this initiative.
+_Sharan Foga_
 
-_An open-source enthusiast, and promoter. -- Apache Software Foundation Member -- Apache Central Services / Editorial Member -- Founder & Chair, Apache Local Community (ALC) -- PMC Member, Apache Community Development, OFBiz, Roller -- Founder Vue.js Indore community Skilled in E-commerce, Order Management System, Omni-Channel, and PWA strategy. Strong information technology professional with the intensive experience of building enterprise-grade applications._
+Do you know if your community is growing or shrinking? Is your project centred around a core of 2 or 3 main contributors?
 
----
+Community health isn’t only about ensuring releases are made or that code is being committed regularly. The health of an open source community is similar to our own personal health - there are symptoms that indicate when we are not well.
 
-**Wednesday, September 30, 2020 at 9:55 AM PDT**
+In this presentation, I will talk about some of the simple and basic insights projects can gain by taking a look at their Apache Kibble statistics that are freely available and accessible to every ASF project.
 
-## Growing with the Open-Source Community
+Come along and learn about how to know find simple indicators that can tell you if your project is looking healthy and sustainable.
+Speakers:
 
-### Tomasz Urbaszek
+Sharan Foga: Sharan Foga has been involved with the Apache Software Foundation (ASF) since 2008 and has presented at several conferences about ‘The Apache Way’ of engaging and empowering communities. She enjoys working actively with projects on on open source community management.
 
-During this talk, I want to share lessons I've learned as a young engineer contributing to an open-source project. Those include demystifying the stereotype of OSS contributors, "community over code" approach as well as understanding the life cycle and funding of projects. But the most important lesson is why young people should join open source communities early in their careers. They can gain tremendous experience which is quite often out of their reach when working on commercial projects. Also encouraging young people to join OSS project allow us as communities to validate our contribution guides and check if we create a really welcoming environment.
+She is VP Apache Kibble and a PMC Member several Apache projects including Apache Community Development, Apache OFBiz and Apache Training (Incubating). Sharan is an Apache Member and earlier this year was elected to serve on the ASF Board of Directors.
 
-_Tomek is a software engineer at Polidea and Apache Airflow committer. He is an open-source enthusiast and chapter lead of ALC Warsaw. Book and philosophy lover with a big interest in financial markets. Tomek is a maths graduate from Warsaw University of Technology._
+**16:10 GMT+8** 
+### Running open source community in China, the experiences from openEuler. 
+English Session
 
----
+_Zhenyu Zheng, Bolin Li_
 
-**Wednesday, September 30, 2020 at 10:35 AM PDT**
+From the github report 2020, Asia has became the 2nd largest region for active open source contributors and among all the Asia countries, China is the country with the most contributors, about 10% of the total contributors across the world, and is predicted to continuously growing fast to about 15% of the total contributors across the world in the next decade.
 
-## Serve, Lead, Succeed the Open (mindful) Way to Prevent/Reverse Burnout in Boardrooms,
+From the above statistics, we believe that to be able to successfully run an open source community in China is one of key element to become a successful open source community in the future.
 
-### Prashant V. Joshi
+The openEuler community was founded in H2 2020 and growing very fast and became one of the most successful open source communities in China, it currently has over 3000 active contributors and over 60K users. In this presentation, we would like to share the experiences from openEuler community about how to attract contributors in China with SIGs(Special Interests Groups), local events, and small tricks that can help you run your community and events more suitable to Chinese contributors' taste. We would also like to share how did the openEuler community work with universities to attract students contributors which are very energetic and creative, making the community more successful.
+Speakers:
 
-Abstract: Open Source SW (OSS) community has been brilliant in bringing the leadership out of everyone to innovate, contribute and transform. Covid-19, has brought one more challenge to the OSS community.This unique experiential talk inspires and opens minds of new and seasoned OSS community members at large to become successful servant-leaders through self-care coping mechanisms to prevent and alleviate burnout in boardrooms, classrooms and home-rooms in the midst of this pandemic and beyond. Yes you can! === Description: This talk engages the audience with simple, practical, scientific, rational and original ideas. It uses open and mindfulness principles so that every mind opens up (body too!), and gets inspired towards self-transformation. Whether you are a seasoned OSS guru or a novice/curious aspirant, this talk is for you. Why? A closed mind is a dangerous thing that creates toxic leadership for oneself and others. “Misery loves company” is a saying we love to use. Data shows that Rudeness costs millions to companies. Burnout is officially a disease according to World Health Organization. Depression costs lives. In a 2019 World Happiness Report surveying 156 countries, Finland was #1 (home of some Open Source pioneers) while the US was #19. So what? Time to shift the paradigm. It is mid-2020 with a re-surging Covid-19 pandemic and it is about time to bring clarity to our vision (pun intended!) so “happiness loves company too” - becomes a new phrase to live by. “Rudeness is expensive, civility is NOT” is another line to live by too. Well, how, you ask? Through a short presentation filled with scientific data, we will define the science of leadership, outline unique attributes of servant leadership, and give examples of the same. We will end with a mindful experiential component to have fun and begin the science of self-transformation. Yes, we can transform the OSS community together with better (open=mindful) leaders, awesome innovation, funding, and quality of life for all. Thank you
+Zhenyu Zheng: Zhenyu Zheng has been working in Open Source communities for over 6 years, contributed to open source projects like OpenStack, Libvirt, Hadoop, Hive etc. Currently serve as openEuler SIG-AI-BigData and SIG-DB maintainer.
 
-_Prashant V. Joshi M.A. M. Phil, E-RYT 500, C-IAYT, YACEP (public speaker, published author) is an electrical engineer and a computer scientist. He is an outcome-focused management & technology executive, open source evangelist/alliances-builder, educator, master coach/therapist and a social entrepreneur with over 30 years in the US with many global for-profit and non-profit initiatives. His mantra for success is Grow PBT (People, Business, Technology). Presently he is an executive advisor for an early-stage startup (Sukhi Inc) in 'culturally aware mental wellness'. He is also a Global Ambassador to a non-profit institution in India (one of the oldest Yoga Therapy Research/Rehab Center) for raising funds for expanding a rehab/research center for cancer and other life-style diseases. Most recently he was the Vice President of Global Alliances for MariaDB Foundation, an open source project founded by Monty Widenius (creator of MYSQL). Over the past 5 years Prashant has advised many early and mature startups with his big brand and PBT acumen. Prashant is a co-founder of Gurukul, LLC, A Science of Living Institution serving global communities with evidence-based yoga/holistic healing which is in its 20th year. In 2016 he co-founded Food Yogini for advocating eco-friendly foods and goods. He has brought unique leadership coaching, Yoga/wellness into boardrooms, classrooms and home-rooms over the past 25+ years in NYC, NJ, TX and globally. He is a published author and a motivational public speaker. He lives in Austin, TX with his wife Manju, daughters_
+Bolin Li: openEuler community-university collaboration liaison. Experienced in Linux Kernel and Linux Network.
 
-_Veda and_
+**16:50 GMT+8** 
+### Bleeding edge engineering methods follows apache way 
+English Session
 
-_Illa._
+_Kanchana Welagedara_
 
-_He loves sports and travel and one of his tag-lines is_
+With the ongoing pandemic it was evidently proven that distributed teams can productively delivery quality software . Industry has started following Apache way is the new normal to practice apache way to achieve technical collaborations. Apache way has become the bleeding edge engineering methods to build a better engineering system . How to adopt to Apache way with in the firewall is not experimental any more , let’s learn and discuss how it is also possible .
 
-_Billions_
+- Better Engineering Collaboration
+- Develop quality code .
+- Quality mentorship
+- Transparency
+- Realization of what works
 
-_Yet_
+Speakers:
 
-_To_
-
-_Be_
-
-_Served..._
-
-_EE w honors from_
-
-_Bombay_
-
-_University and_
-
-_Double_
-
-_Masters in_
-
-_Computer_
-
-_Science from_
-
-_CUNY_
-
-_Wellness_
-
-_E-RYT 500 (experienced registered Yoga teacher w over 10,000 hours of teaching), C-IAYT certified International Yoga Therapist (w over 5,000 hours of therapeutic practice), YACEP (Yoga Alliance Continuing Education Provider)_
-
----
-
-**Wednesday, September 30, 2020 at 11:15 AM PDT**
-
-## Lightweight Open Source
-
-### Issac Goldstand
-
-Ever think about contributing to the Open Source world, but worried that - for some reason or another - it’s not up to par with playing with the “big boys and girls”? That’s BS! Come learn why *every* contribution in the Open Source world can be helpful! As an active participant in the Open Source community for over twenty years, I am constantly running into situations where prospective newcomers to the community feel daunted and undervaluating themselves and/or their contributions. In this session I’ll talk about the importance of that exact sort of small contribution in some of the biggest Open Source communities and projects out there. Because sometimes a sub-domain expert is *much* more vital than yet another domain expert.
-
-_Issac has been involved in the Web community for nearly 20 years. With a strong background in the Apache Web Server internals, and optimizing web applications, Issac continues to churn out highly optimized web applications in a variety of languages and servers, as well as mentoring teams of programmers to be as passionate about writing great software as he is. Today Issac is married with four kids, and is launching a start-up to chase his long time dream: turning smart homes into a day-to-day "taken for granted" reality. In his spare time, he still spends time volunteering in the tech community and mentoring hi-tech teams across a diverse range of languages and disciplines._
-
----
-
-**Wednesday, September 30, 2020 at 11:55 AM PDT**
-
-## The Apache Way: Practical Open Source Project Management
-
-### Shane Curcuru
-
-The Apache Way is useful for organizations and individuals to be more effective at working in distributed communities. Open source software does not necessarily mean open development - and true community-led open development is where the fun starts in working in FOSS! There are a lot more aspects to consider and areas to invest in as you move forward through the open source journey. These are just the starting points to work on. A key reminder: open source works best when you're working with softare that you actually use. Taking the time to choose which teams or projects that you open up or participate is well worth the investment to keep your team's efforts focused. Come learn the behaviors you can use to succeed at Apache!
-
-_Shane is founder of Punderthings℠ LLC consultancy, helping organizations find better ways to engage with the critical open source projects that power modern technology and business. He blogs and tweets about open source governance and trademark issues, and has spoken at major technology conferences like ApacheCon, OSCON, All Things Open, Community Leadership Summit, and Ignite. Shane is serving a seventh term as an elected Director of the ASF, providing governance oversight, community mentoring, and fiscal review for all Apache projects. Previously, shane served as VP Brand Management for the ASF for eight years, and wrote the trademark and branding policies that cover all 200+ Apache® projects, including assisting projects with defining and policing their trademarks, as well as negoitating agreements with various software vendors using Apache software brands. Otherwise,_
-
-_a father and husband, a BMW driver and punny guy. Oh, and we have cats. Follow @ShaneCurcuru and read about open source communities and see his_
-
-_FOSS_
-
-_http://ChooseAFoundation.com/_
-
----
-
-**Wednesday, September 30, 2020 at 12:35 PM PDT**
-
-## The Myth of Culture
-
-### Ken Coar
-
-In today's increasingly connected world, the word "culture" appears in communities a lot. Unfortunately, it's not a single-value term. In many cases the founders of a culture are unaware of how their ideals have morphed, and acquired altered or additional definitions. In this talk I intend to describe some of the factors that contribute to this sort of 'fuzzing' of consensual understanding of the term.
-
-_Ken Coar, an open sourcerer and opinionist, has written code for 40+ years. He was one of the founders of The Apache Software Foundation, served on its board of directors for years, and was responsible for the ApacheCon conferences for several years as well. He also served on the board of the Open Source Initiative. Currently he prefers to write code in Ruby, but has contributed to rubygems, CPAN, PHP, and Apache httpd._
-
----
-
-**Thursday, October 1, 2020 at 9:15 AM PDT**
-
-## The economics of vendor neutrality and vendor domination
-
-### Myrle Krantz
-
-Game theory applied to open source can be used to explain how participants profit from open source, but existing models work from the assumption that all contributors receive the same benefit from the decisions made. They do not. For example: Some may benefit more when software is faster, while others benefit when it is more configurable. It is often necessary to choose between the two. What happens to the general social welfare captured and made available by an open source project when a narrow economic interest dominates its decision making?
-
-_Myrle Krantz is currently serving as the Treasurer for the Apache Software Foundation. She is a former board member for the Apache Software Foundation, conference chair for ApacheCon Europe in 2019, a member of the Diversity and Inclusion Initiative, and the Community Development Committee. She has served as VP for the core banking open source project Fineract. Myrle has her computer science degree from Rice University in Houston, and her MBA from the Rotterdam School of Management. Myrle is an American living in the Voreifel in Germany with her two daughters, a husband, and a hunting dog. She loves to read, and plays piano badly._
-
----
-
-**Thursday, October 1, 2020 at 9:55 AM PDT**
-
-## Welcoming community strengthens the Apache Way
-
-### Jarek Potiuk
-
-This talk is about making the Apache Airflow a more welcoming community, by applying more of the principles that are the core of Apache Way. This is the story of the changes that we implemented over the last few years as a group of committers and PMCs in Apache Airflow. When our team started to contribute to Apache Airflow, we realized how hard it was to start contributing to the project at the very beginning. While we became few of the most active community members (committers and PMCs) of Apache Airflow, we learned our ropes, but we have not forgotten that others have similar problems and from the very beginning we started to work on making it easier to become the member of the community on many levels. We started from improving the development environment, going through documentation improvements, implementing some best coding practices and CI automation around it, and ending at mentoring and communication guidelines. We would like to share with the other Apache projects some tips and learning on what you can apply to be a more welcoming project. This talk will be half-deep-down technical and half-soft-skills, talking about how both sides are needed in order to be more welcoming. There is a "Success at Apache" blog and Feathercast video about this subject - now is the time to tell some more details in a talk.
-
-_After more than 20 years of career in IT from a junior programmer to CTO of 60+ company, Jarek has chosen to continue his path as individual contributor. He got back from the half-technical, half-managerial path he has been following since, and with the vast experience in both technologies and business side of IT, as well as being organizer of 500+ attendees IT conference, Jarek's engineering skills are supplemented by an understanding of people, business, customers and partners, and with the strong understanding that relationships with people are the key to success in either of the roles. Jarek worked in many roles and many types of companies and he tried it all - from few people mobile payment startup, robotics + AI startup where he was a robotics engineer, working at software house as an engineer and Head of Technology, building and leading 60+ software house, Centre of Expertise expert at one of the biggest FMCG companies, and being Tech Lead Manager at Google, and currently - became one of the most active full-time committers and PMC members of one of the most popular Open-Source Workflow Orchestrator for Big Data - Apache Airflow. Jarek is an experienced technical team leader. Loves leading and motivating professional teams of developers, testers, IT admins, project managers, but only if he can actively participate in all of the things his people do. Patient mentor. Focused on achieving realistic deliverables with quality matching the expectations. Balancing well research and pragmatic approach, with a strong flair for innovations. Jarek likes to use his voice and for a good reason._
-
----
-
-**Thursday, October 1, 2020 at 10:35 AM PDT**
-
-## How to help companies be the best open source participants possible
-
-### Stormy Peters
-
-Companies are participating more and more in open source. Projects that figure out how to work most effectively with companies will benefit the most while maintaining their autonomy. Come discuss and learn the best ways to include companies in your open source software plans. Learn how to leverage the resources companies can bring to a project while maintaining your project's governance model. Learn how to keep companies in the loop and still hear all the individual voices. Learn how to accept resources without sacrificing autonomy. The speaker is experienced in both running Open Source Programs Office for large companies as well as leading open source software non-profits. This unique perspective to both sides allows her to bring some novel suggestions. Many of us have experience working with open source software projects and companies. This presentation will be a mix of real examples and audience discussion.
-
-_Stormy Peters is Director of the Open Source Programs Office at Microsoft. She works with people and teams across Microsoft to help make sure Microsoft uses and contributes to open source software in a way that makes it possible for the world to achieve more through open source software. Stormy is passionate about open source software and educates companies and communities on how open source software is changing the software industry. She is a compelling speaker who engages her audiences during and after her presentations. She has given keynotes at 4,000+ person events such as OSCON, PyCon and LinuxConf Australia as well as talks to small groups. You can find videos of her talks online. Before joining Microsoft, Stormy held leadership positions in open source and developer roles at Red Hat where she was head of the Community Leads, the Cloud Foundry Foundation where she was VP of Developer Relations and Mozilla where she led Developer Relations. Previously, she served as executive director of the GNOME Foundation and at OpenLogic where she set up their OpenLogic Expert Community. Stormy graduated from Rice University with a B.A. in Computer Science._
-
----
-
-**Thursday, October 1, 2020 at 11:15 AM PDT**
-
-## Who pays for open source foundations?
-
-### Shane Curcuru
-
-Open source sustainability is more than just individuals figuring out how to make a living off of open source. Have you ever wondered who actually pays for open source? ### Abstract Open source sustainability is more than just individuals figuring out how to make a living off of open source. Have you ever wondered who actually pays for open source? Not just developers, but the whole ecosystem around major open source projects, either at a FOSS Foundation, independent or an open core project at a company? The major software projects we all rely on are mostly hosted at Foundations like Apache, Eclipse, Linux, or Software Freedom Conservancy. Those foundations provide a wide variety of support to project communities, including legal and licensing assistance, trademark management, event support, and more. As non-profits, these foundations rely on donors and sponsors for all of their work. So who pays for all of this critical support for open source foundations? Come find out what companies are behind the popular open source foundations and major independent projects, and who's actually paying for all of the other support work that's done to keep the servers running, press releases coming, and license compliance work. Surprises are guaranteed; I know I was surprised when I realized how many different FOSS projects that Microsoft is an annual sponsor for, and what projects a few other companies supported with their cash.
-
-_Shane is founder of Punderthings℠ LLC consultancy, helping organizations find better ways to engage with the critical open source projects that power modern technology and business. He blogs and tweets about open source governance and trademark issues, and has spoken at major technology conferences like ApacheCon, OSCON, All Things Open, Community Leadership Summit, and Ignite. Shane is serving a tenth term as an elected Director of the ASF, providing governance oversight, community mentoring, and fiscal review for all Apache projects. Previously, shane served as VP Brand Management for the ASF for eight years, and wrote the trademark and branding policies that cover all 200+ Apache® projects, including assisting projects with defining and policing their trademarks, as well as negoitating agreements with various software vendors using Apache software brands. Otherwise,_
-
-_a father and husband, a BMW driver and punny guy. Oh, and we have cats. Follow @ShaneCurcuru and read about open source communities and see his FOSS Foundation directory at http://ChooseAFoundation.com/_
-
----
-
-**Thursday, October 1, 2020 at 11:55 AM PDT**
-
-## A view from the ivory tower: Participating in Apache as a member of academia
-
-### Michael Mior
-
-Academics in an ivory tower conjures images of people toiling away nicely insulated from many of the concerns of reality. While this has it's advantages, anyone who's tried to use a project written for a research paper under a deadline can attest that it doesn't always result in useful code. While completing my PhD, I found an Apache project that fit well with the work I was doing s I rolled up my sleeves to write some code to make it more useful for solving my own problems. I've since had the opportunity to join the project's PMC and now as a faculty member, I continue to find value in encouraging my own students to contribute to Apache projects. I'll discuss how academics and Apache projects can find mutual benefit in close collaboration.
-
-_Michael completed his Masters degree at the University of Toronto and received a PhD from the University of Waterloo. While completing his PhD, he began contributing to the Apache Calcite project and has since joined the Calcite PMC. He joined RIT as an Assistant Professor in 2018. His research revolves around schema design and management and data integration for non-relational data. He continues to look for opportunity for himself and his students to contribute to Apache projects._
+Kanchana Welagedara: Long time Open source enthusiast, member of Apache Software Foundation, Member of FinTech open source, Via JPMorgan , Speaker for several Apache Conferences and events , Linux foundation,Women in Tech , InnerSource commons and many other technical conferences.

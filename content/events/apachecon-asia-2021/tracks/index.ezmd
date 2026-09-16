@@ -1,22 +1,21 @@
 title:  Tracks
 template: page-event-default
 ref: apachecon-asia-2021
-eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
-inPageNav: true
+inPageNav: falst
 
 |   Tracks | Track Chairs |
 | --- | --- | 
-| API / Microservice |  Ming Wen |
-| Big Data | Duo zhang, Junping Du, Lidong Dai |
-| Community | Jianshen Li |
-| Data Visualization| Ovilia Zhang |
-| Incubator| Juan Pan |   
-| Integration | Willem Jiang, Zoran Regvart, María Arias de Reyna |   
-| IoT and IIoT | Xiangdong Huang, Christofer Dutz |   
-| Keynote | Jerry Tan |   
-| Messaging | Jia Zhai, Dianjin Wang |   
-| Middleware | Liang Zhang，Jean-Baptiste Onofre |   
-| Observability| Sheng Wu |   
-| *Streaming| Yu Li |   
-| Web Server/Tomcat| Huxing Zhang |   
-| Workflow/Data Governance | Wei Guo |   
+| [[]API / Microservice](./tracks/api) |  Ming Wen |
+| [[]Big Data](./tracks/bigdata) | Duo zhang, Junping Du, Lidong Dai |
+| [[]Community](./tracks/community) | Jianshen Li |
+| [[]Data Visualization](./tracks/datavisualization) | Ovilia Zhang |
+| [[]Incubator](./tracks/incubator) | Juan Pan |   
+| [[]Integration](./tracks/integration) | Willem Jiang, Zoran Regvart, María Arias de Reyna |   
+| [[]IoT and IIoT](./tracks/iot) | Xiangdong Huang, Christofer Dutz |   
+| [[]Keynote](./tracks/keynote) | Jerry Tan |   
+| [[]Messaging](./tracks/messaging) | Jia Zhai, Dianjin Wang |   
+| [[]Middleware](./tracks/middleware) | Liang Zhang，Jean-Baptiste Onofre |   
+| [[]Observability](./tracks/observability) | Sheng Wu |   
+| [[]Streaming](./tracks/streaming) | Yu Li |   
+| [[]Web Server/Tomcat](./tracks/webserverandtomcat) | Huxing Zhang |   
+| [[]Workflow/Data Governance](./tracks/workflowdatagovernance) | Wei Guo |   

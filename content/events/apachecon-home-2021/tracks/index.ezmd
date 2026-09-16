@@ -1,7 +1,6 @@
 title: Schedule
 template: page-event-default
 ref: apachecon-home-2021
-eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
 inPageNav: true
 
 ## ApacheCon@Home - Tracks
@@ -41,51 +40,51 @@ Each day starts at 13:00 UTC with introductory remarks from Rich Bowen, VP Confe
 
 The sponsor booths will be available 14:10 until 21:10 UTC. Please visit our sponsors!
 
-- [[]API & Microservice](tracks/apimicro)
-- [[]Big Data](tracks/bigdata)
-- [[]Big Data: Streaming](tracks/bigdatastream)
-- [[]Cassandra](tracks/cassandra)
-- [[]Community](tracks/community)
-- [[]Fineract & Fintech](tracks/fineract)
-- [[]Geospatial](tracks/geospatial)
-- [[]Highlights](tracks/highlight)
-- [[]Observability](tracks/observability)
-- [[]Search](tracks/search)
-- [[]Tomcat](tracks/tomcat)
+- [[]API & Microservice](./tracks/apimicro)
+- [[]Big Data](./tracks/bigdata)
+- [[]Big Data: Streaming](./tracks/bigdatastream)
+- [[]Cassandra](./tracks/cassandra)
+- [[]Community](./tracks/community)
+- [[]Fineract & Fintech](./tracks/fineract)
+- [[]Geospatial](./tracks/geospatial)
+- [[]Highlights](./tracks/highlight)
+- [[]Observability](./tracks/observability)
+- [[]Search](./tracks/search)
+- [[]Tomcat](./tracks/tomcat)
 
 #### Wednesday, September 22nd, 2021
 The sponsor booths will be available 14:10 until 21:10 UTC. Please visit our sponsors!
 
-- [[]API & Microservice](tracks/apimicro)
-- [[]Big Data](tracks/bigdata)
-- [[]Big Data: SQL/NoSQL](tracks/bigdatasql)
-- [[]Big Data: Streaming](tracks/bigdatastream)
-- [[]Cassandra](tracks/cassandra)
-- [[]Community](tracks/community)
-- [[]Content Delivery](tracks/content)
-- [[]Fineract & Fintech](tracks/fineract)
-- [[]Highlights](tracks/highlight)
-- [[]Incubator](tracks/incubator)
-- [[]Integration](tracks/integration)
-- [[]Internet of Things](tracks/iot)
-- [[]Search](tracks/search)
+- [[]API & Microservice](./tracks/apimicro)
+- [[]Big Data](./tracks/bigdata)
+- [[]Big Data: SQL/NoSQL](./tracks/bigdatasql)
+- [[]Big Data: Streaming](./tracks/bigdatastream)
+- [[]Cassandra](./tracks/cassandra)
+- [[]Community](./tracks/community)
+- [[]Content Delivery](./tracks/content)
+- [[]Fineract & Fintech](./tracks/fineract)
+- [[]Highlights](./tracks/highlight)
+- [[]Incubator](./tracks/incubator)
+- [[]Integration](./tracks/integration)
+- [[]Internet of Things](./tracks/iot)
+- [[]Search](./tracks/search)
 
 #### Thursday, September 23rd, 2021
 The sponsor booths will be available 14:10 until 21:10 UTC. Please visit our sponsors!
 
-- [[]API & Microservice](tracks/apimicro)
-- [[]Big Data](tracks/bigdata)
-- [[]Big Data: Ozone](tracks/bigdataozone)
-- [[]Big Data: SQL/NoSQL](tracks/bigdatasql)
-- [[]Community](tracks/community)
-- [[]Content Delivery](tracks/content)
-- [[]Content Management](tracks/contentmgmt)
-- [[]Federated Data](tracks/feddata)
-- [[]Fineract & Fintech](tracks/fineract)
-- [[]Groovy](tracks/groovy)
-- [[]Incubator](tracks/incubator)
-- [[]Integration](tracks/integration)
-- [[]Internet of Things](tracks/iot)
+- [[]API & Microservice](./tracks/apimicro)
+- [[]Big Data](./tracks/bigdata)
+- [[]Big Data: Ozone](./tracks/bigdataozone)
+- [[]Big Data: SQL/NoSQL](./tracks/bigdatasql)
+- [[]Community](./tracks/community)
+- [[]Content Delivery](./tracks/content)
+- [[]Content Management](./tracks/contentmgmt)
+- [[]Federated Data](./tracks/feddata)
+- [[]Fineract & Fintech](./tracks/fineract)
+- [[]Groovy](./tracks/groovy)
+- [[]Incubator](./tracks/incubator)
+- [[]Integration](./tracks/integration)
+- [[]Internet of Things](./tracks/iot)
 
 ### Birds of a Feather
 

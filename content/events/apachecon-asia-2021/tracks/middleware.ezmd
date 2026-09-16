@@ -1,0 +1,87 @@
+title: Middleware
+template: page-event-default
+ref: apachecon-asia-2021
+inPageNav: false
+
+## Track Chairs : Liang Zhang，Jean-Baptiste Onofre
+
+Middleware is the most widely existing infrastructure based on application system, which is used to process with various non-functional requirements.
+
+There are a variety of projects in ASF that provide middleware solutions. For example, [[]Apache Karaf](https://karaf.apache.org/) and [[]Apache ServiceMix](https://servicemix.apache.org/) are used for ESB; [[]Apache ShardingSphere](https://shardingsphere.apache.org/) has the ability of database additional services.
+
+In the middleware topic, you will not only learn about the practical experience of first-line users in applying these Apache projects, but also learn about the latest developments in the ecology of them. At the same time, it also looks forward to the latest vision of middleware.
+
+___
+
+## 2021-08-06
+
+**13:30 GMT+8**
+### An overview of Apache Commons Compress 
+English Session 
+
+_Peter Lee_
+
+I’d like to introduce Apaceh Commons Compress:
+
+- The community of Apache Commons.
+- Some history of Apache Commons.
+- What we can do with the help of Commons Compress?
+- The mostly used APIs of Commons Compress and the recommonded way to use them.
+- The ideas why we design Commons Compress in that way.
+- Some suggestions for potential contributors who want to contribute to Commons.
+
+Speakers:
+
+Peter Lee: Committer/PMC of Apache Commons and Apache Tika
+
+**14:10 GMT+8**
+### The powerful distributed scheduling solution-Apache ShardingSphere ElasticJob 
+Chinese Session 
+
+_Weijie Wu_
+
+Apache ShardingSphere ElasticJob, an Apache ShardingSphere sub project, is a distributed scheduling solution. This talk first introduces the application scenarios, features, architecture of the ElasticJob, and the improvements made by version 3.0 in job customization, and then elaborates the implementation principles of sharding, failover and other features.
+Speakers:
+
+Weijie Wu, a committer of Apache ShardingSphere Community, an active participant in the development of ShardingSphere ElasticJob 3.x, is familiar with the architecture and usage of ShardingSphere ElasticJob. He was working in an Industrial Internet company and had some practical experience in back-end development. Currently, he is a Middleware Engineer at SphereEx.
+
+**14:50 GMT+8**
+### The mechanism of database governance in the distributed database middleware ecology of Apache ShardingSphere 
+Chinese Session 
+
+_Haoran Meng_
+
+Apache ShardingSphere is an open-source ecosystem consisted of a set of distributed database solutions, including 3 independent products, JDBC, Proxy & Sidecar (Planning). They all provide functions of data scale out, distributed transaction and database governance. As one of the core features of ShardingSphere, database governance provides solutions for data consistency and service high availability in distributed environment. This sharing will bring you the best practices of ShardingSphere in distributed database governance. At the same time, it will introduce the architecture, implementation and future plans of database governance in detail from service governance, data governance and other aspects.
+Speakers:
+
+Haoran Meng: Senior Java Engineer Apache ShardingSphere committer, passion for open source and technology
+
+**15:30 GMT+8**
+### Scalable machine learning with Apache Ignite, Python, and Julia: from prototype to production 
+English Session 
+
+_Peter Gagarinov_
+
+Apache Ignite incorporates a scalable, efficient machine learning (ML) framework that enables data transformation, ML model training, and inference on Apache Ignite nodes (without data leaving the cluster). However, sometimes scalability in regard to data size and data-transfer cost is not as important as scalability in regard to the number of parallel requests and the ability to use the external, more sophisticated models that are implemented in Python and Julia.
+
+In this talk, Peter Gagarinov shares his experience with integrating Apache Ignite with external machine Peter frameworks. Using an ML-based, automated issue-management system (Alliedium) as an example, Peter shows how the business task of building a distributed and scalable service can be efficiently performed by relying on Apache Ignite and ML frameworks from Python and Julia ecosystems. In the second part of his talk, Peter presents a lightweight Apache Ignite data migration tool that was developed in-house for the needs of Alliedium.
+Speakers:
+
+Peter Gagarinov: Peter is a passionate open-source enthusiast who focuses on machine learning and distributed computational systems. Peter dedicates his time to working as a consultant for various projects and as a product manager and software architect at Alliedium. Alliedium builds and offers an ML-based, automated issue-management system and provides a defect-classification and bug-triaging service for Atlassian Jira. Peter has devoted 18 years to software development, architecture, machine learning, and applied mathematical modeling for financial and electricity markets.
+
+**16:10 GMT+8**
+### The excellent practice of Apache ShardingSphere in JDT.com 
+Chinese Session 
+
+_高新刚_
+
+
+- Shardingsphere’s incubation journey at Jingdong Technology
+- Introduction of shardingsphere core features
+- Domestic database solution based on shardingsphere
+- Case Sharing
+
+Speakers:
+
+Gao Xinguang: Database team leader of Jingdong Technology, database architect, 15 years of database operation and maintenance management experience, worked for TOM.com, Soufun.com, Jinshan Cloud. He is responsible for the management and maintenance of the database platform, and has led the team to smoothly escort many 6.18 and 11.11 promotions; led the capacity building of the domestic distributed transactional database Stardb and the construction of the database ecosystem; has long focused on database productization output and the exploration and research of domestic databases, and has in-depth practice and exploration on the design and development of database middleware, distributed transactional database and automated intelligent operation and maintenance platform. He has in-depth practice and exploration on database middleware, distributed transactional database and automated intelligent operation and maintenance platform design and development.
+

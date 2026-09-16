@@ -1,0 +1,185 @@
+title: Keynote
+template: page-event-default
+ref: apachecon-asia-2021
+inPageNav: false
+
+## Track Chairs : Jerry Tan
+
+Keynote track is the main track. we invite many famous people in open source community, they will share their visions and insights about open source.
+
+___
+
+## 2021-08-06
+
+**09:20 GMT+8**
+### Welcoming Diversity 
+English Session 
+
+_Sharan Foga_
+
+Diversity and Inclusion has always been an important part of our ASF project communities. Being able to work and collaborate remotely with a wide range of people has been a core strength in the growth of all our communities. How we attract, welcome and collaborate with a wide range of contributors can sometimes be difficult. What signals can communities give to show that they want and value diverse contributors? And once you attract these contributors, how to do we know or measure how well we are doing?
+
+In this talk I will discuss some of the challenges we continue to face in becoming diverse communities and also identify some strategies and tools that may be able to help.
+Speakers:
+
+Sharan Foga:
+
+Sharan Foga has been involved with the Apache Software Foundation (ASF) since 2008 and has presented at several conferences about ‘The Apache Way’ of engaging and empowering communities. She enjoys working actively with projects on on open source community management.
+
+She is VP Apache Kibble and a PMC Member several Apache projects including Apache Community Development, Apache OFBiz and Apache Training (Incubating). Sharan is an Apache Member and earlier this year was elected to serve on the ASF Board of Directors.
+
+**09:50 GMT+8**
+### Cultivating Open Source Communities 
+Chinese Session 
+
+_Willem Jiang_
+
+The Open Source community can bring users and developers together organically through the Internet, allowing them to cross organizational boundaries and collaborate effectively for a common goal. In order for everyone to embrace an open and transparent culture with win-win cooperation and to nurture a healthy Open Source ecology, we need to actively integrate with successful Open Source communities in the industry to learn from their experiences and at the same time cultivate an organically growing open source community within the organization. In this sharing, Willem Jiang will combine his 15 years of open source experience to show you the exploration journey of cultivating Open Source communities.
+Speakers:
+
+He is a member of Apache Software Foundation, a mentor of Apache Software Foundation Incubator, a founder of ALC Beijing, a technical expert of Huawei Open Source Competence Center, and a former chief software engineer of Red Hat Software.
+
+**10:20 GMT+8**
+### Ray: A universal framework for distributed computing 
+English Session 
+
+_Ion Stoica_
+
+Distributed computing is becoming the norm, and this trend is driven largely by the computational requirements of machine learning applications. However, building distributed applications today requires tons of expertise.
+
+Ray aims to make it as easy to program a cluster of machines as it is to program a laptop.
+Speakers:
+
+Ion Stoica
+
+Ion Stoica is a Professor in the EECS Department at the University of California at Berkeley. He does research on cloud computing and networked computer systems. Past work includes Apache Spark, Apache Mesos, Tachyon, Chord DHT, and Dynamic Packet State (DPS).
+
+He is an ACM Fellow and has received numerous awards, including the SIGOPS Hall of Fame Award (2015), the SIGCOMM Test of Time Award (2011), and the ACM doctoral dissertation award (2001).
+
+In 2013, he co-founded Databricks a startup to commercialize technologies for Big Data processing, and in 2006 he co-founded Conviva, a startup to commercialize technologies for large-scale video distribution.
+
+**10:50 GMT+8**
+### Technology for Good and the Road of Social Value Innovation 
+Chinese Session 
+
+_Mark Shan_
+
+The speaker will share with the audience Tencent Cloud’s continued investment in open source, its achievements and outlook, including the progress of Apache InLong, a project currently in the ASF incubator, and explain the vision of how technology for good and open source can achieve social value innovation.
+Speakers:
+
+Mark Shan is the Chairman of Tencent Open Source Alliance and has more than ten years of hands-on experience in cloud-native, microservices, edge computing, big data and open source ecology. He is passionate about Tencent’s continued efforts to build a healthy open source community and is committed to working on open source to accelerate technology and product innovation. At Tencent Cloud, he also leads the open source ecology team and works with international open source organizations such as Apache Software Foundation, Linux Foundation, CNCF, and Open Atomic Open Source Foundation for global open source innovation collaboration. He is also actively involved in domestic and international open source communities, serving as an observer of the Linux Foundation Board, Chairman of the TARS Foundation Board, Linux Foundation Akraino Edge Computing TSC, Open Atomic Open Source Foundation TOC, Magnolia Open Source Community TOC, Technical Expert of China Cloud Native Industry Alliance, and Advisory Board Member of Open Source Society.
+
+He has received awards such as InfoQ Top 10 Outstanding Contributors to Open Source, China ICT Academy Pinnacle Open Source Personality, COPU China Outstanding Open Source Personality, SegmentFault China Open Source Pioneer, GOPS Microservices Person of the Year, and Go China Most Valuable Expert.
+
+**11:20 GMT+8**
+### Innovation of Industrial big data software and open-source 
+English Session 
+
+_wang jianmin_
+
+
+
+Industrial big data is a very important component of the industrial internet. The report reviews the development history of Industrial big data, discusses the relationships among “industrial big data, enterprise digitalization, and industrial internet”, analyzes the data and application characteristics, and introduces the architecture of the industrial big data system. Furthermore, the report discusses the innovation of the industrial big data software under the open source model and shares the practice of open source development and education in the School of Software, Tsinghua University in China.
+Speakers:
+
+Professor Jianmin Wang is the Dean of School of Software, Tsinghua University, the Executive Director of National Engineering Laboratory for Big Data Software, and Apache IoTDB PMC. He does research on Data Management and Information System, including Unstructured Data Management on Cloud Platform, Business Process and Product Lifecycle Management, DRM and System Security, and Database Testing and Security Assurance. He was the conference chair of ACM SAC, CIKM, WISE, BPM, APWeb, and CCF BigData.
+
+___
+
+## 2021-08-07
+
+**09:20 GMT+8**
+### In Community We Trust 
+Chinese Session 
+
+_Dongxu Huang_
+
+
+
+Open source has recently become a very hot topic. The core of open source is not in the code, but in the community, and what is the nature of the community? Why is the community so important? How to run a good open-source software community? Is there a conflict between open source and business? These are very important questions, in this talk, I will give my thoughts on the above questions.
+Speakers:
+
+A distributed system expert, architect, open-source software author, co-founder, and CTO of PingCAP, co-author of TiDB, a well-known open-source HTAP database, worked at Microsoft Research Asia, NetEase Youdao and WandouLabs, founded PingCAP in 2015, he specializes in distributed storage system design and implementation, and high concurrency backend architecture design. He has presented papers or gave talks in VLDB, HPTS, and other academic database conferences.
+
+
+**09:50 GMT+8**
+### From Open Source to Product 
+Chinese Session 
+
+_Luke Han_
+
+It has been almost 6 years since Apache Kylin graduated as the first ASF top-level project in China, and the founding team formed the startup Kyligence to work on the productization side. Today, from a product perspective, looking back at open source projects and technologies, there are a lot of similarities and differences. In this session, we will share how Kylin is productizing an open source technology from a “product manager” perspective, and how to run open source communities and projects with a “product mindset”.
+Speakers:
+
+Luke Han, Co-founder and CEO of Kyligence, Co-founder and PMC Member of Apache Kylin
+
+**10:20 GMT+8**
+### Community over code: practices on open source projects across different foundations 
+Chinese Session 
+
+_Junping Du_
+
+As one of the key open source rules, “community over code” has been accepted by most open source projects. Building an active community around a project is recognized as an important sign to measure a project is mature or not. Thus, many open source foundations have an explicit item on their checking list for project graduation from incubator status. However, different foundations (Apache, Linux, and OpenAtom) could have slightly different practices across projects. In this session, the speaker will share some lessons learned from over 10 years of open source contributions.
+Speakers:
+
+ASF Member, Apache Hadoop Committer & PMC Member, Open Atom Open Source Foundation TOC Chair, LF AI Foundation Board Member, General Manager of Huawei Cloud & Computing Open Source Business
+
+
+**10:50 GMT+8**
+### Apache APISIX from open source project to the commercialization 
+Chinese Session 
+
+_Wen Ming_
+
+Apache APISIX was donated to the Apache Software Foundation by a startup company and commercialized based on it, which is not a common practice. In this sharing, Ming Wen, Apache APISIX PMC Chairman and co-founder of Tributary Technology, will tell you all about it.
+Speakers:
+
+Ming Wen, Chairman of Apache APISIX PMC, member of Apache Foundation, co-founder of Tributary Technology.
+
+___
+
+## 2021-08-08
+
+**09:20 GMT+8**
+### Epic Fail: Key Open Source Career Mistakes and How to Avoid Them 
+English Session 
+
+_Jono Bacon_
+
+Jono Bacon has spent 22 years working in open source, and while his career has overall been a successful one, he has experienced plenty of failure. In this keynote session, Jono will share some of the most critical mistakes he has made and how you can not just learn from them, but to use them as a way to be more successful. His guidance will be practical, giving you plenty of material to put into action todau. This will be an open, transparent, and at times vulnerable keynote with plenty of food for thought of what to do and what not to do.
+Speakers:
+
+The Author of (the art of Community)
+
+**09:50 GMT+8**
+### Solving world problems with open technologies 
+English Session 
+
+_Hong Phuc Dang_
+
+We need open source now, more than ever. There is an urgent need to foster global connections, knowledge exchange and cross-border collaboration. Only by working together can we make bigger strides in solving some of the world’s most pressing problems. People from around the world work together on open source projects. They show every day how a fruitful and successful collaboration on a global scale to the benefit of all is possible despite different views, personal and historical backgrounds and experiences. In this session, Hong Phuc Dang will speak about the state of open source software and hardware - challenges and opportunities. What we have learned from the pandemic, how individuals can contribute and help to build global solutions the open source way.
+Speakers:
+
+Hong Phuc is the founder of FOSSASIA, an organization that strives to improve people’s lives through sharing open technologies and fostering global connections and sustainable production. She chairs the annual FOSSASIA Summit and organizes Open Tech Summits in countries from Vietnam, India, China, Sri Lanka, to Germany. She serves as a Vice Chair of the Open Source Committee, IEEE, a board member of the Open Source Business Alliance and VP of Open Source Initiative. With over a decade of open source expertise, she supports companies in their technology transition to open source and innersource development models. Her recent efforts focused on bringing open source hardware into production at scale. Hong Phuc believes Free and Open Source is not just a way to exchange code freely, it is a collaboration model that sets an example of how people around the world can work together peacefully to solve any problem.
+
+**10:20 GMT+8**
+### How to support the next 50 million open source developers 
+English Session 
+
+_Kevin Xu_
+
+The next wave of open source developers will come from not only mature economies but increasingly from emerging markets and developing nations, many of which are in the APAC region. This global-scale growth presents both new opportunities and new challenges. This presentation will discuss who these new developers are, what they need to succeed, and how the global open source community can better support them.
+Speakers:
+
+Senior Director of International Expansion Strategy at GitHub. Author of the Interconnected newsletter on the intersections of tech, business, investment, and geopolitics. Former General Manager of Global Strategy and Operations at PingCAP.
+
+**10:50 GMT+8**
+### The Road of Open Source Big Data in Alibaba 
+Chinese Session 
+
+_Feng Wang_
+
+Alibaba has been adhering to the dual-track development model of self-research and open source in the direction of big data technology, actively embracing the open source ecology on the basis of good self-research, especially in recent years, with the continuous high-speed development of Ali cloud business, the cloud product system based on open source technology ecology is increasingly favored by the market. Alibaba started to build the first generation of big data platform - Cloud Ladder based on Apache Hadoop 12 years ago, and started to vigorously promote the development of Apache Flink community from 2016, and now Alibaba has become the world’s largest contributor and promoter of Apache Flink community. The Alibaba Open Source Big Data team has trained more than 30 Apache Top Project Commiter / PMC Members and many ASF Members. In this talk, we will introduce Alibaba’s open source Big Data technology development history and future plans in the past 10 years.
+Speakers:
+
+Feng Wang, also known as Mo Wen, is an Alibaba researcher and the head of open source big data platform. He is currently leading a team to build Alibaba’s open source big data product system based on open source big data technology, including Flink-based real-time computing service, Hadoop/Spark-based E-MapReduce platform and new generation data lake analysis products, which not only serve all real-time data business of Alibaba Group internally, but also provide the world’s leading open source big data computing service to the majority of small and medium enterprises through Alibaba Cloud. It not only serves Alibaba Group’s real-time data business internally, but also provides the world’s leading open source big data computing services for small and medium enterprises through AliCloud.

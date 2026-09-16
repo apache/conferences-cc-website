@@ -28,8 +28,8 @@ events:
         endDate: 2026-10-11 # must use format YYYY-MM-DD
         displayDate: October 11, 2026 # what is displayed on event card
         image: /images/events/glasgow-2026/lakehouse-card.webp # optional image for event card
-      - name: Airflow Contributor Days
-        href: /events/glasgow-2026/airflow-contributor-days-glasgow
+      - name: Airflow Contributor Day
+        href: /events/glasgow-2026/airflow-contributor-day-glasgow
         endDate: 2026-10-11 # must use format YYYY-MM-DD
         displayDate: October 11, 2026 # what is displayed on event card
         image:  # optional image for event card
@@ -113,7 +113,7 @@ events:
   - name: ApacheCon Asia 2021
     nav: nav-asia-2021.html
     ref: apachecon-asia-2021
-    href: https://apachecon.com/acasia2021/
+    href: /events/apachecon-asia-2021
     registrationHref:
     startDate: 2021-08-06
     endDate: 2021-08-08

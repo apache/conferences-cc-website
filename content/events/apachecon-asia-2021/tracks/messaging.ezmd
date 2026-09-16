@@ -1,0 +1,224 @@
+title: Messaging
+template: page-event-default
+ref: apachecon-asia-2021
+inPageNav: false
+
+## Track Chairs : Jia Zhai, Dianjin Wang
+
+Messaging system is used to enable communication between systems by sending messages to each other. It is used to decouple heavyweight processing, to buffer or batch work, and to smooth spiky workloads, also it can be used as the basic infrastructure for event driven and streaming systems.
+
+In ASF, there are various projects that provide messaging services, for example: [[]Apache Pulsar](https://pulsar.apache.org/), [[]Apache Kafka](https://kafka.apache.org/), [[]Apache RocketMQ](https://rocketmq.apache.org/), [[]Apache ActiveMQ](https://activemq.apache.org/), [[]Apache TubeMQ(incubating)](https://tubemq.apache  .org/), etc.
+
+In this topic, the messaging communities will share first-line experiences and best practices, exchange ideas and knowledge, and discuss the roadmap and the future of messaging technologies.
+
+___
+
+## 2021-08-06
+
+**13:30 GMT+8**
+### Apache Bookkeeper (as a Key Value Stire) and its use cases 
+English Session 
+
+_Shivji Kumar Jha_
+
+In order to leverage the best performance characters of your stream backend, it is important to understand the nitty gritty details of how your stream server stores your data. Understanding this empowers you to design your use case solutioning so as to make the best use of resources at hand as well as get the optimum amount of consistency, availability, latency and throughput for a given amount of resources at hand.
+
+With this underlying philosophy, in this talk, we will get to the bottom of storage tier of pulsar (apache bookkeeper), the barebones of the bookkeeper storage semantics, how it is used in different use cases ( even other than pulsar), understand the object models of storage in pulsar, different kinds of data structures and algorithms pulsar uses therein and how that maps to the semantics of the storage class shipped with pulsar by default. Oh yes, you can change the storage backend too with some additional code!
+
+This session will empower you with the right background to map your data right with pulsar. The focus will be more on storage backend so as to not keep this tailored to pulsar specifically but to be able to apply it different data stores or streams.
+Speakers:
+
+Shivji Kumar Jha: Shiv is a senior software developer at Nutanix and works for the beam team helping Nutanix customers minimise cloud costs and security risks for hybrid cloud usage. Shiv works on, among other things, all things pulsar at nutanix managing 4 clusters ((30 nodes)) of pulsar and the use cases around it. Shiv loves spending time on data stores (databases, streams, analytics etc) and has contributed to MySQL and pulsar codebases. Shiv is an avid reader (tech, fiction, economics etc) and is always looking at ways to simplify software architectures.
+
+**14:10 GMT+8**
+### Kafka Tiered Storage 
+English Session 
+
+_Satish Duggana, Sriharsha Chintalapani_
+
+Kafka is a vital part of data infrastructure in many organizations. When the Kafka cluster grows and more data is stored in Kafka for a longer duration, several issues related to scalability, efficiency, and operations become important to address. Kafka cluster storage is typically scaled by adding more broker nodes to the cluster. But this also adds needless memory and CPUs to the cluster making overall storage cost less efficient compared to storing the older data in external storage. Tiered storage is introduced to extend Kafka’s storage beyond the local storage available on the Kafka cluster by retaining the older data in cheaper stores, such as HDFS, S3, Azure or GCS with minimal impact on the internals of Kafka.
+
+We will talk about
+
+    How tiered storage addresses the above problems and also brings several other advantages.
+    High level architecture of tiered storage
+    Future work planned as part of tiered storage.
+
+Speakers:
+
+Satish Duggana: Satish is Lead - Data Infra at Uber. Apache Storm Committer/PMC. Sriharsha Chintalapani: Data Architect at Uber, Apache Kafka Committer & PMC
+
+Sriharsha Chintalapani is the tech lead for Uber’s Data Products and Streaming Infrastructure. He is a Apache Kafka & Storm Committer and PMC
+
+**14:50 GMT+8**
+### The Practice of Apache Pulsar in BIGO 
+Chinese Session 
+
+_Hang Chen_
+
+Powered by Artificial Intelligence technology, BIGO’s video-based products and services have gained immense popularity, with users in more than 150 countries. These include Bigo Live (live streaming) and Likee (short-form video). Bigo Live is available in more than 150 countries and Likee has more than 100 million users and is popular among the Generation Z.
+
+In the past few years, we have deployed many Kafka clusters to support real-time ETL and short-form video recommendation. The Apache Pulsar’s layered architecture and new features, such as Low latency with durability, Horizontally scalable, Multi-tenancy etc, help us solve a lot of problems in production. We have adopted Apache Pulsar to build our Message Processing System, especially in Real-Time ETL, short-form video recommendation and Real-Time Data report.
+
+In this presentation, I will share our journals using KOP (Kafka on Pulsar) to provide seamless migration from Kafka to Pulsar, especially in terms of improving performance and stability. I will also discuss major cases of using Apache Pulsar in BIGO, such as millions of topics support, real-time machine learning, and integration with Flink and Flink SQL.
+Speakers:
+
+Hang Chen: Hang Chen, Apache Pulsar Committer and BIGO Staff Engineer, is the Leader of the Messaging Platform team from BIGO, and responsible for creating a centralized pub-sub messaging Platform which provides a vast number of service/application traffics. He introduced Apache Pulsar into their Messaging Platform and integrate with upstream and downstream systems, such as Flink, ClickHouse and other inner systems for Real-Time recommendation and analysis. He focus on pulsar performance tuning, new features development and pulsar ecosystem integration.
+
+
+**15:30 GMT+8**
+### From Apache Kafka to Apache Pulsar - System Migration Guide 
+Chinese Session 
+
+_孟亚斌_
+
+
+
+In this talk, after first providing a brief, high-level architectural comparison of Kafka and Pulsar, then we will focus on comparing the message publishing/subscribing models between Kafka and Pulsar, the similarities and differences between them, and the corresponding implications for application design and implementation. Finally, we will present the different migration options, patterns, and tools available to achieve a seamless application migration path from Kafka to Pulsar.
+Speakers:
+
+Yabin Meng: Yabin Meng is a leading architect at DataStax. In recent years, his focus has been on the design and consulting of large scale, distributed database and stream processing system solutions. Prior to joining DataStax, he spent most of his career designing, implementing, and consulting systems in the areas of relational databases, data warehousing, business intelligence, and NoSQL databases.
+
+**16:10 GMT+8**
+### A Pulsar Use Case In Federated Learning 
+Chinese Session 
+
+_Jiahao Chen_
+
+Federated learning (FL) is a machine learning technique that enables multiple decentralized organizations to train a model without exposing local data samples. Instead, during the training, lots of encrypted messages will be exchanged among the participants to aggregate the global model. Due to the message is so important and its requirements of real-time and sequential, it brings some challenges to the transmission. In this session, we will talk about how to address the above challenge with the Apache Pulsar project, and we will go through the details about how popular FL project FATE(https://github.com/FederatedAI/FATE) use Pulsar to do federated training.
+Speakers:
+
+Jiahao Chen, software engineer at VMware, specializes in container, network and distributed technology research, and is also actively involved in the construction of open source communities. During his tenure at VMware, he led or participated in the completion of the construction of multiple platform-level projects and is also one of the four maintainers of the open source project Hyperledger-Cello. Familiar with technologies such as virtualization, cloud computing and blockchain.
+
+
+___
+
+## 2021-08-07
+
+**13:30 GMT+8**
+### The next generation messaging and streaming platform - Apache RocketMQ 5.0 
+Chinese Session 
+
+_杜 恒_
+
+In order to better serve the next decade and make Apache RocketMQ the data infrastructure of the cloud, there have been numerous discussions and explorations within the community that RocketMQ should become a cloud-native messaging and streaming processing platform for building event-driven applications. Apache RocketMQ 5.0 is on a mission to do just that. This session is divided into four parts. (1) A summary of the scenarios and challenges of using Apache RocketMQ in the past decade from different perspectives, including small, medium and large Internet companies, cloud vendors, etc.
+
+(2) Challenges and opportunities for the traditional infrastructure of message queues in the cloud-native era.
+
+(3) Focus on sharing several important features that the Apache RocketMQ 5.0 community is working on, including a new consumption model, server-side load balancing, lossless elastic scaling, separable storage compute separation, etc.
+
+(4) The Apache RocketMQ 5.0 roadmap, and the designs that Apache RocketMQ will always stick to and the ones that will change.
+Speakers:
+
+Du Heng: Du Heng is an Apache RocketMQ PMC Member/committer and Linux OpenMessaging TSC Member, currently responsible for RocketMQ commercialization and open ecology building in AliCloud. He has many years of experience in distributed middleware development, scale up delivery, systematization and operation and maintenance. He is currently interested in distributed messaging middleware, K8s, microservices, IoT, and Serverless
+
+**14:10 GMT+8**
+### Evolution of Apache RocketMQ in Cloud Native Era 
+Chinese Session 
+
+_Rongtong Jin (金融通)_
+
+Apache rocketmq has become the first choice of business messaging for various vendors because of its high performance, low latency, high reliability. Entering the cloud-native era, Apache RocketMQ is quietly becoming the communication infrastructure. This speech will introduce the core competitiveness of RocketMQ, the latest technological progress, open-source community ecology, future prospects.
+Speakers:
+
+Rongtong Jin (金融通): Apache RocketMQ PMC member, Alibaba R & D Engineer, have a deep understanding of the distributed messaging system. As a speaker, I have shared many times in the Apache RocketMQ community and other open-source activities.
+
+**14:50 GMT+8**
+### The development of Apache RocketMQ at XIAOMI 
+Chinese Session 
+
+_Xu Zhang_
+
+
+
+    intro why we chose RocketMQ
+
+    landing of Apache RocketMQ at Xiaomi what we mainly do to landing RocketMQ project internal as a online message service，including deployment, monitor, benchmark test, acl, console product.
+
+    Customized development and features we use in different online business mqtt bridge, repliactor, exporter, http proxy based on go client
+
+    roadmap what we plan to do in the future.
+
+Speakers:
+
+Xu Zhang: Software R&D Engineer of Xiaomi Computing Platform, Apache RocketMQ committer.
+
+**15:30 GMT+8**
+### The ecosystem of Apache Rocketmq 
+Chinese Session 
+
+_Li Qipeng（厉启鹏）_
+
+This presentation will focus on the subprojects around rocketmq. As an open source unified messaging engine, rocketmq is very important for the compatibility of its open source projects. Therefore, rocketmq community has launched many subprojects to support different technical directions. For example, rocketmq operator is mainly used to support the automatic deployment and operation of rocketmq on k8s platform. Multi language client project can make the application program developed by C + +, python, golang and other languages use rocketmq and so on.
+
+This topic mainly introduces the basic functions, application cases, and best practice of rocketmq subprojects, and looks forward to the subprojects that rocketmq may launch in the future.
+Speakers:
+
+Li Qipeng: Li Qipeng is currently working in Alibaba cloud as a technical expert and an open-source contributor. He is PMC member and committer of Apache RocketMQ project and the initiator of Apache RocketMQ urban community.
+
+___
+
+## 2021-08-08
+
+**13:30 GMT+8**
+### Apache Pulsar Best Practices for Logging 
+Chinese Session 
+
+_Bin Wei_
+
+ELK + Apache Kafka is a common architecture for logging case. However, things change these days. Cloud Native become popular and micro service architecture is adopted everywhere. It brings more services, instances with more logs in volume and category. Apache Kafka can’t meet all requirements for Cloud Native Logging Case, such as operational simplicity, million topics management, rent resource isolation etc. Apache Pulsar is a better solution with cloud native architecture and better performance. This talk highlights Apache Pulsar as a new messaging solution for logging case including requirements for logging messaging system, kafka vs pulsar solution, pulsar best practices and pulsar function / connector introduction.
+Speakers:
+
+Bin Wei: Bin Wei is a solution engineer at StreamNative. He is experienced in big data tech like ELK, Apache Kafka, Apache Pulsar, prometheus etc.
+
+**14:10 GMT+8**
+### Apache Pulsar -- Cloud Native Message Queues in Practice at Tencent Cloud 
+Chinese Session 
+
+_林琳_
+
+Apache Pulsar is currently used on a large scale on Tencent Cloud. Given that message queues face many challenges in the cloud native environment, Pulsar is a better solution. In this presentation, we will introduce some practical experience of Pulsar in the cloud native environment, such as how to expand and shrink the capacity quickly and dynamically, how to improve the utilization of cluster resources, the cluster form and so on.
+Speakers:
+
+Lin Lin: Lin Lin is a senior engineer at Tencent Cloud. Apache Pulsar Commiter, focusing on the middleware field, with rich experience in message queues and microservices.
+
+**14:50 GMT+8**
+### Apache Pulsar Application and Practice under Tencent Million Topics 
+Chinese Session 
+
+_Xiaolong Ran（冉小龙）_
+
+Apache Pulsar is a next-generation cloud-native distributed message flow platform that integrates messaging, storage, and serverless. It uses an architecture design scheme that separates computing and storage and uses hierarchical sharding.
+
+Apache Pulsar has successfully supported the massive data and traffic of multiple business scenarios within Tencent Cloud. This talk will focus on Tencent’s massive data access practice and share with you the practice and operation and maintenance experience of Apache Pulsar under millions of Topics.
+Speakers:
+
+Xiaolong Ran：He joined Tencent in 2019 and is now responsible for the construction of Tencent Cloud TDMQ, dedicated to building stable, efficient and scalable underlying foundation components and services.
+
+**15:30 GMT+8**
+### RBAC authorization in Pulsar 
+Chinese Session 
+
+_Zike Yang_
+
+
+
+RBAC(Role-based access control) is a method for controlling system access based on the roles of individual users. RBAC uses the mapping relationship between users and roles and the permissions corresponding to each role to determine whether each user can take action on some resources. Pulsar uses Casbin to implement the RBAC authorization method. By enabling RBAC authorization method, you can manage which role a user belongs to and what permissions the role has for a certain resource. This talk introduces the RBAC authorization in Pulsar. I’ll explain the basic RBAC concepts and the principle of the Casbin, introduce how to enable RBAC authorization for Pulsar using Casbin Provider, how to set up and manage permissions in Pulsar using RBAC, and how to use Zookeeper Adapter for RBAC in Pulsar.
+Speakers:
+
+Zike Yang: Zike Yang works as a software engineer at StreamNative. He has been involved in the Pulsar community since 2020.
+
+**16:10 GMT+8**
+### The Journey of Apache Pulsar in HUAWEI CLOUD Internet of Things Platform 
+Chinese Session 
+
+_HeZhangJian_
+
+HUAWEI CLOUD IoT platform, which managements devices over 300 million is China’s first competitiveness IoT platform. This talk describes
+
+- Why Huawei Cloud IoT change message queue from kafka to pulsar
+- How Huawei Cloud IoT use pulsar and related problems we encountered and our solutions.
+
+Speakers:
+
+HeZhangJian: Year 2017, graduated from Xidian University. From Year 2017 to now, join Huawei company IoT department.

@@ -248,9 +248,27 @@
         - in the event landing page meta data, set the sponsorskey to match the key you used in asfdata.yaml (e.g., glasgow-2026) 
     -->
     {% if page.sponsorskey and page.sponsors and page.sponsors[page.sponsorskey] %}
-        <section class="sponsors">
+        <section id="sponsors" class="sponsors">
             <div class="inner py-xl">
                 <h2 class="text-center">Event Sponsors</h2>
+                {%if page.sponsors[page.sponsorskey]['strategic'] %}
+                    <div class="sponsor-logos-section py-large">
+                        <h3 class="text-center">Strategic</h3>
+                        <div class="sponsor-logos">
+                            {% for sponsor in page.sponsors[page.sponsorskey]['strategic'] %}
+                                <div class="sponsor-logo">
+                                    {% if sponsor.link %}
+                                        <a href="{{ sponsor.link }}" target="_blank" class="sponsor-link">
+                                            <img src="{{ sponsor.logo }}" loading="lazy" alt="{{ sponsor.name }}">
+                                        </a>
+                                    {% else %}
+                                        <img src="{{ sponsor.logo }}" loading="lazy" alt="{{ sponsor.name }}">
+                                    {% endif %}
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endif %}
                 {%if page.sponsors[page.sponsorskey]['platinum'] %}
                     <div class="sponsor-logos-section py-large">
                         <h3 class="text-center">Platinum</h3>
@@ -364,6 +382,24 @@
                         <h3 class="text-center">Lightning Talks</h3>
                         <div class="sponsor-logos sponsor-logos--lightning_talks">
                             {% for sponsor in page.sponsors[page.sponsorskey]['lightning_talks'] %}
+                                <div class="sponsor-logo">
+                                    {% if sponsor.link %}
+                                        <a href="{{ sponsor.link }}" target="_blank" class="sponsor-link">
+                                            <img src="{{ sponsor.logo }}" loading="lazy" alt="{{ sponsor.name }}">
+                                        </a>
+                                    {% else %}
+                                        <img src="{{ sponsor.logo }}" loading="lazy" alt="{{ sponsor.name }}">
+                                    {% endif %}
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endif %}
+                {%if page.sponsors[page.sponsorskey]['strategic_media'] %}
+                    <div class="sponsor-logos-section py-large">
+                        <h3 class="text-center">Strategic Media</h3>
+                        <div class="sponsor-logos sponsor-logos--lightning_talks">
+                            {% for sponsor in page.sponsors[page.sponsorskey]['strategic_media'] %}
                                 <div class="sponsor-logo">
                                     {% if sponsor.link %}
                                         <a href="{{ sponsor.link }}" target="_blank" class="sponsor-link">

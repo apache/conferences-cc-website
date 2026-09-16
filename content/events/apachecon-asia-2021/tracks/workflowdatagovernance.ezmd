@@ -1,0 +1,151 @@
+title: Workflow/Data Governance
+template: page-event-default
+ref: apachecon-asia-2021
+inPageNav: false
+
+## Track Chairs : Wei Guo
+
+Tools of Workflow and Data Governance can deal with complex data processing jobs, meta-data and data quality. There are a variety of projects in ASF that provide a variety of Workflow and Data Governance solutions. For example, [[]Apache Airflow](https://airflow.apache.org/), [[]Apache Dolphin Scheduler](https://dolphinscheduler.apache.org/), [[]Apache Oozie](https://oozie.apache.org/) provide powerful data workflow platform, and [[]Apache Atlas](https://atlas.apache.org/) and [[]Apache Griffin](https://griffin.apache.org/) provide meta data and data quality management. You will not only learn about the practical experience of first-line users in applying these Apache projects to data projects, but also learn about the latest developments in the ecology of these Apache Workflow and Data Governance projects, and visions on this project in the future.
+
+___
+
+## 2021-08-07
+
+**13:30 GMT+8**
+### The Practice of DolphinScheduler in Telecom Industry 
+Chinese Session 
+
+_王兴杰_
+
+Introducing our solution for companies processing large volumes of data, based on an open source scheduling system that is more easily scalable, has good fault tolerance mechanisms and a very active community.
+Speakers:
+
+Wang Xingjie: He started his career in software R&D after graduating in 2014, with 7 years of R&D experience. Currently, he is mainly responsible for the R&D and migration of the scheduling system for Unicom.
+
+**14:10 GMT+8**
+### Apache DolphinScheduler - An Excellent Scheduler Tool for Massive Complicate Tasks 
+Chinese Session 
+
+_Qiang Guo_
+
+
+
+Apache DolphinScheduler is a workflow scheduler that was born under the demand for stable scheduling of volume complex tasks. The stability and usability and face to the cloud-native design of DolphinScheduler will be demonstrated in this topic. At the same time, the brand new 2.0-microkernel and plug-in architecture design are the striking features. After 2.0 version, DolphinScheduler’s various components will be opened in the form of SPI, and users can quickly realize their own characteristic requirements based on them.
+Speakers:
+
+Qiang Guo: Senior software engineer, good at: network communication, big data processing and computing.
+
+**14:50 GMT+8**
+### Airflow in depth practice 
+Chinese Session 
+
+_吴琏_
+
+Based on a real-life case study of the Airflow platform at Digital Harvest Technology in Shanghai, we present the practice of Airflow application, operation and maintenance, and custom development in complex scenarios.
+
+Challenges of complex scenarios：
+
+- how to guarantee high availability for cross-cloud distributed deployments.
+- How to effectively support multiple types of scheduling scenarios.
+- How to guarantee high availability for ETL operations.
+- how scheduling governance is carried out.
+- how to achieve maximum automation.
+
+Also for some business requirements：
+
+- Data analysts have a large number of scheduling needs, and it is difficult to get started with DAG - Python script development
+- DAGs belonging to departments or individuals do not want to be edited, viewed and manually scheduled by other departmental staff?
+- How to improve efficiency and avoid some non-standardized operations?
+- How can the messaging system trigger job run approval?
+
+Share the corresponding optimization solutions：
+
+- DAG configuration visualization: interface configuration of DAG parameters, background automatic generation of DAG files.
+- DAG authority control: sub-departmental DAG empowerment, distinguishing between read, write and execution.
+- Job standardization monitoring: configure detection rules to monitor whether the job conforms to the rules and execute the corresponding prompts.
+- Event triggering plug-in: receive various messages such as Sensor jobs and AMQP to trigger the execution of the corresponding jobs."
+
+Speakers:
+
+Wu Lian: Big data development engineer at Shanghai DataSeed Information Technology with 2 years of experience in using, maintaining and developing airflow, and a deep understanding of airflow, I hope my experience and understanding can contribute to the airflow open source community.
+
+**15:30 GMT+8**
+### Practice of Dolphin Scheduler on Data Lake Based On Apache Hudi 
+English Session 
+
+_Zhao Yuwei_
+
+Data lake is an enterprise-level data management platform for analyzing different types of data sources. Data lake architecture ensures the integration of multiple data sources with unlimited schema to ensure the accuracy of the data. It can meet the needs of real-time analysis, and also serves as a data warehouse to meet the needs of batch data mining. Therefore, we need an efficient, stable and easy-to-expandable task scheduling system to coordinate the external capabilities of the data lake, like data ingestion, data storage, data exploration, data discovery, data governance and so on. Here I will share why we choose Apache Dolphin Scheduler as task scheduling system and how we make it possible for data users to easily interact with the data lake without having to pay attention to too many technical details.
+Speakers:
+
+Zhao Yuwei: Engaged in Hadoop-related development work, the current main work direction is the research and development of task scheduling system.
+
+___
+
+## 2021-08-08
+
+**13:30 GMT+8**
+### The new generation of big data workflow scheduler platform - the architecture evolution of Apache DolphinScheduler 
+Chinese Session 
+
+_Lidong Dai_
+
+My speech mainly includes the following six parts:
+
+- The introduction of DolphinScheduler
+- The pain points of bigdata workflow scheduler platform
+- The advantages of DolphinScheduler
+- The architectural evolution from version 1.2 to 1.3
+- The Roadmap of architecture 2.0
+- I will share some User Cases
+
+Speakers:
+
+Lidong Dai: DolphinScheduler PMC & Committer, the director of big data platform at analysys. Love open source culture and promote apache way
+
+**14:10 GMT+8**
+### DolphinScheduler based Data Quality Services in Practice 
+Chinese Session 
+
+_孙朝和_
+
+This presentation will focus on the design of DolphinScheduler-based data quality services, how they are implemented and how they can be applied in real-world scenarios.
+Speakers:
+
+Sun Zhaohe: Experienced in big data platform development, passionate and active in open source, senior code contributor of DolphinSchedule
+
+**14:50 GMT+8**
+### Airflow with kubernetes for data processing 
+Chinese Session 
+
+_栾鹏_
+
+
+1、why airflow + k8s
+
+2、airflow oa/rbac/web
+
+3、airflow run on docker/docker-compose/k8s
+
+4、airflow kubernetes-operator
+
+5、airflow k8s pod plugin
+
+6、airlfow update friendly
+
+7、use case in Tencent Music
+Speakers:
+
+Luan Peng: Tencent Music Data Center Working on cloud-native machine learning platform and data platform related content
+
+**15:30 GMT+8**
+### DolphinScheduler json split project 
+Chinese Session 
+
+_lijinyong_
+
+The current DolphinScheduler process definition are stored in a large JSON. It is not very efficient when job is very big. I will introduce our proposal of Split project to solve this issue and it was contribute to the Apache DolphinScheduler.
+Speakers:
+
+lijinyong: Love open source, love new technology.
+

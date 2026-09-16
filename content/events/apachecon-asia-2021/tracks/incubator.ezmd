@@ -1,137 +1,135 @@
 title: Apache Incubator Track
 template: page-event-default
 ref: apachecon-asia-2021
-eventLogo:  /images/logos/CommunityOverCode_Logo_stacked-color.svg
 inPageNav: false
 
----
+## Track Chairs : Juan Pan
 
-**Tuesday, September 29, 2020 at 9:15 AM PDT**
+The Apache Incubator provides services to projects (called “podlings”) that want to enter the Apache Software Foundation (ASF). This track will share the experience and pointers about the incubator journey, which will help you learn more about the Apache style of governance and operation, how projects enter incubator and graduate to become a TLP. Besides, it is introduced that more knowledge on how to build an active and diverse open source community, and how to be aligned with Apache regulations.
 
-## How to Slide Your Release Pass the Incubator
+___
 
-### Justin Mclean
+## 2021-08-06
 
-All podling releases need to be voted on by the incubator PMC before being released to the world. I'll go through what the incubator PMC looks for in every release and what you can do to make it pass that IPMC vote and get your project one step closer to graduation. More importantly I'll cover where you can get help if you need it. In this talk, I'll describe current incubator and ASF policy, recent changes that you may not be aware of, and go into detail the legal requirements of common open source licenses and the best way to assemble your NOTICE and LICENSE files. Where possible I describe the reasons behind why things are done a certain which may not always be obvious from our documentation. I'll show how I review a release and the simple tools I use. I'll go through a worked example or two, including a fictional project called Apache Wombat, and cover common mistakes I've seen in releases.
+**13:30 GMT+8** 
+### Apache Pegasus(incubating) - A distributed key-value storage system 
+English Session 
 
-_Justin Mclean has more than 25 years’ experience in developing web-based applications and is heavily involved in open source hardware and software. He runs his own consulting company Class Software and has spoken at numerous conferences in Australia and overseas. In his free time, he's active in several Apache Software Foundation projects, including the Apache Incubator, and is a mentor for a number of their projects. He's currently the chair of the Apache Incubator and on the ASF board. He also teaches at an online college and runs the IoT meetup in Sydney._
+_Yuchen He, Shuo Jia_
 
----
+Apache Pegasus(incubating) is a horizontally scalable, high-performance and strongly consistent distributed key-value storage system. In this talk, we will introduce the overall architecture, data model, use cases and advanced features of Pegasus. We will also take a deep look into some new features and performance optimizations working in progress and in future plan. Besides, we will present how Pegasus integrates with Hadoop ecosystem to gain wider use cases. Finally, we will focus on the current challenges the community is facing and how we plan to solve them.
+Speakers:
 
-**Tuesday, September 29, 2020 at 9:55 AM PDT**
+Yuchen He: Yuchen He is a software engineer from XiaoMi in China. She is also PPMC of Apache Pegasus(incubating), has participated in the developement of Pegasus for 4 years.
 
-## Apache IoTDB: Growing a bilingual community
+Shuo Jia: Shuo Jia is a software engineer from XiaoMi in China. He is also PPMC of Apache Pegasus(incubating), has participated in the developement of Pegasus for 2 years.
 
-### Julian Feinauer
+**14:10 GMT+8** 
+### ByteDance distributed graph database based on brpc in practice 
+Chinese Session 
 
-Open Source in general but also the ASF gets more and attention in Asia and especially in China. Many projects with initial chinese communities joined the incubator in the last years. This is a very positive development but over the last years we experienced that chinese communities often have different needs and challenges when learning to adopt to the Apache Way. One very important example is the language barrier which is present as many chinese developers are not fluent in english or not as fluent as most developers from western countries. We feel that the IoTDB community was really successful in adopting the Apache Way and in this talk we want to share our approaches and our learnings.
+_李磊
 
-_Julian Feinauer joined the IoTDB Community as one of the first external Contributors._
+ByteGraph is a distributed graph database developed by ByteDance, which supports storing trillions of edges of data scale of very large graphs, supports ten million read and write QPS, and runs on a scale of nearly 10,000 servers. In such a large-scale scenario, ByteGraph relies on brpc to provide high-performance, easy-to-use and stable rpc framework support. This talk will introduce ByteGraph and brpc respectively, and the practical experience of a large-scale distributed system like ByteGraph based on brpc.
+Speakers:
 
----
+Lei Li: Graduated from Xi’an Jiaotong University, he is currently working on infrastructure research and development at ByteDance, focusing on graph databases, graph computing, graph neural networks, and distributed KV systems.
 
-**Tuesday, September 29, 2020 at 10:35 AM PDT**
+**14:50 GMT+8** 
+### The Failures to Success Stories of Apache Dolphin Scheduler 
+English Session 
 
-## Past, now and future about Apache YuniKorn (incubating): Cloud-Native resource scheduler
+_Wei Guo_
 
-### Wilfred Spiegelenburg Wangda Tan
+When Apache Dolphin Scheduler joined the Apache incubation, it is the only open-source project from a small company in China. That means PPMC/PMC didn’t have enough resources to build the project themselves. To build a good community is their only way to succeed. And they have learned many experiences from the open-source project which failed to build the community in the past 3 years. This topic is to share the story of the success and failure experience in China. I hope our story can help contributors all over the world.
+Speakers:
 
-Apache YuniKorn (Incubating) is a light-weight, universal resource scheduler for container orchestrator systems. It was created to achieve fine-grained resource sharing for various workloads efficiently on a large scale, multi-tenant, and cloud-native environment. YuniKorn brings a unified, cross-platform, scheduling experience for mixed workloads that consist of stateless batch workloads and stateful services. YuniKorn now supports K8s and can be deployed as a custom K8s scheduler. YuniKorn's architecture design also allows adding different shim-layer and adapt to different ResourceManager implementation including Apache Hadoop YARN, or any other systems. For this talk, we will talk about gaps in resource scheduling in Cloud-Native environment, and how YuniKorn can support running big data applications (like Spark/Flink/Tensorflow, etc.) on K8s. We will talk about existing and upcoming features of YuniKorn (including hierarchical of queues, resource fairness, gang scheduling support, integration with K8s features, quota management, autoscaling, etc.). We will also share how YuniKorn being used in community partners such as Alibaba, Cloudera, Lyft.
+Wei Guo: CTO of Analysys PMC of Apache Dolphin Scheduler Apache Member
 
-_Wilfred is a Staff Software Engineer from Cloudera in Australia. He’s also PMC member of Apache YuniKorn (incubating), Apache Hadoop committer. He has worked on Hadoop for 6 years mainly on YARN, MapReduce, and Spark. Before Cloudera, he has worked for SUN Microsystems and Oracle as part of the Identity Management teams as a developer and consultant for over 10 years. Wilfred started his career as a lecturer at the Amsterdam University of Applied Science; teaching, designing, and implementing multiple IT systems. Wilfred holds a Master's in Decision Support Systems from Sunderland University. Wangda Tan is Sr. Manager of Compute Platform engineering team @ Cloudera, responsible for all engineering efforts related to Kubernetes, Apache Hadoop YARN, Resource Scheduling, and internal container cloud. In the open-source world, he's a member of Apache Software Foundation (ASF), PMC Chair of Apache Submarine project, He is also project management committee (PMC) members of Apache Hadoop, Apache YuniKorn (incubating). Before joining Cloudera, he leads High-performance-computing on Hadoop related work in EMC/Pivotal. Before that, he worked in Alibaba Cloud and participated in the development of a distributed machine learning platform (later became ODPS XLIB)._
 
----
+**15:30 GMT+8** 
+### Apache NLPCraft - Breaking Years Of Dogma in NLP 
+English Session 
 
-**Tuesday, September 29, 2020 at 11:15 AM PDT**
+_Aaron Radzinski, Nikita Ivanov_
 
-## Apache Superset - A data visualization platform
+Apache NLPCraft (incubating) is an open source library for adding natural language Interface to modern applications. It enables people to interact with your products using voice or text. In this presentation we will provide an in-depth overview of NLPCraft, the history of the project roots, as well as comprehensive live coding demonstration of its key features. The presentation is targeted at an advanced audience although prior experience with machine learning or NLP is not required. Presentation can be adjusted from 45 mins to 90 minutes in length.
+Speakers:
 
-### Maxime Beauchemin
+Aaron Radzinski: 10 year veteran of NLP battles in various projects. One of the founding members of Apache NLPCraft community.
 
-This talk explores Apache Superset through a live demo, and provides a high level understanding of what it offers as a product. We'll also share our journey thus far, and explore what it takes to grow an open source project, a community and a movement. We'll look at a retrospective of the design decisions, technology choices and engineering challenges that have shaped Superset. We'll also take a deep look into the current challenges the community is currently facing, and peak at what is ahead.
+Nikita Ivanov: Nikita Ivanov is the founder and CTO of GridGain Systems. Nikita provides the vision and leadership at GridGain to develop the world’s top in-memory computing platform, now used by thousands of organizations around the globe to power business-critical systems and enable digital transformation initiatives.
 
-_Max Beauchemin has worked at the leading edge of data and analytics his entire career, helping shape the discipline in influential roles at data-dependent companies like Facebook, Airbnb, Lyft and Yahoo!. A leader in the open-source community, Max is the creator of Apache Airflow, an open-source tool for orchestrating complex computational workflows and data processing pipelines and Apache Superset, a popular open-source data visualization, exploration and analytics platform. More recently he founded Preset, a company devoted to building upon Superset to offer next generation analytics as a service._
+A member of Apache Software Foundation, Nikita was a founding contributor of Apache Ignite and Apache NLPCraft projects and an active member of their respective communities. Nikita also participates in the Linux Foundation as part of the technical committee for the Centaurus project.
 
----
+Nikita has over 20 years of experience in software application development, building HPC and middleware platforms, contributing to the efforts of other startups and notable companies including Adaptec, Visa and BEA Systems. Nikita was one of the pioneers in using Java technology for server side middleware development while working for one of Europe’s largest system integrators in 1996.
 
-**Wednesday, September 30, 2020 at 2:00 AM PDT**
+He is an active member of Java middleware community, contributor to the Java specification, and holds a Master’s degree in Electro Mechanics. He lives and works in California.
 
-## Apache Incubator, & How incubator communities are built ? (in Hindi language) [[]ALC Indore]
+___
 
-### Aditya Sharma
+## 2021-08-07
 
-This talk will be part of Track prepared by ALC Indore, and *language for the talk will be Hindi*. The talk will include the details on Apache Incubator, how to it works, and the important topic will be how to build a community around your incubating project. ## What is Apache Incubator? Apache Incubator is the gateway for open-source projects intended to become fully-fledged Apache Software Foundation projects. -- History -- Incubation process -- Current incubating projects -- How to contribute to the incubating project? ## How to build a community for your incubating project? The community is core for the success of any open source project, in this topic I will share some tips which can help you Incubating project to grow its community. After all, it is Community over Code.
+**13:30 GMT+8** 
+### Teaclave: a secure and easy-to-use privacy computing platform 
+Chinese Session 
 
-_Project Management Committee (PMC) member at Apache OFBiz and Apache Roller, Apache Local Community (ALC) Indore Chapter Lead_
+_Mingshen Sun_
 
----
+In the era of big data, open data sharing, data value, data resource integration and security protection have become an important topic. Traditional data processing methods can no longer meet the current needs of data circulation, computing as well as security. Privacy protection technology has emerged to solve this problem, break down data barriers and solve the data silo dilemma.
 
-**Wednesday, September 30, 2020 at 2:40 AM PDT**
+Apache Teaclave (incubating) is a privacy-secure computing platform that empowers private data computing. Based on hardware security capabilities, Teaclave ensures the secure and controlled flow and processing of sensitive data in trusted out-of-domain and off-shore scenarios, without fear of privacy data leakage and misuse. Teaclave also supports multi-party federated computing, breaking down data silos in enterprises and organisations. teaclave was donated by Baidu to the Apache Foundation Incubator in 2019. The first open source community release is due in October 2020.
 
-## Apache APISIX: How to implement plugin orchestration in API GatewayEdit proposal
+Teaclave uses Intel SGX and ARM TrustZone technologies to provide security techniques based on hardware isolation, memory encryption, remote authentication and other data privacy protection computing tasks. The Teaclave platform provides a function-as-a-service interface, lowering the barrier to use. The platform also implements many built-in functions, such as machine learning algorithms, multi-party federated modelling, encryption and decryption calculations, among other common functions. What’s more, developers can freely write functions in Python to manipulate private data and execute them in the platform. Finally, to avoid the security risks associated with memory security vulnerabilities, Teaclave is also written in the memory-safe programming language Rust.
 
-### Ming Wen
+In this talk, I will present the background of privacy-safe computing, the Teaclave system architecture and design philosophy, security enhancements, and finally open source community building.
+Speakers:
 
-Apache APISIX is a cloud-native API gateway that provides the same plugin mechanism as other gateways. However, in Apache APISIX, plugin orchestration is also provided that allows users to control the conditions and order for running plugins. Apache APISIX uses DAG(Directed Acyclic Graph) to implement this feature. In this share, we'll introduce Apache APISIX, and use a few examples to explain the advantages of plugin orchestration, and the specific implementation.
+Mingshen Sun: Mingshen Sun works at Baidu and is a member of Apache Teaclave (incubating) PPMC (Podling Project Management Committee). He leads, maintains and actively contributes to several open source projects including Teaclave FaaS Platform, SGX/TrustZone SDK, MesaPy, etc. Please visit his homepage (https://mssun.me) for more information.
 
-_PPMC member of Apache APISIX CEO of ZhiLiu Technology Co., Ltd, China Speaker of ApcheCon EU 2016_
+**14:10 GMT+8** 
+### The incubator journey of Apache APISIX 
+Chinese Session 
 
----
+_Ming Wen_
 
-**Wednesday, September 30, 2020 at 3:20 AM PDT**
+Apache APISIX is a cloud-native API gateway, donated by a Chinese startup company. In the Apache incubator, Apache APISIX maintains a monthly release and graduates in 9 months. The number of contributors has grown from 20 to more than 200 now. Is there any trick behind this? In this sharing, let us review the incubator journey of Apache APISIX
+Speakers:
 
-## ECharts: a storyteller of visualization evolution
+Ming Wen: Apache APISIX VP
 
-### Wenli Zhang
+**14:50 GMT+8** 
+### Apache DolphinScheduler:How to grows to be a healthy and sustainable community in the incubator 
+Chinese Session 
 
-With the increasing demand for data visualization and a deeper understanding of theories, the role of data visualization tools has changed dramatically over the years. Previously, the main expectation was to help users understand abstract data through a static chart. Later, interactive tools were introduced to help users better understand the relationships between data. Today, another important aspect of our expectations is the ability to tell the stories. We expect visualization tools to help users explore and think about the story behind the data and get inspired or motivated to take further steps after reading the charts. In this sharing, we will introduce why and how Apache ECharts (incubating) has evolved to adapt to the changing needs and formed a modern visualization tool as you see today.
+_Gang Li_
 
-_Wenli is a data visualization developer and PPMC of Apache ECharts (incubating). She has open-sourced many data visualization projects on GitHub (ID: Ovilia) and is enthusiastic about open-source community._
+Apache DolphinScheduler is a distributed, extensible visual Big Data workflow scheduler system. The project entered the Apache Incubator in August 2019. The talk will restore the incubation journey of continuous growth and development,hope that be helpful for the Apache incubator projects.
 
----
+1.What need we do as earlier as possible when just enter the Apache Incubator? 2.Several key stages on the incubation journey. 3.Practice the Apache Way and find the suitable Apache Way that works best for your own community. 4.A summary of the incubation journey and the best wishes to the incubator projects.
+Speakers:
 
-**Wednesday, September 30, 2020 at 9:15 AM PDT**
+Gang Li: Open source enthusiast Apache DolphinScheduler PMC ALC Bejing Member
 
-## Hatching the Clutch - A Guide to the Apache Incubator
+**15:30 GMT+8** 
+### Apache MXNet 2.0: Towards Synergistic ML and DL with Standardization 
+English Session 
 
-### Dave Fisher
+_Sheng Zha_
 
-Podlings are said to be part of the Clutch. On a daily basis the status of podlings is evaluated from available information. This talk will describe the clutch evaluation process and how that feeds into the Incubator website. Additional topics: Whimsy and Podling information. Bootstrapping a Podling. Updating podling status.
+In deep learning (DL) and machine learning (ML) communities, fragmentation in the frameworks have been a long-standing problem that comes with significant costs. Because of the fragmentation, resources are spread across different stacks to focus on competition which distracts the communities from innovation, and users and developers are forced to be locked into a side. As deep learning frameworks gradually mature and converge to similar design choices, opportunities arise to standardize the API to address the costly fragmentation by fostering collaboration across frameworks. To this end, Apache MXNet 2.0 adopts Python array API standard and Open Neural Network Exchange (ONNX), the two complementing standards for machine learning and deep learning. In this talk, I will share about these standardization efforts and MXNet’s participation in them, and highlight the exciting new features that helps Apache MXNet as a framework that surfaces the innovation.
+Speakers:
 
-_Apache Software Foundation Member and Incubator Mentor._
+Sheng Zha: Sheng Zha is a senior applied scientist at Amazon AI. He s also a committer and PPMC member of Apache MXNet (Incubating), a steering committee member of ONNX in LF Data & AI Foundation, and a member on the Consortium for Python Data API Standard. In his research, Sheng focuses on the intersection between deep learning-based natural language processing and computing systems, with the aim of enabling large-scale model learning on language data and making it accessible.
 
----
+**16:10 GMT+8** 
+### EventMesh: Event-Driven Distributed Application Runtime 
+Chinese Session 
 
-**Wednesday, September 30, 2020 at 9:55 AM PDT**
+_Eason Chen_
 
-## Advice to Incubator Mentors
+The growth of distributed application architecture hits a brick wall when only using synchronous APIs for integration due to fragility and scalability limitations. Application development and delivery (AD&D) professionals need an additional tool in their toolbox to ensure success in their modernization efforts. This report explains how to best employ event driven architecture (EDA) to address the complexities of modern distributed application architecture. Various patterns of EDA have emerged: event notification, event-carried state transfer, and event sourcing. AD&D pros implementing EDA need to understand their trade-offs and select the correct one for their needs. An additional pattern, called event mesh, ties it all together. EventMesh is a dynamic cloud-native eventing infrastruture used to decouple the application and backend middleware layer, which supports a wide range of use cases that encompass complex multi-cloud, widely distributed topologies using diverse technology stacks.
+Speakers:
 
-### Justin Mclean
+Eason Chen: Linux OpenMessaging TSC，Apache RocketMQ committer，Apache EventMesh(incubating) original founder, Specialist of Middleware Platform Team in WeBank.
 
-So you signed up to become a mentor for a project? Do you know what it entails or what is expected of you? Your project is relying on you to help guild it to graduation. In this talk, I'll be giving an overview of the ASF incubation process, the pitfalls to watch out for, and how projects become successful. I'll focus on everyday situations and challenges that podlings face and what's a good way to deal for mentors to deal with them. This talk is is for anyone who is thinking of being a mentor, is currently a mentor or for projects wanting a smooth path to graduation.
-
-_Justin Mclean has more than 25 years’ experience in developing web-based applications and is heavily involved in open source hardware and software. He runs his own consulting company Class Software and has spoken at numerous conferences in Australia and overseas. In his free time, he's active in several Apache Software Foundation projects, including the Apache Incubator, and is a mentor for a number of their projects. He's currently the chair of the Apache Incubator and on the ASF board. He also teaches at an online college and runs the IoT meetup in Sydney._
-
----
-
-**Wednesday, September 30, 2020 at 10:35 AM PDT**
-
-## Daffodil - Kill the Data Format Problem
-
-### Michael Beckerle
-
-Daffodil is an incubator project. Its goal is killing the data format problem by providing an implementation of DFDL (Data Format Description Language - an emerging standard from the Open Grid Forum) that we can all use and extend, and integrate into all our data-consuming frameworks and applications. This talk will use numerous compelling examples of Daffodil parsing, and unparsing (reconstructing) data in a variety of data formats - textual and binary, industry standard formats, and ad-hoc one-of-a-kind formats as well, and using both XML and JSON to make the data tangible and visible.
-
-_Apache commiter since 2017. Currently applying knowledge of scalable computing systems and data format issues at Owl Cyber Defense Solutions (formerly Tresys Technology). Since 2002, Co-chair DFDL Workgroup of Open Grid Forum - working towards a standard for data format description so we can all stop solving this problem over and over again. Former life as a CTO of a few small/startup companies. Likes to program in Scala and to do data archeology to figure out data from just the bits._
-
----
-
-**Wednesday, September 30, 2020 at 12:35 PM PDT**
-
-## Teaclave: A Universal Secure Computing Platform
-
-### Mingshen Sun
-
-Apache Teaclave (incubating) is a universal secure computing platform to make computation on privacy-sensitive data safe and secure. The platform adopts multiple security technologies to enable secure computing, in particular, Teaclave uses Intel SGX to serve the most security-sensitive tasks with hardware-based isolation, memory encryption and attestation. Teaclave is provided as a function-as-a-service platform and with many built-in functions, it supports a wide variety of tasks on sensitive data, such as privacy preserving machine learning, private set intersection, and cryptographic computation. More importantly, unlike traditional FaaS, Teaclave supports both general secure computing tasks and flexible single- and multi-party secure computation. Last but not least, Teaclave is written in Rust to prevent memory-safety issues. Teaclave entered the Apache Incubator in August 2019. In this talk, we would like to introduce this project to the whole community for the first time. We will discuss some motivation and background of the secure computing ecosystem. Then, we will present highlights of the Teaclave platform and its internal design, talk about the roadmap of incubating and current progress, and finally, introduce current status of Teaclave community.
-
-_Mingshen Sun works at Baidu and is a member of Apache Teaclave (incubating) PPMC (Podling Project Management Committee). He leads, maintains and actively contributes to several open source projects including Teaclave, MesaPy, Rust OP-TEE TrustZone SDK, etc. Please visit his homepage (https://mssun.me) for more information._
