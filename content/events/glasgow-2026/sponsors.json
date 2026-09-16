@@ -1,6 +1,11 @@
 {
     "platinum": [
         {
+            "name": "Cloudera", 
+            "logo": "/images/sponsors/cldr_corp_logo_color_cmyk.svg",
+            "link": "https://www.cloudera.com/"
+        },
+        {
             "name": "Snowflake", 
             "logo": "/images/sponsors/snowflake-logo-color-rgb.svg",
             "link": "https://www.snowflake.com/en/"
