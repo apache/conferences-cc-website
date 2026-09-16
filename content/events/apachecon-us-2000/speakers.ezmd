@@ -1,0 +1,2446 @@
+title: Speakers
+template: page-event-default
+ref: apachecon-us-2000
+
+## ApacheCon 2000 Speakers
+
+---
+
+### Douglas Adams
+
+Sessions: Living In a Virtual World
+
+Douglas Adams ((http://www.douglasadams.com)) was born
+in Cambridge in March 1952, educated at Brentwood
+School, Essex and St John's College, Cambridge where, in
+1974 he gained a BA (and later an MA) in English
+literature.
+He is the creator of all the various
+manifestations of 'The Hitchhiker's Guide to the Galaxy,' which
+started life as a BBC Radio 4 series in March 1978. Since
+then it has been transformed into a series of
+best-selling novels, a TV series, a record album, a computer
+game and several stage adaptations. It is currently under
+development as a major motion picture in Hollywood.
+
+'The Hitchhiker's Guide to the Galaxy's
+phenomenal success sent the book straight to Number One in the
+UK Bestseller List and in 1984 Douglas Adams became the
+youngest author to be awarded a Golden Pan. He won a
+further two (a rare feat), and was nominated - though
+not selected - for the first Best of Young British
+Novelists awards.
+
+He followed this success with 'The
+Restaurant at the End of the Universe' (1980); 'Life,
+The Universe and Everything' (1982); 'So Long and
+Thanks for all the Fish' (1984); and 'Mostly Harmless'
+(1992). The first two books in the Hitchhiker series were
+adapted into a 6 part television series, which was an
+immediate success when first aired in 1982. Other
+publications include 'Dirk Gently's Holistic Detective Agency'
+(1987) and 'Long Dark Tea-time of the Soul' (1988). In
+1984 Douglas teamed up with John Lloyd and wrote 'The
+Meaning of Liff' and after a huge success 'The Deeper
+Meaning of Liff' followed this in 1990). One of Douglas's
+personal favourites was written in 1990 when he teamed
+up with zoologist Mark Carwardine and wrote 'Last
+Chance to See' - an account of a world-wide search for rare
+and endangered species of animals.
+
+He has
+sold over 15 million books in the UK, the US and
+Australia. He is also a best seller in German, Swedish and many
+other languages.
+
+Douglas is a founding
+director of h2g2 Ltd, formerly The Digital Village, a digital
+media and Internet company with which he created the
+1998 CD-ROM Starship Titanic, a Codie Award-winning
+(1999) and BAFTA-nominated (1998) adventure game.
+
+h2g2 is currently building an online Guide
+(www.h2g2.com) - the Earth Edition of 'The Hitchhiker's Guide to the
+Galaxy,' offering unconventional wisdom to a growing
+global community.
+
+---
+
+### Brian Aker
+
+Sessions: Slashcode, the bender release
+Brian Aker has been involved
+with different net communities long
+before the web took the Internet to it's
+
+current heights. He is currently working
+on
+the redesign of slashcode (the
+publishing engine for the Open Source
+site Slashdot) and spends the rest of
+his time working on Apache and Perl
+modules. In the past, he has been
+involved with projects ranging from
+creating datawarehouses for the Army
+Engineer Core to The Virtual Hospital,
+which was one of the first and largest
+online medical repositories.  He
+currently works for VALinux/OSDN as
+a Senior Software Developer and
+lives in Seattle, Washington.
+
+---
+
+### Ashutosh Aman
+
+Sessions: Apache and Tomcat: Backbone of a Successful Application Service
+Mr. Ashutosh Aman is presently working as an
+E-Solutions Consultant with KSoft Systems Inc,
+USA. He is a Sun Certified Programmer for
+Java 2 platform and has several years of
+experience in administering and managing Java
+technology enabled solutions. He has a Bachelor of
+Technology from Indian Institute of Technology,
+Kanpur, INDIA and Master of Science from
+University of Cincinnati, Ohio, USA.
+
+---
+
+### Greg Ames
+
+Sessions: Apache 2.0 Filters, Apache on the IBM System/390 (Not your father's mainframe!)
+
+Greg Ames is a Senior Sofware Engineer with
+IBM who works on Apache.  He is a volunteer
+administrator for the apache.org web site, which
+has been running Apache 2.0 since February 2001.
+Greg's prior projects include IBM S/390 TCP/IP
+performance, the OSPF routing protocol, AnyNet,
+and VTAM. He enjoys sailing in warm places,
+playing bass guitar, and recording music.
+
+---
+
+### Luis Argerich
+
+Sessions: The PXP project, using reusable PHP components and XML to develop dynamic web sites
+Development Manager of www.salutia.com, software
+engineer and teacher at the University of Buenos Aires
+(UBA). Leading researcher for XML technologies and web
+development for the company.
+
+---
+
+### Rob Arnold
+
+Sessions: FreeBSD
+*No bio available.*
+
+---
+
+### Thies Arntzen
+
+Sessions: Making efficient use of Oracle8i through Apache and PHP 4, Making efficient use of Oracle8i thru Apache and PHP 4.
+
+Thies Arntzen is an independent consultant
+based in Hamburg, Germany. He is a member of the
+PHP-Group and has written various PHP
+modules.
+
+---
+
+### Lennie Au
+
+Sessions: A scalable teaching and learning delivery environment built on Apache
+
+Lennie is one of the core application developers in
+the Campus Wide Information Systems team(CWIS) at The
+University of Melbourne. For the past four years she has
+been involved in web server administration as well as
+application developments such as Webraft, the SGML
+University Handbook system and other web applications for the
+infrastructure of the university. She enjoys skiing,
+bushwalking, eating, gardening and restore old furniture
+to its previous glory. :*}
+
+---
+
+### Stephen Auriemma
+
+Sessions: ApacheModuleXSLT
+
+*No bio available.*
+
+---
+
+### Stig Bakken
+
+Sessions: The PHP Extension and Application Repository
+Stig Bakken works for Fast Search &
+Transfer in Trondheim, Norway, is married and has
+one daughter. He has been contributing to PHP
+development since late 1996, and has been a
+member of the PHP Group from its inception. His
+major contributions to PHP are the Oracle and
+XML support, the PHP manual framework, the UNIX
+build system and recently PEAR.
+
+---
+
+### Donald Ball
+
+Sessions: Real world experiences developing XML sites
+In a previous life, Donald was the systems
+administrator for SunSITE UNC/Metalab/ibiblio.
+Realizing he was missing all of the fun, he
+later switched to Java programming for the web at
+webslingerZ, Inc. He was the first Apache
+Cocoon programmer that Stefano let into the
+project, and has been working with it almost
+exclusively ever since. He's primarily responsible
+for the SQL interfaces, but also takes care of
+several of the other XSP logicsheets.
+
+---
+
+### Suso Banderas
+
+Sessions: Apache and Frontpage extensions
+Suso Banderas has been working at  Kiva
+Networking in Bloomington, Indiana for
+the past four years. Over the past two years he has
+worked on several webserver related projects
+including defining a new method to setup Frontpage
+extensions on shared customer servers.
+He also runs a non-profit web hosting
+network, suso.org. For further
+information,
+check out
+http://suso.suso.org/.
+
+---
+
+### Daniel Beckham
+
+Sessions: Caching Dynamic Web Content to Increase Dependability and Performance
+Daniel has been involved with web development
+since 1997, originally working with Perl but
+began to move towards PHP in late 1998 and now
+develops web content almost exclusively in PHP.
+He is also a PHP Doc contributor and
+maintainer. Daniel is employed full time as the head
+systems administrator and developer for
+dealnews.com, Inc. and also handles the technical
+aspects for the lucasgames.com network.
+
+---
+
+### Brian Behlendorf
+
+Sessions: Convincing Management to Let You Work on Open Development, State of the Foundation
+
+*No bio available.*
+
+---
+
+### Stas Bekman
+
+Sessions: Getting Started with mod_perl (Slides: [PDF](/slides/us-2000/OR045.pdf)), Getting Started with mod_perl, Getting Started with mod_perl, Getting Started with mod_perl, Getting Started with mod_perl (part II) (Slides: [PDF](/slides/us-2000/OR093.pdf)), Improving performance under mod_perl, Improving script and handler performance under mod_perl, Improving script and handler performance under mod_perl, Improving script performance under mod_perl (Slides: [PDF](/slides/us-2000/OR052.pdf))
+Stas Bekman is an author of the [](http://perl.apache.org/guide), a monthly columnist at
+[PerlMonth](http://perlmonth.com/) and Ap
+cheToday. He is currently co-authoring a mod_perl
+book for O'Reilly and Associates, Inc. He is a
+maintainer of The Ultimate Learn
+and
+Resource Center and a developer of the
+[SinglesHeaven.com](http://singlesheaven.com/)
+service at his
+spare time.
+
+---
+
+### Gunther Birznieks
+
+Sessions: Running a Profitable Open-Source Company: A Case Study, Web Application Security: Tying the Past and the Present Together, Web Application Technologies - Surveying The Landscape
+Gunther Birznieks early involvement in cutting edge
+biotechnology research brought him to the web to manage
+collaborative research from the very start of the WWW.
+Soon after, Gunther joined forces with Selena Sol's
+Scripts Archive (now eXtropia.com). Throughout this time,
+Gunther has subsequently published multiple books and
+talks on the area of web programming from Perl, to Java,
+to eCommerce. Gunther Birznieks spent the majority of
+his web engineering/programming experience working for
+the Human Genome Project, but has also subsequently
+applied his skills to writing on-line trading systems for
+investment banking as well as extending web applications
+to other mediums such as mobile phone technology (eg
+WAP). Currently, Birznieks has been producing software
+tuned for application service providers (ASPs) in Asia.
+
+---
+
+### Ryan Bloom
+
+Sessions: Apache 2.0, Apache 2.0, Apache upon Win32 in the round, APR: What is it, and why we use it in Apache (Slides: [RTF](/slides/us-2000/OR016.rtf)), Migrating Apache 1.3 modules to Apache 2.0 (Slides: [RTF](/slides/us-2000/OR014.rtf)), The future of Apache after 2.0, Writing Apache 2.0 filters, Writing Apache Filters, Writing Apache Modules for 2.0, Writing Code with APR
+Ryan Bloom is a senior software engineer for Covalent
+Technologies and a member of the Apache Software
+Foundation. Ryan has been working on Apache 2.0 and APR since
+December 1998, and writes monthly columns for
+ApacheToday and CNet.
+
+---
+
+### Scott Boag
+
+Sessions: Practical XSLT Transformations for Fun and Profit
+
+Sofware Architect, Lotus Advanced Technologies.
+Developer of the LotusXSL XSLT processor, contributer to the
+Xalan xml.apache.org XSLT processor, member of the W3C
+XSLT working group.
+
+---
+
+### Kirill Bolshakov
+
+Sessions: Securing Java Application Servers
+
+Kirill Bolshakov received his MS in computer science
+in 1999 from Saint Petersburg State Technical University
+in Russia. Currently, he is a PhD student in computer
+science at the same University. His research interests
+are in the field of distributed systems management,
+security policies and adaptive control systems.
+
+---
+
+### Rich Bowen
+
+Sessions: Apache on Windows, Apache on Windows, Introduction to the Apache Server, Introduction to the Apache Web Server
+Rich Bowen writes a monthly column for
+ApacheToday.com. He's contributed some to the Apache
+documentation project, and is the author of
+Apache Server Unleashed.
+
+Rich is the Director of Web Application Development at
+The Creative Group, in Wilmore Kentucky
+(http://www.cre8tivegroup.com/)
+
+---
+
+### David Brin
+
+Sessions: Probing For Quicksand: How We Peer a Bit Ahead, Into Tomorrow's World.
+
+David Brin is known as a "futurist"
+noted for speculating plausibly and
+entertainingly about trends in science and
+technology... including a wide range of daunting
+challenges that may confront our rambunctious
+civilization across the decades and years ahead. His
+novels have won Hugo Awards and his nonfiction book --
+The Transparent Society: Will Technology Force Us to
+Choose Between Freedom and Privacy? --
+won the 1999 Obeler Freedom of Speech Award. More
+information about hi can be found at
+(http://www.kithrup.com/brin/).
+
+---
+
+### Jeffrey Buchbinder
+
+Sessions: Commercial use of PHP with SQL backends (Slides: [RTF](/slides/us-2000/OR036.rtf))
+Coming from a background of working mainly with SCO
+Unix, Jeff migrated to the more open and malleable Linux
+OS a year or two ago, and has since done work packaging
+for various distributions and doing various CGI and
+preprocessed HTML "programs." He hasn't written any books
+yet, but he instead spends far too much time in front
+of a terminal. He is the head project coder for the Freemed Project and
+also codes/fixes/tests for OCS Intranet.
+
+---
+
+### Robert Burgess
+
+Sessions: XML and Database Integration
+
+Robert Burgess has been an engineer in the Silicon
+Valley for 14 years. He worked in systems integration at
+Lockheed Corporation for eight years. Since becoming an
+independent contractor in 1995, he has worked in
+Internet-related technologies and helped several startups
+through their critical first stages. Robert joined
+Informix in 1998 and has been instrumental in developing the
+company's XML strategy. He also currently manages a
+Technical Marketing group within Informix.
+
+---
+
+### Tony Byrne
+
+Sessions: High-Profile, High Speed: Case study in using PHP to build Algore.Com
+Tony is an Internet veteran with more than 11
+years&#8217; experience building online
+networks, communities, and services. He began
+his professional career as a radio reporter and
+magazine publisher. In 1989, Tony co-founded
+&#8220;GlasNet&#8221; the first
+non-governmental e-mail network in the former Soviet
+Union. Over the next six years, he built and
+directed a multi-million dollar effort to
+provide network services and training to
+universities and emerging companies and associations
+across Eurasia. In 1996, Tony joined IDEV as its
+Lead Web Developer. Since then, he has become
+a speaker, writer, and consultant on
+&#8220;best practices&#8221; in Internet
+development and online marketing. At IDEV, he
+oversees all Web development. He has also performed
+due diligence on new client/company
+acquisitions, and serves as the acting CTO. He is a
+specialist in Content Management Systems and B2B
+ecommerce. Tony is the past Program Director
+of the DC Internet Developers Association
+(DCIDA), and is active within several local
+technical communities, including the Capital PC Users
+Group (CPCUG) and the New Media Society.
+
+---
+
+### Kelly Campbell
+
+Sessions: XSL Formatting Objects with Apache FOP
+
+Kelly is a Sr. Software Engineer at ChannelPoint, Inc.
+in Colorado Springs,
+Colorado. He has been a user of FOP since it was first
+donated to Apache,
+and has been a committer on the FOP project since
+December 2000. He is also
+the principle author of the Merlot XML editor. His
+first web project was one of
+the first daily online newspapers in the world, the
+Kansas State University
+e-Collegian in 1994. In the third year of the
+e-collegian, Kelly transfered the
+web server from a Macintosh based server to Apache 1.0
+on an MacBSD system.
+Kelly spends his time away from computers hiking,
+biking, and taking pictures.
+
+Arved is a Software Architect with e-plicity, a
+wireless B2B software
+development company in Halifax, Nova Scotia. Arved has
+been a user of FOP
+dating back to its James Tauber days - he has been a
+committer on the Apache
+XML FOP since (???). His interests in XML date back to
+1998, and he was
+involved with early efforts to enable XML processing
+with MacPerl. Wider
+interests in online and print publishing with new
+technologies are related
+to Arved's interest in data and document formats, and
+a long-standing
+relationship with TeX. Arved takes full advantage of
+his location to get in
+time on the mountain bike, rock-climbing, fishing
+(striped bass is his
+favourite), scuba and kayaking. Albeit not all at once
+(some combinations
+are illegal).
+
+---
+
+### Philippe M. Chiasson
+
+Sessions: Building a Web Development Environment with Apache, mod_perl, C
+I've been developing a web development
+environement for HBESoftware for over a year now and
+it currently supports more than 20 concurrent
+projects and over 40 developers. My
+experience includes deep knoledge of Apache, Perl,
+mod_perl, cvs and various development tools. Since
+I am both a sysadmin and a web programmer, I
+was able to understand and solve the problems
+that arise from both sides. I am also an
+active mod_perl & CPAN contributor.
+
+---
+
+### Eric Cholet
+
+Sessions: Configuring Apache and mod_perl applications, Writing multilingual sites with mod_perl and Template Toolkit
+Eric Cholet is CTO of Logilune and a member of the
+ASF.
+
+---
+
+### Andy Clark
+
+Sessions: Xerces2: The Sequel With No Equal
+
+The Apache XML Project was Andy's first
+introduction to Open Source development but
+even as a child he tended to give his toys
+away. He has extensive experience in component
+architectures and XML using Java and for the
+past three years has been actively developing
+the Xerces-J XML parser. He is the lead
+architect for the Xerces2 parser. Andy is
+currently living in Japan as a technical
+liaison for IBM.
+
+---
+
+### Ken Coar
+
+Sessions: ApacheCon Europe 2000 Closing Session, ApacheCon Europe 2000 Opening Session, Closing/Wrapup Session, How the ApacheCon site works, Opening plenary, Opening plenary, The future of Apache after 2.0
+Ken Coar is a director and vice president of
+the Apache Software Foundation, and a Senior
+Software Engineer with IBM. He has over two
+decades of experience with software engineering
+and system administration. Ken has worked with
+the Web since 1992, and in addition to working
+on Apache and PHP he is heading the project
+to develop Internet RFCs for CGI. He is the
+author of 'Apache Server
+for
+Dummies' (IDG), a lead
+author of 'Apache Server
+Unleashed'
+(Macmillan/Sams), a columnist for '[ApacheToday.Com](http://apachetoday.com/),' and is
+currently working ona new book, 'Apache
+Module Developmentin C'
+(Addison-Wesley-Longman).
+
+---
+
+### Mark Cox
+
+Sessions: Apache E-Commerce Solutions (Slides: [RTF](/slides/us-2000/OR096.rtf))
+[Mark Cox](http://www.awe.com/mark/) is
+Director of
+Research for [Red Hat](http://www.redhat.com/). He has
+developed
+a number of free and open-source software
+products for more than 9 years; being a founding
+member of both the [OpenSSL group](http://www.openssl.org/)
+and the Mozilla Crypto Group, a core Apache
+developer since 1995, and the editor of [Apache Week](http://www.apacheweek.com/).
+
+---
+
+### Shane Curcuru
+
+Sessions: Automated Java Testing at xml.apache.org, javax.xml.transform in Xalan-J user discussion
+I've been a Software Quality Engineer at
+Lotus for the past 12 years working on 1-2-3 and
+eSuite before moving to IBM Research for my
+current work on LotusXSL and Xalan. I focus on
+developing, documenting, and using efficient
+automated testing frameworks for large scale
+development efforts, and I'm enjoying learning how
+to mix proprietary software development
+techniques with nifty new open source ones.
+
+---
+
+### Gaitan D'Antoni
+
+Sessions: Apache WEB Server on OpenVMS
+*No bio available.*
+
+---
+
+### James Duncan Davidson
+
+Sessions: Perspectives on the Jakarta Project, Perspectives on the Jakarta Project, SourceGarden.org, Using Ant to Build Java Code
+James Duncan Davidson is a Senior Staff
+Engineer at Sun MIcrosystems and is the original
+author of Apache Tomcat and Apache Ant. During his
+career at Sun, he
+authored the Servlet 2.1 and 2.2 API
+specifications, the Java API for XML Parsing 1.0
+specification and
+played an instrumental role in the donation of
+code from Sun to the Apache Software Foundation
+which formed the Jakarta Project. Currently he serves
+as a Strategic Technologist in the Sun Open Source
+office and does his best to help Sun &quot;Do the Right
+Thing&quot;.
+
+---
+
+### Frank DeChellis
+
+Sessions: Helping your clients make the move to E-Commerce (Slides: [DOC](/slides/us-2000/OR010.doc) | [PPT](/slides/us-2000/OR010.ppt)), Workshop for small/medium ISPs entering Web hosting industry
+I am president of Internet Access Worldwide in
+Welland, ON, Canada.  Our company provides dial up and high
+speed access, server co-location and web hosting.  We
+have been in operation since May 1995.  I spoke at
+Apachecon Florida 2000.   I had 2 topics there: "Helping your
+clients make the move to e-commerce" and I held a last
+minute  fill-in workshop "running a web hosting
+business"
+
+---
+
+### Thomas DeWeese
+
+Sessions: Introduction to the Batik Project
+
+Thomas DeWeese is a Senior Software Engineer at
+Eastman Kodak Company, in Rochester New
+York where he has worked for the Image Science
+Division's, image application development group
+since 1994. Thomas has made contributions to the
+imaging portions of the Java2D API, and was
+a major contributor to the Java Advanced Image API
+(version 1.0). Since then he has participated
+in the Jini Printing Working group and has recently
+become a member of Kodak's SVG Working
+Group team.
+
+---
+
+### Allan Edwards
+
+Sessions: The future of Apache after 2.0
+
+Allan is a Senior Software Engineer with IBM
+working on Apache and specializing in
+the area of high performance caching. He has
+been involved in Webserver software development
+for the past five years. Prior to that he was
+architect and programmer for several
+networking products.
+
+---
+
+### Lars Eilebrecht
+
+Sessions: ApacheCon Europe 2000 Closing Session, ApacheCon Europe 2000 Opening Session, Transparent Content Negotiation, Transparent Content Negotiation
+Lars is a member of the Apache Software
+Foundation and started contributing to the Apache
+server project in 1997. In addition he is a
+member of the ApacheCon planning committee. He
+studied computer engineering at the University
+of Siegen, Germany and is now Director Product
+Management at CyberSolutions GmbH in
+Munich, Germany, a TelesensKSCL company. Lars
+is also the author of the book Apache Web-Server.
+
+---
+
+### Ralf S. Engelschall
+
+Sessions: Security Solutions with SSL, Security Solutions with SSL, Security Solutions with SSL, The future of Apache after 2.0
+RSE studied Computer Science and Mathematics
+and is an engrained Unix and free software
+enthusiast for over 10 years now. He spends most
+of his free time for contributing to free
+software projects (FreeBSD, GNU, Apache, OpenSSL)
+and is also the author of numerous popular
+packages (mod_ssl, MM, WML, ePerl, GNU Pth, GNU
+shtool, etc). His major Apache contributions
+are mod_rewrite, reverse proxy, mod_so/DSO,
+APACI, apxs, apache-contrib and mod_ssl.
+
+---
+
+### Derek Ferguson
+
+Sessions: Creating Commercial Software for Jakarta, Integrating Apache with Microsoft's .NET
+Derek Ferguson is Chief Technology Evangelist
+for PocketDBA Systems, a wireless technology
+company that allows database administrators to
+monitor and manage their databases using
+handheld devices. Derek has authored many books
+and articles, including "Broadband Internet
+Access for Dummies" and speaks at
+conferences nationwide including JavaOne 2001 and
+Wireless DevCon 2000.
+
+---
+
+### Roy Fielding
+
+Sessions: HTTP and Apache, HTTP and Apache, State of Apache, waka: a replacement for HTTP
+
+Roy T. Fielding is chairman of the Apache
+Software Foundation and chief scientist at
+eBuilt, Inc. He is a founder of several open-source
+software projects (including Apache httpd),
+architect of the current Hypertext Transfer
+Protocol (HTTP/1.1), and co-author of the Internet
+standards for HTTP and Uniform Resource
+Identifiers (URI). He received his Ph.D. in
+Information and Computer Science at the University of
+California, Irvine.
+
+---
+
+### Paul Fremantle
+
+Sessions: Infrastructure for Web Services
+
+*No bio available.*
+
+---
+
+### Pier Paolo Fumagalli
+
+Sessions: Apache and Tomcat integration, XML publishing fundamentals
+Pier was the first author of mod_jserv in 1998 to
+integrate Apache 1.3 and the Apache JServ servlet engine
+and after a pause of two years spent in XML land (where
+he wrote StyleBook and co-wrote the first implementation
+of Cocoon 2.0) he got back in Jakarta land to author
+mod_webapp to allow the integration of Tomcat 4.x with
+different web servers. He currently calls London his
+home and spends his days coding from St. Catherine's Docks
+with two kittens jumping on his keyboard.
+
+---
+
+### Santiago Gala
+
+Sessions: Developing Commercial Products on top of O-S Software, Using Apache Jetspeed to build dynamic, content driven Portals
+Santiago Gala is the Operations Manager for
+High Sierra Technology, dedicated to
+consultancy and development in telecommunications and
+software technologies. URL:
+http://www.hisitech.com/
+
+---
+
+### Mario F. Gaul
+
+Sessions: Multilingual Information Processing based on UTF-8 character encoding
+Mario F. Gaul is a PHP enthusiast who specialised in
+Graphical User Interfaces. His latest project was a
+multilingual web-frontend for a german billing software
+company. He is currently working as a freelancer.
+
+---
+
+### Edwin Goei
+
+Sessions: Java and XML Parsing Using Standard APIs
+
+Edwin Goei is an engineer with Sun Microsystems where
+he currently works on Java and XML technologies. Among
+other projects, he has previously worked on Java
+virtual machines and X Window servers.
+
+---
+
+### Edwin Goei
+
+Sessions: Java API for XML Processing (JAXP) version 1.1
+
+Edwin Goei is an engineer with Sun Microsystems where
+he currently works on Java and XML technologies and in
+particular on the JAXP reference implementation. Among
+other projects, he has previously worked on Java
+virtual machines and X Window servers. Edwin has an MSEE
+degree from UC Berkeley and has over 10 years of work
+experience. He has also been programming computers since the
+mid 70s, when he was first able to get access to one.
+
+---
+
+### Philip Grabowski
+
+Sessions: Apache and DBMS Integration for High Volume WWW Sites, XML: An Intensive Introduction
+Philip Grabowski is a principal with the software
+development and consulting firm, Mountain Toolsmiths, Inc.
+With over 16 years of experience in the development and
+support of high-volume, distributed OLTP
+architectures, he currently splits his time consulting for major
+Wall Street firms and as a product manager for MTI's
+ecommerce tool business.
+
+---
+
+### Christian Gross
+
+Sessions: A look at the Apache 2.0 APR, C++ and Apache using C++ Server, Setting up the Apache Web Server for developers (Slides: [PPT](/slides/us-2000/OR006.ppt)), Using C++ for Apache Modules (Slides: [PPT](/slides/us-2000/OR007.ppt))
+
+Christian Gross is an independent consultant
+specializing in Internet Application Development. He has been
+online since 1992, when the term NOS actually meant
+something. He regularly speaks at conferences and is writing
+a book on the Internet and application development.
+
+---
+
+### Ceki Gülcü
+
+Sessions: Log4j, A Logging Package for Java
+Ceki Gülcü has over ten years of
+development experience, including six in the
+Java language. He holds a MS degree in Computer
+Science from Ecole Politechnic Federale of
+Lausanne. He is the founder of the log4j project.
+His interests include cryptography, anonymity,
+fair-exchange protocols and reliable systems
+at large. See http://qos.ch for more info.
+
+---
+
+### Rolf Haberrecker
+
+Sessions: Apache layout for Linux distributors
+Being the director of Business Partner Program, Rolf
+is the Apache package maintainer at SuSE Linux AG. He
+also oversees the PHP, SSL, mod_perl and mod_jserv
+packages. Being a computational linguist, he made his first
+contacts with open source software and Linux as early as
+1994.
+
+---
+
+### Jon "maddog" Hall
+
+Sessions: Bill and Larry: Both are right, and both are wrong
+
+Jon "maddog" Hall is the
+Executive Director of Linux(R) International,
+a non-profit vendor organization dedicated to
+promoting the use of Linux. Having been a
+volunteer in this position since 1995, Jon was
+funded to do this work full time by VA Linux
+Systems starting in the summer of 1999.
+
+Before VA Linux' full-time funding,
+Jon was a Senior Manager in Compaq's UNIX(R)
+Software Group. Jon had been in the UNIX group
+for sixteen years as an engineer, Product
+Manager and Marketing Manager. Jon discovered
+Linux in May of 1994, and proceeded to become a
+very vocal advocate of it both inside and
+outside of Digital Equipment Corporation. Digital
+was the first system vendor to join Linux
+International, and Compaq Computer Corporation (who
+bought Digital in 1998) is a Corporate
+Sponsoring Member. Jon was directly responsible for
+the port of Linux to the Alpha processor.
+
+Prior to Digital, Jon was a
+Senior Systems Administrator in Bell
+Laboratories' UNIX group, so he has been programming
+and
+using UNIX for over 20 years. Jon started his
+career programming on large IBM mainframes in
+Basic Assembly Language, but his career
+improved dramatically when he was introduced to
+Digital's PDP-11 line of computers as chairman of
+the Computer Science Department at Hartford
+State Technical College. There he spent four
+glorious years teaching students the value of
+designing good algorithms, writing good code,
+and living an honorable life. He has also been
+known to enjoy discussing aspects of computer
+science over pizza and beer with computer
+science students.
+
+maddog (as
+his students named him, and as he likes to be
+called) has his MS in Computer Science from
+RPI, his BS in Commerce and Engineering from
+Drexel University, and in his spare time is
+writing the business plan for his retirement
+business:
+maddog's School for Microcomputing and
+Microbrewing
+
+---
+
+### Bill Haneman
+
+Sessions: Server-side image transformation and delivery with Apache Batik
+Bill Haneman works for Sun Microsystems'
+Desktop Enabling Middleware group in Dublin,
+Ireland, is a founding member of the Batik developer
+team.
+He is also technical lead for the Gnome Accessibility
+Project
+(http://developer.gnome.org/projects/gap), an open
+project
+to provide an accessibility framework for
+linux and Solaris(TM) desktops. A twenty-year
+veteran of application development, he is a US
+expatriate who plays traditional Irish music on
+the uilleann pipes.
+
+---
+
+### Deborah Hansknecht
+
+Sessions: Modifying Apache?
+*No bio available.*
+
+---
+
+### Vincent Hardy
+
+Sessions: Introduction to the Batik Project
+
+Vincent is one of the founders of the SVG Batik
+project at Apache and he represents Sun in the W3C's SVG
+Working Group (his daytime job is to be a member of Sun's
+XML Technology Center). Vincent is the author of papers
+and a book on the Java 2D API. When he is not working
+on the Batik code, test or documentation, Vincent loves
+to write new sample files for the project because....
+SVG is really, really, really fun!
+
+---
+
+### Perrin Harkins
+
+Sessions: Building a Large-Scale E-Commerce Site with Apache and mod_perl
+Perrin Harkins is a senior engineer at eToys,
+and was one of the lead software architects at
+CitySearch.com. He has been an active member of
+the mod_perl community for years.
+
+---
+
+### Harrie Hazewinkel
+
+Sessions: Apache 2.0 for multi protocol usage, Managing the Apache HTTP server with SNMP, QoS management of Internet services
+
+Harrie is the author of the SNMP module, an
+extension for retrieving and managing the
+status of an Apache Web server via the Simple
+Network Management Protocol (SNMP). He was also
+co-editor of the WWW-MIB (RFC 2594) defined in
+the System Application MIB working group of the
+IETF. At this moment Harrie is part of the
+engineering team of Covalent Technologies.
+
+---
+
+### Marian Heddesheimer
+
+Sessions: Flash up your PHP, PHP Session-handling first steps
+Marian Heddesheimer has been a C++-programmer
+since 1988, living in Lübeck/Germany.
+Since then, he is doing Database programming
+with several LAN-based database tools. For about
+two years, he is also using PHP and mySQL to
+implement Web-Applications for his customers.
+He is also author for several computer
+magazines and trainer for computer novices as well as
+for programmers. He is currently teaching
+topics like Linux, C++, PHP, flash and MS-Office.
+
+---
+
+### Simon Hefti
+
+Sessions: mod_websh: A Tcl-based Apache module for rapid application development
+
+Simon Hefti is the main Webshell developer and a
+software architect at Netcetera. He works in a wide range
+Tcl/Webshell projects with the main focus on financial
+web applications. He is involved with Linux and Open
+Source Software since 1995. He holds a PhD in physics from
+the University of Bern, Switzerland, and served as a
+Post-Doc at the University of Michigan, USA.
+
+---
+
+### Ethan Henry
+
+Sessions: Performance Tuning Java Code in Jakarta
+Ethan is the 'Java Evangelist' at KL Group. He spreads
+the "good word" about Java and KL Group's Java
+products. He has previously been a Java developer and a Java
+instructor.
+
+---
+
+### Bill Hilf
+
+Sessions: Building a Large-Scale E-Commerce Site with Apache and mod_perl
+Bill Hilf is a Sr. Consulting I/T Architect for IBM,
+specializing in Linux clusters, ecommerce, high volume
+
+Web sites, and infrastructure for eBusiness.  Prior to
+joining IBM, Bill was the Sr. Director of Engineering
+
+for eToys, where he oversaw a department responsible
+for the architecture and performance of the
+
+systems that powered the eToys Web sites. Prior to
+eToys, Bill helped build some of the key properties
+
+for CNET, including News.com and CNET/Bloomberg
+Investor. Bill has also developed software for various
+
+technology companies in the San Francisco Bay area,
+which ranged from nanotechnology research
+
+systems to serving interactive 3D communities on the
+Internet.  Bill received his masters degree from
+
+Chapman University.
+
+---
+
+### Don Hsi
+
+Sessions: Running ASP & ASP.NET with Apache
+
+Founder & President of Halcyon Software. Has more than
+twenty years of experience in management, marketing,
+and software engineering. Prior to founding Halcyon, Don
+spent seven years at Hewlett-Packard in both R&D and
+marketing. With Halcyon Software, Don assumes
+responsibility for all phases of product direction, planning, and
+business development. Don holds an MS in computer
+science from the University of Kansas and a BS degree from
+Taiwan.
+
+---
+
+### Sterling Hughes
+
+Sessions: Extending PHP 4, PHP and XSLT, The Top 7 Mistakes in PHP programming
+
+Sterling Hughes is a freelance programmer,
+working developing applications on the Unix
+platform in C, C++, Perl, Java and PHP. He is the
+author of "The PHP Developer's
+Cookbook", and a developer on the PHP project,
+who's contributions include authoring the XSLT
+extension.
+
+---
+
+### Bill Humphries
+
+Sessions: The Sans-Suds Semantic Web, Using XML Data in Production: Lessons from Experience
+
+Bill Humphries (www.whump.com) has been
+developing web applications since 1995. His main
+interests include XML for data and documents,
+web services, and the wireless web. His weblog
+(www.whump.com/moreLikeThis/) covers XML, web
+development and related issues.
+He is a client development software engineer
+at 2Roam (www.2roam.com) in Redwood City,
+California, where he assists businesses in taking
+their existing web sites and applications to
+the wireless web.
+Bill holds a Master of Science in Economics
+from the University of Wisconsin.
+He also prides himself on being platform
+agnostic, running MacOS, Linux and Win2K on his
+home network.
+
+---
+
+### Jim Jagielski
+
+Sessions: ApacheCon Europe 2000 Closing Session, ApacheCon Europe 2000 Opening Session, Running a Successful Web Hosting Company, The future of Apache after 2.0, Web Hosting for Fame and Fortune (Slides: [PPT](/slides/us-2000/OR074.ppt))
+
+Jim's been active on the 'Net since the early
+80's, starting as editor of the A/UX FAQ. He
+worked on the NCSA server and joined the
+Apache Group at a very early stage, where he
+focused on portability and the configuration and
+build process. Just about any Open Source project
+you can think of (named, sendmail, perl,
+xntpd, GNU, smail, *BSD, ...) Jim's hacked on and
+contributed to. He also "handles"
+the Apache section of Slashdot. As well as being
+a core member of the Apache Group, Jim serves
+as Executive V.P. and Secretary of the Apache
+Software Foundation. His real job is as the
+CTO of Zend Technologies.
+
+---
+
+### Britt Johnston
+
+Sessions: MySQL, Open Source Database Rises to the Challenge
+Britt Johnston is NuSphere's CTO. He is
+responsible for overall product design and
+strategic planning for NuSphere and NuSphere MySQL™, a
+multi-platform integrated distribution of the
+MySQL™ database and related open source
+products. Before NuSphere, Britt was a Director in
+development at Progress Software Corporation.
+He has been building database systems since
+1979, including several commercial relational
+database products.
+
+---
+
+### Bill Jones
+
+Sessions: Apache: A Business Server (Slides: [RTF](/slides/us-2000/OR023.rtf))
+Bill Jones (aka -[Sneex](http://www.fccj.org/cgi/mail?sneex)-)
+has developed distributed, enterprise-wide solutions
+using [Apache](http://www.apache.org/) and
+various open source technologies. His areas of
+interest
+include research and development of new and emerging
+technologies in an open source, Internet-aware
+environment. He holds a BS in Data Processing and has
+over twenty years experience in the computer industry.
+
+Bill, currently a E-Systems Developer for
+[FCCJ](http://www.fccj.org/), manages the
+Jacksonville
+Perl Mongers.
+
+---
+
+### Ian Kallen
+
+Sessions: Architecting an ASP on mod_perl
+Ian Kallen is CTO of Creation Engines.  Previously
+Director of Engineering and Technology at
+Salon.com and GameSpot/ZDNet, Mr. Kallen has
+architected scalable Web operations with Apache
+and mod_perl technologies over the past five
+years.  Mr. Kallen is also an instructor of Web
+administration and programming topics at San
+Francisco State University.
+
+---
+
+### Manoj Kasichainula
+
+Sessions: Apache 2.0 Overview (Slides: [HTML](/slides/us-2000/OR092.html)), The future of Apache after 2.0
+
+Manoj is one of the primary developers for
+Apache 2.0. He has also dabbled in such fields
+as distributed application development in Java,
+secure e-commerce, and Mobile IP.
+
+---
+
+### Kristof Kloeckner
+
+Sessions: IBM and Open Source - A software agenda
+
+Vice President, Business Integration Development and
+Director, IBM Hursley Laboratory
+
+---
+
+### Craig Kohtz
+
+Sessions: Migration from ASP to PHP (Slides: [RTF](/slides/us-2000/OR083.rtf))
+Craig Kohtz is a Web builder for Covalent
+Technologies, Inc. He has extensive experience with IIS, ASP,
+DHTML, JavaScript and SQL Server development. When Craig
+came aboard with Covalent Technologies, Inc., he
+completely changed gears, immersing himself in the Apache/PHP
+and MySQL world. This change gives Craig a unique
+perspective of the differences between platforms.
+
+---
+
+### Matthew Langham
+
+Sessions: Building multi-channel SOAP clients using CASA
+Matthew Langham is the technical director of
+the open source group at S&N AG in Paderborn Germany.
+S&N develops software for financial institutions in
+Germany and has a long history of Internet based
+solutions.
+
+Matthew heads the development team currently
+using Cocoon as a base for a commercial XML/XSL
+based application server "sunShine".
+He has written various articles for German
+computing magazines and also a German book on
+UUCP based "Email und News" back in
+1993.
+
+---
+
+### Ben Laurie
+
+Sessions: ApacheCon Europe 2000 Closing Session, ApacheCon Europe 2000 Opening Session, UK Crypto Meeting, UK Crypto Meeting
+
+Ben has been programming free software
+since 1992. He is on the board of
+directors of the Apache Software Foundation, and
+is a member of the Apache core team and
+the OpenSSL core team. As
+such, he contributes
+to a wide variety of free software
+projects and is the author of Apache-SSL.
+Together with his father Peter, he is also the
+author of Apache: The
+Definitive
+Guide. Ben is a director of A.L. Digital, a
+company specialising in web and security
+solutions and the owners of The Bunker, an
+ex-RAF nuclear bunker now fully redeployed
+as the ultimate in secure hosting.
+
+---
+
+### Graham Leggett
+
+Sessions: New mod_proxy features and uses for httpd 2.0
+
+Graham Leggett  is a software developer working on
+Apache httpd 2.0. He is responsible for the major portions
+of the mod_proxy design, and is working on a caching
+module for httpd.
+
+---
+
+### Rasmus Lerdorf
+
+Sessions: Introduction to PHP, Introduction to PHP, Scripting the Web with PHP
+
+Rasmus Lerdorf has been designing large-scale
+UNIX-based solutions since 1989. In the Open
+Source community, he is known mostly as the
+creator of the PHP scripting language. He also
+sits on the Board of Directors of the Apache
+Software Foundation, is a member of the
+Apache-core team, and has contributed to a number of
+Apache-related projects. Prior to joining
+Linuxcare, Rasmus was at IBM in Raleigh and before
+that, Bell Global Solutions in Toronto.
+
+---
+
+### Donald Leslie
+
+Sessions: Protocols for managing/updating xml.apache.org Website
+Member of the Xalan team. Responsible for
+documentation, including xml and javadoc doc tools, and Xalan
+sample applications.
+
+---
+
+### Ted Leung
+
+Sessions: Everything you always wanted to know about XML parsing, Everything you always wanted to know about XML parsing
+Ted Leung is currently the principal of Sauria
+Associates, LLC.
+He was the technical lead for the IBM XML4J
+parser which served as the initial code base
+for the Java version of xml.apache.org's Xerces
+parser. In addition to XML, Ted has worked on
+handheld computing, compound document
+architectures, and object-oriented databases.
+
+---
+
+### Daniel Lopez Ridruejo
+
+Sessions: Apache projects overview, Apache projects overview, Comanche, a GUI configuration tool for Apache, Comanche, a GUI for Apache (Slides: [DOC](/slides/us-2000/OR021-1.doc) | [DOC](/slides/us-2000/OR021-2.doc)), XML configuration for Apache
+
+*No bio available.*
+
+---
+
+### Raphaël Luta
+
+Sessions: Building an Enterprise Information Portal with Jetspeed, Jakarta Jetspeed: evolution
+
+After some time spent in developing
+algorithms for fingerprint recognition, I encountered
+Java in 1995 and got hooked. Shortly
+afterwards, I became development lead in a French web
+agency, designing dynamic web sites and teaching
+Java and Internet application development. I
+joined Vivendi Universal in 1998 where I
+manage part of the corporate worldwide internal
+shared services. I've been contributing to
+various OS projects for 2 years and I am the current
+project leader for Apache Jetspeed.
+
+---
+
+### Doug MacEachern
+
+Sessions: mod_perl 2.0, mod_perl Version 2.0, mod_perl-2.0
+
+Doug MacEachern is a developer at Covalent
+Technologies, Inc. He is the lead developer of the mod_perl Apache
+module, an Apache Software Foundation board member and
+co-author of the book "Writing Apache Modules with
+Perl and C".
+
+---
+
+### Christopher Manly
+
+Sessions: An Architecture for Apache Install Management
+
+Christopher Manly works as a web developer for Cornell
+University. He is responsible for managing several
+mission-critical web servers. He has been managing
+apache-based web servers for 4 years, and has written an
+apache module to integrate his web servers with Cornell's
+authentication architecture. He likes solving problems
+using open source software, as well as singing, cycling,
+and fixing up his house.
+
+---
+
+### Costin Manolache
+
+Sessions: Advanced Tomcat Configuration and Performance Tuning, Design and Implementation of the Tomcat Servlet Engine
+Member of the servlet team @sun. He started in a small
+ISP in Romania - where he installed few hundred Linux
+servers in schools and small companies, with
+Apache/sendmail and Squid and small leased lines. After too many
+buffer overflows decided that Java is the only hope,
+and since then is a happy Java programmer.
+
+---
+
+### Jeff Martin
+
+Sessions: An Introduction to Alexandria
+I have been working professionally within IT for Six
+years, working in a variety of organisation from
+financial institutions to web development companies. I have
+been instrumental in the adoption of XML as a core
+technology within these organisations and championed the use
+of and involvement in open source development within
+these organisations. Developing primarily in Java
+environments I became a Sun certified Java architect 1 year
+ago. Currently work for Sila Communication
+(http://www.silacom.com/) as a member of the Architecture & Processes
+Group. Specifically looking at build processes & the
+use of XML in documentation.
+
+---
+
+### Stefano Mazzocci
+
+Sessions: Adding XML capabilities with Cocoon (Slides: [PDF](/slides/us-2000/OR012.pdf)), Adding XML capabilities with Cocoon, Toward the Semantic Web: a view of XML from outer space
+*No bio available.*
+
+---
+
+### Craig McClanahan
+
+Sessions: Authentication and Access Control in Web Applications, Building Web Applications with the Struts Framework, Migrating Apache JServ Applications to Tomcat, Migrating Apache JServ Applications to Tomcat, Perspectives on the Jakarta Project, Recommendations for Java-Based Web Application Architectures, The Tomcat Servlet Container
+
+(See previous submission)
+
+---
+
+### Michael Meyer
+
+Sessions: Secure Financal Transactions with Open Source (Slides: [RTF](/slides/us-2000/OR071.rtf))
+Michael Meyer is responsible for interactive
+web based applications. His
+areas of interest include research and design of
+secure and high performant transactions over
+the internet. He is currently working with
+Apache, SSL and JSP.
+
+---
+
+### Jordi Montserrat
+
+Sessions: MyComponents.com: the marketplace for reusable web applications
+Jordi worked several years for a consulting
+company specialized in geographical information
+system where he developed high skills for
+project management in an international
+environment. Before joining MyComponents.com, Jordi
+finished a postgrade in Management of Technology
+at the Swiss Institute of Technology in
+Lausanne (EPFL, HEC Lausanne and the Business School
+of Texas - Austin, TX), his final work
+resulting in the launch of an Knowledge Management
+ASP service company. Jordi hold a master degree
+from the EPFL and fluently speaks/writes
+English, French, German and Spanish.
+
+---
+
+### Brian Moon
+
+Sessions: Caching Dynamic Web Content to Increase Dependability and Performance, PHP Users Unite
+
+I have been involved with web devlopment
+since 1997. I got my start in Perl and PHP. I am
+employed full time as the senior developer for
+dealnews.com, Inc. I am also the founder and
+lead developer for Phorum, an Open Source
+message board written in PHP.
+
+I have written chapters in the books "Professional
+Apache" and "Professional PHP" both from Wrox Press.  In
+addition I have written an article for PHPBuilder.com
+about running Apache and PHP on Windows for development
+use.
+
+I am the developer of ApacheManager, an application
+for Windows that allows you to control Apache from the
+System Tray.
+
+---
+
+### Ryan Morgan
+
+Sessions: Writing Protocol Modules for Apache 2.0
+
+Ryan Morgan is a senior software engineer at Covalent
+Technologies, Inc. in San Francisco, CA.  Ryan received
+his B.A. in Computer Engineering from the University
+of Nebraska.
+
+---
+
+### Peter Moulding
+
+Sessions: Apache in the real world - beating the inhouse bias, Managing User Groups, Planning and programming for cross platform
+
+Peter has 25 years experience building what
+are now called web sites. Mainframe, mini &
+micro systems to bring suppliers together
+with customers.
+Peter built some as the business owner, some
+as technical manager and some as the grunt on
+the bleeding edge of new technology.
+Projects from $1,000 to $20,000,000, from 1
+person to 27,000 in Australia, Asia and USA.
+
+Languages: 25 to date not counting some
+written by Peter.
+Education: University level Accounting, Law,
+Communications, Marketing and some of the 25
+languages mentioned above.
+
+Peter designed, built and improved 30 online
+customer sites before the Web was invented. He
+has built or improved more than 50 Web sites
+since.
+
+Peter's articles appear everywhere. Some PHP
+articles are on phpbuilder.com.
+
+---
+
+### Chuck Murcko
+
+Sessions: Mod_proxy new design, New mod_proxy features and uses for httpd 2.0
+
+Chuck Murcko has been involved in liberated software
+development for about 20 years. He currently works on
+proxy connection pooling.
+
+---
+
+### Lee Nackman
+
+Sessions: Open Source and the Corporation
+Dr. Lee R. Nackman
+Vice President,
+Application Development
+Tools
+Application & Integration Middleware
+Division
+IBM Corporation, Research Triangle
+Park, NC
+Lee leads development of IBM's
+development tool and complier products.
+Previously, he was Director of Architecture for AIM,
+providing architectural direction for IBM's
+application development and distributed
+application server products. Prior to joining
+Software Group in 1998, Lee held technical and
+management positions at IBM's Thomas Watson Research
+Center, most recently as department group
+manager of Software Development Technology. He
+received an IBM Outstanding Technical
+Achievement award on research on programming
+environments and an IBM Outstanding Technical
+Achievement
+award research on CAD system architectures
+and automation languages. Lee received his Sc. B
+in Computer from Brown University in 1976 and
+his Ph. D in Computer Science from the
+University of North at Chapel Hill in 1982. An
+accomplished writer, Lee co-authored with John J.
+Barton the book "Scientific and
+Engineering C++: An Introduction with Advanced
+Techniques and Examples", (Addison-Wesley, 1994)
+and was for several years a regular columnist
+for C++ Report. He has also published fifty
+papers and holds two patents.
+
+---
+
+### William Nagy
+
+Sessions: Infrastructure for Web Services
+
+*No bio available.*
+
+---
+
+### Glenn Nielsen
+
+Sessions: Tomcat Server and Application Security, Tomcat Server and Application Security
+
+Glenn Nielsen is the Unix Programming
+Coordinator for the Missouri Research and Education
+Network, University of Missouri System. Glenn
+has 18 years programming experience which
+includes developing commercial software for the
+Amiga computer. Glenn authored the code which
+implements the Java SecurityManager in Tomcat 3.2
+and Tomcat 4.0. Glenn has authored five JSP
+tag libraries for the Jakarta-taglibs project
+and the JSP tag library for the Jive open
+source message forum.
+
+---
+
+### George Paolini
+
+Sessions: Sun and Apache
+George Paolini is the Vice President of Technology
+Advocacy and Community
+Development. In this role, he is responsible for the
+marketing and adoption
+of emerging, open technologies including the Java
+platform, Jini and XML.
+His objective is to drive adoption of these open
+technologies in an effort
+to capture developer mindshare and provide a level
+"playing field" for the
+software industry.  Included in his group are
+Standards Integration,
+Technologies Marketing and Strategy, Evangelism,
+Evangelism Technical
+Support, Technology Messaging, the Java Community
+Process program, industry
+neutral Web Services and Web Content for the Java
+developer community and
+Brand Development for the Java and Jini brands. "My
+job is to act as the
+eyes and ears for the industry with regards to
+emerging technologies and
+open standards and to help Sun support these
+technologies," says Paolini.
+"In this role, I hope to help Sun respond more quickly
+to the needs of our
+customers and developer communities."
+Paolini has been employed with Sun since 1993. Prior
+to his current role, he
+served as  Vice President of Java Community
+Development and Vice President
+of Marketing.  As the Vice President of Java Community
+Development, he was
+responsible for creation and success of the Java
+Community Process program,
+the industry-neutral, open process through which Java
+technologies are
+evolved. Other responsibilities in this role were
+building and maintaining
+Sun's relationship with the licensees of the Java
+technology, defining and
+evangelizing the Java platform editions, and managing
+Sun's software
+licensing practices. As Vice President of Marketing,
+Paolini helped Sun
+create its first Internet marketing strategy, a role
+which led to
+evangelizing and promoting Java.
+Before working at Sun, Paolini spent over 13 years as
+an editor with daily
+newspapers throughout Northern California, including
+the San Francisco
+Examiner.
+
+---
+
+### Giacomo Pati
+
+Sessions: Apache Cocoon 2 - What's new, Apache Cocoon 2 - What's new
+I'm looking back on 20 years of IT experience
+in the financial and software industries. The
+last five years I've worked on large
+datawarehousing and web application/publishing
+project. I've joined the Apache Cocoon project more
+that a year ago. Since December 2000 I'm member
+of the board of Otego Inc. which is a XML and
+Open Source consultancy company in
+Switzerland.
+
+---
+
+### Jason Pepin
+
+Sessions: Web Presence by 5pm
+
+I work for CNA Life Insurance Company in Nashville, TN
+as a Unix Administrator.  For the past two years I
+have been tasked with helping to develop, maintain, and
+enhance our web infastructure.  We have several external
+consumer web sites and internal web applications
+running the Apache web server.  Each site or app runs off a
+seperate Apache instance, about a dozen production
+instances.  We are currently in the process of migrating our
+existing IIS web sites to Apache.  We even have a
+production web site using Stronghold and Tomcat.  I have
+been working hard over the last year in demonstrating to
+our Management the ease and reliability of Apache.
+These factors have been successful in phasing out IIS in
+favor of Apache in our environment.
+
+---
+
+### Benjamin Pharr
+
+Sessions: MySQL and Java Servlets - The Perfect Combination
+Benjamin Pharr is a Computer Science student at the
+University of Mississippi. He has been programming in
+Java for over five years and is currently doing research
+in security, cryptography, and operating systems.
+
+---
+
+### Mike Pogue
+
+Sessions: The Cathedral Meets The Bazaar
+Mike is a member of the Project Management Committee
+for the Apache XML Project (xml.apache.org), and manager
+of the XML Technologies Group at IBM. His group
+created the IBM XML parsers for Java, C++, and Perl, which
+were used as the initial code base for the Apache XML
+Project's Xerces parsers.
+
+---
+
+### Martin Pool
+
+Sessions: Caches in a dynamic world
+Linuxcare Open Source Engineer Martin Pool has been
+involved with free software since 1994 and specializes in
+Web protocols and Web programming languages. From 1996
+to 1998 he was a core developer on the Apache JServ
+project , which added Java
+servlet support to Apache, the world's most popular web
+server. His involvement with free software has deepened
+lately with work as a lead developer for the rproxy
+project  with
+Andrew Tridgell. rproxy, destined for submission to the IETF
+as an Internet standard, extends HTTP to enable
+significant speed and traffic improvements for web
+applications. Martin is also active as an advocate for free
+software, having been a speaker at conferences and user
+group meetings. His Linuxcare home page can found at
+. Martin sings in a
+chamber choir and enjoys riding bicycles and motorbikes.
+
+---
+
+### Ovidiu Predescu
+
+Sessions: Using Cocoon to build Web sites for wireless devices
+Ovidiu Predescu is a Senior Software
+Engineer working for Hewlett Packard in the
+E-speak
+Operations. He is the
+team lead of a group working on Java/XML/XSLT-based
+frameworks and
+applications in the mobile area.
+
+His earlier work involved adding Perl
+and Python scripting support to GDB, the GNU
+debugger, for distributed debugging support.
+Before this, he worked on a distributed system in
+Objective-C running on Solaris, Linux and
+NeXTSTEP machines.
+
+Ovidiu was
+also involved in the early design and
+implementation phases of the [GNUstep](http://www.gnustep.org/), a
+free-software implementation of OpenStep,
+a precursor of MacOS X. He implemented major
+components in all the libraries, starting from
+the low-level libraries, the database access
+libraries, up to the GUI libraries. In his spare
+time he still maintains the Objective-C
+front-end and runtime library in the GCC compiler
+suite. His areas of interest include compilers,
+programming languages and development
+tools.
+
+---
+
+### Mandar Raje
+
+Sessions: Design and Implementation of the Tomcat Servlet Engine
+
+I graduated from University of California where I did
+my Masters in Computer Science. There I worked on
+Security of Untrusted Applications and on Distributed
+Systems. I joined the Java Software Division of Sun
+Microsystems Inc. I am currently working as a JSP Engineer
+mainly responsible for the reference implementation.
+
+---
+
+### Tobias Ratschiller
+
+Sessions: Advanced PHP: Web Applications - Sessions and Authentication (Slides: [RTF](/slides/us-2000/OR046.rtf)), Advanced PHP: Web Applications - Sessions and Authentication, PHP from an IT Manager's Perspective
+Tobias Ratschiller is a New Media Consultant in Italy,
+specializing in the creation of large-scale dynamic
+Web sites. He has provided consulting and implementation
+work for some of the world's largest Web Sites and has
+contributed to several PHP titles and articles.
+Together with Till Gerken, he's currently writing a book
+titled Advanced Web Application Development with PHP, which
+will be published in April 2000 by New Riders. Tobias
+runs http
+//phpwizard.net.
+
+---
+
+### Gerald Richter
+
+Sessions: Embperl - Building dynamic Websites with Perl, Embperl - Building dynamic Websites with Perl
+Gerald Richter is a programmer and
+networkadministrator. Since 5 years his main working
+area are internet-technics and his focus is on
+Apache, Perl and mod_perl. He is the author of
+Embperl and activly involved in the mod_perl
+project.
+
+---
+
+### Javier Rodriguez
+
+Sessions: Building visually-consistent, multilingual Web sites with Apache and mod_perl
+
+Javier A. Rodriguez is the Research and
+Development Manager at LatinB2B, the premiere B2B
+e-commerce enabler in LatinAmerica. Prior to
+LatinB2B, Mr. Rodriguez was Partner and Chief
+Scientist of Aldea Internet, among other renowed
+Mexican and US-based Internet companies. Mr.
+Rodriguez holds a B.S. in Telecommunications
+and Electronics Engineering from the Instituto
+Tecnologico y de Estudios Superiores de
+Monterrey, State of Mexico Campus (ITESM).
+
+---
+
+### David Rolsky
+
+Sessions: Introduction to Mason
+
+Dave Rolsky has been a professional Perl
+programmer for the past two and a half years. He
+has worked on a number of open source Perl
+projects, including several Perl modules and
+Alzabo, a data modelling and RDBMS-OO mapping tool.
+Since the summer of 2000, he has been part of
+the Mason core development team.
+Professionally, he has worked as an employee
+and contractor for a variety of companies,
+most recently for O'Reilly's software division.
+
+---
+
+### Rich Roth
+
+Sessions: Apache (by itself) does not a Web site make
+
+Rich Roth, CEO of On-the-Net, has been in the
+computer field for 30 years, is a kernel level
+programmer and a user of Unix, the Internet and
+on-line services from their inception.
+He is shepard of gui.apache.org and developer of
+apache-tools.org
+He put his first web server online in 1994 and was an
+early user of Linux and Apache,
+including Redhat's first commerce web site
+(1995) and the first (online 1996 and still running)
+fully
+automated remote CGI system at i-depth.com
+His various ventures operate over 600 web sites,
+All this based on Apache and Linux, and many,
+mysql database.
+
+---
+
+### William A. Rowe Jr.
+
+Sessions: Apache upon Win32 in the round, Apache/WinNT: Security, security, wherefore art thou, security?, i18n: Apache Speaks on Windows
+William's numerous contributions to Apache
+include enhancements to the Win32 port,
+including CGI and Service control, native NT Unicode
+file system support, user support on Apache
+related newsgroups, and speaker at ApacheCon
+Europe 2000. As a member of the ASF and the Apache
+httpd and APR projects, and a member of the
+Apache Dream Team at Covalent Technologies, his
+work on Apache continues in areas such as the
+integration of Apache 2.0 with the Win32
+security model and native WinNT API. William
+started his career in the stealth programming force
+outside of corporate MIS, where he developed
+an array of customized and revenue document
+imaging systems for Rand McNally. Between his
+work for Rand McNally and now Covalent, he has
+provided consulting services in data
+translation, application integration and Web interface
+services.
+
+---
+
+### George Schlossnagle
+
+Sessions: Scalable Internet Architectures, Scalable Internet Architectures
+George Schlossnagle is the author of mod_log_spread, a
+distributed logging module for Apache, and
+APC, a
+compiler cache for
+PHP4. When not working on open-source projects,
+George is the Director of Operations for Community Connect, Inc.,
+and co-owner of OmniTI, Inc where
+he designs and maintains systems and database
+architectures for some of the web's largest
+sites.
+
+---
+
+### Theo Schlossnagle
+
+Sessions: Backhand - a load balancing module for Apache (Slides: [RTF](/slides/us-2000/OR077.rtf)), mod_backhand: internals explained, mod_backhand: Resource Allocation and Content Intelligence, Scalable Internet Architectures, Spread as an Infrastructure for the Future of Clustered Apache
+Services., The Backhand Project: load-balancing and monitoring Apache Web clusters
+Theo
+Schlossnagle is currently
+pursuing his PhD at The Center for
+Networking
+and Distributed Systems at The Johns Hopkins
+University. Current research
+includes resource allocation techniques in dynamic
+models and distributed file
+systems. Theo is the author and maintainer of the
+mod_backhand
+load-balancing
+module for Apache and the initiator of the Backhand Project.
+For food, he provides
+scalable network/system/service architecture
+engineering through OmniTI, Inc.
+
+---
+
+### Timo Schmidt
+
+Sessions: Multilingual Information Processing based on UTF-8 character encoding
+Timo Schmidt has worked as a professional
+software developer at CyberSolutions GmbH, Munich
+and is presently working as a freelancer. His
+last project was a multilingual web-based
+user interface written in PHP.
+
+---
+
+### Matt Sergeant
+
+Sessions: AxKit - An XML Application Server for Apache, AxKit - An XML Application Server for Apache, AxKit - an XML Delivery Toolkit for Apache
+
+Matt Sergeant works for AxKit.com who
+specialise in building open source content management
+solutions for companies wishing to have
+ultimate control over the tools they use. His
+previous work has been the development of high
+speed internet solutions for companys like the
+BBC, Ericsson and Wood MacKenzie. In his
+"spare" time he can be found writing
+articles for XML.com and talking at various
+conferences.
+
+---
+
+### Peter Simons
+
+Sessions: FastCGI -- The Forgotten Treasure, FastCGI -- The Forgotten Treasure
+Peter Simons discovered the Internet in 1992
+and was fascinated by it immediately. Since
+then, he worked for the »Research
+Institute for Discrete Mathematics«, the
+»National Research Center for Information
+Technology«, and the Munich-based software
+company »CyberSolutions GmbH«.
+During his career, he was involved in several free
+software projects like PGP 2.x, GNU Autoconf,
+Petidomo and mapSoN. Furthermore, he published
+various articles on the subject of computer
+security, networking, and software engineering,
+including the book
+»Datenfernübertragung«, which was -- at the time of
+its
+publication in 1995 -- one of the first books
+about the Internet in german language.
+His biggest success, though, was doubtlessly
+the contribution of a ground-breaking foreword
+for Lars Eilebrecht's book »Apache
+Web-Server« . ;-)
+Nowadays, Peter works as a free-lance
+software engineer and consultant for various
+international companies and enjoys life together with
+his two cats »Alan Turing« and
+»Louis Cauchy«. His home page can be
+found at http://cryp.to/.
+
+---
+
+### James Smith
+
+Sessions: Secure Authentication in an Insecure Environment (Slides: [RTF](/slides/us-2000/OR040.rtf))
+James Smith graduated from Texas A&M
+University in the spring of 2000 with a B.S. in
+Math and Physics. He is currently working for
+TAMU as a system administrator and programmer
+(unix) focusing on the central E-Mail system,
+directory service, and helping research and
+develop a public key infrastructure for TAMU.
+
+---
+
+### Alfred Z. Spector
+
+Sessions: The Web and Technology Fusion
+
+As Senior Technical Strategist for Application
+Frameworks and Adjunct Professor of Computer Science at
+Columbia University, Dr. Alfred Z. Spector is spending the
+year assisting IBM customers who are implementing
+e-business applications and teaching advanced web technologies
+to Columbia students. Prior to this sabbatical year,
+Dr. Spector was General Manager of Marketing & Strategy
+for IBM's middleware business, which includes
+WebSphere, Visual Age, and MQSeries.
+
+---
+
+### Greg Stein
+
+Sessions: A Fireside Chat about WebDAV, WebDAV and Apache (Slides: [RTF](/slides/us-2000/OR095.rtf)), WebDAV and Apache, WebDAV and Apache
+Greg
+Stein is an independent software
+developer spending much of his time with
+open-source projects, such as [Subversion](http://subversion.tigris.org/),
+WebDAV for
+Apache, and [Python](http://www.python.org/). Between
+1996 and 1998, Mr. Stein worked at
+Microsoft as a Development Manager, in the
+Commerce Server and Site Server groups. He was
+also a co-founder and the Corporate
+Technologist of eShop, one of the first
+electronic commerce software companies, before
+its acquisition by Microsoft in 1996.
+
+---
+
+### Jon Stevens
+
+Sessions: Turbine: Building Model 2+1 Web Applications
+
+Jon Stevens is a recognized expert on
+integrating the Java language with Apache Web server
+software, is a founding member of the Open
+Source Java Apache and Jakarta Apache Projects,
+and frequently speaks at trade conferences. He
+currently is working on an Open Source
+Issue/Bug tracking system for Collab.Net called
+Scarab that is based on the Java Apache
+technologies he helped develop. Before coming to
+Collab.Net, he was one of the 3 founding members of
+Clear Ink Corporation, a Creative Internet
+Strategy company.
+
+---
+
+### Bill Stoddard
+
+Sessions: Apache 2.0 for Windows, Apache on Windows
+
+Bill Stoddard is a Senior Software Engineer with IBM
+and manager of IBM's Apache HTTP Server development
+team. He is member of the Apache Software Foundation and
+active contributor to the Apache HTTP Server project.
+Bill was the technical leader behind IBM's decision to
+drop development of its proprietary HTTP server in favor
+of adopting Apache.
+
+---
+
+### Perry Stone
+
+Sessions: Apache on VMS
+*No bio available.*
+
+---
+
+### Patricia Sueltz
+
+Sessions: Sun's Apache Initiatives
+
+*No bio available.*
+
+---
+
+### Zeev Suraski
+
+Sessions: PHP 4 Internals
+Zeev Suraski has been working on PHP along with Andi
+Gutmans since 1997, when they started the PHP 3.0
+project, and continued in the design and implementation of
+the PHP 4.0 core. Zeev, a graduate of the Technion,
+Israel institute of Technology, is a member of the PHP
+Group, a member of the Apache Software Foundation and one of
+the founders of Zend Technologies.
+
+---
+
+### Jonathan Swartz
+
+Sessions: Mason: Component-based web development with Perl and Apache
+
+Jonathan Swartz has been programming since his awkward
+teenage years. He served most recently as a technical
+lead at AvantGo, Inc. and is now an independent
+consultant in San Francisco. Jon's overriding passion in
+engineering is the creation of innovative development
+environments. He is the author and active developer of
+HTML::Mason, a Perl-based web development platform.
+
+---
+
+### Sander Temme
+
+Sessions: Measuring and Enhancing Apache Performance, Web Traffic Burstiness: Why Benchmarks Are Wrong
+Sander Temme hails from Amsterdam, the Netherlands
+where he obtained a Masters degree in Experimental
+Physics. After completing his education he went on a
+round-the-world trip in an attempt to unlearn everything he just
+learned. He currently works for Covalent Technologies
+in San Francisco where he applies his knowledge of
+statistical data analysis to web performance measurement.
+Sander is owned by Murphy, the wonder kitten.
+
+---
+
+### Randy Terbush
+
+Sessions: ApacheCon Europe 2000 Closing Session, ApacheCon Europe 2000 Opening Session, What is &quot;open-source&quot; and why should my business care about it?
+Randy Terbush is a director and treasurer of the
+Apache Software Foundation, a founding member of The Apache
+Group, and chief technology officer of Covalent Technologies,
+Inc. Randy has been participating in open-source
+projects since the late 1980s and brings sincere interest
+in the relationship of open-source projects and
+corporate software development environments.
+
+---
+
+### Rodney Thayer
+
+Sessions: Crypto Hardware and OpenSSL, PKI Processing with OpenSSL
+Rodney Thayer has held various positions in
+the design, implementation, deployment, and
+analysis of network security and network protocol
+systems. Most recently, he was a Security
+Architect at Counterpane Internet Security, where
+he was responsible for the cross-Internet
+secure communications mechanism used for their
+Managed Security Service. He has spent the last
+25 years working in the computer industry, in
+such areas as protocol design, cryptographic
+system implementation, network deployment, and
+real-time systems development. He has
+extensive experience working to standardize network
+security protocols and practices through
+organizations such as the Internet Engineering Task
+force (IETF.) He was a member of the working
+Group responsible for delivering the first
+standard specification of the IPsec protocol, and
+was involved in developing several IETF
+specifications including RFC 2411 (IPsec), RFC 2440
+(PGP), in addition to involvment in work on TLS
+(web browser/SSL security) and Digital
+Certificates (X.509/PKI.) He was involved in
+creating the VPN Vendor Consortium and has extensive
+experience in the VPN marketplace. He has
+written and lectured extensively on security
+matters and has presented work in a variety of
+forums including Data Communications Magazine,
+several Internet Web Sites, Networld+Interop, and
+various other lecture and print venues.
+
+---
+
+### Geoff Thorpe
+
+Sessions: Apache E-Commerce Solutions, OpenSSL discussion forum
+Geoff Thorpe is senior cryptographic software engineer
+for C2Net Europe and has extensive experience with
+cryptography and SSL. He's mostly fascinated by crypto and
+networking, and saturating systems with a combination
+of both. Despite finding deep anguish in markup
+languages and scripting, Geoff is nevertheless very interested
+in the Apache web-server (and how far one can push
+it). :-) He also does mathematics, plays/teaches music,
+and cooks a mean curry.
+
+---
+
+### Doug Tidwell
+
+Sessions: Building Web Services with Apache, Managing your Web site with Cocoon, Rub-a-dub-dub-dubya: SOAP and the Web
+
+Doug Tidwell is a Senior Programmer at
+IBM.  He regularly speaks on XML, Java, and
+security topics at conferences and user group
+meetings. His job as a Cyber Evangelist to help
+people evaluate and implement new technologies.
+He holds, with special gloves, a Masters Degree
+in Computer Science from Vanderbilt University
+and a Bachelors Degree in English from the
+University of Georgia.
+
+---
+
+### John Tigue
+
+Sessions: mod_autoindex meets XML
+
+John Tigue received a B.S. in Computer Science from
+Johns Hopkins.
+After a few years contract programming, he visited
+Microsoft
+in the Windows NT Program Management Group where he
+eventually became the first BackOffice Developer.
+Since then he has been involved with software
+start-ups.
+While Senior Software Architect at DataChannel, he
+became active in standards body work.
+He was on the W3C Working Group which produced XML
+1.0.
+He was the author of the WebBroker Note which was an
+early precursor to the current W3C XML Protocol
+Activity.
+Tigue is currently consulting on XML-based Web
+applications.
+
+---
+
+### Stipe Tolj
+
+Sessions: Apache as a WAP Server, Apache as WAP Server, Apache Distributed Authoring Environments
+Stipe Tolj is currently Department Manager of
+the Technology Center and Research Lab at
+Wapme Systems AG, where he focuses on conceptual
+client/server WAP application design and
+implementation. He is involved in the development
+of wireless application strategies and
+integration aspects of WAP components to existing
+internet based environments. His work contributes
+to several open source projects for the WAP
+application environment, like the Kannel WAP
+Gateway or the Apache HTTP Server.
+
+---
+
+### Jon Travis
+
+Sessions: mod_snake:  Flexible Apache modules in Python, mod_snake: Boosting productivity with Python
+
+Jon Travis is a software engineer for Covalent
+Technologies. His background includes writing security,
+network, and CAD software. He is the author of the Open
+Source projects, Camserv and mod_snake.
+
+---
+
+### Jeff Trawick
+
+Sessions: Apache 2.0 Filters, Apache upon Win32 in the round
+Jeff Trawick is a programmer for IBM in RTP,
+North Carolina and works on Apache httpd and
+APR. Previously, Jeff worked on TCP/IP and SNA
+networking software for OS/390.
+
+---
+
+### Gregory Trubetskoy
+
+Sessions: mod_python, mod_python
+*No bio available.*
+
+---
+
+### Dirk-Willem van Gulik
+
+Sessions: Basic Plumbing: Configuring Apache as a Router, Proxy or Gateway, Taming Daemons - scaling your site, Why Logging is a Complete Nightmare
+Dirk-Willem van Gulik is a director of the
+Apache Software Foundation and a longtime
+contributor to the Apache projects. He currently
+works for Covalent Technologies as Vice President
+of Research and Advanced Technologies.
+
+---
+
+### Sander van Zoest
+
+Sessions: Audio and Apache, Audio and Apache, High-Performance Dynamic Pages with Templates, XML, and mod_perl (Slides: [RTF](/slides/us-2000/OR058.rtf)), XML and I18N
+
+Sander is a late night developer in San Diego, US
+working on Perl, XML and in the online audio space. He
+also enjoys working on server
+infrastructures, performance, horizontal scalability,
+working in the home studio and collecting as many tunes
+as possible.
+
+---
+
+### Anil Vijendran
+
+Sessions: Design and Implementation of the Tomcat Servlet Engine
+
+Anil Vijendran is the Sun project lead for the Tomcat
+@ Jakarta project. For the past three years he has been
+involved in various middleware efforts at Sun --
+CORBA, RMI-IIOP, and EJB. Anil has a master's in computer
+science from University of Louisiana.
+
+---
+
+### Nathan Wallace
+
+Sessions: Apache Knowledge Base, Design Patterns in Web Programming (Slides: [RTF](/slides/us-2000/OR080.rtf)), Design Patterns in Web Programming, PHP: Hackers Paradise (Slides: [RTF](/slides/us-2000/OR078.rtf)), PHP: Hackers Paradise, PHP: Hackers Paradise Revisited
+Nathan began his development career with IBM
+helping to build their Visual Age for Java and
+Smalltalk suites.  From there he moved into web
+programming and has spent the last two years
+running Synop, a PHP development company.  He
+built and maintains the PHP Knowledge Base as
+part of http://www.faqts.com.  After 18 months of
+development and refinement, Synop is currently
+in the release process for a number of large PHP
+applications.
+
+---
+
+### Sanjiva Weerawarana
+
+Sessions: Infrastructure for Web Services
+
+Sanjiva Weerawarana is a Research Staff Member and
+Manager of the
+Component Systems group at IBM TJ Watson Research
+Center, where he has
+been since August 1997. His research is centered
+around
+component-oriented programming. He is part of the
+teams that developed
+Bean Markup Language (BML,
+http://www.alphaWorks.ibm.com/formula/bml),
+Bean Scripting Framework (BSF,
+http://www.alphaWorks.ibm.com/tech/bsf),
+SOAP4J/Apache SOAP (http://xml.apache.org/soap), Web
+Services Toolkit (
+http://www.alphaWorks.ibm.com/tech/webservicestoolkit)
+and the WSDL
+Toolkit
+(http://www.alphaWorks.ibm.com/tech/wsdltoolkit). Weerawarana
+received his BS (1988) and MS (1989) in Applied
+Mathematics / Computer
+Science from Kent State University and his Ph.D.
+(1994) in Computer
+Science from Purdue University.
+
+---
+
+### David Welton
+
+Sessions: mod_dtcl - fast and light web scripting
+
+David Welton is the author and maintainer of
+mod_dtcl, as well as the chief worker behind
+the Apache Tcl project. A native of Eugene,
+Oregon, he now lives in Padova, Italy where he works
+as a freelance consultant with open source software.
+
+---
+
+### Phillip Wherry
+
+Sessions: Ten Tough Questions to Ask Your Application Developers About Security and the Web
+
+Phillip Wherry has been involved
+professionally with Internet security since 1989 and
+Web
+application security since 1995. In these
+roles, he has been responsible for Web application
+security architecture and implementation for a
+number of high-visibility, high-value
+projects including the first online equity trading
+system deployed in Europe and several home
+banking systems. He led the project team
+responsible for implementation of an Apache-based
+single-sign-on authentication, authorization, and
+auditing system at a major U.S. pharmaceutical
+company. Mr. Wherry has also led training
+programs in security topics such as distributed
+application security and public-key cryptography
+for development organizations worldwide. He
+current serves as Vice President of Technology
+(Network Systems) for Spotcast Communications,
+Inc.
+
+---
+
+### Mike Whitaker
+
+Sessions: 250M pageviews a month: a case study of a high traffic site
+
+Mike Whitaker is System Architect for CricInfo Ltd,
+one of the world's largest single-sport websites. In the
+past he's also ported a CAD/CAM modeller to various
+Unix platforms (including one of the first HP PA2-RISC
+machines in the world) and worked as postmaster at the
+UK's largest ISP.
+
+In his spare time he runs a small recording studio, an
+IRC network and the odd Science Fiction convention.
+He's married to a computer-literate cricket-loving
+veterinary surgeon, and has a 18 month old son and three
+cats.
+
+---
+
+### Mark Wilcox
+
+Sessions: Apache and LDAP (Slides: [DOC](/slides/us-2000/OR005.doc) | [PPT](/slides/us-2000/OR005.ppt))
+Mark Wilcox is the Web Administrator and LDAP guru for
+the University of North Texas, where he co-designed
+the Bulk Communication System (BCS). BCS uses LDAP, the
+Web and Email to create an official notification system
+between the university and students. Mark is the author
+of the book "Implementing LDAP" by Wrox press, a
+Champion of the Quarter for Netscape, and a frequent
+contributer on many LDAP mailing lists and newsgroups.
+
+---
+
+### Mark Wilcox
+
+Sessions: Apache and LDAP
+
+Mark is the Web and LDAP Administrator
+for the University of North Texas. He's a frequent
+author and speaker on LDAP. Mark developed the original
+LDAP backend for Jabber for SourceExchange and
+Jabber.com.
+
+---
+
+### Jim Winstead
+
+Sessions: World domination heroes series: PHP
+
+*No bio available.*
+
+---
+
+### Cliff Woolley
+
+Sessions: Bucket Brigades: Data management for Apache 2.0
+Cliff Woolley is a graduate student at the
+University of Virginia. He has been
+administering Apache-based web servers since 1997 and
+has
+been involved with web development since 1996.
+He spends much of his time contributing to
+various Open Source projects, particularly
+Apache 2.0 and APR.
+
+---
+
+### Thomas Wouters
+
+Sessions: Performance-tuning Apache, Performance-tuning the Apache Web Server
+Thomas Wouters is a System Administrator (and
+part-time programmer) at Dutch ISP XS4ALL
+(http://www.xs4all.nl), where one of his jobs is maintaining and developing
+the Apache-running webservers. In his spare time he is
+a Python-developer and -zealot.
+
+---
+
+### William Wright
+
+Sessions: EJB containers for Apache?
+
+*No bio available.*
+
+---
+
+### Geoffrey Young
+
+Sessions: mod_perl: world domination redux, Transitioning to mod_perl Handlers, World domination heroes series: mod_perl
+Geoff is currently an Applications Engineer with Covad
+Communications
+in Media, PA.  He has written scores of mod_perl
+handlers, the most
+useful of which can be found on CPAN.  In addition to
+being a frequent
+contributor to the mod_perl community, Geoff compiles
+a weekly summary
+of the mod_perl mailing list and is lead author for
+"The mod_perl
+Developer's Cookbook" forthcoming from Sams.  When not
+programming or
+writing he is busy spending time with his wife and
+daughter, slowly
+rebuilding their house a room at a time.
+
+---
+
+### Carsten Ziegeler
+
+Sessions: Building multi-channel SOAP clients using CASA
+Carsten Ziegeler is chief architect and
+consultant of the open source group at S&N and
+a certified Apple WebObjects Trainer. His main
+topics are web application design and object
+oriented component development. Besides his
+participation in several open source and
+freeware projects, he is an active committer of the
+Apache Cocoon 2 project.
+
+---
+
+### John Zukowski
+
+Sessions: Developing Dynamic Web Sites with JavaServer Pages, Developing Dynamic Web Sites with JavaServer Pages
+
+John Zukowski conducts strategic Java consulting with
+JZ Ventures, Inc. His latest books are Java Collections
+and the Definitive Guide to Swing for Java 2 (2nd ed)
+for Apress.
