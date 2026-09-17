@@ -1,21 +1,21 @@
 title:  Tracks
 template: page-event-default
 ref: apachecon-asia-2021
-inPageNav: falst
+inPageNav: false
 
 |   Tracks | Track Chairs |
 | --- | --- | 
-| [[]API / Microservice](./tracks/api) |  Ming Wen |
-| [[]Big Data](./tracks/bigdata) | Duo zhang, Junping Du, Lidong Dai |
-| [[]Community](./tracks/community) | Jianshen Li |
-| [[]Data Visualization](./tracks/datavisualization) | Ovilia Zhang |
-| [[]Incubator](./tracks/incubator) | Juan Pan |   
-| [[]Integration](./tracks/integration) | Willem Jiang, Zoran Regvart, María Arias de Reyna |   
-| [[]IoT and IIoT](./tracks/iot) | Xiangdong Huang, Christofer Dutz |   
-| [[]Keynote](./tracks/keynote) | Jerry Tan |   
-| [[]Messaging](./tracks/messaging) | Jia Zhai, Dianjin Wang |   
-| [[]Middleware](./tracks/middleware) | Liang Zhang，Jean-Baptiste Onofre |   
-| [[]Observability](./tracks/observability) | Sheng Wu |   
-| [[]Streaming](./tracks/streaming) | Yu Li |   
-| [[]Web Server/Tomcat](./tracks/webserverandtomcat) | Huxing Zhang |   
-| [[]Workflow/Data Governance](./tracks/workflowdatagovernance) | Wei Guo |   
+| [[]API / Microservice](/events/apachecon-asia-2021/tracks/api) |  Ming Wen |
+| [[]Big Data](/events/apachecon-asia-2021/tracks/bigdata) | Duo zhang, Junping Du, Lidong Dai |
+| [[]Community](/events/apachecon-asia-2021/tracks/community) | Jianshen Li |
+| [[]Data Visualization](/events/apachecon-asia-2021/tracks/datavisualization) | Ovilia Zhang |
+| [[]Incubator](/events/apachecon-asia-2021/tracks/incubator) | Juan Pan |   
+| [[]Integration](/events/apachecon-asia-2021/tracks/integration) | Willem Jiang, Zoran Regvart, María Arias de Reyna |   
+| [[]IoT and IIoT](/events/apachecon-asia-2021/tracks/iot) | Xiangdong Huang, Christofer Dutz |   
+| [[]Keynote](/events/apachecon-asia-2021/tracks/keynote) | Jerry Tan |   
+| [[]Messaging](/events/apachecon-asia-2021/tracks/messaging) | Jia Zhai, Dianjin Wang |   
+| [[]Middleware](/events/apachecon-asia-2021/tracks/middleware) | Liang Zhang，Jean-Baptiste Onofre |   
+| [[]Observability](/events/apachecon-asia-2021/tracks/observability) | Sheng Wu |   
+| [[]Streaming](/events/apachecon-asia-2021/tracks/streaming) | Yu Li |   
+| [[]Web Server/Tomcat](/events/apachecon-asia-2021/tracks/webserverandtomcat) | Huxing Zhang |   
+| [[]Workflow/Data Governance](/events/apachecon-asia-2021/tracks/workflowdatagovernance) | Wei Guo |   
