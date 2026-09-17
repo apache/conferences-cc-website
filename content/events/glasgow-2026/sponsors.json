@@ -18,6 +18,11 @@
             "link": "https://axonops.com/"
         },
         {
+            "name": "Develocity", 
+            "logo": "/images/sponsors/logo-develocity-color-light.png",
+            "link": "https://develocity.ai/"
+        },
+        {
             "name": "Google Cloud", 
             "logo": "/images/sponsors/GC_Logo_FullColor_cmkyC.svg",
             "link": "https://cloud.google.com/"
