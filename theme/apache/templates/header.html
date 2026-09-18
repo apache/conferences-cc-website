@@ -45,28 +45,26 @@
 </head>
 <body {% if page.bodytag %} {{ page.bodytag }}{% endif %} {% if page.ref %} class="body-{{ page.ref }}"{% endif %} >
     <header id="header-main">
-         <div class="inner relative z1 flex flex-space-between flex-vert-center">
-            <a href="/" class="logo">
-                <img src="/images/CommunityOverCode_Logo_horizontal-color.svg" alt="ASF Events">
-            </a>
-            <div id="nav-toggle" class="nav-toggle hidden">
-                <span id="nav-top"></span>
-                <span id="nav-mid"></span>
-                <span id="nav-btm"></span>
+        <div class="top-nav">
+            <div class="inner relative z1 flex flex-space-between flex-vert-center">
+               <a href="/" class="logo">
+                   <img src="/images/CommunityOverCode_Logo_horizontal-color.svg" alt="ASF Events">
+               </a>
+               <div id="nav-toggle" class="nav-toggle hidden">
+                   <span id="nav-top"></span>
+                   <span id="nav-mid"></span>
+                   <span id="nav-btm"></span>
+               </div>
+               {% include "nav-default.html" %}
             </div>
-            {# Check to see if the current page is an event and has a custom navigation. If so, we apply the custom nav instead of the default site nav #}
-            
-            {% set current_event = page.events | selectattr('ref', 'equalto', page.ref) | first if page.ref else none %}
-            {#  If the current event is not found in the upcoming events, check the archived events  #}
-            {% if not current_event and page.archived_events %}
-                {% set current_event = page.archived_events | selectattr('ref', 'equalto', page.ref) | first if page.ref else none %}
-            {% endif %}
-
-            {% if current_event and current_event.nav %}
+        </div>
+        {% if current_event and current_event.nav %}
+        <div class="lower-nav">
+            <div class="inner flex flex-end">
                 {% include current_event.nav %}
-            {% else %}
-                {% include "nav-default.html" %}
-            {% endif %}
+            </div>
+        </div>
+        {% endif %}
     </header>
 
 

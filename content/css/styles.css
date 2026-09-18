@@ -260,12 +260,13 @@ tr:nth-child(even) {background-color: var(--color-lavendar);}
 
 /* HEADER */
 #header-main {
-    height: 100px;
     position: relative;
     z-index: 2;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     background-color: #fff;
 }
+.top-nav {height:100px;}
+.lower-nav {height: 40px; background-color: var(--color-navy);}
 #header-main .inner, #header-main nav, #header-main nav ul, #header-main nav li, #header-main nav a {
     height: 100%;
 }
@@ -287,9 +288,13 @@ tr:nth-child(even) {background-color: var(--color-lavendar);}
     margin: 0;
     border-right: 1px solid #712572;
 }
+#header-main .lower-nav nav ul {border-right: 1px solid #fff;}
 #header-main nav li {
     list-style: none;
     border-left: 1px solid #712572;
+}
+#header-main .lower-nav nav li {
+    border-left: 1px solid #fff;
 }
 #header-main nav li.has-sub-menu {
     position: relative;
@@ -305,6 +310,15 @@ tr:nth-child(even) {background-color: var(--color-lavendar);}
 }
 #header-main nav li.has-sub-menu >a:hover::after {
     border-color: transparent transparent transparent #fff;
+}
+#header-main .lower-nav nav li.has-sub-menu >a::after {
+    content: '';
+    display: inline-block;
+    margin-left: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent #ffffff;
+    transform: rotate(90deg);
 }
 #header-main nav ul.sub-menu {
     position: absolute;
@@ -332,6 +346,9 @@ tr:nth-child(even) {background-color: var(--color-lavendar);}
     padding: 10px 15px;
     font-size: .8rem;
 }
+#header-main .lower-nav nav ul.sub-menu li a {
+    font-size: 12px;
+}
 #header-main nav ul.sub-menu li a:hover {
     background-color: #fff;
     color: var(--color-navy)
@@ -340,6 +357,7 @@ tr:nth-child(even) {background-color: var(--color-lavendar);}
     width: 200px;
 }
 
+#header-main .lower-nav nav a {color: #fff; font-size: 12px;}
 /* reusable components */
 .card {
     border-radius: 8px;
@@ -1135,6 +1153,16 @@ footer p {
         padding-top: 100px;
         transform: translateX(100%);
         transition: transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+    .lower-nav {
+        display: none;
+    }
+    .mobile-sub-nav {display: block;}
+    #header-main nav.open .mobile-sub-nav nav {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
     }
     
     #header-main nav.open {
