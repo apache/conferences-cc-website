@@ -887,7 +887,7 @@ Lakehouse Day is a place for the projects in and around the lakehouse ecosystem 
             </a>
         </div>
         <div class="sponsor-logo">
-            <a href="https://cloud.google.com/" target="_blank" class="sponsor-link">
+            <a href="https://cloud.google.com/solutions/data-lakehouse/" target="_blank" class="sponsor-link">
                 <img src="/images/sponsors/GC_Logo_FullColor_cmkyC.svg" loading="lazy" alt="Google Cloud">
             </a>
         </div>
