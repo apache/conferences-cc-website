@@ -475,22 +475,23 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
 <div class="card session-card">
     <div class="card-inner">
         <div class="session-info">
-            <h3 class="session-title">Cold Stars over the Frozen Lochs: StarRocks × Iceberg at Fresha</h3>
+            <h3 class="session-title">Iceberg at Scale: Infrastructure Lessons for the Modern Lakehouse</h3>
             <div class="session-description">
-                <p>Iceberg gave us a great foundation for durable, replayable analytics data. The problem started when we needed the same datasets to satisfy very different access patterns: dashboards and joins that need sub-seconds latency, alongside large historical scans. We could make either case work in isolation, but not both reliably without introducing a hot tier and a clear boundary.</p>
-                <p>This talk covers how we evolved to a tiered design where StarRocks serves the hot tier natively and federates into Iceberg for cold history. We’ll briefly explain how StarRocks’ Iceberg integration behaves (planning/metadata work, pushdown, caching), why federation helps but isn’t free, and how we model tier boundaries in dbt so consumers see one dataset. Finally, we’ll show how we operationalized the architecture with Airflow workflows that route datasets into Iceberg or StarRocks based on workload pattern and freshness SLA, plus the optimizations that made performance predictable.</p>
+                <p>Apache Iceberg, an open table format, has emerged as a critical component in modern lakehouse architectures, but operating it at enterprise scale surfaces challenges that span infrastructure, performance, and security. This presentation shares practical lessons applicable to any organization investing in the lakehouse pattern.</p>
+                <p>This talk covers three areas common to production Iceberg environments: infrastructure evolution, performance engineering and enterprise requirements.</p>
+                <p>Attendees will walk away with a practical understanding of how to evolve their catalog infrastructure, tune Parquet and Spark configurations for real-world Iceberg workloads, and approach encryption and audit requirements in lakehouse environments. We will also discuss how observability and metrics collection lay the foundation for ML-driven query optimization.</p>
             </div>
         </div>
         <div class="speaker-details">
-            <h4 class="speaker-name">Anton Borisov / <span>Principal Data Architect at Fresha</span></h4>
+            <h4 class="speaker-name">Anil Khadka / <span>Apple Inc.</span></h4>
             <div class="speaker-bio">
-                <p>Anton Borisov is a Principal Data Architect at Fresha working on real-time lakehouse platforms: CDC and streaming ingestion with Flink/Kafka, open table formats like Iceberg/Paimon, and analytics performance with StarRocks. He writes practical deep-dives on the engineering trade-offs behind modern lakehouse systems.</p>
+                <p>Anil Khadka is a Software Engineer at Apple Inc., where he has spent over a decade building and optimizing large-scale data infrastructure. With 20 years of industry experience and an MS in Computer Science, he specializes in Apache Spark, Apache Flink, and Apache Iceberg, with deep expertise in performance optimization across cloud-native platforms. His work focuses on Lakehouse architecture and production-grade reliability at massive scale.</p>
             </div>
         </div>
         <div class="speaker-details">
-            <h4 class="speaker-name">Nicoleta Lazar / <span>Fresha</span></h4>
+            <h4 class="speaker-name">Huang-Hsiang Cheng / <span>Apple Inc.</span></h4>
             <div class="speaker-bio">
-                <p>Nicoleta is a Senior Data Engineer at Fresha, working across Kafka, Debezium, Snowflake, and a broad mix of batch and streaming systems that power the company’s analytics and real-time data flows. Coming from an Elixir/Erlang background, she brings a strong focus on reliability, fault-tolerance, and clean system design.</p>
+                <p>Huang-Hsiang works for Apple Maps Data Infrastructure team and provides support to Apache Iceberg and DataFusion Comet.</p>
             </div>
         </div>
     </div>
@@ -605,23 +606,22 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
 <div class="card session-card">
     <div class="card-inner">
         <div class="session-info">
-            <h3 class="session-title">Iceberg at Scale: Infrastructure Lessons for the Modern Lakehouse</h3>
+            <h3 class="session-title">Cold Stars over the Frozen Lochs: StarRocks × Iceberg at Fresha</h3>
             <div class="session-description">
-                <p>Apache Iceberg, an open table format, has emerged as a critical component in modern lakehouse architectures, but operating it at enterprise scale surfaces challenges that span infrastructure, performance, and security. This presentation shares practical lessons applicable to any organization investing in the lakehouse pattern.</p>
-                <p>This talk covers three areas common to production Iceberg environments: infrastructure evolution, performance engineering and enterprise requirements.</p>
-                <p>Attendees will walk away with a practical understanding of how to evolve their catalog infrastructure, tune Parquet and Spark configurations for real-world Iceberg workloads, and approach encryption and audit requirements in lakehouse environments. We will also discuss how observability and metrics collection lay the foundation for ML-driven query optimization.</p>
+                <p>Iceberg gave us a great foundation for durable, replayable analytics data. The problem started when we needed the same datasets to satisfy very different access patterns: dashboards and joins that need sub-seconds latency, alongside large historical scans. We could make either case work in isolation, but not both reliably without introducing a hot tier and a clear boundary.</p>
+                <p>This talk covers how we evolved to a tiered design where StarRocks serves the hot tier natively and federates into Iceberg for cold history. We’ll briefly explain how StarRocks’ Iceberg integration behaves (planning/metadata work, pushdown, caching), why federation helps but isn’t free, and how we model tier boundaries in dbt so consumers see one dataset. Finally, we’ll show how we operationalized the architecture with Airflow workflows that route datasets into Iceberg or StarRocks based on workload pattern and freshness SLA, plus the optimizations that made performance predictable.</p>
             </div>
         </div>
         <div class="speaker-details">
-            <h4 class="speaker-name">Anil Khadka / <span>Apple Inc.</span></h4>
+            <h4 class="speaker-name">Anton Borisov / <span>Principal Data Architect at Fresha</span></h4>
             <div class="speaker-bio">
-                <p>Anil Khadka is a Software Engineer at Apple Inc., where he has spent over a decade building and optimizing large-scale data infrastructure. With 20 years of industry experience and an MS in Computer Science, he specializes in Apache Spark, Apache Flink, and Apache Iceberg, with deep expertise in performance optimization across cloud-native platforms. His work focuses on Lakehouse architecture and production-grade reliability at massive scale.</p>
+                <p>Anton Borisov is a Principal Data Architect at Fresha working on real-time lakehouse platforms: CDC and streaming ingestion with Flink/Kafka, open table formats like Iceberg/Paimon, and analytics performance with StarRocks. He writes practical deep-dives on the engineering trade-offs behind modern lakehouse systems.</p>
             </div>
         </div>
         <div class="speaker-details">
-            <h4 class="speaker-name">Huang-Hsiang Cheng / <span>Apple Inc.</span></h4>
+            <h4 class="speaker-name">Nicoleta Lazar / <span>Fresha</span></h4>
             <div class="speaker-bio">
-                <p>Huang-Hsiang works for Apple Maps Data Infrastructure team and provides support to Apache Iceberg and DataFusion Comet.</p>
+                <p>Nicoleta is a Senior Data Engineer at Fresha, working across Kafka, Debezium, Snowflake, and a broad mix of batch and streaming systems that power the company’s analytics and real-time data flows. Coming from an Elixir/Erlang background, she brings a strong focus on reliability, fault-tolerance, and clean system design.</p>
             </div>
         </div>
     </div>
