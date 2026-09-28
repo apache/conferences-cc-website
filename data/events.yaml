@@ -508,6 +508,7 @@ events:
   - name: ApacheCon 1998
     nav:
     ref: apachecon-1998
+    image: /images/events/event-card-apachecon-1998.webp
     href: /events/apachecon-1998
     registrationHref:
     startDate: 1998-10-14
