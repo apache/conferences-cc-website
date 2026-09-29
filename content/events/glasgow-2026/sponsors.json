@@ -26,6 +26,11 @@
             "name": "Google Cloud", 
             "logo": "/images/sponsors/GC_Logo_FullColor_cmkyC.svg",
             "link": "https://cloud.google.com/"
+        },
+        {
+            "name": "Red Hat", 
+            "logo": "/images/sponsors/Logo-Red_Hat-A-Standard-RGB.svg",
+            "link": "https://www.redhat.com/"
         }
     ],
     "silver": [
