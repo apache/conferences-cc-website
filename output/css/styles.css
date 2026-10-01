@@ -967,6 +967,9 @@ footer p {
     justify-content: center;
     padding: 20px;
 }
+.sponsor-logo[data-sponsor-name="Apple"] {
+    padding: 60px 20px;
+}
 .sponsor-logos.sponsor-logos--gold .sponsor-logo {
     width: calc((100% - 60px) / 4);
     height: 180px;

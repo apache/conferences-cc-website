@@ -1,8 +1,13 @@
 {
     "platinum": [
         {
+            "name": "Apple", 
+            "logo": "/images/sponsors/Apple_Logo_Black_lg.svg",
+            "link": "https://www.apple.com/"
+        },
+        {
             "name": "Cloudera", 
-            "logo": "/images/sponsors/cldr_corp_logo_color_cmyk.svg",
+            "logo": "/images/sponsors/cldr_corp_logo_color_cmyk.png",
             "link": "https://www.cloudera.com/"
         },
         {
