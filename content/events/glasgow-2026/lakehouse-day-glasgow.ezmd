@@ -732,24 +732,15 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
 <div class="card session-card">
     <div class="card-inner">
         <div class="session-info">
-            <h3 class="session-title"> What It Takes: Building a Lakehouse as a Service on Kubernetes</h3>
+            <h3 class="session-title">A Year at REST: What’s New in Iceberg REST Catalogs</h3>
             <div class="session-description">
-                <p>This breakout session offers an engineering-focused look behind the curtain of how STACKIT designed, built, and operates a Lakehouse as a Service offering on top of OSS projects such as Kubernetes, Apache Iceberg, NATS, ZooKeeper, and others.</p>
-                <p>Topics that will be touched:</p>
-                <ul>
-                <li>OSS at the Core: Insights into the general setup of the service and how open-source projects like Apache Iceberg, Kubernetes and others play a central role.</li>
-                <li>Order to Deployment: Technical walkthrough from API interaction and resource provisioning in the cluster to the automated setup using self-written Kubernetes Operators.</li>
-                <li>Engineering Hurdles and Solutions: Details about the most significant challenges we faced.</li>
-                <li>Operationalizing the Service: Context for engineering decisions we made, things that went wrong, and a focus on the critical operational aspects.</li>
-                </ul>
-                <p>Attendees will gain practical and relatable insights into the complexities of platform engineering for data infrastructure from our experience in bringing a demanding, cutting-edge data service to market as a managed offering</p>
+                <p>Join us for a focused update on the Iceberg REST Catalog: what it is, why it matters, and the latest protocol advances. We’ll cover recent additions at a high level—ETags, idempotency‑key, view registration, table encryption keys, and extensions to server‑side planning—and outline community work in progress and its significance, including the Events Endpoint, enhanced OAuth2 support, and Fine‑Grained Metadata Commits.</p>
             </div>
         </div>
         <div class="speaker-details">
-            <h4 class="speaker-name">Bjarne Schröder / <span>Software Engineer @ STACKIT</span></h4>
+            <h4 class="speaker-name">Christian Thiel / <span>Software Engineer and Founder, Vakamo</span></h4>
             <div class="speaker-bio">
-                <p>Hi! I'm Bjarne and I work as a Software Engineer at STACKIT on Data & AI product offerings. Transitioning from Data Engineering to Software Engineering I know both sides of the space. Being the user of cloud native data services, and now actually building and providing them.</p>
-                <p>I love to connect with other people. In my freetime I like to dive into nerdy topics and cycle through my hometown Cologne, Germany.</p>
+                <p>Christian is the creator of Lakekeeper, an Apache Licensed Iceberg REST Catalog. He’s a big believer in open standards like Apache Iceberg, which he sees as the backbone of today’s modern, composable Data & Analytics systems. Christian is all about crafting innovative solutions that make collaborating on data a breeze. With a long history as a data enthusiast and consultant, he’s built countless Data & Analytics solutions over the years, making him a passionate advocate for data-driven success.</p>
             </div>
         </div>
     </div>
