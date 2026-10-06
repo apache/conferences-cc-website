@@ -23,7 +23,6 @@ A Diskless Experience on Cloud: Running Apache Kafka KIP-1150 - Guang Zhao<br>
 "From Now On, I Want Every Single Message" - Jiunn Yang Huang<br>
 How Apache Kafka handles CPU/Memory in New Consumer Protocol - PoAn Yang<br>
 YARN MCP: AI Agent Integration - Bence Kosztolnik, Peter Szucs<br>
-Build a Streaming Lakehouse with Flink, Fluss and Iceberg - Alex Campos<br>
 Fast Optimistic Concurrency Control with Apache Ozone S3 Conditional Requests - Chu Cheng Li<br>
 Impala 5.0: Where lakehouse meets lower latency and better observability - Quanlong Huang<br>
 Scaling Parquet Metadata for Wide Tables: Selective Loading, Decoding, and Caching - Bharathwaj G, Arpit Bandejiya<br>
@@ -51,4 +50,5 @@ The Unseen Pull Request: The Crisis We Don’t Measure - joyce lokko
 
 Snapshots: It’s Just a Copy, Right? - Sadanand Shenoy<br>
 It’s Just String Comparison... How Hard Could It Be? Collations in Apache Spark - Uroš Bojanić<br>
-We Bent Jenkins Until It Broke. Here’s What Apache Airflow Fixed. - Hrithik Kumar
+We Bent Jenkins Until It Broke. Here’s What Apache Airflow Fixed. - Hrithik Kumar<br>
+Shipping Airflow DAGs: From Folders and Fat Bundles to Build-Graph-Aware Artifacts - Sumit Maheshwari
