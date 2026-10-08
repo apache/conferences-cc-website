@@ -574,28 +574,17 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
 <div class="card session-card">
     <div class="card-inner">
         <div class="session-info">
-            <h3 class="session-title">Beyond Tables: Where Should Semantics Live in the Open Lakehouse?</h3>
+            <h3 class="session-title">Apache Polaris™: Getting Started with this Open Source Iceberg Catalog</h3>
             <div class="session-description">
-                <p>Open table formats like Apache Iceberg, Apache Hudi, and Delta Lake have transformed modern data platforms by separating storage from compute and enabling multiple engines to operate on the same data. In this architecture, the catalog layer became the control plane for the open lakehouse—standardizing how engines discover tables and metadata.</p>
-                <p>However, lakehouses still primarily expose tables and SQL. While this works for analysts, newer consumers—applications, data agents, and AI-native systems—need semantic context such as entities, relationships, and shared metric definitions.</p>
-                <p>Today this logic is scattered across tools and pipelines. This raises a key question:</p>
-                <p>The catalog standardized how lakehouses discover tables. Should it also define what those tables mean?</p>
-                <p>In this talk, we explore architectural options for introducing semantics into the lakehouse:</p>
-                <ul>
-                    <li>BI-centric semantics</li>
-                    <li>Pipeline-centric semantics</li>
-                    <li>Engine-centric semantics</li>
-                    <li>Catalog-centric semantics</li>
-                    <li>Service-based semantics</li>
-                </ul>
-                <p>and discuss the trade-offs for governance, interoperability, and multi-engine environments.</p>  
+                <p> Apache Polaris™ is an open source catalog for Apache Iceberg™. Come along to learn how to make use of it!</p>
+                <p>In this session, we'll first introduce you to the idea of an Iceberg catalog and, specifically, what it means to be an Iceberg REST Catalog. From there, we'll dive into the core functionalities of Polaris before showing users how to get onboarded with Polaris through an overview of the Polaris REST APIs and the Polaris Console UI.</p>
+                <p>By the end of the session, attendees will know what Polaris is and how to start using it.</p>  
             </div>
         </div>
         <div class="speaker-details">
-            <h4 class="speaker-name">Arnav Naresh Borkar / <span>Performance and Research Engineer, e6data</span></h4>
+            <h4 class="speaker-name">JB Onofré / <span>ASF member, working on ~20 Apache projects</span></h4>
             <div class="speaker-bio">
-                <p>Arnav Borkar is a Database Internals Engineer at e6data, where he works on the core development and optimization of a high-performance SQL query engine for large-scale analytics. He also leads ecosystem initiatives around open table formats and catalog integrations, helping advance interoperability in modern lakehouse architectures. Arnav is active in the open lakehouse community and recently spoke at Iceberg Bay Area Meetup where he presented on tackling metadata explosion in Apache Iceberg.</p>
-                <p>He is a Computer Science graduate from BITS Pilani, where he developed his interest in distributed systems and data storage through his work at the DaSH Lab. His research on parallel file systems was published at IEEE Cluster Conference in Santa Fe and part of this work was presented at SC23 Supercomputing Conference in Denver.</p>
+                <p>JB is long time Apache member, enthusiast about Apache projects. He's active on several projects, more than 20.</p>
             </div>
         </div>
     </div>
