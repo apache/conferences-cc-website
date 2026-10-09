@@ -281,9 +281,9 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
             </div>
         </div>
         <div class="speaker-details">
-            <h4 class="speaker-name">Danica Fine / <span>Advocating for Open source</span></h4>
+            <h4 class="speaker-name">Elizabeth Christensen / <span>Postgres @ Snowflake</span></h4>
             <div class="speaker-bio">
-                <p>Danica began her career as a software engineer in financial services and pivoted to developer relations, where she focussed primarily on open source technologies under the Apache Software Foundation umbrella such as Apache Kafka® and Apache Flink®. She is an ASF member and Apache Polaris™ committer, and leads the open source developer relations team at Snowflake, supporting Apache Iceberg™ and Apache Polaris. She can be found on X (Bluesky and Mastodon), talking about tech, plants, and baking @TheDanicaFine.</p>
+                <p>Elizabeth is a Postgres contributor and technical writer at Snowflake. She is on the board of the US PostgreSQL Association and hosts an online Postgres Meetup for All and a local KC Postgres group. She also helps host the annual PostGIS Day. Elizabeth is passionate about open source technology and diversity in tech though education. Elizabeth is from Lawrence, Kansas and enjoys spending time in her own personal backyard tiki hut.</p>
             </div>
         </div>
     </div>
