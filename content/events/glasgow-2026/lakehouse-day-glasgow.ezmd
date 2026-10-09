@@ -35,6 +35,18 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
                $(this).next('.session-description').slideToggle();
             }).on('click', '.speaker-name', function(){$(this).next('.speaker-bio').slideToggle();});});</script></div>
 
+### 8:00 AM - 10:00 AM
+
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title">Registration and Breakfast</h3>
+        </div>
+    </div>
+</div>
+
+<div class="spacer spacer-large"></div>
+
 ### 10:00 AM - 10:30 AM
 
 #### Grand Ballroom
