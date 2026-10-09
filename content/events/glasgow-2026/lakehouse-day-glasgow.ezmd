@@ -574,17 +574,22 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
 <div class="card session-card">
     <div class="card-inner">
         <div class="session-info">
-            <h3 class="session-title">Apache Polaris™: Getting Started with this Open Source Iceberg Catalog</h3>
+            <h3 class="session-title"> Beyond Structured Data: How Apache Doris Enables AI-Ready Multimodal Analytics on the Open Lakehouse</h3>
             <div class="session-description">
-                <p> Apache Polaris™ is an open source catalog for Apache Iceberg™. Come along to learn how to make use of it!</p>
-                <p>In this session, we'll first introduce you to the idea of an Iceberg catalog and, specifically, what it means to be an Iceberg REST Catalog. From there, we'll dive into the core functionalities of Polaris before showing users how to get onboarded with Polaris through an overview of the Polaris REST APIs and the Polaris Console UI.</p>
-                <p>By the end of the session, attendees will know what Polaris is and how to start using it.</p>  
+                <p>As AI pipelines demand data across the full type spectrum — from structured tables and JSON logs to vector embeddings — the open lakehouse must evolve beyond traditional analytics.</p>
+                <p>This talk explores how Apache Doris serves as a multi-modal analytics layer on Apache Paimon and Apache Iceberg, covering three capabilities:</p>
+                <ul>
+                    <li>Structured: High-performance MPP SQL on Paimon and Iceberg with native Deletion Vector and real-time streaming update support.</li>
+                    <li>Semi-structured: The VARIANT type delivers schema-free JSON analytics in a columnar engine — ideal for observability and event-driven AI workloads.</li>
+                    <li>Vectors & unstructured: Native HNSW/IVF indexing and hybrid search unify structured filters, full-text retrieval, and ANN similarity in a single SQL query — enabling RAG and semantic search directly on lakehouse data.</li>
+                </ul>
+                <p>Attendees will learn how one open-source engine bridges the full data spectrum to make the lakehouse AI-ready — without added infrastructure complexity.</p>
             </div>
         </div>
         <div class="speaker-details">
-            <h4 class="speaker-name">JB Onofré / <span>ASF member, working on ~20 Apache projects</span></h4>
+            <h4 class="speaker-name">Mingyu Chen / <span>Apache Doris PMC Chair & VPE@VeloDB</span></h4>
             <div class="speaker-bio">
-                <p>JB is long time Apache member, enthusiast about Apache projects. He's active on several projects, more than 20.</p>
+                <p>Mi10 years of experience in distributed systems, focusing on distributed scalable analytical databases.</p>
             </div>
         </div>
     </div>
@@ -669,22 +674,17 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
 <div class="card session-card">
     <div class="card-inner">
         <div class="session-info">
-            <h3 class="session-title"> Beyond Structured Data: How Apache Doris Enables AI-Ready Multimodal Analytics on the Open Lakehouse</h3>
+            <h3 class="session-title">Apache Polaris™: Getting Started with this Open Source Iceberg Catalog</h3>
             <div class="session-description">
-                <p>As AI pipelines demand data across the full type spectrum — from structured tables and JSON logs to vector embeddings — the open lakehouse must evolve beyond traditional analytics.</p>
-                <p>This talk explores how Apache Doris serves as a multi-modal analytics layer on Apache Paimon and Apache Iceberg, covering three capabilities:</p>
-                <ul>
-                    <li>Structured: High-performance MPP SQL on Paimon and Iceberg with native Deletion Vector and real-time streaming update support.</li>
-                    <li>Semi-structured: The VARIANT type delivers schema-free JSON analytics in a columnar engine — ideal for observability and event-driven AI workloads.</li>
-                    <li>Vectors & unstructured: Native HNSW/IVF indexing and hybrid search unify structured filters, full-text retrieval, and ANN similarity in a single SQL query — enabling RAG and semantic search directly on lakehouse data.</li>
-                </ul>
-                <p>Attendees will learn how one open-source engine bridges the full data spectrum to make the lakehouse AI-ready — without added infrastructure complexity.</p>
+                <p> Apache Polaris™ is an open source catalog for Apache Iceberg™. Come along to learn how to make use of it!</p>
+                <p>In this session, we'll first introduce you to the idea of an Iceberg catalog and, specifically, what it means to be an Iceberg REST Catalog. From there, we'll dive into the core functionalities of Polaris before showing users how to get onboarded with Polaris through an overview of the Polaris REST APIs and the Polaris Console UI.</p>
+                <p>By the end of the session, attendees will know what Polaris is and how to start using it.</p>  
             </div>
         </div>
         <div class="speaker-details">
-            <h4 class="speaker-name">Mingyu Chen / <span>Apache Doris PMC Chair & VPE@VeloDB</span></h4>
+            <h4 class="speaker-name">JB Onofré / <span>ASF member, working on ~20 Apache projects</span></h4>
             <div class="speaker-bio">
-                <p>Mi10 years of experience in distributed systems, focusing on distributed scalable analytical databases.</p>
+                <p>JB is long time Apache member, enthusiast about Apache projects. He's active on several projects, more than 20.</p>
             </div>
         </div>
     </div>
