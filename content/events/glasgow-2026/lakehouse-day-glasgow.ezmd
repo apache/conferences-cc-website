@@ -294,7 +294,6 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
 
 #### Clyde
 
-
 <div class="card session-card">
     <div class="card-inner">
         <div class="session-info">
@@ -426,6 +425,28 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
             <h4 class="speaker-name">Aditya Narain Gupta / <span>Staff Software Engineer in LinkedIn</span></h4>
             <div class="speaker-bio">
                 <p>I work on large-scale data and AI infrastructure in LinkedIn, helping build and operate Database CDC and External data ingestion in LinkedIn used for numerous analytics and AI/ML use-cases.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+#### Clyde
+
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title">Beyond Tables: Open Semantics Interchange, Semantic Interoperability with Apache Ossie and Apache Polaris</h3>
+            <div class="session-description">
+                <p>Business concepts like revenue, customers, and products are often defined differently across analytics and AI tools, leading to inconsistent results and fragmented business context.</p>
+                <p>This talk introduces Apache Ossie and open semantic models, and explores how Ossie integrates with Apache Polaris to manage semantic models alongside tables and views. Using a practical ecommerce example, we will trace the question “What was our revenue by product category last quarter?” from physical tables to shared business definitions, and show how semantic models can be stored and retrieved through Polaris for use across analytics tools and AI agents.</p>
+            </div>
+        </div>
+        <div class="speaker-details">
+            <h4 class="speaker-name">Yufei Gu / <span>Apache Polaris PMC Member </span></h4>
+            <div class="speaker-bio">
+                <p>Apache Polaris PPMC member</p>
+                <p>Apache Iceberg PMC member</p>
+                <p>Apache Hadoop PMC member</p>
             </div>
         </div>
     </div>
