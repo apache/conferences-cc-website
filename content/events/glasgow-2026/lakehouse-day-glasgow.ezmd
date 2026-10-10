@@ -419,34 +419,6 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
     </div>
 </div>
 
-#### Clyde
-
-<div class="card session-card">
-    <div class="card-inner">
-        <div class="session-info">
-            <h3 class="session-title">Correctness vs Performance in Native Lakehouse Engines: Lessons from Velox and Gluten</h3>
-            <div class="session-description">
-               <p> Modern lakehouse engines push performance through native execution layers such as Velox and Apache Gluten, but achieving high performance often introduces subtle correctness challenges.</p>
-                <p>This talk explores the tradeoffs between correctness and performance in native lakehouse execution. Using real examples, we examine issues such as ANSI vs non-ANSI behavior, null semantics, type coercion, and function parity when accelerating queries beyond traditional Spark execution.</p>
-                <p>We highlight lessons learned from integrating native engines, including where performance optimizations diverge from expected semantics, how to detect these gaps, and strategies for maintaining correctness without sacrificing performance.</p>
-                <p>The session provides a practical perspective on building and evaluating high-performance lakehouse systems, focusing on the engineering realities behind modern execution engines.</p>
-            </div>
-        </div>
-        <div class="speaker-details">
-            <h4 class="speaker-name">Mohammad Linjawi / <span>Software Engineer at IBM working on lakehouse execution engines (Apache Gluten, Velox) and cross-engine query systems</span></h4>
-            <div class="speaker-bio">
-                <p>Mohammad Linjawi is a Software Engineer at IBM working on next-generation lakehouse execution systems, including Apache Gluten and Velox. His work focuses on building high-performance, portable query execution layers and bridging batch, streaming, and AI workloads through open standards. Passionate about open source and helping shape the future of open data infrastructure through open discussions.</p>
-            </div>
-        </div>
-        <div class="speaker-details">
-            <h4 class="speaker-name">Yuan Zhou / <span>Apache Committer, IBM</span></h4>
-            <div class="speaker-bio">
-                <p>Yuan Zhou is a engineer manager from IBM, he is a seasoned Performance Engineer with 12+ years of experience driving performance optimization across databases, open-source virtualization, and cloud computing environments. A recognized expert in the Big Data ecosystem for over a decade, he possess a deep understanding of Spark and database kernels. His proficiency extends to architecting and building robust Big Data solutions that foster customer adoption.</p>
-            </div>
-        </div>
-    </div>
-</div>
-
 #### Tweed
 
 <div class="card session-card">
