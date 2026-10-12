@@ -919,8 +919,13 @@ Lakehouse Day is a place for the projects in and around the lakehouse ecosystem 
 <div class="sponsors-section">
     <div class="sponsor-logos sponsor-logos--colo">
         <div class="sponsor-logo">
+            <a href="https://www.apple.com/" target="_blank" class="sponsor-link">
+                <img src="/images/sponsors/Apple_Logo_Black_lg.svg" loading="lazy" alt="Apple">
+            </a>
+        </div>
+        <div class="sponsor-logo">
             <a href="https://aws.amazon.com/opensource/" target="_blank" class="sponsor-link">
-                <img src="/images/sponsors/AWS_logo_RGB_1c_Gray850.svg" loading="lazy" alt="AWS Platinum">
+                <img src="/images/sponsors/AWS_logo_RGB_1c_Gray850.svg" loading="lazy" alt="AWS">
             </a>
         </div>
         <div class="sponsor-logo">
