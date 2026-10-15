@@ -6,20 +6,6 @@ description: Community Over Code is the official conference of the Apache Softwa
     <div class="events-wrapper upcoming-events mb-xl">
         <h2 class="text-center">Upcoming Events</h2>
         [if-any events]<div class="events-grid grid flex-gap-20">
-            <div class="co-located-event-card card">
-                <div class="card-inner">
-                    <div class="colo-image-wrapper">
-                    <!-- the following can have no spaces or it will fail. -->
-                    <img alt="Community Over Code Glasgow 2026" height="187" loading="lazy" src="/images/events/event-hero-glasgow.webp" width="333">
-                    </div>
-                        <div class="event-card__content">
-                            <div class="event-card__date">October 11-14, 2026</div>
-                            <div class="event-card__location">Glasgow, Scotland</div>
-                            <h4>Community Over Code Glasgow 2026</h4>
-                        <div><a href="/events/glasgow-2026">View Details</a></div>
-                    </div>
-                </div>
-            </div>
             [for events]<div class="co-located-event-card card">
                 <div class="card-inner">
                     <div class="colo-image-wrapper">
@@ -50,11 +36,6 @@ description: Community Over Code is the official conference of the Apache Softwa
         </div>[else]<p class="text-center">There are no upcoming events at this time.</p>[end]
     </div>
     <div id="past-events" class="events-wrapper archived-events">
-        <style>
-            #past-events .events-grid .co-located-event-card:first-child {
-                display: none;
-            }
-        </style>
         <input type="text" name="timestamp" value="<script>document.write(Date.now())</script>" hidden>
         <h2 class="text-center">Past Events</h2>
         [if-any archived_events]<div class="events-grid grid flex-gap-20">
