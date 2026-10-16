@@ -16,39 +16,14 @@ JFR Hearts AI: Ultimate Combo for Troubleshooting - Ram Lakshmanan (yCrash)<br>
 Unlocking Java’s Code Maze - Mihaela Gheorghe-Roman (Systematic)<br>
 Code Your AI Agent Can Actually Read: Explicit Function Orchestration in Spring Boot - Daniel Sagenschneider (OfficeFloor)
 
+You must be registered for Community Over Code Sydney 2026 to participate in the sessions. If you have not yet registered but would like to join us, please go to our [[]event registration page](/eventssydney-2026/register) to purchase a registration.
 
-## Data, Streaming & Search
+All session times are in Australian Eastern Daylight Time (AEDT). Timing of sessions and room locations are subject to change.
 
-A Diskless Experience on Cloud: Running Apache Kafka KIP-1150 - Guang Zhao<br>
-"From Now On, I Want Every Single Message" - Ming-Yen Chung<br>
-How Apache Kafka handles CPU/Memory in New Consumer Protocol - PoAn Yang<br>
-YARN MCP: AI Agent Integration - Bence Kosztolnik, Peter Szucs<br>
-Fast Optimistic Concurrency Control with Apache Ozone S3 Conditional Requests - Chu Cheng Li<br>
-Impala 5.0: Where lakehouse meets lower latency and better observability - Quanlong Huang<br>
-Scaling Parquet Metadata for Wide Tables: Selective Loading, Decoding, and Caching - Bharathwaj G, Arpit Bandejiya<br>
-Teach Your AI Agents What the Data Means: A Semantic Layer with Apache Ossie and Iceberg - Sho Tanaka<br>
-Workload and topology aware scheduling with Apache Yunikorn - Wilfred Spiegelenburg
+<a class="btn" href="https://web.cvent.com/event/0e8858c4-f1cf-425d-be2c-afaec30a934f/summary?RefId=XSummary" target="_blank">Go To Schedule</a>
 
-## Emerging Technologies
-
-Quantum-Safe Web Servers: Transitioning to ML-KEM and ML-DSA - Jean-Frederic Clere<br>
-Our Augmented Future Needs To Be Open - Patrick Catanzariti
-
-## Modern JVM & Enterprise Technologies
-
-Groovy 6 features for humans and AI agents - Paul King<br>
-Lessons from HBase in high-perfomance Java - Charles Connell<br>
-Breaking the JVM Barrier - Arpit Bandejiya, Bharathwaj G
-
-## Open Source Culture & Community
-
-Three New Committers and a Half-Finished Rewrite - YONGJAE LEE<br>
-From Contribution to Innovation: Building an Open Source Program That Scales - Sheriff Manzoor F<br>
-The Unseen Pull Request: The Crisis We Don’t Measure - joyce lokko
-
-## Software Engineering Craft
-
-Snapshots: It’s Just a Copy, Right? - Sadanand Shenoy<br>
-It’s Just String Comparison... How Hard Could It Be? Collations in Apache Spark - Uroš Bojanić<br>
-We Bent Jenkins Until It Broke. Here’s What Apache Airflow Fixed. - Hrithik Kumar<br>
-Shipping Airflow DAGs: From Folders and Fat Bundles to Build-Graph-Aware Artifacts - Sumit Maheshwari
+<div style="height: 800px">
+  <div data-cvt-embed>
+    <script async src="https://web.cvent.com/event_guest/v1/embed/0e8858c4-f1cf-425d-be2c-afaec30a934f.js"></script>
+  </div>
+</div>
