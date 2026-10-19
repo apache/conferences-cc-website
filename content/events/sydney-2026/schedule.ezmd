@@ -4,18 +4,6 @@ ref: sydney-2026
 eventLogo:  /images/logos/CommunityOverCode_Sydney_stacked-color.svg
 inPageNav: true
 
-
-## Featured ChurConf Talks
-
-Teaching AI Agents to Speak Quarkus - Phillip Kruger (Red Hat)<br>
-Augmenting AI with the Power of Jakarta EE - Ivar Grimstad (Eclipse Foundation)<br>
-Scotty I need Warp Speed: Ways to improve the JVM startup/warmup - Gerrit Grunwald (Azul)<br>
-Thinking in Tables: Replacing Hibernate Magic with Exposed Logic in Spring Boot - Frederik Pietzko (JetBrains)<br>
-Your REST API Already Speaks AI: Building MCP Servers in Java - Varsha Das (Amazon)<br>
-JFR Hearts AI: Ultimate Combo for Troubleshooting - Ram Lakshmanan (yCrash)<br>
-Unlocking Java’s Code Maze - Mihaela Gheorghe-Roman (Systematic)<br>
-Code Your AI Agent Can Actually Read: Explicit Function Orchestration in Spring Boot - Daniel Sagenschneider (OfficeFloor)
-
 You must be registered for Community Over Code Sydney 2026 to participate in the sessions. If you have not yet registered but would like to join us, please go to our [[]event registration page](/eventssydney-2026/register) to purchase a registration.
 
 All session times are in Australian Eastern Daylight Time (AEDT). Timing of sessions and room locations are subject to change.
