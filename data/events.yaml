@@ -486,7 +486,7 @@ events:
   - name: ApacheCon EU 2000
     nav:
     ref: apachecon-eu-2000
-    href: http://archive.apachecon.com/2000/EU/
+    href: /events/apachecon-eu-2000
     registrationHref:
     startDate: 2000-10-23
     endDate: 2000-10-25
