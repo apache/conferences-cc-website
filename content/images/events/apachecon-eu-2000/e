@@ -1,0 +1,96 @@
+<?php
+{
+    //
+    // A fun little script to annotate an image by highlighting the specified
+    // booth.  If the booth doesn't exist, we add a message to that effect
+    // to the image.  Uses the BOOTH table in the database to determine
+    // coordinates (and existence).  The booth number is specified as the
+    // URL query string, and the image file name (in the same directory as
+    // this script, or relative to it) from the PATH_INFO.
+    //
+    Include("$DOCUMENT_ROOT/support/dbi.php3");
+    open_db("", "");
+    //
+    // First things first: Figure out the name of the image file.
+    //
+    $path = getenv("SCRIPT_FILENAME");
+    $path = ereg_replace(("/" . basename($path) . "$"), "/", $path);
+    $pinfo = ereg_replace("^/", "", getenv("PATH_INFO"));
+    $file = "$path$pinfo";
+    //
+    // If we have some annotating to do, get started.  Otherwise, fall through
+    // with the unmodified image; that's fast.
+    //
+    if ($qstring = getenv("QUERY_STRING")) {
+        $tempfile = tempnam("/tmp", "expo");
+        $keep = 0;
+        //
+        // Load up the image and allocate 'red'.  We need to have at least
+        // one free colour index, or nothing will happen to the graphic.
+        //
+        $Image = ImageCreateFromGif($file);
+        $red = ImageColorAllocate($Image, 255, 0, 0);
+        //
+        // Now see if we have a valid booth; add an erro rmessage if not.
+        //
+        $bdata = get_booth($qstring);
+        if (! $bdata) {
+            ImageString($Image, 3, 140, 100, "No such booth '$qstring'", $red);
+        }
+        else {
+            //
+            // Polygons take precendence over boxes in the booth records;
+            // if a polygon is defined, we draw it.  Period.
+            //
+            if ($vlist = $bdata["poly"]) {
+                $varray = explode(",", $vlist);
+                $vcount = (sizeof($varray) / 2) - 1;
+                ImagePolygon($Image, $varray, $vcount, $red);
+            }
+            //
+            // Otherwise, draw a box (if we have one).
+            //
+            else if ($bdata["x"]) {
+                ImageLine($Image,
+                          $bdata["x"], $bdata["y"],
+                          $bdata["x"] + $bdata["dx"], $bdata["y"],
+                          $red);
+                ImageLine($Image,
+                          $bdata["x"] + $bdata["dx"], $bdata["y"],
+                          $bdata["x"] + $bdata["dx"], $bdata["y"] + $bdata["dy"],
+                          $red);
+                ImageLine($Image,
+                          $bdata["x"] + $bdata["dx"], $bdata["y"] + $bdata["dy"],
+                          $bdata["x"], $bdata["y"] + $bdata["dy"],
+                          $red);
+                ImageLine($Image,
+                          $bdata["x"], $bdata["y"] + $bdata["dy"],
+                          $bdata["x"], $bdata["y"],
+                          $red);
+            }
+        }
+        //
+        // Image all annotated, write it to disk.  (Needed for the bytecount
+        // determination.)
+        //
+        ImageGIF($Image, $tempfile);
+    }
+    //
+    // If we're using the original image, don't try to delete it!  Only
+    // delete the temporary one.
+    //
+    if (! $qstring) {
+        $tempfile = $file;
+        $keep++;
+    }
+    Header("Content-type: image/gif");
+    $size = filesize($tempfile);
+    if ($size) {
+        Header("Content-length: $size");
+    }
+    Readfile($tempfile);
+    if (! $keep) {
+        unlink($tempfile);
+    }
+}
+?>
