@@ -1,0 +1,928 @@
+title: ApacheCon Europe 2000 — Speakers
+template: page-event-default
+ref: apachecon-eu-2000
+
+## ApacheCon Europe 2000 Speakers
+
+Speaker biographies from ApacheCon Europe 2000. Where a speaker's presentation materials survive, download links appear beside the session title.
+
+### Douglas Adams
+
+![[]Douglas Adams](/images/events/apachecon-eu-2000/people/douglas_adams_72x102.jpg)
+
+**Sessions:** Living In a Virtual World
+
+Douglas Adams ([[]http://www.douglasadams.com](http://www.douglasadams.com/)) was born
+in Cambridge in March 1952, educated at Brentwood
+School, Essex and St John's College, Cambridge where, in
+1974 he gained a BA (and later an MA) in English
+literature. He is the creator of all the various
+manifestations of 'The Hitchhiker's Guide to the Galaxy,' which
+started life as a BBC Radio 4 series in March 1978. Since
+then it has been transformed into a series of
+best-selling novels, a TV series, a record album, a computer
+game and several stage adaptations. It is currently under
+development as a major motion picture in Hollywood.
+
+'The Hitchhiker's Guide to the Galaxy's
+phenomenal success sent the book straight to Number One in the
+UK Bestseller List and in 1984 Douglas Adams became the
+youngest author to be awarded a Golden Pan. He won a
+further two (a rare feat), and was nominated - though
+not selected - for the first Best of Young British
+Novelists awards.
+
+He followed this success with 'The
+Restaurant at the End of the Universe' (1980); 'Life,
+The Universe and Everything' (1982); 'So Long and
+Thanks for all the Fish' (1984); and 'Mostly Harmless'
+(1992). The first two books in the Hitchhiker series were
+adapted into a 6 part television series, which was an
+immediate success when first aired in 1982. Other
+publications include 'Dirk Gently's Holistic Detective Agency'
+(1987) and 'Long Dark Tea-time of the Soul' (1988). In
+1984 Douglas teamed up with John Lloyd and wrote 'The
+Meaning of Liff' and after a huge success 'The Deeper
+Meaning of Liff' followed this in 1990). One of Douglas's
+personal favourites was written in 1990 when he teamed
+up with zoologist Mark Carwardine and wrote 'Last
+Chance to See' - an account of a world-wide search for rare
+and endangered species of animals.
+
+He has
+sold over 15 million books in the UK, the US and
+Australia. He is also a best seller in German, Swedish and many
+other languages.
+
+Douglas is a founding
+director of h2g2 Ltd, formerly The Digital Village, a digital
+media and Internet company with which he created the
+1998 CD-ROM Starship Titanic, a Codie Award-winning
+(1999) and BAFTA-nominated (1998) adventure game.
+
+h2g2 is currently building an online Guide
+(www.h2g2.com) - the Earth Edition of 'The Hitchhiker's Guide to the
+Galaxy,' offering unconventional wisdom to a growing
+global community.
+
+His assistant, Sophie Astin,
+
+1723 / Fax: + 44 20 7543 1701
+
+---
+
+### Lennie Au
+
+![[]Lennie Au](/images/events/apachecon-eu-2000/people/lennie_au_72x102.jpg)
+
+**Sessions:** A scalable teaching and learning delivery environment built on Apache (Slides: [[]PDF](/slides/eu-2000/M08.pdf))
+
+Lennie is one of the core application developers in
+the Campus Wide Information Systems team(CWIS) at The
+University of Melbourne. For the past four years she has
+been involved in web server administration as well as
+application developments such as Webraft, the SGML
+University Handbook system and other web applications for the
+infrastructure of the university. She enjoys skiing,
+bushwalking, eating, gardening and restore old furniture
+to its previous glory. :*}
+
+---
+
+### Brian Behlendorf
+
+**Sessions:** Convincing Management to Let You Work on Open Development
+
+*No bio available.*
+
+---
+
+### Stas Bekman
+
+![[]Stas Bekman](/images/events/apachecon-eu-2000/people/stas_bekman_72x101.jpg)
+
+**Sessions:** Getting Started with mod_perl (Slides: [[]PDF](/slides/eu-2000/T08.pdf)); Improving script and handler performance under mod_perl (Slides: [[]PDF](/slides/eu-2000/T11.pdf))
+
+Stas Bekman is an author of the , a monthly columnist at
+[[]PerlMonth](http://perlmonth.com/) and [[]Ap
+cheToday](http://apachetoday.com/). He is currently co-authoring a mod_perl
+book for O'Reilly and Associates, Inc. He is a
+maintainer of [[]The Ultimate Learn
+and
+Resource Center](http://stason.org/TULARC/) and a developer of the
+[[]SinglesHeaven.com](http://singlesheaven.com/)
+service at his
+
+.
+
+---
+
+### Ryan Bloom
+
+![[]Ryan Bloom](/images/events/apachecon-eu-2000/people/ryan_bloom_72x101.jpg)
+
+**Sessions:** Apache 2.0 (Slides: [[]PDF](/slides/eu-2000/M04-A.pdf) | [[]HTML](/slides/eu-2000/M04-B/Apache-2.0.htm)); Writing Apache Modules for 2.0 (Slides: [[]PDF](/slides/eu-2000/M10-A.pdf) | [[]HTML](/slides/eu-2000/M10-B/modules.htm))
+
+Ryan Bloom is a senior software engineer for Covalent
+Technologies and a member of the Apache Software
+Foundation. Ryan has been working on Apache 2.0 and APR since
+December 1998, and writes monthly columns for
+ApacheToday and CNet.
+
+---
+
+### Kirill Bolshakov
+
+![[]Kirill Bolshakov](/images/events/apachecon-eu-2000/people/kirill_bolshakov_72x102.jpg)
+
+**Sessions:** Securing Java Application Servers (Slides: [[]PDF](/slides/eu-2000/T03.pdf))
+
+Kirill Bolshakov received his MS in computer science
+in 1999 from Saint Petersburg State Technical University
+in Russia. Currently, he is a PhD student in computer
+science at the same University. His research interests
+are in the field of distributed systems management,
+security policies and adaptive control systems.
+
+---
+
+### Rich Bowen
+
+![[]Rich Bowen](/images/events/apachecon-eu-2000/people/rich_bowen_72x102.jpg)
+
+**Sessions:** Apache on Windows (Slides: [[]PDF](/slides/eu-2000/M05.pdf)); Introduction to the Apache Server (Slides: [[]PDF](/slides/eu-2000/M13.pdf) | [[]RTF](/slides/eu-2000/M13.rtf))
+
+Rich Bowen writes a monthly column for
+ApacheToday.com. He's contributed some to the Apache
+documentation project, and is the author of
+Apache Server Unleashed.
+
+Rich is the Director of Web Application Development at
+The Creative Group, in Wilmore Kentucky
+(http://www.cre8tivegroup.com/)
+
+---
+
+### Robert Burgess
+
+**Sessions:** XML and Database Integration (Slides: [[]PDF](/slides/eu-2000/M06.pdf))
+
+Robert Burgess has been an engineer in the Silicon
+Valley for 14 years. He worked in systems integration at
+Lockheed Corporation for eight years. Since becoming an
+independent contractor in 1995, he has worked in
+Internet-related technologies and helped several startups
+through their critical first stages. Robert joined
+Informix in 1998 and has been instrumental in developing the
+company's XML strategy. He also currently manages a
+Technical Marketing group within Informix.
+
+---
+
+### Eric Cholet
+
+![[]Eric Cholet](/images/events/apachecon-eu-2000/people/eric_cholet_72x102.jpg)
+
+**Sessions:** Configuring Apache and mod_perl applications
+
+Eric Cholet is CTO of Logilune and a member of the
+ASF.
+
+---
+
+### Ken Coar
+
+![[]Ken Coar](/images/events/apachecon-eu-2000/people/ken_coar_72x102.jpg)
+
+**Sessions:** ApacheCon Europe 2000 Closing Session; ApacheCon Europe 2000 Opening Session
+
+Ken Coar is a director and vice president of
+the Apache Software Foundation, and a Senior
+Software Engineer with IBM. He has over two
+decades of experience with software engineering
+and system administration. Ken has worked with
+the Web since 1992, and in addition to working
+on Apache and PHP he is heading the project
+to develop Internet RFCs for CGI. He is the
+author of '[[]Apache Server
+for
+Dummies](http://apache-server.com/)' (IDG), a lead
+author of '[[]Apache Server
+Unleashed](http://apacheunleashed.com/)'
+(Macmillan/Sams), a columnist for '[[]ApacheToday.Com](http://apachetoday.com/),' and is
+currently working ona new book, 'Apache
+Module Developmentin C'
+(Addison-Wesley-Longman).
+
+---
+
+### James Duncan Davidson
+
+**Sessions:** Perspectives on the Jakarta Project
+
+James Duncan Davidson is a Senior Staff
+Engineer at Sun MIcrosystems and is the original
+author of Apache Tomcat and Apache Ant. During his
+career at Sun, he
+authored the Servlet 2.1 and 2.2 API
+specifications, the Java API for XML Parsing 1.0
+specification and
+played an instrumental role in the donation of
+code from Sun to the Apache Software Foundation
+which formed the Jakarta Project. Currently he serves
+as a Strategic Technologist in the Sun Open Source
+office and does his best to help Sun "Do the Right
+Thing".
+
+---
+
+### Lars Eilebrecht
+
+![[]Lars Eilebrecht](/images/events/apachecon-eu-2000/people/lars_eilebrecht_72x101.jpg)
+
+**Sessions:** ApacheCon Europe 2000 Closing Session; ApacheCon Europe 2000 Opening Session; Transparent Content Negotiation (Slides: [[]PDF](/slides/eu-2000/M17-A.pdf) | [[]PDF](/slides/eu-2000/M17-B.pdf))
+
+Lars is a member of the Apache Software
+Foundation and started contributing to the Apache
+server project in 1997. In addition he is a
+member of the ApacheCon planning committee. He
+studied computer engineering at the University
+of Siegen, Germany and is now Director Product
+Management at [[]CyberSolutions GmbH](http://www.cys.de/) in
+Munich, Germany, a TelesensKSCL company. Lars
+is also the author of the book [[]Apache Web-Server](http://www.mitp.de/linux/0612/0612html).
+
+---
+
+### Ralf S. Engelschall
+
+![[]Ralf S. Engelschall](/images/events/apachecon-eu-2000/people/ralf_engelschall_72x101.jpg)
+
+**Sessions:** Security Solutions with SSL (Slides: [[]PDF](/slides/eu-2000/M21.pdf))
+
+RSE studied Computer Science and Mathematics
+and is an engrained Unix and free software
+enthusiast for over 10 years now. He spends most
+of his free time for contributing to free
+software projects (FreeBSD, GNU, Apache, OpenSSL)
+and is also the author of numerous popular
+packages (mod_ssl, MM, WML, ePerl, GNU Pth, GNU
+shtool, etc). His major Apache contributions
+are mod_rewrite, reverse proxy, mod_so/DSO,
+APACI, apxs, apache-contrib and mod_ssl.
+
+---
+
+### Roy Fielding
+
+![[]Roy Fielding](/images/events/apachecon-eu-2000/people/roy_fielding_72x101.jpg)
+
+**Sessions:** HTTP and Apache (Slides: [[]PDF](/slides/eu-2000/x-M12.pdf))
+
+Roy T. Fielding is chairman of the Apache
+Software Foundation and chief scientist at
+eBuilt, Inc. He is a founder of several open-source
+software projects (including Apache httpd),
+architect of the current Hypertext Transfer
+Protocol (HTTP/1.1), and co-author of the Internet
+standards for HTTP and Uniform Resource
+Identifiers (URI). He received his Ph.D. in
+Information and Computer Science at the University of
+California, Irvine.
+
+---
+
+### Paul Fremantle
+
+**Sessions:** Infrastructure for Web Services
+
+*No bio available.*
+
+---
+
+### Santiago Gala
+
+**Sessions:** Using Apache Jetspeed to build dynamic, content driven Portals (Slides: [[]PDF](/slides/eu-2000/M09.pdf))
+
+Santiago Gala is the Operations Manager for
+High Sierra Technology, dedicated to
+consultancy and development in telecommunications and
+software technologies. URL:[[]http://www.hisitech.com/](http://www.hisitech.com/)
+
+---
+
+### Edwin Goei
+
+![[]Edwin Goei](/images/events/apachecon-eu-2000/people/edwin_goei_72x102.jpg)
+
+**Sessions:** Java and XML Parsing Using Standard APIs (Slides: [[]PDF](/slides/eu-2000/W06.pdf))
+
+Edwin Goei is an engineer with Sun Microsystems where
+he currently works on Java and XML technologies. Among
+other projects, he has previously worked on Java
+virtual machines and X Window servers.
+
+---
+
+### Christian Gross
+
+**Sessions:** C++ and Apache using C++ Server (Slides: [[]PDF](/slides/eu-2000/W02.pdf))
+
+Christian Gross is an independent consultant
+specializing in Internet Application Development. He has been
+online since 1992, when the term NOS actually meant
+something. He regularly speaks at conferences and is writing
+a book on the Internet and application development.
+
+---
+
+### Simon Hefti
+
+![[]Simon Hefti](/images/events/apachecon-eu-2000/people/simon_hefti_71x102.jpg)
+
+**Sessions:** mod_websh: A Tcl-based Apache module for rapid application development (Slides: [[]PDF](/slides/eu-2000/W05.pdf))
+
+Simon Hefti is the main Webshell developer and a
+software architect at Netcetera. He works in a wide range
+Tcl/Webshell projects with the main focus on financial
+web applications. He is involved with Linux and Open
+Source Software since 1995. He holds a PhD in physics from
+the University of Bern, Switzerland, and served as a
+Post-Doc at the University of Michigan, USA.
+
+---
+
+### Sterling Hughes
+
+**Sessions:** Extending PHP 4 (Slides: [[]PDF](/slides/eu-2000/M18.pdf))
+
+Sterling Hughes is a freelance programmer,
+working developing applications on the Unix
+platform in C, C++, Perl, Java and PHP. He is the
+author of "The PHP Developer's
+Cookbook", and a developer on the PHP project,
+who's contributions include authoring the XSLT
+
+.
+
+---
+
+### Jim Jagielski
+
+![[]Jim Jagielski](/images/events/apachecon-eu-2000/people/jim_jagielski_72x98.jpg)
+
+**Sessions:** ApacheCon Europe 2000 Closing Session; ApacheCon Europe 2000 Opening Session; Running a Successful Web Hosting Company (Slides: [[]PDF](/slides/eu-2000/W01-A.pdf) | [[]PDF](/slides/eu-2000/W01-B.pdf) | [[]PDF](/slides/eu-2000/W01-C.pdf))
+
+Jim's been active on the 'Net since the early
+80's, starting as editor of the A/UX FAQ. He
+worked on the NCSA server and joined the
+Apache Group at a very early stage, where he
+focused on portability and the configuration and
+build process. Just about any Open Source project
+you can think of (named, sendmail, perl,
+xntpd, GNU, smail, *BSD, ...) Jim's hacked on and
+contributed to. He also "handles"
+the Apache section of Slashdot. As well as being
+a core member of the Apache Group, Jim serves
+as Executive V.P. and Secretary of the Apache
+Software Foundation. His real job is as the
+CTO of Zend Technologies.
+
+---
+
+### Kristof Kloeckner
+
+**Sessions:** IBM and Open Source - A software agenda
+
+Vice President, Business Integration Development and
+Director, IBM Hursley Laboratory
+
+---
+
+### Ben Laurie
+
+**Sessions:** ApacheCon Europe 2000 Closing Session; ApacheCon Europe 2000 Opening Session; UK Crypto Meeting
+
+Ben has been programming free software
+since 1992. He is on the board of
+directors of the Apache Software Foundation, and
+is a member of the Apache core team and
+the OpenSSL core team. As
+such, he contributes
+to a wide variety of free software
+projects and is the author of Apache-SSL.
+Together with his father Peter, he is also the
+author of Apache: The
+Definitive
+Guide. Ben is a director of A.L. Digital, a
+company specialising in web and security
+solutions and the owners of The Bunker, an
+ex-RAF nuclear bunker now fully redeployed
+as the ultimate in secure hosting.
+
+---
+
+### Rasmus Lerdorf
+
+![[]Rasmus Lerdorf](/images/events/apachecon-eu-2000/people/rasmus_lerdorf_72x102.jpg)
+
+**Sessions:** Introduction to PHP (Slides: [[]PDF](/slides/eu-2000/M16.pdf))
+
+Rasmus Lerdorf has been designing large-scale
+UNIX-based solutions since 1989. In the Open
+Source community, he is known mostly as the
+creator of the PHP scripting language. He also
+sits on the Board of Directors of the Apache
+Software Foundation, is a member of the
+Apache-core team, and has contributed to a number of
+Apache-related projects. Prior to joining
+Linuxcare, Rasmus was at IBM in Raleigh and before
+that, Bell Global Solutions in Toronto.
+
+---
+
+### Daniel Lopez Ridruejo
+
+**Sessions:** Apache projects overview (Slides: [[]PDF](/slides/eu-2000/M01.pdf)); Comanche, a GUI configuration tool for Apache (Slides: [[]PDF](/slides/eu-2000/M14-A.pdf) | [[]PDF](/slides/eu-2000/M14-B.pdf))
+
+*No bio available.*
+
+---
+
+### Doug MacEachern
+
+**Sessions:** mod_perl Version 2.0 (Slides: [[]PDF](/slides/eu-2000/W04.pdf))
+
+Doug MacEachern is a developer at Covalent
+Technologies, Inc. He is the lead developer of the mod_perl Apache
+module, an Apache Software Foundation board member and
+co-author of the book "Writing Apache Modules with
+Perl and C".
+
+---
+
+### Costin Manolache
+
+**Sessions:** Advanced Tomcat Configuration and Performance Tuning (Slides: [[]PDF](/slides/eu-2000/T09.pdf))
+
+Member of the servlet team @sun. He started in a small
+ISP in Romania - where he installed few hundred Linux
+servers in schools and small companies, with
+Apache/sendmail and Squid and small leased lines. After too many
+buffer overflows decided that Java is the only hope,
+and since then is a happy Java programmer.
+
+---
+
+### Stefano Mazzocci
+
+**Sessions:** Adding XML capabilities with Cocoon (Slides: [[]PDF](/slides/eu-2000/M20.pdf) | [[]PDF](/slides/eu-2000/x-M20.pdf)); Toward the Semantic Web: a view of XML from outer space (Slides: [[]PDF](/slides/eu-2000/M03.pdf))
+
+*No bio available.*
+
+---
+
+### Craig McClanahan
+
+![[]Craig McClanahan](/images/events/apachecon-eu-2000/people/craig_mcclanahan_72x101.jpg)
+
+**Sessions:** Migrating Apache JServ Applications to Tomcat (Slides: [[]PDF](/slides/eu-2000/T06.pdf))
+
+(See previous submission)
+
+---
+
+### Jordi Montserrat
+
+**Sessions:** MyComponents.com: the marketplace for reusable web applications
+
+Jordi worked several years for a consulting
+company specialized in geographical information
+system where he developed high skills for
+project management in an international
+environment. Before joining MyComponents.com, Jordi
+finished a postgrade in Management of Technology
+at the Swiss Institute of Technology in
+Lausanne (EPFL, HEC Lausanne and the Business School
+of Texas - Austin, TX), his final work
+resulting in the launch of an Knowledge Management
+ASP service company. Jordi hold a master degree
+from the EPFL and fluently speaks/writes
+English, French, German and Spanish.
+
+---
+
+### Peter Moulding
+
+![[]Peter Moulding](/images/events/apachecon-eu-2000/people/peter_moulding_72x102.jpg)
+
+**Sessions:** Apache in the real world - beating the inhouse bias (Slides: [[]PDF](/slides/eu-2000/M11.pdf))
+
+Peter has 25 years experience building what
+are now called web sites. Mainframe, mini &
+micro systems to bring suppliers together
+with customers.
+Peter built some as the business owner, some
+as technical manager and some as the grunt on
+the bleeding edge of new technology.
+Projects from $1,000 to $20,000,000, from 1
+person to 27,000 in Australia, Asia and USA.
+
+Languages: 25 to date not counting some
+written by Peter.
+Education: University level Accounting, Law,
+Communications, Marketing and some of the 25
+languages mentioned above.
+
+Peter designed, built and improved 30 online
+customer sites before the Web was invented. He
+has built or improved more than 50 Web sites
+since.
+
+Peter's articles appear everywhere. Some PHP
+articles are on phpbuilder.com.
+
+---
+
+### William Nagy
+
+**Sessions:** Infrastructure for Web Services
+
+*No bio available.*
+
+---
+
+### George Paolini
+
+**Sessions:** Sun and Apache (Slides: [[]PDF](/slides/eu-2000/KN01-A.pdf))
+
+George Paolini is the Vice President of Technology
+Advocacy and Community
+Development. In this role, he is responsible for the
+marketing and adoption
+of emerging, open technologies including the Java
+platform, Jini and XML.
+His objective is to drive adoption of these open
+technologies in an effort
+to capture developer mindshare and provide a level
+"playing field" for the
+software industry. Included in his group are
+Standards Integration,
+Technologies Marketing and Strategy, Evangelism,
+Evangelism Technical
+Support, Technology Messaging, the Java Community
+Process program, industry
+neutral Web Services and Web Content for the Java
+developer community and
+Brand Development for the Java and Jini brands. "My
+job is to act as the
+eyes and ears for the industry with regards to
+emerging technologies and
+open standards and to help Sun support these
+technologies," says Paolini.
+"In this role, I hope to help Sun respond more quickly
+to the needs of our
+customers and developer communities."
+Paolini has been employed with Sun since 1993. Prior
+to his current role, he
+served as Vice President of Java Community
+Development and Vice President
+of Marketing. As the Vice President of Java Community
+Development, he was
+responsible for creation and success of the Java
+Community Process program,
+the industry-neutral, open process through which Java
+technologies are
+evolved. Other responsibilities in this role were
+building and maintaining
+Sun's relationship with the licensees of the Java
+technology, defining and
+evangelizing the Java platform editions, and managing
+Sun's software
+licensing practices. As Vice President of Marketing,
+Paolini helped Sun
+create its first Internet marketing strategy, a role
+which led to
+evangelizing and promoting Java.
+Before working at Sun, Paolini spent over 13 years as
+an editor with daily
+newspapers throughout Northern California, including
+the San Francisco
+Examiner.
+
+---
+
+### Tobias Ratschiller
+
+![[]Tobias Ratschiller](/images/events/apachecon-eu-2000/people/tobias_ratschiller_72x101.jpg)
+
+**Sessions:** Advanced PHP: Web Applications - Sessions and Authentication (Slides: [[]PDF](/slides/eu-2000/M19.pdf)); PHP from an IT Manager's Perspective (Slides: [[]PDF](/slides/eu-2000/T04.pdf))
+
+Tobias Ratschiller is a New Media Consultant in Italy,
+specializing in the creation of large-scale dynamic
+Web sites. He has provided consulting and implementation
+work for some of the world's largest Web Sites and has
+contributed to several PHP titles and articles.
+Together with Till Gerken, he's currently writing a book
+titled Advanced Web Application Development with PHP, which
+will be published in April 2000 by New Riders. Tobias
+runs [[]http
+//phpwizard.net](http://phpwizard.net/).
+
+---
+
+### Javier Rodriguez
+
+![[]Javier Rodriguez](/images/events/apachecon-eu-2000/people/javier_rodriguez_72x102.jpg)
+
+**Sessions:** Building visually-consistent, multilingual Web sites with Apache and mod_perl (Slides: [[]PDF](/slides/eu-2000/T05.pdf))
+
+Javier A. Rodriguez is the Research and
+Development Manager at LatinB2B, the premiere B2B
+e-commerce enabler in LatinAmerica. Prior to
+LatinB2B, Mr. Rodriguez was Partner and Chief
+Scientist of Aldea Internet, among other renowed
+Mexican and US-based Internet companies. Mr.
+Rodriguez holds a B.S. in Telecommunications
+and Electronics Engineering from the Instituto
+Tecnologico y de Estudios Superiores de
+Monterrey, State of Mexico Campus (ITESM).
+
+---
+
+### William A. Rowe Jr.
+
+![[]William A. Rowe Jr.](/images/events/apachecon-eu-2000/people/william_rowe_72x102.jpg)
+
+**Sessions:** Apache/WinNT: Security, security, wherefore art thou, security? (Slides: [[]PDF](/slides/eu-2000/W07.pdf))
+
+William's numerous contributions to Apache
+include enhancements to the Win32 port,
+including CGI and Service control, native NT Unicode
+file system support, user support on Apache
+related newsgroups, and speaker at ApacheCon
+Europe 2000. As a member of the ASF and the Apache
+httpd and APR projects, and a member of the
+Apache Dream Team at Covalent Technologies, his
+work on Apache continues in areas such as the
+integration of Apache 2.0 with the Win32
+security model and native WinNT API. William
+started his career in the stealth programming force
+outside of corporate MIS, where he developed
+an array of customized and revenue document
+imaging systems for Rand McNally. Between his
+work for Rand McNally and now Covalent, he has
+provided consulting services in data
+translation, application integration and Web interface
+services.
+
+---
+
+### Theo Schlossnagle
+
+![[]Theo Schlossnagle](/images/events/apachecon-eu-2000/people/theo_schlossnagle_72x101.jpg)
+
+**Sessions:** The Backhand Project: load-balancing and monitoring Apache Web clusters (Slides: [[]PDF](/slides/eu-2000/W09.pdf))
+
+[[]Theo
+Schlossnagle](http://www.cnds.jhu.edu/~jesus/) is currently
+pursuing his PhD at [[]The Center for
+Networking
+and Distributed Systems](http://www.cnds.jhu.edu/) at The Johns Hopkins
+University. Current research
+includes resource allocation techniques in dynamic
+models and distributed file
+systems. Theo is the author and maintainer of the
+[[]mod_backhand](http://www.backhand.org/mod_backhand/)
+load-balancing
+module for Apache and the initiator of the [[]Backhand Project](http://www.backhand.org/).
+For food, he provides
+scalable network/system/service architecture
+engineering through [[]OmniTI, Inc.](http://www.omniti.com/)
+
+---
+
+### Matt Sergeant
+
+![[]Matt Sergeant](/images/events/apachecon-eu-2000/people/matt_sergeant_72x102.jpg)
+
+**Sessions:** AxKit - an XML Delivery Toolkit for Apache (Slides: [[]PDF](/slides/eu-2000/M15.pdf))
+
+Matt Sergeant works for AxKit.com who
+specialise in building open source content management
+solutions for companies wishing to have
+ultimate control over the tools they use. His
+previous work has been the development of high
+speed internet solutions for companys like the
+BBC, Ericsson and Wood MacKenzie. In his
+"spare" time he can be found writing
+articles for XML.com and talking at various
+conferences.
+
+---
+
+### Greg Stein
+
+![[]Greg Stein](/images/events/apachecon-eu-2000/people/greg_stein_72x105.jpg)
+
+**Sessions:** WebDAV and Apache (Slides: [[]PDF](/slides/eu-2000/W08-A.pdf) | [[]PDF](/slides/eu-2000/W08-B.pdf))
+
+[[]Greg
+Stein](http://www.lyra.org/greg/) is an independent software
+developer spending much of his time with
+open-source projects, such as [[]Subversion](http://subversion.tigris.org/),
+[[]WebDAV for
+Apache](http://www.webdav.org/mod_dav/), and [[]Python](http://www.python.org/). Between
+1996 and 1998, Mr. Stein worked at
+Microsoft as a Development Manager, in the
+Commerce Server and Site Server groups. He was
+also a co-founder and the Corporate
+Technologist of eShop, one of the first
+electronic commerce software companies, before
+its acquisition by Microsoft in 1996.
+
+---
+
+### Jon Stevens
+
+![[]Jon Stevens](/images/events/apachecon-eu-2000/people/jon_stevens_72x102.jpg)
+
+**Sessions:** Turbine: Building Model 2+1 Web Applications (Slides: [[]PDF](/slides/eu-2000/T12.pdf))
+
+Jon Stevens is a recognized expert on
+integrating the Java language with Apache Web server
+software, is a founding member of the Open
+Source Java Apache and Jakarta Apache Projects,
+and frequently speaks at trade conferences. He
+currently is working on an Open Source
+Issue/Bug tracking system for Collab.Net called
+Scarab that is based on the Java Apache
+technologies he helped develop. Before coming to
+Collab.Net, he was one of the 3 founding members of
+Clear Ink Corporation, a Creative Internet
+Strategy company.
+
+---
+
+### Bill Stoddard
+
+![[]Bill Stoddard](/images/events/apachecon-eu-2000/people/bill_stoddard_72x102.jpg)
+
+**Sessions:** Apache 2.0 for Windows (Slides: [[]PDF](/slides/eu-2000/M07.pdf))
+
+Bill Stoddard is a Senior Software Engineer with IBM
+and manager of IBM's Apache HTTP Server development
+team. He is member of the Apache Software Foundation and
+active contributor to the Apache HTTP Server project.
+Bill was the technical leader behind IBM's decision to
+drop development of its proprietary HTTP server in favor
+of adopting Apache.
+
+---
+
+### Perry Stone
+
+**Sessions:** Send email to Perry Stone
+
+*No bio available.*
+
+---
+
+### Randy Terbush
+
+![[]Randy Terbush](/images/events/apachecon-eu-2000/people/randy_terbush_72x101.jpg)
+
+**Sessions:** ApacheCon Europe 2000 Closing Session; ApacheCon Europe 2000 Opening Session
+
+Randy Terbush is a director and treasurer of the
+Apache Software Foundation, a founding member of The Apache
+Group, and chief technology officer of Covalent Technologies,
+Inc. Randy has been participating in open-source
+projects since the late 1980s and brings sincere interest
+in the relationship of open-source projects and
+corporate software development environments.
+
+---
+
+### Doug Tidwell
+
+![[]Doug Tidwell](/images/events/apachecon-eu-2000/people/doug_tidwell_72x102.jpg)
+
+**Sessions:** Managing your Web site with Cocoon (Slides: [[]PDF](/slides/eu-2000/W03.pdf))
+
+Doug Tidwell is a Senior Programmer at
+IBM. He regularly speaks on XML, Java, and
+security topics at conferences and user group
+meetings. His job as a Cyber Evangelist to help
+people evaluate and implement new technologies.
+He holds, with special gloves, a Masters Degree
+in Computer Science from Vanderbilt University
+and a Bachelors Degree in English from the
+University of Georgia.
+
+---
+
+### Jon Travis
+
+![[]Jon Travis](/images/events/apachecon-eu-2000/people/jon_travis_71x101.jpg)
+
+**Sessions:** mod_snake:  Flexible Apache modules in Python (Slides: [[]PDF](/slides/eu-2000/T01.pdf))
+
+Jon Travis is a software engineer for Covalent
+Technologies. His background includes writing security,
+network, and CAD software. He is the author of the Open
+Source projects, Camserv and mod_snake.
+
+---
+
+### Gregory Trubetskoy
+
+**Sessions:** mod_python
+
+*No bio available.*
+
+---
+
+### Nathan Wallace
+
+![[]Nathan Wallace](/images/events/apachecon-eu-2000/people/nathan_wallace_72x101.jpg)
+
+**Sessions:** Design Patterns in Web Programming (Slides: [[]PDF](/slides/eu-2000/T10.pdf)); PHP: Hackers Paradise (Slides: [[]PDF](/slides/eu-2000/T07.pdf))
+
+Nathan began his development career with IBM
+helping to build their Visual Age for Java and
+Smalltalk suites. From there he moved into web
+programming and has spent the last two years
+running Synop, a PHP development company. He
+built and maintains the PHP Knowledge Base as
+part of http://www.faqts.com. After 18 months of
+development and refinement, Synop is currently
+in the release process for a number of large PHP
+applications.
+
+---
+
+### Sanjiva Weerawarana
+
+**Sessions:** Infrastructure for Web Services
+
+Sanjiva Weerawarana is a Research Staff Member and
+Manager of the
+Component Systems group at IBM TJ Watson Research
+Center, where he has
+been since August 1997. His research is centered
+around
+component-oriented programming. He is part of the
+teams that developed
+Bean Markup Language (BML,
+http://www.alphaWorks.ibm.com/formula/bml),
+Bean Scripting Framework (BSF,
+http://www.alphaWorks.ibm.com/tech/bsf),
+SOAP4J/Apache SOAP (http://xml.apache.org/soap), Web
+Services Toolkit (
+http://www.alphaWorks.ibm.com/tech/webservicestoolkit)
+and the WSDL
+Toolkit
+(http://www.alphaWorks.ibm.com/tech/wsdltoolkit). Weerawarana
+received his BS (1988) and MS (1989) in Applied
+Mathematics / Computer
+Science from Kent State University and his Ph.D.
+(1994) in Computer
+Science from Purdue University.
+
+---
+
+### John Zukowski
+
+![[]John Zukowski](/images/events/apachecon-eu-2000/people/john_zukowski_72x102.jpg)
+
+**Sessions:** Developing Dynamic Web Sites with JavaServer Pages (Slides: [[]PDF](/slides/eu-2000/M02-A.pdf) | [[]PDF](/slides/eu-2000/M02-B.pdf))
+
+John Zukowski conducts strategic Java consulting with
+JZ Ventures, Inc. His latest books are Java Collections
+and the Definitive Guide to Swing for Java 2 (2nd ed)
+for Apress.
+
+For more information, please contact
+
+Setting the pace for tomorrow's Internet today.
+
+[
+Home |
+Site Map |
+About ApacheCon Europe 2000 |
+Contact Us
+]
+[
+Travel & Lodging |
+Registry |
+Sessions |
+Speakers
+]
+[
+Sponsors |
+Expo |
+Press Information
+]
+
+---
