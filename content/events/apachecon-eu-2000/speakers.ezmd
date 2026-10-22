@@ -104,13 +104,13 @@ to its previous glory. :*}
 **Sessions:** Getting Started with mod_perl (Slides: [[]PDF](/slides/eu-2000/T08.pdf)); Improving script and handler performance under mod_perl (Slides: [[]PDF](/slides/eu-2000/T11.pdf))
 
 Stas Bekman is an author of the , a monthly columnist at
-[[]PerlMonth](http://perlmonth.com/) and [[]Ap
+PerlMonth and [[]Ap
 cheToday](http://apachetoday.com/). He is currently co-authoring a mod_perl
 book for O'Reilly and Associates, Inc. He is a
 maintainer of [[]The Ultimate Learn
 and
 Resource Center](http://stason.org/TULARC/) and a developer of the
-[[]SinglesHeaven.com](http://singlesheaven.com/)
+SinglesHeaven.com
 service at his
 
 .
@@ -250,7 +250,7 @@ studied computer engineering at the University
 of Siegen, Germany and is now Director Product
 Management at [[]CyberSolutions GmbH](http://www.cys.de/) in
 Munich, Germany, a TelesensKSCL company. Lars
-is also the author of the book [[]Apache Web-Server](http://www.mitp.de/linux/0612/0612html).
+is also the author of the book Apache Web-Server.
 
 ---
 
@@ -307,7 +307,7 @@ California, Irvine.
 Santiago Gala is the Operations Manager for
 High Sierra Technology, dedicated to
 consultancy and development in telecommunications and
-software technologies. URL:[[]http://www.hisitech.com/](http://www.hisitech.com/)
+software technologies. URL:http://www.hisitech.com/
 
 ---
 
@@ -684,18 +684,18 @@ services.
 
 **Sessions:** The Backhand Project: load-balancing and monitoring Apache Web clusters (Slides: [[]PDF](/slides/eu-2000/W09.pdf))
 
-[[]Theo
-Schlossnagle](http://www.cnds.jhu.edu/~jesus/) is currently
-pursuing his PhD at [[]The Center for
+Theo
+Schlossnagle is currently
+pursuing his PhD at The Center for
 Networking
-and Distributed Systems](http://www.cnds.jhu.edu/) at The Johns Hopkins
+and Distributed Systems at The Johns Hopkins
 University. Current research
 includes resource allocation techniques in dynamic
 models and distributed file
 systems. Theo is the author and maintainer of the
-[[]mod_backhand](http://www.backhand.org/mod_backhand/)
+mod_backhand
 load-balancing
-module for Apache and the initiator of the [[]Backhand Project](http://www.backhand.org/).
+module for Apache and the initiator of the Backhand Project.
 For food, he provides
 scalable network/system/service architecture
 engineering through [[]OmniTI, Inc.](http://www.omniti.com/)
@@ -727,10 +727,10 @@ conferences.
 
 **Sessions:** WebDAV and Apache (Slides: [[]PDF](/slides/eu-2000/W08-A.pdf) | [[]PDF](/slides/eu-2000/W08-B.pdf))
 
-[[]Greg
-Stein](http://www.lyra.org/greg/) is an independent software
+Greg
+Stein is an independent software
 developer spending much of his time with
-open-source projects, such as [[]Subversion](http://subversion.tigris.org/),
+open-source projects, such as Subversion,
 [[]WebDAV for
 Apache](http://www.webdav.org/mod_dav/), and [[]Python](http://www.python.org/). Between
 1996 and 1998, Mr. Stein worked at
