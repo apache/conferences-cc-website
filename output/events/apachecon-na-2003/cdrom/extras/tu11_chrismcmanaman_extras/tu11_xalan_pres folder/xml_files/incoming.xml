@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<root>
+  <daily>
+    <well_name country='ca'>Calgary North</well_name>
+    <well_no>494995-4040</well_no>
+    <gas>
+      <volume>939.5</volume>
+      <uom>mmbtu</uom>
+      <ownership>15</ownership>
+    </gas>
+    <oil>
+      <volume>345.5</volume>
+      <uom>mmbtu</uom>
+      <ownership>17</ownership>
+    </oil>
+    <liquids>
+      <volume>93339.5</volume>
+      <uom>mmbtu</uom>
+      <ownership>23</ownership>
+    </liquids>    
+  </daily>
+  <daily>
+    <well_name country='us'>Houston South</well_name>
+    <well_no>34456-56767</well_no>
+    <gas>
+      <volume>1223</volume>
+      <uom>mmbtu</uom>
+      <ownership>4</ownership>
+    </gas>
+    <oil>
+      <volume>735</volume>
+      <uom>mmbtu</uom>
+      <ownership>55</ownership>
+    </oil>
+    <liquids>
+      <volume>6684</volume>
+      <uom>mmbtu</uom>
+      <ownership>44</ownership>
+    </liquids>    
+  </daily>  
+  <daily>
+    <well_name country='ae'>Dubai East</well_name>
+    <well_no>755-5687</well_no>
+    <gas>
+      <volume>33565</volume>
+      <uom>mmbtu</uom>
+      <ownership>34</ownership>
+    </gas>
+    <oil>
+      <volume>434</volume>
+      <uom>mmbtu</uom>
+      <ownership>31</ownership>
+    </oil>
+    <liquids>
+      <volume>3135</volume>
+      <uom>mmbtu</uom>
+      <ownership>31</ownership>
+    </liquids>    
+  </daily>   
+</root>

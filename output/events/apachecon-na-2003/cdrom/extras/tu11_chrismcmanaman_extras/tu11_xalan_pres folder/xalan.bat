@@ -1,0 +1,1 @@
+java -cp .;C:\xslt_pres\xalan\bin\bsf.jar;C:\xslt_pres\xalan\bin\xalan.jar;C:\xslt_pres\xalan\bin\xercesImpl.jar;C:\xslt_pres\xalan\bin\xml-apis.jar;C:\xslt_pres\xalan\bin\xsltc.jar org.apache.xalan.xslt.Process %1 -in %2 -xsl %3 -out %4
