@@ -8,6 +8,8 @@ sponsors:
   na-2022: content/events/north-america-2022/sponsors.json
   apachecon-asia-2021: content/events/apachecon-asia-2021/sponsors.json
   apachecon-na-2019: content/events/apachecon-na-2019/sponsors.json
+  apache-roadshow: content/events/apache-roadshow/sponsors.json
+  apachecon-na-2018: content/events/apachecon-na-2018/sponsors.json
   #london-2024: content/events/glasgow-2026/sponsors.json
 
 # used on index.ezmd, page-event-landing.html, and events.ezmd, footer.html

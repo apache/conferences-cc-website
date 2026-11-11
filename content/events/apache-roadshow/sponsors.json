@@ -1,0 +1,69 @@
+{
+    "platinum": [
+        {
+            "name": "Google Cloud",
+            "logo": "/events/apache-roadshow/images/google-cloud.png",
+            "link": "https://cloud.google.com/"
+        }
+    ],
+    "gold": [
+        {
+            "name": "Linode",
+            "logo": "/events/apache-roadshow/images/linode.png",
+            "link": "https://www.linode.com/"
+        },
+        {
+            "name": "Amazon Web Services",
+            "logo": "/events/apache-roadshow/images/aws.png",
+            "link": "https://aws.amazon.com/"
+        }
+    ],
+    "bronze": [
+        {
+            "name": "Red Hat",
+            "logo": "/events/apache-roadshow/images/redhat.png",
+            "link": "https://www.redhat.com/"
+        },
+        {
+            "name": "GridGain",
+            "logo": "/events/apache-roadshow/images/gridgain.png",
+            "link": "https://www.gridgain.com/"
+        },
+        {
+            "name": "Dito",
+            "logo": "/events/apache-roadshow/images/dito.png",
+            "link": "https://www.dito.com/"
+        },
+        {
+            "name": "ClearEdge",
+            "logo": "/events/apache-roadshow/images/clearedge.png",
+            "link": "https://www.clearedgeit.com/"
+        }
+    ],
+    "community": [
+        {
+            "name": "Security University",
+            "logo": "/events/apache-roadshow/images/security-university.png",
+            "link": "https://www.securityuniversity.edu/"
+        }
+    ],
+    "recruiting": [
+        {
+            "name": "Bloomberg Engineering",
+            "logo": "/events/apache-roadshow/images/bloomberg-engineering.png",
+            "link": "https://www.techatbloomberg.com/"
+        }
+    ],
+    "george_mason_university_partners": [
+        {
+            "name": "GMU Center for Assurance Research and Engineering",
+            "logo": "/events/apache-roadshow/images/gmu-care.png",
+            "link": "https://care.gmu.edu/"
+        },
+        {
+            "name": "GMU Volgenau School of Engineering",
+            "logo": "/events/apache-roadshow/images/gmu-volgenau.png",
+            "link": "https://volgenau.gmu.edu/"
+        }
+    ]
+}
