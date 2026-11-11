@@ -1,0 +1,124 @@
+{
+    "platinum": [
+        {
+            "name": "IBM",
+            "logo": "/events/apachecon-na-2019/images/IBM.png",
+            "link": "https://ibm.com/"
+        },
+        {
+            "name": "DataStax",
+            "logo": "/events/apachecon-na-2019/images/datastax.png",
+            "link": "https://datastax.com/"
+        },
+        {
+            "name": "Google",
+            "logo": "/events/apachecon-na-2019/images/google.png",
+            "link": "https://google.com/"
+        },
+        {
+            "name": "Tencent Cloud",
+            "logo": "/events/apachecon-na-2019/images/tencent.png",
+            "link": "https://cloud.tencent.com/"
+        }
+    ],
+    "gold": [
+        {
+            "name": "Red Hat",
+            "logo": "/events/apachecon-na-2019/images/redhat.png",
+            "link": "https://redhat.com"
+        },
+        {
+            "name": "AWS",
+            "logo": "/events/apachecon-na-2019/images/aws.png",
+            "link": "https://aws.amazon.com/"
+        },
+        {
+            "name": "WSO2 Ballerina",
+            "logo": "/events/apachecon-na-2019/images/ballerina.png",
+            "link": "https://ballerina.io"
+        }
+    ],
+    "silver": [
+        {
+            "name": "HotWax Systems",
+            "logo": "/events/apachecon-na-2019/images/hotwax.png",
+            "link": "https://hotwaxsystems.com"
+        },
+        {
+            "name": "Aiven",
+            "logo": "/events/apachecon-na-2019/images/aiven.png",
+            "link": "https://aiven.io/"
+        },
+        {
+            "name": "Instaclustr",
+            "logo": "/events/apachecon-na-2019/images/instaclustr.jpg",
+            "link": "https://www.instaclustr.com/"
+        },
+        {
+            "name": "Linode",
+            "logo": "/events/apachecon-na-2019/images/linode.png",
+            "link": "https://www.linode.com/"
+        }
+    ],
+    "bronze": [
+        {
+            "name": "ShapeBlue",
+            "logo": "/events/apachecon-na-2019/images/shapeblue.png",
+            "link": "https://shapeblue.com"
+        },
+        {
+            "name": "CrowdStrike",
+            "logo": "/events/apachecon-na-2019/images/cloudstrike.png",
+            "link": "https://www.crowdstrike.com/"
+        },
+        {
+            "name": "SK Telecom",
+            "logo": "/events/apachecon-na-2019/images/sktelecom.png",
+            "link": "https://www.sktelecom.com/"
+        },
+        {
+            "name": "WhiteSource",
+            "logo": "/events/apachecon-na-2019/images/whitesource.png",
+            "link": "https://www.whitesourcesoftware.com/"
+        },
+        {
+            "name": "The Last Pickle",
+            "logo": "/events/apachecon-na-2019/images/lastpickle.png",
+            "link": "https://thelastpickle.com/"
+        },
+        {
+            "name": "rENIAC",
+            "logo": "/events/apachecon-na-2019/images/rENIAC.png",
+            "link": "https://www.reniac.com/"
+        }
+    ],
+    "strategic_media": [
+        {
+            "name": "Manning",
+            "logo": "/events/apachecon-na-2019/images/Manninglogo_outline.png",
+            "link": "https://www.manning.com/"
+        },
+        {
+            "name": "SD Times",
+            "logo": "/events/apachecon-na-2019/images/SDTimes-logo.png",
+            "link": "https://sdtimes.com/"
+        },
+        {
+            "name": "Irish Tech News",
+            "logo": "/events/apachecon-na-2019/images/Irish-Tech-News-logo.png",
+            "link": "https://irishtechnews.ie/"
+        }
+    ],
+    "community_partners": [
+        {
+            "name": "Peter Adams Photography",
+            "logo": "/events/apachecon-na-2019/images/padams.png",
+            "link": "http://www.peteradamsphoto.com"
+        },
+        {
+            "name": "Wyona Pictures",
+            "logo": "/events/apachecon-na-2019/images/wyona.png",
+            "link": "http://wyonapictures.com/"
+        }
+    ]
+}
