@@ -1,8 +1,13 @@
 {
     "platinum": [
         {
+            "name": "Apple", 
+            "logo": "/images/sponsors/Apple_Logo_Black_lg.svg",
+            "link": "https://www.apple.com/"
+        },
+        {
             "name": "Cloudera", 
-            "logo": "/images/sponsors/cldr_corp_logo_color_cmyk.svg",
+            "logo": "/images/sponsors/cldr_corp_logo_color_cmyk.png",
             "link": "https://www.cloudera.com/"
         },
         {
@@ -18,9 +23,19 @@
             "link": "https://axonops.com/"
         },
         {
+            "name": "Develocity", 
+            "logo": "/images/sponsors/logo-develocity-color-light.png",
+            "link": "https://develocity.ai/"
+        },
+        {
             "name": "Google Cloud", 
             "logo": "/images/sponsors/GC_Logo_FullColor_cmkyC.svg",
             "link": "https://cloud.google.com/"
+        },
+        {
+            "name": "Red Hat", 
+            "logo": "/images/sponsors/Logo-Red_Hat-A-Standard-RGB.svg",
+            "link": "https://www.redhat.com/"
         }
     ],
     "silver": [

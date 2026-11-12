@@ -1,0 +1,17 @@
+title: Schedule
+template: page-event-default
+ref: sydney-2026
+eventLogo:  /images/logos/CommunityOverCode_Sydney_stacked-color.svg
+inPageNav: true
+
+You must be registered for Community Over Code Sydney 2026 to participate in the sessions. If you have not yet registered but would like to join us, please go to our [[]event registration page](/eventssydney-2026/register) to purchase a registration.
+
+All session times are in Australian Eastern Daylight Time (AEDT). Timing of sessions and room locations are subject to change.
+
+<a class="btn" href="https://web.cvent.com/event/e1576e56-6b9c-4ba9-afd1-8e4ba8552c4f/summary?RefId=XSummary" target="_blank">Go To Schedule</a>
+
+<div style="height: 800px">
+  <div data-cvt-embed>
+    <script async src="https://web.cvent.com/event_guest/v1/embed/0e8858c4-f1cf-425d-be2c-afaec30a934f.js"></script>
+  </div>
+</div>

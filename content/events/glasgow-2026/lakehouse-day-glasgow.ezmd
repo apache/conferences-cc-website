@@ -35,9 +35,21 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
                $(this).next('.session-description').slideToggle();
             }).on('click', '.speaker-name', function(){$(this).next('.speaker-bio').slideToggle();});});</script></div>
 
+### 8:00 AM - 10:00 AM
+
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title">Registration and Breakfast</h3>
+        </div>
+    </div>
+</div>
+
+<div class="spacer spacer-large"></div>
+
 ### 10:00 AM - 10:30 AM
 
-#### Keynote
+#### Grand Ballroom
 
 <!-- Copy and past the following html for one card. Modify title, session description, and speaker details as needed. -->
 <div class="card session-card">
@@ -66,7 +78,7 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
 
 ### 10:45 AM - 11:15 AM
 
-#### Keynote
+#### Grand Ballroom
 
 <div class="card session-card">
     <div class="card-inner">
@@ -85,7 +97,7 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
     </div>
 </div>
 
-#### Breakout 2
+#### Spey
 
 <div class="card session-card">
     <div class="card-inner">
@@ -117,7 +129,7 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
     </div>
 </div>
 
-#### Breakout 3
+#### Tay
 
 <div class="card session-card">
     <div class="card-inner">
@@ -143,7 +155,7 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
     </div>
 </div>
 
-#### Breakout 4
+#### Clyde
 
 <div class="card session-card">
     <div class="card-inner">
@@ -163,7 +175,7 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
     </div>
 </div>
 
-#### Breakout 5
+#### Tweed
 
 <div class="card session-card">
     <div class="card-inner">
@@ -187,9 +199,22 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
 
 <div class="spacer spacer-large"></div>
 
+### 11:15 AM - 11:45 AM
+
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title">Morning Coffee Break</h3>
+        </div>
+    </div>
+</div>
+
+<div class="spacer spacer-large"></div>
+
+
 ### 11:45 AM - 12:15 PM
 
-#### Keynote
+#### Grand Ballroom
 
 
 <div class="card session-card">
@@ -216,7 +241,7 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
     </div>
 </div>
 
-#### Breakout 2
+#### Spey
 
 
 <div class="card session-card">
@@ -244,7 +269,7 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
     </div>
 </div>
 
-#### Breakout 3
+#### Tay
 
 
 <div class="card session-card">
@@ -267,8 +292,7 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
     </div>
 </div>
 
-#### Breakout 4
-
+#### Clyde
 
 <div class="card session-card">
     <div class="card-inner">
@@ -281,15 +305,15 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
             </div>
         </div>
         <div class="speaker-details">
-            <h4 class="speaker-name">Danica Fine / <span>Advocating for Open source</span></h4>
+            <h4 class="speaker-name">Elizabeth Christensen / <span>Postgres @ Snowflake</span></h4>
             <div class="speaker-bio">
-                <p>Danica began her career as a software engineer in financial services and pivoted to developer relations, where she focussed primarily on open source technologies under the Apache Software Foundation umbrella such as Apache Kafka® and Apache Flink®. She is an ASF member and Apache Polaris™ committer, and leads the open source developer relations team at Snowflake, supporting Apache Iceberg™ and Apache Polaris. She can be found on X (Bluesky and Mastodon), talking about tech, plants, and baking @TheDanicaFine.</p>
+                <p>Elizabeth is a Postgres contributor and technical writer at Snowflake. She is on the board of the US PostgreSQL Association and hosts an online Postgres Meetup for All and a local KC Postgres group. She also helps host the annual PostGIS Day. Elizabeth is passionate about open source technology and diversity in tech though education. Elizabeth is from Lawrence, Kansas and enjoys spending time in her own personal backyard tiki hut.</p>
             </div>
         </div>
     </div>
 </div>
 
-#### Breakout 5
+#### Tweed
 
 <div class="card session-card">
     <div class="card-inner">
@@ -326,9 +350,21 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
 
 <div class="spacer spacer-large"></div>
 
+### 12:15 PM - 1:15 PM
+
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title">Lunch</h3>
+        </div>
+    </div>
+</div>
+
+<div class="spacer spacer-large"></div>
+
 ### 1:15 PM - 1:30 PM
 
-#### Keynote
+#### Grand Ballroom
 
 <div class="card session-card">
     <div class="card-inner">
@@ -350,7 +386,7 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
     </div>
 </div>
 
-#### Breakout 2
+#### Spey
 
 <div class="card session-card">
     <div class="card-inner">
@@ -371,7 +407,7 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
     </div>
 </div>
 
-#### Breakout 3
+#### Tay
 
 <div class="card session-card">
     <div class="card-inner">
@@ -394,35 +430,29 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
     </div>
 </div>
 
-#### Breakout 4
+#### Clyde
 
 <div class="card session-card">
     <div class="card-inner">
         <div class="session-info">
-            <h3 class="session-title">Correctness vs Performance in Native Lakehouse Engines: Lessons from Velox and Gluten</h3>
+            <h3 class="session-title">Beyond Tables: Open Semantics Interchange, Semantic Interoperability with Apache Ossie and Apache Polaris</h3>
             <div class="session-description">
-               <p> Modern lakehouse engines push performance through native execution layers such as Velox and Apache Gluten, but achieving high performance often introduces subtle correctness challenges.</p>
-                <p>This talk explores the tradeoffs between correctness and performance in native lakehouse execution. Using real examples, we examine issues such as ANSI vs non-ANSI behavior, null semantics, type coercion, and function parity when accelerating queries beyond traditional Spark execution.</p>
-                <p>We highlight lessons learned from integrating native engines, including where performance optimizations diverge from expected semantics, how to detect these gaps, and strategies for maintaining correctness without sacrificing performance.</p>
-                <p>The session provides a practical perspective on building and evaluating high-performance lakehouse systems, focusing on the engineering realities behind modern execution engines.</p>
+                <p>Business concepts like revenue, customers, and products are often defined differently across analytics and AI tools, leading to inconsistent results and fragmented business context.</p>
+                <p>This talk introduces Apache Ossie and open semantic models, and explores how Ossie integrates with Apache Polaris to manage semantic models alongside tables and views. Using a practical ecommerce example, we will trace the question “What was our revenue by product category last quarter?” from physical tables to shared business definitions, and show how semantic models can be stored and retrieved through Polaris for use across analytics tools and AI agents.</p>
             </div>
         </div>
         <div class="speaker-details">
-            <h4 class="speaker-name">Mohammad Linjawi / <span>Software Engineer at IBM working on lakehouse execution engines (Apache Gluten, Velox) and cross-engine query systems</span></h4>
+            <h4 class="speaker-name">Yufei Gu / <span>Apache Polaris PMC Member </span></h4>
             <div class="speaker-bio">
-                <p>Mohammad Linjawi is a Software Engineer at IBM working on next-generation lakehouse execution systems, including Apache Gluten and Velox. His work focuses on building high-performance, portable query execution layers and bridging batch, streaming, and AI workloads through open standards. Passionate about open source and helping shape the future of open data infrastructure through open discussions.</p>
-            </div>
-        </div>
-        <div class="speaker-details">
-            <h4 class="speaker-name">Yuan Zhou / <span>Apache Committer, IBM</span></h4>
-            <div class="speaker-bio">
-                <p>Yuan Zhou is a engineer manager from IBM, he is a seasoned Performance Engineer with 12+ years of experience driving performance optimization across databases, open-source virtualization, and cloud computing environments. A recognized expert in the Big Data ecosystem for over a decade, he possess a deep understanding of Spark and database kernels. His proficiency extends to architecting and building robust Big Data solutions that foster customer adoption.</p>
+                <p>Apache Polaris PPMC member</p>
+                <p>Apache Iceberg PMC member</p>
+                <p>Apache Hadoop PMC member</p>
             </div>
         </div>
     </div>
 </div>
 
-#### Breakout 5
+#### Tweed
 
 <div class="card session-card">
     <div class="card-inner">
@@ -449,7 +479,7 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
 
 ### 1:45 PM - 2:15 PM
 
-#### Keynote
+#### Grand Ballroom
 
 <div class="card session-card">
     <div class="card-inner">
@@ -470,33 +500,34 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
     </div>
 </div>
 
-#### Breakout 2
+#### Spey
 
 <div class="card session-card">
     <div class="card-inner">
         <div class="session-info">
-            <h3 class="session-title">Cold Stars over the Frozen Lochs: StarRocks × Iceberg at Fresha</h3>
+            <h3 class="session-title">Iceberg at Scale: Infrastructure Lessons for the Modern Lakehouse</h3>
             <div class="session-description">
-                <p>Iceberg gave us a great foundation for durable, replayable analytics data. The problem started when we needed the same datasets to satisfy very different access patterns: dashboards and joins that need sub-seconds latency, alongside large historical scans. We could make either case work in isolation, but not both reliably without introducing a hot tier and a clear boundary.</p>
-                <p>This talk covers how we evolved to a tiered design where StarRocks serves the hot tier natively and federates into Iceberg for cold history. We’ll briefly explain how StarRocks’ Iceberg integration behaves (planning/metadata work, pushdown, caching), why federation helps but isn’t free, and how we model tier boundaries in dbt so consumers see one dataset. Finally, we’ll show how we operationalized the architecture with Airflow workflows that route datasets into Iceberg or StarRocks based on workload pattern and freshness SLA, plus the optimizations that made performance predictable.</p>
+                <p>Apache Iceberg, an open table format, has emerged as a critical component in modern lakehouse architectures, but operating it at enterprise scale surfaces challenges that span infrastructure, performance, and security. This presentation shares practical lessons applicable to any organization investing in the lakehouse pattern.</p>
+                <p>This talk covers three areas common to production Iceberg environments: infrastructure evolution, performance engineering and enterprise requirements.</p>
+                <p>Attendees will walk away with a practical understanding of how to evolve their catalog infrastructure, tune Parquet and Spark configurations for real-world Iceberg workloads, and approach encryption and audit requirements in lakehouse environments. We will also discuss how observability and metrics collection lay the foundation for ML-driven query optimization.</p>
             </div>
         </div>
         <div class="speaker-details">
-            <h4 class="speaker-name">Anton Borisov / <span>Principal Data Architect at Fresha</span></h4>
+            <h4 class="speaker-name">Anil Khadka / <span>Apple Inc.</span></h4>
             <div class="speaker-bio">
-                <p>Anton Borisov is a Principal Data Architect at Fresha working on real-time lakehouse platforms: CDC and streaming ingestion with Flink/Kafka, open table formats like Iceberg/Paimon, and analytics performance with StarRocks. He writes practical deep-dives on the engineering trade-offs behind modern lakehouse systems.</p>
+                <p>Anil Khadka is a Software Engineer at Apple Inc., where he has spent over a decade building and optimizing large-scale data infrastructure. With 20 years of industry experience and an MS in Computer Science, he specializes in Apache Spark, Apache Flink, and Apache Iceberg, with deep expertise in performance optimization across cloud-native platforms. His work focuses on Lakehouse architecture and production-grade reliability at massive scale.</p>
             </div>
         </div>
         <div class="speaker-details">
-            <h4 class="speaker-name">Nicoleta Lazar / <span>Fresha</span></h4>
+            <h4 class="speaker-name">Huang-Hsiang Cheng / <span>Apple Inc.</span></h4>
             <div class="speaker-bio">
-                <p>Nicoleta is a Senior Data Engineer at Fresha, working across Kafka, Debezium, Snowflake, and a broad mix of batch and streaming systems that power the company’s analytics and real-time data flows. Coming from an Elixir/Erlang background, she brings a strong focus on reliability, fault-tolerance, and clean system design.</p>
+                <p>Huang-Hsiang works for Apple Maps Data Infrastructure team and provides support to Apache Iceberg and DataFusion Comet.</p>
             </div>
         </div>
     </div>
 </div>
 
-#### Breakout 3
+#### Tay
 
 <div class="card session-card">
     <div class="card-inner">
@@ -516,7 +547,7 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
     </div>
 </div>
 
-#### Breakout 4
+#### Clyde
 
 <div class="card session-card">
     <div class="card-inner">
@@ -537,7 +568,7 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
     </div>
 </div>
 
-#### Breakout 5
+#### Tweed
 
 <div class="card session-card">
     <div class="card-inner">
@@ -568,66 +599,59 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
 
 ### 2:30 PM - 3:00 PM
 
-#### Keynote
+#### Grand Ballroom
 
 <div class="card session-card">
     <div class="card-inner">
         <div class="session-info">
-            <h3 class="session-title">Beyond Tables: Where Should Semantics Live in the Open Lakehouse?</h3>
+            <h3 class="session-title"> Beyond Structured Data: How Apache Doris Enables AI-Ready Multimodal Analytics on the Open Lakehouse</h3>
             <div class="session-description">
-                <p>Open table formats like Apache Iceberg, Apache Hudi, and Delta Lake have transformed modern data platforms by separating storage from compute and enabling multiple engines to operate on the same data. In this architecture, the catalog layer became the control plane for the open lakehouse—standardizing how engines discover tables and metadata.</p>
-                <p>However, lakehouses still primarily expose tables and SQL. While this works for analysts, newer consumers—applications, data agents, and AI-native systems—need semantic context such as entities, relationships, and shared metric definitions.</p>
-                <p>Today this logic is scattered across tools and pipelines. This raises a key question:</p>
-                <p>The catalog standardized how lakehouses discover tables. Should it also define what those tables mean?</p>
-                <p>In this talk, we explore architectural options for introducing semantics into the lakehouse:</p>
+                <p>As AI pipelines demand data across the full type spectrum — from structured tables and JSON logs to vector embeddings — the open lakehouse must evolve beyond traditional analytics.</p>
+                <p>This talk explores how Apache Doris serves as a multi-modal analytics layer on Apache Paimon and Apache Iceberg, covering three capabilities:</p>
                 <ul>
-                    <li>BI-centric semantics</li>
-                    <li>Pipeline-centric semantics</li>
-                    <li>Engine-centric semantics</li>
-                    <li>Catalog-centric semantics</li>
-                    <li>Service-based semantics</li>
+                    <li>Structured: High-performance MPP SQL on Paimon and Iceberg with native Deletion Vector and real-time streaming update support.</li>
+                    <li>Semi-structured: The VARIANT type delivers schema-free JSON analytics in a columnar engine — ideal for observability and event-driven AI workloads.</li>
+                    <li>Vectors & unstructured: Native HNSW/IVF indexing and hybrid search unify structured filters, full-text retrieval, and ANN similarity in a single SQL query — enabling RAG and semantic search directly on lakehouse data.</li>
                 </ul>
-                <p>and discuss the trade-offs for governance, interoperability, and multi-engine environments.</p>  
+                <p>Attendees will learn how one open-source engine bridges the full data spectrum to make the lakehouse AI-ready — without added infrastructure complexity.</p>
             </div>
         </div>
         <div class="speaker-details">
-            <h4 class="speaker-name">Arnav Naresh Borkar / <span>Performance and Research Engineer, e6data</span></h4>
+            <h4 class="speaker-name">Mingyu Chen / <span>Apache Doris PMC Chair & VPE@VeloDB</span></h4>
             <div class="speaker-bio">
-                <p>Arnav Borkar is a Database Internals Engineer at e6data, where he works on the core development and optimization of a high-performance SQL query engine for large-scale analytics. He also leads ecosystem initiatives around open table formats and catalog integrations, helping advance interoperability in modern lakehouse architectures. Arnav is active in the open lakehouse community and recently spoke at Iceberg Bay Area Meetup where he presented on tackling metadata explosion in Apache Iceberg.</p>
-                <p>He is a Computer Science graduate from BITS Pilani, where he developed his interest in distributed systems and data storage through his work at the DaSH Lab. His research on parallel file systems was published at IEEE Cluster Conference in Santa Fe and part of this work was presented at SC23 Supercomputing Conference in Denver.</p>
+                <p>Mi10 years of experience in distributed systems, focusing on distributed scalable analytical databases.</p>
             </div>
         </div>
     </div>
 </div>
 
-#### Breakout 2
+#### Spey
 
 <div class="card session-card">
     <div class="card-inner">
         <div class="session-info">
-            <h3 class="session-title">Iceberg at Scale: Infrastructure Lessons for the Modern Lakehouse</h3>
+            <h3 class="session-title">Cold Stars over the Frozen Lochs: StarRocks × Iceberg at Fresha</h3>
             <div class="session-description">
-                <p>Apache Iceberg, an open table format, has emerged as a critical component in modern lakehouse architectures, but operating it at enterprise scale surfaces challenges that span infrastructure, performance, and security. This presentation shares practical lessons applicable to any organization investing in the lakehouse pattern.</p>
-                <p>This talk covers three areas common to production Iceberg environments: infrastructure evolution, performance engineering and enterprise requirements.</p>
-                <p>Attendees will walk away with a practical understanding of how to evolve their catalog infrastructure, tune Parquet and Spark configurations for real-world Iceberg workloads, and approach encryption and audit requirements in lakehouse environments. We will also discuss how observability and metrics collection lay the foundation for ML-driven query optimization.</p>
+                <p>Iceberg gave us a great foundation for durable, replayable analytics data. The problem started when we needed the same datasets to satisfy very different access patterns: dashboards and joins that need sub-seconds latency, alongside large historical scans. We could make either case work in isolation, but not both reliably without introducing a hot tier and a clear boundary.</p>
+                <p>This talk covers how we evolved to a tiered design where StarRocks serves the hot tier natively and federates into Iceberg for cold history. We’ll briefly explain how StarRocks’ Iceberg integration behaves (planning/metadata work, pushdown, caching), why federation helps but isn’t free, and how we model tier boundaries in dbt so consumers see one dataset. Finally, we’ll show how we operationalized the architecture with Airflow workflows that route datasets into Iceberg or StarRocks based on workload pattern and freshness SLA, plus the optimizations that made performance predictable.</p>
             </div>
         </div>
         <div class="speaker-details">
-            <h4 class="speaker-name">Anil Khadka / <span>Apple Inc.</span></h4>
+            <h4 class="speaker-name">Anton Borisov / <span>Principal Data Architect at Fresha</span></h4>
             <div class="speaker-bio">
-                <p>Anil Khadka is a Software Engineer at Apple Inc., where he has spent over a decade building and optimizing large-scale data infrastructure. With 20 years of industry experience and an MS in Computer Science, he specializes in Apache Spark, Apache Flink, and Apache Iceberg, with deep expertise in performance optimization across cloud-native platforms. His work focuses on Lakehouse architecture and production-grade reliability at massive scale.</p>
+                <p>Anton Borisov is a Principal Data Architect at Fresha working on real-time lakehouse platforms: CDC and streaming ingestion with Flink/Kafka, open table formats like Iceberg/Paimon, and analytics performance with StarRocks. He writes practical deep-dives on the engineering trade-offs behind modern lakehouse systems.</p>
             </div>
         </div>
         <div class="speaker-details">
-            <h4 class="speaker-name">Huang-Hsiang Cheng / <span>Apple Inc.</span></h4>
+            <h4 class="speaker-name">Nicoleta Lazar / <span>Fresha</span></h4>
             <div class="speaker-bio">
-                <p>Huang-Hsiang works for Apple Maps Data Infrastructure team and provides support to Apache Iceberg and DataFusion Comet.</p>
+                <p>Nicoleta is a Senior Data Engineer at Fresha, working across Kafka, Debezium, Snowflake, and a broad mix of batch and streaming systems that power the company’s analytics and real-time data flows. Coming from an Elixir/Erlang background, she brings a strong focus on reliability, fault-tolerance, and clean system design.</p>
             </div>
         </div>
     </div>
 </div>
 
-#### Breakout 3
+#### Tay
 
 <div class="card session-card">
     <div class="card-inner">
@@ -654,7 +678,7 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
     </div>
 </div>
 
-#### Breakout 4
+#### Clyde
 
 <div class="card session-card">
     <div class="card-inner">
@@ -675,28 +699,35 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
     </div>
 </div>
 
-#### Breakout 5
+#### Tweed
 
 <div class="card session-card">
     <div class="card-inner">
         <div class="session-info">
-            <h3 class="session-title"> Beyond Structured Data: How Apache Doris Enables AI-Ready Multimodal Analytics on the Open Lakehouse</h3>
+            <h3 class="session-title">Apache Polaris™: Getting Started with this Open Source Iceberg Catalog</h3>
             <div class="session-description">
-                <p>As AI pipelines demand data across the full type spectrum — from structured tables and JSON logs to vector embeddings — the open lakehouse must evolve beyond traditional analytics.</p>
-                <p>This talk explores how Apache Doris serves as a multi-modal analytics layer on Apache Paimon and Apache Iceberg, covering three capabilities:</p>
-                <ul>
-                    <li>Structured: High-performance MPP SQL on Paimon and Iceberg with native Deletion Vector and real-time streaming update support.</li>
-                    <li>Semi-structured: The VARIANT type delivers schema-free JSON analytics in a columnar engine — ideal for observability and event-driven AI workloads.</li>
-                    <li>Vectors & unstructured: Native HNSW/IVF indexing and hybrid search unify structured filters, full-text retrieval, and ANN similarity in a single SQL query — enabling RAG and semantic search directly on lakehouse data.</li>
-                </ul>
-                <p>Attendees will learn how one open-source engine bridges the full data spectrum to make the lakehouse AI-ready — without added infrastructure complexity.</p>
+                <p> Apache Polaris™ is an open source catalog for Apache Iceberg™. Come along to learn how to make use of it!</p>
+                <p>In this session, we'll first introduce you to the idea of an Iceberg catalog and, specifically, what it means to be an Iceberg REST Catalog. From there, we'll dive into the core functionalities of Polaris before showing users how to get onboarded with Polaris through an overview of the Polaris REST APIs and the Polaris Console UI.</p>
+                <p>By the end of the session, attendees will know what Polaris is and how to start using it.</p>  
             </div>
         </div>
         <div class="speaker-details">
-            <h4 class="speaker-name">Mingyu Chen / <span>Apache Doris PMC Chair & VPE@VeloDB</span></h4>
+            <h4 class="speaker-name">JB Onofré / <span>ASF member, working on ~20 Apache projects</span></h4>
             <div class="speaker-bio">
-                <p>Mi10 years of experience in distributed systems, focusing on distributed scalable analytical databases.</p>
+                <p>JB is long time Apache member, enthusiast about Apache projects. He's active on several projects, more than 20.</p>
             </div>
+        </div>
+    </div>
+</div>
+
+<div class="spacer spacer-large"></div>
+
+### 3:00 PM - 3:30 PM
+
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title">Afternoon Coffee Break</h3>
         </div>
     </div>
 </div>
@@ -705,7 +736,7 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
 
 ### 3:30 PM - 4:00 PM
 
-#### Keynote
+#### Grand Ballroom
 
 <div class="card session-card">
     <div class="card-inner">
@@ -727,35 +758,26 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
     </div>
 </div>
 
-#### Breakout 2
+#### Spey
 
 <div class="card session-card">
     <div class="card-inner">
         <div class="session-info">
-            <h3 class="session-title"> What It Takes: Building a Lakehouse as a Service on Kubernetes</h3>
+            <h3 class="session-title">A Year at REST: What’s New in Iceberg REST Catalogs</h3>
             <div class="session-description">
-                <p>This breakout session offers an engineering-focused look behind the curtain of how STACKIT designed, built, and operates a Lakehouse as a Service offering on top of OSS projects such as Kubernetes, Apache Iceberg, NATS, ZooKeeper, and others.</p>
-                <p>Topics that will be touched:</p>
-                <ul>
-                <li>OSS at the Core: Insights into the general setup of the service and how open-source projects like Apache Iceberg, Kubernetes and others play a central role.</li>
-                <li>Order to Deployment: Technical walkthrough from API interaction and resource provisioning in the cluster to the automated setup using self-written Kubernetes Operators.</li>
-                <li>Engineering Hurdles and Solutions: Details about the most significant challenges we faced.</li>
-                <li>Operationalizing the Service: Context for engineering decisions we made, things that went wrong, and a focus on the critical operational aspects.</li>
-                </ul>
-                <p>Attendees will gain practical and relatable insights into the complexities of platform engineering for data infrastructure from our experience in bringing a demanding, cutting-edge data service to market as a managed offering</p>
+                <p>Join us for a focused update on the Iceberg REST Catalog: what it is, why it matters, and the latest protocol advances. We’ll cover recent additions at a high level—ETags, idempotency‑key, view registration, table encryption keys, and extensions to server‑side planning—and outline community work in progress and its significance, including the Events Endpoint, enhanced OAuth2 support, and Fine‑Grained Metadata Commits.</p>
             </div>
         </div>
         <div class="speaker-details">
-            <h4 class="speaker-name">Bjarne Schröder / <span>Software Engineer @ STACKIT</span></h4>
+            <h4 class="speaker-name">Christian Thiel / <span>Software Engineer and Founder, Vakamo</span></h4>
             <div class="speaker-bio">
-                <p>Hi! I'm Bjarne and I work as a Software Engineer at STACKIT on Data & AI product offerings. Transitioning from Data Engineering to Software Engineering I know both sides of the space. Being the user of cloud native data services, and now actually building and providing them.</p>
-                <p>I love to connect with other people. In my freetime I like to dive into nerdy topics and cycle through my hometown Cologne, Germany.</p>
+                <p>Christian is the creator of Lakekeeper, an Apache Licensed Iceberg REST Catalog. He’s a big believer in open standards like Apache Iceberg, which he sees as the backbone of today’s modern, composable Data & Analytics systems. Christian is all about crafting innovative solutions that make collaborating on data a breeze. With a long history as a data enthusiast and consultant, he’s built countless Data & Analytics solutions over the years, making him a passionate advocate for data-driven success.</p>
             </div>
         </div>
     </div>
 </div>
 
-#### Breakout 3
+#### Tay
 
 <div class="card session-card">
     <div class="card-inner">
@@ -776,7 +798,7 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
     </div>
 </div>
 
-#### Breakout 4
+#### Clyde
 
 <div class="card session-card">
     <div class="card-inner">
@@ -803,7 +825,7 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
     </div>
 </div>
 
-#### Breakout 5
+#### Tweed
 
 <div class="card session-card">
     <div class="card-inner">
@@ -827,7 +849,7 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
 
 ### 4:15 PM - 5:00 PM
 
-#### Keynote
+#### Grand Ballroom
 
 <div class="card session-card">
     <div class="card-inner">
@@ -857,6 +879,21 @@ Lakehouse Day takes place on Saturday, October 10, 2026 colocated with Community
     </div>
 </div>
 
+<div class="spacer spacer-large"></div>
+
+### 5:00 PM - 6:30 PM
+
+<div class="card session-card">
+    <div class="card-inner">
+        <div class="session-info">
+            <h3 class="session-title">Closing Reception</h3>
+            <div class="session-description">
+                <p>Join us for light snacks and drinks as we close out Lakehouse Day 2026!</p>    
+            </div>
+        </div>
+    </div>
+</div>
+
 ---
 
 ## Selection Committee
@@ -882,12 +919,17 @@ Lakehouse Day is a place for the projects in and around the lakehouse ecosystem 
 <div class="sponsors-section">
     <div class="sponsor-logos sponsor-logos--colo">
         <div class="sponsor-logo">
-            <a href="https://aws.amazon.com/opensource/" target="_blank" class="sponsor-link">
-                <img src="/images/sponsors/AWS_logo_RGB_1c_Gray850.svg" loading="lazy" alt="AWS Platinum">
+            <a href="https://www.apple.com/" target="_blank" class="sponsor-link">
+                <img src="/images/sponsors/Apple_Logo_Black_lg.svg" loading="lazy" alt="Apple">
             </a>
         </div>
         <div class="sponsor-logo">
-            <a href="https://cloud.google.com/" target="_blank" class="sponsor-link">
+            <a href="https://aws.amazon.com/opensource/" target="_blank" class="sponsor-link">
+                <img src="/images/sponsors/AWS_logo_RGB_1c_Gray850.svg" loading="lazy" alt="AWS">
+            </a>
+        </div>
+        <div class="sponsor-logo">
+            <a href="https://cloud.google.com/solutions/data-lakehouse/" target="_blank" class="sponsor-link">
                 <img src="/images/sponsors/GC_Logo_FullColor_cmkyC.svg" loading="lazy" alt="Google Cloud">
             </a>
         </div>

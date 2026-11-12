@@ -1,0 +1,87 @@
+{
+    "platinum": [
+        {
+            "name": "IBM",
+            "logo": "/events/apachecon-na-2018/images/IBM.png",
+            "link": "https://ibm.com/"
+        },
+        {
+            "name": "Comcast",
+            "logo": "/events/apachecon-na-2018/images/comcast.png",
+            "link": "https://comcast.com/"
+        },
+        {
+            "name": "Microsoft",
+            "logo": "/events/apachecon-na-2018/images/microsoft.png",
+            "link": "https://microsoft.com/"
+        }
+    ],
+    "gold": [
+        {
+            "name": "Amazon",
+            "logo": "/events/apachecon-na-2018/images/amazon.png",
+            "link": "https://amazon.com/"
+        },
+        {
+            "name": "Tencent",
+            "logo": "/events/apachecon-na-2018/images/tencent.png",
+            "link": "https://tencent.com/"
+        },
+        {
+            "name": "Abusix",
+            "logo": "/events/apachecon-na-2018/images/abusix.jpg",
+            "link": "https://abusix.com/"
+        }
+    ],
+    "silver": [
+        {
+            "name": "Linode",
+            "logo": "/events/apachecon-na-2018/images/linode.png",
+            "link": "https://linode.com"
+        },
+        {
+            "name": "Red Hat",
+            "logo": "/events/apachecon-na-2018/images/redhat.png",
+            "link": "https://redhat.com"
+        }
+    ],
+    "bronze": [
+        {
+            "name": "ShapeBlue",
+            "logo": "/events/apachecon-na-2018/images/shapeblue.png",
+            "link": "https://shapeblue.com"
+        },
+        {
+            "name": "Google Cloud",
+            "logo": "/events/apachecon-na-2018/images/googlecloud.png",
+            "link": "https://cloud.google.com"
+        },
+        {
+            "name": "CloudOps",
+            "logo": "/events/apachecon-na-2018/images/cloudops.png",
+            "link": "https://cloudops.com"
+        },
+        {
+            "name": "OPSWAT",
+            "logo": "/events/apachecon-na-2018/images/opswat.png",
+            "link": "https://opswat.com"
+        },
+        {
+            "name": "Sonatype",
+            "logo": "/events/apachecon-na-2018/images/sonatype.png",
+            "link": "https://sonatype.com"
+        }
+    ],
+    "media_partners": [
+        {
+            "name": "Linux Pro Magazine",
+            "logo": "/events/apachecon-na-2018/images/linux-pro.png",
+            "link": "http://www.linuxpromagazine.com/"
+        },
+        {
+            "name": "ADMIN Magazine",
+            "logo": "/events/apachecon-na-2018/images/admin-magazine.png",
+            "link": "http://www.admin-magazine.com/"
+        }
+    ]
+}

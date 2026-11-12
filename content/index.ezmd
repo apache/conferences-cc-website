@@ -28,7 +28,7 @@ template: page-full-width
                         </div>
                     </div>[end]
                 </div>
-            [else]<p class="text-center">No upcoming events at this time.</p>
+            [else]<p class="text-center text-white"><strong>No upcoming events at this time.</strong></p>
             [end]<div class="text-center mt-medium">
                 <a class="btn" href="/events">View All Events</a>
             </div>
