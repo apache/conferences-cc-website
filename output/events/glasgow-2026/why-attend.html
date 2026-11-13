@@ -35,21 +35,37 @@
     <script src="/js/init.js"></script>
 </head>
 <body   class="body-glasgow-2026" >
-    <header id="header-main">
-         <div class="inner relative z1 flex flex-space-between flex-vert-center">
-            <a href="/" class="logo">
-                <img src="/images/CommunityOverCode_Logo_horizontal-color.svg" alt="ASF Events">
-            </a>
-            <div id="nav-toggle" class="nav-toggle hidden">
-                <span id="nav-top"></span>
-                <span id="nav-mid"></span>
-                <span id="nav-btm"></span>
-            </div>
-            
-
-<nav>
+    <header id="header-main" class="has-event-nav">
+        <div class="top-nav">
+            <div class="inner relative z1 flex flex-space-between flex-vert-center">
+               <a href="/" class="logo">
+                   <img src="/images/CommunityOverCode_Logo_horizontal-color.svg" alt="Community Over Code – home">
+               </a>
+               <button id="nav-toggle" class="nav-toggle hidden" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav">
+                   <span id="nav-top"></span>
+                   <span id="nav-mid"></span>
+                   <span id="nav-btm"></span>
+               </button>
+<div class="nav-wrapper" id="site-nav">
+    <nav aria-label="Main">
+        <ul class="flex">
+            <li><a href="/about/">About</a></li>
+            <li><a href="/sponsorship">Sponsorship</a></li>
+            <li class="has-sub-menu">
+                <a href="/events">Events</a>
+                <ul class="sub-menu">
+                    <li class="sub-menu-item"><a href="/events">Upcoming Events</a></li>
+                    <li class="sub-menu-item"><a href="/events#past-events">Past Events</a></li>
+                </ul>
+            </li>
+            <li><a href="https://news.apache.org/foundation/entry/category/events" target="_blank" rel="noopener">Blog</a></li>
+            <li><a href="https://apache.org/" target="_blank" rel="noopener">The ASF</a></li>
+        </ul>
+        <div class="mobile-sub-nav hidden">
+            <div class="event-nav-title">Community Over Code Glasgow 2026</div>
+<nav aria-label="Event">
     <ul class="flex">
-        <li><a href="/events/glasgow-2026">Home</a></li>
+        <li><a href="/events/glasgow-2026">Event Home</a></li>
         <li><a href="/events/glasgow-2026/register">Register</a></li>
         <li class="has-sub-menu">
             <a href="#">Attend</a>
@@ -70,8 +86,42 @@
          <li><a href="https://web.cvent.com/event/ac71ce47-2b5f-424c-abfe-5b48255315fb/summary?RefId=XSummary" target="_blank">Schedule</a></li>
          <!-- <li><a href="/events/glasgow-2026/schedule">Schedule</a></li> -->
          <li><a href="/events/glasgow-2026/sponsor">Sponsor</a></li>
+         <li><a href="https://events.apache.org/events/2026/community-over-code/" target="_blank">Community Info</a></li>
     </ul>
-</nav>    </header>
+</nav>        </div>
+    </nav>
+</div>            </div>
+        </div>
+        <div class="lower-nav">
+            <div class="inner flex flex-space-between flex-vert-center">
+<a class="event-nav-location" href="">Glasgow, Scotland - 2026</a><nav aria-label="Event">
+    <ul class="flex">
+        <li><a href="/events/glasgow-2026">Event Home</a></li>
+        <li><a href="/events/glasgow-2026/register">Register</a></li>
+        <li class="has-sub-menu">
+            <a href="#">Attend</a>
+            <ul class="sub-menu">
+                <li class="sub-menu-item"><a href="/events/glasgow-2026/travel">Travel</a></li>
+                <li class="sub-menu-item"><a href="/events/glasgow-2026/why-attend">Why Attend</a></li>
+                <li class="sub-menu-item"><a href="https://events.apache.org/events/2026/community-over-code/" target="_blank">Community Info</a></li>
+            </ul>
+        </li>
+        <li class="has-sub-menu">
+            <a href="#">Co-located Events</a>
+            <ul class="sub-menu">
+                <li class="sub-menu-item"><a href="/events/glasgow-2026/lakehouse-day-glasgow">Lakehouse Day</a></li>
+                <li class="sub-menu-item"><a href="/events/glasgow-2026/airflow-contributor-day-glasgow">Airflow Contributor Day</a></li>
+                <li class="sub-menu-item"><a href="https://events.apache.org/events/2026/community-over-code/hackathon.html" target="_blank">Community Over Code Hackathon</a></li>
+            </ul>
+        </li>
+         <li><a href="https://web.cvent.com/event/ac71ce47-2b5f-424c-abfe-5b48255315fb/summary?RefId=XSummary" target="_blank">Schedule</a></li>
+         <!-- <li><a href="/events/glasgow-2026/schedule">Schedule</a></li> -->
+         <li><a href="/events/glasgow-2026/sponsor">Sponsor</a></li>
+         <li><a href="https://events.apache.org/events/2026/community-over-code/" target="_blank">Community Info</a></li>
+    </ul>
+</nav>            </div>
+        </div>
+    </header>
 
     
     
