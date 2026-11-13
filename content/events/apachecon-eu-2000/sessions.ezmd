@@ -1,0 +1,400 @@
+title: ApacheCon Europe 2000 — Sessions
+template: page-event-default
+ref: apachecon-eu-2000
+
+## ApacheCon Europe 2000 Agenda
+
+The full session schedule for ApacheCon Europe 2000, held 23–25 October 2000 at the Olympia Conference Centre, London. Where presentation materials survive, download links appear with the session.
+
+## Keynotes
+
+### KN01: Sun and Apache — Slides: [[]PDF](/slides/eu-2000/KN01-A.pdf)
+
+*Tue · 09h00 · Auditorium*  
+**Speaker:** George Paolini
+
+The elections for the Java Community Process (JCP) Executive Committees are just around the corner...... come learn more about the Apache Software Foundation's role in the JCP from George Paolini, Sun's VP of technology advocacy and community development. Mr. Paolini will also provide an update on Sun's involvement with technology projects at Apache, Sun software and open source, and a roadmap for the Java 2 platform.
+
+### KN02: IBM and Open Source - A software agenda
+
+*Tue · 11h15 · Auditorium*  
+**Speaker:** Kristof Kloeckner
+
+Abstract not yet available.
+
+### KN03: Living In a Virtual World
+
+*Tue · 19h15 · Auditorium*  
+**Speaker:** Douglas Adams
+
+Adams' personal view of the enormous promise and achievements of information and digital technology (and some of the absurdities as well.) He looks at how the Internet and other breakthroughs are transforming the ways in which we work, live, think and order pizza, and speculates rashly about what it may all actually mean.
+
+### KN04: Convincing Management to Let You Work on Open Development
+
+*Wed · 11h15 · Auditorium*  
+**Speaker:** Brian Behlendorf
+
+Abstract not yet available.
+
+### KN05: Perspectives on the Jakarta Project
+
+*Wed · 15h00 · Auditorium*  
+**Speaker:** James Davidson
+
+What happens when a commercial vendor (Sun, in this case) does exactly what the Open Source community asks them to do, and open sources a significant piece of software? This session will describe the experience of working on the Jakarta project from inception to the present day, in a unique partnership between an existing open source project (Apache JServ) and commercial vendors that have paid developers participating in the development. Can the two environments combine to create something special, or are they doomed to disagree and fight? This issue will be examined from both perspectives: that of someone coming to it from Sun, and that of someone from the Apache Jserv project. Birds-of-a-Feather (BOF) Sessions A 'birds-of-a-feather' session is a somewhat impromptu and informal get-together of people who are interested in a particular topic that isn't on the conference schedule, or who want to discuss a session topic in more detail. BOFs are commonly scheduled on-site, and take place in the session rooms during mealtimes. BOFs are one hour long, and may be attended by anyone, whether registered for the conference itself or only for the exhibit floor. Registered conference delegate
+
+---
+
+## Plenary Sessions
+
+### PL01: ApacheCon Europe 2000 Opening Session
+
+*Mon · 09h00 · Auditorium*  
+**Speaker:** Ken Coar Speaker: Lars Eilebrecht Speaker: Jim Jagielski Speaker: Ben Laurie Speaker: Randy Terbush
+
+The opening session of the conference will provide a 'roadmap' for the rest of the convention, and provide a brief description of the various Apache projects.
+
+### PL02: ApacheCon Europe 2000 Closing Session
+
+*Wed · 18h00 · Auditorium*  
+**Speaker:** Ken Coar Speaker: Lars Eilebrecht Speaker: Jim Jagielski Speaker: Ben Laurie Speaker: Randy Terbush
+
+As the last session of the conference, the closing plenary gives delegates an opportunity to give feedback to the planning committee and the Apache Software Foundation. All delegates are encouraged to attend and speak up!
+
+---
+
+## Monday Sessions
+
+### M01: Apache projects overview — Slides: [[]PDF](/slides/eu-2000/M01.pdf)
+
+*Mon · 10h00 · Auditorium*  
+**Speaker:** Daniel Lopez Ridruejo
+
+This session will introduce the different projects under the ASF umbrella, like Jakarta, XML, and PHP and how everything fits together. It will cover project goals, functionality provided, project history and future directions. It will explain common ways in which these technologies can be used together to provide powerful Web development frameworks. This is an opportunity to find out what is cooking in other parts of the ASF.
+
+### M02: Developing Dynamic Web Sites with JavaServer Pages — Slides: [[]PDF](/slides/eu-2000/M02-A.pdf) | [[]PDF](/slides/eu-2000/M02-B.pdf)
+
+*Mon · 10h00 · Classroom 1*  
+**Speaker:** John Zukowski
+
+The JavaServer Pages (JSP) technology from Sun Microsystems offers an easy and powerful way to develop dynamic HTML content for your web site. In this session we'll introduce you to JSP, demonstrate the capabilities in the JSP 1.1 specification, and examine tools for developing JSP-enabled web sites. In addition, we'll provide plenty of real-world examples demonstrating session management as well as integration with JavaBeans components to provide 100% Pure Java solutions.
+
+### M03: Toward the Semantic Web: a view of XML from outer space — Slides: [[]PDF](/slides/eu-2000/M03.pdf)
+
+*Mon · 10h00 · Classroom 2*  
+**Speaker:** Stefano Mazzocchi
+
+XML is still much of an overhyped word. Programs "speak" XML, servers "support" XML, companies provide XML "services"... but XML, alone, is no different from ASCII: a standard way to encode digital bits into text. Would you place "speaks ASCII" or "supports ASCII" in the feature list of your program? It would be a joke for many. So, is XML just "marketing hype"? No. Definitely not. This talk will guide you into the "XML Model" that some web architects name "the semantic web". We will understand how namespaces, XML Schema, RDF, RDF Schema, XLink, XPointer, XBase, XInclude, XForms and other technolgies come together to form a coherent and extremely powerful model which shares the XML syntax as common ground, but creates a colorful multi-dimensional space where new incredible possibilities are at technological reach today.
+
+### M04: Apache 2.0 — Slides: [[]PDF](/slides/eu-2000/M04-A.pdf) | [[]HTML](/slides/eu-2000/M04-B/Apache-2.0.htm)
+
+*Mon · 12h00 · Auditorium*  
+**Speaker:** Ryan Bloom
+
+This talk presents an overview of the next version of Apache. The presentation will discuss the new MPM models, the new module structures, and the Apache Portable Run-Time. The goals of this talk are to familiarize the audience with all of Apache 2.0, but it will not go into detail for any part of the server. This presentation will be a good starting point for any other Apache 2.0 talks during the conference.
+
+### M05: Apache on Windows — Slides: [[]PDF](/slides/eu-2000/M05.pdf)
+
+*Mon · 12h00 · Classroom 1*  
+**Speaker:** Rich Bowen
+
+What makes Apache under Windows different from the Unix version, from the perspective of a server administrator? You'll see some of the differences in the server configuration, CGI, and various other aspects of the care and feeding of your Apache server.
+
+### M06: XML and Database Integration — Slides: [[]PDF](/slides/eu-2000/M06.pdf)
+
+*Mon · 12h00 · Classroom 2*  
+**Speaker:** Robert Burgess
+
+Organizations have long relied on enterprise databases to maintain information relevant to the whole corporate and business structure. As B2B markets emerge and corporate citizens adapt to newer client technologies, it is increasingly important for databases to deliver information in XML format. This session focuses on the performance of JDBC data sources delivering XML database results, and discusses using Apache Xerces (XML) and Xalan (XSL) to integrate with enterprise databases. Setting the pace for tomorrow's Internet today. Join us and find out more about the future direction of this widely acknowledged server software. [ Home | Site Map | About ApacheCon Europe 2000 | Contact Us ] [ Travel & Lodging | Registry | Sessions | Speakers ] [ Sponsors | Expo | Press Information ] <img src="/images/t
+
+### M07: Apache 2.0 for Windows — Slides: [[]PDF](/slides/eu-2000/M07.pdf)
+
+*Mon · 13h00 · Classroom 1*  
+**Speaker:** Bill Stoddard
+
+This presentation will review the improvements that have gone into Apache 2.0 for Windows with an emphasis on enhancements to improve performance and scalability. Apache 2.0 for Windows now uses advanced Winsock2 APIs, including asynchronous AcceptEx and I/O CompletionPorts to manage network I/O and the worker thread pool. These improvements, along with a file handle cache, nearly triples throughput when serving static files.
+
+### M08: A scalable teaching and learning delivery environment built on Apache — Slides: [[]PDF](/slides/eu-2000/M08.pdf)
+
+*Mon · 13h00 · Auditorium*  
+**Speaker:** Lennie Au
+
+Web Resources Automated for Teaching (WebRAFT) is a secure and reliable Web-based delivery system built on Apache to support online teaching and learning at The University of Melbourne. This session will discuss the design and rationale on the integration of Apache and various administrative systems which enabled Webraft to provide an easy-to-use 'zero-administration' website where academics can focus on content issues. Student enrollments and co-ordinators access are automatic. It is freely available to all university subjects. Currently, there are 710 subjects enabled on WebRAFT, supporting over 16,000 individual students. This surely is a case to demonstrate to government, educational institutes and businesses that Apache-centric application on a UNIX system is very scalable, reliable, useful and *in-expensive*, given you have the right design and approach. http://webraft.its.unimelb.edu.au/
+
+### M09: Using Apache Jetspeed to build dynamic, content driven Portals — Slides: [[]PDF](/slides/eu-2000/M09.pdf)
+
+*Mon · 13h00 · Classroom 2*  
+**Speaker:** Santiago Gala
+
+Jetspeed can be used to build a Web based Portal application. This session will cover the core API and how to develop "Portlets" to snap content into Jetspeed, how Jetspeed uses XML for both content structure and subscription, Rich Site Summary to handle content publication, and subscription/publication to alternative devices ("Palm" devices, Mozilla, GNOME, etc.). Technical issues of Cocoon and Turbine integration will also be discussed.
+
+### M10: Writing Apache Modules for 2.0 — Slides: [[]PDF](/slides/eu-2000/M10-A.pdf) | [[]HTML](/slides/eu-2000/M10-B/modules.htm)
+
+*Mon · 14h00 · Auditorium*  
+**Speaker:** Ryan Bloom
+
+This presentation will detail how to write Apache modules to take advantage of the new features of Apache 2.0. This will be useful for anybody wanting to write new or port existing modules to 2.0.
+
+### M11: Apache in the real world - beating the inhouse bias — Slides: [[]PDF](/slides/eu-2000/M11.pdf)
+
+*Mon · 14h00 · Classroom 1*  
+**Speaker:** Peter Moulding
+
+How can an all-Microsoft IT department justify, utilise and benefit from Apache? If you are an IT Manager or sign the cheques, you will save time and money with Apache. Here are the business and technical cases for using Apache instead of IIS or other proprietary Web servers.
+
+### M12: HTTP and Apache — Slides: [[]PDF](/slides/eu-2000/x-M12.pdf)
+
+*Mon · 14h00 · Classroom 2*  
+**Speaker:** Roy Fielding
+
+This technical session includes a walk-through of how Apache 2.0 processes HTTP requests and responses, as well as the features and hooks available to advanced programmers wishing to modify Apache's protocol behavior.
+
+### M13: Introduction to the Apache Server — Slides: [[]PDF](/slides/eu-2000/M13.pdf) | [[]RTF](/slides/eu-2000/M13.rtf)
+
+*Mon · 15h00 · Auditorium*  
+**Speaker:** Rich Bowen
+
+Learn how to acquire, compile, install, and configure the Apache Web server. A great place to start if you are completely new to Apache, and trying to figure out where to start.
+
+### M14: Comanche, a GUI configuration tool for Apache — Slides: [[]PDF](/slides/eu-2000/M14-A.pdf) | [[]PDF](/slides/eu-2000/M14-B.pdf)
+
+*Mon · 15h00 · Classroom 1*  
+**Speaker:** Daniel Lopez Ridruejo
+
+Comanche is a powerful cross-platform open-source GUI solution for configuring the Apache Web server. the presentation will consist of an overview of the system's architecture and an explanation of how system administrators can use the system to perform basic and advanced tasks like analyzing logs, managing virtual hosts and configuring Apache as a proxy server. Finally, an introduction to the Comanche module API will be given, explaining how system administrators can easily extend Comanche functionality using a XML-based approach
+
+### M15: AxKit - an XML Delivery Toolkit for Apache — Slides: [[]PDF](/slides/eu-2000/M15.pdf)
+
+*Mon · 15h00 · Classroom 2*  
+**Speaker:** Matt Sergeant
+
+AxKit is a suite of tools for transforming and delivering XML based web sites using Apache and mod_perl. The toolkit provides all the basic needs for non-developers to deliver XML using W3C standardised techniques, and at the same time allows for developers to extend the available options for content delivery in every direction. AxKit is also one of the fastest delivering XML engines, by virtue of its caching architecture. If you want to transform XML on the server then you want to see what AxKit has to offer.
+
+### M16: Introduction to PHP — Slides: [[]PDF](/slides/eu-2000/M16.pdf)
+
+*Mon · 17h00 · Auditorium*  
+**Speaker:** Rasmus Lerdorf
+
+A whirlwind tour of PHP, past, present and future from the original creator of the language. Rasmus will walk through the evolution of PHP from its humble beginnings as a simple CGI wrapper written in Perl to the current version which is installed on about 15% of all the Web servers in the world.
+
+### M17: Transparent Content Negotiation — Slides: [[]PDF](/slides/eu-2000/M17-A.pdf) | [[]PDF](/slides/eu-2000/M17-B.pdf)
+
+*Mon · 17h00 · Classroom 1*  
+**Speaker:** Lars Eilebrecht
+
+In this session, Lars will present the concept of Transparent and HTTP/1.0 Content Negotiation and how it can be deployed with Apache's negotiation module. The negotiation protocol and algorithm will be explained in detail. Furthermore a few examples will be shown and limitations of content negotiation and current client implemenations will be discussed.
+
+### M18: Extending PHP 4 — Slides: [[]PDF](/slides/eu-2000/M18.pdf)
+
+*Mon · 17h00 · Classroom 2*  
+**Speaker:** Sterling Hughes
+
+Really knowing a scripting language is more than knowing how to harness the language, it is also knowing how to extend the language. In this 1.5 hour session we will go over the process of extending PHP. We will cover all of the major issues including adding functions to PHP, managing resources and adding modules to the PHP build system. By the end of the session you should feel confident in the knowledge that if your boss asks you to add functionality that cannot be done with PHP itself, you can go write the functionality into PHP yourself.
+
+### M19: Advanced PHP: Web Applications - Sessions and Authentication — Slides: [[]PDF](/slides/eu-2000/M19.pdf)
+
+*Mon · 18h30 · Classroom 1*  
+**Speaker:** Tobias Ratschiller
+
+As Web sites and intranets get larger and more complex, static HTML files hit their limits. They are hard to maintain and cannot be used for advanced Web-based applications like e-commerce systems or XML data processing. PHP is the right tool for anyone wanting to create highly sophisticated Web applications. This server-side scripting language is fast, free, easy to use for novice users and powerful enough for professional Web developers. To understand the implications of Web application concepts, you need to differentiate between applications and single scripts. A script is a utility and as such doesn't have any context, it doesn't know about other scripts in your system. An application, however, is designed to perform more advanced tasks. An application needs to maintain state and execute transactions. This presentation will show you how to use PHP's native session management functions and third-party code to authenticate users to create a complete community Web site.
+
+### M21: Security Solutions with SSL — Slides: [[]PDF](/slides/eu-2000/M21.pdf)
+
+*Mon · 18h30 · Classroom 2*  
+**Speaker:** Ralf S. Engelschall
+
+In this presentation, first today's SSL/TLS possibilities with an Apache + mod_ssl + OpenSSL server combination are shortly summarized. Then various selected SSL/TLS-based security solutions are described in detail, like establishing HTTP/HTTPS gateways, using per-directory SSL/TLS parameters, doing per-directory based client authentication, using Server Gated Cryptography (SGC, aka Global Server IDs), speeding up processing with high-speed shared memory based SSL/TLS session caches, fine-tuning client authentication through arbitrarily complex Boolean expressions (SSLRequire), using Certificate Revocation Lists (CRLs), etc. VS01: Sun Technical Briefing Day: Mon Time: 13h00 Room: Vendor Theatre Session chair: None assigned Duration: 240 minutes Style: Tutorial Level: Experienced Audience: Technical Categories: Business, E-Commerce, Java, XML Abstract: 13h00 Introduction 13h05-13h45 Architecture for Web Based Applications This session will cover a variety of approaches to organizing the functionality of a web-based application, focusing on the Model-View-Controller (MVC) model using a combination of servlets and JSP pages. Examples of available application frameworks that you can us
+
+---
+
+## Tuesday Sessions
+
+### T01: mod_snake: Flexible Apache modules in Python — Slides: [[]PDF](/slides/eu-2000/T01.pdf)
+
+*Tue · 10h00 · Classroom 1*  
+**Speaker:** Jon Travis
+
+mod_snake is an Apache 1.3 and 2.0 module which gives Python developers an easy and powerful way to interface with the Web server, similar to that of mod_perl. This session will give a broad introduction to mod_snake, including: Python CGI acceleration; Python embedding in HTML; Python plugins; content generation; and protocol extensions.
+
+### T02: Configuring Apache and mod_perl applications
+
+*Tue · 10h00 · Classroom 2*  
+**Speaker:** Eric Cholet
+
+This session discusses mod_perl features which enable flexible configuration of the Apache server and mod_perl applications. Topics include how to automate and customize Apache configuration; mod_perl directives to configure web applications from within Apache; writing a custom configuration module that can be shared by other scripts and modules; and how to design and implement customized Apache directives written in Perl for seamless integration of application and Apache configuration.
+
+### T03: Securing Java Application Servers — Slides: [[]PDF](/slides/eu-2000/T03.pdf)
+
+*Tue · 10h00 · Auditorium*  
+**Speaker:** Kirill Bolshakov
+
+This session will present a set of concepts to enable application service providers (ASP) to host untrusted Java/XML/XSP-based applications. A set of patches for the JServ engine is presented that includes a custom security manager, as well as a standalone version of this security manager. It enables the server administrator to use flexible access control mechanisms to finely tune access to various parts of the server. It also enables secure hosting of multiple applications without mutual trust relationships inside one servlet engine. The concepts are demonstrated on the example of Cocoon-based multiuser XSP application server.
+
+### T04: PHP from an IT Manager's Perspective — Slides: [[]PDF](/slides/eu-2000/T04.pdf)
+
+*Tue · 14h00 · Auditorium*  
+**Speaker:** Tobias Ratschiller
+
+Considering the vastly growing amount of servers on which PHP is now running, taking a look at the huge step PHP made from version 3.0 to version 4.0, and seeing its mature and up-to-date base, PHP has surely become what it has been aiming at: A great tool for rapid development of stable and fast Web applications. If your business relies on Web applications, you should certainly consider PHP. This session shows how your business can benefit from the use of PHP, give an overview of PHP's business-relevant features, and show you what you need to consider when adopting PHP.
+
+### T05: Building visually-consistent, multilingual Web sites with Apache and mod_perl — Slides: [[]PDF](/slides/eu-2000/T05.pdf)
+
+*Tue · 14h00 · Classroom 1*  
+**Speaker:** Javier Rodriguez
+
+There's more than one way to create a visually consistent Web site. In this session we'll explore a framework based in mod_perl that allows to create themeable Web sites that also support internationalization, and show off a few tricks to make easier for webmasters, graphic designers and content providers to maintain a large Web site using these features with nil impact in the budget.
+
+### T06: Migrating Apache JServ Applications to Tomcat — Slides: [[]PDF](/slides/eu-2000/T06.pdf)
+
+*Tue · 14h00 · Classroom 2*  
+**Speaker:** Craig McClanahan
+
+Porting an Apache JServ application to Tomcat requires an understanding of the key differences between the two environments. This session will focus on the changes in the underlying servlet API specification (from version 2.0 to 2.2), as well as the differences in the configuration and deployment of servlet-based applications in the two environments.
+
+### T07: PHP: Hackers Paradise — Slides: [[]PDF](/slides/eu-2000/T07.pdf)
+
+*Tue · 15h00 · Classroom 1*  
+**Speaker:** Nathan Wallace
+
+This session is designed to help you take PHP programming to the next level. We'll look at when you should (and how you can) optimize your PHP code. Some of the more powerful and complex areas of PHP (e.g., quoted strings and data types) will be explained with examples of how they can be used to your advantage. Every language has "gotchas" and common mistakes to avoid, learn about PHP's subtle traps. Finally, we'll develop a number of functions and classes to speed up development and assist in the debugging process.
+
+### T08: Getting Started with mod_perl — Slides: [[]PDF](/slides/eu-2000/T08.pdf)
+
+*Tue · 15h00 · Auditorium*  
+**Speaker:** Stas Bekman
+
+In this first part of this tutorial we will talk about porting and developing CGI scripts and modules under mod_perl, diving deeply into peculiarities of Perl code running under mod_perl, and possible run-time errors. Afterwards we will see how mod_perl speeds up applications working with relational databases.
+
+### T09: Advanced Tomcat Configuration and Performance Tuning — Slides: [[]PDF](/slides/eu-2000/T09.pdf)
+
+*Tue · 15h00 · Classroom 2*  
+**Speaker:** Costin Manolache
+
+Tomcat lets you run Java Servlets and JavaServer Pages (tm) and is integrated with Apache and other Web servers. It is open source and part of the Jakarta project <http://jakarta.apache.org>. The talk will cover implementation details and focus on performance, production use and integration into existing Web services. It will also show interesting numbers and case studies.
+
+### T10: Design Patterns in Web Programming — Slides: [[]PDF](/slides/eu-2000/T10.pdf)
+
+*Tue · 17h00 · Classroom 1*  
+**Speaker:** Nathan Wallace
+
+The concept of Design Patterns is based on the idea that there are only so many design problems in computer programming. In this session we will examine the design pattern concept as applied to Web programming, determining the patterns that exist and presenting model solutions in PHP. You will learn how to recognize these common design patterns in your sites allowing you to easily apply the well known "best" solution.
+
+### T11: Improving script and handler performance under mod_perl — Slides: [[]PDF](/slides/eu-2000/T11.pdf)
+
+*Tue · 17h00 · Auditorium*  
+**Speaker:** Stas Bekman
+
+This tutorial will explain performance improvement tips: persistent DB connections, cached DBI statements, reducing memory usage by deploying shared memory, module preloading techniques, avoiding importing of variables and global variables in general, forking and subprocess overhead, memory leakage detection and prevention, tuning Apache configuration directives for best performance by benchmarking the scripts, object method calls vs. functions, sending compressed HTML, performance of print calls and buffer flushing. VS03: Infrastructure for Web Services Day: Tue Time: 13h00 Room: Vendor Theatre Session chair: None assigned Duration: 90 minutes Style: Presentation Level: Novice Audience: Developer Categories: Apache, Business, Java, XML Speaker: Paul Fremantle Speaker: William Nagy Speaker: Sanjiva Weerawarana Abstract: As Web services evolve, a software infrastructure to support writing, describing, deploying and locating Web services is needed. In this session, we will discuss SOAP (Simple Object Access Protocol), WSDL (Web Services Description Language), UDDI (Universal Description Discovery and Integration) and ADS (Advertisement and Discovery of Services) and explain how these
+
+### T12: Turbine: Building Model 2+1 Web Applications — Slides: [[]PDF](/slides/eu-2000/T12.pdf)
+
+*Tue · 17h00 · Classroom 2*  
+**Speaker:** Jon Stevens
+
+Turbine is a Java Servlet based framework that allows Java developers to quickly build secure Web applications. It combines a good portion of the tools and utilities that most Web applications depend on such as database connection pools, Object Relational Mapping, Localization, Cron-Like Scheduling and more into a single framework that is usable by a wide range of Web applications. By combining Turbine with WebMacro (a template engine), it is possible to build Model 2+1 Web applications that take full advantage of the Model View Controller (MVC) methodology. This presentation will focus on building a sample Web application using Turbine and WebMacro on top of the Tomcat Servlet Engine and the MySQL database.
+
+---
+
+## Wednesday Sessions
+
+### W01: Running a Successful Web Hosting Company — Slides: [[]PDF](/slides/eu-2000/W01-A.pdf) | [[]PDF](/slides/eu-2000/W01-B.pdf) | [[]PDF](/slides/eu-2000/W01-C.pdf)
+
+*Wed · 09h00 · Classroom 1*  
+**Speaker:** Jim Jagielski
+
+This presentation discusses the extensive opportunities for using Apache as a Web Host. Topics include an overview of configuring Apache for maximum versatility, tech support, automated Web Authoring tools, security, potential reseller programs with developers and marketing initiatives. Attendees will leave the seminar armed with information to help them become more successful Web hosts.
+
+### W02: C++ and Apache using C++ Server — Slides: [[]PDF](/slides/eu-2000/W02.pdf)
+
+*Wed · 09h00 · Classroom 2*  
+**Speaker:** Christian Gross
+
+Are you a C++ developer and wondering how to write Apache modules? Well, read no further because this session is for you. The purpose of this session is to introduce C++ Server, which is a C++ wrapper of the Apache Runtime and Apache modules. Discussed are the details on the why and hows of C++ server. Also discussed are advanced concepts such as threading, multi-processing, security and database connections.
+
+### W03: Managing your Web site with Cocoon — Slides: [[]PDF](/slides/eu-2000/W03.pdf)
+
+*Wed · 09h00 · Auditorium*  
+**Speaker:** Doug Tidwell
+
+Learn how you can use the Apache XML Project's Cocoon (xml.apache.org/cocoon/) to serve complex content to a wide array of devices. We'll discuss a sample Web site in which Cocoon ties everything together. Content is created and managed using XML; retrieved with Cocoon's SQL, XSP, and DSP processors, and formatted with the Apache XSL processor, Xalan. Our demo includes a Web site customization sample in which Cocoon finds the content that appeals to a given user, then transforms the content based on that user's current device. Best of all, Cocoon's intelligent caching facility delivers this custom content with good performance.
+
+### W04: mod_perl Version 2.0 — Slides: [[]PDF](/slides/eu-2000/W04.pdf)
+
+*Wed · 14h00 · Auditorium*  
+**Speaker:** Doug MacEachern
+
+This session will provide an overview of what's new in mod_perl version 2.0-dev and what else is planned for the future. Learn how mod_perl-2.0 has adjusted to Apache 2.0's threaded architecture using new features of Perl version 5.6.0 to provide significant performance and memory-sharing improvements over 1.xx versions. Apache 2.0 has also introduced a number of new APIs and module hooks, this session will discuss where and how mod_perl fits into these new areas of the server.
+
+### W05: mod_websh: A Tcl-based Apache module for rapid application development — Slides: [[]PDF](/slides/eu-2000/W05.pdf)
+
+*Wed · 14h00 · Classroom 1*  
+**Speaker:** Simon Hefti
+
+Webshell is a rapid development framework for building powerful and reliable Web applications. It is a standard Tcl extension and is released as Open Source software. Webshell can be used both as an Apache module for versions 1.3 and 2.0, and as a standalone script interpreter for CGI applications. In addition, Webshell can easily be used for command line and batch processing tasks. At Netcetera, we have been using it for years for virtually all our customer projects, which are typically E-commerce shops or electronic banking applications. Webshell is extensible and portable, and its comprehensive set of commands is easily learned. In this presentation we briefly describe the key features of Webshell, detail it's architecture, and motivate design decisions. Then we demonstrate a sample application based on mod_websh. Finally, we discuss experiences of migrating a module from Apache 1.3 to 2.0. This includes various aspects of Apache's new multi-processing modules including thread-safety of modules. VS06: MyComponents.com: the marketplace for reusable web applications Day: Wed Time: 12h00 Room: Vendor Theatre Session chair: None assigned Duration: 60 minutes Style: Presentation Leve
+
+### W06: Java and XML Parsing Using Standard APIs — Slides: [[]PDF](/slides/eu-2000/W06.pdf)
+
+*Wed · 14h00 · Classroom 2*  
+**Speaker:** Edwin Goei
+
+This session will introduce XML and show how to write Java applications to access XML documents using standard parsing APIs such as SAX, DOM, and JAXP (Java API for XML Parsing). We will first give a quick introduction to XML including concepts such as well-formedness and validation. We will then explore the SAX and DOM APIs along with code samples and example application scenarios.
+
+### W07: Apache/WinNT: Security, security, wherefore art thou, security? — Slides: [[]PDF](/slides/eu-2000/W07.pdf)
+
+*Wed · 16h00 · Classroom 1*  
+**Speaker:** William A Rowe Jr
+
+The Apache world is full of advice for the Unix admistrator, while IIS admins have all sorts of security guidance. Where does the Apache Windows NT administrator turn? This session presents broad guidelines and step by step examples for building a secure installation of Apache 2.0 under Windows NT. The NT security model is contrasted to the Unix model, noting pitfalls and alternatives. DAV, FrontPage Extensions and scripting will be highlighted from a security standpoint.
+
+### W08: WebDAV and Apache — Slides: [[]PDF](/slides/eu-2000/W08-A.pdf) | [[]PDF](/slides/eu-2000/W08-B.pdf)
+
+*Wed · 16h00 · Auditorium*  
+**Speaker:** Greg Stein
+
+WebDAV is an exciting new technology for the World Wide Web. WebDAV stands for Web-Based Distributed Authoring and Versioning, and provides a way to remotely author and manage your Web servers (whether you are an author or an administrator). The WebDAV protocol is specified by RFC 2518 and is now available as an add-on module for the Apache Web server. This talk will present an overview of WebDAV, its benefits for users, and scenarios for effective deployment. The session will then detail how to set up the mod_dav Apache module, and the available tools and applications to use with your new WebDAV-enabled server. In closing, the talk will detail the future directions of the WebDAV protocol and how they will impact the Apache Web server.
+
+### W09: The Backhand Project: load-balancing and monitoring Apache Web clusters — Slides: [[]PDF](/slides/eu-2000/W09.pdf)
+
+*Wed · 16h00 · Classroom 2*  
+**Speaker:** Theo Schlossnagle
+
+This session will begin with a discussion of load-balancing and request distribution techniques that will lead to an introduction to designing scalable Web architectures. The mod_backhand load-balancing module will be presented and a method of handling log files in a safe and efficient manner on large clusters using group communication will be introduced. These new logging facilities will lead to new flexible and extremely powerful monitoring tools. Topics will include: What a scalable Web architecture is; Why high availability and load balancing are different technologies; Tools for high availability (brief description); Tools for load balancing (main focus); Tools for handling distributed logging and monitoring. Good monitoring leads to good performance.
+
+---
+
+## Birds of a Feather
+
+### BOF26: SlashCoders
+
+*Tue · 13h00 · BOF room*
+
+Are you running a SlashCode Web site? Or are you thinking about it? Come meet others who have implemented SlashDot's open-source Website engine and talk about your successes and frustrations! Everyone welcome!
+
+### BOF29: UK Crypto Meeting
+
+*Tue · 15h00 · Vendor Theatre*  
+**Speaker:** Ben Laurie
+
+An ad-hoc meeting of people interested or involved in cryptography in the UK. Should we have regular meetings? If so, how often? What's going on with crypto in the UK, anyway? Come find out -- or tell us!
+
+### BOF31: mod_python
+
+*Tue · 16h00 · Vendor Theatre*  
+**Speaker:** Gregory Trubetskoy
+
+An information introduction and discussion of mod_python, a module that embeds Python within Apache.
+
+### BOF39: Writing Apache 2.0 Filters
+
+*Wed · 10h00 · Vendor Theatre*
+
+A walk-through of writing an Apache 2.0 filter. What's an Apache 2.0 filter? Come find out!
+
+### BOF42: Apache on VMS
+
+*Wed · 12h00*
+
+Compaq have ported Apache to OpenVMS. This BOF would allow a discussion of experiences with this and possible future collaboration. Sessions Here are the details about all of the sessions in the programme that have been finalised. Some sessions may be scheduled but don't appear here yet because their titles or abstracts are being corrected. Sessions by Category Each session may appear in one or more topical categories. Each of the categories is listed below, and under it all of the sessions that are in that category. Note that some sessions may appear in more than one category, such as one that compares Java servlets to PHP, or discusses using XML with Java. Apache
+
+---
+

@@ -1,0 +1,65 @@
+title: ApacheCon Europe 2000 — Presentations
+template: page-event-default
+ref: apachecon-eu-2000
+
+## Presentation Materials
+
+Original presentation files from ApacheCon Europe 2000 speakers. Session codes match the [[]session schedule](sessions).
+
+| Session | Title | Format | Download |
+|---------|-------|--------|----------|
+| KN01-A | Sun and Apache | PDF | [[]KN01-A.pdf](/slides/eu-2000/KN01-A.pdf) |
+| M01 | Apache projects overview | PDF | [[]M01.pdf](/slides/eu-2000/M01.pdf) |
+| M02-A | Developing Dynamic Web Sites with JavaServer Pages | PDF | [[]M02-A.pdf](/slides/eu-2000/M02-A.pdf) |
+| M02-B | Developing Dynamic Web Sites with JavaServer Pages | PDF | [[]M02-B.pdf](/slides/eu-2000/M02-B.pdf) |
+| M03 | Toward the Semantic Web: a view of XML from outer space | PDF | [[]M03.pdf](/slides/eu-2000/M03.pdf) |
+| M04-A | Apache 2.0 | PDF | [[]M04-A.pdf](/slides/eu-2000/M04-A.pdf) |
+| M04-B | Apache 2.0 | HTML | [[]Apache-2.0.htm](/slides/eu-2000/M04-B/Apache-2.0.htm) |
+| M05 | Apache on Windows | PDF | [[]M05.pdf](/slides/eu-2000/M05.pdf) |
+| M06 | XML and Database Integration | PDF | [[]M06.pdf](/slides/eu-2000/M06.pdf) |
+| M07 | Apache 2.0 for Windows | PDF | [[]M07.pdf](/slides/eu-2000/M07.pdf) |
+| M08 | A scalable teaching and learning delivery environment built on Apache | PDF | [[]M08.pdf](/slides/eu-2000/M08.pdf) |
+| M09 | Using Apache Jetspeed to build dynamic, content driven Portals | PDF | [[]M09.pdf](/slides/eu-2000/M09.pdf) |
+| M10-A | Writing Apache Modules for 2.0 | PDF | [[]M10-A.pdf](/slides/eu-2000/M10-A.pdf) |
+| M10-B | Writing Apache Modules for 2.0 | HTML | [[]modules.htm](/slides/eu-2000/M10-B/modules.htm) |
+| M11 | Apache in the real world - beating the inhouse bias | PDF | [[]M11.pdf](/slides/eu-2000/M11.pdf) |
+| x-M12 | HTTP and Apache | PDF | [[]x-M12.pdf](/slides/eu-2000/x-M12.pdf) |
+| M13 | Introduction to the Apache Server | PDF | [[]M13.pdf](/slides/eu-2000/M13.pdf) |
+| M13 | Introduction to the Apache Server | RTF | [[]M13.rtf](/slides/eu-2000/M13.rtf) |
+| M14-A | Comanche, a GUI configuration tool for Apache | PDF | [[]M14-A.pdf](/slides/eu-2000/M14-A.pdf) |
+| M14-B | Comanche, a GUI configuration tool for Apache | PDF | [[]M14-B.pdf](/slides/eu-2000/M14-B.pdf) |
+| M15 | AxKit - an XML Delivery Toolkit for Apache | PDF | [[]M15.pdf](/slides/eu-2000/M15.pdf) |
+| M16 | Introduction to PHP | PDF | [[]M16.pdf](/slides/eu-2000/M16.pdf) |
+| M17-A | Transparent Content Negotiation | PDF | [[]M17-A.pdf](/slides/eu-2000/M17-A.pdf) |
+| M17-B | Transparent Content Negotiation | PDF | [[]M17-B.pdf](/slides/eu-2000/M17-B.pdf) |
+| M18 | Extending PHP 4 | PDF | [[]M18.pdf](/slides/eu-2000/M18.pdf) |
+| M19 | Advanced PHP: Web Applications - Sessions and Authentication | PDF | [[]M19.pdf](/slides/eu-2000/M19.pdf) |
+| M20 |  | PDF | [[]M20.pdf](/slides/eu-2000/M20.pdf) |
+| x-M20 |  | PDF | [[]x-M20.pdf](/slides/eu-2000/x-M20.pdf) |
+| M21 | Security Solutions with SSL | PDF | [[]M21.pdf](/slides/eu-2000/M21.pdf) |
+| x-MTW1-A |  | PDF | [[]x-MTW1-A.pdf](/slides/eu-2000/x-MTW1-A.pdf) |
+| x-MTW1-B |  | PDF | [[]x-MTW1-B.pdf](/slides/eu-2000/x-MTW1-B.pdf) |
+| x-MTW2 |  | PDF | [[]x-MTW2.pdf](/slides/eu-2000/x-MTW2.pdf) |
+| T01 | mod_snake: Flexible Apache modules in Python | PDF | [[]T01.pdf](/slides/eu-2000/T01.pdf) |
+| T03 | Securing Java Application Servers | PDF | [[]T03.pdf](/slides/eu-2000/T03.pdf) |
+| T04 | PHP from an IT Manager's Perspective | PDF | [[]T04.pdf](/slides/eu-2000/T04.pdf) |
+| T05 | Building visually-consistent, multilingual Web sites with Apache and mod_perl | PDF | [[]T05.pdf](/slides/eu-2000/T05.pdf) |
+| T06 | Migrating Apache JServ Applications to Tomcat | PDF | [[]T06.pdf](/slides/eu-2000/T06.pdf) |
+| T07 | PHP: Hackers Paradise | PDF | [[]T07.pdf](/slides/eu-2000/T07.pdf) |
+| T08 | Getting Started with mod_perl | PDF | [[]T08.pdf](/slides/eu-2000/T08.pdf) |
+| T09 | Advanced Tomcat Configuration and Performance Tuning | PDF | [[]T09.pdf](/slides/eu-2000/T09.pdf) |
+| T10 | Design Patterns in Web Programming | PDF | [[]T10.pdf](/slides/eu-2000/T10.pdf) |
+| T11 | Improving script and handler performance under mod_perl | PDF | [[]T11.pdf](/slides/eu-2000/T11.pdf) |
+| T12 | Turbine: Building Model 2+1 Web Applications | PDF | [[]T12.pdf](/slides/eu-2000/T12.pdf) |
+| W01-A | Running a Successful Web Hosting Company | PDF | [[]W01-A.pdf](/slides/eu-2000/W01-A.pdf) |
+| W01-B | Running a Successful Web Hosting Company | PDF | [[]W01-B.pdf](/slides/eu-2000/W01-B.pdf) |
+| W01-C | Running a Successful Web Hosting Company | PDF | [[]W01-C.pdf](/slides/eu-2000/W01-C.pdf) |
+| W02 | C++ and Apache using C++ Server | PDF | [[]W02.pdf](/slides/eu-2000/W02.pdf) |
+| W03 | Managing your Web site with Cocoon | PDF | [[]W03.pdf](/slides/eu-2000/W03.pdf) |
+| W04 | mod_perl Version 2.0 | PDF | [[]W04.pdf](/slides/eu-2000/W04.pdf) |
+| W05 | mod_websh: A Tcl-based Apache module for rapid application development | PDF | [[]W05.pdf](/slides/eu-2000/W05.pdf) |
+| W06 | Java and XML Parsing Using Standard APIs | PDF | [[]W06.pdf](/slides/eu-2000/W06.pdf) |
+| W07 | Apache/WinNT: Security, security, wherefore art thou, security? | PDF | [[]W07.pdf](/slides/eu-2000/W07.pdf) |
+| W08-A | WebDAV and Apache | PDF | [[]W08-A.pdf](/slides/eu-2000/W08-A.pdf) |
+| W08-B | WebDAV and Apache | PDF | [[]W08-B.pdf](/slides/eu-2000/W08-B.pdf) |
+| W09 | The Backhand Project: load-balancing and monitoring Apache Web clusters | PDF | [[]W09.pdf](/slides/eu-2000/W09.pdf) |
