@@ -44,23 +44,30 @@
     <script src="/js/init.js"></script>
 </head>
 <body {% if page.bodytag %} {{ page.bodytag }}{% endif %} {% if page.ref %} class="body-{{ page.ref }}"{% endif %} >
-    <header id="header-main">
+    {# Check to see if the current page is an event and has a custom navigation. If so, we apply the custom nav instead of the default site nav #}
+    {% set current_event = page.events | selectattr('ref', 'equalto', page.ref) | first if page.ref else none %}
+    {#  If the current event is not found in the upcoming events, check the archived events  #}
+    {% if not current_event and page.archived_events %}
+        {% set current_event = page.archived_events | selectattr('ref', 'equalto', page.ref) | first if page.ref else none %}
+    {% endif %}
+    <header id="header-main"{% if current_event and current_event.nav %} class="has-event-nav"{% endif %}>
         <div class="top-nav">
             <div class="inner relative z1 flex flex-space-between flex-vert-center">
                <a href="/" class="logo">
-                   <img src="/images/CommunityOverCode_Logo_horizontal-color.svg" alt="ASF Events">
+                   <img src="/images/CommunityOverCode_Logo_horizontal-color.svg" alt="Community Over Code – home">
                </a>
-               <div id="nav-toggle" class="nav-toggle hidden">
+               <button id="nav-toggle" class="nav-toggle hidden" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav">
                    <span id="nav-top"></span>
                    <span id="nav-mid"></span>
                    <span id="nav-btm"></span>
-               </div>
+               </button>
                {% include "nav-default.html" %}
             </div>
         </div>
         {% if current_event and current_event.nav %}
         <div class="lower-nav">
-            <div class="inner flex flex-end">
+            <div class="inner flex flex-space-between flex-vert-center">
+                {% if current_event.location %}<a class="event-nav-location" href="{{current_event.url}}">{{ current_event.location }}{% if current_event.year %} - {{ current_event.year }}{% endif %}</a>{% endif %}
                 {% include current_event.nav %}
             </div>
         </div>
