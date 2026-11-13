@@ -1,10 +1,28 @@
-<nav>
-    <ul class="flex">
-        <li><a href="/about/">About</a></li>
-        <li><a href="/sponsorship">Sponsorship</a></li>
-        <li><a href="/events">Upcoming Events</a></li>
-        <li><a href="/events#past-events">Past Events</a></li>
-        <li><a href="https://news.apache.org/foundation/entry/category/events" target="_blank">Blog</a></li>
-        <li><a href="https://apache.org/">The ASF</a></li>
-    </ul>
-</nav>
+<div class="nav-wrapper" id="site-nav">
+    <nav aria-label="Main">
+        <ul class="flex">
+            <li><a href="/about/">About</a></li>
+            <li><a href="/sponsorship">Sponsorship</a></li>
+            <li class="has-sub-menu">
+                <a href="/events">Events</a>
+                <ul class="sub-menu">
+                    <li class="sub-menu-item"><a href="/events">Upcoming Events</a></li>
+                    <li class="sub-menu-item"><a href="/events#past-events">Past Events</a></li>
+                </ul>
+            </li>
+            <li><a href="https://news.apache.org/foundation/entry/category/events" target="_blank" rel="noopener">Blog</a></li>
+            <li><a href="https://apache.org/" target="_blank" rel="noopener">The ASF</a></li>
+        </ul>
+        {# Check to see if the current page is an event and has a custom navigation. If so, show it in the mobile drawer #}
+        {% set current_event = page.events | selectattr('ref', 'equalto', page.ref) | first if page.ref else none %}
+        {% if not current_event and page.archived_events %}
+            {% set current_event = page.archived_events | selectattr('ref', 'equalto', page.ref) | first if page.ref else none %}
+        {% endif %}
+        {% if current_event and current_event.nav %}
+        <div class="mobile-sub-nav hidden">
+            <div class="event-nav-title">{{ current_event.name }}</div>
+            {% include current_event.nav %}
+        </div>
+        {% endif %}
+    </nav>
+</div>
