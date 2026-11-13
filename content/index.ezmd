@@ -12,8 +12,8 @@ template: page-full-width
             <p>Annual conference series for developers, users, contributors, and committers working on ASF open source projects.</p>
         </div>
         <div class="hero_events flex-1">
-            <h2 class="text-center">Upcoming Events</h2>
             [if-any events]<div class="events-list flex flex-column flex-gap-20">
+                <h2 class="text-center">Upcoming Events</h2>
                     [for events]<div class="card">
                         <div class="card-inner flex flex-gap-20">
                             <div class="event-card__image">
@@ -28,8 +28,24 @@ template: page-full-width
                         </div>
                     </div>[end]
                 </div>
-            [else]<p class="text-center text-white"><strong>No upcoming events at this time.</strong></p>
-            [end]<div class="text-center mt-medium">
+            [else][if-any archived_events]<div class="events-list flex flex-column flex-gap-20">
+                    <!-- archived_events is sorted newest first; only the first 3 (index 0-2) are shown. -->
+                    <h2 class="text-center">Recent Events</h2>
+                    [for archived_events][define past_card]<div class="card">
+                        <div class="card-inner flex flex-gap-20">
+                            <div class="event-card__image">
+                                <!-- the following can have no spaces or it will fail. -->
+                                [if-any archived_events.image]<img src="[archived_events.image]" alt="[archived_events.name]">[else]<img width="100" height="100" src="/images/events/event-card-default.jpg" alt="Community Over Code">[end]
+                            </div>
+                            <div class="event-card__content">
+                                <div class="event-card__date">[archived_events.displayDate]</div>
+                                <h4>[archived_events.name]</h4>
+                                <div class="card-links">[if-any archived_events.href]<a href="[archived_events.href]">See Event</a>[end]</div>
+                            </div>
+                        </div>
+                    </div>[end][if-index archived_events 0][format "raw"][past_card][end][else][if-index archived_events 1][format "raw"][past_card][end][else][if-index archived_events 2][format "raw"][past_card][end][end][end][end][end]
+                </div>
+            [end][end]<div class="text-center mt-medium">
                 <a class="btn" href="/events">View All Events</a>
             </div>
         </div>

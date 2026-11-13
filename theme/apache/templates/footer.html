@@ -28,8 +28,15 @@
                     </nav>
                 </div>
                 <div class="flex flex-column flex-gap-20 footer-events flex-1">
-                    <h2 class="text-heading-light text-center-800">ASF Events</h2>
-                    {% for item in page.events %}
+                    {# Show upcoming events; if there are none, fall back to the 3 most recent past events (archived_events is sorted newest first) #}
+                    {% if page.events %}
+                        {% set footer_events = page.events %}
+                        <h2 class="text-heading-light text-center-800">ASF Events</h2>
+                    {% else %}
+                        {% set footer_events = (page.archived_events or [])[:3] %}
+                        <h2 class="text-heading-light text-center-800">Recent Events</h2>
+                    {% endif %}
+                    {% for item in footer_events %}
                         <div class="card card--footer">
                             <a href="{{ item.href }}">
                                 <div class="card-inner flex flex-column">
