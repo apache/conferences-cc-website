@@ -11,6 +11,9 @@ on:
       - 'pelicanconf.py'
       - 'data/events.yaml'
       - '.asf.yaml'
+  # Rebuild daily so upcoming/archived events update as dates pass
+  schedule:
+    - cron: '7 0 * * *'  # 00:07 UTC (GMT) every day; off the hour to avoid GitHub's peak scheduling delays
   workflow_dispatch:
 jobs:
   build-pelican:
