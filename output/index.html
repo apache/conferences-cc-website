@@ -78,7 +78,8 @@
 </div>
 <div class="hero_events flex-1">
 <div class="events-list flex flex-column flex-gap-20">
-<h2 class="text-center">Upcoming Events</h2>
+<!-- archived_events is sorted newest first; only the first 3 (index 0-2) are shown. -->
+<h2 class="text-center">Recent Events</h2>
 <div class="card">
 <div class="card-inner flex flex-gap-20">
 <div class="event-card__image">
@@ -88,7 +89,31 @@
 <div class="event-card__content">
 <div class="event-card__date">November 18-19, 2026</div>
 <h4>Community Over Code Sydney 2026</h4>
-<div class="card-links"><a href="/events/sydney-2026">See Event</a> | <a href="/events/sydney-2026">Register</a></div>
+<div class="card-links"><a href="/events/sydney-2026">See Event</a></div>
+</div>
+</div>
+</div><div class="card">
+<div class="card-inner flex flex-gap-20">
+<div class="event-card__image">
+<!-- the following can have no spaces or it will fail. -->
+<img alt="Community Over Code Glasgow 2026" src="/images/events/event-hero-glasgow.webp"/>
+</div>
+<div class="event-card__content">
+<div class="event-card__date">October 11-14, 2026</div>
+<h4>Community Over Code Glasgow 2026</h4>
+<div class="card-links"><a href="/events/glasgow-2026">See Event</a></div>
+</div>
+</div>
+</div><div class="card">
+<div class="card-inner flex flex-gap-20">
+<div class="event-card__image">
+<!-- the following can have no spaces or it will fail. -->
+<img alt="Community Over Code Beijing 2026" src="/images/events/2026-banner-bg-v1.jpg"/>
+</div>
+<div class="event-card__content">
+<div class="event-card__date">August 7-9, 2026</div>
+<h4>Community Over Code Beijing 2026</h4>
+<div class="card-links"><a href="/events/asia-2026">See Event</a></div>
 </div>
 </div>
 </div>
@@ -205,6 +230,12 @@
 <div class="news-cards flex flex-column flex-gap-20">
 <div class="card">
 <div class="card-inner flex flex-column">
+<div class="event-card__date">November 17, 2026</div>
+<h4>Community Over Code Glasgow 2026 Recap: The State of the ASF</h4>
+<a href="https://news.apache.org/?p=8040" target="_blank">Read More</a>
+</div>
+</div><div class="card">
+<div class="card-inner flex flex-column">
 <div class="event-card__date">October 6, 2026</div>
 <h4>What the ASF Responsible AI Initiative Has Built So Far</h4>
 <a href="https://news.apache.org/?p=7978" target="_blank">Read More</a>
@@ -214,12 +245,6 @@
 <div class="event-card__date">September 1, 2026</div>
 <h4>The Apache&reg; Software Foundation Announces Keynote Speakers for Community Over Code Glasgow 2026</h4>
 <a href="https://news.apache.org/?p=7939" target="_blank">Read More</a>
-</div>
-</div><div class="card">
-<div class="card-inner flex flex-column">
-<div class="event-card__date">July 16, 2026</div>
-<h4>Beyond the Hardware Hub: How ALC Taipei Turned Computex 2026 into a Milestone for the Apache Way</h4>
-<a href="https://news.apache.org/?p=7763" target="_blank">Read More</a>
 </div>
 </div>
 </div>
@@ -268,12 +293,28 @@
                     </nav>
                 </div>
                 <div class="flex flex-column flex-gap-20 footer-events flex-1">
-                        <h2 class="text-heading-light text-center-800">ASF Events</h2>
+                        <h2 class="text-heading-light text-center-800">Recent Events</h2>
                         <div class="card card--footer">
                             <a href="/events/sydney-2026">
                                 <div class="card-inner flex flex-column">
                                     <div class="event-card__date">November 18-19, 2026</div>
                                     <h4>Community Over Code Sydney 2026</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card card--footer">
+                            <a href="/events/glasgow-2026">
+                                <div class="card-inner flex flex-column">
+                                    <div class="event-card__date">October 11-14, 2026</div>
+                                    <h4>Community Over Code Glasgow 2026</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card card--footer">
+                            <a href="/events/asia-2026">
+                                <div class="card-inner flex flex-column">
+                                    <div class="event-card__date">August 7-9, 2026</div>
+                                    <h4>Community Over Code Beijing 2026</h4>
                                 </div>
                             </a>
                         </div>
